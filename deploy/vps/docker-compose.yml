@@ -31,6 +31,8 @@ services:
       Smtp__EnableSsl: "false"
       Smtp__FromAddress: nao-responda@aamora.com.br
       Smtp__FromName: Rumo
+      # Contagem de visitas (Umami em /opt/stats). O Nginx insere o script; aqui só libera a origem na CSP.
+      Analytics__Origin: https://stats.aamora.com.br
     networks:
       # gw_priority: a rede do rumo é a principal. Sem isso o Docker publica a porta pela rede "mail",
       # o Nginx chega pelo gateway 172.30.9.1, o app não confia nele e redireciona para http://.

@@ -89,6 +89,7 @@ Use variáveis de ambiente (o `__` separa as seções):
 | `Privacy__ControllerName`, `Privacy__ContactEmail` | Quem responde pelos dados desta instalação e o e-mail para pedidos de titulares (LGPD), mostrados na política de privacidade |
 | `RateLimit__AccountPostsPerMinute` | Envios de formulários de conta por IP por minuto (padrão 10) |
 | `DataProtection__KeysPath` | Pasta das chaves de login. Num container, precisa ser um volume para ninguém perder a sessão a cada deploy |
+| `Analytics__Origin` | Origem do serviço de contagem de visitas (ex.: `https://stats.aamora.com.br`, um Umami). Libera essa origem na CSP e conta, na política de privacidade, que existe contagem anônima. O script é inserido pelo proxy reverso |
 
 Sem SMTP, a aplicação sobe fora de desenvolvimento, mas não envia e-mail nem mostra o link de confirmação na tela. Mostrar o link deixaria qualquer um confirmar um endereço `.edu` que não é seu. Até o SMTP ser configurado, ninguém confirma conta nova, e o log avisa a cada e-mail não enviado.
 

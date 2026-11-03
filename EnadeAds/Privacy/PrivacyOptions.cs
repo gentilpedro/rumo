@@ -5,7 +5,7 @@ public sealed class PrivacyOptions
     public const string SectionName = "Privacy";
 
     /// <summary>Versão dos termos e da política. Mudou o texto, muda a versão (o aceite guardado indica qual foi lido).</summary>
-    public const string TermsVersion = "2026-10-30";
+    public const string TermsVersion = "2026-11-03";
 
     /// <summary>Quem responde pelos dados nesta instalação (o projeto é aberto: cada instalação tem o seu responsável).</summary>
     public string ControllerName { get; set; } = "";
