@@ -1,9 +1,11 @@
 @page "/privacidade"
 
 @using EnadeAds.Privacy
+@using EnadeAds.Security
 @using Microsoft.Extensions.Options
 
 @inject IOptions<PrivacyOptions> Options
+@inject IOptions<AnalyticsOptions> Analytics
 
 <PageTitle>Política de privacidade</PageTitle>
 
@@ -28,6 +30,10 @@
         <li><strong>Estudo:</strong> o que você marca no roadmap, as respostas às questões, simulados e desafios, e as respostas discursivas.</li>
         <li><strong>Comunidade:</strong> os posts e comentários que você publica, seus votos e suas denúncias.</li>
         <li><strong>Segurança:</strong> registros técnicos de acesso (data, endereço IP e página), usados para investigar erros e ataques.</li>
+        @if (CountsVisits)
+        {
+            <li><strong>Contagem de visitas:</strong> quantas pessoas visitam cada página, de que tipo de aparelho e navegador, de que país e de qual site vieram. É anônima: não usa cookies, não guarda o endereço IP e não se liga à sua conta. Os números ficam num serviço da própria instalação (Umami), sem passar por empresas de publicidade.</li>
+        }
     </ul>
     <p>Não usamos cookies de propaganda nem de rastreamento. Os únicos cookies são os de login, os de proteção dos formulários e o que lembra a prova escolhida.</p>
 
@@ -35,6 +41,10 @@
     <ul>
         <li><strong>Prestar o serviço que você pediu</strong> (conta, progresso, correção de questões, painel de desempenho): execução do serviço solicitado por você (art. 7º, V, da LGPD).</li>
         <li><strong>Manter a plataforma segura</strong> (registros de acesso, limite de tentativas, bloqueio por senha errada): legítimo interesse (art. 7º, IX).</li>
+        @if (CountsVisits)
+        {
+            <li><strong>Saber como a plataforma é usada</strong> (contagem anônima de visitas), para decidir o que melhorar: legítimo interesse (art. 7º, IX).</li>
+        }
         <li><strong>Enviar e-mails da conta</strong> (confirmação de cadastro e redefinição de senha). Não enviamos propaganda.</li>
     </ul>
 
@@ -89,6 +99,8 @@
     private static readonly DateOnly Version = DateOnly.ParseExact(PrivacyOptions.TermsVersion, "yyyy-MM-dd");
 
     private string Controller => string.IsNullOrWhiteSpace(Options.Value.ControllerName) ? "a equipe que mantém esta instalação" : Options.Value.ControllerName;
+
+    private bool CountsVisits => Analytics.Value.ValidOrigin is not null;
 
     private string Contact => string.IsNullOrWhiteSpace(Options.Value.ContactEmail) ? "o administrador da plataforma" : Options.Value.ContactEmail;
 }

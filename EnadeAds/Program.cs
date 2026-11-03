@@ -129,6 +129,7 @@ try
 
     builder.Services.AddScoped<PersonalDataExport>();
     builder.Services.Configure<PrivacyOptions>(builder.Configuration.GetSection(PrivacyOptions.SectionName));
+    builder.Services.Configure<AnalyticsOptions>(builder.Configuration.GetSection(AnalyticsOptions.SectionName));
 
     builder.Services.Configure<AdminOptions>(builder.Configuration.GetSection(AdminOptions.SectionName));
     builder.Services.Configure<SmtpOptions>(builder.Configuration.GetSection(SmtpOptions.SectionName));
@@ -155,7 +156,8 @@ try
     await DatabaseInitializer.InitializeAsync(app.Services);
 
     app.UseForwardedHeaders();
-    app.UseSecurityHeaders();
+    var analytics = builder.Configuration.GetSection(AnalyticsOptions.SectionName).Get<AnalyticsOptions>() ?? new AnalyticsOptions();
+    app.UseSecurityHeaders(analytics.ValidOrigin);
 
     // Configure the HTTP request pipeline.
     if (app.Environment.IsDevelopment())
