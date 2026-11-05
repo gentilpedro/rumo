@@ -12,6 +12,8 @@
 
 @inject PerformanceService Performance
 @inject AchievementService Achievements
+@inject WeeklySummaryService Weekly
+@inject NavigationManager Navigation
 @inject LocalCalendar Calendar
 @inject UserManager<ApplicationUser> Users
 
@@ -71,6 +73,42 @@
                 }
             </ul>
         </div>
+    </section>
+}
+
+@if (week is not null && lastWeek is not null)
+{
+    <section class="week-summary mb-4" aria-labelledby="week-title">
+        <div class="d-flex flex-wrap justify-content-between align-items-baseline gap-2">
+            <h2 id="week-title" class="h5 mb-0">Sua semana · @week.Monday.ToString("dd/MM")–@week.Sunday.ToString("dd/MM")</h2>
+            <a class="btn btn-sm btn-success" href="@ShareUrl" target="_blank" rel="noopener">Compartilhar no WhatsApp</a>
+        </div>
+        <dl class="week-numbers">
+            <div>
+                <dt>Questões</dt>
+                <dd class="font-monospace">@week.Answered</dd>
+                <dd class="week-compare">@Compare(week.Answered, lastWeek.Answered)</dd>
+            </div>
+            <div>
+                <dt>Acerto</dt>
+                <dd class="font-monospace">@(week.Answered == 0 ? "—" : $"{week.Percent}%")</dd>
+                <dd class="week-compare">@week.Correct @(week.Correct == 1 ? "certa" : "certas")</dd>
+            </div>
+            <div>
+                <dt>Dias estudando</dt>
+                <dd class="font-monospace">@week.DaysStudied<span class="week-of">/7</span></dd>
+                <dd class="week-compare">@Compare(week.DaysStudied, lastWeek.DaysStudied)</dd>
+            </div>
+            <div>
+                <dt>Duelos</dt>
+                <dd class="font-monospace">@week.Duels</dd>
+                <dd class="week-compare">@Compare(week.Duels, lastWeek.Duels)</dd>
+            </div>
+        </dl>
+        @if (week.BestSubject is not null)
+        {
+            <p class="small mb-0">Matéria em que mais acertou: <strong>@week.BestSubject</strong></p>
+        }
     </section>
 }
 
@@ -233,6 +271,20 @@
 @code {
     private PerformanceReport? report;
     private XpReport? xp;
+    private WeekSummary? week;
+    private WeekSummary? lastWeek;
+
+    /// <summary>Texto pronto com os números da semana: quem compartilha decide, e só os números vão.</summary>
+    private string ShareUrl => "https://wa.me/?text=" + Uri.EscapeDataString(
+        $"Minha semana no Rumo: {week?.Answered} questões, {week?.Percent}% de acerto e {week?.DaysStudied} dias estudando"
+        + (xp is null ? "" : $", nível {xp.Level.Number} ({xp.Level.Title})") + $". Bora estudar junto? {Navigation.BaseUri}");
+
+    private static string Compare(int now, int before) => (now - before) switch
+    {
+        > 0 and var diff => $"+{diff} que na semana passada",
+        < 0 and var diff => $"{diff} que na semana passada",
+        _ => "igual à semana passada",
+    };
 
     [SupplyParameterFromForm(FormName = "daily-goal")]
     private int? DailyGoal { get; set; }
@@ -245,6 +297,7 @@
         var userId = Users.GetUserId(HttpContext.User)!;
         report = await Performance.GetAsync(userId);
         xp = await Achievements.GetAsync(userId);
+        (week, lastWeek) = await Weekly.GetAsync(userId);
     }
 
     private async Task SetGoalAsync()

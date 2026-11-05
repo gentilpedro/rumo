@@ -1354,3 +1354,45 @@ a.tag-discussion:not(.btn) {
 .goal-done {
     color: var(--you);
 }
+
+/* Resumo da semana em Meu desempenho: quatro números grandes e a comparação com a semana anterior. */
+.week-summary {
+    padding: 1rem 1.25rem;
+    border: 1px solid var(--rule);
+    border-top: 4px solid var(--you);
+    border-radius: 0.5rem;
+}
+
+.week-numbers {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(8rem, 1fr));
+    gap: 1rem;
+    margin: 1rem 0 0.75rem;
+}
+
+.week-numbers dt {
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    color: var(--muted);
+}
+
+.week-numbers dd {
+    margin: 0;
+}
+
+.week-numbers .font-monospace {
+    font-size: 1.75rem;
+    font-weight: 700;
+}
+
+.week-of {
+    font-size: 1rem;
+    color: var(--muted);
+}
+
+.week-compare {
+    font-size: 0.75rem;
+    color: var(--muted);
+}
