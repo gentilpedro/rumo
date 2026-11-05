@@ -1,3 +1,4 @@
+using EnadeAds.Achievements;
 using EnadeAds.Data;
 using EnadeAds.Study;
 using Microsoft.EntityFrameworkCore;
@@ -18,7 +19,24 @@ public sealed record QuestionSummary(int Id, QuestionKind Kind, string Excerpt, 
 
 public sealed record QuestionPage(IReadOnlyList<QuestionSummary> Items, int Page, int TotalPages, int TotalCount);
 
-public sealed record AnswerResult(QuestionAttempt Attempt, QuestionOption Chosen);
+/// <param name="XpGained">XP que esta resposta rendeu: só a primeira resposta e o primeiro acerto valem.</param>
+/// <summary>
+/// Como a turma foi numa questão: pessoas que responderam e quantas acertaram de primeira (fora dos desafios).
+/// Só aparece a partir de <see cref="MinimumPeople"/> pessoas, para não dar para saber como um colega específico foi.
+/// </summary>
+public sealed record CommunityScore(int Answered, int Correct)
+{
+    public const int MinimumPeople = 3;
+    public const int TrickyBelowPercent = 40;
+
+    public bool IsVisible => Answered >= MinimumPeople;
+    public int Percent => Answered == 0 ? 0 : (int)Math.Round(100.0 * Correct / Answered);
+
+    /// <summary>Questão em que a maioria erra de primeira.</summary>
+    public bool IsTricky => IsVisible && Percent < TrickyBelowPercent;
+}
+
+public sealed record AnswerResult(QuestionAttempt Attempt, QuestionOption Chosen, int XpGained = 0);
 
 public sealed class QuestionBank(ApplicationDbContext db, TimeProvider clock)
 {
@@ -88,6 +106,13 @@ public sealed class QuestionBank(ApplicationDbContext db, TimeProvider clock)
             return null;
         }
 
+        // Fora dos desafios, como no cálculo do XP (AchievementService).
+        var before = await db.QuestionAttempts.AsNoTracking()
+            .Where(a => a.UserId == userId && a.QuestionId == questionId)
+            .Select(a => new { a.IsCorrect, a.ChallengeId })
+            .ToListAsync(cancellationToken);
+        var xp = XpRules.ForAnswer(before.Count > 0, before.Any(a => a.IsCorrect && a.ChallengeId == null), option.IsCorrect);
+
         var attempt = new QuestionAttempt
         {
             QuestionId = questionId,
@@ -99,7 +124,27 @@ public sealed class QuestionBank(ApplicationDbContext db, TimeProvider clock)
         db.QuestionAttempts.Add(attempt);
         await db.SaveChangesAsync(cancellationToken);
 
-        return new AnswerResult(attempt, option);
+        return new AnswerResult(attempt, option, xp);
+    }
+
+    /// <summary>Como a turma foi na questão, contando a primeira resposta de cada pessoa no período (sem período: desde sempre).</summary>
+    public async Task<CommunityScore> CommunityAsync(int questionId, DateTimeOffset? from = null, DateTimeOffset? until = null,
+        CancellationToken cancellationToken = default)
+    {
+        var query = db.QuestionAttempts.AsNoTracking().Where(a => a.QuestionId == questionId && a.ChallengeId == null);
+        if (from is not null)
+        {
+            query = query.Where(a => a.AnsweredAt >= from);
+        }
+
+        if (until is not null)
+        {
+            query = query.Where(a => a.AnsweredAt < until);
+        }
+
+        var attempts = await query.Select(a => new { a.Id, a.UserId, a.IsCorrect }).ToListAsync(cancellationToken);
+        var first = attempts.GroupBy(a => a.UserId).Select(g => g.MinBy(a => a.Id)!).ToList();
+        return new CommunityScore(first.Count, first.Count(a => a.IsCorrect));
     }
 
     public Task<DiscursiveAnswer?> LatestDiscursiveAnswerAsync(string userId, int questionId, CancellationToken cancellationToken = default) =>

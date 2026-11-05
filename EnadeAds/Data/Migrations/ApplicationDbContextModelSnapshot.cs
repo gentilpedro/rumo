@@ -293,6 +293,24 @@ namespace EnadeAds.Data.Migrations
                     b.ToTable("ChallengeSubmissions");
                 });
 
+            modelBuilder.Entity("EnadeAds.Daily.DailyQuestion", b =>
+                {
+                    b.Property<int>("TrackId")
+                        .HasColumnType("integer");
+
+                    b.Property<DateOnly>("Date")
+                        .HasColumnType("date");
+
+                    b.Property<int>("QuestionId")
+                        .HasColumnType("integer");
+
+                    b.HasKey("TrackId", "Date");
+
+                    b.HasIndex("QuestionId");
+
+                    b.ToTable("DailyQuestions");
+                });
+
             modelBuilder.Entity("EnadeAds.Data.ApplicationUser", b =>
                 {
                     b.Property<string>("Id")
@@ -304,6 +322,11 @@ namespace EnadeAds.Data.Migrations
                     b.Property<string>("ConcurrencyStamp")
                         .IsConcurrencyToken()
                         .HasColumnType("text");
+
+                    b.Property<int>("DailyGoal")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer")
+                        .HasDefaultValue(10);
 
                     b.Property<string>("Email")
                         .HasMaxLength(256)
@@ -373,6 +396,106 @@ namespace EnadeAds.Data.Migrations
                         .HasDatabaseName("UserNameIndex");
 
                     b.ToTable("AspNetUsers", (string)null);
+                });
+
+            modelBuilder.Entity("EnadeAds.Duels.Duel", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer");
+
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Code")
+                        .IsRequired()
+                        .HasMaxLength(8)
+                        .HasColumnType("character varying(8)");
+
+                    b.Property<DateTimeOffset>("CreatedAt")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<string>("CreatorId")
+                        .HasColumnType("text");
+
+                    b.Property<int>("TrackId")
+                        .HasColumnType("integer");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("Code")
+                        .IsUnique();
+
+                    b.HasIndex("CreatorId");
+
+                    b.HasIndex("TrackId");
+
+                    b.ToTable("Duels");
+                });
+
+            modelBuilder.Entity("EnadeAds.Duels.DuelAnswer", b =>
+                {
+                    b.Property<int>("DuelId")
+                        .HasColumnType("integer");
+
+                    b.Property<string>("UserId")
+                        .HasColumnType("text");
+
+                    b.Property<int>("QuestionId")
+                        .HasColumnType("integer");
+
+                    b.Property<bool>("IsCorrect")
+                        .HasColumnType("boolean");
+
+                    b.Property<int>("OptionId")
+                        .HasColumnType("integer");
+
+                    b.HasKey("DuelId", "UserId", "QuestionId");
+
+                    b.HasIndex("OptionId");
+
+                    b.ToTable("DuelAnswers");
+                });
+
+            modelBuilder.Entity("EnadeAds.Duels.DuelPlayer", b =>
+                {
+                    b.Property<int>("DuelId")
+                        .HasColumnType("integer");
+
+                    b.Property<string>("UserId")
+                        .HasColumnType("text");
+
+                    b.Property<int?>("CorrectCount")
+                        .HasColumnType("integer");
+
+                    b.Property<DateTimeOffset?>("FinishedAt")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<DateTimeOffset>("StartedAt")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.HasKey("DuelId", "UserId");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("DuelPlayers");
+                });
+
+            modelBuilder.Entity("EnadeAds.Duels.DuelQuestion", b =>
+                {
+                    b.Property<int>("DuelId")
+                        .HasColumnType("integer");
+
+                    b.Property<int>("QuestionId")
+                        .HasColumnType("integer");
+
+                    b.Property<int>("Order")
+                        .HasColumnType("integer");
+
+                    b.HasKey("DuelId", "QuestionId");
+
+                    b.HasIndex("QuestionId");
+
+                    b.ToTable("DuelQuestions");
                 });
 
             modelBuilder.Entity("EnadeAds.MockExams.MockExam", b =>
@@ -5334,6 +5457,50 @@ namespace EnadeAds.Data.Migrations
                         });
                 });
 
+            modelBuilder.Entity("EnadeAds.Survival.SurvivalRun", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer");
+
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
+
+                    b.Property<DateTimeOffset?>("EndedAt")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<int>("Lives")
+                        .HasColumnType("integer");
+
+                    b.Property<int>("Position")
+                        .HasColumnType("integer");
+
+                    b.Property<string>("Queue")
+                        .IsRequired()
+                        .HasMaxLength(20000)
+                        .HasColumnType("character varying(20000)");
+
+                    b.Property<int>("Score")
+                        .HasColumnType("integer");
+
+                    b.Property<DateTimeOffset>("StartedAt")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<int>("TrackId")
+                        .HasColumnType("integer");
+
+                    b.Property<string>("UserId")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("TrackId");
+
+                    b.HasIndex("UserId", "TrackId");
+
+                    b.ToTable("SurvivalRuns");
+                });
+
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole", b =>
                 {
                     b.Property<string>("Id")
@@ -5604,6 +5771,82 @@ namespace EnadeAds.Data.Migrations
                         .IsRequired();
                 });
 
+            modelBuilder.Entity("EnadeAds.Daily.DailyQuestion", b =>
+                {
+                    b.HasOne("EnadeAds.Questions.Question", null)
+                        .WithMany()
+                        .HasForeignKey("QuestionId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("EnadeAds.Study.Track", null)
+                        .WithMany()
+                        .HasForeignKey("TrackId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("EnadeAds.Duels.Duel", b =>
+                {
+                    b.HasOne("EnadeAds.Data.ApplicationUser", null)
+                        .WithMany()
+                        .HasForeignKey("CreatorId")
+                        .OnDelete(DeleteBehavior.SetNull);
+
+                    b.HasOne("EnadeAds.Study.Track", null)
+                        .WithMany()
+                        .HasForeignKey("TrackId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("EnadeAds.Duels.DuelAnswer", b =>
+                {
+                    b.HasOne("EnadeAds.Questions.QuestionOption", null)
+                        .WithMany()
+                        .HasForeignKey("OptionId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("EnadeAds.Duels.DuelPlayer", null)
+                        .WithMany("Answers")
+                        .HasForeignKey("DuelId", "UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("EnadeAds.Duels.DuelPlayer", b =>
+                {
+                    b.HasOne("EnadeAds.Duels.Duel", null)
+                        .WithMany("Players")
+                        .HasForeignKey("DuelId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("EnadeAds.Data.ApplicationUser", null)
+                        .WithMany()
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("EnadeAds.Duels.DuelQuestion", b =>
+                {
+                    b.HasOne("EnadeAds.Duels.Duel", null)
+                        .WithMany("Questions")
+                        .HasForeignKey("DuelId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("EnadeAds.Questions.Question", "Question")
+                        .WithMany()
+                        .HasForeignKey("QuestionId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.Navigation("Question");
+                });
+
             modelBuilder.Entity("EnadeAds.MockExams.MockExam", b =>
                 {
                     b.HasOne("EnadeAds.Study.Track", null)
@@ -5758,6 +6001,21 @@ namespace EnadeAds.Data.Migrations
                         .IsRequired();
                 });
 
+            modelBuilder.Entity("EnadeAds.Survival.SurvivalRun", b =>
+                {
+                    b.HasOne("EnadeAds.Study.Track", null)
+                        .WithMany()
+                        .HasForeignKey("TrackId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.HasOne("EnadeAds.Data.ApplicationUser", null)
+                        .WithMany()
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
                 {
                     b.HasOne("Microsoft.AspNetCore.Identity.IdentityRole", null)
@@ -5863,6 +6121,18 @@ namespace EnadeAds.Data.Migrations
             modelBuilder.Entity("EnadeAds.Challenges.Challenge", b =>
                 {
                     b.Navigation("Questions");
+                });
+
+            modelBuilder.Entity("EnadeAds.Duels.Duel", b =>
+                {
+                    b.Navigation("Players");
+
+                    b.Navigation("Questions");
+                });
+
+            modelBuilder.Entity("EnadeAds.Duels.DuelPlayer", b =>
+                {
+                    b.Navigation("Answers");
                 });
 
             modelBuilder.Entity("EnadeAds.MockExams.MockExam", b =>

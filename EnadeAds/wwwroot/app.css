@@ -1072,3 +1072,327 @@ a.tag-discussion:not(.btn) {
 .review-status-approved { color: var(--block-soft); }
 .review-status-rejected,
 .review-status-failed { color: var(--text); }
+
+/* Nível e conquistas (LevelCard e Meu desempenho). A cor "você" marca o que é da pessoa. */
+.level-head {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    margin-bottom: 0.625rem;
+}
+
+.level-number {
+    display: grid;
+    place-items: center;
+    flex: none;
+    width: 2.75rem;
+    height: 2.75rem;
+    border-radius: 50%;
+    background-color: var(--you);
+    color: #fff;
+    font-size: 1.25rem;
+    font-weight: 800;
+}
+
+.level-title {
+    margin: 0;
+    font-weight: 700;
+}
+
+.level-xp,
+.level-next {
+    margin: 0;
+    font-size: 0.875rem;
+    color: var(--muted);
+}
+
+.level-bar {
+    height: 0.5rem;
+    border-radius: 999px;
+    background-color: var(--you-tint);
+    overflow: hidden;
+    margin-bottom: 0.375rem;
+}
+
+.level-bar > span {
+    display: block;
+    height: 100%;
+    background-color: var(--you);
+}
+
+.level-streak {
+    display: flex;
+    align-items: center;
+    gap: 0.375rem;
+    margin: 0.625rem 0 0.5rem;
+    font-size: 0.875rem;
+    color: var(--muted);
+}
+
+.level-streak svg {
+    flex: none;
+    width: 1.125rem;
+    height: 1.125rem;
+    fill: var(--rule-strong);
+}
+
+.level-streak.is-on {
+    color: var(--text);
+}
+
+.level-streak.is-on svg {
+    fill: var(--you);
+}
+
+.xp-gain {
+    display: inline-block;
+    margin-left: 0.5rem;
+    padding: 0 0.5rem;
+    border-radius: 999px;
+    background-color: var(--you);
+    color: #fff;
+    font-size: 0.8125rem;
+    font-weight: 700;
+}
+
+.badges {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(11rem, 1fr));
+    gap: 0.75rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.badges li {
+    padding: 0.75rem;
+    border: 1px solid var(--rule);
+    border-radius: 0.5rem;
+    color: var(--muted);
+}
+
+.badges li.is-unlocked {
+    border-color: var(--you);
+    background-color: var(--you-tint);
+    color: var(--text);
+}
+
+.badges .badge-name {
+    display: block;
+    font-weight: 700;
+}
+
+.badges .badge-state {
+    display: block;
+    margin-top: 0.25rem;
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+}
+
+/* Questão do dia: quanto a turma acertou, logo depois de responder. */
+.daily-stats {
+    margin: 0 0 1rem;
+    color: var(--muted);
+}
+
+.daily-stats .font-monospace {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--you);
+}
+
+/* Bloco escuro dos jogos (duelo e sobrevivência): a partida é um momento, não mais uma lista. */
+.game-hero {
+    background: var(--ink);
+    color: var(--ink-text);
+    /* No tema escuro o fundo da página é quase o mesmo azul: a borda e a faixa de cima separam o bloco. */
+    border: 1px solid var(--rule);
+    border-top: 4px solid var(--you-on-ink);
+    border-radius: .5rem;
+    padding: 1.75rem 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.game-hero h1 {
+    color: var(--ink-text);
+    font-size: clamp(1.5rem, 4vw, 2.25rem);
+    margin-bottom: .5rem;
+}
+
+.game-hero .text-body-secondary {
+    color: var(--ink-muted) !important;
+}
+
+.game-kicker {
+    color: var(--ink-muted);
+    font-size: .8rem;
+    letter-spacing: .06em;
+    text-transform: uppercase;
+    margin-bottom: .5rem;
+}
+
+.game-score {
+    font-size: 1.15rem;
+    margin-bottom: 0;
+}
+
+.game-score .font-monospace {
+    color: var(--you-on-ink);
+    font-weight: 700;
+}
+
+
+/* Modo sobrevivência: vidas e placar da partida, sempre à vista. */
+.survival-status {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 1rem;
+    padding: 0.625rem 0;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid var(--rule);
+}
+
+.survival-status .lives {
+    display: inline-flex;
+    gap: 0.25rem;
+}
+
+.survival-status .lives svg {
+    width: 1.5rem;
+    height: 1.5rem;
+    fill: var(--rule);
+}
+
+.survival-status .lives svg.is-on {
+    fill: var(--you);
+}
+
+/* Batalha da semana: uma linha por prova, a do aluno em destaque. */
+.battle {
+    margin: 0 0 0.5rem;
+    padding: 0;
+    list-style: none;
+}
+
+.battle li {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 0.125rem 0.5rem;
+    padding: 0.375rem 0;
+}
+
+.battle li.is-mine .battle-name {
+    font-weight: 700;
+    color: var(--you);
+}
+
+.battle-points {
+    font-weight: 700;
+    text-align: right;
+}
+
+.battle-bar {
+    grid-column: 1 / -1;
+    height: 0.375rem;
+    background-color: var(--ground-alt);
+    border-radius: 999px;
+    overflow: hidden;
+}
+
+.battle-bar > span {
+    display: block;
+    height: 100%;
+    background-color: var(--rule-strong);
+}
+
+.battle li.is-mine .battle-bar > span {
+    background-color: var(--you);
+}
+
+.battle-people {
+    grid-column: 1 / -1;
+    font-size: 0.75rem;
+    color: var(--muted);
+}
+
+/* Estrelas por matéria (roadmap e Meu desempenho). */
+.stars {
+    display: inline-flex;
+    gap: 0.0625rem;
+    vertical-align: -0.125em;
+}
+
+.stars svg {
+    width: 0.9375rem;
+    height: 0.9375rem;
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 1.2;
+    stroke-linejoin: round;
+    opacity: 0.45;
+}
+
+.stars svg.is-on {
+    fill: var(--you);
+    stroke: var(--you);
+    opacity: 1;
+}
+
+/* Meta diária, dentro do cartão de nível. */
+.goal {
+    margin: 0.25rem 0 0.75rem;
+}
+
+.goal-text {
+    margin: 0 0 0.25rem;
+    font-size: 0.875rem;
+}
+
+.goal-done {
+    color: var(--you);
+}
+
+/* Resumo da semana em Meu desempenho: quatro números grandes e a comparação com a semana anterior. */
+.week-summary {
+    padding: 1rem 1.25rem;
+    border: 1px solid var(--rule);
+    border-top: 4px solid var(--you);
+    border-radius: 0.5rem;
+}
+
+.week-numbers {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(8rem, 1fr));
+    gap: 1rem;
+    margin: 1rem 0 0.75rem;
+}
+
+.week-numbers dt {
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    color: var(--muted);
+}
+
+.week-numbers dd {
+    margin: 0;
+}
+
+.week-numbers .font-monospace {
+    font-size: 1.75rem;
+    font-weight: 700;
+}
+
+.week-of {
+    font-size: 1rem;
+    color: var(--muted);
+}
+
+.week-compare {
+    font-size: 0.75rem;
+    color: var(--muted);
+}

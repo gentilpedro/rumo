@@ -1,0 +1,95 @@
+@page "/sobrevivencia"
+
+@using EnadeAds.Data
+@using EnadeAds.Study
+@using EnadeAds.Survival
+@using Microsoft.AspNetCore.Identity
+
+@inject SurvivalService Survival
+@inject TrackCatalog Tracks
+@inject UserManager<ApplicationUser> Users
+@inject NavigationManager Navigation
+
+<PageTitle>Modo sobrevivência</PageTitle>
+
+<section class="game-hero" aria-labelledby="survival-title">
+    <p class="game-kicker">@track?.Label · @SurvivalService.StartingLives vidas</p>
+    <h1 id="survival-title">Modo sobrevivência</h1>
+    <p class="text-body-secondary">
+        Uma questão atrás da outra, das que a turma mais acerta para as que mais erra. Cada erro custa uma vida.
+        Quantas você aguenta?
+    </p>
+
+    @if (userId is null)
+    {
+        <div class="d-flex flex-wrap gap-2">
+            <a class="btn btn-light" href="Account/Login?ReturnUrl=%2Fsobrevivencia">Entrar para jogar</a>
+            <a class="btn btn-outline-light" href="Account/Register">Criar conta</a>
+        </div>
+    }
+    else
+    {
+        <p class="game-score">Seu recorde: <span class="font-monospace">@record</span> @(record == 1 ? "acerto" : "acertos")</p>
+        <form method="post" action="sobrevivencia" @formname="start-survival" @onsubmit="StartAsync" class="d-flex flex-wrap align-items-center gap-2 mt-3">
+            <AntiforgeryToken />
+            <button type="submit" class="btn btn-light btn-lg">@(open is null ? "Começar" : "Começar de novo")</button>
+            @if (open is not null)
+            {
+                <a class="btn btn-outline-light" href="sobrevivencia/@open.Id">Continuar a partida (@open.Score @(open.Score == 1 ? "acerto" : "acertos"))</a>
+            }
+        </form>
+    }
+</section>
+
+@if (errorMessage is not null)
+{
+    <div class="alert alert-danger" role="alert">@errorMessage</div>
+}
+
+<p class="small text-body-secondary">
+    As respostas contam no seu desempenho e no XP, como qualquer questão. Prefere jogar contra alguém? <a href="duelos">Crie um duelo</a>.
+</p>
+
+@code {
+    private Track? track;
+    private SurvivalRun? open;
+    private int record;
+    private string? userId;
+    private string? errorMessage;
+
+    [CascadingParameter]
+    private HttpContext HttpContext { get; set; } = default!;
+
+    protected override async Task OnInitializedAsync()
+    {
+        track = await Tracks.CurrentAsync();
+        userId = Users.GetUserId(HttpContext.User);
+        if (userId is null)
+        {
+            return;
+        }
+
+        record = await Survival.RecordAsync(userId, track.Id);
+        open = await Survival.OpenAsync(userId);
+    }
+
+    private async Task StartAsync()
+    {
+        // Jogar exige login: o formulário não aparece para visitante, mas o POST pode ser forjado.
+        if (userId is null)
+        {
+            HttpContext.Response.StatusCode = StatusCodes.Status401Unauthorized;
+            return;
+        }
+
+        var runId = await Survival.StartAsync(userId);
+        if (runId is null)
+        {
+            errorMessage = "Esta prova ainda não tem questões objetivas.";
+            HttpContext.Response.StatusCode = StatusCodes.Status400BadRequest;
+            return;
+        }
+
+        Navigation.NavigateTo($"sobrevivencia/{runId}");
+    }
+}

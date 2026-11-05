@@ -20,4 +20,7 @@ public class ApplicationUser : IdentityUser
     public bool IsMinor { get; set; }
 
     public DateTimeOffset? GuardianConsentAt { get; set; }
+
+    /// <summary>Quantas questões a pessoa quer responder por dia (uma de <see cref="Achievements.XpRules.DailyGoalOptions"/>).</summary>
+    public int DailyGoal { get; set; } = Achievements.XpRules.DefaultDailyGoal;
 }

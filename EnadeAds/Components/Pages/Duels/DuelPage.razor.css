@@ -1,0 +1,27 @@
+.duel-standings li {
+    display: grid;
+    grid-template-columns: 2.5rem 1fr auto auto;
+    align-items: baseline;
+    gap: .75rem;
+    padding: .5rem .25rem;
+    border-bottom: 1px solid var(--rule);
+}
+
+.duel-standings li.is-me {
+    background: var(--you-tint);
+    font-weight: 600;
+}
+
+.duel-standings .place {
+    color: var(--muted);
+}
+
+.duel-standings li:first-child .place {
+    color: var(--you);
+    font-weight: 700;
+}
+
+.duel-standings .name {
+    min-width: 0;
+    overflow-wrap: anywhere;
+}

@@ -1,0 +1,337 @@
+@page "/duelos/{Code}"
+
+@using EnadeAds.Data
+@using EnadeAds.Duels
+@using EnadeAds.Questions
+@using EnadeAds.Components.Pages.Questions
+@using EnadeAds.Study
+@using Microsoft.AspNetCore.Identity
+
+@inject DuelService Duels
+@inject TrackCatalog Tracks
+@inject LocalCalendar Calendar
+@inject TimeProvider Clock
+@inject UserManager<ApplicationUser> Users
+@inject NavigationManager Navigation
+
+@if (duel is not null)
+{
+    <PageTitle>Duelo · @track?.Label</PageTitle>
+
+    @* Prévia do link no WhatsApp e nas redes. Sem placar nem nomes de quem jogou: o link circula em grupos. *@
+    <HeadContent>
+        <meta property="og:title" content="Duelo no Rumo · @track?.Label" />
+        <meta property="og:description" content="@creatorName te desafiou: @duel.Questions.Count questões, @Minutes minutos. Topa?" />
+        <meta property="og:type" content="website" />
+    </HeadContent>
+
+    <nav aria-label="Trilha">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="duelos">Duelos</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Duelo de @creatorName</li>
+        </ol>
+    </nav>
+
+    @if (message is not null)
+    {
+        <div class="alert alert-danger" role="alert">@message</div>
+    }
+
+    @if (me is null)
+    {
+        <section class="game-hero" aria-labelledby="duel-title">
+            <p class="game-kicker">@track?.Label · @duel.Questions.Count questões · @Minutes minutos</p>
+            <h1 id="duel-title">@creatorName te desafiou para um duelo</h1>
+            <p class="text-body-secondary">
+                Todo mundo responde as mesmas questões. Ganha quem acertar mais; no empate, quem terminou mais rápido.
+                @if (finishedCount > 0)
+                {
+                    <text>@(finishedCount == 1 ? "1 pessoa já jogou." : $"{finishedCount} pessoas já jogaram.")</text>
+                }
+            </p>
+
+            @if (userId is null)
+            {
+                <div class="d-flex flex-wrap gap-2">
+                    <a class="btn btn-primary" href="@LoginUrl">Entrar para jogar</a>
+                    <a class="btn btn-outline-primary" href="Account/Register">Criar conta</a>
+                </div>
+            }
+            else if (Clock.GetUtcNow() > duel.JoinUntil)
+            {
+                <p class="alert alert-secondary" role="status">Este duelo já encerrou. <a href="duelos">Crie um novo</a> e chame a turma.</p>
+            }
+            else if (duel.Players.Count >= DuelService.MaxPlayers)
+            {
+                <p class="alert alert-secondary" role="status">Este duelo já tem @DuelService.MaxPlayers jogadores. <a href="duelos">Crie um novo</a>.</p>
+            }
+            else
+            {
+                <form method="post" action="duelos/@duel.Code" @formname="join-duel" @onsubmit="JoinAsync">
+                    <AntiforgeryToken />
+                    <button type="submit" class="btn btn-primary btn-lg">Começar</button>
+                    <span class="small text-body-secondary ms-2">O relógio começa a contar quando você clicar.</span>
+                </form>
+            }
+        </section>
+    }
+    else if (!me.HasFinished)
+    {
+        var deadline = me.StartedAt + DuelService.TimeLimit;
+        var late = Clock.GetUtcNow() > deadline + DuelService.GracePeriod;
+
+        <h1 class="h3">Duelo de @creatorName</h1>
+        <div class="alert @(late ? "alert-danger" : "alert-warning") sticky-top mock-exam-clock" role="status">
+            @if (late)
+            {
+                <text>O seu tempo acabou. Envie para ver o gabarito; as respostas de agora não contam.</text>
+            }
+            else
+            {
+                <text>Seu tempo termina às <strong>@Calendar.ToLocal(deadline).ToString("HH:mm")</strong> (horário de Brasília). Enviar antes desempata a seu favor.</text>
+            }
+        </div>
+
+        <form method="post" action="duelos/@duel.Code" @formname="submit-duel" @onsubmit="SubmitAsync">
+            <AntiforgeryToken />
+            @foreach (var item in duel.Questions)
+            {
+                var question = item.Question!;
+                <fieldset class="card mb-3">
+                    <div class="card-body">
+                        <legend class="h6">Questão @item.Order de @duel.Questions.Count <span class="small text-body-secondary fw-normal">· @question.Subject?.Title</span></legend>
+                        @* HTML gerado pelo StatementFormatter: todo texto é escapado e só tags fixas são adicionadas. *@
+                        <div class="question-statement">@((MarkupString)StatementFormatter.ToHtml(question.Statement))</div>
+                        @foreach (var option in question.Options)
+                        {
+                            var inputId = $"q{question.Id}-{option.Letter}";
+                            <div class="form-check mb-1">
+                                <input class="form-check-input" type="radio" name="q-@question.Id" id="@inputId" value="@option.Letter" />
+                                <label class="form-check-label" for="@inputId"><strong>@option.Letter)</strong> <OptionText Text="@option.Text" /></label>
+                            </div>
+                        }
+                    </div>
+                </fieldset>
+            }
+            <button type="submit" class="btn btn-primary btn-lg mb-4">Enviar respostas</button>
+        </form>
+    }
+    else
+    {
+        var position = standings.FirstOrDefault(s => s.IsMe)?.Position;
+
+        <section class="game-hero" aria-labelledby="result-title">
+            <p class="game-kicker">@track?.Label · duelo de @creatorName</p>
+            <h1 id="result-title">
+                @(position == 1 ? "Você está em 1º lugar!" : $"Você está em {position}º lugar")
+            </h1>
+            <p class="game-score">
+                <span class="font-monospace">@me.CorrectCount de @duel.Questions.Count</span> acertos
+                em <span class="font-monospace">@Duration(me.Elapsed)</span>
+            </p>
+        </section>
+
+        <div class="row g-4 mb-4">
+            <section class="col-lg-6" aria-labelledby="standings-title">
+                <h2 id="standings-title" class="h5">Placar</h2>
+                <ol class="duel-standings list-unstyled">
+                    @foreach (var standing in standings)
+                    {
+                        <li class="@(standing.IsMe ? "is-me" : null)">
+                            <span class="place font-monospace">@(standing.Position is { } p ? $"{p}º" : "–")</span>
+                            <span class="name">@standing.Name@(standing.IsMe ? " (você)" : "")</span>
+                            @if (standing.Position is null)
+                            {
+                                <span class="small text-body-secondary">@(standing.GaveUp ? "não enviou" : "jogando")</span>
+                            }
+                            else
+                            {
+                                <span class="font-monospace">@standing.Correct/@duel.Questions.Count</span>
+                                <span class="small text-body-secondary font-monospace">@Duration(standing.Elapsed)</span>
+                            }
+                        </li>
+                    }
+                </ol>
+            </section>
+
+            <section class="col-lg-6" aria-labelledby="share-title">
+                <h2 id="share-title" class="h5">Chame mais gente</h2>
+                <p class="small text-body-secondary">
+                    O link vale até @Calendar.ToLocal(duel.JoinUntil).ToString("dd/MM"). Quem entrar aparece neste placar.
+                </p>
+                <label for="duel-link" class="form-label small">Link do duelo</label>
+                <input id="duel-link" class="form-control font-monospace mb-2" readonly value="@ShareUrl" />
+                <div class="d-flex flex-wrap gap-2">
+                    <a class="btn btn-success" href="@WhatsAppUrl" target="_blank" rel="noopener">Mandar no WhatsApp</a>
+                    <form method="post" action="duelos/@duel.Code" @formname="rematch" @onsubmit="RematchAsync">
+                        <AntiforgeryToken />
+                        <button type="submit" class="btn btn-outline-primary">Revanche com outras questões</button>
+                    </form>
+                </div>
+            </section>
+        </div>
+
+        <h2 class="h5">Gabarito</h2>
+        @foreach (var item in duel.Questions)
+        {
+            var question = item.Question!;
+            var chosen = me.Answers.FirstOrDefault(a => a.QuestionId == question.Id)?.OptionId;
+            <article class="card mb-3">
+                <div class="card-body">
+                    <h3 class="h6">Questão @item.Order <span class="small text-body-secondary fw-normal">· @question.Subject?.Title · @question.Source</span></h3>
+                    <div class="question-statement">@((MarkupString)StatementFormatter.ToHtml(question.Statement))</div>
+                    @if (chosen is null)
+                    {
+                        <p class="small text-danger mb-2">Em branco.</p>
+                    }
+                    <ol class="list-unstyled d-flex flex-column gap-2 mb-0">
+                        @foreach (var option in question.Options)
+                        {
+                            <li class="border rounded p-2 @(option.IsCorrect ? "border-success" : option.Id == chosen ? "border-danger" : "")">
+                                <strong>@option.Letter)</strong> <OptionText Text="@option.Text" />
+                                @if (option.IsCorrect)
+                                {
+                                    <span class="badge text-bg-success ms-1">Correta</span>
+                                }
+                                @if (option.Id == chosen && !option.IsCorrect)
+                                {
+                                    <span class="badge text-bg-danger ms-1">Sua resposta</span>
+                                }
+                                <div class="small text-body-secondary">@option.Explanation</div>
+                            </li>
+                        }
+                    </ol>
+                </div>
+            </article>
+        }
+    }
+}
+
+@code {
+    private Duel? duel;
+    private DuelPlayer? me;
+    private Track? track;
+    private IReadOnlyList<DuelStanding> standings = [];
+    private string creatorName = "";
+    private int finishedCount;
+    private string? userId;
+    private string? message;
+
+    [Parameter]
+    public string Code { get; set; } = "";
+
+    [CascadingParameter]
+    private HttpContext HttpContext { get; set; } = default!;
+
+    private static int Minutes => (int)DuelService.TimeLimit.TotalMinutes;
+
+    private string LoginUrl => $"Account/Login?ReturnUrl={Uri.EscapeDataString($"/duelos/{duel?.Code}")}";
+
+    private string ShareUrl => $"{Navigation.BaseUri}duelos/{duel?.Code}";
+
+    private string WhatsAppUrl => "https://wa.me/?text=" + Uri.EscapeDataString(
+        $"Te desafio no Rumo: {duel?.Questions.Count} questões de {track?.Label}, {Minutes} minutos. Eu fiz {me?.CorrectCount}. Topa? {ShareUrl}");
+
+    protected override async Task OnInitializedAsync()
+    {
+        userId = Users.GetUserId(HttpContext.User);
+        await LoadAsync();
+    }
+
+    private async Task LoadAsync()
+    {
+        duel = await Duels.FindAsync(Code);
+        if (duel is null)
+        {
+            Navigation.NotFound();
+            return;
+        }
+
+        me = duel.Players.FirstOrDefault(p => p.UserId == userId);
+        finishedCount = duel.Players.Count(p => p.HasFinished);
+        track = (await Tracks.ListAsync()).FirstOrDefault(t => t.Id == duel.TrackId);
+
+        var creator = duel.CreatorId is null ? null : await Users.FindByIdAsync(duel.CreatorId);
+        creatorName = creator is null ? "Alguém" : DuelService.ShortName(creator.FullName);
+
+        // O placar, com nomes, só para quem jogou.
+        if (me is { HasFinished: true })
+        {
+            standings = await Duels.StandingsAsync(duel, userId);
+        }
+    }
+
+    private async Task JoinAsync()
+    {
+        if (userId is null)
+        {
+            HttpContext.Response.StatusCode = StatusCodes.Status401Unauthorized;
+            return;
+        }
+
+        var outcome = await Duels.JoinAsync(Code, userId);
+        if (outcome is JoinDuelOutcome.Closed or JoinDuelOutcome.Full or JoinDuelOutcome.NotFound)
+        {
+            HttpContext.Response.StatusCode = StatusCodes.Status409Conflict;
+        }
+
+        // GET depois do POST: recarregar a página não tenta entrar de novo.
+        Navigation.NavigateTo($"duelos/{duel?.Code ?? Code}");
+    }
+
+    private async Task SubmitAsync()
+    {
+        if (userId is null || duel is null)
+        {
+            HttpContext.Response.StatusCode = StatusCodes.Status401Unauthorized;
+            return;
+        }
+
+        var form = HttpContext.Request.Form;
+        var letters = new Dictionary<int, char>();
+        foreach (var item in duel.Questions)
+        {
+            if (form.TryGetValue($"q-{item.QuestionId}", out var letter) && letter.ToString() is { Length: 1 } value)
+            {
+                letters[item.QuestionId] = value[0];
+            }
+        }
+
+        var outcome = await Duels.SubmitAsync(Code, userId, letters);
+        if (outcome is SubmitDuelOutcome.NotStarted or SubmitDuelOutcome.NotFound)
+        {
+            message = "Entre no duelo antes de enviar as respostas.";
+            HttpContext.Response.StatusCode = StatusCodes.Status409Conflict;
+            await LoadAsync();
+            return;
+        }
+
+        Navigation.NavigateTo($"duelos/{duel.Code}");
+    }
+
+    private async Task RematchAsync()
+    {
+        if (userId is null || duel is null)
+        {
+            HttpContext.Response.StatusCode = StatusCodes.Status401Unauthorized;
+            return;
+        }
+
+        var result = await Duels.CreateAsync(userId, duel.TrackId);
+        if (result.Outcome == CreateDuelOutcome.NoQuestions)
+        {
+            message = "Esta prova não tem mais questões objetivas para um duelo.";
+            HttpContext.Response.StatusCode = StatusCodes.Status400BadRequest;
+            return;
+        }
+
+        Navigation.NavigateTo($"duelos/{result.Code}");
+    }
+
+    /// <summary>"2min05s" ou "48s".</summary>
+    private static string Duration(TimeSpan? elapsed)
+    {
+        var seconds = (int)Math.Round(elapsed?.TotalSeconds ?? 0);
+        return seconds >= 60 ? $"{seconds / 60}min{seconds % 60:00}s" : $"{seconds}s";
+    }
+}

@@ -41,6 +41,12 @@ public sealed class PersonalDataExport(ApplicationDbContext db, UserManager<Appl
             .Select(m => new { Trilha = m.TrackId, Tamanho = m.Size.ToString(), Inicio = m.StartedAt, Entrega = m.SubmittedAt, Acertos = m.CorrectCount, Objetivas = m.ObjectiveCount })
             .ToListAsync(cancellationToken);
 
+        var duels = await db.DuelPlayers.AsNoTracking()
+            .Where(p => p.UserId == userId)
+            .Join(db.Duels.IgnoreQueryFilters(), p => p.DuelId, d => d.Id,
+                (p, d) => new { Duelo = d.Code, Trilha = d.TrackId, CriadoPorVoce = d.CreatorId == userId, Inicio = p.StartedAt, Envio = p.FinishedAt, Acertos = p.CorrectCount })
+            .ToListAsync(cancellationToken);
+
         var comments = await db.PostComments.AsNoTracking()
             .Where(c => c.UserId == userId)
             .Join(db.Posts.IgnoreQueryFilters(), c => c.PostId, p => p.Id, (c, p) => new { Post = p.Title, Comentario = c.Text, Em = c.CreatedAt })
@@ -73,6 +79,7 @@ public sealed class PersonalDataExport(ApplicationDbContext db, UserManager<Appl
                 TermosAceitosEm = user.TermsAcceptedAt,
                 VersaoDosTermos = user.TermsVersion,
                 MenorDeIdade = user.IsMinor,
+                MetaDiaria = user.DailyGoal,
                 AutorizacaoDoResponsavelEm = user.GuardianConsentAt,
                 LoginsExternos = (await users.GetLoginsAsync(user)).Select(l => l.LoginProvider),
             },
@@ -81,6 +88,7 @@ public sealed class PersonalDataExport(ApplicationDbContext db, UserManager<Appl
             RespostasDiscursivas = discursives,
             Desafios = challenges,
             Simulados = mockExams,
+            Duelos = duels,
             ComentariosNoBlog = comments,
             Posts = posts,
             Votos = votes,

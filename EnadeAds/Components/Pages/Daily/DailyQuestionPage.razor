@@ -1,0 +1,225 @@
+@page "/questao-do-dia"
+@page "/questao-do-dia/{Slug}"
+
+@using EnadeAds.Achievements
+@using EnadeAds.Daily
+@using EnadeAds.Data
+@using EnadeAds.Questions
+@using EnadeAds.Components.Pages.Questions
+@using EnadeAds.Study
+@using Microsoft.AspNetCore.Identity
+
+@inject DailyQuestionService Daily
+@inject QuestionBank Bank
+@inject TrackCatalog Tracks
+@inject TrackScope TrackScope
+@inject LocalCalendar Calendar
+@inject UserManager<ApplicationUser> Users
+@inject NavigationManager Navigation
+
+@if (track is not null)
+{
+    <PageTitle>Questão do dia · @track.Label</PageTitle>
+
+    @* Prévia do link no WhatsApp: a prova e o começo do enunciado, sem a resposta. *@
+    <HeadContent>
+        <meta property="og:title" content="Questão do dia · @track.Label" />
+        <meta property="og:description" content="@Excerpt" />
+        <meta property="og:type" content="website" />
+    </HeadContent>
+
+    <p class="small text-body-secondary text-uppercase mb-1">@track.Label · @Calendar.Today().ToString("dd/MM")</p>
+    <h1>Questão do dia</h1>
+
+    @if (question is null)
+    {
+        <p class="text-body-secondary">Esta prova ainda não tem questões objetivas.</p>
+    }
+    else
+    {
+        <p class="small text-body-secondary">@question.Subject?.Title · @question.Source</p>
+        @* HTML gerado pelo StatementFormatter: todo texto é escapado e só tags fixas são adicionadas. *@
+        <div class="question-statement mb-4">@((MarkupString)StatementFormatter.ToHtml(question.Statement))</div>
+
+        @if (answered is not null)
+        {
+            var chosen = question.Options.First(o => o.Id == answered.OptionId);
+            var correct = question.Options.First(o => o.IsCorrect);
+
+            <div class="alert @(answered.IsCorrect ? "alert-success" : "alert-danger")" role="status">
+                @if (answered.IsCorrect)
+                {
+                    <strong><Icon Name="check" /> Você acertou.</strong> <span>A resposta é a alternativa @chosen.Letter.</span>
+                }
+                else
+                {
+                    <strong><Icon Name="x" /> Você marcou @chosen.Letter.</strong> <span>A resposta correta é a alternativa @correct.Letter.</span>
+                }
+                @if (xpGained > 0)
+                {
+                    <span class="xp-gain">+@xpGained XP</span>
+                }
+            </div>
+
+            @if (stats is { IsVisible: true })
+            {
+                <p class="daily-stats">
+                    <span class="font-monospace">@stats.Percent%</span>
+                    acertaram hoje · @(stats.Answered == 1 ? "1 pessoa respondeu" : $"{stats.Answered} pessoas responderam")
+                </p>
+            }
+
+            <ol class="list-unstyled d-flex flex-column gap-2">
+                @foreach (var option in question.Options)
+                {
+                    <li class="card @(option.IsCorrect ? "border-success" : option.Id == chosen.Id ? "border-danger" : "")">
+                        <div class="card-body">
+                            <p class="mb-1">
+                                <strong>@option.Letter)</strong> <OptionText Text="@option.Text" />
+                                @if (option.IsCorrect)
+                                {
+                                    <span class="badge text-bg-success ms-1">Correta</span>
+                                }
+                            </p>
+                            <p class="small text-body-secondary mb-0">@option.Explanation</p>
+                        </div>
+                    </li>
+                }
+            </ol>
+
+            <div class="d-flex flex-wrap gap-2 mt-3 mb-4">
+                <a class="btn btn-success" href="@WhatsAppUrl" target="_blank" rel="noopener">Desafiar a turma no WhatsApp</a>
+                <a class="btn btn-outline-primary" href="duelos">Criar um duelo</a>
+            </div>
+            <p class="small text-body-secondary">Amanhã tem outra. A questão muda à meia-noite (horário de Brasília).</p>
+        }
+        else if (userId is not null)
+        {
+            <form method="post" action="@FormAction" @formname="daily-answer" @onsubmit="AnswerAsync">
+                <AntiforgeryToken />
+                <fieldset>
+                    <legend class="h6">Escolha uma alternativa</legend>
+                    @if (invalidChoice)
+                    {
+                        <p class="text-danger" role="alert">Escolha uma das alternativas antes de responder.</p>
+                    }
+                    @foreach (var option in question.Options)
+                    {
+                        <div class="form-check mb-2">
+                            <input class="form-check-input" type="radio" name="Letter" id="opcao-@option.Letter" value="@option.Letter" required />
+                            <label class="form-check-label" for="opcao-@option.Letter"><strong>@option.Letter)</strong> <OptionText Text="@option.Text" /></label>
+                        </div>
+                    }
+                </fieldset>
+                <button type="submit" class="btn btn-primary mt-2">Responder</button>
+                <span class="small text-body-secondary ms-2">Vale +@XpRules.DailyQuestion XP extra se responder hoje.</span>
+            </form>
+        }
+        else
+        {
+            <ol class="list-unstyled d-flex flex-column gap-2 mb-3">
+                @foreach (var option in question.Options)
+                {
+                    <li><strong>@option.Letter)</strong> <OptionText Text="@option.Text" /></li>
+                }
+            </ol>
+            <div class="alert alert-info" role="status">
+                <a href="@LoginUrl">Entre</a> ou <a href="Account/Register">crie sua conta</a> para responder e ver o gabarito comentado.
+            </div>
+        }
+    }
+}
+
+@code {
+    private Track? track;
+    private Question? question;
+    private QuestionAttempt? answered;
+    private CommunityScore? stats;
+    private string? userId;
+    private int xpGained;
+    private bool invalidChoice;
+
+    /// <summary>Slug da prova, no link compartilhado. Sem ele, vale a prova ativa.</summary>
+    [Parameter]
+    public string? Slug { get; set; }
+
+    [CascadingParameter]
+    private HttpContext HttpContext { get; set; } = default!;
+
+    [SupplyParameterFromForm(FormName = "daily-answer")]
+    private string? Letter { get; set; }
+
+    private string FormAction => $"questao-do-dia/{track?.Slug}";
+
+    private string LoginUrl => $"Account/Login?ReturnUrl={Uri.EscapeDataString($"/questao-do-dia/{track?.Slug}")}";
+
+    private string Excerpt
+    {
+        get
+        {
+            var flat = string.Join(' ', (question?.Statement ?? "").Split((char[])['\n', '\r', '\t', ' '], StringSplitOptions.RemoveEmptyEntries));
+            return flat.Length <= 160 ? flat : $"{flat[..160].TrimEnd()}…";
+        }
+    }
+
+    private string WhatsAppUrl => "https://wa.me/?text=" + Uri.EscapeDataString(
+        (stats is { IsVisible: true } ? $"Questão do dia de {track?.Label} no Rumo: {stats.Percent}% acertaram hoje. Consegue?" : $"Questão do dia de {track?.Label} no Rumo. Consegue?") + $" {Navigation.BaseUri}questao-do-dia/{track?.Slug}");
+
+    protected override async Task OnInitializedAsync()
+    {
+        if (Slug is null && !TrackScope.HasChosen)
+        {
+            Navigation.NavigateTo("/?volta=%2Fquestao-do-dia");
+            return;
+        }
+
+        var trackId = Slug is null ? TrackScope.Id : Study.Tracks.IdOf(Slug);
+        track = trackId is null ? null : (await Tracks.ListAsync()).FirstOrDefault(t => t.Id == trackId);
+        if (track is null)
+        {
+            Navigation.NotFound();
+            return;
+        }
+
+        question = await Daily.TodayAsync(track.Id);
+        userId = Users.GetUserId(HttpContext.User);
+        if (question is null || userId is null)
+        {
+            return;
+        }
+
+        answered = await Daily.AnsweredTodayAsync(userId, question.Id);
+        if (answered is not null)
+        {
+            stats = await Daily.StatsAsync(question.Id);
+        }
+    }
+
+    private async Task AnswerAsync()
+    {
+        // Responder exige login: o formulário não aparece para visitante, mas o POST pode ser forjado.
+        if (userId is null || question is null)
+        {
+            HttpContext.Response.StatusCode = StatusCodes.Status401Unauthorized;
+            return;
+        }
+
+        if (answered is not null)
+        {
+            // Já respondeu hoje: a primeira resposta é a que vale.
+            return;
+        }
+
+        var answer = Letter is { Length: 1 } ? await Bank.AnswerAsync(userId, question.Id, Letter[0]) : null;
+        if (answer is null)
+        {
+            invalidChoice = true;
+            HttpContext.Response.StatusCode = StatusCodes.Status400BadRequest;
+            return;
+        }
+
+        answered = answer.Attempt;
+        xpGained = answer.XpGained + XpRules.DailyQuestion;
+        stats = await Daily.StatsAsync(question.Id);
+    }
+}

@@ -1,9 +1,13 @@
+using EnadeAds.Achievements;
 using EnadeAds.Blog;
 using EnadeAds.Challenges;
+using EnadeAds.Daily;
+using EnadeAds.Duels;
 using EnadeAds.MockExams;
 using EnadeAds.Questions;
 using EnadeAds.Reviews;
 using EnadeAds.Study;
+using EnadeAds.Survival;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
@@ -37,6 +41,12 @@ public class ApplicationDbContext(DbContextOptions<ApplicationDbContext> options
     public DbSet<SiteSetting> SiteSettings => Set<SiteSetting>();
     public DbSet<MockExamQuestion> MockExamQuestions => Set<MockExamQuestion>();
     public DbSet<ContentReview> ContentReviews => Set<ContentReview>();
+    public DbSet<Duel> Duels => Set<Duel>();
+    public DbSet<DuelQuestion> DuelQuestions => Set<DuelQuestion>();
+    public DbSet<DuelPlayer> DuelPlayers => Set<DuelPlayer>();
+    public DbSet<DuelAnswer> DuelAnswers => Set<DuelAnswer>();
+    public DbSet<DailyQuestion> DailyQuestions => Set<DailyQuestion>();
+    public DbSet<SurvivalRun> SurvivalRuns => Set<SurvivalRun>();
 
     protected override void OnModelCreating(ModelBuilder builder)
     {
@@ -194,7 +204,12 @@ public class ApplicationDbContext(DbContextOptions<ApplicationDbContext> options
             report.HasOne<ApplicationUser>().WithMany().HasForeignKey(r => r.ResolvedById).OnDelete(DeleteBehavior.SetNull);
         });
 
-        builder.Entity<ApplicationUser>(user => user.Property(u => u.TermsVersion).HasMaxLength(20));
+        builder.Entity<ApplicationUser>(user =>
+        {
+            user.Property(u => u.TermsVersion).HasMaxLength(20);
+            // Contas que já existem começam com a meta padrão.
+            user.Property(u => u.DailyGoal).HasDefaultValue(XpRules.DefaultDailyGoal);
+        });
 
         builder.Entity<SiteSetting>(setting =>
         {
@@ -248,6 +263,64 @@ public class ApplicationDbContext(DbContextOptions<ApplicationDbContext> options
             // Excluir a conta apaga as propostas dela; quem revisou só perde o vínculo.
             review.HasOne<ApplicationUser>().WithMany().HasForeignKey(r => r.AuthorId).OnDelete(DeleteBehavior.Cascade);
             review.HasOne<ApplicationUser>().WithMany().HasForeignKey(r => r.ReviewerId).OnDelete(DeleteBehavior.SetNull);
+        });
+
+        builder.Entity<Duel>(duel =>
+        {
+            duel.Property(d => d.Code).HasMaxLength(DuelService.CodeLength);
+            duel.HasIndex(d => d.Code).IsUnique();
+            duel.Ignore(d => d.JoinUntil);
+            duel.HasOne<Track>().WithMany().HasForeignKey(d => d.TrackId).OnDelete(DeleteBehavior.Restrict);
+            // Quem criou pode excluir a conta sem apagar o placar de quem jogou.
+            duel.HasOne<ApplicationUser>().WithMany().HasForeignKey(d => d.CreatorId).OnDelete(DeleteBehavior.SetNull);
+            duel.HasMany(d => d.Questions).WithOne().HasForeignKey(q => q.DuelId).OnDelete(DeleteBehavior.Cascade);
+            duel.HasMany(d => d.Players).WithOne().HasForeignKey(p => p.DuelId).OnDelete(DeleteBehavior.Cascade);
+            duel.HasQueryFilter(d => d.TrackId == CurrentTrackId);
+        });
+
+        builder.Entity<DuelQuestion>(question =>
+        {
+            question.HasKey(q => new { q.DuelId, q.QuestionId });
+            question.HasOne(q => q.Question).WithMany().HasForeignKey(q => q.QuestionId).OnDelete(DeleteBehavior.Restrict);
+            question.HasQueryFilter(q => q.Question!.Subject!.TrackId == CurrentTrackId);
+        });
+
+        builder.Entity<DuelPlayer>(player =>
+        {
+            // Uma participação por pessoa em cada duelo.
+            player.HasKey(p => new { p.DuelId, p.UserId });
+            player.HasIndex(p => p.UserId);
+            player.Ignore(p => p.HasFinished);
+            player.Ignore(p => p.Elapsed);
+            player.HasOne<ApplicationUser>().WithMany().HasForeignKey(p => p.UserId).OnDelete(DeleteBehavior.Cascade);
+            player.HasMany(p => p.Answers).WithOne().HasForeignKey(a => new { a.DuelId, a.UserId }).OnDelete(DeleteBehavior.Cascade);
+        });
+
+        builder.Entity<DuelAnswer>(answer =>
+        {
+            answer.HasKey(a => new { a.DuelId, a.UserId, a.QuestionId });
+            answer.HasOne<QuestionOption>().WithMany().HasForeignKey(a => a.OptionId).OnDelete(DeleteBehavior.Cascade);
+        });
+
+        builder.Entity<DailyQuestion>(daily =>
+        {
+            // Uma questão por dia em cada trilha, garantido pelo banco.
+            daily.HasKey(d => new { d.TrackId, d.Date });
+            daily.HasIndex(d => d.QuestionId);
+            daily.HasOne<Track>().WithMany().HasForeignKey(d => d.TrackId).OnDelete(DeleteBehavior.Cascade);
+            daily.HasOne<Question>().WithMany().HasForeignKey(d => d.QuestionId).OnDelete(DeleteBehavior.Cascade);
+        });
+
+        builder.Entity<SurvivalRun>(run =>
+        {
+            run.Property(r => r.Queue).HasMaxLength(20_000);
+            run.Ignore(r => r.IsOpen);
+            run.Ignore(r => r.QuestionIds);
+            run.Ignore(r => r.CurrentQuestionId);
+            run.HasIndex(r => new { r.UserId, r.TrackId });
+            run.HasOne<ApplicationUser>().WithMany().HasForeignKey(r => r.UserId).OnDelete(DeleteBehavior.Cascade);
+            run.HasOne<Track>().WithMany().HasForeignKey(r => r.TrackId).OnDelete(DeleteBehavior.Restrict);
+            run.HasQueryFilter(r => r.TrackId == CurrentTrackId);
         });
 
         builder.Entity<DiscursiveAnswer>(answer =>

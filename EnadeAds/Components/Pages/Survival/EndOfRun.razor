@@ -1,0 +1,35 @@
+@using EnadeAds.Survival
+
+@* Fim da partida: placar, recorde e jogar de novo. *@
+<section class="game-hero mt-3" aria-labelledby="end-title">
+    <p class="game-kicker">Fim de partida</p>
+    <h2 id="end-title" class="h1">
+        @(IsNewRecord ? "Novo recorde!" : Run.Score == 0 ? "Não foi dessa vez" : "Fim de jogo")
+    </h2>
+    <p class="game-score">
+        <span class="font-monospace">@Run.Score</span> @(Run.Score == 1 ? "acerto" : "acertos")
+        @if (!IsNewRecord)
+        {
+            <span>· recorde: <span class="font-monospace">@Record</span></span>
+        }
+    </p>
+    <form method="post" action="sobrevivencia" class="mt-3">
+        <AntiforgeryToken />
+        <input type="hidden" name="_handler" value="start-survival" />
+        <button type="submit" class="btn btn-light btn-lg">Jogar de novo</button>
+        <a class="btn btn-outline-light ms-2" href="meu-desempenho">Ver os erros no caderno</a>
+    </form>
+</section>
+
+@code {
+    [Parameter, EditorRequired]
+    public SurvivalRun Run { get; set; } = default!;
+
+    /// <summary>Melhor partida antes desta.</summary>
+    [Parameter]
+    public int PreviousBest { get; set; }
+
+    private bool IsNewRecord => Run.Score > PreviousBest;
+
+    private int Record => Math.Max(Run.Score, PreviousBest);
+}

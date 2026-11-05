@@ -2,13 +2,18 @@
 @page "/blog"
 
 @using EnadeAds.Accounts
+@using EnadeAds.Achievements
+@using EnadeAds.Battle
 @using EnadeAds.Blog
 @using EnadeAds.Components.Pages.Blog
 @using EnadeAds.Components.Shared
+@using EnadeAds.Daily
 @using EnadeAds.Data
+@using EnadeAds.Duels
 @using EnadeAds.Performance
 @using EnadeAds.Questions
 @using EnadeAds.Study
+@using EnadeAds.Survival
 @using Microsoft.AspNetCore.Identity
 
 @inject BlogService Blog
@@ -16,6 +21,9 @@
 @inject TrackCatalog Tracks
 @inject TrackScope TrackScope
 @inject PerformanceService Performance
+@inject AchievementService Achievements
+@inject DailyQuestionService Daily
+@inject WeeklyBattleService Battle
 @inject LocalCalendar Calendar
 @inject TimeProvider Clock
 @inject UserManager<ApplicationUser> Users
@@ -166,7 +174,70 @@ else
     </div>
 
     <aside class="col-lg-4" aria-label="Seu estudo e combinados">
+        @if (daily is not null)
+        {
+            <section class="module" aria-labelledby="daily-title">
+                <h2 id="daily-title" class="module-title">Questão do dia</h2>
+                <div class="next-step">
+                    <h3>@daily.Subject?.Title</h3>
+                    <p>@DailyExcerpt</p>
+                    @if (dailyDone)
+                    {
+                        <a class="btn btn-sm btn-outline-primary" href="questao-do-dia">Você já respondeu · ver gabarito</a>
+                    }
+                    else
+                    {
+                        <a class="btn btn-sm btn-primary" href="questao-do-dia">Responder</a>
+                    }
+                </div>
+            </section>
+        }
+
+        @if (xp is not null)
+        {
+            <section class="module" aria-labelledby="level-title">
+                <h2 id="level-title" class="module-title">Seu nível</h2>
+                <LevelCard Report="xp" Compact="true" />
+            </section>
+        }
+
         <YourWeek Report="report" />
+
+        <section class="module" aria-labelledby="duel-cta-title">
+            <h2 id="duel-cta-title" class="module-title">Jogar</h2>
+            <div class="next-step">
+                <h3>Desafie a turma</h3>
+                <p>Duelo: @DuelService.QuestionCount questões, @((int)DuelService.TimeLimit.TotalMinutes) minutos, o mesmo link para todo mundo. Ou jogue sozinho no modo sobrevivência: até errar @SurvivalService.StartingLives.</p>
+                <div class="d-flex flex-wrap gap-2">
+                    <a class="btn btn-sm btn-primary" href="duelos">Criar um duelo</a>
+                    <a class="btn btn-sm btn-outline-primary" href="sobrevivencia">Sobrevivência</a>
+                </div>
+            </div>
+        </section>
+
+        @if (battle is not null)
+        {
+            <section class="module" aria-labelledby="battle-title">
+                <h2 id="battle-title" class="module-title">Batalha da semana · @battle.Monday.ToString("dd/MM")–@battle.Sunday.ToString("dd/MM")</h2>
+                <ol class="battle">
+                    @foreach (var score in battle.Scores)
+                    {
+                        var mine = score.Track.Id == track?.Id;
+                        <li class="@(mine ? "is-mine" : null)">
+                            <span class="battle-name">@score.Track.Label@(mine ? " · sua prova" : "")</span>
+                            <span class="battle-points font-monospace">@score.Points</span>
+                            <span class="battle-bar" aria-hidden="true"><span style="width:@(battle.MaxPoints == 0 ? 0 : 100 * score.Points / battle.MaxPoints)%"></span></span>
+                            <span class="battle-people">@(score.People == 1 ? "1 pessoa" : $"{score.People} pessoas")</span>
+                        </li>
+                    }
+                </ol>
+                <p class="small text-body-secondary mb-1">Cada questão que você acerta nesta semana soma 1 ponto para a sua prova.</p>
+                @if (battle.LastWeekWinner is not null)
+                {
+                    <p class="small mb-0">Semana passada: <strong>@battle.LastWeekWinner.Label</strong> venceu.</p>
+                }
+            </section>
+        }
 
         <section class="module" aria-labelledby="rules-title">
             <h2 id="rules-title" class="module-title">Combinados da comunidade</h2>
@@ -197,6 +268,19 @@ else
     private IReadOnlyList<Post>? notPublished;
     private SemesterView? semester;
     private PerformanceReport? report;
+    private XpReport? xp;
+    private EnadeAds.Questions.Question? daily;
+    private bool dailyDone;
+    private BattleBoard? battle;
+
+    private string DailyExcerpt
+    {
+        get
+        {
+            var flat = string.Join(' ', (daily?.Statement ?? "").Split((char[])['\n', '\r', '\t', ' '], StringSplitOptions.RemoveEmptyEntries));
+            return flat.Length <= 120 ? flat : $"{flat[..120].TrimEnd()}…";
+        }
+    }
     private PostCategory? category;
     private Tab tab;
     private string? userId;
@@ -239,11 +323,19 @@ else
         now = Clock.GetUtcNow();
 
         var editor = EditorFactory.From(HttpContext.User, userId);
+        battle = await Battle.GetAsync();
+        daily = await Daily.TodayAsync(track.Id);
+        if (daily is not null && userId is not null)
+        {
+            dailyDone = await Daily.AnsweredTodayAsync(userId, daily.Id) is not null;
+        }
+
         semester = await Semester.BuildAsync(userId, canSeeUpcoming: editor?.CanCreate == true);
         if (editor is not null)
         {
             notPublished = await Blog.NotPublishedAsync(editor);
             report = await Performance.GetAsync(editor.UserId);
+            xp = await Achievements.GetAsync(editor.UserId);
         }
 
         await LoadFeedAsync();

@@ -77,8 +77,8 @@ Alunos também têm e-mail institucional, muitas vezes no mesmo domínio dos pro
 
 - O cadastro exige aceitar os **Termos de uso** e a **Política de privacidade**. A data e a versão aceitas ficam guardadas na conta.
 - Os textos ficam em `/termos` e `/privacidade`, com link no rodapé de todas as páginas. O responsável pelos dados e o e-mail de contato vêm da configuração (`Privacy:ControllerName`, `Privacy:ContactEmail`), porque cada instalação tem o seu responsável.
-- **Baixar meus dados** (Minha conta → Dados pessoais) entrega um arquivo com a conta, o progresso no roadmap, as respostas, os simulados, os desafios, os posts, os votos, as denúncias e os comentários.
-- **Excluir a conta** apaga a conta, o progresso, as respostas objetivas e discursivas, os simulados e os envios de desafio. Os votos saem junto. Os **posts e comentários da comunidade continuam, sem o nome** ("Participante que excluiu a conta"). Questões, desafios e avisos que um professor publicou continuam, assinados como "Equipe ENADE ADS".
+- **Baixar meus dados** (Minha conta → Dados pessoais) entrega um arquivo com a conta, o progresso no roadmap, as respostas, os simulados, os desafios, os duelos, os posts, os votos, as denúncias e os comentários.
+- **Excluir a conta** apaga a conta, o progresso, as respostas objetivas e discursivas, os simulados, as participações em duelos e os envios de desafio. Os votos saem junto. O duelo criado por quem excluiu a conta continua para quem jogou, sem o nome de quem criou. Os **posts e comentários da comunidade continuam, sem o nome** ("Participante que excluiu a conta"). Questões, desafios e avisos que um professor publicou continuam, assinados como "Equipe ENADE ADS".
 - Registros técnicos de acesso ficam até 31 dias; cópias de segurança, até 30 dias.
 - O conteúdo publicado por professores segue a licença Creative Commons BY-SA 4.0; o código, a licença MIT.
 
@@ -126,6 +126,92 @@ Alunos também têm e-mail institucional, muitas vezes no mesmo domínio dos pro
 - O **gabarito comentado e o padrão de resposta só aparecem depois da entrega**. Questão em branco conta como errada.
 - Depois da entrega, as respostas objetivas entram no painel de desempenho e no caderno de erros, e a discursiva vira uma resposta salva da questão.
 - O simulado é do aluno: ninguém mais vê o que ele respondeu.
+
+## Duelos
+
+- Quem está logado cria um duelo com **5 questões objetivas** sorteadas da trilha ativa e recebe um link (`/duelos/<código>`). O código é aleatório, para ninguém achar duelos de outras pessoas.
+- O duelo é da trilha em que foi criado: quem abre o link joga as questões dela, esteja na trilha que estiver.
+- Qualquer pessoa logada com o link entra, até **7 dias** depois da criação e até **30 jogadores**. Visitante vê o convite e é chamado a entrar ou criar conta.
+- Cada pessoa tem **10 minutos** a partir do "Começar". O relógio é do servidor. Depois do prazo (com 30 segundos de tolerância), o que for enviado não conta e as questões ficam em branco.
+- Cada pessoa joga uma vez. **Placar:** mais acertos primeiro; no empate, menor tempo. O tempo para no limite de 10 minutos.
+- O placar e o gabarito comentado aparecem **depois do envio**, só para quem jogou. O placar mostra o primeiro nome e a inicial do sobrenome.
+- As respostas entram no painel de desempenho e no caderno de erros, como no simulado.
+- **Revanche** cria um duelo novo, com outras questões da mesma trilha.
+
+## Resumo da semana
+
+- Meu desempenho mostra a semana atual (segunda a domingo, horário de Brasília) em números: questões objetivas respondidas, acerto, dias estudando e duelos jogados, comparados com a semana anterior. Também mostra a matéria em que a pessoa mais acertou.
+- Cada questão conta uma vez na semana, pela primeira resposta dela na semana, fora dos desafios.
+- O botão **Compartilhar no WhatsApp** monta um texto com os números e o nível, sem nome nem matéria. Só sai se a pessoa enviar.
+
+## Meta diária
+
+- Cada pessoa escolhe quantas questões quer responder por dia: **5, 10 (padrão), 20 ou 30**. Ela troca a meta em Meu desempenho.
+- O progresso de hoje conta as **questões diferentes** respondidas no dia (horário de Brasília), objetivas e discursivas, em qualquer prova e em qualquer lugar da plataforma.
+- O cartão "Seu nível" mostra "Meta de hoje: X de N" e avisa quando ela é batida.
+- A conquista **Meta batida** sai no primeiro dia em que a pessoa responde as questões da meta (pela meta atual).
+
+## Estrelas por matéria
+
+- Cada matéria mostra de 0 a 3 estrelas pelo acerto da pessoa nela, contando a resposta mais recente de cada questão (como em Meu desempenho): **1 estrela a partir de 40%, 2 a partir de 60% e 3 a partir de 80%**.
+- As estrelas só aparecem depois de 5 questões respondidas na matéria, ou de todas, se a matéria tiver menos de 5.
+- Aparecem no nó da matéria no roadmap e em Meu desempenho. O painel da matéria diz quanto falta para a próxima estrela.
+- Só a própria pessoa vê as suas estrelas.
+
+## Batalha da semana
+
+- As trilhas disputam a semana, de segunda a domingo no horário de Brasília.
+- Cada questão objetiva **acertada na semana** soma 1 ponto para a trilha da questão. Conta uma vez por pessoa e por questão, fora dos desafios.
+- O início mostra a pontuação de cada prova, quantas pessoas pontuaram, a prova ativa em destaque e quem venceu a semana anterior. Em caso de empate na semana anterior, não aparece vencedor.
+- **Só números por prova**, sem ranking de pessoas.
+
+## Modo sobrevivência
+
+- Partida solo na trilha ativa: questões objetivas uma por vez, com **3 vidas**. Errar tira uma vida; sem vidas (ou sem questões), a partida acaba.
+- **A ordem é gravada no começo:** primeiro as questões que a turma mais acerta de primeira, depois as que mais erra, em faixas de 10 pontos sorteadas por dentro. As questões com menos de 3 pessoas respondendo entram como 50%.
+- Depois de cada resposta aparecem a alternativa certa e a explicação dela. A próxima questão só vem no "Próxima".
+- **Uma partida aberta por pessoa em cada trilha.** Começar outra encerra a anterior. Uma resposta que chega para uma questão que já passou (aba antiga) é ignorada.
+- **Recorde:** o maior número de acertos numa partida, por trilha. Só a própria pessoa vê.
+- As respostas valem como qualquer outra: desempenho, caderno de erros e XP. A conquista **Sobrevivente** sai com 10 acertos numa partida.
+
+## Quantos acertaram
+
+- Depois de responder uma questão objetiva, a página mostra a porcentagem de quem **acertou de primeira** e quantas pessoas responderam. Conta a primeira resposta de cada pessoa, fora dos desafios.
+- Na questão do dia, a conta é só do dia.
+- O número só aparece com **pelo menos 3 pessoas**, para não dar para saber como um colega específico foi.
+- Questão com menos de 40% de acerto de primeira ganha o selo **Pegadinha**.
+
+## Questão do dia
+
+- Cada trilha tem **uma questão objetiva por dia**, sorteada no primeiro acesso do dia (fuso da plataforma) e gravada. É a mesma para todo mundo até a meia-noite.
+- O sorteio evita questões que já foram do dia nos últimos 60 dias, enquanto o banco tiver outras.
+- `/questao-do-dia` abre a da prova ativa. `/questao-do-dia/<prova>` é o link para compartilhar: abre a daquela prova, esteja quem abrir na trilha que estiver.
+- A resposta vale como qualquer outra (desempenho, caderno de erros, XP). Depois de responder, aparecem o gabarito comentado e quantas pessoas responderam e acertaram hoje, contando a primeira resposta do dia de cada uma.
+- Responder no próprio dia rende 5 XP a mais. A conquista **Pontual** sai com 5 questões do dia respondidas, cada uma no seu dia.
+
+## XP, níveis e conquistas
+
+- O XP é **calculado do que a pessoa já fez**, em todas as trilhas. Nada novo é gravado, então o histórico de antes desta funcionalidade conta.
+- **Quanto vale:**
+
+  | O quê | XP |
+  |---|---|
+  | Primeira resposta a uma questão objetiva | 2 |
+  | Primeiro acerto de uma questão | 10 |
+  | Discursiva respondida | 15 |
+  | Simulado entregue (completo: +25) | 25 |
+  | Desafio enviado | 20 |
+  | Duelo enviado | 10 |
+  | Duelo vencido, com pelo menos 2 jogadores e ao menos 1 acerto | 15 |
+  | Tópico do roadmap concluído | 5 |
+  | Questão do dia respondida no próprio dia (além do XP da questão) | 5 |
+
+- **Repetir a mesma questão não dá XP de novo.** Ajuda a fixar o conteúdo, mas não soma pontos.
+- **Acerto dentro de um desafio não dá XP de acerto**, só o envio do desafio. Senão o XP revelaria o gabarito antes de o desafio encerrar.
+- **Níveis:** cada nível pede 50 XP a mais que o anterior (0, 50, 150, 300, 500...), de Calouro (1) a Lenda (9).
+- **Sequência:** dias seguidos com alguma atividade, no fuso da plataforma. Quem estudou ontem e ainda não hoje mantém a sequência até o fim do dia.
+- **Conquistas:** marcos fixos, como primeira resposta, 10 e 100 acertos, 3 e 7 dias seguidos, duelista, campeão, maratonista, gabaritou, no rumo certo, madrugador (estudar das 4h às 7h) e coruja (das 23h às 4h).
+- O nível aparece no início e em Meu desempenho, só para a própria pessoa. Ao responder uma questão, a tela mostra o XP que a resposta rendeu.
 
 ## Painel de desempenho
 
