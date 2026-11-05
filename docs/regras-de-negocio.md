@@ -138,6 +138,13 @@ Alunos também têm e-mail institucional, muitas vezes no mesmo domínio dos pro
 - As respostas entram no painel de desempenho e no caderno de erros, como no simulado.
 - **Revanche** cria um duelo novo, com outras questões da mesma trilha.
 
+## Meta diária
+
+- Cada pessoa escolhe quantas questões quer responder por dia: **5, 10 (padrão), 20 ou 30**. Ela troca a meta em Meu desempenho.
+- O progresso de hoje conta as **questões diferentes** respondidas no dia (horário de Brasília), objetivas e discursivas, em qualquer prova e em qualquer lugar da plataforma.
+- O cartão "Seu nível" mostra "Meta de hoje: X de N" e avisa quando ela é batida.
+- A conquista **Meta batida** sai no primeiro dia em que a pessoa responde as questões da meta (pela meta atual).
+
 ## Estrelas por matéria
 
 - Cada matéria mostra de 0 a 3 estrelas pelo acerto da pessoa nela, contando a resposta mais recente de cada questão (como em Meu desempenho): **1 estrela a partir de 40%, 2 a partir de 60% e 3 a partir de 80%**.

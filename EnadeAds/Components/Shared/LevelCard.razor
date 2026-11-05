@@ -40,6 +40,20 @@
         }
     </p>
 
+    <div class="goal">
+        <p class="goal-text">
+            Meta de hoje: <span class="font-monospace">@Math.Min(Report.AnsweredToday, Report.DailyGoal) de @Report.DailyGoal</span> questões
+            @if (Report.GoalMetToday)
+            {
+                <strong class="goal-done">· batida!</strong>
+            }
+        </p>
+        <div class="level-bar goal-bar" role="progressbar" aria-label="Meta de hoje"
+             aria-valuenow="@Report.GoalPercent" aria-valuemin="0" aria-valuemax="100">
+            <span style="width: @(Report.GoalPercent)%"></span>
+        </div>
+    </div>
+
     @if (Compact)
     {
         <a class="small" href="meu-desempenho#conquistas">@Report.UnlockedCount de @Report.Achievements.Count conquistas</a>
