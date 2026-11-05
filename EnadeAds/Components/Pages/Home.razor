@@ -2,6 +2,7 @@
 @page "/blog"
 
 @using EnadeAds.Accounts
+@using EnadeAds.Achievements
 @using EnadeAds.Blog
 @using EnadeAds.Components.Pages.Blog
 @using EnadeAds.Components.Shared
@@ -17,6 +18,7 @@
 @inject TrackCatalog Tracks
 @inject TrackScope TrackScope
 @inject PerformanceService Performance
+@inject AchievementService Achievements
 @inject LocalCalendar Calendar
 @inject TimeProvider Clock
 @inject UserManager<ApplicationUser> Users
@@ -167,6 +169,14 @@ else
     </div>
 
     <aside class="col-lg-4" aria-label="Seu estudo e combinados">
+        @if (xp is not null)
+        {
+            <section class="module" aria-labelledby="level-title">
+                <h2 id="level-title" class="module-title">Seu nível</h2>
+                <LevelCard Report="xp" Compact="true" />
+            </section>
+        }
+
         <YourWeek Report="report" />
 
         <section class="module" aria-labelledby="duel-cta-title">
@@ -207,6 +217,7 @@ else
     private IReadOnlyList<Post>? notPublished;
     private SemesterView? semester;
     private PerformanceReport? report;
+    private XpReport? xp;
     private PostCategory? category;
     private Tab tab;
     private string? userId;
@@ -254,6 +265,7 @@ else
         {
             notPublished = await Blog.NotPublishedAsync(editor);
             report = await Performance.GetAsync(editor.UserId);
+            xp = await Achievements.GetAsync(editor.UserId);
         }
 
         await LoadFeedAsync();

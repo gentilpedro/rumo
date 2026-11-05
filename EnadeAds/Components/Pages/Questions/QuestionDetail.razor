@@ -101,6 +101,10 @@
                 var correct = question.Options.First(o => o.IsCorrect);
                 <strong><Icon Name="x" /> Você marcou @chosen.Letter.</strong> <span>A resposta correta é a alternativa @correct.Letter.</span>
             }
+            @if (xpGained > 0)
+            {
+                <span class="xp-gain">+@xpGained XP</span>
+            }
         </div>
 
         <ol class="list-unstyled d-flex flex-column gap-2">
@@ -172,6 +176,7 @@
     private string? userId;
     private Editor? editor;
     private bool invalidChoice;
+    private int xpGained;
 
     [Parameter]
     public int Id { get; set; }
@@ -236,6 +241,7 @@
         }
 
         latest = answer.Attempt;
+        xpGained = answer.XpGained;
     }
 
     private async Task AnswerDiscursiveAsync()

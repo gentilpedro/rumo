@@ -138,6 +138,29 @@ Alunos também têm e-mail institucional, muitas vezes no mesmo domínio dos pro
 - As respostas entram no painel de desempenho e no caderno de erros, como no simulado.
 - **Revanche** cria um duelo novo, com outras questões da mesma trilha.
 
+## XP, níveis e conquistas
+
+- O XP é **calculado do que a pessoa já fez**, em todas as trilhas. Nada novo é gravado, então o histórico de antes desta funcionalidade conta.
+- **Quanto vale:**
+
+  | O quê | XP |
+  |---|---|
+  | Primeira resposta a uma questão objetiva | 2 |
+  | Primeiro acerto de uma questão | 10 |
+  | Discursiva respondida | 15 |
+  | Simulado entregue (completo: +25) | 25 |
+  | Desafio enviado | 20 |
+  | Duelo enviado | 10 |
+  | Duelo vencido, com pelo menos 2 jogadores e ao menos 1 acerto | 15 |
+  | Tópico do roadmap concluído | 5 |
+
+- **Repetir a mesma questão não dá XP de novo.** Ajuda a fixar o conteúdo, mas não soma pontos.
+- **Acerto dentro de um desafio não dá XP de acerto**, só o envio do desafio. Senão o XP revelaria o gabarito antes de o desafio encerrar.
+- **Níveis:** cada nível pede 50 XP a mais que o anterior (0, 50, 150, 300, 500...), de Calouro (1) a Lenda (9).
+- **Sequência:** dias seguidos com alguma atividade, no fuso da plataforma. Quem estudou ontem e ainda não hoje mantém a sequência até o fim do dia.
+- **Conquistas:** marcos fixos, como primeira resposta, 10 e 100 acertos, 3 e 7 dias seguidos, duelista, campeão, maratonista, gabaritou, no rumo certo, madrugador (estudar das 4h às 7h) e coruja (das 23h às 4h).
+- O nível aparece no início e em Meu desempenho, só para a própria pessoa. Ao responder uma questão, a tela mostra o XP que a resposta rendeu.
+
 ## Painel de desempenho
 
 - A página **Meu desempenho** é só do próprio aluno; ninguém mais vê os números dele.
