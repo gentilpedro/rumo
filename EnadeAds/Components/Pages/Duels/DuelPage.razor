@@ -39,8 +39,8 @@
 
     @if (me is null)
     {
-        <section class="duel-invite" aria-labelledby="duel-title">
-            <p class="duel-kicker">@track?.Label · @duel.Questions.Count questões · @Minutes minutos</p>
+        <section class="game-hero" aria-labelledby="duel-title">
+            <p class="game-kicker">@track?.Label · @duel.Questions.Count questões · @Minutes minutos</p>
             <h1 id="duel-title">@creatorName te desafiou para um duelo</h1>
             <p class="text-body-secondary">
                 Todo mundo responde as mesmas questões. Ganha quem acertar mais; no empate, quem terminou mais rápido.
@@ -120,12 +120,12 @@
     {
         var position = standings.FirstOrDefault(s => s.IsMe)?.Position;
 
-        <section class="duel-result" aria-labelledby="result-title">
-            <p class="duel-kicker">@track?.Label · duelo de @creatorName</p>
+        <section class="game-hero" aria-labelledby="result-title">
+            <p class="game-kicker">@track?.Label · duelo de @creatorName</p>
             <h1 id="result-title">
                 @(position == 1 ? "Você está em 1º lugar!" : $"Você está em {position}º lugar")
             </h1>
-            <p class="duel-score">
+            <p class="game-score">
                 <span class="font-monospace">@me.CorrectCount de @duel.Questions.Count</span> acertos
                 em <span class="font-monospace">@Duration(me.Elapsed)</span>
             </p>

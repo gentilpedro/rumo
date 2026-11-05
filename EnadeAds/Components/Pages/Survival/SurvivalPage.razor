@@ -1,0 +1,166 @@
+@page "/sobrevivencia/{Id:int}"
+
+@using Microsoft.AspNetCore.Authorization
+@using EnadeAds.Data
+@using EnadeAds.Questions
+@using EnadeAds.Components.Pages.Questions
+@using EnadeAds.Survival
+@using Microsoft.AspNetCore.Identity
+
+@attribute [Authorize]
+
+@inject SurvivalService Survival
+@inject UserManager<ApplicationUser> Users
+@inject NavigationManager Navigation
+
+@if (run is not null)
+{
+    <PageTitle>Sobrevivência · @run.Score @(run.Score == 1 ? "acerto" : "acertos")</PageTitle>
+
+    <div class="survival-status" role="status">
+        <span class="lives" aria-label="@run.Lives de @SurvivalService.StartingLives vidas">
+            @for (var i = 0; i < SurvivalService.StartingLives; i++)
+            {
+                <svg viewBox="0 0 16 16" aria-hidden="true" class="@(i < run.Lives ? "is-on" : null)"><path d="M8 14s-5.5-3.4-5.5-7.2A3 3 0 0 1 8 4.6a3 3 0 0 1 5.5 2.2C13.5 10.6 8 14 8 14z" /></svg>
+            }
+        </span>
+        <span><span class="font-monospace">@run.Score</span> @(run.Score == 1 ? "acerto" : "acertos")</span>
+        <span class="text-body-secondary small">recorde: <span class="font-monospace">@record</span></span>
+    </div>
+
+    @if (answered is not null && question is not null)
+    {
+        @* Resultado da resposta que acabou de chegar: a próxima questão só aparece no GET seguinte. *@
+        var chosen = question.Options.First(o => o.Id == answered.OptionId);
+        var correct = question.Options.First(o => o.IsCorrect);
+
+        <div class="alert @(answered.IsCorrect ? "alert-success" : "alert-danger")" role="status">
+            @if (answered.IsCorrect)
+            {
+                <strong><Icon Name="check" /> Acertou!</strong> <span>Alternativa @chosen.Letter.</span>
+            }
+            else
+            {
+                <strong><Icon Name="x" /> Errou: perdeu uma vida.</strong> <span>A certa era a @correct.Letter.</span>
+            }
+            @if (xpGained > 0)
+            {
+                <span class="xp-gain">+@xpGained XP</span>
+            }
+        </div>
+        <p class="small text-body-secondary"><strong>@correct.Letter)</strong> @correct.Explanation</p>
+
+        @if (run.IsOpen)
+        {
+            <a class="btn btn-primary btn-lg" href="sobrevivencia/@run.Id">Próxima</a>
+        }
+        else
+        {
+            <EndOfRun Run="run" PreviousBest="previousBest" />
+        }
+    }
+    else if (!run.IsOpen)
+    {
+        <EndOfRun Run="run" PreviousBest="previousBest" />
+    }
+    else if (question is not null)
+    {
+        <h1 class="h5">Questão @(run.Position + 1) <span class="small text-body-secondary fw-normal">· @question.Subject?.Title</span></h1>
+        @* HTML gerado pelo StatementFormatter: todo texto é escapado e só tags fixas são adicionadas. *@
+        <div class="question-statement mb-3">@((MarkupString)StatementFormatter.ToHtml(question.Statement))</div>
+
+        <form method="post" action="sobrevivencia/@run.Id" @formname="survival-answer" @onsubmit="AnswerAsync">
+            <AntiforgeryToken />
+            <input type="hidden" name="QuestionId" value="@question.Id" />
+            <fieldset>
+                <legend class="visually-hidden">Escolha uma alternativa</legend>
+                @if (invalidChoice)
+                {
+                    <p class="text-danger" role="alert">Escolha uma das alternativas.</p>
+                }
+                @foreach (var option in question.Options)
+                {
+                    <div class="form-check mb-2">
+                        <input class="form-check-input" type="radio" name="Letter" id="opcao-@option.Letter" value="@option.Letter" required />
+                        <label class="form-check-label" for="opcao-@option.Letter"><strong>@option.Letter)</strong> <OptionText Text="@option.Text" /></label>
+                    </div>
+                }
+            </fieldset>
+            <button type="submit" class="btn btn-primary btn-lg mt-2">Responder</button>
+        </form>
+    }
+}
+
+@code {
+    private SurvivalRun? run;
+    private Question? question;
+    private QuestionAttempt? answered;
+    private int previousBest;
+
+    private int record => Math.Max(run?.Score ?? 0, previousBest);
+    private int xpGained;
+    private bool invalidChoice;
+    private string? userId;
+
+    [Parameter]
+    public int Id { get; set; }
+
+    [CascadingParameter]
+    private HttpContext HttpContext { get; set; } = default!;
+
+    [SupplyParameterFromForm(FormName = "survival-answer")]
+    private string? Letter { get; set; }
+
+    [SupplyParameterFromForm(FormName = "survival-answer")]
+    private int? QuestionId { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+        userId = Users.GetUserId(HttpContext.User);
+        await LoadAsync();
+    }
+
+    private async Task LoadAsync()
+    {
+        // A partida de outra pessoa simplesmente não existe para quem não é o dono.
+        run = userId is null ? null : await Survival.FindAsync(userId, Id);
+        if (run is null)
+        {
+            Navigation.NotFound();
+            return;
+        }
+
+        previousBest = await Survival.RecordAsync(userId!, run.TrackId, exceptRunId: run.Id);
+        question = run.CurrentQuestionId is { } current ? await Survival.QuestionAsync(current) : null;
+    }
+
+    private async Task AnswerAsync()
+    {
+        if (userId is null || run is null || QuestionId is null)
+        {
+            HttpContext.Response.StatusCode = StatusCodes.Status400BadRequest;
+            return;
+        }
+
+        if (Letter is not { Length: 1 })
+        {
+            invalidChoice = true;
+            HttpContext.Response.StatusCode = StatusCodes.Status400BadRequest;
+            return;
+        }
+
+        var result = await Survival.AnswerAsync(userId, run.Id, QuestionId.Value, Letter[0]);
+        if (result.Outcome != SurvivalAnswerOutcome.Answered)
+        {
+            // Aba antiga ou partida encerrada: mostra o estado atual, sem contar a resposta.
+            Navigation.NavigateTo($"sobrevivencia/{run.Id}");
+            return;
+        }
+
+        var answeredQuestion = QuestionId.Value;
+        await LoadAsync();
+        answered = result.Attempt;
+        xpGained = result.XpGained;
+        question = await Survival.QuestionAsync(answeredQuestion);
+    }
+}

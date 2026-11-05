@@ -13,6 +13,7 @@ using EnadeAds.Privacy;
 using EnadeAds.Questions;
 using EnadeAds.Security;
 using EnadeAds.Study;
+using EnadeAds.Survival;
 using Microsoft.AspNetCore.Components.Authorization;
 using Microsoft.AspNetCore.DataProtection;
 using Microsoft.AspNetCore.HttpOverrides;
@@ -104,6 +105,7 @@ try
     builder.Services.AddScoped<DuelService>();
     builder.Services.AddScoped<AchievementService>();
     builder.Services.AddScoped<DailyQuestionService>();
+    builder.Services.AddScoped<SurvivalService>();
     builder.Services.AddSingleton<LocalCalendar>();
     builder.Services.AddSingleton(TimeProvider.System);
     builder.Services.Configure<ExamOptions>(builder.Configuration.GetSection(ExamOptions.SectionName));

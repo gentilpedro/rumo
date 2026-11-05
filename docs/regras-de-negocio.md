@@ -138,6 +138,15 @@ Alunos também têm e-mail institucional, muitas vezes no mesmo domínio dos pro
 - As respostas entram no painel de desempenho e no caderno de erros, como no simulado.
 - **Revanche** cria um duelo novo, com outras questões da mesma trilha.
 
+## Modo sobrevivência
+
+- Partida solo na trilha ativa: questões objetivas uma por vez, com **3 vidas**. Errar tira uma vida; sem vidas (ou sem questões), a partida acaba.
+- **A ordem é gravada no começo:** primeiro as questões que a turma mais acerta de primeira, depois as que mais erra, em faixas de 10 pontos sorteadas por dentro. As questões com menos de 3 pessoas respondendo entram como 50%.
+- Depois de cada resposta aparecem a alternativa certa e a explicação dela. A próxima questão só vem no "Próxima".
+- **Uma partida aberta por pessoa em cada trilha.** Começar outra encerra a anterior. Uma resposta que chega para uma questão que já passou (aba antiga) é ignorada.
+- **Recorde:** o maior número de acertos numa partida, por trilha. Só a própria pessoa vê.
+- As respostas valem como qualquer outra: desempenho, caderno de erros e XP. A conquista **Sobrevivente** sai com 10 acertos numa partida.
+
 ## Quantos acertaram
 
 - Depois de responder uma questão objetiva, a página mostra a porcentagem de quem **acertou de primeira** e quantas pessoas responderam. Conta a primeira resposta de cada pessoa, fora dos desafios.
