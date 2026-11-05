@@ -138,6 +138,13 @@ Alunos também têm e-mail institucional, muitas vezes no mesmo domínio dos pro
 - As respostas entram no painel de desempenho e no caderno de erros, como no simulado.
 - **Revanche** cria um duelo novo, com outras questões da mesma trilha.
 
+## Quantos acertaram
+
+- Depois de responder uma questão objetiva, a página mostra a porcentagem de quem **acertou de primeira** e quantas pessoas responderam. Conta a primeira resposta de cada pessoa, fora dos desafios.
+- Na questão do dia, a conta é só do dia.
+- O número só aparece com **pelo menos 3 pessoas**, para não dar para saber como um colega específico foi.
+- Questão com menos de 40% de acerto de primeira ganha o selo **Pegadinha**.
+
 ## Questão do dia
 
 - Cada trilha tem **uma questão objetiva por dia**, sorteada no primeiro acesso do dia (fuso da plataforma) e gravada. É a mesma para todo mundo até a meia-noite.

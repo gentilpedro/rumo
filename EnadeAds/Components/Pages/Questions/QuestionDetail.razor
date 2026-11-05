@@ -107,6 +107,18 @@
             }
         </div>
 
+        @if (community is { IsVisible: true })
+        {
+            <p class="daily-stats">
+                <span class="font-monospace">@community.Percent%</span>
+                acertaram de primeira · @community.Answered pessoas responderam
+                @if (community.IsTricky)
+                {
+                    <span class="badge text-bg-warning ms-1">Pegadinha</span>
+                }
+            </p>
+        }
+
         <ol class="list-unstyled d-flex flex-column gap-2">
             @foreach (var option in question.Options)
             {
@@ -177,6 +189,7 @@
     private Editor? editor;
     private bool invalidChoice;
     private int xpGained;
+    private CommunityScore? community;
 
     [Parameter]
     public int Id { get; set; }
@@ -220,6 +233,10 @@
         else
         {
             latest = await Bank.LatestAttemptAsync(userId, Id);
+            if (latest is not null)
+            {
+                community = await Bank.CommunityAsync(Id);
+            }
         }
     }
 
@@ -242,6 +259,7 @@
 
         latest = answer.Attempt;
         xpGained = answer.XpGained;
+        community = await Bank.CommunityAsync(question.Id);
     }
 
     private async Task AnswerDiscursiveAsync()
