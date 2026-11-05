@@ -105,6 +105,7 @@ try
     builder.Services.AddScoped<MockExamService>();
     builder.Services.AddScoped<DuelService>();
     builder.Services.AddScoped<AchievementService>();
+    builder.Services.AddScoped<WeeklySummaryService>();
     builder.Services.AddScoped<DailyQuestionService>();
     builder.Services.AddScoped<SurvivalService>();
     builder.Services.AddScoped<WeeklyBattleService>();

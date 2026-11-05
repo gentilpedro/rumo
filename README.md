@@ -29,6 +29,7 @@ Cada prova é uma **trilha**. Ao entrar, o estudante escolhe a dele, e a marca p
 - **Duelos:** 5 questões, 10 minutos e um link para mandar no grupo da turma. Ganha quem acertar mais; no empate, quem foi mais rápido.
 - **Desafios semanais** publicados pelos professores.
 - **Meu desempenho:** acertos por matéria, para saber onde focar.
+- **Resumo da semana:** seus números da semana comparados com a anterior, prontos para mandar no grupo.
 - **Meta diária:** você escolhe quantas questões quer fazer por dia e acompanha o progresso no início.
 - **XP, níveis e conquistas:** cada questão nova, simulado, desafio e duelo rende XP. A sequência de dias estudando fica no início.
 - **Grade do semestre:** quantas semanas faltam, os desafios de cada semana e o dia da prova.

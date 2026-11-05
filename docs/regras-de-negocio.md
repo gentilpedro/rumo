@@ -138,6 +138,12 @@ Alunos também têm e-mail institucional, muitas vezes no mesmo domínio dos pro
 - As respostas entram no painel de desempenho e no caderno de erros, como no simulado.
 - **Revanche** cria um duelo novo, com outras questões da mesma trilha.
 
+## Resumo da semana
+
+- Meu desempenho mostra a semana atual (segunda a domingo, horário de Brasília) em números: questões objetivas respondidas, acerto, dias estudando e duelos jogados, comparados com a semana anterior. Também mostra a matéria em que a pessoa mais acertou.
+- Cada questão conta uma vez na semana, pela primeira resposta dela na semana, fora dos desafios.
+- O botão **Compartilhar no WhatsApp** monta um texto com os números e o nível, sem nome nem matéria. Só sai se a pessoa enviar.
+
 ## Meta diária
 
 - Cada pessoa escolhe quantas questões quer responder por dia: **5, 10 (padrão), 20 ou 30**. Ela troca a meta em Meu desempenho.
