@@ -1,4 +1,5 @@
 using EnadeAds.Accounts;
+using EnadeAds.Achievements;
 using EnadeAds.Blog;
 using EnadeAds.Challenges;
 using EnadeAds.Components;
@@ -100,6 +101,7 @@ try
     builder.Services.AddScoped<PerformanceService>();
     builder.Services.AddScoped<MockExamService>();
     builder.Services.AddScoped<DuelService>();
+    builder.Services.AddScoped<AchievementService>();
     builder.Services.AddSingleton<LocalCalendar>();
     builder.Services.AddSingleton(TimeProvider.System);
     builder.Services.Configure<ExamOptions>(builder.Configuration.GetSection(ExamOptions.SectionName));

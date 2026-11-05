@@ -1,3 +1,4 @@
+using EnadeAds.Achievements;
 using EnadeAds.Data;
 using EnadeAds.Study;
 using Microsoft.EntityFrameworkCore;
@@ -18,7 +19,8 @@ public sealed record QuestionSummary(int Id, QuestionKind Kind, string Excerpt, 
 
 public sealed record QuestionPage(IReadOnlyList<QuestionSummary> Items, int Page, int TotalPages, int TotalCount);
 
-public sealed record AnswerResult(QuestionAttempt Attempt, QuestionOption Chosen);
+/// <param name="XpGained">XP que esta resposta rendeu: só a primeira resposta e o primeiro acerto valem.</param>
+public sealed record AnswerResult(QuestionAttempt Attempt, QuestionOption Chosen, int XpGained = 0);
 
 public sealed class QuestionBank(ApplicationDbContext db, TimeProvider clock)
 {
@@ -88,6 +90,13 @@ public sealed class QuestionBank(ApplicationDbContext db, TimeProvider clock)
             return null;
         }
 
+        // Fora dos desafios, como no cálculo do XP (AchievementService).
+        var before = await db.QuestionAttempts.AsNoTracking()
+            .Where(a => a.UserId == userId && a.QuestionId == questionId)
+            .Select(a => new { a.IsCorrect, a.ChallengeId })
+            .ToListAsync(cancellationToken);
+        var xp = XpRules.ForAnswer(before.Count > 0, before.Any(a => a.IsCorrect && a.ChallengeId == null), option.IsCorrect);
+
         var attempt = new QuestionAttempt
         {
             QuestionId = questionId,
@@ -99,7 +108,7 @@ public sealed class QuestionBank(ApplicationDbContext db, TimeProvider clock)
         db.QuestionAttempts.Add(attempt);
         await db.SaveChangesAsync(cancellationToken);
 
-        return new AnswerResult(attempt, option);
+        return new AnswerResult(attempt, option, xp);
     }
 
     public Task<DiscursiveAnswer?> LatestDiscursiveAnswerAsync(string userId, int questionId, CancellationToken cancellationToken = default) =>

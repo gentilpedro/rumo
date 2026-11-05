@@ -1,0 +1,56 @@
+@using EnadeAds.Achievements
+
+@* Nível, barra até o próximo, sequência de dias e conquistas. No início (resumido) e em Meu desempenho. *@
+<div class="level-card">
+    <div class="level-head">
+        <span class="level-number" aria-hidden="true">@Report.Level.Number</span>
+        <div>
+            <p class="level-title">Nível @Report.Level.Number · @Report.Level.Title</p>
+            <p class="level-xp"><span class="font-monospace">@Report.Xp</span> XP</p>
+        </div>
+    </div>
+
+    <div class="level-bar" role="progressbar" aria-label="Caminho até o próximo nível"
+         aria-valuenow="@Report.Level.PercentTo(Report.Xp)" aria-valuemin="0" aria-valuemax="100">
+        <span style="width: @(Report.Level.PercentTo(Report.Xp))%"></span>
+    </div>
+    <p class="level-next">
+        @if (Report.Level.NextAt is { } next)
+        {
+            <text>Faltam <span class="font-monospace">@(next - Report.Xp)</span> XP para o nível @(Report.Level.Number + 1).</text>
+        }
+        else
+        {
+            <text>Nível máximo. Você é lenda.</text>
+        }
+    </p>
+
+    <p class="level-streak @(Report.CurrentStreak > 0 ? "is-on" : null)">
+        <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 1.5c.5 2.5 3.5 3.8 3.5 7.5a3.5 3.5 0 0 1-7 0c0-1.6.8-2.6 1.6-3.4.2 1 .7 1.7 1.4 2C7 5.5 7.3 3.4 8 1.5z" /></svg>
+        @if (Report.CurrentStreak == 0)
+        {
+            <span>Estude hoje para começar uma sequência.</span>
+        }
+        else
+        {
+            <span>
+                <strong>@(Report.CurrentStreak == 1 ? "1 dia de sequência" : $"{Report.CurrentStreak} dias seguidos")</strong>
+                @(Report.StudiedToday ? "· hoje já conta" : "· estude hoje para não perder")
+            </span>
+        }
+    </p>
+
+    @if (Compact)
+    {
+        <a class="small" href="meu-desempenho#conquistas">@Report.UnlockedCount de @Report.Achievements.Count conquistas</a>
+    }
+</div>
+
+@code {
+    [Parameter, EditorRequired]
+    public XpReport Report { get; set; } = default!;
+
+    /// <summary>Versão do início: com o link para as conquistas, sem a lista.</summary>
+    [Parameter]
+    public bool Compact { get; set; }
+}
