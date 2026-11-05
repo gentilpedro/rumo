@@ -1317,3 +1317,26 @@ a.tag-discussion:not(.btn) {
     font-size: 0.75rem;
     color: var(--muted);
 }
+
+/* Estrelas por matéria (roadmap e Meu desempenho). */
+.stars {
+    display: inline-flex;
+    gap: 0.0625rem;
+    vertical-align: -0.125em;
+}
+
+.stars svg {
+    width: 0.9375rem;
+    height: 0.9375rem;
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 1.2;
+    stroke-linejoin: round;
+    opacity: 0.45;
+}
+
+.stars svg.is-on {
+    fill: var(--you);
+    stroke: var(--you);
+    opacity: 1;
+}

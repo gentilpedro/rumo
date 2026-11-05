@@ -1,0 +1,14 @@
+@using EnadeAds.Performance
+
+@* Estrelas de uma matéria: cheias e vazias, com o número por extenso para leitor de tela. *@
+<span class="stars" role="img" aria-label="@Count de @Stars.Max estrelas">
+    @for (var i = 0; i < Stars.Max; i++)
+    {
+        <svg viewBox="0 0 16 16" aria-hidden="true" class="@(i < Count ? "is-on" : null)"><path d="M8 1.2l2 4.3 4.7.5-3.5 3.2 1 4.6L8 11.5l-4.2 2.3 1-4.6L1.3 6l4.7-.5z" /></svg>
+    }
+</span>
+
+@code {
+    [Parameter]
+    public int Count { get; set; }
+}

@@ -396,3 +396,11 @@
         transition: none;
     }
 }
+
+/* Painel da matéria: estrelas e quanto falta para a próxima. */
+.rm-stars-note {
+    margin-bottom: 1rem;
+    padding: 0.625rem 0.75rem;
+    border-left: 3px solid var(--you);
+    background: var(--you-tint);
+}
