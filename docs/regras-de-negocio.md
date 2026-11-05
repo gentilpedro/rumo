@@ -138,6 +138,14 @@ Alunos também têm e-mail institucional, muitas vezes no mesmo domínio dos pro
 - As respostas entram no painel de desempenho e no caderno de erros, como no simulado.
 - **Revanche** cria um duelo novo, com outras questões da mesma trilha.
 
+## Questão do dia
+
+- Cada trilha tem **uma questão objetiva por dia**, sorteada no primeiro acesso do dia (fuso da plataforma) e gravada. É a mesma para todo mundo até a meia-noite.
+- O sorteio evita questões que já foram do dia nos últimos 60 dias, enquanto o banco tiver outras.
+- `/questao-do-dia` abre a da prova ativa. `/questao-do-dia/<prova>` é o link para compartilhar: abre a daquela prova, esteja quem abrir na trilha que estiver.
+- A resposta vale como qualquer outra (desempenho, caderno de erros, XP). Depois de responder, aparecem o gabarito comentado e quantas pessoas responderam e acertaram hoje, contando a primeira resposta do dia de cada uma.
+- Responder no próprio dia rende 5 XP a mais. A conquista **Pontual** sai com 5 questões do dia respondidas, cada uma no seu dia.
+
 ## XP, níveis e conquistas
 
 - O XP é **calculado do que a pessoa já fez**, em todas as trilhas. Nada novo é gravado, então o histórico de antes desta funcionalidade conta.
@@ -153,6 +161,7 @@ Alunos também têm e-mail institucional, muitas vezes no mesmo domínio dos pro
   | Duelo enviado | 10 |
   | Duelo vencido, com pelo menos 2 jogadores e ao menos 1 acerto | 15 |
   | Tópico do roadmap concluído | 5 |
+  | Questão do dia respondida no próprio dia (além do XP da questão) | 5 |
 
 - **Repetir a mesma questão não dá XP de novo.** Ajuda a fixar o conteúdo, mas não soma pontos.
 - **Acerto dentro de um desafio não dá XP de acerto**, só o envio do desafio. Senão o XP revelaria o gabarito antes de o desafio encerrar.

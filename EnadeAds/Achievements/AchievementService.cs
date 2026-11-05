@@ -60,6 +60,17 @@ public sealed class AchievementService(ApplicationDbContext db, LocalCalendar ca
             // Vitória com zero acertos não conta: empate em nada não é vitória.
             .Count(g => DuelService.Rank(g) is { Count: >= 2 } ranked && ranked[0].UserId == userId && ranked[0].CorrectCount > 0);
 
+        // Questão do dia respondida no próprio dia, em qualquer trilha.
+        var attemptedIds = attempts.Select(a => a.QuestionId).Distinct().ToList();
+        var dailies = await db.DailyQuestions.AsNoTracking()
+            .Where(d => attemptedIds.Contains(d.QuestionId))
+            .Select(d => new { d.QuestionId, d.Date })
+            .ToListAsync(cancellationToken);
+        var answeredOn = attempts.Where(a => a.ChallengeId is null)
+            .Select(a => (a.QuestionId, Day: DateOnly.FromDateTime(calendar.ToLocal(a.AnsweredAt))))
+            .ToHashSet();
+        var dailyCount = dailies.Count(d => answeredOn.Contains((d.QuestionId, d.Date)));
+
         var topics = await db.RoadmapProgress.AsNoTracking()
             .Where(p => p.UserId == userId && p.Status == NodeStatus.Done)
             .Select(p => p.UpdatedAt)
@@ -81,6 +92,7 @@ public sealed class AchievementService(ApplicationDbContext db, LocalCalendar ca
             new("Desafios enviados", challenges.Count, challenges.Count * XpRules.Challenge),
             new("Duelos jogados", myDuels.Count, myDuels.Count * XpRules.Duel),
             new("Duelos vencidos", duelWins, duelWins * XpRules.DuelWin),
+            new("Questões do dia", dailyCount, dailyCount * XpRules.DailyQuestion),
             new("Tópicos do roadmap concluídos", topics.Count, topics.Count * XpRules.RoadmapTopic),
         };
         var xp = breakdown.Sum(line => line.Xp);
@@ -111,6 +123,7 @@ public sealed class AchievementService(ApplicationDbContext db, LocalCalendar ca
             Badge("maratonista", "Maratonista", "Entregue um simulado completo, do tamanho da prova.", fullExams >= 1),
             Badge("gabarito", "Gabaritou", "Acerte todas as objetivas de um simulado de 10 questões ou mais.",
                 mockExams.Any(m => m.ObjectiveCount >= 10 && m.CorrectCount == m.ObjectiveCount)),
+            Badge("pontual", "Pontual", "Responda 5 questões do dia, cada uma no seu dia.", dailyCount >= 5),
             Badge("trilheiro", "No rumo certo", "Conclua 10 tópicos do roadmap.", topics.Count >= 10),
             Badge("madrugador", "Madrugador", "Estude antes das 7h.", moments.Any(m => m.Hour < 7 && m.Hour >= 4)),
             Badge("coruja", "Coruja", "Estude depois das 23h.", moments.Any(m => m.Hour >= 23 || m.Hour < 4)),

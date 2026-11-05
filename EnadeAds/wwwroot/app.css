@@ -1190,3 +1190,15 @@ a.tag-discussion:not(.btn) {
     text-transform: uppercase;
     letter-spacing: 0.04em;
 }
+
+/* Questão do dia: quanto a turma acertou, logo depois de responder. */
+.daily-stats {
+    margin: 0 0 1rem;
+    color: var(--muted);
+}
+
+.daily-stats .font-monospace {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--you);
+}

@@ -1,5 +1,6 @@
 using EnadeAds.Blog;
 using EnadeAds.Challenges;
+using EnadeAds.Daily;
 using EnadeAds.Duels;
 using EnadeAds.MockExams;
 using EnadeAds.Questions;
@@ -42,6 +43,7 @@ public class ApplicationDbContext(DbContextOptions<ApplicationDbContext> options
     public DbSet<DuelQuestion> DuelQuestions => Set<DuelQuestion>();
     public DbSet<DuelPlayer> DuelPlayers => Set<DuelPlayer>();
     public DbSet<DuelAnswer> DuelAnswers => Set<DuelAnswer>();
+    public DbSet<DailyQuestion> DailyQuestions => Set<DailyQuestion>();
 
     protected override void OnModelCreating(ModelBuilder builder)
     {
@@ -290,6 +292,15 @@ public class ApplicationDbContext(DbContextOptions<ApplicationDbContext> options
         {
             answer.HasKey(a => new { a.DuelId, a.UserId, a.QuestionId });
             answer.HasOne<QuestionOption>().WithMany().HasForeignKey(a => a.OptionId).OnDelete(DeleteBehavior.Cascade);
+        });
+
+        builder.Entity<DailyQuestion>(daily =>
+        {
+            // Uma questão por dia em cada trilha, garantido pelo banco.
+            daily.HasKey(d => new { d.TrackId, d.Date });
+            daily.HasIndex(d => d.QuestionId);
+            daily.HasOne<Track>().WithMany().HasForeignKey(d => d.TrackId).OnDelete(DeleteBehavior.Cascade);
+            daily.HasOne<Question>().WithMany().HasForeignKey(d => d.QuestionId).OnDelete(DeleteBehavior.Cascade);
         });
 
         builder.Entity<DiscursiveAnswer>(answer =>
