@@ -23,6 +23,9 @@ public static class XpRules
 
     public const int RoadmapTopic = 5;
 
+    /// <summary>Responder a questão do dia no próprio dia, além do XP normal da questão.</summary>
+    public const int DailyQuestion = 5;
+
     /// <summary>XP de responder uma questão agora, sabendo o que a pessoa já tinha feito nela.</summary>
     public static int ForAnswer(bool answeredBefore, bool correctBefore, bool isCorrect) =>
         (answeredBefore ? 0 : FirstAnswer) + (isCorrect && !correctBefore ? FirstCorrect : 0);

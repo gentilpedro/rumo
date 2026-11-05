@@ -293,6 +293,24 @@ namespace EnadeAds.Data.Migrations
                     b.ToTable("ChallengeSubmissions");
                 });
 
+            modelBuilder.Entity("EnadeAds.Daily.DailyQuestion", b =>
+                {
+                    b.Property<int>("TrackId")
+                        .HasColumnType("integer");
+
+                    b.Property<DateOnly>("Date")
+                        .HasColumnType("date");
+
+                    b.Property<int>("QuestionId")
+                        .HasColumnType("integer");
+
+                    b.HasKey("TrackId", "Date");
+
+                    b.HasIndex("QuestionId");
+
+                    b.ToTable("DailyQuestions");
+                });
+
             modelBuilder.Entity("EnadeAds.Data.ApplicationUser", b =>
                 {
                     b.Property<string>("Id")
@@ -5700,6 +5718,21 @@ namespace EnadeAds.Data.Migrations
                     b.HasOne("EnadeAds.Data.ApplicationUser", null)
                         .WithMany()
                         .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("EnadeAds.Daily.DailyQuestion", b =>
+                {
+                    b.HasOne("EnadeAds.Questions.Question", null)
+                        .WithMany()
+                        .HasForeignKey("QuestionId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("EnadeAds.Study.Track", null)
+                        .WithMany()
+                        .HasForeignKey("TrackId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
                 });

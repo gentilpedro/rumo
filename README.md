@@ -22,6 +22,7 @@ Cada prova é uma **trilha**. Ao entrar, o estudante escolhe a dele, e a marca p
 - **Roadmap de estudos:** as matérias da prova em ordem, divididas em assuntos e checkpoints. O progresso fica salvo na conta.
 - **Questões com gabarito comentado:** cada alternativa explica por que está certa ou errada. As discursivas trazem um padrão de resposta.
 - **Simulados cronometrados** no formato da prova, com questões das várias áreas e correção ao final.
+- **Questão do dia:** uma questão por dia em cada prova, a mesma para todo mundo, com quantos acertaram e um link para mandar à turma.
 - **Duelos:** 5 questões, 10 minutos e um link para mandar no grupo da turma. Ganha quem acertar mais; no empate, quem foi mais rápido.
 - **Desafios semanais** publicados pelos professores.
 - **Meu desempenho:** acertos por matéria, para saber onde focar.

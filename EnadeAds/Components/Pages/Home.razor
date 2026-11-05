@@ -6,6 +6,7 @@
 @using EnadeAds.Blog
 @using EnadeAds.Components.Pages.Blog
 @using EnadeAds.Components.Shared
+@using EnadeAds.Daily
 @using EnadeAds.Data
 @using EnadeAds.Duels
 @using EnadeAds.Performance
@@ -19,6 +20,7 @@
 @inject TrackScope TrackScope
 @inject PerformanceService Performance
 @inject AchievementService Achievements
+@inject DailyQuestionService Daily
 @inject LocalCalendar Calendar
 @inject TimeProvider Clock
 @inject UserManager<ApplicationUser> Users
@@ -169,6 +171,25 @@ else
     </div>
 
     <aside class="col-lg-4" aria-label="Seu estudo e combinados">
+        @if (daily is not null)
+        {
+            <section class="module" aria-labelledby="daily-title">
+                <h2 id="daily-title" class="module-title">Questão do dia</h2>
+                <div class="next-step">
+                    <h3>@daily.Subject?.Title</h3>
+                    <p>@DailyExcerpt</p>
+                    @if (dailyDone)
+                    {
+                        <a class="btn btn-sm btn-outline-primary" href="questao-do-dia">Você já respondeu · ver gabarito</a>
+                    }
+                    else
+                    {
+                        <a class="btn btn-sm btn-primary" href="questao-do-dia">Responder</a>
+                    }
+                </div>
+            </section>
+        }
+
         @if (xp is not null)
         {
             <section class="module" aria-labelledby="level-title">
@@ -218,6 +239,17 @@ else
     private SemesterView? semester;
     private PerformanceReport? report;
     private XpReport? xp;
+    private EnadeAds.Questions.Question? daily;
+    private bool dailyDone;
+
+    private string DailyExcerpt
+    {
+        get
+        {
+            var flat = string.Join(' ', (daily?.Statement ?? "").Split((char[])['\n', '\r', '\t', ' '], StringSplitOptions.RemoveEmptyEntries));
+            return flat.Length <= 120 ? flat : $"{flat[..120].TrimEnd()}…";
+        }
+    }
     private PostCategory? category;
     private Tab tab;
     private string? userId;
@@ -260,6 +292,12 @@ else
         now = Clock.GetUtcNow();
 
         var editor = EditorFactory.From(HttpContext.User, userId);
+        daily = await Daily.TodayAsync(track.Id);
+        if (daily is not null && userId is not null)
+        {
+            dailyDone = await Daily.AnsweredTodayAsync(userId, daily.Id) is not null;
+        }
+
         semester = await Semester.BuildAsync(userId, canSeeUpcoming: editor?.CanCreate == true);
         if (editor is not null)
         {
