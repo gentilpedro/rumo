@@ -1202,3 +1202,70 @@ a.tag-discussion:not(.btn) {
     font-weight: 700;
     color: var(--you);
 }
+
+/* Bloco escuro dos jogos (duelo e sobrevivência): a partida é um momento, não mais uma lista. */
+.game-hero {
+    background: var(--ink);
+    color: var(--ink-text);
+    /* No tema escuro o fundo da página é quase o mesmo azul: a borda e a faixa de cima separam o bloco. */
+    border: 1px solid var(--rule);
+    border-top: 4px solid var(--you-on-ink);
+    border-radius: .5rem;
+    padding: 1.75rem 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.game-hero h1 {
+    color: var(--ink-text);
+    font-size: clamp(1.5rem, 4vw, 2.25rem);
+    margin-bottom: .5rem;
+}
+
+.game-hero .text-body-secondary {
+    color: var(--ink-muted) !important;
+}
+
+.game-kicker {
+    color: var(--ink-muted);
+    font-size: .8rem;
+    letter-spacing: .06em;
+    text-transform: uppercase;
+    margin-bottom: .5rem;
+}
+
+.game-score {
+    font-size: 1.15rem;
+    margin-bottom: 0;
+}
+
+.game-score .font-monospace {
+    color: var(--you-on-ink);
+    font-weight: 700;
+}
+
+
+/* Modo sobrevivência: vidas e placar da partida, sempre à vista. */
+.survival-status {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 1rem;
+    padding: 0.625rem 0;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid var(--rule);
+}
+
+.survival-status .lives {
+    display: inline-flex;
+    gap: 0.25rem;
+}
+
+.survival-status .lives svg {
+    width: 1.5rem;
+    height: 1.5rem;
+    fill: var(--rule);
+}
+
+.survival-status .lives svg.is-on {
+    fill: var(--you);
+}

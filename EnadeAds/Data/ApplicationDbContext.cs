@@ -6,6 +6,7 @@ using EnadeAds.MockExams;
 using EnadeAds.Questions;
 using EnadeAds.Reviews;
 using EnadeAds.Study;
+using EnadeAds.Survival;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
@@ -44,6 +45,7 @@ public class ApplicationDbContext(DbContextOptions<ApplicationDbContext> options
     public DbSet<DuelPlayer> DuelPlayers => Set<DuelPlayer>();
     public DbSet<DuelAnswer> DuelAnswers => Set<DuelAnswer>();
     public DbSet<DailyQuestion> DailyQuestions => Set<DailyQuestion>();
+    public DbSet<SurvivalRun> SurvivalRuns => Set<SurvivalRun>();
 
     protected override void OnModelCreating(ModelBuilder builder)
     {
@@ -301,6 +303,18 @@ public class ApplicationDbContext(DbContextOptions<ApplicationDbContext> options
             daily.HasIndex(d => d.QuestionId);
             daily.HasOne<Track>().WithMany().HasForeignKey(d => d.TrackId).OnDelete(DeleteBehavior.Cascade);
             daily.HasOne<Question>().WithMany().HasForeignKey(d => d.QuestionId).OnDelete(DeleteBehavior.Cascade);
+        });
+
+        builder.Entity<SurvivalRun>(run =>
+        {
+            run.Property(r => r.Queue).HasMaxLength(20_000);
+            run.Ignore(r => r.IsOpen);
+            run.Ignore(r => r.QuestionIds);
+            run.Ignore(r => r.CurrentQuestionId);
+            run.HasIndex(r => new { r.UserId, r.TrackId });
+            run.HasOne<ApplicationUser>().WithMany().HasForeignKey(r => r.UserId).OnDelete(DeleteBehavior.Cascade);
+            run.HasOne<Track>().WithMany().HasForeignKey(r => r.TrackId).OnDelete(DeleteBehavior.Restrict);
+            run.HasQueryFilter(r => r.TrackId == CurrentTrackId);
         });
 
         builder.Entity<DiscursiveAnswer>(answer =>

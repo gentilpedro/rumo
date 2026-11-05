@@ -90,7 +90,7 @@ public static class TrackEndpoints
     /// <summary>Seções que só fazem sentido dentro de uma prova (primeiro trecho do caminho).</summary>
     private static readonly HashSet<string> TrackSections = new(StringComparer.OrdinalIgnoreCase)
     {
-        "roadmap", "materias", "questoes", "desafios", "simulados", "meu-desempenho",
+        "roadmap", "materias", "questoes", "desafios", "simulados", "meu-desempenho", "sobrevivencia",
     };
 
     /// <summary>

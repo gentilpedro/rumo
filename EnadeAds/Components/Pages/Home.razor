@@ -12,6 +12,7 @@
 @using EnadeAds.Performance
 @using EnadeAds.Questions
 @using EnadeAds.Study
+@using EnadeAds.Survival
 @using Microsoft.AspNetCore.Identity
 
 @inject BlogService Blog
@@ -201,11 +202,14 @@ else
         <YourWeek Report="report" />
 
         <section class="module" aria-labelledby="duel-cta-title">
-            <h2 id="duel-cta-title" class="module-title">Duelo</h2>
+            <h2 id="duel-cta-title" class="module-title">Jogar</h2>
             <div class="next-step">
                 <h3>Desafie a turma</h3>
-                <p>@DuelService.QuestionCount questões, @((int)DuelService.TimeLimit.TotalMinutes) minutos, o mesmo link para todo mundo. Quem acertar mais leva.</p>
-                <a class="btn btn-sm btn-primary" href="duelos">Criar um duelo</a>
+                <p>Duelo: @DuelService.QuestionCount questões, @((int)DuelService.TimeLimit.TotalMinutes) minutos, o mesmo link para todo mundo. Ou jogue sozinho no modo sobrevivência: até errar @SurvivalService.StartingLives.</p>
+                <div class="d-flex flex-wrap gap-2">
+                    <a class="btn btn-sm btn-primary" href="duelos">Criar um duelo</a>
+                    <a class="btn btn-sm btn-outline-primary" href="sobrevivencia">Sobrevivência</a>
+                </div>
             </div>
         </section>
 

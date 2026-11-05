@@ -71,6 +71,10 @@ public sealed class AchievementService(ApplicationDbContext db, LocalCalendar ca
             .ToHashSet();
         var dailyCount = dailies.Count(d => answeredOn.Contains((d.QuestionId, d.Date)));
 
+        var bestSurvival = await db.SurvivalRuns.IgnoreQueryFilters().AsNoTracking()
+            .Where(r => r.UserId == userId)
+            .MaxAsync(r => (int?)r.Score, cancellationToken) ?? 0;
+
         var topics = await db.RoadmapProgress.AsNoTracking()
             .Where(p => p.UserId == userId && p.Status == NodeStatus.Done)
             .Select(p => p.UpdatedAt)
@@ -120,6 +124,7 @@ public sealed class AchievementService(ApplicationDbContext db, LocalCalendar ca
             Badge("uma-semana", "Uma semana sem parar", "Estude sete dias seguidos.", longest >= 7),
             Badge("duelista", "Duelista", "Jogue um duelo até o fim.", myDuels.Count >= 1),
             Badge("campeao", "Campeão", "Vença um duelo com pelo menos dois jogadores, acertando ao menos uma.", duelWins >= 1),
+            Badge("sobrevivente", "Sobrevivente", "Acerte 10 questões numa partida do modo sobrevivência.", bestSurvival >= 10),
             Badge("maratonista", "Maratonista", "Entregue um simulado completo, do tamanho da prova.", fullExams >= 1),
             Badge("gabarito", "Gabaritou", "Acerte todas as objetivas de um simulado de 10 questões ou mais.",
                 mockExams.Any(m => m.ObjectiveCount >= 10 && m.CorrectCount == m.ObjectiveCount)),
