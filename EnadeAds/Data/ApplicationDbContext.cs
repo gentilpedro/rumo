@@ -1,3 +1,4 @@
+using EnadeAds.Achievements;
 using EnadeAds.Blog;
 using EnadeAds.Challenges;
 using EnadeAds.Daily;
@@ -203,7 +204,12 @@ public class ApplicationDbContext(DbContextOptions<ApplicationDbContext> options
             report.HasOne<ApplicationUser>().WithMany().HasForeignKey(r => r.ResolvedById).OnDelete(DeleteBehavior.SetNull);
         });
 
-        builder.Entity<ApplicationUser>(user => user.Property(u => u.TermsVersion).HasMaxLength(20));
+        builder.Entity<ApplicationUser>(user =>
+        {
+            user.Property(u => u.TermsVersion).HasMaxLength(20);
+            // Contas que já existem começam com a meta padrão.
+            user.Property(u => u.DailyGoal).HasDefaultValue(XpRules.DefaultDailyGoal);
+        });
 
         builder.Entity<SiteSetting>(setting =>
         {

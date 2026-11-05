@@ -26,6 +26,11 @@ public static class XpRules
     /// <summary>Responder a questão do dia no próprio dia, além do XP normal da questão.</summary>
     public const int DailyQuestion = 5;
 
+    public const int DefaultDailyGoal = 10;
+
+    /// <summary>Metas diárias que a pessoa pode escolher, em questões por dia.</summary>
+    public static readonly IReadOnlyList<int> DailyGoalOptions = [5, 10, 20, 30];
+
     /// <summary>XP de responder uma questão agora, sabendo o que a pessoa já tinha feito nela.</summary>
     public static int ForAnswer(bool answeredBefore, bool correctBefore, bool isCorrect) =>
         (answeredBefore ? 0 : FirstAnswer) + (isCorrect && !correctBefore ? FirstCorrect : 0);

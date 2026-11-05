@@ -26,6 +26,19 @@
         <h2 id="level-section-title" class="visually-hidden">Nível e conquistas</h2>
         <div class="col-lg-4">
             <LevelCard Report="xp" />
+            <form method="post" action="meu-desempenho" @formname="daily-goal" @onsubmit="SetGoalAsync" class="d-flex align-items-end gap-2 mt-2">
+                <AntiforgeryToken />
+                <div>
+                    <label for="DailyGoal" class="form-label small mb-1">Minha meta diária</label>
+                    <select id="DailyGoal" name="DailyGoal" class="form-select form-select-sm">
+                        @foreach (var option in XpRules.DailyGoalOptions)
+                        {
+                            <option value="@option" selected="@(option == xp.DailyGoal)">@option questões por dia</option>
+                        }
+                    </select>
+                </div>
+                <button type="submit" class="btn btn-sm btn-outline-primary">Salvar</button>
+            </form>
             <details class="mt-3">
                 <summary class="small">De onde vem seu XP</summary>
                 <table class="table table-sm small mt-2 mb-0">
@@ -221,6 +234,9 @@
     private PerformanceReport? report;
     private XpReport? xp;
 
+    [SupplyParameterFromForm(FormName = "daily-goal")]
+    private int? DailyGoal { get; set; }
+
     [CascadingParameter]
     private HttpContext HttpContext { get; set; } = default!;
 
@@ -229,6 +245,21 @@
         var userId = Users.GetUserId(HttpContext.User)!;
         report = await Performance.GetAsync(userId);
         xp = await Achievements.GetAsync(userId);
+    }
+
+    private async Task SetGoalAsync()
+    {
+        // Só as metas da lista: o formulário não deixa escolher outra, mas o POST pode ser forjado.
+        if (DailyGoal is not { } goal || !XpRules.DailyGoalOptions.Contains(goal)
+            || await Users.GetUserAsync(HttpContext.User) is not { } user)
+        {
+            HttpContext.Response.StatusCode = StatusCodes.Status400BadRequest;
+            return;
+        }
+
+        user.DailyGoal = goal;
+        await Users.UpdateAsync(user);
+        xp = await Achievements.GetAsync(user.Id);
     }
 
     // A cor acompanha o número ao lado, então a informação não depende só da cor.

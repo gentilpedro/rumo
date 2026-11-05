@@ -1340,3 +1340,17 @@ a.tag-discussion:not(.btn) {
     stroke: var(--you);
     opacity: 1;
 }
+
+/* Meta diária, dentro do cartão de nível. */
+.goal {
+    margin: 0.25rem 0 0.75rem;
+}
+
+.goal-text {
+    margin: 0 0 0.25rem;
+    font-size: 0.875rem;
+}
+
+.goal-done {
+    color: var(--you);
+}

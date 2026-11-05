@@ -17,10 +17,16 @@ public sealed record XpReport(
     int CurrentStreak,
     bool StudiedToday,
     int LongestStreak,
+    int DailyGoal,
+    int AnsweredToday,
     IReadOnlyList<XpLine> Breakdown,
     IReadOnlyList<Achievement> Achievements)
 {
     public int UnlockedCount => Achievements.Count(a => a.Unlocked);
+
+    public bool GoalMetToday => AnsweredToday >= DailyGoal;
+
+    public int GoalPercent => Math.Min(100, 100 * AnsweredToday / Math.Max(1, DailyGoal));
 }
 
 /// <summary>
@@ -113,6 +119,14 @@ public sealed class AchievementService(ApplicationDbContext db, LocalCalendar ca
         var today = calendar.Today();
         var (current, longest) = Streaks(days, today);
 
+        // Meta diária: questões diferentes respondidas em cada dia, objetivas e discursivas.
+        var goal = await db.Users.Where(u => u.Id == userId).Select(u => u.DailyGoal).FirstOrDefaultAsync(cancellationToken);
+        var perDay = attempts.Select(a => (a.QuestionId, a.AnsweredAt))
+            .Concat(discursives.Select(a => (a.QuestionId, a.AnsweredAt)))
+            .GroupBy(a => DateOnly.FromDateTime(calendar.ToLocal(a.AnsweredAt)))
+            .ToDictionary(g => g.Key, g => g.Select(a => a.QuestionId).Distinct().Count());
+        var answeredToday = perDay.GetValueOrDefault(today);
+
         Achievement Badge(string key, string name, string description, bool unlocked) => new(key, name, description, unlocked);
         var achievements = new List<Achievement>
         {
@@ -120,6 +134,7 @@ public sealed class AchievementService(ApplicationDbContext db, LocalCalendar ca
             Badge("dez-acertos", "Dez na conta", "Acerte 10 questões diferentes.", correct >= 10),
             Badge("cem-acertos", "Cem na conta", "Acerte 100 questões diferentes.", correct >= 100),
             Badge("escritor", "Escritor", "Responda uma questão discursiva.", discursiveCount >= 1),
+            Badge("meta", "Meta batida", "Responda num dia as questões da sua meta diária.", goal > 0 && perDay.Values.Any(count => count >= goal)),
             Badge("tres-dias", "Três dias seguidos", "Estude três dias seguidos.", longest >= 3),
             Badge("uma-semana", "Uma semana sem parar", "Estude sete dias seguidos.", longest >= 7),
             Badge("duelista", "Duelista", "Jogue um duelo até o fim.", myDuels.Count >= 1),
@@ -134,7 +149,7 @@ public sealed class AchievementService(ApplicationDbContext db, LocalCalendar ca
             Badge("coruja", "Coruja", "Estude depois das 23h.", moments.Any(m => m.Hour >= 23 || m.Hour < 4)),
         };
 
-        return new XpReport(xp, Level.Of(xp), current, days.Contains(today), longest, breakdown, achievements);
+        return new XpReport(xp, Level.Of(xp), current, days.Contains(today), longest, goal, answeredToday, breakdown, achievements);
     }
 
     /// <summary>
