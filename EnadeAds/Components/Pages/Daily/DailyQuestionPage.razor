@@ -61,7 +61,7 @@
                 }
             </div>
 
-            @if (stats is { Answered: > 0 })
+            @if (stats is { IsVisible: true })
             {
                 <p class="daily-stats">
                     <span class="font-monospace">@stats.Percent%</span>
@@ -134,7 +134,7 @@
     private Track? track;
     private Question? question;
     private QuestionAttempt? answered;
-    private DailyStats? stats;
+    private CommunityScore? stats;
     private string? userId;
     private int xpGained;
     private bool invalidChoice;
@@ -163,7 +163,7 @@
     }
 
     private string WhatsAppUrl => "https://wa.me/?text=" + Uri.EscapeDataString(
-        $"Questão do dia de {track?.Label} no Rumo: {stats?.Percent}% acertaram hoje. Consegue? {Navigation.BaseUri}questao-do-dia/{track?.Slug}");
+        (stats is { IsVisible: true } ? $"Questão do dia de {track?.Label} no Rumo: {stats.Percent}% acertaram hoje. Consegue?" : $"Questão do dia de {track?.Label} no Rumo. Consegue?") + $" {Navigation.BaseUri}questao-do-dia/{track?.Slug}");
 
     protected override async Task OnInitializedAsync()
     {

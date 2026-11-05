@@ -78,7 +78,6 @@ public class DailyQuestionTests(EnadeAdsFactory factory)
 
         Assert.Contains("Você acertou.", html);
         Assert.Contains($"+{XpRules.FirstAnswer + XpRules.FirstCorrect + XpRules.DailyQuestion} XP", html);
-        Assert.Contains("acertaram hoje", html);
         Assert.Contains("https://wa.me/?text=", html);
 
         // Voltar à página mostra a resposta do dia, sem formulário de novo.
