@@ -4,6 +4,7 @@ using EnadeAds.Challenges;
 using EnadeAds.Components;
 using EnadeAds.Components.Account;
 using EnadeAds.Data;
+using EnadeAds.Duels;
 using EnadeAds.MockExams;
 using EnadeAds.Performance;
 using EnadeAds.Privacy;
@@ -98,6 +99,7 @@ try
     builder.Services.AddScoped<BlogService>();
     builder.Services.AddScoped<PerformanceService>();
     builder.Services.AddScoped<MockExamService>();
+    builder.Services.AddScoped<DuelService>();
     builder.Services.AddSingleton<LocalCalendar>();
     builder.Services.AddSingleton(TimeProvider.System);
     builder.Services.Configure<ExamOptions>(builder.Configuration.GetSection(ExamOptions.SectionName));

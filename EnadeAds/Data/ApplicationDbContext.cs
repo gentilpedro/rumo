@@ -1,5 +1,6 @@
 using EnadeAds.Blog;
 using EnadeAds.Challenges;
+using EnadeAds.Duels;
 using EnadeAds.MockExams;
 using EnadeAds.Questions;
 using EnadeAds.Reviews;
@@ -37,6 +38,10 @@ public class ApplicationDbContext(DbContextOptions<ApplicationDbContext> options
     public DbSet<SiteSetting> SiteSettings => Set<SiteSetting>();
     public DbSet<MockExamQuestion> MockExamQuestions => Set<MockExamQuestion>();
     public DbSet<ContentReview> ContentReviews => Set<ContentReview>();
+    public DbSet<Duel> Duels => Set<Duel>();
+    public DbSet<DuelQuestion> DuelQuestions => Set<DuelQuestion>();
+    public DbSet<DuelPlayer> DuelPlayers => Set<DuelPlayer>();
+    public DbSet<DuelAnswer> DuelAnswers => Set<DuelAnswer>();
 
     protected override void OnModelCreating(ModelBuilder builder)
     {
@@ -248,6 +253,43 @@ public class ApplicationDbContext(DbContextOptions<ApplicationDbContext> options
             // Excluir a conta apaga as propostas dela; quem revisou só perde o vínculo.
             review.HasOne<ApplicationUser>().WithMany().HasForeignKey(r => r.AuthorId).OnDelete(DeleteBehavior.Cascade);
             review.HasOne<ApplicationUser>().WithMany().HasForeignKey(r => r.ReviewerId).OnDelete(DeleteBehavior.SetNull);
+        });
+
+        builder.Entity<Duel>(duel =>
+        {
+            duel.Property(d => d.Code).HasMaxLength(DuelService.CodeLength);
+            duel.HasIndex(d => d.Code).IsUnique();
+            duel.Ignore(d => d.JoinUntil);
+            duel.HasOne<Track>().WithMany().HasForeignKey(d => d.TrackId).OnDelete(DeleteBehavior.Restrict);
+            // Quem criou pode excluir a conta sem apagar o placar de quem jogou.
+            duel.HasOne<ApplicationUser>().WithMany().HasForeignKey(d => d.CreatorId).OnDelete(DeleteBehavior.SetNull);
+            duel.HasMany(d => d.Questions).WithOne().HasForeignKey(q => q.DuelId).OnDelete(DeleteBehavior.Cascade);
+            duel.HasMany(d => d.Players).WithOne().HasForeignKey(p => p.DuelId).OnDelete(DeleteBehavior.Cascade);
+            duel.HasQueryFilter(d => d.TrackId == CurrentTrackId);
+        });
+
+        builder.Entity<DuelQuestion>(question =>
+        {
+            question.HasKey(q => new { q.DuelId, q.QuestionId });
+            question.HasOne(q => q.Question).WithMany().HasForeignKey(q => q.QuestionId).OnDelete(DeleteBehavior.Restrict);
+            question.HasQueryFilter(q => q.Question!.Subject!.TrackId == CurrentTrackId);
+        });
+
+        builder.Entity<DuelPlayer>(player =>
+        {
+            // Uma participação por pessoa em cada duelo.
+            player.HasKey(p => new { p.DuelId, p.UserId });
+            player.HasIndex(p => p.UserId);
+            player.Ignore(p => p.HasFinished);
+            player.Ignore(p => p.Elapsed);
+            player.HasOne<ApplicationUser>().WithMany().HasForeignKey(p => p.UserId).OnDelete(DeleteBehavior.Cascade);
+            player.HasMany(p => p.Answers).WithOne().HasForeignKey(a => new { a.DuelId, a.UserId }).OnDelete(DeleteBehavior.Cascade);
+        });
+
+        builder.Entity<DuelAnswer>(answer =>
+        {
+            answer.HasKey(a => new { a.DuelId, a.UserId, a.QuestionId });
+            answer.HasOne<QuestionOption>().WithMany().HasForeignKey(a => a.OptionId).OnDelete(DeleteBehavior.Cascade);
         });
 
         builder.Entity<DiscursiveAnswer>(answer =>

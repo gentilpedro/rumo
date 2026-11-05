@@ -6,6 +6,7 @@
 @using EnadeAds.Components.Pages.Blog
 @using EnadeAds.Components.Shared
 @using EnadeAds.Data
+@using EnadeAds.Duels
 @using EnadeAds.Performance
 @using EnadeAds.Questions
 @using EnadeAds.Study
@@ -167,6 +168,15 @@ else
 
     <aside class="col-lg-4" aria-label="Seu estudo e combinados">
         <YourWeek Report="report" />
+
+        <section class="module" aria-labelledby="duel-cta-title">
+            <h2 id="duel-cta-title" class="module-title">Duelo</h2>
+            <div class="next-step">
+                <h3>Desafie a turma</h3>
+                <p>@DuelService.QuestionCount questões, @((int)DuelService.TimeLimit.TotalMinutes) minutos, o mesmo link para todo mundo. Quem acertar mais leva.</p>
+                <a class="btn btn-sm btn-primary" href="duelos">Criar um duelo</a>
+            </div>
+        </section>
 
         <section class="module" aria-labelledby="rules-title">
             <h2 id="rules-title" class="module-title">Combinados da comunidade</h2>
