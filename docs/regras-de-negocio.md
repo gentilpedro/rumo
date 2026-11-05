@@ -138,6 +138,13 @@ Alunos também têm e-mail institucional, muitas vezes no mesmo domínio dos pro
 - As respostas entram no painel de desempenho e no caderno de erros, como no simulado.
 - **Revanche** cria um duelo novo, com outras questões da mesma trilha.
 
+## Estrelas por matéria
+
+- Cada matéria mostra de 0 a 3 estrelas pelo acerto da pessoa nela, contando a resposta mais recente de cada questão (como em Meu desempenho): **1 estrela a partir de 40%, 2 a partir de 60% e 3 a partir de 80%**.
+- As estrelas só aparecem depois de 5 questões respondidas na matéria, ou de todas, se a matéria tiver menos de 5.
+- Aparecem no nó da matéria no roadmap e em Meu desempenho. O painel da matéria diz quanto falta para a próxima estrela.
+- Só a própria pessoa vê as suas estrelas.
+
 ## Batalha da semana
 
 - As trilhas disputam a semana, de segunda a domingo no horário de Brasília.

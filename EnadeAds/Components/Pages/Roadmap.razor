@@ -5,6 +5,7 @@
 @using Microsoft.AspNetCore.Identity
 
 @inject RoadmapService RoadmapData
+@inject EnadeAds.Performance.PerformanceService Performance
 @inject TrackCatalog Tracks
 @inject UserManager<ApplicationUser> Users
 
@@ -94,6 +95,10 @@
                         </div>
                         <a id="@Anchor(item.Node)" href="@NodeUrl(item.Node)" class="rm-node rm-subject @StatusClass(item.Status)">
                             <StatusMark Status="item.Status" />@item.Node.Title
+                            @if (StarsOf(item.Node) is { } stars)
+                            {
+                                <StarRow Count="stars" />
+                            }
                         </a>
                         <div class="rm-side rm-right">
                             @foreach (var topic in item.Topics.Skip(half))
@@ -129,6 +134,34 @@
                 }
 
                 <p>@node.Summary</p>
+
+                @if (node.Kind == NodeKind.Subject && ScoreOf(node) is { } score)
+                {
+                    <div class="rm-stars-note">
+                        @if (StarsOf(node) is { } stars)
+                        {
+                            <p class="mb-1"><StarRow Count="stars" /> <span class="small">@score.Score.Percent% de acerto em @score.Score.Answered @(score.Score.Answered == 1 ? "questão" : "questões")</span></p>
+                            <p class="small text-body-secondary mb-0">
+                                @if (EnadeAds.Performance.Stars.NextAt(stars) is { } next)
+                                {
+                                    <text>Chegue a @next% de acerto para a @(stars + 1)ª estrela.</text>
+                                }
+                                else
+                                {
+                                    <text>Matéria completa. Mantenha o acerto acima de 80%.</text>
+                                }
+                                <a class="ms-1" href="questoes?materia=@Uri.EscapeDataString(node.Slug)">Praticar</a>
+                            </p>
+                        }
+                        else
+                        {
+                            <p class="small text-body-secondary mb-0">
+                                Responda @EnadeAds.Performance.Stars.Needed(score) questões desta matéria para ganhar estrelas (você respondeu @score.Score.Answered).
+                                <a class="ms-1" href="questoes?materia=@Uri.EscapeDataString(node.Slug)">Praticar</a>
+                            </p>
+                        }
+                    </div>
+                }
 
                 @if (node.Kind == NodeKind.Subject)
                 {
@@ -191,6 +224,7 @@
     private RoadmapItem? selected;
     private string? userId;
     private bool canEditRoadmap;
+    private Dictionary<int, EnadeAds.Performance.SubjectScore> scores = [];
 
     [CascadingParameter]
     private HttpContext HttpContext { get; set; } = default!;
@@ -236,7 +270,15 @@
     {
         view = await RoadmapData.GetAsync(userId);
         selected = view.Find(Topic);
+        if (userId is not null && scores.Count == 0)
+        {
+            scores = (await Performance.GetAsync(userId)).Subjects.ToDictionary(s => s.SubjectId);
+        }
     }
+
+    private EnadeAds.Performance.SubjectScore? ScoreOf(RoadmapNode node) => scores.GetValueOrDefault(node.Id);
+
+    private int? StarsOf(RoadmapNode node) => ScoreOf(node) is { } score ? EnadeAds.Performance.Stars.Of(score) : null;
 
     private static string Anchor(RoadmapNode node) => $"no-{node.Slug}";
 

@@ -27,14 +27,15 @@ public class CommunityScoreRuleTests
 [Collection(AppCollection.Name)]
 public class CommunityScoreTests(EnadeAdsFactory factory)
 {
-    /// <summary>Uma questão que nenhum outro teste usa, para a contagem não depender da ordem dos testes.</summary>
+    /// <summary>Uma questão que ninguém respondeu ainda, para a contagem não depender da ordem dos testes.</summary>
     private async Task<Question> UntouchedQuestionAsync()
     {
         using var scope = factory.Services.CreateScope();
-        return await scope.ServiceProvider.GetRequiredService<ApplicationDbContext>().Questions.AsNoTracking()
+        var db = scope.ServiceProvider.GetRequiredService<ApplicationDbContext>();
+        return await db.Questions.AsNoTracking()
             .Include(q => q.Options)
-            .Where(q => q.Kind == QuestionKind.Objective && q.ArchivedAt == null)
-            .OrderByDescending(q => q.Id).Skip(3).FirstAsync();
+            .Where(q => q.Kind == QuestionKind.Objective && q.ArchivedAt == null && !db.QuestionAttempts.Any(a => a.QuestionId == q.Id))
+            .OrderByDescending(q => q.Id).FirstAsync();
     }
 
     [Fact]

@@ -138,7 +138,13 @@
                         @foreach (var subject in report.Subjects.Where(s => s.Block == block.Block))
                         {
                             <tr>
-                                <td style="min-width: 14rem"><a href="materias/@subject.Slug">@subject.Title</a></td>
+                                <td style="min-width: 14rem">
+                                    <a href="materias/@subject.Slug">@subject.Title</a>
+                                    @if (Stars.Of(subject) is { } stars)
+                                    {
+                                        <StarRow Count="stars" />
+                                    }
+                                </td>
                                 <td style="width: 45%">
                                     @if (subject.Score.Answered == 0)
                                     {
