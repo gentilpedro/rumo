@@ -77,8 +77,8 @@ Alunos também têm e-mail institucional, muitas vezes no mesmo domínio dos pro
 
 - O cadastro exige aceitar os **Termos de uso** e a **Política de privacidade**. A data e a versão aceitas ficam guardadas na conta.
 - Os textos ficam em `/termos` e `/privacidade`, com link no rodapé de todas as páginas. O responsável pelos dados e o e-mail de contato vêm da configuração (`Privacy:ControllerName`, `Privacy:ContactEmail`), porque cada instalação tem o seu responsável.
-- **Baixar meus dados** (Minha conta → Dados pessoais) entrega um arquivo com a conta, o progresso no roadmap, as respostas, os simulados, os desafios, os posts, os votos, as denúncias e os comentários.
-- **Excluir a conta** apaga a conta, o progresso, as respostas objetivas e discursivas, os simulados e os envios de desafio. Os votos saem junto. Os **posts e comentários da comunidade continuam, sem o nome** ("Participante que excluiu a conta"). Questões, desafios e avisos que um professor publicou continuam, assinados como "Equipe ENADE ADS".
+- **Baixar meus dados** (Minha conta → Dados pessoais) entrega um arquivo com a conta, o progresso no roadmap, as respostas, os simulados, os desafios, os duelos, os posts, os votos, as denúncias e os comentários.
+- **Excluir a conta** apaga a conta, o progresso, as respostas objetivas e discursivas, os simulados, as participações em duelos e os envios de desafio. Os votos saem junto. O duelo criado por quem excluiu a conta continua para quem jogou, sem o nome de quem criou. Os **posts e comentários da comunidade continuam, sem o nome** ("Participante que excluiu a conta"). Questões, desafios e avisos que um professor publicou continuam, assinados como "Equipe ENADE ADS".
 - Registros técnicos de acesso ficam até 31 dias; cópias de segurança, até 30 dias.
 - O conteúdo publicado por professores segue a licença Creative Commons BY-SA 4.0; o código, a licença MIT.
 
@@ -126,6 +126,17 @@ Alunos também têm e-mail institucional, muitas vezes no mesmo domínio dos pro
 - O **gabarito comentado e o padrão de resposta só aparecem depois da entrega**. Questão em branco conta como errada.
 - Depois da entrega, as respostas objetivas entram no painel de desempenho e no caderno de erros, e a discursiva vira uma resposta salva da questão.
 - O simulado é do aluno: ninguém mais vê o que ele respondeu.
+
+## Duelos
+
+- Quem está logado cria um duelo com **5 questões objetivas** sorteadas da trilha ativa e recebe um link (`/duelos/<código>`). O código é aleatório, para ninguém achar duelos de outras pessoas.
+- O duelo é da trilha em que foi criado: quem abre o link joga as questões dela, esteja na trilha que estiver.
+- Qualquer pessoa logada com o link entra, até **7 dias** depois da criação e até **30 jogadores**. Visitante vê o convite e é chamado a entrar ou criar conta.
+- Cada pessoa tem **10 minutos** a partir do "Começar". O relógio é do servidor. Depois do prazo (com 30 segundos de tolerância), o que for enviado não conta e as questões ficam em branco.
+- Cada pessoa joga uma vez. **Placar:** mais acertos primeiro; no empate, menor tempo. O tempo para no limite de 10 minutos.
+- O placar e o gabarito comentado aparecem **depois do envio**, só para quem jogou. O placar mostra o primeiro nome e a inicial do sobrenome.
+- As respostas entram no painel de desempenho e no caderno de erros, como no simulado.
+- **Revanche** cria um duelo novo, com outras questões da mesma trilha.
 
 ## Painel de desempenho
 

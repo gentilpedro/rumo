@@ -1,0 +1,139 @@
+@page "/duelos"
+
+@using EnadeAds.Data
+@using EnadeAds.Duels
+@using EnadeAds.Study
+@using Microsoft.AspNetCore.Identity
+
+@inject DuelService Duels
+@inject TrackCatalog Tracks
+@inject TrackScope TrackScope
+@inject LocalCalendar Calendar
+@inject UserManager<ApplicationUser> Users
+@inject NavigationManager Navigation
+
+<PageTitle>Duelos</PageTitle>
+
+<h1>Duelos</h1>
+
+<p class="text-body-secondary">
+    Desafie colegas com @DuelService.QuestionCount questões da sua prova. Todo mundo responde as mesmas, com
+    @((int)DuelService.TimeLimit.TotalMinutes) minutos para cada um. Ganha quem acertar mais; no empate, quem terminou primeiro.
+    Mande o link no grupo da turma: cada um joga quando puder, por até @((int)DuelService.JoinWindow.TotalDays) dias.
+</p>
+
+@if (errorMessage is not null)
+{
+    <div class="alert alert-danger" role="alert">@errorMessage</div>
+}
+
+@if (userId is null)
+{
+    <div class="alert alert-info" role="status">
+        <a href="Account/Login?ReturnUrl=%2Fduelos">Entre</a> ou <a href="Account/Register">crie sua conta</a> para criar um duelo.
+    </div>
+}
+else if (!TrackScope.HasChosen)
+{
+    <div class="alert alert-info" role="status">
+        <a href="/?volta=%2Fduelos">Escolha a sua prova</a> para criar um duelo com as questões dela.
+    </div>
+}
+else
+{
+    <form method="post" action="duelos" @formname="create-duel" @onsubmit="CreateAsync" class="card mb-5">
+        <AntiforgeryToken />
+        <div class="card-body d-flex flex-wrap align-items-center gap-3">
+            <div class="flex-grow-1">
+                <p class="fw-semibold mb-1">Novo duelo · @track?.Label</p>
+                <p class="small text-body-secondary mb-0">
+                    As questões são sorteadas do banco da sua prova. Você recebe o link para mandar e joga quando quiser.
+                </p>
+            </div>
+            <button type="submit" class="btn btn-primary">Criar duelo</button>
+        </div>
+    </form>
+}
+
+@if (mine is { Count: > 0 })
+{
+    <section aria-labelledby="mine-title">
+        <h2 id="mine-title" class="h5">Seus duelos</h2>
+        <div class="table-responsive">
+            <table class="table table-sm align-middle">
+                <thead>
+                    <tr>
+                        <th scope="col">Data</th><th scope="col">Prova</th><th scope="col">Jogadores</th>
+                        <th scope="col">Seu resultado</th><th scope="col"><span class="visually-hidden">Abrir</span></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var duel in mine)
+                    {
+                        <tr>
+                            <td>@Calendar.ToLocal(duel.CreatedAt).ToString("dd/MM/yyyy")</td>
+                            <td>@TrackLabel(duel.TrackId)</td>
+                            <td class="font-monospace">@duel.Players</td>
+                            <td>
+                                @if (duel.MyPosition is { } position)
+                                {
+                                    <span class="font-monospace">@duel.MyCorrect de @duel.QuestionCount</span>
+                                    <span class="small text-body-secondary">· @(position)º lugar</span>
+                                }
+                                else
+                                {
+                                    <span class="small text-body-secondary">não enviado</span>
+                                }
+                            </td>
+                            <td><a href="duelos/@duel.Code">Ver placar</a></td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </section>
+}
+
+@code {
+    private IReadOnlyList<DuelSummary>? mine;
+    private IReadOnlyList<Track> tracks = [];
+    private Track? track;
+    private string? userId;
+    private string? errorMessage;
+
+    [CascadingParameter]
+    private HttpContext HttpContext { get; set; } = default!;
+
+    protected override async Task OnInitializedAsync()
+    {
+        userId = Users.GetUserId(HttpContext.User);
+        tracks = await Tracks.ListAsync();
+        track = await Tracks.CurrentAsync();
+        if (userId is not null)
+        {
+            mine = await Duels.MineAsync(userId);
+        }
+    }
+
+    private async Task CreateAsync()
+    {
+        // Criar duelo exige login; o formulário não aparece para visitante, mas o POST pode ser forjado.
+        if (userId is null)
+        {
+            HttpContext.Response.StatusCode = StatusCodes.Status401Unauthorized;
+            return;
+        }
+
+        var result = await Duels.CreateAsync(userId);
+        if (result.Outcome == CreateDuelOutcome.NoQuestions)
+        {
+            errorMessage = "Esta prova ainda não tem questões objetivas para um duelo.";
+            HttpContext.Response.StatusCode = StatusCodes.Status400BadRequest;
+            return;
+        }
+
+        Navigation.NavigateTo($"duelos/{result.Code}");
+    }
+
+    private string TrackLabel(int trackId) => tracks.FirstOrDefault(t => t.Id == trackId)?.Label ?? "";
+}
