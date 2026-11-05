@@ -138,6 +138,13 @@ Alunos também têm e-mail institucional, muitas vezes no mesmo domínio dos pro
 - As respostas entram no painel de desempenho e no caderno de erros, como no simulado.
 - **Revanche** cria um duelo novo, com outras questões da mesma trilha.
 
+## Batalha da semana
+
+- As trilhas disputam a semana, de segunda a domingo no horário de Brasília.
+- Cada questão objetiva **acertada na semana** soma 1 ponto para a trilha da questão. Conta uma vez por pessoa e por questão, fora dos desafios.
+- O início mostra a pontuação de cada prova, quantas pessoas pontuaram, a prova ativa em destaque e quem venceu a semana anterior. Em caso de empate na semana anterior, não aparece vencedor.
+- **Só números por prova**, sem ranking de pessoas.
+
 ## Modo sobrevivência
 
 - Partida solo na trilha ativa: questões objetivas uma por vez, com **3 vidas**. Errar tira uma vida; sem vidas (ou sem questões), a partida acaba.

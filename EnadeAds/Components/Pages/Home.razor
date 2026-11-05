@@ -3,6 +3,7 @@
 
 @using EnadeAds.Accounts
 @using EnadeAds.Achievements
+@using EnadeAds.Battle
 @using EnadeAds.Blog
 @using EnadeAds.Components.Pages.Blog
 @using EnadeAds.Components.Shared
@@ -22,6 +23,7 @@
 @inject PerformanceService Performance
 @inject AchievementService Achievements
 @inject DailyQuestionService Daily
+@inject WeeklyBattleService Battle
 @inject LocalCalendar Calendar
 @inject TimeProvider Clock
 @inject UserManager<ApplicationUser> Users
@@ -213,6 +215,30 @@ else
             </div>
         </section>
 
+        @if (battle is not null)
+        {
+            <section class="module" aria-labelledby="battle-title">
+                <h2 id="battle-title" class="module-title">Batalha da semana · @battle.Monday.ToString("dd/MM")–@battle.Sunday.ToString("dd/MM")</h2>
+                <ol class="battle">
+                    @foreach (var score in battle.Scores)
+                    {
+                        var mine = score.Track.Id == track?.Id;
+                        <li class="@(mine ? "is-mine" : null)">
+                            <span class="battle-name">@score.Track.Label@(mine ? " · sua prova" : "")</span>
+                            <span class="battle-points font-monospace">@score.Points</span>
+                            <span class="battle-bar" aria-hidden="true"><span style="width:@(battle.MaxPoints == 0 ? 0 : 100 * score.Points / battle.MaxPoints)%"></span></span>
+                            <span class="battle-people">@(score.People == 1 ? "1 pessoa" : $"{score.People} pessoas")</span>
+                        </li>
+                    }
+                </ol>
+                <p class="small text-body-secondary mb-1">Cada questão que você acerta nesta semana soma 1 ponto para a sua prova.</p>
+                @if (battle.LastWeekWinner is not null)
+                {
+                    <p class="small mb-0">Semana passada: <strong>@battle.LastWeekWinner.Label</strong> venceu.</p>
+                }
+            </section>
+        }
+
         <section class="module" aria-labelledby="rules-title">
             <h2 id="rules-title" class="module-title">Combinados da comunidade</h2>
             <ul class="rules-list">
@@ -245,6 +271,7 @@ else
     private XpReport? xp;
     private EnadeAds.Questions.Question? daily;
     private bool dailyDone;
+    private BattleBoard? battle;
 
     private string DailyExcerpt
     {
@@ -296,6 +323,7 @@ else
         now = Clock.GetUtcNow();
 
         var editor = EditorFactory.From(HttpContext.User, userId);
+        battle = await Battle.GetAsync();
         daily = await Daily.TodayAsync(track.Id);
         if (daily is not null && userId is not null)
         {

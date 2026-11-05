@@ -24,6 +24,7 @@ Cada prova é uma **trilha**. Ao entrar, o estudante escolhe a dele, e a marca p
 - **Simulados cronometrados** no formato da prova, com questões das várias áreas e correção ao final.
 - **Questão do dia:** uma questão por dia em cada prova, a mesma para todo mundo, com quantos acertaram e um link para mandar à turma.
 - **Modo sobrevivência:** questões em sequência, das mais fáceis para as mais difíceis, até errar 3. Vale bater o próprio recorde.
+- **Batalha da semana:** as provas disputam a semana; cada acerto soma um ponto para a sua.
 - **Duelos:** 5 questões, 10 minutos e um link para mandar no grupo da turma. Ganha quem acertar mais; no empate, quem foi mais rápido.
 - **Desafios semanais** publicados pelos professores.
 - **Meu desempenho:** acertos por matéria, para saber onde focar.

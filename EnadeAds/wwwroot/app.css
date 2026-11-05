@@ -1269,3 +1269,51 @@ a.tag-discussion:not(.btn) {
 .survival-status .lives svg.is-on {
     fill: var(--you);
 }
+
+/* Batalha da semana: uma linha por prova, a do aluno em destaque. */
+.battle {
+    margin: 0 0 0.5rem;
+    padding: 0;
+    list-style: none;
+}
+
+.battle li {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 0.125rem 0.5rem;
+    padding: 0.375rem 0;
+}
+
+.battle li.is-mine .battle-name {
+    font-weight: 700;
+    color: var(--you);
+}
+
+.battle-points {
+    font-weight: 700;
+    text-align: right;
+}
+
+.battle-bar {
+    grid-column: 1 / -1;
+    height: 0.375rem;
+    background-color: var(--ground-alt);
+    border-radius: 999px;
+    overflow: hidden;
+}
+
+.battle-bar > span {
+    display: block;
+    height: 100%;
+    background-color: var(--rule-strong);
+}
+
+.battle li.is-mine .battle-bar > span {
+    background-color: var(--you);
+}
+
+.battle-people {
+    grid-column: 1 / -1;
+    font-size: 0.75rem;
+    color: var(--muted);
+}
