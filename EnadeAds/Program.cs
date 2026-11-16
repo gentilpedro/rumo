@@ -109,6 +109,7 @@ try
     builder.Services.AddScoped<DailyQuestionService>();
     builder.Services.AddScoped<SurvivalService>();
     builder.Services.AddScoped<WeeklyBattleService>();
+    builder.Services.AddScoped<EnadeAds.Landing.LandingService>();
     builder.Services.AddSingleton<LocalCalendar>();
     builder.Services.AddSingleton(TimeProvider.System);
     builder.Services.Configure<ExamOptions>(builder.Configuration.GetSection(ExamOptions.SectionName));
