@@ -1,0 +1,413 @@
+@using System.Globalization
+@using EnadeAds.Components.Pages.Questions
+@using EnadeAds.Daily
+@using EnadeAds.Landing
+@using EnadeAds.MockExams
+@using EnadeAds.Questions
+@using EnadeAds.Study
+
+@inject LandingService Content
+@inject DailyQuestionService Daily
+
+@* Início de quem ainda não escolheu a prova: primeiro explica o Rumo, depois deixa experimentar. Nada vem pré-selecionado. *@
+<div class="landing">
+    <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-intro">
+            <h1 id="hero-title">Prepare-se para o ENEM e o ENADE no formato da prova.</h1>
+            <p class="hero-text">
+                O Rumo é uma plataforma de estudo <strong>aberta e gratuita, feita pelo curso</strong>. Cada prova tem o seu caminho:
+                as matérias em ordem, questões no formato da prova com cada alternativa explicada, simulados com tempo e a turma
+                tirando dúvidas com os professores.
+            </p>
+            <ul class="hero-has">
+                <li><span class="label-narrow">Roadmap</span>As matérias da portaria, em ordem</li>
+                <li><span class="label-narrow">Questões</span>Com as provas reais do ENADE de 2017 e 2021</li>
+                <li><span class="label-narrow">Simulados</span>Com o tempo da prova</li>
+                <li><span class="label-narrow">Turma</span>Dúvidas, dicas e avisos oficiais</li>
+            </ul>
+            <p class="hero-links">
+                <a href="#como-funciona">Como funciona <Icon Name="arrow-down" /></a>
+                <a href="#experimente">Responder uma questão <Icon Name="arrow-down" /></a>
+            </p>
+        </div>
+
+        <section class="module tracks" aria-labelledby="tracks-title">
+            <h2 class="module-title" id="tracks-title">Para qual prova você vai estudar?</h2>
+            <ol>
+                @foreach (var item in tracks)
+                {
+                    var countdown = item.Countdown;
+                    <li>
+                        <a class="track @(countdown.IsToday ? "is-today" : null)" href="@TrackUrl(item.Track)">
+                            <span class="track-name">@item.Track.Name</span>
+                            <span class="track-days tabular">
+                                @if (countdown.IsOver)
+                                {
+                                    <small>Prova realizada</small>
+                                }
+                                else if (countdown.IsToday)
+                                {
+                                    <text>hoje</text><small>Dia de prova</small>
+                                }
+                                else
+                                {
+                                    @countdown.DaysLeft<small>@(countdown.DaysLeft == 1 ? "dia" : "dias")</small>
+                                }
+                            </span>
+                            <span class="track-meta">@item.Track.Level.LevelName() · @Days(item.Track)</span>
+                            <span class="track-go">Estudar para o @item.Track.Label <Icon Name="arrow-right" /></span>
+                        </a>
+                    </li>
+                }
+            </ol>
+            <p class="tracks-soon">Em breve: seletivos dos institutos federais, como o IFSul. Você troca de prova quando quiser, no topo da página.</p>
+        </section>
+    </section>
+
+    <section class="sec" id="como-funciona" aria-labelledby="how-title">
+        <div class="sec-head">
+            <h2 id="how-title">Como funciona: do roadmap ao dia da prova</h2>
+            <p>Você não precisa de conta para ler nada. A conta serve para responder, guardar o seu desempenho e participar da turma.</p>
+        </div>
+        <ol class="steps">
+            <li class="step">
+                <span class="label-narrow step-n">Etapa 1</span>
+                <h3>Escolha a prova</h3>
+                <p>Cada prova é uma trilha, com conteúdo, data e turma próprios.</p>
+                <ul class="peek peek-rows">
+                    @foreach (var item in tracks)
+                    {
+                        <li class="@(item.Countdown.IsToday ? "is-today" : null)">@item.Track.Label<b class="tabular">@Short(item.Countdown)</b></li>
+                    }
+                </ul>
+            </li>
+            <li class="step">
+                <span class="label-narrow step-n">Etapa 2</span>
+                <h3>Siga o roadmap</h3>
+                <p>As matérias da portaria na ordem sugerida, com o que você já estudou marcado.</p>
+                <div class="peek chips" aria-label="Exemplo de progresso no roadmap">
+                    @foreach (var (subject, block, index) in PeekSubjects)
+                    {
+                        <span class="chip @block.ColorClass() @(index >= 2 ? "is-pending" : null)">@subject</span>
+                    }
+                </div>
+            </li>
+            <li class="step">
+                <span class="label-narrow step-n">Etapa 3</span>
+                <h3>Pratique no formato da prova</h3>
+                <p>Questões de cada prova, incluindo as do ENADE de 2017 e 2021, com gabarito comentado em cada alternativa.</p>
+                <ul class="peek peek-rows" aria-label="Exemplo de histórico de respostas">
+                    <li><span class="label-narrow peek-code">2021·Q9</span>Requisitos<span class="label-narrow is-right">Acertou</span></li>
+                    <li><span class="label-narrow peek-code">2021·Q13</span>Pilha e fila<span class="label-narrow is-wrong">Errou</span></li>
+                    <li><span class="label-narrow peek-code">2017·Q14</span>Caminho crítico<span class="label-narrow is-right">Acertou</span></li>
+                </ul>
+            </li>
+            <li class="step">
+                <span class="label-narrow step-n">Etapa 4</span>
+                <h3>Treine como no dia</h3>
+                <p>Simulado com tempo, desafio semanal do professor, questão do dia e duelos com colegas.</p>
+                <div class="peek">
+                    <div class="peek-timer tabular">@FullMockTime</div>
+                    <p class="peek-note">Simulado completo do @sample?.Track.ExamName, no tempo da prova</p>
+                </div>
+            </li>
+            <li class="step">
+                <span class="label-narrow step-n">Etapa 5</span>
+                <h3>Veja onde está fraco</h3>
+                <p>O acerto por matéria aponta o que estudar a seguir.</p>
+                <ul class="peek meters" aria-label="Exemplo de acerto por matéria">
+                    <li class="block-fund">Estruturas de dados<b class="tabular">78%</b><span class="meter"><span style="width:78%"></span></span></li>
+                    <li class="block-soft"><span class="is-weak">Requisitos</span><b class="tabular is-weak">31%</b><span class="meter"><span style="width:31%"></span></span></li>
+                </ul>
+            </li>
+        </ol>
+        <p class="steps-note">Progresso, histórico e acerto nas etapas 2, 3 e 5 são exemplos.</p>
+    </section>
+
+    <section class="sec" id="experimente" aria-labelledby="try-title">
+        <div class="sec-head">
+            <h2 id="try-title">Experimente agora, sem conta</h2>
+            <p>A questão do dia, do jeito que ela aparece no Rumo. Marque uma alternativa e veja o gabarito comentado. Nada fica gravado.</p>
+        </div>
+
+        <nav class="sample-tracks" aria-label="Prova da questão">
+            @foreach (var item in tracks)
+            {
+                var current = item.Track.Id == sample?.Track.Id;
+                <a aria-current="@(current ? "page" : null)" href="@SampleUrl(item.Track)">@item.Track.Label</a>
+            }
+        </nav>
+
+        <div class="demo">
+            @if (question is null)
+            {
+                <p class="module">Esta prova ainda não tem questões objetivas. Escolha outra acima.</p>
+            }
+            else
+            {
+                <section class="module q" aria-labelledby="q-title">
+                    <div class="module-head">
+                        <h3 class="module-title" id="q-title">Questão do dia · @QuestionCode.Label(question.Id, question.ExternalKey)</h3>
+                        <a href="@TrackUrl(sample!.Track, "/questoes")">Mais questões</a>
+                    </div>
+                    <p class="q-src">@question.Source</p>
+                    @* HTML gerado pelo StatementFormatter: todo texto é escapado e só tags fixas são adicionadas. *@
+                    <div class="question-statement q-statement">@((MarkupString)StatementFormatter.ToHtml(question.Statement))</div>
+
+                    @if (chosen is null)
+                    {
+                        <form method="post" action="@FormAction" @formname="landing-answer" @onsubmit="AnswerAsync">
+                            <AntiforgeryToken />
+                            <input type="hidden" name="Answer.QuestionId" value="@question.Id" />
+                            <fieldset>
+                                <legend class="visually-hidden">Escolha uma alternativa</legend>
+                                @if (missingChoice)
+                                {
+                                    <p class="q-error" role="alert">Escolha uma das alternativas para ver o gabarito.</p>
+                                }
+                                <ol class="q-opts">
+                                    @foreach (var option in question.Options)
+                                    {
+                                        <li>
+                                            <input type="radio" name="Answer.Letter" id="amostra-@option.Letter" value="@option.Letter" />
+                                            <label class="q-opt" for="amostra-@option.Letter"><span class="bubble">@option.Letter</span><OptionText Text="@option.Text" /></label>
+                                        </li>
+                                    }
+                                </ol>
+                            </fieldset>
+                            <div class="q-act">
+                                <button type="submit" class="btn btn-primary">Ver o gabarito comentado</button>
+                                <span class="q-hint">Marque uma alternativa. Não precisa de conta.</span>
+                            </div>
+                        </form>
+                    }
+                    else
+                    {
+                        var right = question.Options.First(o => o.IsCorrect);
+                        <ol class="q-opts is-answered">
+                            @foreach (var option in question.Options)
+                            {
+                                var mark = option.IsCorrect ? "is-right" : option.Id == chosen.Id ? "is-wrong" : null;
+                                <li class="@mark">
+                                    <div class="q-opt">
+                                        <span class="bubble">@option.Letter</span>
+                                        <span>
+                                            <OptionText Text="@option.Text" />
+                                            @if (option.Id == chosen.Id)
+                                            {
+                                                <span class="label-narrow q-yours">Sua resposta</span>
+                                            }
+                                        </span>
+                                    </div>
+                                    <p class="q-why"><b class="label-narrow">@(option.IsCorrect ? "Correta" : "Errada")</b>@option.Explanation</p>
+                                </li>
+                            }
+                        </ol>
+                        <p class="q-result @(chosen.IsCorrect ? "is-right" : "is-wrong")" role="status">
+                            @if (chosen.IsCorrect)
+                            {
+                                <text>Você acertou: é a @right.Letter.</text>
+                            }
+                            else
+                            {
+                                <text>A resposta é a @right.Letter. Veja acima por que cada alternativa está certa ou errada.</text>
+                            }
+                            @if (community is { IsVisible: true })
+                            {
+                                <text> Hoje, @community.Percent% de quem respondeu acertou de primeira.</text>
+                            }
+                            <a href="Account/Register">Crie uma conta</a> para guardar o que você responde.
+                        </p>
+                        <p class="q-again"><a href="@SampleUrl(sample!.Track)">Responder de novo</a></p>
+                    }
+                </section>
+
+                <aside class="demo-aside" aria-labelledby="aside-title">
+                    <h3 class="label-narrow" id="aside-title">Com uma conta, esta questão</h3>
+                    <ol>
+                        <li><span class="tabular">1</span>entra no seu acerto de @(question.Subject?.Title ?? "cada matéria") em Meu desempenho;</li>
+                        <li><span class="tabular">2</span>vale XP na primeira resposta e no primeiro acerto;</li>
+                        <li><span class="tabular">3</span>se você acertar, soma 1 ponto para a sua prova na batalha da semana;</li>
+                        <li><span class="tabular">4</span>fica no seu histórico para você refazer depois.</li>
+                    </ol>
+                </aside>
+            }
+        </div>
+    </section>
+
+    <section class="sec" aria-labelledby="class-title">
+        <div class="sec-head">
+            <h2 id="class-title">A turma fala, o professor confirma</h2>
+            <p>Avisos oficiais aparecem separados da conversa, e só professores aprovados publicam neles.</p>
+        </div>
+        <div class="board">
+            <section class="module notices" aria-labelledby="notices-title">
+                <h3 class="module-title" id="notices-title">Avisos oficiais</h3>
+                @if (notices.Count == 0)
+                {
+                    <p class="notices-empty">Os avisos dos professores aparecem aqui assim que forem publicados.</p>
+                }
+                else
+                {
+                    <ol>
+                        @foreach (var notice in notices)
+                        {
+                            <li>
+                                <span class="tag-official label-narrow">Professor</span>
+                                <a href="blog/@notice.Post.Slug">@notice.Post.Title <span class="notice-track">@TrackOf(notice)</span></a>
+                                <time datetime="@notice.Post.PublishedAt!.Value.ToString("O")">@Calendar.ToLocal(notice.Post.PublishedAt.Value).ToString("dd/MM", Culture)</time>
+                            </li>
+                        }
+                    </ol>
+                }
+            </section>
+
+            @if (sample is not null && roadmap.Count > 0)
+            {
+                <section class="module" aria-labelledby="rm-title">
+                    <div class="module-head">
+                        <h3 class="module-title" id="rm-title">Roadmap · @sample.Track.Label</h3>
+                        <a href="@TrackUrl(sample.Track, "/roadmap")">Ver completo</a>
+                    </div>
+                    <ol class="rm-blocks">
+                        @foreach (var block in roadmap)
+                        {
+                            <li class="@block.Block.ColorClass()">
+                                <span class="label-narrow rm-block">@block.Block.Name()</span>
+                                <span class="chips">
+                                    @foreach (var subject in block.Subjects.Take(3))
+                                    {
+                                        <span class="chip">@subject</span>
+                                    }
+                                    @if (block.Subjects.Count > 3)
+                                    {
+                                        <span class="chip is-more">+@(block.Subjects.Count - 3)</span>
+                                    }
+                                </span>
+                            </li>
+                        }
+                    </ol>
+                </section>
+            }
+        </div>
+    </section>
+
+    <section class="sec close" aria-labelledby="close-title">
+        <div>
+            <h2 id="close-title">É da turma, não de uma empresa</h2>
+            <ul class="facts">
+                <li><span class="label-narrow">Aberto</span><p><strong>Código aberto (MIT)</strong>, hospedado pelo próprio curso. Quem quiser pode ajudar a montar uma trilha. <a href="https://github.com/gentilpedro/rumo" target="_blank" rel="noopener">Ver no GitHub</a></p></li>
+                <li><span class="label-narrow">Gratuito</span><p><strong>Não custa nada.</strong> Roadmap, questões e feed abertos para qualquer pessoa, com ou sem conta.</p></li>
+                <li><span class="label-narrow">Independente</span><p><strong>Sem ligação oficial com o Inep.</strong> As questões reais do ENADE vêm das provas públicas de 2017 e 2021.</p></li>
+            </ul>
+        </div>
+        <div class="pick">
+            <h2 class="label-narrow">Comece pela sua prova</h2>
+            <p>Você troca de prova quando quiser.</p>
+            <div class="pick-row">
+                @foreach (var item in tracks)
+                {
+                    <a class="btn btn-outline-primary" href="@TrackUrl(item.Track)">@item.Track.Label</a>
+                }
+            </div>
+        </div>
+    </section>
+</div>
+
+@code {
+    private static readonly CultureInfo Culture = CultureInfo.GetCultureInfo("pt-BR");
+
+    private IReadOnlyList<LandingTrack> tracks = [];
+    private LandingTrack? sample;
+    private Question? question;
+    private QuestionOption? chosen;
+    private CommunityScore? community;
+    private bool missingChoice;
+    private IReadOnlyList<LandingNotice> notices = [];
+    private IReadOnlyList<LandingBlock> roadmap = [];
+
+    [Inject]
+    private LocalCalendar Calendar { get; set; } = default!;
+
+    /// <summary>Para onde ir depois de escolher (a página que a pessoa tentou abrir).</summary>
+    [Parameter]
+    public string Volta { get; set; } = "/";
+
+    /// <summary>Trilha da questão de amostra (slug). Sem ela, vale a prova mais próxima.</summary>
+    [SupplyParameterFromQuery(Name = "amostra")]
+    private string? SampleSlug { get; set; }
+
+    [SupplyParameterFromForm(FormName = "landing-answer")]
+    private AnswerForm? Answer { get; set; }
+
+    private string FormAction => sample is null ? "" : $"?amostra={sample.Track.Slug}#experimente";
+
+    protected override async Task OnInitializedAsync()
+    {
+        Answer ??= new();
+        tracks = await Content.TracksAsync();
+        if (tracks.Count == 0)
+        {
+            return;
+        }
+
+        sample = tracks.FirstOrDefault(t => t.Track.Slug == SampleSlug) ?? LandingService.DefaultSample(tracks);
+        question = await Content.SampleAsync(sample.Track.Id);
+        notices = await Content.NoticesAsync();
+        roadmap = await Content.RoadmapAsync(sample.Track.Id);
+    }
+
+    private async Task AnswerAsync()
+    {
+        // Responde a questão que estava na tela, mesmo que a do dia tenha virado entre o carregar e o enviar.
+        if (Answer?.QuestionId is { } id && await Content.FindAsync(id) is { } answered)
+        {
+            question = answered;
+        }
+
+        chosen = question?.Options.FirstOrDefault(o => string.Equals(o.Letter.ToString(), Answer?.Letter, StringComparison.OrdinalIgnoreCase));
+        missingChoice = question is not null && chosen is null;
+        if (chosen is not null)
+        {
+            community = await Daily.StatsAsync(question!.Id);
+        }
+    }
+
+    private string TrackUrl(Track track, string? volta = null) =>
+        $"trilha/{track.Slug}?volta={Uri.EscapeDataString(volta ?? Volta)}";
+
+    private static string TrackOf(LandingNotice notice) => notice.TrackLabel is null ? "" : $"· {notice.TrackLabel}";
+
+    private static string SampleUrl(Track track) => $"?amostra={track.Slug}#experimente";
+
+    private static string Days(Track track) => string.Join(" e ", track.ExamDays.Select(day => day.ToString("dd/MM", Culture)));
+
+    private static string Short(ExamCountdown countdown) => countdown switch
+    {
+        { IsOver: true } => "realizada",
+        { IsToday: true } => "hoje",
+        { DaysLeft: 1 } => "1 dia",
+        _ => $"{countdown.DaysLeft} dias",
+    };
+
+    /// <summary>Quatro primeiras matérias da trilha da amostra: as duas primeiras como estudadas, para mostrar a marcação.</summary>
+    private IEnumerable<(string Subject, StudyBlock Block, int Index)> PeekSubjects =>
+        roadmap.SelectMany(b => b.Subjects.Select(s => (s, b.Block))).Take(4).Select((s, i) => (s.s, s.Block, i));
+
+    private string FullMockTime
+    {
+        get
+        {
+            var style = MockExamFormat.StyleOf(sample?.Track.Id ?? Tracks.Default);
+            var minutes = MockExamFormat.MinutesFor(style, MockExamFormat.Of(style, MockExamSize.Full).Total);
+            return $"{minutes / 60}:{minutes % 60:00}:00";
+        }
+    }
+
+    public sealed class AnswerForm
+    {
+        public int? QuestionId { get; set; }
+
+        public string? Letter { get; set; }
+    }
+}
