@@ -23,15 +23,12 @@ public enum FriendRequestOutcome
 
     /// <summary>Quem pede bloqueou a outra pessoa: precisa desbloquear antes.</summary>
     YouBlocked,
-    TooManyFriends,
-    TooManyRequests,
 }
 
 public enum FriendActionOutcome
 {
     Done,
     NotFound,
-    TooManyFriends,
 }
 
 /// <summary>Uma pessoa numa das listas da página Amigos: só o primeiro nome e a inicial do sobrenome.</summary>
@@ -51,14 +48,12 @@ public sealed record FriendsOverview(
 /// Amizades entre contas, no modelo "seguir com aceite": uma pessoa pede, a outra aceita, e só então as duas viram
 /// amigas. Não há busca por nome nem por e-mail: chega-se a alguém pelo link que a pessoa mandou ou por um duelo em
 /// comum. Não há mensagem: o pedido não leva texto. A plataforma aceita menores de idade (LGPD, art. 14).
+///
+/// Não há limite de amigos nem de pedidos. Sem busca, só dá para pedir amizade a quem mandou o link ou jogou um
+/// duelo com a pessoa, e é isso que segura o pedido em massa.
 /// </summary>
 public sealed class FriendService(ApplicationDbContext db, TimeProvider clock, IDataProtectionProvider protection, ILogger<FriendService> logger)
 {
-    public const int MaxFriends = 200;
-
-    /// <summary>Pedidos enviados que ainda esperam resposta: o teto impede uma conta de pedir amizade em massa.</summary>
-    public const int MaxPendingSent = 20;
-
     public const int MaxSuggestions = 8;
     public const int CodeLength = 10;
 
@@ -160,20 +155,10 @@ public sealed class FriendService(ApplicationDbContext db, TimeProvider clock, I
             return FriendRequestOutcome.AlreadyRequested;
         }
 
-        if (await FriendCountAsync(fromId, cancellationToken) >= MaxFriends)
-        {
-            return FriendRequestOutcome.TooManyFriends;
-        }
-
         var now = clock.GetUtcNow();
         if (existing is not null)
         {
             // A outra pessoa já tinha pedido: pedir de volta é aceitar.
-            if (await FriendCountAsync(toId, cancellationToken) >= MaxFriends)
-            {
-                return FriendRequestOutcome.TooManyFriends;
-            }
-
             existing.AcceptedAt = now;
             await db.SaveChangesAsync(cancellationToken);
             return FriendRequestOutcome.Accepted;
@@ -181,11 +166,6 @@ public sealed class FriendService(ApplicationDbContext db, TimeProvider clock, I
 
         // Bloqueado pela outra pessoa? O pedido é gravado do mesmo jeito, para quem pediu não perceber o bloqueio;
         // ele só não aparece para quem bloqueou (ver OverviewAsync e AcceptAsync).
-        if (await db.Friendships.CountAsync(f => f.RequesterId == fromId && f.AcceptedAt == null, cancellationToken) >= MaxPendingSent)
-        {
-            return FriendRequestOutcome.TooManyRequests;
-        }
-
         db.Friendships.Add(new Friendship { RequesterId = fromId, AddresseeId = toId, CreatedAt = now });
         await db.SaveChangesAsync(cancellationToken);
         return FriendRequestOutcome.Requested;
@@ -198,11 +178,6 @@ public sealed class FriendService(ApplicationDbContext db, TimeProvider clock, I
         if (request is null || await db.FriendBlocks.AnyAsync(b => b.BlockerId == userId && b.BlockedId == request.RequesterId, cancellationToken))
         {
             return FriendActionOutcome.NotFound;
-        }
-
-        if (await FriendCountAsync(userId, cancellationToken) >= MaxFriends || await FriendCountAsync(request.RequesterId, cancellationToken) >= MaxFriends)
-        {
-            return FriendActionOutcome.TooManyFriends;
         }
 
         request.AcceptedAt = clock.GetUtcNow();
@@ -303,9 +278,6 @@ public sealed class FriendService(ApplicationDbContext db, TimeProvider clock, I
             Blocked: blocks.Select(b => new FriendRow(b.Id, Name(b.BlockedId), b.CreatedAt)).ToList(),
             Suggestions: suggested.Select(id => new FriendSuggestion(suggestions.Protect($"{userId}|{id}", SuggestionLifetime), Name(id))).ToList());
     }
-
-    private Task<int> FriendCountAsync(string userId, CancellationToken cancellationToken) =>
-        db.Friendships.CountAsync(f => f.AcceptedAt != null && (f.RequesterId == userId || f.AddresseeId == userId), cancellationToken);
 
     private Task<Friendship?> MineAsync(string userId, int friendshipId, CancellationToken cancellationToken) =>
         db.Friendships.FirstOrDefaultAsync(f => f.Id == friendshipId && (f.RequesterId == userId || f.AddresseeId == userId), cancellationToken);

@@ -73,7 +73,7 @@ else if (overview is not null)
         }
 
         <section aria-labelledby="friends-title" class="mb-4">
-            <h2 id="friends-title" class="h5">Seus amigos <span class="small text-body-secondary fw-normal">· @overview.Friends.Count de @FriendService.MaxFriends</span></h2>
+            <h2 id="friends-title" class="h5">Seus amigos <span class="small text-body-secondary fw-normal">· @overview.Friends.Count</span></h2>
             @if (overview.Friends.Count == 0)
             {
                 <p class="text-body-secondary">Você ainda não tem amigos por aqui. Mande o seu link para a turma.</p>
@@ -240,9 +240,7 @@ else if (overview is not null)
 
         if (outcome != FriendActionOutcome.Done)
         {
-            await FailAsync(outcome == FriendActionOutcome.TooManyFriends
-                ? $"Um de vocês já chegou a {FriendService.MaxFriends} amigos."
-                : "Não foi possível concluir: o pedido pode ter sido cancelado.");
+            await FailAsync("Não foi possível concluir: o pedido pode ter sido cancelado.");
             return;
         }
 

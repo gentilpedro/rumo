@@ -188,36 +188,6 @@ public class FriendTests(EnadeAdsFactory factory)
     }
 
     [Fact]
-    public async Task Limits_StopMassRequests()
-    {
-        var sender = await StudentAsync("amigo.limite@gmail.com");
-
-        var outcomes = new List<FriendRequestOutcome>();
-        using (var scope = factory.Services.CreateScope())
-        {
-            // Contas criadas direto no banco: o teste é do limite, não do cadastro.
-            var db = scope.ServiceProvider.GetRequiredService<ApplicationDbContext>();
-            var targets = Enumerable.Range(0, FriendService.MaxPendingSent + 1).Select(i => new ApplicationUser
-            {
-                UserName = $"amigo.limite.alvo{i}@gmail.com", NormalizedUserName = $"AMIGO.LIMITE.ALVO{i}@GMAIL.COM",
-                Email = $"amigo.limite.alvo{i}@gmail.com", NormalizedEmail = $"AMIGO.LIMITE.ALVO{i}@GMAIL.COM",
-                EmailConfirmed = true, FullName = $"Alvo {i}", SecurityStamp = Guid.NewGuid().ToString(),
-            }).ToList();
-            db.Users.AddRange(targets);
-            await db.SaveChangesAsync();
-
-            var friends = scope.ServiceProvider.GetRequiredService<FriendService>();
-            foreach (var target in targets)
-            {
-                outcomes.Add(await friends.RequestAsync(sender.Id, target.Id));
-            }
-        }
-
-        Assert.All(outcomes.Take(FriendService.MaxPendingSent), outcome => Assert.Equal(FriendRequestOutcome.Requested, outcome));
-        Assert.Equal(FriendRequestOutcome.TooManyRequests, outcomes[^1]);
-    }
-
-    [Fact]
     public async Task Suggestions_ComeFromSharedDuelsAndTheTokenOnlyWorksForItsOwner()
     {
         var ana = await StudentAsync("amigo.sugestao.ana@gmail.com");

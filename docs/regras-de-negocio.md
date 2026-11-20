@@ -164,7 +164,7 @@ Amizade no modelo "seguir com aceite": uma pessoa pede, a outra aceita, e só en
 - A página *Amigos* (no menu da conta) lista os **pedidos recebidos**, os **amigos**, os **pedidos enviados** e as **sugestões**.
 - Qualquer um dos dois **desfaz a amizade**, e quem enviou um pedido pode **cancelar**. A outra pessoa não é avisada.
 - **Bloquear** desfaz a relação e impede novos pedidos daquela pessoa. O bloqueio é silencioso: para quem foi bloqueado, o pedido seguinte parece enviado e fica na lista dele, mas nunca aparece para quem bloqueou. Dá para desbloquear em *Amigos*.
-- **Limites:** até **200 amigos** e até **20 pedidos enviados** aguardando resposta.
+- **Sem limite** de amigos nem de pedidos. Como não há busca, só dá para pedir amizade a quem mandou o link ou já duelou com a pessoa.
 - **Avisos só dentro do site:** nenhum e-mail é enviado por causa de um pedido.
 
 ## Resumo da semana
