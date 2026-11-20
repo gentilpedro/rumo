@@ -80,8 +80,8 @@ Alunos também têm e-mail institucional, muitas vezes no mesmo domínio dos pro
 
 - O cadastro exige aceitar os **Termos de uso** e a **Política de privacidade**. A data e a versão aceitas ficam guardadas na conta.
 - Os textos ficam em `/termos` e `/privacidade`, com link no rodapé de todas as páginas. O responsável pelos dados e o e-mail de contato vêm da configuração (`Privacy:ControllerName`, `Privacy:ContactEmail`), porque cada instalação tem o seu responsável.
-- **Baixar meus dados** (Minha conta → Dados pessoais) entrega um arquivo com a conta, o progresso no roadmap, as respostas, os simulados, os desafios, os duelos, os posts, os votos, as denúncias e os comentários.
-- **Excluir a conta** apaga a conta, o progresso, as respostas objetivas e discursivas, os simulados, as participações em duelos e os envios de desafio. Os votos saem junto. O duelo criado por quem excluiu a conta continua para quem jogou, sem o nome de quem criou. Os **posts e comentários da comunidade continuam, sem o nome** ("Participante que excluiu a conta"). Questões, desafios e avisos que um professor publicou continuam, assinados como "Equipe ENADE ADS".
+- **Baixar meus dados** (Minha conta → Dados pessoais) entrega um arquivo com a conta, o progresso no roadmap, as respostas, os simulados, os desafios, os duelos, o link de amigo, os amigos, os pedidos e os bloqueios (dos outros, só o nome abreviado), os posts, os votos, as denúncias e os comentários.
+- **Excluir a conta** apaga a conta, o progresso, as respostas objetivas e discursivas, os simulados, as participações em duelos, as amizades, os pedidos, os bloqueios e os envios de desafio. Os votos saem junto. O duelo criado por quem excluiu a conta continua para quem jogou, sem o nome de quem criou. Os **posts e comentários da comunidade continuam, sem o nome** ("Participante que excluiu a conta"). Questões, desafios e avisos que um professor publicou continuam, assinados como "Equipe ENADE ADS".
 - Registros técnicos de acesso ficam até 31 dias; cópias de segurança, até 30 dias.
 - O conteúdo publicado por professores segue a licença Creative Commons BY-SA 4.0; o código, a licença MIT.
 
@@ -152,6 +152,20 @@ Alunos também têm e-mail institucional, muitas vezes no mesmo domínio dos pro
 - O placar e o gabarito comentado aparecem **depois do envio**, só para quem jogou. O placar mostra o primeiro nome e a inicial do sobrenome.
 - As respostas entram no painel de desempenho e no caderno de erros, como no simulado.
 - **Revanche** cria um duelo novo, com outras questões da mesma trilha.
+
+## Amigos
+
+Amizade no modelo "seguir com aceite": uma pessoa pede, a outra aceita, e só então as duas viram amigas. A plataforma aceita alunos de 13 a 17 anos, então os amigos foram pensados para não virar um canal de contato entre desconhecidos.
+
+- Cada conta tem um **link de amigo** (`/amigos/<código>`), com código aleatório, criado na primeira vez que a pessoa abre *Amigos*. Ela pode **gerar um link novo**, e o anterior para de funcionar.
+- Quem abre o link e está logado **pede a amizade**. A outra pessoa **aceita ou recusa**. Se as duas pedirem uma à outra, a amizade vale na hora.
+- **Não existe busca por nome ou por e-mail, nem mensagem.** Só se chega a alguém pelo link que a pessoa mandou ou pelas **sugestões**: até 8 pessoas com quem você já jogou um duelo. O pedido não leva texto.
+- **O que cada um vê:** quem abre o link, quem recebe um pedido e quem é amigo vê o primeiro nome com a inicial do sobrenome, e mais nada. Antes do aceite, quem pediu não vê nada além disso.
+- A página *Amigos* (no menu da conta) lista os **pedidos recebidos**, os **amigos**, os **pedidos enviados** e as **sugestões**.
+- Qualquer um dos dois **desfaz a amizade**, e quem enviou um pedido pode **cancelar**. A outra pessoa não é avisada.
+- **Bloquear** desfaz a relação e impede novos pedidos daquela pessoa. O bloqueio é silencioso: para quem foi bloqueado, o pedido seguinte parece enviado e fica na lista dele, mas nunca aparece para quem bloqueou. Dá para desbloquear em *Amigos*.
+- **Limites:** até **200 amigos** e até **20 pedidos enviados** aguardando resposta.
+- **Avisos só dentro do site:** nenhum e-mail é enviado por causa de um pedido.
 
 ## Resumo da semana
 
