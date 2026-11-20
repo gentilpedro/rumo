@@ -1,7 +1,9 @@
 using System.Security.Cryptography;
 using System.Text.RegularExpressions;
+using EnadeAds.Battle;
 using EnadeAds.Data;
 using EnadeAds.Duels;
+using EnadeAds.Study;
 using Microsoft.EntityFrameworkCore;
 
 namespace EnadeAds.Rooms;
@@ -44,6 +46,19 @@ public enum RoomModeration
 /// <summary>Um membro como os outros o veem: só o primeiro nome e a inicial do sobrenome.</summary>
 public sealed record RoomMemberView(int MemberId, string Name, bool IsOwner, bool IsMe);
 
+/// <summary>Linha do ranking da semana: só o nome abreviado e o total de pontos. Empate divide a posição.</summary>
+public sealed record RoomRankRow(int Position, string Name, int Points, bool IsMe);
+
+/// <param name="Monday">Primeiro dia da semana atual do ranking.</param>
+/// <param name="LastWeek">Quem pontuou na semana passada, para a turma ver quem ganhou.</param>
+public sealed record RoomRanking(DateOnly Monday, IReadOnlyList<RoomRankRow> ThisWeek, IReadOnlyList<RoomRankRow> LastWeek)
+{
+    public DateOnly Sunday => Monday.AddDays(6);
+}
+
+/// <summary>Um duelo lançado para a sala, como aparece na página dela.</summary>
+public sealed record RoomDuel(string Code, string CreatorName, DateTimeOffset CreatedAt, bool IsOpen, int Finished, int QuestionCount, int? MyCorrect, int? MyPosition, bool Joined);
+
 /// <summary>Uma sala na lista "Suas salas".</summary>
 public sealed record RoomSummary(string Code, string Name, int TrackId, int Members, bool IsOwner);
 
@@ -52,10 +67,14 @@ public sealed record RoomReportGroup(int RoomId, string RoomName, int TrackId, i
 
 /// <summary>
 /// Salas de estudo. A sala é da trilha em que foi criada, mas se abre pelo link em qualquer trilha, como o duelo.
-/// Não há limite de membros nem de salas por pessoa.
+/// Não há limite de membros nem de salas por pessoa. A sala tem um ranking semanal e duelos só dos membros.
 /// </summary>
-public sealed partial class StudyRoomService(ApplicationDbContext db, TimeProvider clock, ILogger<StudyRoomService> logger)
+public sealed partial class StudyRoomService(
+    ApplicationDbContext db, TimeProvider clock, LocalCalendar calendar, DuelService duels, ILogger<StudyRoomService> logger)
 {
+    /// <summary>Quantos duelos da sala a página mostra, do mais novo para o mais antigo.</summary>
+    public const int RecentDuels = 10;
+
     public const int CodeLength = 8;
     public const int NameMinLength = 3;
     public const int NameMaxLength = 60;
@@ -255,6 +274,92 @@ public sealed partial class StudyRoomService(ApplicationDbContext db, TimeProvid
             .OrderByDescending(m => m.UserId == room.OwnerId).ThenBy(m => m.Id)
             .Select(m => new RoomMemberView(m.Id, DuelService.ShortName(names.GetValueOrDefault(m.UserId)), m.UserId == room.OwnerId, m.UserId == userId))
             .ToList();
+    }
+
+    /// <summary>
+    /// Ranking da semana (segunda a domingo, no horário da plataforma) e o da semana passada. A regra é a da
+    /// batalha da semana: cada questão objetiva acertada vale 1 ponto, uma vez por pessoa e por questão, fora dos
+    /// desafios, e só contam questões da trilha da sala. Nada é gravado: sai das respostas que já existem, e só
+    /// para quem é membro agora (quem saiu some também do ranking da semana passada).
+    /// </summary>
+    public async Task<RoomRanking> RankingAsync(StudyRoom room, string? userId, CancellationToken cancellationToken = default)
+    {
+        var monday = WeeklyBattleService.MondayOf(calendar.Today());
+        var ids = room.Members.Select(m => m.UserId).ToList();
+        var names = await db.Users.AsNoTracking()
+            .Where(u => ids.Contains(u.Id))
+            .ToDictionaryAsync(u => u.Id, u => u.FullName, cancellationToken);
+        var thisWeek = await PointsAsync(room.TrackId, ids, monday, cancellationToken);
+        var lastWeek = await PointsAsync(room.TrackId, ids, monday.AddDays(-7), cancellationToken);
+
+        List<RoomRankRow> Rank(IEnumerable<string> members, IReadOnlyDictionary<string, int> points)
+        {
+            var ordered = members
+                .Select(id => (Id: id, Name: DuelService.ShortName(names.GetValueOrDefault(id)), Points: points.GetValueOrDefault(id)))
+                .OrderByDescending(m => m.Points).ThenBy(m => m.Name, StringComparer.CurrentCultureIgnoreCase)
+                .ToList();
+            // Empate fica na mesma posição: 1º, 1º, 3º.
+            return ordered.Select(m => new RoomRankRow(1 + ordered.Count(other => other.Points > m.Points), m.Name, m.Points, m.Id == userId)).ToList();
+        }
+
+        return new RoomRanking(monday, Rank(ids, thisWeek), Rank(ids.Where(id => lastWeek.GetValueOrDefault(id) > 0), lastWeek));
+    }
+
+    private async Task<Dictionary<string, int>> PointsAsync(int trackId, List<string> memberIds, DateOnly monday, CancellationToken cancellationToken)
+    {
+        var (start, _) = calendar.DayRange(monday);
+        var (_, end) = calendar.DayRange(monday.AddDays(6));
+
+        var hits = await db.QuestionAttempts.AsNoTracking()
+            .Where(a => a.IsCorrect && a.ChallengeId == null && a.AnsweredAt >= start && a.AnsweredAt < end && memberIds.Contains(a.UserId))
+            .Join(db.Questions.IgnoreQueryFilters().Where(q => q.Subject!.TrackId == trackId), a => a.QuestionId, q => q.Id, (a, q) => new { a.UserId, a.QuestionId })
+            .Distinct()
+            .ToListAsync(cancellationToken);
+
+        return hits.GroupBy(h => h.UserId).ToDictionary(g => g.Key, g => g.Count());
+    }
+
+    /// <summary>
+    /// Um membro desafia a sala: cria um duelo com as questões da trilha da sala, em que só os membros entram.
+    /// Devolve o código do duelo, ou nulo se a sala não existe, a pessoa não é membro ou a trilha não tem questões.
+    /// </summary>
+    public async Task<string?> ChallengeAsync(string code, string userId, CancellationToken cancellationToken = default)
+    {
+        var room = await FindAsync(code, cancellationToken);
+        if (room is null || room.Members.All(m => m.UserId != userId))
+        {
+            return null;
+        }
+
+        return (await duels.CreateAsync(userId, room.TrackId, room.Id, cancellationToken)).Code;
+    }
+
+    /// <summary>Os duelos mais recentes da sala, com o placar resumido. A página só mostra a lista a quem é membro.</summary>
+    public async Task<IReadOnlyList<RoomDuel>> DuelsAsync(StudyRoom room, string? userId, CancellationToken cancellationToken = default)
+    {
+        var list = await db.Duels.IgnoreQueryFilters().AsNoTracking()
+            .Where(d => d.RoomId == room.Id)
+            .Include(d => d.Players)
+            .Include(d => d.Questions)
+            .OrderByDescending(d => d.Id)
+            .Take(RecentDuels)
+            .AsSplitQuery()
+            .ToListAsync(cancellationToken);
+
+        var creators = list.Select(d => d.CreatorId).OfType<string>().Distinct().ToList();
+        var names = await db.Users.AsNoTracking()
+            .Where(u => creators.Contains(u.Id))
+            .ToDictionaryAsync(u => u.Id, u => u.FullName, cancellationToken);
+        var now = clock.GetUtcNow();
+
+        return list.Select(d =>
+        {
+            var ranked = DuelService.Rank(d.Players);
+            var mine = d.Players.FirstOrDefault(p => p.UserId == userId);
+            int? position = mine is { HasFinished: true } ? ranked.FindIndex(p => p.UserId == userId) + 1 : null;
+            var creator = d.CreatorId is null ? "Alguém" : DuelService.ShortName(names.GetValueOrDefault(d.CreatorId));
+            return new RoomDuel(d.Code, creator, d.CreatedAt, now <= d.JoinUntil, ranked.Count, d.Questions.Count, mine?.CorrectCount, position, mine is not null);
+        }).ToList();
     }
 
     /// <summary>As salas da pessoa em todas as trilhas, da mais nova para a mais antiga.</summary>

@@ -198,6 +198,7 @@ public sealed class FriendService(ApplicationDbContext db, TimeProvider clock, I
         }
 
         db.Friendships.Remove(relation);
+        await RemoveInvitesBetweenAsync(userId, relation.OtherThan(userId), cancellationToken);
         await db.SaveChangesAsync(cancellationToken);
         return FriendActionOutcome.Done;
     }
@@ -213,6 +214,7 @@ public sealed class FriendService(ApplicationDbContext db, TimeProvider clock, I
 
         var other = relation.OtherThan(userId);
         db.Friendships.Remove(relation);
+        await RemoveInvitesBetweenAsync(userId, other, cancellationToken);
         if (!await db.FriendBlocks.AnyAsync(b => b.BlockerId == userId && b.BlockedId == other, cancellationToken))
         {
             db.FriendBlocks.Add(new FriendBlock { BlockerId = userId, BlockedId = other, CreatedAt = clock.GetUtcNow() });
@@ -277,6 +279,15 @@ public sealed class FriendService(ApplicationDbContext db, TimeProvider clock, I
                 .OrderBy(f => f.Name, StringComparer.CurrentCultureIgnoreCase).ToList(),
             Blocked: blocks.Select(b => new FriendRow(b.Id, Name(b.BlockedId), b.CreatedAt)).ToList(),
             Suggestions: suggested.Select(id => new FriendSuggestion(suggestions.Protect($"{userId}|{id}", SuggestionLifetime), Name(id))).ToList());
+    }
+
+    /// <summary>Convite só existe entre amigos: desfeita a amizade (ou bloqueada a pessoa), os convites entre os dois somem.</summary>
+    private async Task RemoveInvitesBetweenAsync(string userId, string otherId, CancellationToken cancellationToken)
+    {
+        var invites = await db.FriendInvites
+            .Where(i => (i.FromId == userId && i.ToId == otherId) || (i.FromId == otherId && i.ToId == userId))
+            .ToListAsync(cancellationToken);
+        db.FriendInvites.RemoveRange(invites);
     }
 
     private Task<Friendship?> MineAsync(string userId, int friendshipId, CancellationToken cancellationToken) =>

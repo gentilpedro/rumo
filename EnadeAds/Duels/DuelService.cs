@@ -20,6 +20,9 @@ public enum JoinDuelOutcome
     NotFound,
     Closed,
     Full,
+
+    /// <summary>O duelo é de uma sala de estudos e a pessoa não é membro dela.</summary>
+    NotAMember,
 }
 
 public enum SubmitDuelOutcome
@@ -63,9 +66,10 @@ public sealed class DuelService(ApplicationDbContext db, TimeProvider clock, ILo
 
     /// <summary>
     /// Cria o duelo com as questões da trilha ativa, a prova que a pessoa está estudando. A revanche passa
-    /// <paramref name="trackId"/> para repetir a prova do duelo anterior.
+    /// <paramref name="trackId"/> para repetir a prova do duelo anterior. Com <paramref name="roomId"/>, o duelo é
+    /// de uma sala de estudos e só os membros dela entram (quem chama confere que o criador é membro).
     /// </summary>
-    public async Task<CreateDuelResult> CreateAsync(string userId, int? trackId = null, CancellationToken cancellationToken = default)
+    public async Task<CreateDuelResult> CreateAsync(string userId, int? trackId = null, int? roomId = null, CancellationToken cancellationToken = default)
     {
         var track = trackId ?? db.CurrentTrackId;
         var pool = await db.Questions.IgnoreQueryFilters().AsNoTracking()
@@ -83,6 +87,7 @@ public sealed class DuelService(ApplicationDbContext db, TimeProvider clock, ILo
         {
             Code = NewCode(),
             TrackId = track,
+            RoomId = roomId,
             CreatorId = userId,
             CreatedAt = clock.GetUtcNow(),
             Questions = picked.Select((id, index) => new DuelQuestion { QuestionId = id, Order = index + 1 }).ToList(),
@@ -124,6 +129,11 @@ public sealed class DuelService(ApplicationDbContext db, TimeProvider clock, ILo
             return JoinDuelOutcome.AlreadyPlaying;
         }
 
+        if (!await CanJoinAsync(duel, userId, cancellationToken))
+        {
+            return JoinDuelOutcome.NotAMember;
+        }
+
         var now = clock.GetUtcNow();
         if (now > duel.JoinUntil)
         {
@@ -148,6 +158,11 @@ public sealed class DuelService(ApplicationDbContext db, TimeProvider clock, ILo
 
         return JoinDuelOutcome.Started;
     }
+
+    /// <summary>Duelo por link: qualquer pessoa logada. Duelo de sala: só quem é membro da sala.</summary>
+    public async Task<bool> CanJoinAsync(Duel duel, string? userId, CancellationToken cancellationToken = default) =>
+        duel.RoomId is not { } roomId
+        || (userId is not null && await db.StudyRoomMembers.AnyAsync(m => m.RoomId == roomId && m.UserId == userId, cancellationToken));
 
     /// <summary>
     /// Corrige e fecha a participação. Depois do prazo, o que chega é ignorado e as questões contam em branco,

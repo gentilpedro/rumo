@@ -28,8 +28,8 @@ Cada prova é uma **trilha**. Ao entrar, o estudante escolhe a dele, e a marca p
 - **Estrelas no roadmap:** cada matéria ganha até 3 estrelas pelo seu acerto, como fases de um jogo.
 - **Batalha da semana:** as provas disputam a semana; cada acerto soma um ponto para a sua.
 - **Duelos:** 5 questões, 10 minutos e um link para mandar no grupo da turma. Ganha quem acertar mais; no empate, quem foi mais rápido.
-- **Salas de estudo:** um grupo fechado para a turma, que só abre para quem recebe o link. Sem busca de pessoas e sem conversa.
-- **Amigos:** você manda o seu link, a pessoa pede a amizade e você aceita. Sem busca de pessoas e sem conversa.
+- **Salas de estudo:** um grupo fechado para a turma, que só abre para quem recebe o link, com ranking da semana e duelos só dos membros. Sem busca de pessoas e sem conversa.
+- **Amigos:** você manda o seu link, a pessoa pede a amizade e você aceita. Aí vocês veem o que o outro está estudando e se desafiam para duelos. Sem busca de pessoas e sem conversa.
 - **Desafios semanais** publicados pelos professores.
 - **Meu desempenho:** acertos por matéria, para saber onde focar.
 - **Resumo da semana:** seus números da semana comparados com a anterior, prontos para mandar no grupo.
