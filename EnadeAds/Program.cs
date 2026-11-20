@@ -105,6 +105,7 @@ try
     builder.Services.AddScoped<MockExamService>();
     builder.Services.AddScoped<DuelService>();
     builder.Services.AddScoped<EnadeAds.Rooms.StudyRoomService>();
+    builder.Services.AddScoped<EnadeAds.Friends.FriendService>();
     builder.Services.AddScoped<AchievementService>();
     builder.Services.AddScoped<WeeklySummaryService>();
     builder.Services.AddScoped<DailyQuestionService>();

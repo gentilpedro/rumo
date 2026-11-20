@@ -75,59 +75,24 @@ public class StudyRoomTests(EnadeAdsFactory factory)
     }
 
     [Fact]
-    public async Task Limits_StopOneAccountFromCreatingOrJoiningTooManyRooms()
-    {
-        var owner = await StudentAsync("sala.limite.dono@gmail.com");
-        var joiner = await StudentAsync("sala.limite.entra@gmail.com");
-
-        var codes = new List<string>();
-        for (var i = 0; i < StudyRoomService.MaxOwned; i++)
-        {
-            codes.Add(await CreateRoomAsync(owner.Id, $"Sala {i + 1}"));
-        }
-
-        var oneTooMany = await InScopeAsync(rooms => rooms.CreateAsync(owner.Id, "Sala a mais"));
-
-        // Quem entra em salas de outras pessoas esbarra no limite total.
-        var others = new List<string>(codes);
-        for (var i = 0; others.Count < StudyRoomService.MaxMemberships + 1; i++)
-        {
-            var other = await StudentAsync($"sala.limite.outro{i}@gmail.com");
-            others.Add(await CreateRoomAsync(other.Id, $"Outra sala {i + 1}"));
-        }
-
-        var joins = new List<JoinRoomOutcome>();
-        foreach (var code in others)
-        {
-            joins.Add(await InScopeAsync(rooms => rooms.JoinAsync(code, joiner.Id)));
-        }
-
-        Assert.Equal(CreateRoomOutcome.TooManyRooms, oneTooMany.Outcome);
-        Assert.All(joins.Take(StudyRoomService.MaxMemberships), outcome => Assert.Equal(JoinRoomOutcome.Joined, outcome));
-        Assert.Equal(JoinRoomOutcome.TooManyRooms, joins[^1]);
-    }
-
-    [Fact]
-    public async Task Join_NeedsTheLinkAndARoomWithSpace()
+    public async Task Join_NeedsTheLinkAndHappensOnlyOnce()
     {
         var owner = await StudentAsync("sala.entra.dono@gmail.com");
+        var member = await StudentAsync("sala.entra.membro@gmail.com");
         var code = await CreateRoomAsync(owner.Id);
 
-        var outcomes = new List<JoinRoomOutcome>();
-        for (var i = 0; i < StudyRoomService.MaxMembers; i++)
-        {
-            var member = await StudentAsync($"sala.entra.membro{i}@gmail.com");
-            outcomes.Add(await InScopeAsync(rooms => rooms.JoinAsync(code.ToUpperInvariant(), member.Id)));
-        }
+        // O código vale com maiúsculas e espaços: pode ter sido digitado.
+        var joined = await InScopeAsync(rooms => rooms.JoinAsync($" {code.ToUpperInvariant()} ", member.Id));
+        var again = await InScopeAsync(rooms => rooms.JoinAsync(code, member.Id));
+        var ownerAgain = await InScopeAsync(rooms => rooms.JoinAsync(code, owner.Id));
+        var wrongCode = await InScopeAsync(rooms => rooms.JoinAsync("naoexiste", member.Id));
+        var room = (await InScopeAsync(rooms => rooms.FindAsync(code)))!;
 
-        var again = await InScopeAsync(rooms => rooms.JoinAsync(code, owner.Id));
-        var wrongCode = await InScopeAsync(rooms => rooms.JoinAsync("naoexiste", owner.Id));
-
-        // O dono já ocupa uma vaga: entram 29 e a 30ª pessoa encontra a sala cheia.
-        Assert.All(outcomes.Take(StudyRoomService.MaxMembers - 1), outcome => Assert.Equal(JoinRoomOutcome.Joined, outcome));
-        Assert.Equal(JoinRoomOutcome.Full, outcomes[^1]);
+        Assert.Equal(JoinRoomOutcome.Joined, joined);
         Assert.Equal(JoinRoomOutcome.AlreadyMember, again);
+        Assert.Equal(JoinRoomOutcome.AlreadyMember, ownerAgain);
         Assert.Equal(JoinRoomOutcome.NotFound, wrongCode);
+        Assert.Equal(2, room.Members.Count);
     }
 
     [Fact]

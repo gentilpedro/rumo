@@ -133,9 +133,7 @@ else
         var result = await Rooms.CreateAsync(userId, Name);
         if (result.Outcome != CreateRoomOutcome.Created)
         {
-            errorMessage = result.Outcome == CreateRoomOutcome.InvalidName
-                ? $"O nome da sala precisa ter de {StudyRoomService.NameMinLength} a {StudyRoomService.NameMaxLength} caracteres."
-                : $"Você já chegou ao limite: {StudyRoomService.MaxOwned} salas criadas ou {StudyRoomService.MaxMemberships} salas ao todo. Saia de uma para criar outra.";
+            errorMessage = $"O nome da sala precisa ter de {StudyRoomService.NameMinLength} a {StudyRoomService.NameMaxLength} caracteres.";
             HttpContext.Response.StatusCode = StatusCodes.Status400BadRequest;
             return;
         }

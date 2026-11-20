@@ -12,7 +12,7 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace EnadeAds.Data.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20261120204807_AddStudyRooms")]
+    [Migration("20261120221040_AddStudyRooms")]
     partial class AddStudyRooms
     {
         /// <inheritdoc />
@@ -499,6 +499,88 @@ namespace EnadeAds.Data.Migrations
                     b.HasIndex("QuestionId");
 
                     b.ToTable("DuelQuestions");
+                });
+
+            modelBuilder.Entity("EnadeAds.Friends.FriendBlock", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer");
+
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("BlockedId")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("BlockerId")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<DateTimeOffset>("CreatedAt")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("BlockedId");
+
+                    b.HasIndex("BlockerId", "BlockedId")
+                        .IsUnique();
+
+                    b.ToTable("FriendBlocks");
+                });
+
+            modelBuilder.Entity("EnadeAds.Friends.FriendLink", b =>
+                {
+                    b.Property<string>("UserId")
+                        .HasColumnType("text");
+
+                    b.Property<string>("Code")
+                        .IsRequired()
+                        .HasMaxLength(10)
+                        .HasColumnType("character varying(10)");
+
+                    b.Property<DateTimeOffset>("CreatedAt")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.HasKey("UserId");
+
+                    b.HasIndex("Code")
+                        .IsUnique();
+
+                    b.ToTable("FriendLinks");
+                });
+
+            modelBuilder.Entity("EnadeAds.Friends.Friendship", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer");
+
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
+
+                    b.Property<DateTimeOffset?>("AcceptedAt")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<string>("AddresseeId")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<DateTimeOffset>("CreatedAt")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<string>("RequesterId")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("AddresseeId");
+
+                    b.HasIndex("RequesterId", "AddresseeId")
+                        .IsUnique();
+
+                    b.ToTable("Friendships");
                 });
 
             modelBuilder.Entity("EnadeAds.MockExams.MockExam", b =>
@@ -8585,6 +8667,45 @@ namespace EnadeAds.Data.Migrations
                         .IsRequired();
 
                     b.Navigation("Question");
+                });
+
+            modelBuilder.Entity("EnadeAds.Friends.FriendBlock", b =>
+                {
+                    b.HasOne("EnadeAds.Data.ApplicationUser", null)
+                        .WithMany()
+                        .HasForeignKey("BlockedId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("EnadeAds.Data.ApplicationUser", null)
+                        .WithMany()
+                        .HasForeignKey("BlockerId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("EnadeAds.Friends.FriendLink", b =>
+                {
+                    b.HasOne("EnadeAds.Data.ApplicationUser", null)
+                        .WithMany()
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("EnadeAds.Friends.Friendship", b =>
+                {
+                    b.HasOne("EnadeAds.Data.ApplicationUser", null)
+                        .WithMany()
+                        .HasForeignKey("AddresseeId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("EnadeAds.Data.ApplicationUser", null)
+                        .WithMany()
+                        .HasForeignKey("RequesterId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
                 });
 
             modelBuilder.Entity("EnadeAds.MockExams.MockExam", b =>

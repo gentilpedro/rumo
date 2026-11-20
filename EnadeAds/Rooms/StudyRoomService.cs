@@ -10,7 +10,6 @@ public enum CreateRoomOutcome
 {
     Created,
     InvalidName,
-    TooManyRooms,
 }
 
 public sealed record CreateRoomResult(CreateRoomOutcome Outcome, string? Code);
@@ -20,8 +19,6 @@ public enum JoinRoomOutcome
     Joined,
     AlreadyMember,
     NotFound,
-    Full,
-    TooManyRooms,
 }
 
 public enum RoomActionOutcome
@@ -55,17 +52,10 @@ public sealed record RoomReportGroup(int RoomId, string RoomName, int TrackId, i
 
 /// <summary>
 /// Salas de estudo. A sala é da trilha em que foi criada, mas se abre pelo link em qualquer trilha, como o duelo.
+/// Não há limite de membros nem de salas por pessoa.
 /// </summary>
 public sealed partial class StudyRoomService(ApplicationDbContext db, TimeProvider clock, ILogger<StudyRoomService> logger)
 {
-    public const int MaxMembers = 30;
-
-    /// <summary>Salas que uma pessoa pode ter criado ao mesmo tempo.</summary>
-    public const int MaxOwned = 5;
-
-    /// <summary>Salas de que uma pessoa pode participar ao mesmo tempo, contando as que criou.</summary>
-    public const int MaxMemberships = 10;
-
     public const int CodeLength = 8;
     public const int NameMinLength = 3;
     public const int NameMaxLength = 60;
@@ -83,13 +73,6 @@ public sealed partial class StudyRoomService(ApplicationDbContext db, TimeProvid
         if (NormalizeName(name) is not { } valid)
         {
             return new CreateRoomResult(CreateRoomOutcome.InvalidName, null);
-        }
-
-        var owned = await db.StudyRooms.CountAsync(r => r.OwnerId == userId, cancellationToken);
-        var memberships = await db.StudyRoomMembers.CountAsync(m => m.UserId == userId, cancellationToken);
-        if (owned >= MaxOwned || memberships >= MaxMemberships)
-        {
-            return new CreateRoomResult(CreateRoomOutcome.TooManyRooms, null);
         }
 
         var now = clock.GetUtcNow();
@@ -149,16 +132,6 @@ public sealed partial class StudyRoomService(ApplicationDbContext db, TimeProvid
         if (room.Members.Any(m => m.UserId == userId))
         {
             return JoinRoomOutcome.AlreadyMember;
-        }
-
-        if (room.Members.Count >= MaxMembers)
-        {
-            return JoinRoomOutcome.Full;
-        }
-
-        if (await db.StudyRoomMembers.CountAsync(m => m.UserId == userId, cancellationToken) >= MaxMemberships)
-        {
-            return JoinRoomOutcome.TooManyRooms;
         }
 
         room.Members.Add(new StudyRoomMember { UserId = userId, JoinedAt = clock.GetUtcNow() });

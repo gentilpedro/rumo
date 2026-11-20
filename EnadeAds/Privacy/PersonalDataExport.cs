@@ -57,6 +57,23 @@ public sealed class PersonalDataExport(ApplicationDbContext db, UserManager<Appl
             .Where(r => r.ReporterId == userId)
             .Join(db.StudyRooms, r => r.RoomId, room => room.Id, (r, room) => new { Sala = room.Name, Motivo = r.Reason, Em = r.CreatedAt })
             .ToListAsync(cancellationToken);
+        // Dos amigos vai só o nome abreviado, como a pessoa os vê na plataforma: o arquivo é dela, não deles.
+        var relations = await db.Friendships.AsNoTracking()
+            .Where(f => f.RequesterId == userId || f.AddresseeId == userId)
+            .ToListAsync(cancellationToken);
+        var blockedRows = await db.FriendBlocks.AsNoTracking().Where(b => b.BlockerId == userId).ToListAsync(cancellationToken);
+        var otherIds = relations.Select(f => f.OtherThan(userId)).Concat(blockedRows.Select(b => b.BlockedId)).Distinct().ToList();
+        var otherNames = await db.Users.AsNoTracking()
+            .Where(u => otherIds.Contains(u.Id))
+            .Select(u => new { u.Id, u.FullName })
+            .ToDictionaryAsync(u => u.Id, u => Duels.DuelService.ShortName(u.FullName), cancellationToken);
+        var friends = relations.Select(f => new
+        {
+            Pessoa = otherNames.GetValueOrDefault(f.OtherThan(userId)), PedidoPorVoce = f.RequesterId == userId, PedidoEm = f.CreatedAt, AceitoEm = f.AcceptedAt,
+        }).ToList();
+        var blocked = blockedRows.Select(b => new { Pessoa = otherNames.GetValueOrDefault(b.BlockedId), Em = b.CreatedAt }).ToList();
+
+        var friendLink = await db.FriendLinks.AsNoTracking().Where(l => l.UserId == userId).Select(l => l.Code).FirstOrDefaultAsync(cancellationToken);
 
         var comments = await db.PostComments.AsNoTracking()
             .Where(c => c.UserId == userId)
@@ -102,6 +119,9 @@ public sealed class PersonalDataExport(ApplicationDbContext db, UserManager<Appl
             Duelos = duels,
             SalasDeEstudo = rooms,
             DenunciasDeSalas = roomReports,
+            LinkDeAmigo = friendLink,
+            AmigosEPedidos = friends,
+            Bloqueados = blocked,
             ComentariosNoBlog = comments,
             Posts = posts,
             Votos = votes,
