@@ -3,6 +3,7 @@ using EnadeAds.Blog;
 using EnadeAds.Challenges;
 using EnadeAds.Daily;
 using EnadeAds.Duels;
+using EnadeAds.Friends;
 using EnadeAds.MockExams;
 using EnadeAds.Questions;
 using EnadeAds.Reviews;
@@ -45,6 +46,9 @@ public class ApplicationDbContext(DbContextOptions<ApplicationDbContext> options
     public DbSet<DuelQuestion> DuelQuestions => Set<DuelQuestion>();
     public DbSet<DuelPlayer> DuelPlayers => Set<DuelPlayer>();
     public DbSet<DuelAnswer> DuelAnswers => Set<DuelAnswer>();
+    public DbSet<FriendLink> FriendLinks => Set<FriendLink>();
+    public DbSet<Friendship> Friendships => Set<Friendship>();
+    public DbSet<FriendBlock> FriendBlocks => Set<FriendBlock>();
     public DbSet<DailyQuestion> DailyQuestions => Set<DailyQuestion>();
     public DbSet<SurvivalRun> SurvivalRuns => Set<SurvivalRun>();
 
@@ -301,6 +305,33 @@ public class ApplicationDbContext(DbContextOptions<ApplicationDbContext> options
         {
             answer.HasKey(a => new { a.DuelId, a.UserId, a.QuestionId });
             answer.HasOne<QuestionOption>().WithMany().HasForeignKey(a => a.OptionId).OnDelete(DeleteBehavior.Cascade);
+        });
+
+        // Amigos: tudo sai junto quando uma das contas é excluída.
+        builder.Entity<FriendLink>(link =>
+        {
+            link.HasKey(l => l.UserId);
+            link.Property(l => l.Code).HasMaxLength(FriendService.CodeLength);
+            link.HasIndex(l => l.Code).IsUnique();
+            link.HasOne<ApplicationUser>().WithMany().HasForeignKey(l => l.UserId).OnDelete(DeleteBehavior.Cascade);
+        });
+
+        builder.Entity<Friendship>(friendship =>
+        {
+            friendship.Ignore(f => f.IsAccepted);
+            // Um pedido por par e por sentido; o serviço impede o pedido no sentido contrário (ele vira aceite).
+            friendship.HasIndex(f => new { f.RequesterId, f.AddresseeId }).IsUnique();
+            friendship.HasIndex(f => f.AddresseeId);
+            friendship.HasOne<ApplicationUser>().WithMany().HasForeignKey(f => f.RequesterId).OnDelete(DeleteBehavior.Cascade);
+            friendship.HasOne<ApplicationUser>().WithMany().HasForeignKey(f => f.AddresseeId).OnDelete(DeleteBehavior.Cascade);
+        });
+
+        builder.Entity<FriendBlock>(block =>
+        {
+            block.HasIndex(b => new { b.BlockerId, b.BlockedId }).IsUnique();
+            block.HasIndex(b => b.BlockedId);
+            block.HasOne<ApplicationUser>().WithMany().HasForeignKey(b => b.BlockerId).OnDelete(DeleteBehavior.Cascade);
+            block.HasOne<ApplicationUser>().WithMany().HasForeignKey(b => b.BlockedId).OnDelete(DeleteBehavior.Cascade);
         });
 
         builder.Entity<DailyQuestion>(daily =>
