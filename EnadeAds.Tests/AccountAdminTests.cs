@@ -1,5 +1,7 @@
 using System.Net;
 using EnadeAds.Accounts;
+using EnadeAds.Data;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc.Testing;
 using Microsoft.Extensions.DependencyInjection;
 
@@ -105,6 +107,94 @@ public class AccountAdminTests(EnadeAdsFactory factory)
         Assert.DoesNotContain("Bloquear", own);
         Assert.Contains("foi bloqueado", html);
         Assert.Contains("Bloqueada", html);
+    }
+
+    [Fact]
+    public async Task MakeTeacher_WorksForAnyAccountAndClosesAPendingRequest()
+    {
+        var admin = await TestAccounts.CreateConfirmedAsync(factory, "contas.admin5@faculdade.edu.br", Roles.Student, Roles.Admin);
+        // E-mail comum, sem pedido: é uma decisão do admin, não passa pela regra do e-mail institucional.
+        var student = await TestAccounts.CreateConfirmedAsync(factory, "contas.vira.prof@gmail.com", Roles.Student);
+        var pending = await TestAccounts.CreateConfirmedAsync(factory, "contas.pendente@faculdade.edu.br", Roles.Student, Roles.PendingTeacher);
+
+        var promoted = await ApplyAsync(admin.Id, student.Id, AccountAction.MakeTeacher);
+        var again = await ApplyAsync(admin.Id, student.Id, AccountAction.MakeTeacher);
+        var fromPending = await ApplyAsync(admin.Id, pending.Id, AccountAction.MakeTeacher);
+
+        Assert.True(promoted.Succeeded);
+        Assert.Equal([Roles.Student, Roles.Teacher], (await TestAccounts.RolesOfAsync(factory, student.Email!)).Order());
+        Assert.False(again.Succeeded);
+        Assert.True(fromPending.Succeeded);
+        Assert.Equal([Roles.Student, Roles.Teacher], (await TestAccounts.RolesOfAsync(factory, pending.Email!)).Order());
+    }
+
+    [Fact]
+    public async Task MakeAdmin_GivesTheRoleAndTheNewAdminOpensThePanel()
+    {
+        var admin = await TestAccounts.CreateConfirmedAsync(factory, "contas.admin6@faculdade.edu.br", Roles.Student, Roles.Admin);
+        var student = await TestAccounts.CreateConfirmedAsync(factory, "contas.vira.admin@gmail.com", Roles.Student);
+
+        var promoted = await ApplyAsync(admin.Id, student.Id, AccountAction.MakeAdmin);
+        var again = await ApplyAsync(admin.Id, student.Id, AccountAction.MakeAdmin);
+        var client = NewClient();
+        await TestAccounts.LoginAsync(client, student.Email!);
+        var panel = await client.GetAsync("/admin/contas");
+
+        Assert.True(promoted.Succeeded);
+        Assert.Contains(Roles.Admin, await TestAccounts.RolesOfAsync(factory, student.Email!));
+        Assert.False(again.Succeeded);
+        Assert.Equal(HttpStatusCode.OK, panel.StatusCode);
+    }
+
+    [Theory]
+    [InlineData(AccountAction.MakeTeacher)]
+    [InlineData(AccountAction.MakeAdmin)]
+    public async Task Promotion_NeedsAConfirmedEmailAndAnUnblockedAccount(AccountAction action)
+    {
+        var admin = await TestAccounts.CreateConfirmedAsync(factory, $"contas.admin.{action}@faculdade.edu.br", Roles.Student, Roles.Admin);
+        var unconfirmed = await TestAccounts.CreateConfirmedAsync(factory, $"contas.sem.email.{action}@gmail.com", Roles.Student);
+        var blocked = await TestAccounts.CreateConfirmedAsync(factory, $"contas.bloqueada.{action}@gmail.com", Roles.Student);
+        using (var scope = factory.Services.CreateScope())
+        {
+            var users = scope.ServiceProvider.GetRequiredService<UserManager<ApplicationUser>>();
+            var user = (await users.FindByIdAsync(unconfirmed.Id))!;
+            user.EmailConfirmed = false;
+            await users.UpdateAsync(user);
+        }
+
+        await ApplyAsync(admin.Id, blocked.Id, AccountAction.Block);
+        var withoutEmail = await ApplyAsync(admin.Id, unconfirmed.Id, action);
+        var whileBlocked = await ApplyAsync(admin.Id, blocked.Id, action);
+        var self = await ApplyAsync(admin.Id, admin.Id, action);
+
+        Assert.False(withoutEmail.Succeeded);
+        Assert.Contains("confirmou o e-mail", withoutEmail.Message);
+        Assert.False(whileBlocked.Succeeded);
+        Assert.Contains("bloqueada", whileBlocked.Message);
+        Assert.False(self.Succeeded);
+        Assert.Equal([Roles.Student], await TestAccounts.RolesOfAsync(factory, unconfirmed.Email!));
+        Assert.Equal([Roles.Student], await TestAccounts.RolesOfAsync(factory, blocked.Email!));
+    }
+
+    [Fact]
+    public async Task Page_OffersPromotionAndAppliesIt()
+    {
+        await TestAccounts.CreateConfirmedAsync(factory, "contas.promove.admin@faculdade.edu.br", Roles.Student, Roles.Admin);
+        var target = await TestAccounts.CreateConfirmedAsync(factory, "contas.promove.alvo@gmail.com", Roles.Student);
+        var client = NewClient();
+        await TestAccounts.LoginAsync(client, "contas.promove.admin@faculdade.edu.br");
+
+        var url = "/admin/contas?busca=contas.promove.alvo";
+        var before = WebUtility.HtmlDecode(await client.GetStringAsync(url));
+        var response = await TestAccounts.SubmitFormAsync(client, url, "account-action", new() { ["Command"] = $"MakeAdmin:{target.Id}" });
+        var after = WebUtility.HtmlDecode(await response.Content.ReadAsStringAsync());
+
+        Assert.Contains("Tornar professor", before);
+        // Dar admin pede dois cliques: o botão que envia fica dentro do <details>.
+        Assert.Matches("(?s)<details class=\"promote-admin\">.*Confirmar: tornar admin.*</details>", before);
+        Assert.Contains("agora é administrador", after);
+        Assert.Contains("Remover admin", after);
+        Assert.DoesNotContain("Confirmar: tornar admin", after);
     }
 
     private async Task<EditResultMessage> ApplyAsync(string adminId, string targetId, AccountAction action)

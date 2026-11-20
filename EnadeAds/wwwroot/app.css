@@ -1396,3 +1396,18 @@ a.tag-discussion:not(.btn) {
     font-size: 0.75rem;
     color: var(--muted);
 }
+
+/* Tela Contas: "Tornar admin" abre a confirmação antes de enviar (dois cliques, sem JavaScript). */
+.promote-admin > summary {
+    list-style: none;
+}
+
+.promote-admin > summary::-webkit-details-marker {
+    display: none;
+}
+
+.promote-admin-confirm {
+    margin-top: 0.25rem;
+    max-width: 16rem;
+    text-align: left;
+}
