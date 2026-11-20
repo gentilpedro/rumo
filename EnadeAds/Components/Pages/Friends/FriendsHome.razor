@@ -1,0 +1,269 @@
+@page "/amigos"
+
+@using EnadeAds.Data
+@using EnadeAds.Friends
+@using EnadeAds.Study
+@using Microsoft.AspNetCore.Identity
+
+@inject FriendService Friends
+@inject LocalCalendar Calendar
+@inject UserManager<ApplicationUser> Users
+@inject NavigationManager Navigation
+
+<PageTitle>Amigos</PageTitle>
+
+<h1>Amigos</h1>
+
+<p class="text-body-secondary">
+    Mande o seu link para quem você quer ter por perto nos estudos. A pessoa pede a amizade e você aceita.
+    Ninguém encontra a sua conta por busca, e não há conversa: os amigos veem só o seu primeiro nome com a inicial do sobrenome.
+</p>
+
+@if (message is not null)
+{
+    <div class="alert @(messageIsError ? "alert-danger" : "alert-success")" role="status">@message</div>
+}
+
+@if (userId is null)
+{
+    <div class="alert alert-info" role="status">
+        <a href="Account/Login?ReturnUrl=%2Famigos">Entre</a> ou <a href="Account/Register">crie sua conta</a> para ter amigos no Rumo.
+    </div>
+}
+else if (overview is not null)
+{
+    <div class="card mb-4">
+        <div class="card-body">
+            <label for="friend-link" class="form-label fw-semibold">Seu link de amigo</label>
+            <div class="d-flex flex-wrap gap-2 mb-2">
+                <input id="friend-link" class="form-control font-monospace flex-grow-1 w-auto" readonly value="@ShareUrl" />
+                <a class="btn btn-outline-primary" href="@WhatsAppUrl" target="_blank" rel="noopener">Mandar no WhatsApp</a>
+            </div>
+            <form method="post" action="amigos" @formname="renew-friend-link" @onsubmit="RenewLinkAsync">
+                <AntiforgeryToken />
+                <button type="submit" class="btn btn-sm btn-outline-secondary">Gerar link novo</button>
+                <span class="small text-body-secondary ms-2">O link atual para de funcionar. Seus amigos continuam os mesmos.</span>
+            </form>
+        </div>
+    </div>
+
+    <form method="post" action="amigos" @formname="friend-action" @onsubmit="ApplyAsync">
+        <AntiforgeryToken />
+
+        @if (overview.Received.Count > 0)
+        {
+            <section aria-labelledby="received-title" class="mb-4">
+                <h2 id="received-title" class="h5">Pedidos de amizade</h2>
+                <p class="small text-body-secondary">
+                    Ao aceitar, a pessoa passa a ver o seu primeiro nome com a inicial do sobrenome na lista de amigos dela.
+                    Recusar e bloquear não avisam ninguém.
+                </p>
+                <ul class="list-group">
+                    @foreach (var request in overview.Received)
+                    {
+                        <li class="list-group-item d-flex flex-wrap align-items-center gap-2">
+                            <span class="flex-grow-1">@request.Name <span class="small text-body-secondary">· pediu em @Day(request.Since)</span></span>
+                            <button type="submit" name="Command" value="accept:@request.Id" class="btn btn-sm btn-primary">Aceitar <span class="visually-hidden">@request.Name</span></button>
+                            <button type="submit" name="Command" value="remove:@request.Id" class="btn btn-sm btn-outline-secondary">Recusar <span class="visually-hidden">@request.Name</span></button>
+                            <button type="submit" name="Command" value="block:@request.Id" class="btn btn-sm btn-outline-danger">Bloquear <span class="visually-hidden">@request.Name</span></button>
+                        </li>
+                    }
+                </ul>
+            </section>
+        }
+
+        <section aria-labelledby="friends-title" class="mb-4">
+            <h2 id="friends-title" class="h5">Seus amigos <span class="small text-body-secondary fw-normal">· @overview.Friends.Count</span></h2>
+            @if (overview.Friends.Count == 0)
+            {
+                <p class="text-body-secondary">Você ainda não tem amigos por aqui. Mande o seu link para a turma.</p>
+            }
+            else
+            {
+                <ul class="list-group">
+                    @foreach (var friend in overview.Friends)
+                    {
+                        <li class="list-group-item d-flex flex-wrap align-items-center gap-2">
+                            <span class="flex-grow-1">@friend.Name <span class="small text-body-secondary">· amigos desde @Day(friend.Since)</span></span>
+                            <button type="submit" name="Command" value="remove:@friend.Id" class="btn btn-sm btn-outline-secondary">Desfazer amizade <span class="visually-hidden">com @friend.Name</span></button>
+                            <button type="submit" name="Command" value="block:@friend.Id" class="btn btn-sm btn-outline-danger">Bloquear <span class="visually-hidden">@friend.Name</span></button>
+                        </li>
+                    }
+                </ul>
+            }
+        </section>
+
+        @if (overview.Sent.Count > 0)
+        {
+            <section aria-labelledby="sent-title" class="mb-4">
+                <h2 id="sent-title" class="h5">Pedidos que você enviou</h2>
+                <ul class="list-group">
+                    @foreach (var request in overview.Sent)
+                    {
+                        <li class="list-group-item d-flex flex-wrap align-items-center gap-2">
+                            <span class="flex-grow-1">@request.Name <span class="small text-body-secondary">· aguardando desde @Day(request.Since)</span></span>
+                            <button type="submit" name="Command" value="remove:@request.Id" class="btn btn-sm btn-outline-secondary">Cancelar pedido <span class="visually-hidden">a @request.Name</span></button>
+                        </li>
+                    }
+                </ul>
+            </section>
+        }
+
+        @if (overview.Suggestions.Count > 0)
+        {
+            <section aria-labelledby="suggestions-title" class="mb-4">
+                <h2 id="suggestions-title" class="h5">Quem já duelou com você</h2>
+                <ul class="list-group">
+                    @foreach (var suggestion in overview.Suggestions)
+                    {
+                        <li class="list-group-item d-flex flex-wrap align-items-center gap-2">
+                            <span class="flex-grow-1">@suggestion.Name</span>
+                            <button type="submit" name="Command" value="suggest:@suggestion.Token" class="btn btn-sm btn-outline-primary">Pedir amizade <span class="visually-hidden">a @suggestion.Name</span></button>
+                        </li>
+                    }
+                </ul>
+            </section>
+        }
+
+        @if (overview.Blocked.Count > 0)
+        {
+            <details class="mb-4">
+                <summary class="h6 text-body-secondary">Pessoas bloqueadas (@overview.Blocked.Count)</summary>
+                <ul class="list-group mt-2">
+                    @foreach (var blocked in overview.Blocked)
+                    {
+                        <li class="list-group-item d-flex flex-wrap align-items-center gap-2">
+                            <span class="flex-grow-1">@blocked.Name <span class="small text-body-secondary">· bloqueado em @Day(blocked.Since)</span></span>
+                            <button type="submit" name="Command" value="unblock:@blocked.Id" class="btn btn-sm btn-outline-secondary">Desbloquear <span class="visually-hidden">@blocked.Name</span></button>
+                        </li>
+                    }
+                </ul>
+            </details>
+        }
+    </form>
+}
+
+@code {
+    private FriendsOverview? overview;
+    private string? code;
+    private string? userId;
+    private string? message;
+    private bool messageIsError;
+
+    [CascadingParameter]
+    private HttpContext HttpContext { get; set; } = default!;
+
+    /// <summary>Aviso depois de uma ação que recarrega a página (GET depois do POST).</summary>
+    [SupplyParameterFromQuery(Name = "aviso")]
+    private string? Notice { get; set; }
+
+    private string ShareUrl => $"{Navigation.BaseUri}amigos/{code}";
+
+    private string WhatsAppUrl => "https://wa.me/?text=" + Uri.EscapeDataString($"Bora estudar junto no Rumo? Me adiciona: {ShareUrl}");
+
+    protected override async Task OnInitializedAsync()
+    {
+        userId = Users.GetUserId(HttpContext.User);
+        await LoadAsync();
+
+        message = Notice switch
+        {
+            "pedido" => "Pedido enviado. Vocês viram amigos quando a pessoa aceitar.",
+            "amigos" => "Vocês agora são amigos.",
+            "ja-amigos" => "Vocês já são amigos.",
+            "ja-pedido" => "Você já tinha enviado um pedido para essa pessoa.",
+            "aceito" => "Pedido aceito. Vocês agora são amigos.",
+            "removido" => "Feito.",
+            "bloqueado" => "Pessoa bloqueada. Ela não foi avisada.",
+            "desbloqueado" => "Pessoa desbloqueada.",
+            "link" => "Link novo gerado. O anterior não funciona mais.",
+            _ => null,
+        };
+    }
+
+    private async Task LoadAsync()
+    {
+        if (userId is null)
+        {
+            return;
+        }
+
+        code = await Friends.LinkAsync(userId);
+        overview = await Friends.OverviewAsync(userId);
+    }
+
+    private async Task RenewLinkAsync()
+    {
+        if (userId is null)
+        {
+            HttpContext.Response.StatusCode = StatusCodes.Status401Unauthorized;
+            return;
+        }
+
+        await Friends.RenewLinkAsync(userId);
+        Navigation.NavigateTo("amigos?aviso=link");
+    }
+
+    private async Task ApplyAsync()
+    {
+        if (userId is null)
+        {
+            HttpContext.Response.StatusCode = StatusCodes.Status401Unauthorized;
+            return;
+        }
+
+        // O botão envia "acao:alvo": o alvo é o número da linha (pedido, amizade ou bloqueio) ou o token de uma sugestão.
+        var parts = HttpContext.Request.Form["Command"].ToString().Split(':', 2);
+        var action = parts[0];
+        var target = parts.Length == 2 ? parts[1] : "";
+
+        if (action == "suggest")
+        {
+            await FinishRequestAsync(await Friends.RequestSuggestedAsync(userId, target));
+            return;
+        }
+
+        if (!int.TryParse(target, out var id))
+        {
+            await FailAsync("Ação inválida.");
+            return;
+        }
+
+        var (outcome, notice) = action switch
+        {
+            "accept" => (await Friends.AcceptAsync(userId, id), "aceito"),
+            "remove" => (await Friends.RemoveAsync(userId, id), "removido"),
+            "block" => (await Friends.BlockAsync(userId, id), "bloqueado"),
+            "unblock" => (await Friends.UnblockAsync(userId, id), "desbloqueado"),
+            _ => (FriendActionOutcome.NotFound, ""),
+        };
+
+        if (outcome != FriendActionOutcome.Done)
+        {
+            await FailAsync("Não foi possível concluir: o pedido pode ter sido cancelado.");
+            return;
+        }
+
+        Navigation.NavigateTo($"amigos?aviso={notice}");
+    }
+
+    private async Task FinishRequestAsync(FriendRequestOutcome outcome)
+    {
+        if (FriendMessages.Notice(outcome) is { } notice)
+        {
+            Navigation.NavigateTo($"amigos?aviso={notice}");
+            return;
+        }
+
+        await FailAsync(FriendMessages.Problem(outcome));
+    }
+
+    private async Task FailAsync(string text)
+    {
+        (message, messageIsError) = (text, true);
+        HttpContext.Response.StatusCode = StatusCodes.Status409Conflict;
+        await LoadAsync();
+    }
+
+    private string Day(DateTimeOffset moment) => Calendar.ToLocal(moment).ToString("dd/MM/yyyy");
+}
