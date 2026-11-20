@@ -4,12 +4,12 @@ Este documento reúne as decisões de produto da plataforma. Toda mudança de re
 
 ## Trilhas
 
-O Rumo atende várias provas. Cada prova numa edição é uma **trilha**: hoje, **ENADE 2026 · ADS**, **ENADE 2026 · Redes de Computadores** e **ENEM 2026**.
+O Rumo atende várias provas. Cada prova numa edição é uma **trilha**: hoje, **ENADE 2026 · ADS**, **ENADE 2026 · Redes de Computadores**, **ENEM 2026** e as três etapas do PAVE da UFPel (**PAVE 2026 · Etapa 1**, **Etapa 2** e **Etapa 3**, uma trilha para cada ano do ensino médio).
 
 - **Ficam na trilha:** datas de prova, roadmap (matérias, assuntos e checkpoints), questões (pela matéria), desafios e simulados.
 - **Ficam na plataforma:** contas, papéis, moderação e o feed. No feed aparecem os posts da trilha ativa e os posts gerais.
 - **Trilha ativa:** fica num cookie (`trilha`) e se troca no topo, ao lado da marca ("Rumo ENEM"). Quem nunca escolheu fica no ENADE ADS, a primeira trilha. Trocar de trilha numa página de um item (uma matéria, uma questão) volta para a lista da seção, porque o item é da outra trilha.
-- **Datas:** cada trilha tem um ou dois dias de prova; o ENEM tem dois domingos (8 e 15/11/2026). A contagem regressiva vai até o próximo dia de prova. O admin muda as datas da trilha ativa em *Data da prova*.
+- **Datas:** cada trilha tem um ou dois dias de prova; o ENEM tem dois domingos (8 e 15/11/2026). No PAVE, a Etapa 1 é em 05/12/2026 e as Etapas 2 e 3, em 06/12/2026 (Edital CRA/UFPel nº 16/2026). A contagem regressiva vai até o próximo dia de prova. O admin muda as datas da trilha ativa em *Data da prova*.
 - **Posts:** aluno publica sempre na trilha ativa. Professor e admin podem marcar *Publicar para todas as trilhas*.
 - **Simulados:** um aberto por aluno em cada trilha. O formato segue a prova da trilha (ver *Simulados*).
 - **Dados da conta (LGPD):** a exportação traz os dados de todas as trilhas, não só da ativa.
@@ -98,6 +98,7 @@ Alunos também têm e-mail institucional, muitas vezes no mesmo domínio dos pro
 ## Roadmap
 
 - O roadmap mostra as matérias da portaria ou matriz da prova (20 em cada trilha do ENADE) e a Formação Geral, com seus assuntos e um checkpoint ao fim de cada bloco.
+- No PAVE, cada etapa tem as disciplinas da Matriz de Referência PAVE 2026 na ordem das áreas da prova (Ciências da Natureza, Ciências Humanas, Matemática e Linguagens), com os conteúdos daquele ano do ensino médio. Inglês e espanhol são matérias separadas, porque o candidato escolhe o idioma. Só a Etapa 3 tem a matéria de redação.
 - Cada aluno marca matérias e assuntos como **Concluído**, **Estudando** ou **Pulei**, e pode limpar o status.
 - A porcentagem conta só matérias e assuntos concluídos; checkpoints são marcos e não entram na conta.
 - A contagem regressiva vai até o próximo dia de prova da trilha ativa, definido pelo **admin** na tela *Data da prova*, no fuso de São Paulo. A data não pode estar no passado.
@@ -114,6 +115,17 @@ Alunos também têm e-mail institucional, muitas vezes no mesmo domínio dos pro
 ## Simulados
 
 **ENEM:** só questões objetivas, revezando entre as quatro áreas (Linguagens, Humanas, Natureza e Matemática) para nenhuma ficar de fora. Curto: 20 questões; médio: 45; completo: 90, como um dia de prova. O tempo segue o segundo dia do ENEM (5 horas para 90 questões). A redação não entra no simulado: ela tem assuntos e checkpoint no roadmap.
+
+**PAVE:**
+
+- Só questões objetivas, na ordem e na proporção da prova. **Completo:** 32 questões (9 de Ciências da Natureza, 9 de Ciências Humanas, 5 de Matemática e 9 de Linguagens, das quais 3 de língua estrangeira) em 3h30. **Médio:** 21 questões (6, 6, 3 e 6, sendo 2 de língua estrangeira). **Curto:** 11 questões (3, 3, 2 e 3, sendo 1 de língua estrangeira). O tempo é proporcional.
+- Ao começar, o aluno escolhe **inglês ou espanhol**, e as questões de língua estrangeira vêm só desse idioma.
+- Se o banco não tem questões suficientes numa área, ela entra com as que existem. Outra área não completa a falta, para o simulado guardar a proporção da prova.
+- Toda questão tem a opção **"Ignoro a resposta"** (a alternativa "f" da prova), que não soma nem desconta.
+- **Nota**, como no Edital CRA/UFPel nº 16/2026: cada acerto vale 3,125 pontos nas Etapas 1 e 2 e 2,6875 na Etapa 3; cada erro desconta 10% desse valor. **Questão em branco conta como erro e também desconta.** O resultado mostra acertos, erros, questões ignoradas e a nota sobre o máximo daquele tamanho de simulado.
+- A redação da Etapa 3 não entra no simulado. Na prova ela vale até 14 pontos, que completam os 86 das objetivas; os assuntos dela estão no roadmap.
+- "Ignoro a resposta" não vira tentativa: a questão não vai para o painel de desempenho nem para o caderno de erros.
+- Prazo no servidor, entrega automática, um simulado aberto por aluno e gabarito só depois da entrega valem como no ENADE (abaixo).
 
 **ENADE:**
 
@@ -271,7 +283,7 @@ A página inicial é um feed no estilo Reddit, onde professores publicam avisos 
 - Visitante vê o enunciado e as alternativas, mas nunca a alternativa correta nem os comentários: eles não vão para a página.
 - Ao responder, o aluno vê se acertou, qual é a correta e o comentário de **todas** as alternativas.
 - Cada resposta fica registrada como uma tentativa. O aluno pode responder de novo quantas vezes quiser; a lista de questões mostra o resultado da tentativa mais recente.
-- Toda questão informa a fonte: prova e ano do Inep, ou autoria própria.
+- Toda questão informa a fonte: prova e ano do Inep, prova e etapa do PAVE, ou autoria própria.
 
 ### Questões das provas do Inep
 
@@ -280,6 +292,15 @@ A página inicial é um feed no estilo Reddit, onde professores publicam avisos 
 - As discursivas trazem um padrão de resposta escrito pela plataforma, marcado como não oficial.
 - Questões anuladas pelo Inep não entram.
 - A importação é feita ao subir a aplicação e nunca sobrescreve uma questão já importada: se um professor corrigir algo pela tela, a correção fica.
+
+### Questões das provas do PAVE
+
+- As trilhas do PAVE já vêm com as provas de 2024 e 2025 da etapa, com o gabarito definitivo da UFPel. Cada etapa só recebe as provas dela.
+- Enunciado e alternativas são transcritos sem alterações, com a prova, a etapa e o número na fonte. A UFPel não publica licença de reutilização para as provas. Os comentários das alternativas são da plataforma.
+- A questão guarda as cinco alternativas de "a" a "e". A "f" ("Ignoro a resposta") é uma opção do simulado.
+- As questões 30 a 32 entram em espanhol e em inglês, cada versão na matéria do seu idioma.
+- Questões anuladas pela UFPel não entram.
+- A importação segue a mesma regra das provas do Inep: nunca sobrescreve uma questão já importada.
 
 ### Questões discursivas
 

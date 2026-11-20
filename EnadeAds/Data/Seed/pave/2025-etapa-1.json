@@ -1,0 +1,1026 @@
+{
+  "year": 2025,
+  "track": "pave-1",
+  "questions": [
+    {
+      "key": "pave-2025-e1-q01",
+      "source": "PAVE 2025 – Etapa 1, questão 1 (UFPel)",
+      "kind": "Objective",
+      "subject": "biologia",
+      "statement": "**Fóssil de dinossauro carnívoro é descoberto no Rio Grande do Sul**\n\nUma empolgante descoberta pré-histórica foi registrada este mês por pesquisadores brasileiros no sul do Brasil. Trata-se de um dinossauro predador carnívoro, que viveu há mais de 230 milhões de anos [...]. O animal do grupo Herrerasauridae teve seu fóssil encontrado em maio de 2024, na cidade de São João do Polêsine, interior do Rio Grande do Sul, e sua confirmação ocorreu no mês seguinte, em junho. A descoberta foi feita em um sítio paleontológico da região pelo grupo de paleontólogos do Cappa (Centro de Apoio à Pesquisa Paleontológica da Quarta Colônia), do qual faz parte o paleontólogo Rodrigo Temp Müller, da Universidade Federal de Santa Maria (UFSM).\n\nReferência: https://www.nationalgeographicbrasil.com/ciencia/2024/07/fossil-de-dinossauro-carnivoro-e-descoberto-no-rio-grande-do-sul-especie-viveu-a-230-milhoes-de-anos-e-ossos-foram-exposto-pelas-enchentes. Acesso em: 30/06/2025.\n\n**Em uma cadeia alimentar, o animal citado no texto ocuparia a posição de**",
+      "options": [
+        {
+          "text": "consumidor primário.",
+          "explanation": "Consumidores primários são os herbívoros, que se alimentam diretamente dos produtores. O texto descreve um predador carnívoro, que come outros animais."
+        },
+        {
+          "text": "produtor heterótrofo.",
+          "explanation": "A expressão é contraditória: produtores são autótrofos, pois fabricam o próprio alimento (por fotossíntese, por exemplo). Um dinossauro é um animal, portanto heterótrofo e consumidor."
+        },
+        {
+          "text": "consumidor secundário.",
+          "explanation": "Correta. Um predador carnívoro se alimenta de outros animais, isto é, de consumidores; por isso ocupa, no mínimo, o nível de consumidor secundário da cadeia alimentar."
+        },
+        {
+          "text": "produtor autótrofo.",
+          "explanation": "Produtores autótrofos são organismos como plantas e algas, que produzem matéria orgânica a partir de substâncias inorgânicas. Animais não fazem isso: precisam ingerir outros seres vivos."
+        },
+        {
+          "text": "decompositor heterótrofo.",
+          "explanation": "Decompositores são principalmente fungos e bactérias, que degradam a matéria orgânica morta. Um predador captura e come presas vivas, o que é papel de consumidor."
+        }
+      ],
+      "correct": "C"
+    },
+    {
+      "key": "pave-2025-e1-q02",
+      "source": "PAVE 2025 – Etapa 1, questão 2 (UFPel)",
+      "kind": "Objective",
+      "subject": "biologia",
+      "statement": "**Número de casos de tuberculose no Rio Grande do Sul é 40% maior do que a média nacional**\n\nEm 2023, o Rio Grande do Sul registrou 5.327 casos novos de tuberculose. A incidência, de 46 casos a cada 100 mil habitantes, é 40% maior do que a média nacional, que é de 32 casos. Qualificar a assistência aos portadores das doenças, assim como possibilitar mudanças no cenário epidemiológico, é o objetivo da capacitação “Manejo clínico da tuberculose em adultos”. Organizado pelo Programa Estadual de Controle da Tuberculose (Pect) da Secretaria da Saúde (SES), em parceria com o Ministério da Saúde, o evento começou nesta terça-feira (3/12) no Hospital Sanatório Partenon, em Porto Alegre.\n\nReferência: https://www.estado.rs.gov.br/numero-de-casos-de-tuberculose-no-rio-grande-do-sul-e-40-maior-do-que-a-media-nacional. Acesso em: 30/06/2025.\n\n**A doença infecciosa citada no texto tem como agente causador um(a)**",
+      "options": [
+        {
+          "text": "vírus.",
+          "explanation": "Vírus causam doenças como gripe, dengue e covid-19. A tuberculose é tratada com antibióticos, que agem sobre bactérias e não têm efeito sobre vírus."
+        },
+        {
+          "text": "bactéria.",
+          "explanation": "Correta. A tuberculose é causada pela bactéria Mycobacterium tuberculosis, o bacilo de Koch, transmitida pelo ar por gotículas eliminadas na tosse, na fala ou no espirro de pessoas doentes."
+        },
+        {
+          "text": "protozoário.",
+          "explanation": "Protozoários causam doenças como malária, doença de Chagas e giardíase. O agente da tuberculose é um bacilo, isto é, uma bactéria em forma de bastão."
+        },
+        {
+          "text": "verme.",
+          "explanation": "Vermes causam verminoses como esquistossomose, ascaridíase e teníase. A tuberculose é uma infecção bacteriana que atinge principalmente os pulmões."
+        },
+        {
+          "text": "mosquito.",
+          "explanation": "Mosquitos são vetores de doenças como dengue e malária, não agentes causadores. A tuberculose nem sequer depende de vetor: passa de pessoa para pessoa pelo ar."
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "key": "pave-2025-e1-q03",
+      "source": "PAVE 2025 – Etapa 1, questão 3 (UFPel)",
+      "kind": "Objective",
+      "subject": "biologia",
+      "statement": "**Estudo inédito decifra mecanismo-chave da resposta de plantas a estresses ambientais**\n\nUm artigo publicado no dia 2 de fevereiro de 2022, na revista Current Biology, demonstrou que uma proteína desacopladora (UCP1) é o gatilho que dispara um sinal ao núcleo da célula, quando a planta é submetida a estresse. O estresse muitas vezes gera uma situação de baixa concentração de oxigênio nas células (hipóxia). As proteínas desacopladoras, em células animais e vegetais, têm função associada à respiração celular e à produção de energia. Entretanto, quando o organismo é submetido a situações de estresse - carência de nutrientes, doenças, alterações extremas de temperaturas, escassez de água - a concentração de oxigênio diminui, acionando-se um mecanismo de resposta a essas condições adversas.\n\nReferência: adaptado de https://unicamp.br/unicamp/ju/noticias/2022/02/07/estudo-inedito-decifra-mecanismo-chave-da-resposta-de-plantas-estresses/. Acesso em: 30/06/2025.\n\n**As proteínas citadas no texto devem estar localizadas no(a)**",
+      "options": [
+        {
+          "text": "mitocôndria.",
+          "explanation": "Correta. O texto associa essas proteínas à respiração celular e à produção de energia, processos que ocorrem na mitocôndria, organela presente tanto em células animais quanto em vegetais e que consome oxigênio."
+        },
+        {
+          "text": "peroxissomo.",
+          "explanation": "O peroxissomo atua na degradação da água oxigenada e na oxidação de ácidos graxos; não é a sede da respiração celular, à qual o texto liga as proteínas desacopladoras."
+        },
+        {
+          "text": "cloroplasto.",
+          "explanation": "O cloroplasto realiza a fotossíntese e só existe em células vegetais e de algas. O texto diz que essas proteínas ocorrem também em células animais e as relaciona à respiração celular."
+        },
+        {
+          "text": "lisossomo.",
+          "explanation": "O lisossomo é responsável pela digestão intracelular, com enzimas que quebram partículas e organelas desgastadas; não participa da respiração celular."
+        },
+        {
+          "text": "retículo endoplasmático.",
+          "explanation": "O retículo endoplasmático atua na síntese e no transporte de proteínas e lipídios. A produção de energia com consumo de oxigênio acontece na mitocôndria."
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "key": "pave-2025-e1-q04",
+      "source": "PAVE 2025 – Etapa 1, questão 4 (UFPel)",
+      "kind": "Objective",
+      "subject": "fisica",
+      "statement": "A Dinâmica é um ramo da Física que se dedica ao estudo das causas do movimento dos corpos. Um dos principais responsáveis por seu desenvolvimento foi Isaac Newton (1643-1727), que formulou leis fundamentais que descrevem como as forças interferem no movimento.\n\nReferência: MÁXIMO, Antônio; ALVARENGA, Beatriz; GUIMARÃES, Carla. **FÍSICA FRENTE A**. 2ªed. São Paulo: Ática, 2017.\n\n**Com base nos conceitos estudados na Dinâmica, assinale a alternativa correta sobre as características dos diferentes tipos de força e sobre as Leis de Newton.**",
+      "options": [
+        {
+          "text": "A força normal é a reação da força peso e tem intensidade constante, independente da inclinação da superfície.",
+          "explanation": "Normal e peso não formam par ação-reação, pois atuam no mesmo corpo; a reação do peso é a força com que o corpo atrai a Terra. Além disso, a normal muda com a inclinação: em um plano inclinado vale N = P·cos θ."
+        },
+        {
+          "text": "A força peso é uma força de contato que age paralelamente à superfície e depende da área do corpo.",
+          "explanation": "O peso é uma força de campo (gravitacional), vertical e apontada para o centro da Terra, de módulo P = m·g. Depende da massa e da gravidade, não da área do corpo."
+        },
+        {
+          "text": "A força de atrito é uma força de contato que se opõe ao deslizamento entre superfícies e depende da rugosidade e da força normal.",
+          "explanation": "Correta. O atrito surge do contato entre as superfícies e se opõe ao deslizamento (ou à tendência de deslizar). Seu valor é dado por F = μ·N, em que o coeficiente μ reflete a natureza e a rugosidade das superfícies e N é a força normal."
+        },
+        {
+          "text": "A força elástica é uma força que intensifica a deformação imposta ao corpo, fazendo com que ele se afaste ainda mais de sua forma original.",
+          "explanation": "A força elástica é restauradora: pela Lei de Hooke (F = k·x), ela aponta no sentido contrário ao da deformação e tende a trazer a mola ou o corpo de volta à forma original."
+        },
+        {
+          "text": "A força resultante nula implica que o corpo esteja obrigatoriamente em repouso absoluto.",
+          "explanation": "Pela 1ª Lei de Newton (inércia), resultante nula significa velocidade constante: o corpo pode estar em repouso ou em movimento retilíneo uniforme."
+        }
+      ],
+      "correct": "C"
+    },
+    {
+      "key": "pave-2025-e1-q05",
+      "source": "PAVE 2025 – Etapa 1, questão 5 (UFPel)",
+      "kind": "Objective",
+      "subject": "fisica",
+      "statement": "A posição de um corpo em movimento retilíneo em função do tempo é descrita no gráfico abaixo. As grandezas estão em unidades do Sistema Internacional (SI).\n\n![Gráfico da posição S (m) em função do tempo t (s): uma reta crescente que parte da origem (0, 0) e passa pelos pontos (1 s, 70 m), (2 s, 140 m) e (3 s, 210 m).](img/pave/2025/etapa-1/q05-1.png)\n\nFonte: adaptado de Movimiento Rectilíneo Uniforme de Melvin Meléndez. Disponível em: https://pt.slideshare.net/slideshow/mru-14170207/14170207. Acesso em: 27/06/2025.\n\n**Com base na análise do gráfico, assinale a alternativa correta.**",
+      "options": [
+        {
+          "text": "O corpo realiza um movimento uniformemente variado, pois sua velocidade aumenta 70 m/s a cada segundo.",
+          "explanation": "No movimento uniformemente variado o gráfico S × t é uma parábola. Aqui ele é uma reta: o que aumenta 70 m a cada segundo é a posição, e a velocidade permanece constante."
+        },
+        {
+          "text": "A velocidade do corpo é variável e negativa, pois o gráfico está abaixo do eixo do tempo.",
+          "explanation": "A reta está acima do eixo do tempo e é crescente, o que indica posições positivas e velocidade positiva. Como a inclinação da reta não muda, a velocidade é constante."
+        },
+        {
+          "text": "O corpo está parado, pois a posição inicial é zero.",
+          "explanation": "Posição inicial zero só informa de onde o corpo parte. Um corpo parado teria um gráfico horizontal; aqui a posição cresce com o tempo, então há movimento."
+        },
+        {
+          "text": "O movimento descrito é retrógrado com velocidade igual a 70 m/s e posição inicial igual a zero.",
+          "explanation": "O módulo da velocidade e a posição inicial estão certos, mas o movimento é progressivo, pois a posição aumenta com o tempo. No movimento retrógrado a reta seria decrescente e a velocidade, negativa."
+        },
+        {
+          "text": "A função horária da posição é S(t) = 70·t, indicando um movimento retilíneo uniforme com velocidade constante.",
+          "explanation": "Correta. A reta passa pela origem (S₀ = 0) e sua inclinação dá a velocidade: v = ΔS/Δt = (210 − 0)/(3 − 0) = 70 m/s. Logo S(t) = S₀ + v·t = 70·t, que é a função horária de um movimento retilíneo uniforme."
+        }
+      ],
+      "correct": "E"
+    },
+    {
+      "key": "pave-2025-e1-q06",
+      "source": "PAVE 2025 – Etapa 1, questão 6 (UFPel)",
+      "kind": "Objective",
+      "subject": "quimica",
+      "statement": "Quando se fala em modelos de estrutura da matéria, embora seja muito comum, geralmente é apresentada a errônea denominação de “Pudim de Passas” ao modelo proposto por Thomson. Isso, pois, conforme aponta o professor Cesar Valmor Machado Lopes, “é impossível pensar em Thomson apenas como o ‘descobridor da relação m/e do elétron’ ou com o autor do modelo do ‘pudim de passas’”. Estudando a proposta de Thomson, o professor aponta que esse cientista “não discutia sobre constituintes positivos do átomo e supunha que os corpúsculos ligados circulavam em anéis coplanares dentro de uma esfera uniformemente positiva”, sendo essa discussão muito diferente do que pensar em um “pudim”.\n\nReferência: https://www.lume.ufrgs.br/handle/10183/78156. Acesso em: 15/08/2024.\n\nCiente dessa limitação e do erro com essa analogia, assinale a alternativa que melhor completa a frase: **A proposta de Thomson tem como uma de suas principais contribuições às discussões sobre a estrutura da matéria a proposição**",
+      "options": [
+        {
+          "text": "de uma estrutura atômica indivisível.",
+          "explanation": "O átomo indivisível, maciço e esférico é a ideia do modelo de Dalton. Thomson rompeu justamente com ela ao mostrar que o átomo contém partículas menores, os elétrons."
+        },
+        {
+          "text": "de uma estrutura atômica que tem os prótons como corpúsculos relevantes para a massa.",
+          "explanation": "O próprio texto diz que Thomson não discutia constituintes positivos do átomo: para ele a carga positiva era uma esfera uniforme. O próton só foi caracterizado mais tarde, com os trabalhos de Rutherford."
+        },
+        {
+          "text": "de uma estrutura atômica que relaciona o corpúsculo elétron a partir de uma dualidade entre matéria e energia.",
+          "explanation": "A ideia de dualidade (o elétron com comportamento de partícula e de onda) pertence à mecânica quântica, formulada décadas depois do modelo de Thomson, que tratava os elétrons apenas como corpúsculos."
+        },
+        {
+          "text": "de uma estrutura atômica divisível.",
+          "explanation": "Correta. Ao identificar o elétron nos experimentos com raios catódicos, Thomson mostrou que o átomo tem partes: corpúsculos negativos distribuídos em uma esfera positiva. O átomo deixou de ser visto como indivisível."
+        },
+        {
+          "text": "de que as camadas eletrônicas têm a denominação de K, L, M, N, O, P e Q.",
+          "explanation": "As camadas ou níveis de energia K, L, M, N, O, P e Q pertencem ao modelo de Bohr e a seus desdobramentos, posteriores a Thomson, cujo modelo não previa níveis de energia."
+        }
+      ],
+      "correct": "D"
+    },
+    {
+      "key": "pave-2025-e1-q07",
+      "source": "PAVE 2025 – Etapa 1, questão 7 (UFPel)",
+      "kind": "Objective",
+      "subject": "quimica",
+      "statement": "Certamente você já viu uma lagartixa andando por paredes e teto sem cair. Por muito tempo, acreditava-se que essa habilidade estava relacionada à existência de pequenas ventosas nas patas da lagartixa que as “colavam” na parede. No entanto, a hipótese foi descartada, pois as lagartixas também andavam em superfícies onde as ventosas não teriam aderência, como em locais molhados ou muito lisos. Em 1960, um cientista alemão chamado Uwe Hiller sugeriu que essa habilidade estava relacionada a um tipo de força de atração e repulsão entre as moléculas constituintes da pata da lagartixa e as superfícies. Conforme os estudos de Kellar Autum, Metin Sitti e Yiching Liang, a pata da lagartixa contém minúsculas cerdas formadas por queratina. Essas cerdas são muito hidrofóbicas, de modo que a sua interação com outros compostos (como os que formam a parede, por exemplo) permite uma interação de nível molecular que possibilita à lagartixa aderir a inúmeras superfícies.\n\nReferência: adaptado de https://www.pnas.org/doi/full/10.1073/pnas.192252799. Acesso em: 17/09/2024.\n\n**Com base nas informações do texto qual tipo de interação intermolecular ocorre entre as minúsculas cerdas presentes na pata da lagartixa e as superfícies?**",
+      "options": [
+        {
+          "text": "Dipolo-dipolo.",
+          "explanation": "A interação dipolo-dipolo ocorre entre moléculas polares, com dipolos permanentes. As cerdas são muito hidrofóbicas, isto é, de caráter apolar, e aderem a superfícies de qualquer natureza, o que não combina com esse tipo de interação."
+        },
+        {
+          "text": "Forças de Van der Waals.",
+          "explanation": "Correta. Cerdas hidrofóbicas (apolares) interagem com as superfícies por dipolos instantâneos e induzidos, as forças de Van der Waals (ou de London). Cada interação é fraca, mas a soma de milhões de cerdas muito próximas da superfície sustenta o peso do animal."
+        },
+        {
+          "text": "Ligações de hidrogênio.",
+          "explanation": "Ligações de hidrogênio exigem hidrogênio ligado a flúor, oxigênio ou nitrogênio interagindo com outro átomo muito eletronegativo, o que é típico de substâncias hidrofílicas. O texto destaca que as cerdas são muito hidrofóbicas."
+        },
+        {
+          "text": "Geometria molecular.",
+          "explanation": "Geometria molecular é a disposição espacial dos átomos em uma molécula. Ela influencia a polaridade, mas não é um tipo de interação entre moléculas."
+        },
+        {
+          "text": "Tensão superficial.",
+          "explanation": "Tensão superficial é uma propriedade da superfície dos líquidos, consequência das forças entre suas moléculas; não é um tipo de interação intermolecular. Além disso, a lagartixa adere a superfícies secas."
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "key": "pave-2025-e1-q08",
+      "source": "PAVE 2025 – Etapa 1, questão 8 (UFPel)",
+      "kind": "Objective",
+      "subject": "quimica",
+      "statement": "O processo digestivo é complexo, sendo uma de suas fases realizada com auxílio de um ácido produzido no estômago a partir da secreção de íons pelas células parietais. O ácido ali formado é o ácido clorídrico (HCl) cuja concentração no organismo é mantida em níveis que auxiliam na digestão. Alguns compostos, quando ingeridos, por conta das reações que realizam com esse ácido, podem diminuir sua concentração, diminuindo a acidez estomacal.\n\n**Dos diferentes compostos abaixo, qual contribuiria para a diminuição da concentração do ácido clorídrico estomacal por meio de uma reação química que o consome?**",
+      "options": [
+        {
+          "text": "Sal de cozinha (sendo quase todo formado de cloreto de sódio).",
+          "explanation": "O NaCl é um sal neutro, formado por ácido forte e base forte, e tem o mesmo ânion (Cl⁻) do ácido clorídrico. Ele não reage com o HCl nem o consome."
+        },
+        {
+          "text": "Refrigerante (assumindo como foco o ácido carbônico presente).",
+          "explanation": "O ácido carbônico (H₂CO₃) também é um ácido: não neutraliza o HCl. Para consumir um ácido é preciso uma substância de caráter básico."
+        },
+        {
+          "text": "Vinagre (solução diluída de ácido acético).",
+          "explanation": "O ácido acético é outro ácido e não reage com o HCl de modo a consumi-lo; a neutralização exige uma base."
+        },
+        {
+          "text": "Água.",
+          "explanation": "A água apenas dilui o suco gástrico. Não ocorre reação química que consuma o HCl, como pede o enunciado."
+        },
+        {
+          "text": "Leite de magnésia (sendo quase todo formado de hidróxido de magnésio).",
+          "explanation": "Correta. O hidróxido de magnésio é uma base e neutraliza o ácido: Mg(OH)₂ + 2 HCl → MgCl₂ + 2 H₂O. A reação consome o HCl e forma sal e água, por isso o leite de magnésia é usado como antiácido."
+        }
+      ],
+      "correct": "E"
+    },
+    {
+      "key": "pave-2025-e1-q09",
+      "source": "PAVE 2025 – Etapa 1, questão 9 (UFPel)",
+      "kind": "Objective",
+      "subject": "quimica",
+      "statement": "Durante enchentes, como a que atingiu o Estado do Rio Grande do Sul em 2024, devemos ter cuidados com a água para consumo, pois a indisponibilidade do abastecimento regular ou da aquisição de água envasada obriga a obtenção por meios alternativos e nem sempre seguros. A água contaminada pode transmitir doenças como hepatite A, leptospirose e doenças diarreicas causadas por vírus, bactérias e protozoários (Cryptosporidium, Entamoeba histolytica e Giardia). Um alvejante doméstico, bastante conhecido em nossas casas, vendido como solução diluída de NaClO, chamado de água sanitária, é útil para diversos processos de limpeza como purificar a água, sanitizar frutas, verduras e legumes, bem como para sanitizar superfícies.\n\nReferência: Adaptado de http://www.ufrgs.br/ufrgs/noticias/cuidados-com-a-agua-durante-enchentes. Acesso em: 15/06/2024.\n\n**Considerando as funções inorgânicas, a qual grupo a água sanitária pertence e qual sua nomenclatura oficial, respectivamente?**",
+      "options": [
+        {
+          "text": "Sal, hipoclorito de sódio.",
+          "explanation": "Correta. O NaClO é um composto iônico formado pelo cátion Na⁺ (sódio) e pelo ânion ClO⁻ (hipoclorito), sem H⁺ nem OH⁻: é um sal, derivado da neutralização do ácido hipocloroso (HClO) pelo hidróxido de sódio (NaOH)."
+        },
+        {
+          "text": "Base, hipoclorito de potássio.",
+          "explanation": "Bases de Arrhenius têm o ânion hidróxido (OH⁻), ausente no NaClO. Além disso, Na é o símbolo do sódio; o potássio é representado por K."
+        },
+        {
+          "text": "Ácido, cloreto de sódio.",
+          "explanation": "Ácidos liberam H⁺ em água, e o NaClO não tem hidrogênio. Cloreto de sódio é o NaCl, o sal de cozinha: o ânion cloreto (Cl⁻) não contém oxigênio."
+        },
+        {
+          "text": "Óxido, cloreto de potássio.",
+          "explanation": "Óxidos são compostos binários do oxigênio, e o NaClO tem três elementos. Cloreto de potássio é o KCl, outra substância."
+        },
+        {
+          "text": "Sal, hipoclorito de potássio.",
+          "explanation": "A função está certa (sal) e o ânion também (hipoclorito), mas o metal do NaClO é o sódio (Na). O hipoclorito de potássio seria KClO."
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "key": "pave-2025-e1-q10",
+      "source": "PAVE 2025 – Etapa 1, questão 10 (UFPel)",
+      "kind": "Objective",
+      "subject": "historia",
+      "statement": "**Leia o enunciado abaixo.**\n\nOs humanos do __________ viviam em grupos e garantiam sua subsistência por meio da caça, da pesca e da coleta de frutos e raízes. Utilizavam objetos feitos com pedra __________, madeira, ossos e dentes de animais.\n\nOs grupos humanos desse período eram __________. Castigados pelas condições climáticas, eles mudavam constantemente de lugar em busca de alimentos.\n\nReferência: adaptado de BRAICK, Patrícia Ramos. **História: das cavernas ao terceiro milênio.** 4ª ed. São Paulo: Moderna, 2016. p. 26.\n\n**Assinale a alternativa que preenche corretamente as lacunas do enunciado acima, na ordem em que aparecem.**",
+      "options": [
+        {
+          "text": "Paleolítico – polida – nômades.",
+          "explanation": "Período e modo de vida estão certos, mas a pedra polida é marca do Neolítico. No Paleolítico os instrumentos eram de pedra lascada."
+        },
+        {
+          "text": "Neolítico – polida – sedentários.",
+          "explanation": "Essa combinação descreve o Neolítico, quando a agricultura e a criação de animais levaram à sedentarização. O enunciado fala em caça, pesca, coleta e mudança constante de lugar, que são traços do Paleolítico."
+        },
+        {
+          "text": "Paleolítico – lascada – nômades.",
+          "explanation": "Correta. No Paleolítico os grupos humanos viviam da caça, da pesca e da coleta, fabricavam instrumentos de pedra lascada e eram nômades, pois se deslocavam em busca de alimento."
+        },
+        {
+          "text": "Neolítico – lascada – nômades.",
+          "explanation": "Pedra lascada e nomadismo combinam com o texto, mas pertencem ao Paleolítico. O Neolítico é o período da pedra polida, da agricultura e das primeiras aldeias."
+        },
+        {
+          "text": "Paleolítico – lascada – sedentários.",
+          "explanation": "As duas primeiras lacunas estão certas, mas o texto diz que os grupos mudavam constantemente de lugar, ou seja, eram nômades. A vida sedentária só se firmou com a agricultura, no Neolítico."
+        }
+      ],
+      "correct": "C"
+    },
+    {
+      "key": "pave-2025-e1-q11",
+      "source": "PAVE 2025 – Etapa 1, questão 11 (UFPel)",
+      "kind": "Objective",
+      "subject": "historia",
+      "statement": "A erosão democrática é um fenômeno global crescente, evidenciado pelo declínio contínuo dos indicadores democráticos em várias regiões, como aponta o relatório The Global State of Democracy 2023. Esse declínio é particularmente preocupante, com mais da metade dos países avaliados mostrando sinais de retrocesso democrático por seis anos consecutivos. Na África, por exemplo, apesar do forte apoio popular à democracia, há um aumento no apoio a golpes de Estado, o que reflete uma relação complexa entre as falhas de governança e os ideais democráticos. Fatores como a emigração em massa, especialmente na Europa Central e Oriental, também têm contribuído para o enfraquecimento dos valores democráticos liberais. Para enfrentar esse desafio, o fortalecimento de instituições compensatórias, como a sociedade civil e as organizações de direitos humanos, é crucial para mitigar o declínio democrático e promover a resiliência em contextos específicos, o que sugere que, apesar dos desafios, ainda há potencial para a renovação democrática.\n\nSobre a história da democracia ateniense, assinale com V (verdadeiro) ou F (falso) as afirmações abaixo,\n\n( ) As mulheres, os escravos e os metecos (estrangeiros) não possuíam direitos políticos em Atenas.\n\n( ) Como forma de garantir a democracia na cidade, os gregos adotaram o “ostracismo”, caso em que os cidadãos que demonstrassem ameaças ao sistema político sofreriam um exílio de 10 anos.\n\n( ) A democracia ateniense, como a conhecemos, tem sua origem nas reformas implementadas pelo legislador Clístenes.\n\n**Assinale a sequência correta de preenchimento dos parênteses, de cima para baixo.**",
+      "options": [
+        {
+          "text": "F – V – F",
+          "explanation": "A primeira e a terceira afirmações são verdadeiras: a cidadania ateniense era restrita aos homens adultos, livres e filhos de atenienses, e foi Clístenes quem implantou as reformas que deram origem à democracia."
+        },
+        {
+          "text": "V – V – F",
+          "explanation": "As duas primeiras estão bem marcadas, mas a terceira também é verdadeira: as reformas de Clístenes, no fim do século VI a.C., reorganizaram os cidadãos e ampliaram sua participação, e por isso ele é lembrado como o “pai da democracia” ateniense."
+        },
+        {
+          "text": "V – F – V",
+          "explanation": "A segunda afirmação é verdadeira: o ostracismo existiu em Atenas. Em votação, os cidadãos podiam afastar da cidade por dez anos quem fosse considerado uma ameaça à democracia."
+        },
+        {
+          "text": "F – F – V",
+          "explanation": "Só a terceira foi marcada corretamente. Mulheres, escravos e metecos de fato não tinham direitos políticos, e o ostracismo, com exílio de dez anos, foi um mecanismo real de proteção da democracia."
+        },
+        {
+          "text": "V – V – V",
+          "explanation": "Correta. As três afirmações são verdadeiras: a cidadania excluía mulheres, escravos e estrangeiros; o ostracismo exilava por dez anos quem ameaçasse o regime; e a democracia ateniense nasceu das reformas de Clístenes."
+        }
+      ],
+      "correct": "E"
+    },
+    {
+      "key": "pave-2025-e1-q12",
+      "source": "PAVE 2025 – Etapa 1, questão 12 (UFPel)",
+      "kind": "Objective",
+      "subject": "geografia",
+      "statement": "**Leia o texto para responder à questão:**\n\nNo século XX, a maior tragédia ambiental do Rio Grande do Sul foi a cheia de 1941, que devastou Porto Alegre. Pesquisadores do Cemaden revisaram os dados daquela época para dimensionar os impactos. Na ocasião, 15 mil casas foram inundadas e 70 mil pessoas — quase um quarto da população — precisaram sair de casa. Um terço dos comércios e indústrias ficou submerso por cerca de 40 dias. Em 2024, as chuvas de maio afetaram mais de 2,3 milhões de pessoas em 471 municípios. No auge da crise, 79 mil ficaram desabrigadas. O número de mortes chegou a 183.\n\nReferência: https://www.gazetadopovo.com.br/brasil/motivos-rio-grande-do-sul-rs-novas-enchentes-com-mortes/. Acesso em: 25/06/2025.\n\nCom base no texto que descreve as enchentes no Rio Grande do Sul, em 1941 e 2024, **como o entendimento do conceito de lugar, em Geografia, e a contribuição da Sociologia nos auxiliam a compreender os impactos desses eventos na vida das pessoas e na sociedade?**",
+      "options": [
+        {
+          "text": "A Paisagem descreve a destruição física das áreas alagadas, e a Sociologia explica por que as pessoas não conseguem prever esses eventos, focando na falha individual.",
+          "explanation": "A pergunta é sobre o conceito de lugar, não de paisagem (o aspecto visível do espaço). E a Sociologia não explica desastres por falhas individuais: ela investiga causas e efeitos coletivos, como desigualdade e ocupação de áreas de risco."
+        },
+        {
+          "text": "O Lugar se refere apenas à localização geográfica das cidades atingidas, e a Sociologia estuda somente os aspectos climáticos que causam as enchentes, sem considerar o impacto humano.",
+          "explanation": "Lugar não é só localização: é o espaço vivido, carregado de vínculos afetivos e de identidade. E quem estuda o clima é a Climatologia; a Sociologia se ocupa justamente das relações e dos impactos humanos."
+        },
+        {
+          "text": "O Território analisa a divisão política das áreas afetadas, e a Sociologia se limita a contar o número de desabrigados, sem aprofundar nas causas sociais.",
+          "explanation": "Território é o espaço definido por relações de poder, outro conceito, diferente do pedido. Além disso, a Sociologia não se limita a contar atingidos: busca compreender as causas sociais da vulnerabilidade."
+        },
+        {
+          "text": "O conceito de Lugar permite entender a alteração das relações e vivências das pessoas com seus espaços de moradia e trabalho, enquanto através da Sociologia é possível analisar as dinâmicas sociais, a vulnerabilidade das comunidades e as respostas coletivas diante da catástrofe.",
+          "explanation": "Correta. Lugar é o espaço vivido, com o qual as pessoas criam laços de afeto e pertencimento, e que a enchente desorganiza ao destruir casas e locais de trabalho. A Sociologia analisa como a sociedade é afetada de forma desigual e como se organiza para responder ao desastre."
+        },
+        {
+          "text": "A regionalização do espaço descreve a destruição física das áreas alagadas, o que sociologicamente se explica pelo fato de as pessoas conseguirem prever esses eventos, focando nas falhas da natureza.",
+          "explanation": "Regionalizar é dividir o espaço em regiões segundo critérios escolhidos, o que não descreve destruição nem corresponde ao conceito de lugar. A Sociologia também não trata de “falhas da natureza”: analisa a dimensão social dos desastres."
+        }
+      ],
+      "correct": "D"
+    },
+    {
+      "key": "pave-2025-e1-q13",
+      "source": "PAVE 2025 – Etapa 1, questão 13 (UFPel)",
+      "kind": "Objective",
+      "subject": "geografia",
+      "statement": "**Analise o gráfico a seguir.**\n\n![Gráfico do INMET com o título Condições Diárias 26/06/2025 - CAPÃO DO LEÃO (PELOTAS)-RS, com as horas (UTC), de 00 a 23, no eixo horizontal e três escalas verticais: precipitação (0 a 4 mm), temperatura (5 a 15 °C) e umidade (60 a 100 %). A temperatura fica perto de 7,5 °C na madrugada, oscila entre 8 e 9 °C até as 11 h, sobe até o máximo de cerca de 15 °C às 18 h e cai para perto de 9 °C às 23 h. A umidade varia entre cerca de 75 % e 85 % até as 13 h, cai até perto de 60 % por volta das 18 h e 19 h e volta a subir para cerca de 75 % às 23 h. A sensação térmica oscila bastante, entre cerca de 3,5 °C e 11,5 °C. A legenda inclui Precipitação, mas não há marcadores de chuva visíveis na área do gráfico.](img/pave/2025/etapa-1/q13-1.png)\n\nFonte: https://portal.inmet.gov.br/#tempo. Acesso em: 26/06/2025.\n\n**Considerando a localização geográfica de Pelotas (RS), qual das afirmações a seguir descreve adequadamente as características climáticas da região e a dinâmica atmosférica esperada para o período de inverno, conforme ilustrado no gráfico?**",
+      "options": [
+        {
+          "text": "As temperaturas consistentemente altas e a umidade elevada ao longo do dia apontam para um clima Tropical típico, com características de verão, o que contraria a data de 26 de junho (inverno no hemisfério Sul).",
+          "explanation": "O gráfico mostra temperaturas entre cerca de 7,5 °C e 15 °C, que são baixas, não altas. Pelotas fica ao sul do Trópico de Capricórnio, fora da zona de clima tropical."
+        },
+        {
+          "text": "A elevada amplitude térmica diária, aliada à ausência de precipitação significativa, sugere um clima Tropical Semiárido, não condizente com a região, pois o gráfico mostra chuvas e variação térmica moderada.",
+          "explanation": "O Semiárido é o clima quente e seco do Sertão nordestino, sem relação com o extremo sul do país, e a amplitude do dia (cerca de 7,5 °C) é moderada. A alternativa parte de um diagnóstico que os dados não sustentam."
+        },
+        {
+          "text": "A umidade relativa do ar, sempre abaixo de 70%, e a presença de fortes geadas, mesmo com temperaturas positivas, são indicativos de um clima Polar, que não se aplica à latitude de Pelotas.",
+          "explanation": "A umidade fica acima de 70 % na maior parte do dia, chegando a cerca de 85 %, e o gráfico não registra geada. Clima polar ocorre em latitudes muito altas, e não a cerca de 31° S."
+        },
+        {
+          "text": "Os dados refletem um dia de inverno em uma área de clima Subtropical Úmido, caracterizado por temperaturas amenas a baixas, alta umidade relativa do ar e ocorrência de precipitação, elementos comuns para o sul do Brasil nessa estação.",
+          "explanation": "Correta. Pelotas está ao sul do Trópico de Capricórnio, em área de clima subtropical úmido: invernos frios (no gráfico, de 7,5 °C a 15 °C), umidade elevada e chuvas bem distribuídas ao longo do ano, trazidas pelas frentes frias. A chuva citada é traço desse regime: na reprodução do gráfico não há marcadores de precipitação visíveis."
+        },
+        {
+          "text": "As temperaturas consistentemente altas e a umidade elevada ao longo do dia apontam para um clima Tropical de Altitude, que é típico desta região do Brasil, com características de verão, o que contraria a data de 26 de junho (inverno no hemisfério Sul).",
+          "explanation": "As temperaturas do gráfico são baixas, e o clima Tropical de Altitude ocorre nas áreas elevadas do Sudeste, não na planície costeira do Rio Grande do Sul, onde o clima é subtropical."
+        }
+      ],
+      "correct": "D"
+    },
+    {
+      "key": "pave-2025-e1-q14",
+      "source": "PAVE 2025 – Etapa 1, questão 14 (UFPel)",
+      "kind": "Objective",
+      "subject": "filosofia",
+      "statement": "Podemos transpor os escritos platônicos para uma interpretação sociológica da humanidade do século XXI. A humanidade parece ter se acostumado com a ignorância de tal modo, que há uma recusa geral por uma busca da verdade.\n\nAs pessoas têm um oceano de informações por meio da mídia televisiva, da internet e das redes sociais, mas mantêm-se no nível meramente informativo, não buscando conhecer profundamente o mundo que habitam (...). Elas acreditam nas manchetes sensacionalistas de veículos de informação que muitas vezes visam apenas a chamar a atenção do leitor/espectador, sem ler o conteúdo completo que a matéria traz (...).\n\nO predomínio da opinião rasa, do fanatismo religioso e dos extremismos tem dado lugar ao conhecimento obtido durante anos de evolução racional da humanidade. Estamos voltando, por vontade própria, para a caverna de Platão.\n\nReferência: adaptado de https://mundoeducacao.uol.com.br/filosofia/mito-caverna.htm. Acesso em: 16/06/2024.\n\nO texto compara a relação humana com a informação no século XXI à experiência dos prisioneiros da caverna, personagens da alegoria presente no livro VII da República de Platão. **Sobre essa alegoria, é correto afirmar que:**\n\nI – Platão enfatiza, através dela, a resistência humana em abandonar convicções cômodas e convenientes que sustentam o senso comum, bem como a violência dirigida àqueles que questionam opiniões estereotipadas sobre a realidade.\n\nII – A caverna representa valores universalmente válidos, construídos a partir de uma racionalidade liberta das convenções culturais.\n\nIII – O indivíduo que sai da caverna e a ela retorna, sustentando ideias diferentes das convicções triviais, é coagido a se calar, pois suas reflexões ameaçam privilégios consolidados.\n\nIV – Platão apresenta a postura exigida do filósofo, que deve buscar a verdade através da razão, suspendendo juízos preconcebidos por instâncias socialmente reconhecidas, como a religião e as tradições.\n\n**Estão corretas:**",
+      "options": [
+        {
+          "text": "I, II e IV, apenas.",
+          "explanation": "A II é falsa: a caverna simboliza o mundo das aparências e das opiniões (as sombras), não valores universais alcançados pela razão. Além disso, a III, deixada de fora, é verdadeira."
+        },
+        {
+          "text": "I, II e III, apenas.",
+          "explanation": "Inclui a II, que inverte o sentido da alegoria (a caverna é o lugar da ilusão, não da verdade), e exclui a IV, que descreve corretamente a atitude do filósofo."
+        },
+        {
+          "text": "I, III e IV, apenas.",
+          "explanation": "Correta. Os prisioneiros resistem a abandonar as sombras e hostilizam quem volta para contar o que viu (I e III), e o filósofo é aquele que busca a verdade pela razão, pondo em dúvida as opiniões recebidas (IV). A II é falsa: a caverna representa o mundo das aparências, não valores universalmente válidos."
+        },
+        {
+          "text": "II, III e IV, apenas.",
+          "explanation": "A II é falsa, pois a caverna representa a ignorância e o apego às aparências. E a I, excluída aqui, é verdadeira: a alegoria mostra a resistência em abandonar o senso comum."
+        },
+        {
+          "text": "I, II, III e IV.",
+          "explanation": "A II não pode ser aceita: os valores universais e o conhecimento verdadeiro estão fora da caverna, no mundo iluminado pelo sol; dentro dela há apenas sombras tomadas por realidade."
+        }
+      ],
+      "correct": "C"
+    },
+    {
+      "key": "pave-2025-e1-q15",
+      "source": "PAVE 2025 – Etapa 1, questão 15 (UFPel)",
+      "kind": "Objective",
+      "subject": "sociologia",
+      "statement": "“O resultado é que o trabalhador torna-se “estranho”, “alheio” a si próprio: trata-se do fenômeno da alienação. Para Marx, portanto, a alienação não é puramente teórica. Como na economia capitalista prevalece a lógica do mercado, tudo tem um preço, ou seja, ao vender sua força de trabalho mediante salário, o operário também se transforma em mercadoria.” (ARANHA; MARTINS, 2016, p. 58).\n\nReferência: ARANHA, Maria Lúcia de Arruda; MARTINS, Maria Helena Pires. **Filosofando**: introdução à filosofia. 6. ed. São Paulo: Moderna, 2016.\n\n**Considerando a citação e os conhecimentos das áreas de Filosofia e Sociologia, assinale a alternativa que interpreta corretamente o conceito de alienação no contexto do trabalho.**",
+      "options": [
+        {
+          "text": "Ocorre quando o trabalhador domina o processo produtivo e se apropria do resultado de seu trabalho, fortalecendo sua autonomia e realização pessoal.",
+          "explanation": "Isso é o oposto da alienação. Para Marx, o trabalhador alienado não controla o processo de produção nem fica com o que produz: o produto pertence ao dono dos meios de produção."
+        },
+        {
+          "text": "Ocorre quando o trabalhador realiza suas tarefas com autonomia e liberdade, recebendo reconhecimento e salário justo.",
+          "explanation": "No trabalho alienado não há autonomia: a atividade é imposta e a força de trabalho é vendida como mercadoria em troca de salário, como diz a citação."
+        },
+        {
+          "text": "Ocorre quando o trabalhador se identifica plenamente com o produto de seu trabalho, expressando sua criatividade e consciência.",
+          "explanation": "Na alienação acontece o contrário: o trabalhador não se reconhece no que produz, e o produto lhe aparece como algo estranho, que não lhe pertence."
+        },
+        {
+          "text": "Ocorre quando o trabalhador participa das decisões sobre a produção e controla os meios de trabalho de forma coletiva.",
+          "explanation": "O controle coletivo dos meios de produção é, para Marx, o caminho para superar a alienação, não a sua definição."
+        },
+        {
+          "text": "Ocorre quando o trabalhador se torna estranho a si mesmo, pois seu trabalho é regido pela lógica do lucro e da mercadoria.",
+          "explanation": "Correta. É o que afirma a citação: ao vender sua força de trabalho, o operário vira mercadoria e se torna “estranho”, “alheio” a si próprio, porque seu trabalho é organizado pela lógica do mercado e não por suas necessidades e escolhas."
+        }
+      ],
+      "correct": "E"
+    },
+    {
+      "key": "pave-2025-e1-q16",
+      "source": "PAVE 2025 – Etapa 1, questão 16 (UFPel)",
+      "kind": "Objective",
+      "subject": "filosofia",
+      "statement": "“O filósofo francês Claude Lefort (1924-2010) defendeu que o lugar do poder é o lugar vazio, com o qual ninguém pode identificar-se, por ser exercido transitoriamente. Ao contrário, nos governos não democráticos, a pessoa investida de poder pretende dele se apossar por toda a vida, como se fosse seu proprietário.” (ARANHA; MARTINS, 2016, p. 229).\n\nReferência: ARANHA, Maria Lúcia de Arruda; MARTINS, Maria Helena Pires. **Filosofando**: introdução à filosofia. 6. ed. São Paulo: Moderna, 2016.\n\n**Com base na citação e nos conhecimentos de Filosofia e Sociologia, assinale a alternativa que expressa corretamente a diferença entre regimes democráticos e autoritários em relação ao poder político.**",
+      "options": [
+        {
+          "text": "Em regimes democráticos, o poder se concentra nas mãos de um líder, que personifica a vontade do povo; nos autoritários, ele se distribui livremente entre os representantes eleitos.",
+          "explanation": "Os papéis estão trocados. O líder que se apresenta como encarnação do povo e concentra o poder é traço dos regimes autoritários; a distribuição entre representantes eleitos é própria da democracia."
+        },
+        {
+          "text": "Em regimes democráticos, o poder é herdado como patrimônio pessoal; nos autoritários, ele é repartido entre diversos grupos sociais.",
+          "explanation": "Na democracia o poder não é herança nem propriedade de ninguém: é conferido por eleição e por prazo determinado. Tratar o poder como patrimônio pessoal é o que a citação atribui aos governos não democráticos."
+        },
+        {
+          "text": "Em regimes democráticos, o poder é fixo e vitalício; nos autoritários, sua transitoriedade garante o equilíbrio institucional.",
+          "explanation": "É o inverso do que diz Lefort: na democracia o poder é exercido transitoriamente; quem pretende se apossar dele por toda a vida é o governante autoritário."
+        },
+        {
+          "text": "Em regimes democráticos, o poder é sagrado e absoluto; nos autoritários, ele se dissolve entre diferentes representantes do povo.",
+          "explanation": "Poder sagrado e absoluto lembra o absolutismo de direito divino. Na democracia o poder é limitado pelas leis e dividido entre instituições."
+        },
+        {
+          "text": "Em regimes democráticos, o poder é transitório e impessoal; já nos autoritários, tende a ser concentrado e apropriado por quem o exerce.",
+          "explanation": "Correta. Para Lefort, na democracia o lugar do poder é “vazio”: ninguém se identifica com ele, pois é ocupado por tempo limitado. Nos regimes autoritários, o governante age como se fosse dono do poder."
+        }
+      ],
+      "correct": "E"
+    },
+    {
+      "key": "pave-2025-e1-q17",
+      "source": "PAVE 2025 – Etapa 1, questão 17 (UFPel)",
+      "kind": "Objective",
+      "subject": "sociologia",
+      "statement": "Os séculos XVIII e XIX podem ser observados como instauradores de transformações sociais importantes. O desenvolvimento da produção de bens, realizada por trabalhadores assalariados, com o uso predominante de máquinas, salienta um processo que se convencionou chamar de Revolução Industrial. Esse fenômeno, segundo alguns historiadores, começou na Inglaterra e se estendeu para outros países, estruturando aquilo que se denominou sociedade capitalista. Essa nova ordem, entretanto, não foi uniforme e tampouco obedeceu a padrões recorrentes em todas as nações.\n\n**Leia as seguintes afirmações.**\n\nI – A formação da Sociologia é também resultado do processo de consolidação da sociedade capitalista.\n\nII – Antes da Revolução Industrial, as principais formas de produção eram o artesanato e a manufatura.\n\nIII – A produção mecanizada, mesmo sem os aperfeiçoamentos dos métodos produtivos, incentivou a criação de máquinas e a geração de produtos em série nas fábricas.\n\nIV – Foi nesse contexto que surgiram os três grandes pensadores da Sociologia clássica, Durkheim, Weber e Marx.\n\nReferências:\n\nMACHADO, Igor José Renó et al. **Sociologia Hoje**. 1. ed. São Paulo: Ática, 2013.\n\nCOTRIM, Gilberto. **História Global II**. 3. ed. São Paulo: Saraiva, 2016.\n\n**Estão corretas:**",
+      "options": [
+        {
+          "text": "I, II e IV, apenas.",
+          "explanation": "Correta. A Sociologia nasceu no século XIX para explicar a sociedade industrial e capitalista (I), que substituiu o artesanato e a manufatura (II) e foi o objeto de estudo de Marx, Durkheim e Weber (IV). A III é falsa: a mecanização foi fruto do aperfeiçoamento dos métodos produtivos, não ocorreu sem ele."
+        },
+        {
+          "text": "I, III e IV, apenas.",
+          "explanation": "Inclui a III, que é falsa: a produção mecanizada e em série dependeu do aperfeiçoamento dos métodos de produção. E exclui a II, que é verdadeira."
+        },
+        {
+          "text": "II e III, apenas.",
+          "explanation": "A II é verdadeira, mas a III não: não houve mecanização sem aperfeiçoamento dos métodos produtivos. Faltam ainda a I e a IV, ambas corretas."
+        },
+        {
+          "text": "II, III e IV, apenas.",
+          "explanation": "A III é falsa, pois separa a mecanização do aperfeiçoamento dos métodos produtivos, que caminharam juntos. A I, deixada de fora, é verdadeira."
+        },
+        {
+          "text": "II e IV, apenas.",
+          "explanation": "As duas são verdadeiras, mas a I também é: a Sociologia surgiu como tentativa de compreender as transformações trazidas pela consolidação do capitalismo."
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "key": "pave-2025-e1-q18",
+      "source": "PAVE 2025 – Etapa 1, questão 18 (UFPel)",
+      "kind": "Objective",
+      "subject": "sociologia",
+      "statement": "O Renascimento, período que surgiu na Itália no século XIV, valorizou o ser humano em detrimento do divino. Retomou valores da filosofia clássica em oposição ao uso da fé e da autoridade da igreja na construção do conhecimento. Esse tempo também marcou a expansão marítima e a conquista da América, com o feudalismo se desvanecendo e dando lugar à centralização do poder político, através de monarquias absolutistas e da formação dos Estados nacionais.\n\nNa França o fim do absolutismo marcou uma nova etapa, em que o poder se estabeleceu, ainda que por um período breve, na forma de uma República com ideias liberais que serviram de motivação ao mundo ocidental. Essas transformações ocorridas na Europa ensejaram por parte de alguns pensadores, entre eles Auguste Comte, uma nova forma de compreensão dos fenômenos sociais e políticos.\n\n**Leia as seguintes afirmações.**\n\nI – A Revolução Francesa pode ser considerada uma transformação social e política e foi uma das inspirações para o surgimento da Sociologia enquanto ciência.\n\nII – A Sociologia positivista, fundada por Auguste Comte, objetivava reconciliar a ordem e o progresso na busca de soluções científicas para os problemas da sociedade europeia.\n\nIII – A filosofia medieval marcou um retorno dos fundamentos centrados no antropocentrismo.\n\nIV – A centralização do poder político na figura do rei é uma característica do absolutismo.\n\nReferências:\n\nCOTRIM, Gilberto; FERNANDES, Mirna. **Fundamentos de Filosofia**. 2. Ed. São Paulo: Saraiva, 2013.\n\nCATELLI, Junior Roberto. **Conexão História.** Vol II. 1. ed. São Paulo: AJS, 2015.\n\nMACHADO, Igor José Renó et al. **Sociologia Hoje.** 1. ed. São Paulo: Ática, 2013.\n\n**Estão corretas:**",
+      "options": [
+        {
+          "text": "I, III e IV, apenas.",
+          "explanation": "A III é falsa: a filosofia medieval era teocêntrica, centrada em Deus e na fé; o antropocentrismo é marca do Renascimento. Além disso, a II, excluída aqui, é verdadeira."
+        },
+        {
+          "text": "I, II e IV, apenas.",
+          "explanation": "Correta. A Revolução Francesa foi uma das transformações que motivaram o surgimento da Sociologia (I); Comte, fundador do positivismo, propunha estudar a sociedade cientificamente, unindo ordem e progresso (II); e o absolutismo concentrava o poder no rei (IV). A III é falsa, pois o pensamento medieval era teocêntrico."
+        },
+        {
+          "text": "II e IV, apenas.",
+          "explanation": "As duas são verdadeiras, mas a I também é: as mudanças sociais e políticas da Revolução Francesa estão entre as inspirações para o nascimento da Sociologia."
+        },
+        {
+          "text": "II, III e IV, apenas.",
+          "explanation": "Inclui a III, que é falsa, pois o período medieval foi teocêntrico, e deixa de fora a I, que é verdadeira."
+        },
+        {
+          "text": "III e IV, apenas.",
+          "explanation": "A IV está certa, mas a III não: quem pôs o ser humano no centro foi o Renascimento, em oposição ao teocentrismo medieval. Faltam ainda a I e a II."
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "key": "pave-2025-e1-q20",
+      "source": "PAVE 2025 – Etapa 1, questão 20 (UFPel)",
+      "kind": "Objective",
+      "subject": "matematica",
+      "statement": "Em Matemática, o conceito de conjunto foi tratado no decorrer da história por diversos estudiosos, com destaque para o russo Georg Cantor (1845-1918) que, em 1874, começou a desenvolver seu trabalho inovador em Teoria dos Conjuntos. As ideias de conjunto influenciaram e continuam influenciando o estudo de diversos campos da Matemática. Cada conjunto possui características gerais e propriedades específicas.\n\nReferência: SOUZA, Joamir. **Matemática – Multiversos – Conjuntos e Função Afim.** 1. ed. São Paulo: FTD, 2020.\n\n**Considere as afirmações sobre o conjunto dos Números Reais ℝ.**\n\nI – Com base nas propriedades de potenciação (x + y)² = x² + y².\n\nII – O resultado da expressão [3² + (44 − √16)] − (4.5 − √9) é igual a 32.\n\nIII – O resultado da expressão (1 + √2) + (1 − √2) é igual a 2.\n\nIV – Utilizando as propriedades de radiciação, concluímos que 8√6 + 9√24 = 17√30.\n\nV – O resultado da expressão (1,3)² + (3/4 − 0,25)³ ÷ 25 é igual a −5/6.\n\n**Estão corretas:**",
+      "options": [
+        {
+          "text": "I, III e V, apenas.",
+          "explanation": "A III é verdadeira, mas a I e a V não. O quadrado da soma é (x + y)² = x² + 2xy + y², e na V o resultado é positivo: 1,69 + (0,5)³ ÷ 25 = 1,69 + 0,005 = 1,695."
+        },
+        {
+          "text": "II e III, apenas.",
+          "explanation": "Correta. Na II, o ponto indica multiplicação (4·5 = 20): [9 + (44 − 4)] − (20 − 3) = 49 − 17 = 32. Na III, as raízes se cancelam: 1 + √2 + 1 − √2 = 2. As demais são falsas: (x + y)² = x² + 2xy + y²; 8√6 + 9√24 = 8√6 + 18√6 = 26√6; e a expressão da V vale 1,695."
+        },
+        {
+          "text": "I, IV e V, apenas.",
+          "explanation": "As três são falsas. (x + y)² tem o termo 2xy; radicais só se somam quando têm o mesmo radicando, e 9√24 = 18√6, o que dá 26√6; e a expressão da V resulta em 1,695, um número positivo."
+        },
+        {
+          "text": "III e IV, apenas.",
+          "explanation": "A III é verdadeira, mas a IV não: não se somam coeficientes e radicandos. Como √24 = 2√6, temos 8√6 + 18√6 = 26√6. Além disso, a II, deixada de fora, é verdadeira."
+        },
+        {
+          "text": "I, II, III e IV, apenas.",
+          "explanation": "A II e a III são verdadeiras, mas a I esquece o termo 2xy do quadrado da soma e a IV soma radicais de forma indevida: o resultado certo é 26√6, não 17√30."
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "key": "pave-2025-e1-q21",
+      "source": "PAVE 2025 – Etapa 1, questão 21 (UFPel)",
+      "kind": "Objective",
+      "subject": "matematica",
+      "statement": "Uma sequência numérica, ou simplesmente, uma sequência, é uma sucessão de números. Ela pode ser pensada como uma lista de números escritos em uma ordem definida a₁, a₂, a₃, … , que seguem um padrão ou regra específica. Cada número na sequência é chamado de termo, e a sequência pode ser crescente, decrescente ou constante. As sequências podem ser definidas por uma fórmula ou lei de formação, que permite calcular qualquer termo da sequência a partir de sua posição.\n\nReferência: https://lemas.furg.br/images/seq2311.pdf. Acesso em: 18/06/2025.\n\n**Considerando a sequência numérica (-10,-3,4,11,18,25,…), podemos afirmar que:**",
+      "options": [
+        {
+          "text": "A sequência é uma Progressão Geométrica crescente.",
+          "explanation": "Em uma PG o quociente entre termos consecutivos é constante. Aqui, (−3)/(−10) = 0,3 e 4/(−3) ≈ −1,33: os quocientes mudam. O que se mantém é a diferença entre os termos, o que caracteriza uma PA."
+        },
+        {
+          "text": "O último termo dessa sequência é o número 25.",
+          "explanation": "As reticências depois do 25 indicam que a sequência continua indefinidamente. O 25 é apenas o sexto termo; o seguinte seria 32."
+        },
+        {
+          "text": "A sequência é finita e constante.",
+          "explanation": "As reticências mostram que a sequência é infinita, e uma sequência constante teria todos os termos iguais. Aqui os termos aumentam de 7 em 7."
+        },
+        {
+          "text": "A diferença entre dois termos consecutivos, ou seja, a razão dessa sequência numérica, é igual a 7.",
+          "explanation": "Correta. −3 − (−10) = 7, 4 − (−3) = 7, 11 − 4 = 7, 18 − 11 = 7 e 25 − 18 = 7. Como a diferença entre termos consecutivos é constante, trata-se de uma progressão aritmética de razão 7."
+        },
+        {
+          "text": "A sequência é uma Progressão Aritmética decrescente.",
+          "explanation": "É de fato uma PA, mas a razão é positiva (r = 7), então os termos aumentam: a progressão é crescente. Seria decrescente se a razão fosse negativa."
+        }
+      ],
+      "correct": "D"
+    },
+    {
+      "key": "pave-2025-e1-q22",
+      "source": "PAVE 2025 – Etapa 1, questão 22 (UFPel)",
+      "kind": "Objective",
+      "subject": "matematica",
+      "statement": "De acordo com o Plano Estadual de Doação e Transplantes do Rio Grande do Sul (2024 -2027), no que se refere à relação entre a necessidade estimada e o número de transplantes realizados para diferentes órgãos no estado, os dados do ano de 2022 demonstraram que a demanda por transplantes de órgãos, foi superior aos transplantes realizados, conforme observado no gráfico a seguir.\n\nReferência: adaptado de https://saude.rs.gov.br/upload/arquivos/202402/16153159-pedt-plano-estadual-de-doacao-e-transplantes-atualizado.pdf. Acesso em: 23/06/2025.\n\n![Gráfico de barras com o título Nessecidade anual estimada e Transplantes realizados em 2022, com o número de indivíduos no eixo vertical. Para cada órgão há duas barras, necessidade estimada e transplantes realizados: córnea, 1028 e 517; rim, 685 e 411; fígado, 286 e 118; coração, 91 e 13; pulmão, 91 e 36.](img/pave/2025/etapa-1/q22-1.png)\n\nFonte: Autoria própria.\n\n**Considerando os dados fornecidos, qual a média mensal aproximada da necessidade estimada e dos transplantes realizados, respectivamente, no ano de 2022?**",
+      "options": [
+        {
+          "text": "182 e 91 aproximadamente.",
+          "explanation": "Correta. Necessidade anual: 1028 + 685 + 286 + 91 + 91 = 2181; por mês, 2181 ÷ 12 ≈ 181,8 ≈ 182. Transplantes realizados: 517 + 411 + 118 + 13 + 36 = 1095; por mês, 1095 ÷ 12 ≈ 91,3 ≈ 91."
+        },
+        {
+          "text": "2181 e 1095 aproximadamente.",
+          "explanation": "Esses são os totais do ano (a soma das barras de cada série). Para obter a média mensal ainda é preciso dividir cada total por 12."
+        },
+        {
+          "text": "436 e 219 aproximadamente.",
+          "explanation": "Esses valores vêm de dividir os totais por 5 (2181 ÷ 5 ≈ 436 e 1095 ÷ 5 = 219), o que dá a média por órgão. A pergunta pede a média por mês, com divisão por 12."
+        },
+        {
+          "text": "85 e 43 aproximadamente.",
+          "explanation": "Esses valores consideram só a córnea: 1028 ÷ 12 ≈ 85,7 e 517 ÷ 12 ≈ 43. A média mensal pedida deve usar a soma de todos os órgãos."
+        },
+        {
+          "text": "273 e 219 aproximadamente.",
+          "explanation": "Nenhum dos dois valores resulta de dividir os totais anuais por 12: 219 é a média de transplantes por órgão (1095 ÷ 5), não por mês. As médias mensais são 2181 ÷ 12 ≈ 182 e 1095 ÷ 12 ≈ 91."
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "key": "pave-2025-e1-q23",
+      "source": "PAVE 2025 – Etapa 1, questão 23 (UFPel)",
+      "kind": "Objective",
+      "subject": "matematica",
+      "statement": "A Fenadoce (Feira Nacional do Doce) é um evento anual realizado em Pelotas, Rio Grande do Sul, com o objetivo de celebrar a tradição doceira da região. A feira começou em 1986, como uma iniciativa para promover os doces de Pelotas, e se tornou um marco cultural e turístico para a cidade. A Fenadoce tornou-se anual a partir de 1988 e é realizada no Centro de Eventos Fenadoce no formato de uma grande multifeira, onde o protagonista do evento são os doces certificados, encontrados na Cidade do Doce. A tradição doceira da região remonta aos tempos coloniais, com a chegada de imigrantes portugueses e a influência da produção de charque, que trazia o açúcar necessário para a confecção dos doces. A Fenadoce surgiu como uma forma de valorizar esse patrimônio, reunindo produtores de doces, artistas e visitantes em um ambiente festivo.\n\nReferência: https://fenadoce.com.br/a-feira/. Acesso em: 22/06/2025.\n\n![Fotografia de uma caixa de madeira com doces de Pelotas variados, embalados um a um, apoiada em um parapeito; ao fundo, desfocados, aparecem prédios da cidade e uma torre.](img/pave/2025/etapa-1/q23-1.png)\n\nFonte: https://bcr.iphan.gov.br/wp-content/uploads/tainacan-items/65733/66113/d173edb3-42e2-4e70-926d-0fbdbb113f52-2.jpeg. Acesso em: 22/06/2025.\n\nAs doceiras da Fenadoce pretendem dar descontos nas caixas que contêm 10 doces. Esse desconto será de acordo com a quantidade de caixas compradas por cada cliente. No intuito de verificar a viabilidade desse desconto, decidem fazer um teste.\n\nPara simular a possibilidade do desconto, foi considerado o modelo V(n) = 62,5 · n − 2,5 · n², onde n é o número de caixas vendidas e V(n) é o valor final pago na compra.\n\nNa Feira Nacional do Doce, cada doce é vendido por R$ 6,00, e o preço de custo é de aproximadamente R$ 3,50. Considerando que o valor mínimo de venda de cada doce, para que haja lucro, é de R$ 4,00, **determine qual o número máximo de caixas que podem ser vendidas com desconto, para que haja o lucro mínimo na venda.**",
+      "options": [
+        {
+          "text": "11 caixas.",
+          "explanation": "V(11) = 62,5·11 − 2,5·121 = 687,50 − 302,50 = 385,00, ou R$ 35,00 por caixa: R$ 3,50 por doce, exatamente o preço de custo e abaixo do mínimo de R$ 4,00."
+        },
+        {
+          "text": "8 caixas.",
+          "explanation": "V(8) = 500 − 160 = 340,00, ou R$ 42,50 por caixa (R$ 4,25 por doce). Ainda está acima do mínimo, então é possível vender mais uma caixa com desconto: 8 não é o máximo."
+        },
+        {
+          "text": "10 caixas.",
+          "explanation": "V(10) = 625 − 250 = 375,00, ou R$ 37,50 por caixa (R$ 3,75 por doce), valor abaixo do mínimo de R$ 4,00 por doce."
+        },
+        {
+          "text": "7 caixas.",
+          "explanation": "V(7) = 437,50 − 122,50 = 315,00, ou R$ 45,00 por caixa (R$ 4,50 por doce). O preço ainda está bem acima do mínimo, logo 7 não é o número máximo de caixas."
+        },
+        {
+          "text": "9 caixas.",
+          "explanation": "Correta. O preço mínimo da caixa é 10 × 4,00 = R$ 40,00. O valor pago por caixa é V(n)/n = 62,5 − 2,5·n; exigindo 62,5 − 2,5·n ≥ 40, obtemos n ≤ 9. Conferindo: V(9) = 562,50 − 202,50 = 360,00, isto é, R$ 40,00 por caixa e R$ 4,00 por doce."
+        }
+      ],
+      "correct": "E"
+    },
+    {
+      "key": "pave-2025-e1-q24",
+      "source": "PAVE 2025 – Etapa 1, questão 24 (UFPel)",
+      "kind": "Objective",
+      "subject": "arte",
+      "statement": "**Leia o texto a seguir para responder às questões 24 e 25.**\n\n![Fotografia do Museu da Baronesa, em Pelotas: casarão térreo de paredes avermelhadas com detalhes brancos, uma fileira de janelas em arco e um torreão de dois andares, cercado por gramado, postes ornamentais e árvores.](img/pave/2025/etapa-1/q24-1.png)\n\nFonte: https://topview.com.br/estilo/museu-da-baronesa/. Acesso em: 26/06/2025.\n\n**Conheça o Museu da Baronesa, em Pelotas**\n\nInaugurado em 1982, conta com uma coleção de móveis e acessórios incrível que pertence à família Antunes Maciel\n\nPara habitantes ou turistas, o Museu da Baronesa em Pelotas, no Rio Grande do Sul, é o passeio ideal para quem quer se divertir e, de quebra, adquirir um pouco de cultura. O espaço, que conta com mais de mil peças no acervo, nos mostra com riqueza o cenário cotidiano das famílias abastadas que viveram durante o século XIX na região. O museu também inclui uma coleção de leques, porcelanas, móveis, pratarias, vestes e imagens de madeira, pertencente ao artista plástico Adail Bento Costa.\n\n**A história do Museu da Baronesa**\n\nA propriedade em que o museu está localizado foi adquirida em 1863 pelo coronel Aníbal Antunes Maciel, que queria presentear o filho por seu casamento. Seu filho, então, mudou-se para a construção com sua mulher, com a intenção de melhorá-la. Logo começou a ampliar a casa, tornando-a grande e bonita, com 820 m², 22 peças e um pátio interno. O prédio foi cercado por jardins: um ao estilo francês (com chafariz, desenhos simétricos e elementos decorativos) e um ao estilo inglês (com uma gruta em forma de labirinto, construída com pedras sobrepostas).\n\nAníbal Antunes Maciel teve notoriedade por conceder alforria aos escravos muito antes da Lei Áurea. Isso concedeu a ele o título de Barão dos Três Serros, por decreto do Imperador Dom Pedro II. Pouco depois, o Barão morreu. A Baronesa Amélia Hartley Antunes Maciel, então viúva, conhecida por sua bondade, fez a fama do lugar, que passou a ser chamado de Solar da Baronesa. A última moradora do local foi a neta dos Barões.\n\nEm 1982, o prédio foi restaurado e entregue à comunidade pelotense. A partir de então, o lugar passou a abrigar o Museu da Baronesa.\n\nReferência: adaptado de https://topview.com.br/estilo/museu-da-baronesa/. Acesso em: 26/06/2025.\n\n**Baseado em seus conhecimentos culturais, históricos e de língua portuguesa, analise as afirmações a seguir.**\n\nI – O Museu da Baronesa abriga uma coleção de objetos que representam o cotidiano das classes trabalhadoras urbanas do período da República Velha. Esse período é a denominação dada à primeira fase da República brasileira, que se estendeu da Proclamação da República em 15 de novembro de 1889 até a Revolução de 1930, liderada por Getúlio Vargas.\n\nII – A figura do Barão dos Três Serros destaca-se pela defesa da monarquia frente à Revolução Farroupilha ou Guerra dos Farrapos, em referência aos trajes esfarrapados usados pelas tropas rebeldes. Ocorrida na então província do Rio Grande do Sul, foi a rebelião mais duradoura do período imperial brasileiro, estendendo-se até 1845.\n\nIII – Uma das principais funções dos museus é valorizar a cultura local e a formação da consciência cidadã, além de preservar e divulgar a memória coletiva, contribuindo para a valorização da identidade e da história local.\n\nIV – O Museu da Baronesa foi construído com linhas futuristas e elementos da arquitetura moderna, como o uso do concreto armado, do aço, do vidro e das linhas retas, que são algumas das características das obras modernistas.\n\n**Está(ão) correta(s):**",
+      "options": [
+        {
+          "text": "I e IV, apenas.",
+          "explanation": "As duas são falsas. O acervo retrata o cotidiano das famílias abastadas do século XIX, não o das classes trabalhadoras da República Velha, e o casarão é uma construção do século XIX, sem relação com a arquitetura moderna de concreto, aço e vidro."
+        },
+        {
+          "text": "III, apenas.",
+          "explanation": "Correta. Só a III se sustenta: museus preservam e divulgam a memória coletiva e valorizam a cultura e a identidade locais. A I erra o grupo social e a época do acervo, a II atribui ao Barão um papel que o texto não menciona (seu título veio da alforria de escravizados) e a IV descreve arquitetura modernista, incompatível com um solar do século XIX."
+        },
+        {
+          "text": "I, II, III e IV.",
+          "explanation": "Apenas a III é verdadeira. A I, a II e a IV contradizem o texto: o acervo é das famílias abastadas do século XIX, o Barão ficou conhecido por conceder alforrias e o prédio é um solar oitocentista."
+        },
+        {
+          "text": "I, II e III, apenas.",
+          "explanation": "A III está certa, mas a I e a II não. O museu mostra o cotidiano das famílias abastadas do século XIX, e o texto associa o título do Barão à alforria de escravizados, não à Revolução Farroupilha."
+        },
+        {
+          "text": "II e III, apenas.",
+          "explanation": "A III é verdadeira, mas a II não: segundo o texto, o título de Barão dos Três Serros foi concedido pela alforria de escravizados, e a propriedade só foi adquirida em 1863, depois do fim da Revolução Farroupilha (1845)."
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "key": "pave-2025-e1-q25",
+      "source": "PAVE 2025 – Etapa 1, questão 25 (UFPel)",
+      "kind": "Objective",
+      "subject": "lingua-portuguesa",
+      "statement": "**Leia o texto a seguir para responder às questões 24 e 25.**\n\n![Fotografia do Museu da Baronesa, em Pelotas: casarão térreo de paredes avermelhadas com detalhes brancos, uma fileira de janelas em arco e um torreão de dois andares, cercado por gramado, postes ornamentais e árvores.](img/pave/2025/etapa-1/q24-1.png)\n\nFonte: https://topview.com.br/estilo/museu-da-baronesa/. Acesso em: 26/06/2025.\n\n**Conheça o Museu da Baronesa, em Pelotas**\n\nInaugurado em 1982, conta com uma coleção de móveis e acessórios incrível que pertence à família Antunes Maciel\n\nPara habitantes ou turistas, o Museu da Baronesa em Pelotas, no Rio Grande do Sul, é o passeio ideal para quem quer se divertir e, de quebra, adquirir um pouco de cultura. O espaço, que conta com mais de mil peças no acervo, nos mostra com riqueza o cenário cotidiano das famílias abastadas que viveram durante o século XIX na região. O museu também inclui uma coleção de leques, porcelanas, móveis, pratarias, vestes e imagens de madeira, pertencente ao artista plástico Adail Bento Costa.\n\n**A história do Museu da Baronesa**\n\nA propriedade em que o museu está localizado foi adquirida em 1863 pelo coronel Aníbal Antunes Maciel, que queria presentear o filho por seu casamento. Seu filho, então, mudou-se para a construção com sua mulher, com a intenção de melhorá-la. Logo começou a ampliar a casa, tornando-a grande e bonita, com 820 m², 22 peças e um pátio interno. O prédio foi cercado por jardins: um ao estilo francês (com chafariz, desenhos simétricos e elementos decorativos) e um ao estilo inglês (com uma gruta em forma de labirinto, construída com pedras sobrepostas).\n\nAníbal Antunes Maciel teve notoriedade por conceder alforria aos escravos muito antes da Lei Áurea. Isso concedeu a ele o título de Barão dos Três Serros, por decreto do Imperador Dom Pedro II. Pouco depois, o Barão morreu. A Baronesa Amélia Hartley Antunes Maciel, então viúva, conhecida por sua bondade, fez a fama do lugar, que passou a ser chamado de Solar da Baronesa. A última moradora do local foi a neta dos Barões.\n\nEm 1982, o prédio foi restaurado e entregue à comunidade pelotense. A partir de então, o lugar passou a abrigar o Museu da Baronesa.\n\nReferência: adaptado de https://topview.com.br/estilo/museu-da-baronesa/. Acesso em: 26/06/2025.\n\nAs funções da linguagem são recursos comunicacionais que atuam de acordo com o objetivo do emissor, dando ênfase à mensagem que está sendo transmitida, em volta do contexto da comunicação que está acontecendo. **Identifique a(s) função(ões) da linguagem predominante(s) no texto intitulado “Conheça o Museu da Baronesa, em Pelotas”, considerando a intencionalidade do ato comunicativo:**",
+      "options": [
+        {
+          "text": "Fática ou de contato.",
+          "explanation": "A função fática serve para abrir, manter ou testar o canal de comunicação, como em “alô” ou “está me ouvindo?”. O texto não se ocupa do canal: ele transmite informações sobre o museu."
+        },
+        {
+          "text": "Apelativa ou conativa.",
+          "explanation": "A função apelativa busca influenciar o receptor, com imperativos e vocativos. Ela aparece de forma pontual no título (“Conheça”), mas o corpo do texto se dedica a informar, e não a convencer."
+        },
+        {
+          "text": "Referencial ou denotativa.",
+          "explanation": "Correta. O texto tem como foco o assunto: apresenta dados objetivos sobre o museu (datas, acervo, história da propriedade e de seus moradores), em terceira pessoa e linguagem denotativa, com a intenção de informar o leitor."
+        },
+        {
+          "text": "Metalinguística.",
+          "explanation": "Na função metalinguística o código explica o próprio código, como em um verbete de dicionário ou em um poema que fala de poesia. O texto fala de um museu, não da linguagem."
+        },
+        {
+          "text": "Poética.",
+          "explanation": "A função poética privilegia a elaboração da mensagem, com ritmo, sonoridade e figuras de linguagem. O texto é informativo, de linguagem direta, sem esse trabalho estético com as palavras."
+        }
+      ],
+      "correct": "C"
+    },
+    {
+      "key": "pave-2025-e1-q26",
+      "source": "PAVE 2025 – Etapa 1, questão 26 (UFPel)",
+      "kind": "Objective",
+      "subject": "literatura",
+      "statement": "**Leia os textos a seguir.**\n\n**Texto I**\n\n```\nOndas do mar de Vigo,\nse vistes meu amigo!\ne ai Deus, se verrá cedo!\nOndas do mar levado,\nse vistes meu amado!\ne ai Deus, se verrá cedo!\n(Martim Codax)\n```\n\n**Texto II**\n\n```\nQuando você me deixou, meu bem\nMe disse pra ser feliz e passar bem\nQuis morrer de ciúme, quase enlouqueci\nMas depois, como era de costume, obedeci.\n[...]\nHoje eu sei que quem me deu a idéia\nDe uma nova consciência e de um novo começo\nFoi você. (Chico Buarque)\n```\n\nAo compararmos a cantiga medieval de Martim Codax com a canção de Chico Buarque, é possível estabelecermos uma relação de intertextualidade temática. **O principal ponto de contato entre as duas composições é:**",
+      "options": [
+        {
+          "text": "O uso de uma linguagem rebuscada para tratar do sofrimento amoroso.",
+          "explanation": "Nenhum dos textos é rebuscado. A cantiga usa frases curtas, repetições e refrão, e a canção tem linguagem coloquial, como em “pra ser feliz”."
+        },
+        {
+          "text": "A presença do mar como confidente dos sentimentos da mulher.",
+          "explanation": "O mar só aparece no Texto I, em que a voz feminina pergunta às ondas pelo amigo. Na canção não há mar nem elemento da natureza como confidente."
+        },
+        {
+          "text": "A abordagem da “coita” amorosa, sentimento de matriz medieval revisitado na canção moderna.",
+          "explanation": "Correta. Nos dois textos, uma voz fala do sofrimento causado pela ausência do amado: a espera aflita na cantiga (“e ai Deus, se verrá cedo!”) e o ciúme de quem quase enlouqueceu na canção. Esse sofrimento por amor é o que a lírica trovadoresca chamava de coita."
+        },
+        {
+          "text": "A representação de uma mulher submissa que aceita passivamente o abandono.",
+          "explanation": "Na cantiga não há aceitação de abandono: a moça espera, ansiosa, a volta do amigo. Na canção, quem fala sofre, mas chega a “uma nova consciência” e a “um novo começo”. Submissão passiva não une os dois textos."
+        },
+        {
+          "text": "A temática da superação e da vingança contra o amado que partiu.",
+          "explanation": "Só a canção fala em recomeço, e em nenhum dos textos há vingança. Na cantiga existe apenas a saudade e a ansiedade pelo retorno do amado."
+        }
+      ],
+      "correct": "C"
+    },
+    {
+      "key": "pave-2025-e1-q27",
+      "source": "PAVE 2025 – Etapa 1, questão 27 (UFPel)",
+      "kind": "Objective",
+      "subject": "literatura",
+      "statement": "**Leia os textos a seguir.**\n\n**Texto I**\n\n```\nSenhor Deus dos desgraçados!\nDizei-me vós, Senhor Deus!\nSe é loucura... se é verdade\nTanto horror perante os céus?!\n[...]\nEra um sonho dantesco... o tombadilho\nQue das luzernas avermelha o brilho,\nEm sangue a se banhar. (Castro Alves)\n```\n\n**Texto II**\n\n```\nCada detento uma mãe, uma crença\nCada crime uma sentença\nCada sentença um motivo, uma história\n[...]\nO ser humano é descartável no Brasil\nComo modess usado ou Bombril\n(Racionais MC’s)\n```\n\nApesar das diferenças de contexto histórico e linguagem, os textos de Castro Alves e do grupo Racionais MC’s podem ser aproximados por um elemento comum. **Assinale a alternativa que aponta essa semelhança.**",
+      "options": [
+        {
+          "text": "Tanto o poema quanto o rap isentam a sociedade de culpa, atribuindo o sofrimento a uma vontade divina ou ao destino.",
+          "explanation": "Os dois textos fazem o contrário: denunciam uma violência produzida pela sociedade. Castro Alves se horroriza com o navio negreiro, e o rap afirma que o ser humano é tratado como descartável no Brasil."
+        },
+        {
+          "text": "A temática central em ambos é a crítica ao sistema judiciário brasileiro e a suas sentenças.",
+          "explanation": "Sentenças e detentos aparecem apenas no rap. O poema de Castro Alves trata do tráfico de pessoas escravizadas (o “tombadilho” é o convés do navio), não do sistema judiciário."
+        },
+        {
+          "text": "Ambos os textos utilizam uma linguagem metafórica e complexa, de difícil acesso ao grande público.",
+          "explanation": "O rap usa linguagem direta e cotidiana, com comparações tiradas do dia a dia (“modess usado ou Bombril”), feita para ser entendida por todos. A linguagem, aliás, é o que mais diferencia os dois textos."
+        },
+        {
+          "text": "Os dois autores expressam um tom de denúncia contra a desumanização e a violência sofridas por grupos sociais marginalizados.",
+          "explanation": "Correta. Castro Alves denuncia o horror vivido pelos africanos escravizados no navio negreiro (“Em sangue a se banhar”), e os Racionais MC’s denunciam o tratamento dado aos presos (“O ser humano é descartável no Brasil”). Em épocas diferentes, ambos dão voz à indignação diante de pessoas tratadas como coisas."
+        },
+        {
+          "text": "A principal semelhança reside no apelo religioso, o pedido da intervenção de Deus para solucionar a injustiça.",
+          "explanation": "A invocação a Deus só aparece no poema (“Senhor Deus dos desgraçados!”). No rap, a palavra “crença” apenas caracteriza cada detento; não há pedido de intervenção divina."
+        }
+      ],
+      "correct": "D"
+    },
+    {
+      "key": "pave-2025-e1-q28",
+      "source": "PAVE 2025 – Etapa 1, questão 28 (UFPel)",
+      "kind": "Objective",
+      "subject": "arte",
+      "statement": "**Observe a imagem abaixo, correspondente à manifestação cultural afro – brasileira Tambor de Crioula.**\n\n![Fotografia em preto e branco de uma roda de Tambor de Crioula na rua: em primeiro plano, uma mulher sorridente, de turbante, blusa branca rendada e saia rodada estampada, dança segurando a saia; ao lado, homens de chapéu e camisa estampada tocam três tambores de madeira, enquanto outras pessoas assistem.](img/pave/2025/etapa-1/q28-1.png)\n\nFonte: https://www.ipatrimonio.org/maranhao-tambor-de-crioula-do-maranhao/. Acesso em: 23/06/2025.\n\nAssinale o que é **INCORRETO** afirmar sobre o Tambor de Crioula.",
+      "options": [
+        {
+          "text": "Trata-se de uma forma de expressão de matriz afro-brasileira que envolve dança circular, canto e percussão de tambores, apresentando alguns traços que a aproximam do gênero samba: a polirritmia dos tambores, a síncope (frase rítmica característica do samba), os principais movimentos coreográficos e a umbigada.",
+          "explanation": "A afirmação é verdadeira, logo não é a pedida: o Tambor de Crioula reúne dança de roda, canto e tambores e tem parentesco com o samba, como a síncope e a umbigada."
+        },
+        {
+          "text": "Atualmente, os muitos grupos de tambor de crioula no Maranhão são mantidos diretamente pelo poder público, inexistindo lideranças ou associações. Esses grupos dependem de recursos públicos para a continuidade da brincadeira, os quais são acessados principalmente na forma de cachês recebidos por apresentações e de investimentos em infraestrutura básica nos espaços do circuito festivo maranhense.",
+          "explanation": "Correta. É a afirmação incorreta: os grupos são organizados e mantidos pelas próprias comunidades, com lideranças e associações próprias. O apoio público, como os cachês por apresentações, existe, mas não significa que o Estado mantenha os grupos diretamente."
+        },
+        {
+          "text": "O Tambor de Crioula do Maranhão, em particular, tem características próprias de execução da música-dança no interior da manifestação, que também é compreendida como brincadeira. Enquanto os tocadores fazem soar a parelha composta por um tambor grande ou rufador, um meião ou socador e um crivador ou pererenga, os cantadores puxam toadas que são acompanhadas em coro.",
+          "explanation": "A afirmação é verdadeira, logo não é a pedida: a parelha é o conjunto de três tambores (grande, meião e crivador), como os que aparecem na foto, e as toadas são puxadas pelos cantadores e respondidas em coro."
+        },
+        {
+          "text": "Conduzidas pelo ritmo incessante dos tambores e o influxo das toadas evocadas, as coreiras dão passos miúdos e rodopiam. No centro da roda, seus passos culminam na punga (ou umbigada), movimento coreográfico no qual as dançarinas tocam o ventre umas das outras, num gesto entendido como saudação e convite.",
+          "explanation": "A afirmação é verdadeira, logo não é a pedida: as dançarinas são chamadas de coreiras, e a punga ou umbigada é o gesto central da dança, com o qual uma convida a outra para o centro da roda."
+        },
+        {
+          "text": "Praticado especialmente em louvor a São Benedito, com frequência ele tem sido associado ao campo religioso, assim como ocorre em outras manifestações culturais populares no Maranhão, a exemplo do bumba meu boi e da festa do Divino Espírito Santo.",
+          "explanation": "A afirmação é verdadeira, logo não é a pedida: o Tambor de Crioula costuma ser feito em louvor a São Benedito, o que liga a brincadeira à devoção popular."
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "key": "pave-2025-e1-q29",
+      "source": "PAVE 2025 – Etapa 1, questão 29 (UFPel)",
+      "kind": "Objective",
+      "subject": "arte",
+      "statement": "**Observe a imagem abaixo.**\n\n![Desenho de um padrão gráfico da Arte Kusiwa: três faixas onduladas brancas, de contorno preto, preenchidas com fileiras de pontos vermelhos e entremeadas por formas vermelhas com um losango branco no centro, que lembram cobras estilizadas.](img/pave/2025/etapa-1/q29-1.png)\n\nFonte: http://portal.iphan.gov.br/uploads/ckfinder/arquivos/Arte%20Kusiwa.PDF. Acesso em: 23/06/2025.\n\nA Arte Kusiwa é um sistema de representação gráfica próprio dos povos indígenas Wajãpi, do Amapá, que sintetiza seu modo particular de conhecer, conceber e agir sobre o universo. Possui um repertório codificado de padrões gráficos que representam, de forma sintética e abstrata, partes do corpo ou da ornamentação de animais e de objetos. Em seu conjunto, esse sistema de representação gráfica contém 21 padrões, que se transformam de forma dinâmica, com a inclusão de novos elementos, enquanto outros podem entrar em desuso ou se modificar através de variantes.\n\nAssinale a alternativa **INCORRETA**.",
+      "options": [
+        {
+          "text": "O repertório se modifica de maneira bastante lenta, pela própria variação dos motivos e pela apropriação de outras formas de ornamentação, como a borduna dos inimigos, a lima de ferro, as letras do alfabeto e até marcas da indústria do vestuário.",
+          "explanation": "Correta. É a afirmação incorreta: o enunciado diz que os padrões “se transformam de forma dinâmica”, com inclusão de novos elementos. A própria alternativa cita apropriações recentes (lima de ferro, letras do alfabeto, marcas de roupa), o que contradiz a ideia de mudança “bastante lenta”."
+        },
+        {
+          "text": "O termo kusiwa refere-se ao “dente da cotia”, akusi, utilizado pelos antigos Wajãpi como instrumento para fazer incisões. Kusi era o vocábulo antes exclusivamente utilizado para designar qualquer traço, risco ou desenho produzido com instrumental variado, em pedras, cerâmica, ou ainda no corpo, para fins decorativos ou terapêuticos.",
+          "explanation": "A afirmação trata da origem do nome e corresponde à descrição feita no registro da Arte Kusiwa como patrimônio cultural; nada nela contradiz o enunciado, logo não é a alternativa pedida."
+        },
+        {
+          "text": "Para decorar corpos e objetos, os Wajãpi do Amapá fazem uso da tinta vermelha do urucum, do suco do jenipapo verde e de resinas perfumadas.",
+          "explanation": "A afirmação é verdadeira, logo não é a pedida: urucum (vermelho) e jenipapo (preto-azulado) são os pigmentos tradicionais da pintura corporal indígena, aos quais os Wajãpi juntam resinas perfumadas."
+        },
+        {
+          "text": "Onças, sucuris, jibóias, peixes e borboletas são parte de um repertório codificado de padrões gráficos.",
+          "explanation": "A afirmação combina com o enunciado, logo não é a pedida: os padrões representam, de forma sintética, partes do corpo ou da ornamentação de animais, como a pele das cobras da imagem."
+        },
+        {
+          "text": "É por meio de suas formas ou de sua ornamentação, tal como lá no início dos tempos foram percebidas pelos primeiros homens, que os Wajãpi expressam a diversidade de seres, humanos e não humanos que, com eles, compartilham o universo.",
+          "explanation": "A afirmação está de acordo com o enunciado, logo não é a pedida: a Arte Kusiwa sintetiza o modo wajãpi de conhecer e conceber o universo e os seres que o habitam."
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "key": "pave-2025-e1-q30-es",
+      "source": "PAVE 2025 – Etapa 1, questão 30, espanhol (UFPel)",
+      "kind": "Objective",
+      "subject": "espanhol",
+      "statement": "**Leia o conto “La rana que quería ser una rana auténtica”, de Augusto Monterroso, para responder às questões 30, 31 e 32.**\n\nHabía una vez una rana que quería ser una rana auténtica, y todos los días se esforzaba en ello.\n\nAl principio se compró un espejo en el que se miraba largamente buscando su ansiada autenticidad.\n\nUnas veces parecía encontrarla y otras no, según el humor de ese día o de la hora, hasta que se cansó de esto y guardó el espejo en un baúl.\n\nPor fin pensó que la única forma de conocer su propio valor estaba en la opinión de la gente, y comenzó a peinarse y a vestirse y a desvestirse (cuando no le quedaba otro recurso) para saber si los demás la aprobaban y reconocían que era una rana auténtica.\n\nUn día observó que lo que más admiraban de ella era su cuerpo, especialmente sus piernas, de manera que se dedicó a hacer sentadillas y a saltar para tener unas ancas cada vez mejores, y sentía que todos la aplaudían.\n\nY así seguía haciendo esfuerzos hasta que, dispuesta a cualquier cosa para lograr que la consideraran una rana auténtica, se dejaba arrancar las ancas, y los otros se las comían, y ella todavía alcanzaba a oír con amargura cuando decían que qué buena rana, que parecía pollo.\n\nReferência: https://ciudadseva.com/texto/la-rana-que-queria-ser-una-rana-autentica/. Acesso em: 04/07/2025.\n\n**Como a expressão “ser una rana auténtica” pode ser interpretada na narrativa?**",
+      "options": [
+        {
+          "text": "Uma metáfora para a imitação das outras espécies de anfíbios.",
+          "explanation": "A rã não tenta imitar outros animais. O que ela busca é que os outros a aprovem e reconheçam como rã autêntica."
+        },
+        {
+          "text": "O desejo do personagem de manter suas tradições familiares.",
+          "explanation": "O conto não menciona família nem tradições. A busca da rã está toda voltada para a opinião alheia."
+        },
+        {
+          "text": "Um objetivo de sucesso material.",
+          "explanation": "A rã não procura bens nem riqueza: quer reconhecimento. Ela se arruma, se exercita e se sacrifica para ser aprovada."
+        },
+        {
+          "text": "A busca por um ideal de identidade que é imposto pela sociedade.",
+          "explanation": "Correta. A rã conclui que “la única forma de conocer su propio valor estaba en la opinión de la gente” (a única forma de conhecer seu próprio valor estava na opinião das pessoas) e passa a se moldar ao que os outros admiram. Sua “autenticidade” é, ironicamente, definida de fora."
+        },
+        {
+          "text": "Uma referência literal à biologia das rãs.",
+          "explanation": "O texto é uma fábula: a rã que se olha no espelho, se penteia e se veste representa comportamentos humanos. A leitura literal, biológica, não dá conta desse sentido."
+        }
+      ],
+      "correct": "D"
+    },
+    {
+      "key": "pave-2025-e1-q30-en",
+      "source": "PAVE 2025 – Etapa 1, questão 30, inglês (UFPel)",
+      "kind": "Objective",
+      "subject": "ingles",
+      "statement": "**Leia o texto a seguir para responder às questões 30, 31 e 32.**\n\n**A baby tiger was reported on the side of a California highway. The CHP found something very different.**\n\n```\n 1     The California Highway Patrol responded to a call this week of a possible baby tiger stranded on\n 2  the side of a highway in San Luis Obispo County. But what they actually discovered was less feline\n 3  and more feathery.\n 4     The supposed cub was spotted along a remote stretch of Highway 166, which connects the Central\n 5  Coast to the southern San Joaquin Valley, according to a CHP traffic log. A driver passing through\n 6  the area Thursday afternoon reported what appeared to be a baby tiger on the roadside.\n 7     A CHP officer sent to investigate the incident stumbled instead upon a dead hawk, not a tiger cub.\n 8  The California Department of Transportation, which is responsible for removing dead animals from\n 9  state highways, was notified about the deceased bird.\n10     It is unclear what caused the caller’s zoological mix-up.\n11     Owning exotic animals like tigers is prohibited under California law, as they pose a threat to pu-\n12  blic safety and native wildlife, according to the state Department of Fish and Wildlife. Permits are\n13  exclusive to zoos, shelters, research facilities or educational institutions.\n14     The Big Cat Public Safety Act — a federal law enacted in 2022 — prevents unlicensed people from\n15  possessing, breeding and transporting big cats.\n```\n\nReferência: adaptado de https://news.yahoo.com/news/baby-tiger-reported-side-california-191745943.html. Acesso em: 29/06/2025.\n\n**A partir da leitura do texto “A baby tiger was reported on the side of a California highway. The CHP found something very different”, considere as afirmações abaixo.**\n\nI – O incidente descrito pelo texto foi reportado à polícia por um motorista que transitava pela rodovia numa quinta-feira.\n\nII – De acordo com as leis da Califórnia, a posse de animais exóticos é regulada por questões de segurança pública.\n\nIII – O filhote de tigre foi resgatado da rodovia pelo Departamento de Transportes da Califórnia.\n\nIV – Dentre as possibilidades previstas em lei, uma universidade poderia ter um tigre para fins de pesquisa.\n\nV – Somente policiais autorizados podem ter tigres e leões para reprodução.\n\n**Estão corretas:**",
+      "options": [
+        {
+          "text": "I e IV, apenas.",
+          "explanation": "As duas são verdadeiras, mas a II também é: a posse de animais exóticos é proibida porque eles “pose a threat to public safety” (representam uma ameaça à segurança pública)."
+        },
+        {
+          "text": "I, III e IV, apenas.",
+          "explanation": "A III é falsa: não havia tigre. O policial encontrou “a dead hawk” (um falcão morto), e o Departamento de Transportes foi apenas avisado para remover a ave. Além disso, a II é verdadeira e ficou de fora."
+        },
+        {
+          "text": "II, III e V, apenas.",
+          "explanation": "Só a II é verdadeira. Não houve resgate de tigre (III), e a lei federal impede pessoas sem licença de possuir, reproduzir e transportar grandes felinos, sem mencionar policiais (V)."
+        },
+        {
+          "text": "I, II e IV, apenas.",
+          "explanation": "Correta. I: “A driver passing through the area Thursday afternoon reported...” (um motorista que passava pela região na quinta-feira à tarde relatou). II: a proibição se deve à ameaça à segurança pública. IV: as licenças são exclusivas de “zoos, shelters, research facilities or educational institutions”, o que inclui uma universidade. A III e a V contradizem o texto."
+        },
+        {
+          "text": "II e V, apenas.",
+          "explanation": "A II é verdadeira, mas a V não: o texto fala em “unlicensed people” (pessoas sem licença) e não diz nada sobre policiais. Faltam ainda a I e a IV, ambas corretas."
+        }
+      ],
+      "correct": "D"
+    },
+    {
+      "key": "pave-2025-e1-q31-es",
+      "source": "PAVE 2025 – Etapa 1, questão 31, espanhol (UFPel)",
+      "kind": "Objective",
+      "subject": "espanhol",
+      "statement": "**Leia o conto “La rana que quería ser una rana auténtica”, de Augusto Monterroso, para responder às questões 30, 31 e 32.**\n\nHabía una vez una rana que quería ser una rana auténtica, y todos los días se esforzaba en ello.\n\nAl principio se compró un espejo en el que se miraba largamente buscando su ansiada autenticidad.\n\nUnas veces parecía encontrarla y otras no, según el humor de ese día o de la hora, hasta que se cansó de esto y guardó el espejo en un baúl.\n\nPor fin pensó que la única forma de conocer su propio valor estaba en la opinión de la gente, y comenzó a peinarse y a vestirse y a desvestirse (cuando no le quedaba otro recurso) para saber si los demás la aprobaban y reconocían que era una rana auténtica.\n\nUn día observó que lo que más admiraban de ella era su cuerpo, especialmente sus piernas, de manera que se dedicó a hacer sentadillas y a saltar para tener unas ancas cada vez mejores, y sentía que todos la aplaudían.\n\nY así seguía haciendo esfuerzos hasta que, dispuesta a cualquier cosa para lograr que la consideraran una rana auténtica, se dejaba arrancar las ancas, y los otros se las comían, y ella todavía alcanzaba a oír con amargura cuando decían que qué buena rana, que parecía pollo.\n\nReferência: https://ciudadseva.com/texto/la-rana-que-queria-ser-una-rana-autentica/. Acesso em: 04/07/2025.\n\n**A palavra “lograr”, localizada no último parágrafo, poderia ser corretamente traduzida por qual palavra em português?**",
+      "options": [
+        {
+          "text": "Conseguir.",
+          "explanation": "Correta. Em espanhol, “lograr” significa conseguir, alcançar: “para lograr que la consideraran una rana auténtica” quer dizer “para conseguir que a considerassem uma rã autêntica”."
+        },
+        {
+          "text": "Desistir.",
+          "explanation": "É o sentido oposto: a rã está “dispuesta a cualquier cosa” (disposta a qualquer coisa) para atingir seu objetivo. Desistir, em espanhol, seria “desistir” ou “renunciar”."
+        },
+        {
+          "text": "Tentar.",
+          "explanation": "Tentar, em espanhol, é “intentar”. “Lograr” indica o resultado alcançado (conseguir), e não a tentativa."
+        },
+        {
+          "text": "Enganar.",
+          "explanation": "É um falso cognato. Em português, “lograr” pode significar enganar, mas em espanhol esse sentido é dado por “engañar”; “lograr” quer dizer conseguir."
+        },
+        {
+          "text": "Começar.",
+          "explanation": "Começar, em espanhol, é “empezar” ou “comenzar”, verbo que aparece no próprio conto (“comenzó a peinarse”)."
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "key": "pave-2025-e1-q31-en",
+      "source": "PAVE 2025 – Etapa 1, questão 31, inglês (UFPel)",
+      "kind": "Objective",
+      "subject": "ingles",
+      "statement": "**Leia o texto a seguir para responder às questões 30, 31 e 32.**\n\n**A baby tiger was reported on the side of a California highway. The CHP found something very different.**\n\n```\n 1     The California Highway Patrol responded to a call this week of a possible baby tiger stranded on\n 2  the side of a highway in San Luis Obispo County. But what they actually discovered was less feline\n 3  and more feathery.\n 4     The supposed cub was spotted along a remote stretch of Highway 166, which connects the Central\n 5  Coast to the southern San Joaquin Valley, according to a CHP traffic log. A driver passing through\n 6  the area Thursday afternoon reported what appeared to be a baby tiger on the roadside.\n 7     A CHP officer sent to investigate the incident stumbled instead upon a dead hawk, not a tiger cub.\n 8  The California Department of Transportation, which is responsible for removing dead animals from\n 9  state highways, was notified about the deceased bird.\n10     It is unclear what caused the caller’s zoological mix-up.\n11     Owning exotic animals like tigers is prohibited under California law, as they pose a threat to pu-\n12  blic safety and native wildlife, according to the state Department of Fish and Wildlife. Permits are\n13  exclusive to zoos, shelters, research facilities or educational institutions.\n14     The Big Cat Public Safety Act — a federal law enacted in 2022 — prevents unlicensed people from\n15  possessing, breeding and transporting big cats.\n```\n\nReferência: adaptado de https://news.yahoo.com/news/baby-tiger-reported-side-california-191745943.html. Acesso em: 29/06/2025.\n\n**Qual das alternativas abaixo traz um cognato falso, considerando os contextos frasal e textual?**",
+      "options": [
+        {
+          "text": "actually (l. 2).",
+          "explanation": "Correta. “Actually” parece “atualmente”, mas significa “na verdade”, “de fato”: “what they actually discovered” é “o que eles de fato descobriram”. Atualmente, em inglês, é “currently” ou “nowadays”."
+        },
+        {
+          "text": "responsible (l. 8).",
+          "explanation": "É um cognato verdadeiro: “responsible” significa “responsável”, exatamente o sentido da frase (o departamento responsável por remover animais mortos)."
+        },
+        {
+          "text": "unclear (l. 10).",
+          "explanation": "“Unclear” é formado por un- (negação) + clear, que corresponde a “claro”. “It is unclear” significa “não está claro”: a semelhança com o português não engana."
+        },
+        {
+          "text": "prohibited (l. 11).",
+          "explanation": "É um cognato verdadeiro: “prohibited” significa “proibido”, como em “is prohibited under California law” (é proibido pela lei da Califórnia)."
+        },
+        {
+          "text": "native (l. 12).",
+          "explanation": "É um cognato verdadeiro: “native wildlife” é a fauna nativa. Forma e sentido coincidem com o português."
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "key": "pave-2025-e1-q32-es",
+      "source": "PAVE 2025 – Etapa 1, questão 32, espanhol (UFPel)",
+      "kind": "Objective",
+      "subject": "espanhol",
+      "statement": "**Leia o conto “La rana que quería ser una rana auténtica”, de Augusto Monterroso, para responder às questões 30, 31 e 32.**\n\nHabía una vez una rana que quería ser una rana auténtica, y todos los días se esforzaba en ello.\n\nAl principio se compró un espejo en el que se miraba largamente buscando su ansiada autenticidad.\n\nUnas veces parecía encontrarla y otras no, según el humor de ese día o de la hora, hasta que se cansó de esto y guardó el espejo en un baúl.\n\nPor fin pensó que la única forma de conocer su propio valor estaba en la opinión de la gente, y comenzó a peinarse y a vestirse y a desvestirse (cuando no le quedaba otro recurso) para saber si los demás la aprobaban y reconocían que era una rana auténtica.\n\nUn día observó que lo que más admiraban de ella era su cuerpo, especialmente sus piernas, de manera que se dedicó a hacer sentadillas y a saltar para tener unas ancas cada vez mejores, y sentía que todos la aplaudían.\n\nY así seguía haciendo esfuerzos hasta que, dispuesta a cualquier cosa para lograr que la consideraran una rana auténtica, se dejaba arrancar las ancas, y los otros se las comían, y ella todavía alcanzaba a oír con amargura cuando decían que qué buena rana, que parecía pollo.\n\nReferência: https://ciudadseva.com/texto/la-rana-que-queria-ser-una-rana-autentica/. Acesso em: 04/07/2025.\n\n**Ao final do conto, o que acontece com a rã?**",
+      "options": [
+        {
+          "text": "Percebe que a sua opinião é mais importante do que a dos outros.",
+          "explanation": "A rã nunca chega a essa conclusão: até o fim ela depende da aprovação alheia, a ponto de deixar que lhe arranquem as ancas."
+        },
+        {
+          "text": "Satisfaz seu desejo de autenticidade por meio da aceitação de sua identidade.",
+          "explanation": "Ela não aceita a própria identidade nem fica satisfeita: ouve “con amargura” (com amargura) o comentário final dos que a comem."
+        },
+        {
+          "text": "Morre tentando se adequar a padrões que os outros impõem.",
+          "explanation": "Correta. Disposta a tudo para ser aprovada, a rã “se dejaba arrancar las ancas, y los otros se las comían” (deixava que lhe arrancassem as ancas, e os outros as comiam). Ela se destrói para agradar e nem assim é reconhecida: dizem que “parecía pollo” (parecia frango)."
+        },
+        {
+          "text": "Consegue ser reconhecida como a rã mais admirada.",
+          "explanation": "O elogio final é irônico: “qué buena rana, que parecía pollo” (que rã boa, parecia frango). Ela é apreciada como comida, não reconhecida como rã autêntica."
+        },
+        {
+          "text": "Encontra outras rãs iguais a ela.",
+          "explanation": "O conto não apresenta outras rãs. “Los otros” são aqueles cuja opinião ela busca e que, no fim, comem suas ancas."
+        }
+      ],
+      "correct": "C"
+    },
+    {
+      "key": "pave-2025-e1-q32-en",
+      "source": "PAVE 2025 – Etapa 1, questão 32, inglês (UFPel)",
+      "kind": "Objective",
+      "subject": "ingles",
+      "statement": "**Leia o texto a seguir para responder às questões 30, 31 e 32.**\n\n**A baby tiger was reported on the side of a California highway. The CHP found something very different.**\n\n```\n 1     The California Highway Patrol responded to a call this week of a possible baby tiger stranded on\n 2  the side of a highway in San Luis Obispo County. But what they actually discovered was less feline\n 3  and more feathery.\n 4     The supposed cub was spotted along a remote stretch of Highway 166, which connects the Central\n 5  Coast to the southern San Joaquin Valley, according to a CHP traffic log. A driver passing through\n 6  the area Thursday afternoon reported what appeared to be a baby tiger on the roadside.\n 7     A CHP officer sent to investigate the incident stumbled instead upon a dead hawk, not a tiger cub.\n 8  The California Department of Transportation, which is responsible for removing dead animals from\n 9  state highways, was notified about the deceased bird.\n10     It is unclear what caused the caller’s zoological mix-up.\n11     Owning exotic animals like tigers is prohibited under California law, as they pose a threat to pu-\n12  blic safety and native wildlife, according to the state Department of Fish and Wildlife. Permits are\n13  exclusive to zoos, shelters, research facilities or educational institutions.\n14     The Big Cat Public Safety Act — a federal law enacted in 2022 — prevents unlicensed people from\n15  possessing, breeding and transporting big cats.\n```\n\nReferência: adaptado de https://news.yahoo.com/news/baby-tiger-reported-side-california-191745943.html. Acesso em: 29/06/2025.\n\n**Em “Owning exotic animals like tigers is prohibited under California law, as they pose a threat to public safety and native wildlife, according to the state Department of Fish and Wildlife” (l. 11-12), qual das palavras abaixo poderia substituir a palavra “as” sem mudança no sentido global do período?**",
+      "options": [
+        {
+          "text": "Under.",
+          "explanation": "“Under” é uma preposição (“sob”, “de acordo com”), já usada na frase em “under California law”. Não introduz uma oração que explique a causa."
+        },
+        {
+          "text": "Meanwhile.",
+          "explanation": "“Meanwhile” significa “enquanto isso” e indica tempo. Na frase, “as” não expressa simultaneidade, mas o motivo da proibição."
+        },
+        {
+          "text": "Because.",
+          "explanation": "Correta. Aqui “as” tem valor causal: a posse é proibida porque esses animais representam uma ameaça à segurança pública e à fauna nativa. “Because” (porque) expressa a mesma relação de causa."
+        },
+        {
+          "text": "Whose.",
+          "explanation": "“Whose” é pronome relativo de posse (“cujo”, “cuja”). Não serve para introduzir a causa da proibição."
+        },
+        {
+          "text": "That.",
+          "explanation": "“That” (que) introduz orações relativas ou substantivas. Usado no lugar de “as”, eliminaria a ideia de causa e deixaria a frase sem sentido."
+        }
+      ],
+      "correct": "C"
+    }
+  ]
+}

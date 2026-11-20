@@ -8,13 +8,14 @@ O código é aberto (MIT) e o conteúdo cresce com quem usa: professores propõe
 
 ## Uma plataforma, várias provas
 
-Cada prova é uma **trilha**. Ao entrar, o estudante escolhe a dele, e a marca passa a mostrar onde ele está: "Rumo ENEM", "Rumo ENADE ADS", "Rumo ENADE Redes". Dá para trocar de trilha a qualquer momento, e cada uma tem roadmap, questões, desafios, simulados e datas próprios.
+Cada prova é uma **trilha**. Ao entrar, o estudante escolhe a dele, e a marca passa a mostrar onde ele está: "Rumo ENEM", "Rumo ENADE ADS", "Rumo PAVE 1". Dá para trocar de trilha a qualquer momento, e cada uma tem roadmap, questões, desafios, simulados e datas próprios.
 
 | Trilha | Para quem | Situação |
 |---|---|---|
 | **ENEM 2026** | Quem está terminando o ensino médio. Provas em 08/11 e 15/11/2026 | No ar: roadmap pela Matriz de Referência (4 áreas e redação), questões de autoria própria e simulado no ritmo do ENEM |
 | **ENADE 2026 · ADS** | Estudantes de Tecnologia em Análise e Desenvolvimento de Sistemas. Prova em 29/11/2026 | No ar: roadmap pela Portaria Inep nº 169/2026, provas reais de 2017 e 2021 e simulado no formato do ENADE |
 | **ENADE 2026 · Redes de Computadores** | Estudantes de Tecnologia em Redes de Computadores. Prova em 29/11/2026 | No ar: roadmap pela Portaria Inep nº 172/2026, provas reais de 2017 e 2021 e simulado no formato do ENADE |
+| **PAVE 2026 · Etapas 1, 2 e 3** (UFPel) | Estudantes do 1º, 2º e 3º ano do ensino médio que fazem a avaliação seriada da UFPel. Etapa 1 em 05/12/2026; Etapas 2 e 3 em 06/12/2026 | No ar, uma trilha por etapa: roadmap pela Matriz de Referência PAVE 2026, provas reais de 2024 e 2025 e simulado com a regra do PAVE ("Ignoro a resposta" e desconto por erro) |
 | **Seletivos de IFs** (como o IFSul) | Quem vai entrar no ensino médio técnico | Próxima trilha |
 
 ## O que tem em cada trilha
@@ -55,6 +56,12 @@ O Rumo coleta o mínimo: nome, e-mail e a faixa de idade, sem data de nascimento
   - **Licença:** o portal do Inep publica sob [CC BY-ND 3.0](https://creativecommons.org/licenses/by-nd/3.0/deed.pt_BR). Por isso enunciados e alternativas são transcritos sem alteração, e cada questão cita a prova, o ano e o número.
   - **Anuladas:** a questão 15 de ADS 2017 e a 21 de Redes 2017 foram anuladas pelo Inep e não entram.
 - **ENEM:** as questões de `EnadeAds/Data/Seed/enem/` são de autoria própria. As provas oficiais do ENEM vão entrar numa próxima versão.
+- **PAVE (UFPel):** as provas de 2024 e 2025 das três etapas estão em `EnadeAds/Data/Seed/pave/*.json`, um arquivo por prova, e as figuras em `EnadeAds/wwwroot/img/pave/`.
+  - **Fonte:** as provas e os gabaritos definitivos de [wp.ufpel.edu.br/pave/provas-anteriores](https://wp.ufpel.edu.br/pave/provas-anteriores/). Enunciados e alternativas são transcritos sem alteração, e cada questão cita a prova, a etapa e o número.
+  - **Direitos:** a UFPel não publica uma licença de reutilização para as provas. Elas continuam sendo da universidade e dos autores dos textos e imagens citados, e estão aqui para estudo, com a fonte indicada.
+  - **Língua estrangeira:** as questões 30 a 32 entram nas duas versões, espanhol e inglês, cada uma na sua matéria.
+  - **"Ignoro a resposta":** a alternativa "f" da prova não é guardada na questão. Ela é uma opção do simulado.
+  - **Anuladas:** não entram a questão 32 da Etapa 1, a 5 da Etapa 2 e a 21 da Etapa 3 de 2024, nem a 19 da Etapa 1 e a 19 e a 32 da Etapa 2 de 2025.
 - **Comentários e padrões de resposta** são da plataforma e ficam sob [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.pt_BR).
 
 As questões entram quando a aplicação sobe. Só são importadas as que ainda não existem, então as correções feitas pelos professores na tela não são sobrescritas.
@@ -109,4 +116,4 @@ Questões, correções e trilhas novas são bem-vindas. Veja [CONTRIBUTING.md](C
 
 ## Licença
 
-O código está sob a [MIT](LICENSE). O conteúdo próprio da plataforma está sob a CC BY-SA 4.0, e as provas do Inep, sob a CC BY-ND 3.0.
+O código está sob a [MIT](LICENSE). O conteúdo próprio da plataforma está sob a CC BY-SA 4.0, e as provas do Inep, sob a CC BY-ND 3.0. As provas do PAVE são da UFPel, que não publica licença para elas (veja *De onde vêm as questões*).

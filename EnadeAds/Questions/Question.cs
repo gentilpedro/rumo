@@ -11,7 +11,10 @@ public enum QuestionKind
     Discursive = 1,
 }
 
-/// <summary>Questão objetiva (cinco alternativas, como no ENADE e no ENEM) ou discursiva (padrão de resposta). A trilha é a da matéria.</summary>
+/// <summary>
+/// Questão objetiva (cinco alternativas, como no ENADE e no ENEM) ou discursiva (padrão de resposta). A trilha é a da matéria.
+/// No PAVE, a sexta alternativa ("Ignoro a resposta") não é guardada: é uma opção do simulado.
+/// </summary>
 public class Question
 {
     public int Id { get; set; }

@@ -1,0 +1,1056 @@
+{
+  "year": 2025,
+  "track": "pave-3",
+  "questions": [
+    {
+      "key": "pave-2025-e3-q01",
+      "source": "PAVE 2025 – Etapa 3, questão 1 (UFPel)",
+      "kind": "Objective",
+      "subject": "biologia",
+      "statement": "Considere as fases do desenvolvimento embrionário humano:\n\nI – Fase em que ocorrem as clivagens dando origem aos blastômeros.\n\nII – Fase de formação dos folhetos embrionários.\n\nIII – Fase de formação do tubo neural.\n\n**Quais os processos que ocorrem nas fases I, II e III, respectivamente?**",
+      "options": [
+        {
+          "text": "Gastrulação, segmentação e organogênese.",
+          "explanation": "As duas primeiras fases estão trocadas: as clivagens que originam os blastômeros são a segmentação (fase I), e a formação dos folhetos embrionários é a gastrulação (fase II)."
+        },
+        {
+          "text": "Gastrulação, organogênese e segmentação.",
+          "explanation": "A ordem está embaralhada: a segmentação (clivagens) vem primeiro, a gastrulação forma os folhetos e só depois, na organogênese, surge o tubo neural."
+        },
+        {
+          "text": "Mitose, meiose e segmentação.",
+          "explanation": "A meiose ocorre na formação dos gametas, não no desenvolvimento do embrião, e a segmentação é a fase das clivagens (I), não a de formação do tubo neural."
+        },
+        {
+          "text": "Divisões celulares, blastômeros e segmentação.",
+          "explanation": "Blastômeros são as células resultantes das clivagens, não um processo, e a segmentação corresponde à fase I, não à formação do tubo neural."
+        },
+        {
+          "text": "Segmentação, gastrulação e organogênese.",
+          "explanation": "Correta. Na segmentação o zigoto sofre clivagens (mitoses sucessivas) e forma os blastômeros; na gastrulação surgem os folhetos embrionários (ectoderme, mesoderme e endoderme); na organogênese esses folhetos originam os órgãos, a começar pelo tubo neural (neurulação)."
+        }
+      ],
+      "correct": "E"
+    },
+    {
+      "key": "pave-2025-e3-q02",
+      "source": "PAVE 2025 – Etapa 3, questão 2 (UFPel)",
+      "kind": "Objective",
+      "subject": "biologia",
+      "statement": "Um zoológico brasileiro abriga alguns exemplares de uma espécie de ave rara, de penas exuberantes. Alguns desses animais são de cor amarelo-fogo, que é dominante em relação à cor rosa, que só se expressa em homozigose recessiva.\n\nBiólogos do zoológico promoveram o cruzamento de um indivíduo amarelo-fogo heterozigoto com um indivíduo de cor rosa. Desse cruzamento, resultaram 40 filhotes de aves.\n\n**Com base na Lei de Mendel quantos filhotes são esperados, provavelmente, na cor amarelo-fogo?**",
+      "options": [
+        {
+          "text": "30",
+          "explanation": "30 seria 3/4 da prole, proporção de fenótipo dominante esperada no cruzamento entre dois heterozigotos (Aa × Aa); aqui um dos pais é rosa (aa)."
+        },
+        {
+          "text": "40",
+          "explanation": "Todos os filhotes só seriam amarelo-fogo se o genitor amarelo fosse homozigoto dominante (AA); sendo heterozigoto (Aa), metade dos gametas dele leva o alelo recessivo."
+        },
+        {
+          "text": "80",
+          "explanation": "O número esperado de filhotes amarelo-fogo não pode ser maior que o total de filhotes nascidos, que é 40."
+        },
+        {
+          "text": "10",
+          "explanation": "10 seria 1/4 da prole, proporção de recessivos esperada em Aa × Aa; no cruzamento Aa × aa a proporção é de 1/2 para cada cor."
+        },
+        {
+          "text": "20",
+          "explanation": "Correta. O cruzamento é Aa × aa: o heterozigoto produz gametas A e a em partes iguais e o rosa só produz a, de modo que a prole esperada é 1/2 Aa (amarelo-fogo) e 1/2 aa (rosa). 1/2 × 40 = 20 filhotes amarelo-fogo."
+        }
+      ],
+      "correct": "E"
+    },
+    {
+      "key": "pave-2025-e3-q03",
+      "source": "PAVE 2025 – Etapa 3, questão 3 (UFPel)",
+      "kind": "Objective",
+      "subject": "biologia",
+      "statement": "Charles Darwin, considerado o pai da “Teoria da Evolução das Espécies”, publicou seu livro A Origem das Espécies em 1859. Em sua obra, ele descreve diversas formas de vida que habitam o planeta e que resultam de processos evolutivos.\n\n**Leia as seguintes afirmações relativas à teoria de Darwin.**\n\nI – Era baseada na seleção natural.\n\nII – As espécies evoluem e descendem com modificações.\n\nIII – Os indivíduos têm um ancestral comum.\n\nIV – A seleção natural dos indivíduos se faz ao acaso.\n\n**Estão corretas:**",
+      "options": [
+        {
+          "text": "II e III, apenas.",
+          "explanation": "II e III são verdadeiras, mas falta a I: a seleção natural é justamente o mecanismo central proposto por Darwin para explicar a evolução."
+        },
+        {
+          "text": "I e II, apenas.",
+          "explanation": "I e II são verdadeiras, mas a III também é: a ancestralidade comum (os seres vivos descendem de ancestrais comuns) é um dos pilares da teoria de Darwin."
+        },
+        {
+          "text": "I e IV, apenas.",
+          "explanation": "A IV é falsa: a seleção natural não ocorre ao acaso, pois favorece os indivíduos com características mais vantajosas naquele ambiente. Além disso, II e III ficaram de fora."
+        },
+        {
+          "text": "I, II e III, apenas.",
+          "explanation": "Correta. Darwin propôs que as espécies descendem, com modificações, de ancestrais comuns e que a seleção natural é o mecanismo dessa mudança. A IV é falsa: o que surge ao acaso é a variação entre os indivíduos; a seleção atua de forma direcionada, preservando os mais adaptados ao ambiente."
+        },
+        {
+          "text": "I, II, III e IV.",
+          "explanation": "A IV não pode entrar: a seleção natural não é aleatória; sobrevivem e se reproduzem mais os indivíduos cujas características os tornam mais adaptados ao ambiente."
+        }
+      ],
+      "correct": "D"
+    },
+    {
+      "key": "pave-2025-e3-q04",
+      "source": "PAVE 2025 – Etapa 3, questão 4 (UFPel)",
+      "kind": "Objective",
+      "subject": "fisica",
+      "statement": "Os números da eletricidade são pouco comuns no cotidiano. Por exemplo, manter em repouso no espaço duas cargas à primeira vista pequenas, de igual sinal, de módulo 0,1C (0,1 coulomb) a uma distância de dois metros uma da outra, exige forças externas de grande intensidade na escala humana. Considere k = 9·10⁹Nm²/C² (k igual a 9 vezes 10 elevado à nona newton vezes metro ao quadrado sobre coulomb ao quadrado) para a constante eletrostática de Coulomb no espaço vazio.\n\nReferência: LUZ, Antônio Máximo Ribeiro da; ÁLVARES, Beatriz Alvarenga. **Física, contexto e aplicações**, vol. 3. São Paulo: Scipione, 2014.\n\nTomando g = 10m/s² (g igual a 10 metros por segundo ao quadrado), como valor aproximado da aceleração da gravidade nas proximidades da superfície da Terra, **assinale a alternativa correta para a estimativa da massa cujo peso corresponde em módulo à magnitude da força de repulsão entre as cargas no texto.**",
+      "options": [
+        {
+          "text": "Cerca de 9 bilhões de kg.",
+          "explanation": "9 bilhões (9·10⁹) é o valor numérico da constante k, não o resultado: ainda é preciso multiplicar pelas cargas (0,1 × 0,1), dividir pelo quadrado da distância (4) e, por fim, dividir por g."
+        },
+        {
+          "text": "Cerca de 2250 kg.",
+          "explanation": "Os algarismos estão certos, mas a ordem de grandeza não: a força é de 2,25·10⁷ N, o que dá 2,25·10⁶ kg, ou seja, 2250 toneladas. 2250 kg é um valor mil vezes menor."
+        },
+        {
+          "text": "Cerca de 2250 toneladas.",
+          "explanation": "Correta. Pela lei de Coulomb, F = k·q₁·q₂/d² = 9·10⁹ × 0,1 × 0,1 / 2² = 2,25·10⁷ N. Igualando ao peso, m = F/g = 2,25·10⁷ / 10 = 2,25·10⁶ kg = 2250 toneladas."
+        },
+        {
+          "text": "Cerca de 9000 toneladas.",
+          "explanation": "É o valor obtido quando se esquece de dividir pelo quadrado da distância: 9·10⁹ × 0,01 = 9·10⁷ N, isto é, 9·10⁶ kg. Com d² = 4 m², a força é quatro vezes menor."
+        },
+        {
+          "text": "Cerca de 4000 kg.",
+          "explanation": "A conta com os dados do enunciado dá F = 2,25·10⁷ N e m = F/g = 2,25·10⁶ kg, valor centenas de vezes maior que 4000 kg."
+        }
+      ],
+      "correct": "C"
+    },
+    {
+      "key": "pave-2025-e3-q05",
+      "source": "PAVE 2025 – Etapa 3, questão 5 (UFPel)",
+      "kind": "Objective",
+      "subject": "fisica",
+      "statement": "Uma corrente contínua de 1A (um ampère) é geralmente bastante elevada na prática de circuitos eletrônicos embora isso não ocorra em algumas situações como em correntes alternadas. Na cidade de Pelotas, em que a rede elétrica alternada nas residências, para todas as finalidades, tem amplitude de tensão de 220V (220 volts) é comum o uso de chuveiros elétricos de potência máxima 6,8kW (6,8 kilowatt) dado o rigor do inverno no sul do país. A potência, para uma dada tensão alternada, é proporcional à corrente e esperamos uma corrente alternada de amplitude máxima de cerca de 20A num chuveiro de potência 4500W (4 mil e 500 watts) à uma tensão alternada de 220V de amplitude.\n\nReferência: LUZ, Antônio Máximo Ribeiro da; ÁLVARES, Beatriz Alvarenga. **Física, contexto e aplicações**, vol. 3. São Paulo: Scipione, 2014.\n\n**Qual a estimativa da corrente máxima em ampères, nas condições de uso descritas no texto, para o chuveiro de 6,8kW?**",
+      "options": [
+        {
+          "text": "Cerca de 45A.",
+          "explanation": "Superestima a corrente: pela proporção do texto (20 A para 4500 W), 45 A corresponderiam a cerca de 10 000 W, bem acima dos 6,8 kW do chuveiro."
+        },
+        {
+          "text": "Cerca de 0,03A.",
+          "explanation": "É o resultado da divisão invertida, 220/6800 ≈ 0,03. A corrente é a potência dividida pela tensão (i = P/V), não o contrário."
+        },
+        {
+          "text": "Cerca de 25A.",
+          "explanation": "Subestima a corrente: pela proporcionalidade do texto, 25 A corresponderiam a 4500 × 25/20 ≈ 5600 W, menos que os 6800 W do chuveiro."
+        },
+        {
+          "text": "Cerca de 30A.",
+          "explanation": "Correta. Com a tensão fixa, a potência é proporcional à corrente: i = 20 A × 6800/4500 ≈ 30 A. A conta direta confirma: i = P/V = 6800/220 ≈ 31 A."
+        },
+        {
+          "text": "Cerca de 6,8A.",
+          "explanation": "Apenas repete o número da potência em quilowatts. A corrente vem de i = P/V = 6800 W / 220 V, cerca de 30 A."
+        }
+      ],
+      "correct": "D"
+    },
+    {
+      "key": "pave-2025-e3-q06",
+      "source": "PAVE 2025 – Etapa 3, questão 6 (UFPel)",
+      "kind": "Objective",
+      "subject": "fisica",
+      "statement": "Exames de imagem por ressonância magnética nuclear são hoje relativamente frequentes, podendo inclusive ser solicitados por pacientes do SUS no Brasil mesmo em cidades de porte médio como Pelotas. Um campo magnético de módulo B = 1,5T (1,5 tesla) é comum em aparelhos de exame clínico de ressonância magnética nuclear (RMN). Considere que o máximo módulo do campo magnético da Terra, em sua superfície, é cerca de 0,65 · 10⁻⁴T (0,65 vezes 10 elevado a menos 4 tesla).\n\nReferência: LUZ, Antônio Máximo Ribeiro da; ÁLVARES, Beatriz Alvarenga. **Física, contexto e aplicações**, vol. 3. São Paulo: Scipione, 2014.\n\n**Quantas vezes o campo magnético no aparelho RMN é maior ou menor, em módulo, do que o da Terra?**",
+      "options": [
+        {
+          "text": "O campo no aparelho é cerca de 23 mil vezes maior.",
+          "explanation": "Correta. A razão entre os módulos é 1,5 / (0,65·10⁻⁴) = (1,5/0,65)·10⁴ ≈ 2,3·10⁴, ou seja, o campo do aparelho é cerca de 23 mil vezes maior que o da Terra."
+        },
+        {
+          "text": "O campo da Terra é cerca de 15 mil vezes maior.",
+          "explanation": "O sentido está invertido: o campo da Terra (0,65·10⁻⁴ T) é muito mais fraco que o do aparelho (1,5 T). Além disso, a razão correta é cerca de 23 mil, não 15 mil."
+        },
+        {
+          "text": "O campo no aparelho é cerca de 65 mil vezes menor.",
+          "explanation": "O campo do aparelho é maior, não menor, e 65 só reaproveita os algarismos de 0,65·10⁻⁴; a razão é 1,5/(0,65·10⁻⁴) ≈ 23 mil."
+        },
+        {
+          "text": "O campo no aparelho é cerca de 2,3 mil vezes menor.",
+          "explanation": "Erra o sentido (o campo do aparelho é o maior) e a ordem de grandeza: 1,5/(0,65·10⁻⁴) ≈ 2,3·10⁴ = 23 mil, não 2,3 mil."
+        },
+        {
+          "text": "O campo no aparelho é cerca de 15 mil vezes maior.",
+          "explanation": "É o resultado de dividir 1,5 por 10⁻⁴, esquecendo o fator 0,65: 1,5/10⁻⁴ = 15 000. Dividindo também por 0,65, chega-se a cerca de 23 mil."
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "key": "pave-2025-e3-q07",
+      "source": "PAVE 2025 – Etapa 3, questão 7 (UFPel)",
+      "kind": "Objective",
+      "subject": "quimica",
+      "statement": "O escitalopram é um antidepressivo amplamente utilizado no tratamento de transtornos de ansiedade e depressão. Seu funcionamento está relacionado ao aumento da disponibilidade de serotonina no sistema nervoso central. A estrutura química da molécula é essencial para sua interação com receptores específicos no cérebro.\n\nReferência: adaptado de https://www.gov.br/saude/pt-br/composicao/conjur/demandas-judiciais/notas-tecnicas/notas-tecnicas-medicamentos/notas-tecnicas/e/escitalopram-atualizada-em-18-10-2013.pdf. Acesso em: 15/06/2025.\n\nAbaixo está a estrutura do escitalopram.\n\n![Fórmula estrutural em linhas do escitalopram: um anel benzênico fundido a um anel de cinco membros que contém um átomo de oxigênio ligado a dois carbonos (C–O–C); no anel benzênico há um grupo nitrila (N≡C–); o carbono do anel de cinco membros vizinho ao oxigênio está ligado a um segundo anel benzênico, que tem um átomo de flúor (F) na posição oposta, e a uma cadeia de três carbonos que termina em um nitrogênio ligado a dois grupos metila (–CH₂–CH₂–CH₂–N(CH₃)₂).](img/pave/2025/etapa-3/q07-1.png)\n\nFigura: Apresentação da estrutura química do escitalopram\n\nFonte: https://pt.wikipedia.org/wiki/Ficheiro:Escitalopram_structure.svg. Acesso em: 22/08/2025.\n\nCom base na análise da estrutura do escitalopram, é possível identificar diferentes grupos funcionais orgânicos que determinam suas propriedades químicas e biológicas. **A identificação correta de dois desses grupos é:**",
+      "options": [
+        {
+          "text": "Éter e amina terciária.",
+          "explanation": "Correta. O oxigênio do anel de cinco membros está ligado a dois carbonos (C–O–C), o que caracteriza um éter; o nitrogênio da cadeia lateral está ligado a três carbonos (duas metilas e a cadeia), sem hidrogênio, o que caracteriza uma amina terciária."
+        },
+        {
+          "text": "Álcool e cetona.",
+          "explanation": "A molécula não tem hidroxila (–OH) ligada a carbono saturado nem carbonila (C=O): o único oxigênio está entre dois carbonos, formando um éter."
+        },
+        {
+          "text": "Éster e amina primária.",
+          "explanation": "Éster exigiria o grupo –COO– (carbonila ligada a oxigênio), que não existe na estrutura, e a amina primária teria –NH₂; o nitrogênio do escitalopram está ligado a três carbonos."
+        },
+        {
+          "text": "Fenol e ácido carboxílico.",
+          "explanation": "Fenol exigiria –OH ligado diretamente a um anel aromático e ácido carboxílico exigiria –COOH; os anéis aromáticos da molécula têm como substituintes flúor e nitrila, e não há carboxila."
+        },
+        {
+          "text": "Éter e amida.",
+          "explanation": "O éter está presente, mas não há amida: nesse grupo o nitrogênio fica ligado a uma carbonila (–CO–N–), e a molécula não tem C=O. O nitrogênio da cadeia é de uma amina."
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "key": "pave-2025-e3-q08",
+      "source": "PAVE 2025 – Etapa 3, questão 8 (UFPel)",
+      "kind": "Objective",
+      "subject": "quimica",
+      "statement": "O DDT (diclorodifenil tricloroetano) é um pesticida organoclorado que teve grande uso na agricultura e no controle de doenças, mas foi banido em muitos países devido à sua persistência no meio ambiente e potenciais riscos à saúde humana e animal. Atualmente, seu uso é restrito em alguns países, principalmente para o controle de vetores da malária, seguindo recomendações da Organização Mundial da Saúde (OMS).\n\nO termo DDT refere-se ao produto 1,1’-(2,2,2-tricloroetilideno) bis[4-clorobenzeno]), ou 1,1,1-tricloro-2,2-bis-(p-clorofenil) etano. O termo também é aplicado a produtos comerciais constituídos principalmente pelo isômero p,p’- DDT, com proporções menores de outros análogos. Todos os isômeros são substâncias sólidas, brancas, inodoras e insípidas, com a fórmula empírica C₁₄H₉Cl₅.\n\nReferências adaptadas de:\n\nOMS – ORGANIZAÇÃO MUNDIAL DA SAÚDE. OMS volta a recomendar DDT no combate à malária. Estadão, 04 mar. 2012. Disponível em: https://www.estadao.com.br/brasil/oms-volta-a-recomendar-ddt-no-combate-a-malaria/. Acesso em: 08/06/2025.\n\nDDT (dicloro difenil tricloroetano): toxicidade e contaminação ambiental - uma revisão. Disponível em: https://www.scielo.br/j/qn/a/BzwjyybkzCgvjX6tpykf9gf/?lang=pt. Acesso em: 08/06/2025.\n\nA Fórmula estrutural do DDT encontra-se abaixo.\n\n![Fórmula estrutural em linhas do DDT: um carbono central (CH) ligado a um grupo –CCl₃ (carbono com três átomos de cloro) e a dois anéis benzênicos iguais, cada um com um átomo de cloro na posição para (oposta à ligação com o carbono central).](img/pave/2025/etapa-3/q08-1.png)\n\nFigura: Apresentação da estrutura química do pesticida DDT (diclorodifenil tricloroetano)\n\nFonte: https://www.preparaenem.com/quimica/o-inseticida-ddt.htm. Acesso em: 08/06/2025.\n\n**Considerando o uso, a estrutura do DDT e os tipos de isomeria existentes em compostos orgânicos, analise as afirmativas a seguir.**\n\nI – Todos os isômeros do DDT têm as propriedades de serem substâncias sólidas, brancas, inodoras e insípidas, com a mesma fórmula empírica, e isso se explica porque quando uma substância qualquer tem isômeros todos eles terão as mesmas propriedades.\n\nII – O DDT não apresenta isomeria geométrica (cis-trans), pois não possui ligação dupla entre carbonos com substituintes diferentes.\n\nIII – O DDT não apresenta isomeria óptica, pois não possui carbono quiral em sua estrutura.\n\n**Está(ão) correta(s):**",
+      "options": [
+        {
+          "text": "I e II, apenas.",
+          "explanation": "A I é falsa: isômeros têm a mesma fórmula molecular, mas são substâncias diferentes, em geral com propriedades físicas e químicas diferentes. A semelhança entre os isômeros do DDT não vale como regra. A III, verdadeira, ficou de fora."
+        },
+        {
+          "text": "II e III, apenas.",
+          "explanation": "Correta. Os dois carbonos do etano estão unidos por ligação simples e as duplas da molécula estão nos anéis aromáticos, de modo que não há isomeria cis-trans (II). O carbono central liga-se a H, a –CCl₃ e a dois grupos p-clorofenil iguais, portanto não tem quatro ligantes diferentes e não é quiral (III). A I é falsa porque isômeros, em geral, têm propriedades diferentes."
+        },
+        {
+          "text": "I e III, apenas.",
+          "explanation": "A III é verdadeira, mas a I não: ter isômeros não garante propriedades iguais, pois isômeros são compostos distintos. A II, também verdadeira, ficou de fora."
+        },
+        {
+          "text": "I, II e III.",
+          "explanation": "II e III estão certas, mas a I generaliza de forma errada: isômeros compartilham a fórmula molecular, não as propriedades."
+        },
+        {
+          "text": "III, apenas.",
+          "explanation": "A III é verdadeira, mas a II também: sem ligação dupla entre carbonos fora dos anéis aromáticos (e sem ciclo saturado com substituintes), o DDT não tem isomeria geométrica."
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "key": "pave-2025-e3-q09",
+      "source": "PAVE 2025 – Etapa 3, questão 9 (UFPel)",
+      "kind": "Objective",
+      "subject": "quimica",
+      "statement": "Diversos produtos de maquiagem, especialmente os batons do tipo matte de longa duração, empregam em suas formulações polímeros sintéticos derivados de acrilatos, cuja principal função é formar uma película fina, contínua e resistente sobre os lábios. Um exemplo amplamente utilizado é o **polimetilmetacrilato (PMMA)**, um polímero obtido por polimerização do monômero **metilmetacrilato (MMA)**, cuja fórmula estrutural é **CH₂ = C(CH₃)COOCH₃**. Nos batons matte, o PMMA contribui significativamente para o toque aveludado, a durabilidade da cor e a adesão eficiente do pigmento aos lábios, reduzindo o aspecto oleoso comum em formulações convencionais. Além disso, sua estrutura orgânica apolar facilita a dispersão em solventes orgânicos voláteis presentes nas formulações, promovendo uma secagem rápida e a formação de uma camada protetora sem brilho, característica dos acabamentos matte. O uso de PMMA também é regulado por órgãos como a ANVISA e a FDA, que reconhecem sua segurança para uso tópico em produtos cosméticos.\n\nReferências:\n\nAdaptado de Compendium of Chemical Terminology – The Gold Book. Disponível em: https://goldbook.iupac.org. Acesso em: 20/06/2025.\n\nKIRK-OTHMER. **Encyclopedia of Chemical Technology.** 5. ed. New York: Wiley-Interscience, 2005. v. 1.\n\n**Assinale a afirmativa correta sobre esse monômero.**",
+      "options": [
+        {
+          "text": "É uma cetona com alta solubilidade em bases fortes.",
+          "explanation": "Na cetona a carbonila fica entre dois carbonos; no MMA a carbonila está ligada a um oxigênio (–COO–), o que caracteriza um éster."
+        },
+        {
+          "text": "Possui três carbonos quirais e alta atividade óptica.",
+          "explanation": "Carbono quiral precisa de quatro ligantes diferentes. No MMA os carbonos são de dupla ligação (C=C e C=O) ou metilas (CH₃), então nenhum é quiral e a molécula não tem atividade óptica."
+        },
+        {
+          "text": "Contém apenas ligações simples, sendo um alcano.",
+          "explanation": "A fórmula mostra duas ligações duplas (C=C e C=O) e átomos de oxigênio; alcanos são hidrocarbonetos, só com C e H e apenas ligações simples."
+        },
+        {
+          "text": "É um éster derivado de um ácido carboxílico e um álcool.",
+          "explanation": "Correta. O grupo –COO– ligado a carbono dos dois lados (–COOCH₃) é a função éster. O metilmetacrilato é o éster formado pelo ácido metacrílico, CH₂=C(CH₃)COOH, com o metanol, CH₃OH (esterificação)."
+        },
+        {
+          "text": "Apresenta função amina secundária, típica de compostos nitrogenados.",
+          "explanation": "A fórmula CH₂=C(CH₃)COOCH₃ só tem carbono, hidrogênio e oxigênio; sem nitrogênio não pode haver amina."
+        }
+      ],
+      "correct": "D"
+    },
+    {
+      "key": "pave-2025-e3-q10",
+      "source": "PAVE 2025 – Etapa 3, questão 10 (UFPel)",
+      "kind": "Objective",
+      "subject": "historia",
+      "statement": "**Observe a charge a seguir.**\n\n![Charge de Iotti com duas pessoas segurando cartazes. À esquerda, um homem de cara fechada ergue o cartaz “Pela volta dos militares! Ditadura já!”. À direita, uma mulher olha para ele com reprovação e ergue o cartaz “Por mais aulas de História para essa gente!”.](img/pave/2025/etapa-3/q10-1.png)\n\nFonte: Charge de Iotti. Disponível em: https://descomplica.com.br/blog/lista-governos-geisel-figueiredo-ditadura/. Acesso em: 08/04/2022.\n\nDe 1964 a 1985, as Forças Armadas tiveram o controle político do Brasil. **Considere as afirmações sobre o período conhecido como Ditadura Militar.**\n\nI – O Bipartidarismo foi a organização partidária imposta pela ditadura, onde haveria apenas dois partidos, um representando o governo (ARENA) e outro, a oposição consentida (MDB).\n\nII – Durante os governos militares as eleições presidenciais eram feitas de maneira indireta, mas para Governadores, Senadores, Deputados, Prefeitos e Vereadores o sufrágio era direto.\n\nIII – A Lei Falcão limitava a propaganda eleitoral, no rádio e na televisão, à apresentação protocolar de um breve resumo das atividades políticas do candidato e, com isso, impedia o debate político.\n\nIV – O discurso do deputado Márcio Moreira Alves (MDB) com críticas aos militares e propondo à população boicotar a parada militar de 7 de setembro serviu de pretexto para a instituição do Ato Institucional nº 5 (AI 5).\n\nV – Para enfrentar o problema do analfabetismo no Brasil, o governo militar criou o Movimento Brasileiro de Alfabetização (Mobral) que contava com o educador Paulo Freire como principal gestor.\n\n**Estão corretas?**",
+      "options": [
+        {
+          "text": "IV e V, apenas.",
+          "explanation": "A V é falsa: Paulo Freire foi preso e exilado logo após o golpe de 1964, e o Mobral foi criado pelo regime justamente em substituição ao seu método de alfabetização. Além disso, I e III, verdadeiras, ficaram de fora."
+        },
+        {
+          "text": "I, II e V, apenas.",
+          "explanation": "A II é falsa porque o AI-3 (1966) tornou indiretas também as eleições para governador e os prefeitos das capitais passaram a ser nomeados; a V é falsa porque Paulo Freire estava exilado e não dirigiu o Mobral."
+        },
+        {
+          "text": "II, III, IV e V, apenas.",
+          "explanation": "III e IV são verdadeiras, mas a II ignora que governadores e prefeitos de capitais deixaram de ser eleitos pelo voto direto, e a V atribui a Paulo Freire, perseguido pelo regime, a gestão do Mobral. Falta ainda a I, que é verdadeira."
+        },
+        {
+          "text": "I e III, apenas.",
+          "explanation": "I e III são verdadeiras, mas a IV também é: o discurso de Márcio Moreira Alves, em 1968, e a recusa da Câmara em autorizar que ele fosse processado serviram de pretexto para o AI-5."
+        },
+        {
+          "text": "I, III e IV, apenas.",
+          "explanation": "Correta. O AI-2 (1965) extinguiu os partidos e levou ao bipartidarismo ARENA/MDB (I); a Lei Falcão (1976) reduziu a propaganda no rádio e na TV à leitura do currículo dos candidatos (III); e o discurso de Márcio Moreira Alves foi o pretexto para o AI-5, em dezembro de 1968 (IV). II e V são falsas: governadores passaram a ser eleitos indiretamente e Paulo Freire estava no exílio."
+        }
+      ],
+      "correct": "E"
+    },
+    {
+      "key": "pave-2025-e3-q11",
+      "source": "PAVE 2025 – Etapa 3, questão 11 (UFPel)",
+      "kind": "Objective",
+      "subject": "historia",
+      "statement": "**Observe o meme a seguir.**\n\n![Meme em preto e branco com quatro quadros em que o mesmo homem, de camisa branca e gravata, aparece com ar aflito e um balão de pensamento em cada cena. Quadro 1, em pé num ônibus lotado: “Superprodução econômica”. Quadro 2, comendo à mesa: “Recuperação econômica da Europa”. Quadro 3, no trabalho, diante do computador e sob uma placa “I ♥ Liberalismo”: “Desigualdade de Renda”. Quadro 4, deitado na cama sem conseguir dormir: “Especulação Financeira”.](img/pave/2025/etapa-3/q11-1.png)\n\nFonte: Autoria própria.\n\n**A partir da análise do meme e de seus conhecimentos, assinale a alternativa que indica o evento histórico do século XX que está diretamente associado à combinação dos seguintes fatores: a superprodução econômica, a recuperação econômica da Europa, a desigualdade de renda e a especulação financeira.**",
+      "options": [
+        {
+          "text": "Crise do Petróleo.",
+          "explanation": "A Crise do Petróleo (1973) resultou do embargo e do aumento de preços impostos pelos países árabes da OPEP, isto é, de escassez e encarecimento de energia, não de superprodução nem de especulação na bolsa."
+        },
+        {
+          "text": "Plano Marshall.",
+          "explanation": "O Plano Marshall (1947) foi o programa de ajuda dos Estados Unidos para reconstruir a Europa depois da Segunda Guerra; é uma política de recuperação, não uma crise causada pelos fatores listados."
+        },
+        {
+          "text": "Grande Depressão.",
+          "explanation": "Correta. Nos anos 1920 a indústria e a agricultura dos EUA mantiveram a produção em alta enquanto a Europa, recuperada da Primeira Guerra, comprava menos; a renda concentrada limitava o consumo interno e a especulação inflava o valor das ações. O resultado foi a quebra da Bolsa de Nova York, em 1929, e a Grande Depressão. A placa “I ♥ Liberalismo” alude à falta de regulação da economia na época."
+        },
+        {
+          "text": "Queda do Muro de Berlim.",
+          "explanation": "A queda do Muro (1989) está ligada à crise do bloco socialista e ao fim da Guerra Fria, e não a superprodução e especulação financeira em economias capitalistas."
+        },
+        {
+          "text": "Revolução Russa.",
+          "explanation": "A Revolução Russa (1917) decorreu da crise do czarismo, da miséria de camponeses e operários e do desgaste da Primeira Guerra; a “recuperação econômica da Europa” nem tinha ocorrido."
+        }
+      ],
+      "correct": "C"
+    },
+    {
+      "key": "pave-2025-e3-q12",
+      "source": "PAVE 2025 – Etapa 3, questão 12 (UFPel)",
+      "kind": "Objective",
+      "subject": "historia",
+      "statement": "**Leia o texto a seguir sobre Direitos Humanos.**\n\n“Os direitos humanos são normas que reconhecem e protegem a dignidade de todos os seres humanos. Os direitos humanos regem o modo como os seres humanos individualmente vivem em sociedade e entre si, bem como sua relação com o Estado e as obrigações que o Estado tem em relação a eles.\n\nA lei dos direitos humanos obriga os governos a fazer algumas coisas e os impede de fazer outras. Os indivíduos também têm responsabilidades: usufruindo dos seus direitos humanos, devem respeitar os direitos dos outros. Nenhum governo, grupo ou indivíduo tem o direito de fazer qualquer coisa que viole os direitos de outra pessoa.”\n\nReferência: O que são direitos humanos? UNICEF, 2025. Disponível em: https://www.unicef.org/brazil/o-que-sao-direitos-humanos. Acesso em: 27/06/2025.\n\n**Considere as seguintes afirmações sobre os Direitos Humanos.**\n\nI – A Declaração Universal de Direitos Humanos (1948) foi elaborada logo após a Segunda Guerra Mundial, que foi marcada pela indistinção entre alvos militares e civis, pela explosão das bombas atômicas em Hiroshima e Nagasaki e pela barbárie dos campos de extermínio nazistas.\n\nII – O regime do Apartheid (1948-1994) aplicado na África do Sul foi um sistema que lutou e garantiu os direitos humanos básicos, evitando conflitos étnicos no país.\n\nIII – O sociólogo Florestan Fernandes contestava a visão de democracia racial de Gilberto Freyre por considerar que ela atenuava a violência da escravidão e suas sequelas sociais no Brasil.\n\nIV – A política de ocupação da Amazônia durante o governo de Juscelino Kubitschek (1956-1961) e o regime civil-militar (1964-1985), motivada pela ideia de “espaços vazios” e pela geopolítica da Guerra Fria, ignorou a presença de povos indígenas e desencadeou conflitos e extermínios, revelando a negligência do Estado com essas populações.\n\n**Estão corretas?**",
+      "options": [
+        {
+          "text": "I, II e IV, apenas.",
+          "explanation": "A II é falsa: o apartheid foi um regime de segregação racial legalizada, que negava direitos básicos à maioria negra sul-africana. A III, verdadeira, ficou de fora."
+        },
+        {
+          "text": "II e III, apenas.",
+          "explanation": "A II inverte o sentido histórico do apartheid, que violou sistematicamente os direitos humanos; além disso, I e IV são verdadeiras e ficaram de fora."
+        },
+        {
+          "text": "I, III e IV, apenas.",
+          "explanation": "Correta. A Declaração de 1948 foi uma resposta aos horrores da Segunda Guerra (I); Florestan Fernandes tratou a democracia racial como um mito que encobria a herança da escravidão (III); e a ocupação da Amazônia como “espaço vazio” atropelou os povos indígenas que ali viviam (IV). A II é falsa, pois o apartheid institucionalizou a segregação racial."
+        },
+        {
+          "text": "I, II e III, apenas.",
+          "explanation": "I e III são verdadeiras, mas a II não: o apartheid separava a população por raça e reprimia a maioria negra. A IV, verdadeira, ficou de fora."
+        },
+        {
+          "text": "I, II, III e IV.",
+          "explanation": "A II não pode ser aceita: longe de garantir direitos humanos, o apartheid foi condenado internacionalmente por negá-los à população não branca."
+        }
+      ],
+      "correct": "C"
+    },
+    {
+      "key": "pave-2025-e3-q13",
+      "source": "PAVE 2025 – Etapa 3, questão 13 (UFPel)",
+      "kind": "Objective",
+      "subject": "geografia",
+      "statement": "**Qual dos seguintes problemas urbanos é frequentemente intensificado pelo processo de metropolização, resultando em uma segregação socioespacial acentuada e na formação de áreas de moradia precária nas periferias das grandes cidades?**",
+      "options": [
+        {
+          "text": "Aumento da qualidade de vida e elevação do nível social e intelectual.",
+          "explanation": "Isso não é um problema urbano nem explica a segregação: a metropolização acelerada concentra os benefícios em algumas áreas e deixa as periferias com infraestrutura precária."
+        },
+        {
+          "text": "Crise hídrica causada pela escassez de chuvas.",
+          "explanation": "A escassez de chuvas é um fenômeno climático; não é intensificada pela metropolização nem gera, por si só, segregação socioespacial e moradias precárias."
+        },
+        {
+          "text": "Diminuição da poluição atmosférica devido ao uso de transportes alternativos.",
+          "explanation": "Reduzir a poluição seria um efeito positivo, não um problema; e as metrópoles, com grandes deslocamentos diários, tendem a ter mais poluição atmosférica, não menos."
+        },
+        {
+          "text": "Envelhecimento populacional e diminuição da taxa de natalidade.",
+          "explanation": "São mudanças demográficas ligadas à transição demográfica, sem relação direta com a formação de periferias de moradia precária."
+        },
+        {
+          "text": "Aumento da desigualdade social e precariedade habitacional.",
+          "explanation": "Correta. O crescimento rápido das metrópoles valoriza o solo das áreas centrais e empurra a população de baixa renda para periferias sem infraestrutura, com favelas, loteamentos irregulares e ocupações de risco: é a desigualdade social expressa no espaço (segregação socioespacial)."
+        }
+      ],
+      "correct": "E"
+    },
+    {
+      "key": "pave-2025-e3-q14",
+      "source": "PAVE 2025 – Etapa 3, questão 14 (UFPel)",
+      "kind": "Objective",
+      "subject": "geografia",
+      "statement": "**Observe a imagem a seguir.**\n\n![Charge em preto e branco com o título “Refugiados”. Uma família (um homem, uma mulher de véu e uma criança com um bicho de pelúcia) deixou para trás, ao fundo, uma cidade destruída da qual sobem colunas de fumaça, e está parada diante de uma grande placa de estrada. A placa tem quatro setas: “Intolerância” (para a esquerda), “Racismo” (para a direita), “Discriminação” (para a esquerda) e “Preconceito” (para a esquerda).](img/pave/2025/etapa-3/q14-1.png)\n\nFonte: https://redacaonline.com.br/blog/tema-de-redacao-desafios-para-a-inclusao-de-refugiados-na-sociedade-brasileira/. Acesso em: 29/06/2025.\n\nA crescente complexidade dos fluxos migratórios contemporâneos, impulsionada por conflitos, mudanças climáticas e assimetrias econômicas globais, tem desafiado as concepções tradicionais de soberania estatal e mobilidade populacional. Nesse cenário, a garantia da cidadania e dos Direitos Humanos para populações em deslocamento, como refugiados e apátridas, representa um dos maiores dilemas éticos e jurídicos do século XXI. **Considerando essa intersecção, qual das seguintes afirmativas expressa corretamente o principal desafio ético-político imposto por essa dinâmica populacional à comunidade internacional?**",
+      "options": [
+        {
+          "text": "A criação de campos de refugiados temporários em países de trânsito, isentando os países desenvolvidos da responsabilidade de reassentamento e integração.",
+          "explanation": "Descreve uma forma de fugir do problema, não de enfrentá-lo: manter refugiados indefinidamente em campos e isentar os países ricos contraria a ideia de responsabilidade compartilhada e de garantia de direitos."
+        },
+        {
+          "text": "A primazia do direito soberano dos Estados de controlar suas fronteiras acima de qualquer obrigação internacional de acolhimento ou proteção humanitária.",
+          "explanation": "Colocar a soberania acima de qualquer obrigação humanitária nega o próprio dilema do enunciado e fere compromissos internacionais de proteção a refugiados, como o de não devolvê-los a um lugar onde correm perigo."
+        },
+        {
+          "text": "A necessidade de estabelecer políticas migratórias mais restritivas para proteger os mercados de trabalho nacionais, independentemente da origem ou condição dos migrantes.",
+          "explanation": "Restringir a entrada “independentemente da condição” ignora a situação de quem foge de guerras e perseguições e não garante cidadania nem direitos humanos, que são o centro da questão."
+        },
+        {
+          "text": "A obrigação de desenvolver mecanismos globais de governança migratória que garantam a proteção efetiva dos direitos e a dignidade dos deslocados, superando a lógica de mera assistência e promovendo sua integração.",
+          "explanation": "Correta. O desafio é conciliar a soberania dos Estados com a proteção de quem se desloca: isso pede cooperação internacional e políticas que vão além da ajuda emergencial, garantindo direitos e integração. A charge reforça a ideia ao mostrar que, depois de fugir da guerra, os refugiados só encontram intolerância, racismo, discriminação e preconceito."
+        },
+        {
+          "text": "A necessidade de encaminhar imigrantes e refugiados de volta para seus países de origem a fim de controlar a migração pendular promovida por eles.",
+          "explanation": "Devolver refugiados ao país de onde fugiram viola o princípio da não devolução; além disso, migração pendular é o deslocamento diário entre casa e trabalho ou estudo, conceito que não se aplica a refugiados."
+        }
+      ],
+      "correct": "D"
+    },
+    {
+      "key": "pave-2025-e3-q15",
+      "source": "PAVE 2025 – Etapa 3, questão 15 (UFPel)",
+      "kind": "Objective",
+      "subject": "filosofia",
+      "statement": "**Leia os textos a seguir.**\n\n**TEXTO I**\n\nNa contemporaneidade, um dos conceitos que se desenvolveu na filosofia moral é o de **antiespecismo**, que se opõe à postura segundo a qual todas as espécies de animais não humanos possam ser exploradas pelos humanos como fontes de alimentação, comércio e entretenimento. De acordo com o filósofo Peter Singer, um dos representantes da luta antiespecista, a consideração de direitos deve ser estendida a todos os seres sencientes, aqueles capazes de sentir dor.\n\n**TEXTO II**\n\nA produção de 1 quilo de carne bovina é responsável por soltar 2kg de gás metano (CH₄) na atmosfera e 50kg de dióxido de carbono (CO₂). Para efeitos de comparação, um carro comum emite cerca de 10kg a 15kg de CO₂ a cada 100km rodados. O impacto ambiental da indústria da carne é tão grande que a Organização das Nações Unidas (ONU) a considerou como o grande obstáculo no combate ao aquecimento global, na Conferência das Nações Unidas sobre Mudanças Climáticas (COP26), que aconteceu em novembro de 2021. Os dados do relatório realizado pela instituição apontavam que a carne é o alimento que mais libera gases do efeito estufa e que mais contribui para o desmatamento da Amazônia e do Cerrado.\n\nReferência: https://revistaforum.com.br/blogs/portal-veg/2023/9/15/por-que-industria-da-carne-um-obstaculo-para-combate-ao-aquecimento-global-144217.html. Acesso em: 11/06/2024.\n\n**Com base nos textos e em seus conhecimentos, analise as afirmativas a seguir, associando a luta antiespecista aos desafios ambientais enfrentados no cenário brasileiro.**\n\nI – O argumento antiespecista, representado por filósofos como Peter Singer, defende a extensão dos direitos a todos os seres sencientes, priorizando uma ética que transcende os interesses econômicos tradicionais e promove uma mudança profunda nos hábitos de produção e consumo.\n\nII – A diminuição ou abolição do consumo de produtos de origem animal é uma resposta moral à exploração dos animais não humanos e à minimização de impactos ambientais negativos. No entanto, no cenário nacional, persistem resistências vinculadas a setores econômicos, pois o Brasil é um dos maiores produtores e exportadores mundiais de carne.\n\nIII – O especismo é uma forma de preconceito que considera apenas a espécie humana digna de interesses morais, e sua perpetuação sustenta os modos de produção pecuária e agroindustrial.\n\nIV – Os modos de produção agroecológicos, associados à prática do veganismo, contribuem para questões ético-ambientais e promovem uma economia sustentável que abrange desde a produção primária até o consumo final.\n\n**Estão corretas:**",
+      "options": [
+        {
+          "text": "I, II, III e IV.",
+          "explanation": "Correta. A I retoma a tese de Singer do Texto I (consideração moral para todos os seres sencientes); a II liga a redução do consumo de carne à ética e ao ambiente e lembra o peso econômico da pecuária no Brasil; a III define o especismo, a discriminação com base na espécie; e a IV relaciona agroecologia e veganismo à sustentabilidade, em linha com o Texto II."
+        },
+        {
+          "text": "I, II e III, apenas.",
+          "explanation": "As três são verdadeiras, mas a IV também é: produção agroecológica e veganismo são apresentados como práticas coerentes com a ética antiespecista e com a redução dos impactos ambientais descritos no Texto II."
+        },
+        {
+          "text": "I, II e IV, apenas.",
+          "explanation": "Falta a III, que é verdadeira: especismo é o nome dado por Singer ao preconceito que só reconhece interesses morais à espécie humana, o que legitima a exploração animal em escala industrial."
+        },
+        {
+          "text": "I, III e IV, apenas.",
+          "explanation": "Falta a II, que é verdadeira: reduzir o consumo de produtos animais responde tanto à exploração dos animais quanto aos impactos ambientais, e enfrenta resistência porque o Brasil é um grande produtor e exportador de carne."
+        },
+        {
+          "text": "II, III e IV, apenas.",
+          "explanation": "Falta a I, que reproduz o que o Texto I diz sobre Peter Singer: a consideração de direitos deve se estender a todos os seres capazes de sentir dor."
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "key": "pave-2025-e3-q16",
+      "source": "PAVE 2025 – Etapa 3, questão 16 (UFPel)",
+      "kind": "Objective",
+      "subject": "sociologia",
+      "statement": "**Leia os textos a seguir.**\n\n**TEXTO I**\n\nO regime do **mérito** exerce sua tirania em duas direções (...). Nas pessoas que chegam ao topo induz à ansiedade, a um debilitante perfeccionismo e à arrogância (...) que se esforça para esconder uma autoestima frágil. Nas pessoas que deixa para trás, impõe um desmoralizante, até mesmo humilhante senso de fracasso. Essas duas tiranias compartilham de uma fonte moral comum: a permanente fé (...) de que somos, como indivíduos, totalmente responsáveis por nosso destino; se formos bem-sucedidos, é graças às nossas próprias ações, e se fracassarmos, não podemos culpar ninguém, a não ser a nós mesmos. Apesar de soar inspirador, essa dura noção de responsabilidade individual faz com que seja difícil usar do senso de solidariedade e obrigação mútua que poderia nos suprir para enfrentarmos a crescente desigualdade de nosso tempo.\n\nReferência: SANDEL, M. **A tirania do mérito**: O que aconteceu com o bem comum? 4. ed. Rio de Janeiro: Civilização Brasileira: 2021, p. 225.\n\n**TEXTO II**\n\nA **interseccionalidade** (...) busca capturar as consequências estruturais e dinâmicas da interação entre dois ou mais eixos da subordinação. Ela trata especificamente da forma pela qual o racismo, o patriarcalismo, a opressão de classe e outros sistemas discriminatórios criam desigualdades básicas que estruturam as posições relativas de mulheres, raças, etnias, classes e outras. Além disso, a interseccionalidade trata da forma como ações e políticas específicas geram opressões que fluem ao longo de tais eixos, constituindo aspectos dinâmicos ou ativos do desempoderamento.\n\nReferência: CRENSHAW, K. Documento para o encontro de especialistas em aspectos da discriminação racial relativos ao gênero. **Revista Estudos Feministas**, 10(1), p. 177, 2002. Disponível em: https://doi.org/10.1590/S0104-026X2002000100011.\n\n**Sobre o ideal meritocrático e suas implicações sociais, analise as sentenças a seguir em conformidade com os textos e seus conhecimentos.**\n\nI – A meritocracia constitui-se como um discurso que promove um modelo de individualidade empreendedora, enfraquecendo os laços de solidariedade e a empatia diante das dificuldades de ascensão social enfrentadas por grupos que sofrem opressões interseccionais, conforme descrito no Texto I.\n\nII – A meritocracia amplia os espaços de liberdade e responsabilidade coletiva, incentivando a democratização do acesso às redes sociais e a exaltação dos méritos pessoais, de modo que cada indivíduo, independentemente de sua condição, contribua para o bem-comum.\n\nIII – A meritocracia considera a interferência das condições sociais dos sujeitos, como a disparidade de oportunidades vividas entre diferentes recortes populacionais, no que diz respeito às possibilidades de ascensão social. Desse modo, funciona como um discurso que atua em parceria com o conceito de interseccionalidade, sendo um meio de correção de desigualdades.\n\nIV – Ao alinhar-se ao modelo neoliberal, a meritocracia sustenta a ideia de que o sucesso ou fracasso de um indivíduo é resultado exclusivo de seus esforços e capacidades, reforçando uma moralidade individualista e a crença de que somos inteiramente responsáveis por nosso destino.\n\n**Estão corretas:**",
+      "options": [
+        {
+          "text": "I e IV, apenas.",
+          "explanation": "Correta. Para Sandel (Texto I), a crença de que cada um é totalmente responsável por seu destino mina a solidariedade e a obrigação mútua (I) e sustenta uma moral individualista, afinada com o neoliberalismo (IV). II e III são falsas: a meritocracia reforça a responsabilidade individual, não a coletiva, e ignora justamente as desigualdades de ponto de partida que a interseccionalidade evidencia."
+        },
+        {
+          "text": "I e III, apenas.",
+          "explanation": "A I é verdadeira, mas a III não: o discurso meritocrático desconsidera as diferenças de oportunidade ligadas a raça, gênero e classe, por isso entra em choque com a interseccionalidade em vez de atuar em parceria com ela."
+        },
+        {
+          "text": "II e III, apenas.",
+          "explanation": "As duas são falsas: o Texto I mostra que a meritocracia enfraquece a responsabilidade coletiva e o bem comum (contra a II) e ela não leva em conta as condições sociais desiguais dos sujeitos (contra a III)."
+        },
+        {
+          "text": "II e IV, apenas.",
+          "explanation": "A IV é verdadeira, mas a II contradiz o Texto I: segundo Sandel, o regime do mérito dificulta o senso de solidariedade e obrigação mútua, em vez de ampliar a responsabilidade coletiva."
+        },
+        {
+          "text": "III e IV, apenas.",
+          "explanation": "A IV é verdadeira, mas a III não: a meritocracia atribui sucesso e fracasso apenas ao esforço individual, sem considerar as opressões cruzadas descritas no Texto II, e por isso não funciona como correção de desigualdades."
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "key": "pave-2025-e3-q17",
+      "source": "PAVE 2025 – Etapa 3, questão 17 (UFPel)",
+      "kind": "Objective",
+      "subject": "sociologia",
+      "statement": "O mundo contemporâneo pode ser dividido em dois conjuntos de países que ao longo da história ficaram conhecidos pelas expressões Primeiro Mundo e Terceiro Mundo. Respectivamente no Primeiro, temos sociedades com maior distribuição de renda, boa qualidade de vida, alta escolaridade e acesso generalizado a modernos meios de transporte e comunicação. Já no Terceiro, se apresenta o oposto, com sociedades com baixa qualidade de vida, alta mortalidade infantil, baixa escolaridade e graves problemas de saneamento básico. Em meados da década de 1970, o cientista político norte-americano Ronald Inglehart (1934-2021) percebeu que nos países desenvolvidos os valores pós-materialistas, como liberdade e autonomia individual se tornavam prioritários, enquanto nas sociedades menos desenvolvidas os valores prioritários se assentavam na sobrevivência e na segurança. Para Inglehart, conforme os países vão se desenvolvendo, sua população começa a priorizar valores pós-materialistas, com o Estado garantindo um nível mínimo de bem-estar social.\n\n**Leia as seguintes afirmações.**\n\nI – Entre os valores de autonomia individual podemos elencar a igualdade entre homens e mulheres, direito dos homossexuais, o antirracismo, a defesa do meio-ambiente, entre outros.\n\nII – No Brasil, a crescente relevância de questões dos direitos dos homossexuais confirma a tese de Inglehart, embora grande parte da população ainda lute pela estabilidade material.\n\nIII – A maioria dos países do Terceiro Mundo foi colonizada por países europeus e seus recursos naturais foram explorados pelas metrópoles.\n\nIV – A riqueza material produzida nas sociedades capitalistas possibilita a distribuição equilibrada entre todas as nações do mundo.\n\nReferências:\n\nCOTRIM, Gilberto. **História Global II**. 3. ed. São Paulo: Saraiva, 2016.\n\nMACHADO, Igor José Renó et al. **Sociologia Hoje**. 1. ed. São Paulo: Ática, 2013.\n\n**Estão corretas:**",
+      "options": [
+        {
+          "text": "I, III e IV, apenas.",
+          "explanation": "A IV é falsa: o próprio enunciado descreve um mundo dividido entre países ricos e pobres, sinal de que a riqueza capitalista se concentra em vez de se distribuir de forma equilibrada. A II, verdadeira, ficou de fora."
+        },
+        {
+          "text": "I, II e IV, apenas.",
+          "explanation": "I e II são verdadeiras, mas a IV não: a desigualdade entre Primeiro e Terceiro Mundo mostra que a riqueza não se reparte de modo equilibrado entre as nações. A III, verdadeira, ficou de fora."
+        },
+        {
+          "text": "II e IV, apenas.",
+          "explanation": "A IV contradiz o enunciado, que parte justamente da desigualdade entre os países; além disso, I e III são verdadeiras e ficaram de fora."
+        },
+        {
+          "text": "I, II e III, apenas.",
+          "explanation": "Correta. Igualdade de gênero, direitos de homossexuais, antirracismo e ambientalismo são exemplos de valores pós-materialistas (I); o avanço dessas pautas no Brasil, à medida que o país se desenvolve, vai ao encontro da tese de Inglehart (II); e a maior parte do Terceiro Mundo foi colônia de exploração europeia (III). A IV é falsa: a riqueza capitalista é distribuída de modo muito desigual entre as nações."
+        },
+        {
+          "text": "III e IV, apenas.",
+          "explanation": "A III é verdadeira, mas a IV não, pois a riqueza produzida no capitalismo se concentra em poucos países; I e II, verdadeiras, ficaram de fora."
+        }
+      ],
+      "correct": "D"
+    },
+    {
+      "key": "pave-2025-e3-q18",
+      "source": "PAVE 2025 – Etapa 3, questão 18 (UFPel)",
+      "kind": "Objective",
+      "subject": "sociologia",
+      "statement": "A desigualdade social possui relação direta com a escravidão e mais especificamente com a forma como os negros foram incorporados na sociedade brasileira. Nesse sentido, Florestan Fernandes (1920-1995), importante sociólogo brasileiro, abordou o mito da democracia racial, que difunde a crença de que a situação do negro se deve à sua própria incapacidade de superar dificuldades sociais, como o desemprego, por exemplo, retirando responsabilidade do branco e o isentando, sobretudo os brancos da classe dominante, da degradação social da comunidade negra no Brasil (Machado, 2013). O Estatuto da Igualdade Racial, criado em 2010, está entre os avanços sociais recentes do Brasil contemporâneo e possui o objetivo de garantir igualdade de oportunidades para aqueles que se autodeclararem pretos e pardos, mitigando décadas de preconceito e discriminação.\n\n**Leia as seguintes afirmações.**\n\nI – A interseccionalidade é uma ferramenta importante para o estudo das categorias de raça, classe, gênero, orientação sexual, nacionalidade, capacidade, etnia, faixa etária, entre outras.\n\nII – O livro Casa-grande & senzala, de autoria de Gilberto Freyre, discutiu também a questão da democracia racial brasileira.\n\nIII – O Estatuto da Igualdade Racial salienta a obrigatoriedade do ensino da história africana e afro-brasileira no Ensino Fundamental e Ensino Médio, apenas nas escolas públicas.\n\nIV – A abolição da escravatura em 1888 eximiu de responsabilidade o Estado, a Igreja ou outra instituição pela manutenção, amparo e segurança dos libertos para uma nova organização de vida e trabalho.\n\nReferências:\n\nCOLLINS, Patrícia Hill; BILGE, Sirma. **Interseccionalidade**. 1. ed. São Paulo: Boitempo, 2021.\n\nCOTRIM, Gilberto. **História Global II**. 3. ed. São Paulo: Saraiva, 2016.\n\nMACHADO, Igor José Renó et al. **Sociologia Hoje**. 1. ed. São Paulo: Ática, 2013.\n\n**Estão corretas:**",
+      "options": [
+        {
+          "text": "I, III e IV, apenas.",
+          "explanation": "A III é falsa por causa do “apenas nas escolas públicas”: a obrigatoriedade do ensino de história e cultura africana e afro-brasileira vale para estabelecimentos públicos e privados. A II, verdadeira, ficou de fora."
+        },
+        {
+          "text": "I, II e IV, apenas.",
+          "explanation": "Correta. A interseccionalidade analisa o cruzamento de raça, classe, gênero e outros marcadores (I); Casa-grande & senzala, de Gilberto Freyre, é a obra a que se associa a ideia de democracia racial (II); e a Lei Áurea libertou os escravizados sem nenhuma política de amparo, terra, trabalho ou educação (IV). A III é falsa porque a obrigatoriedade alcança também as escolas particulares."
+        },
+        {
+          "text": "II, III e IV, apenas.",
+          "explanation": "II e IV são verdadeiras, mas a III erra ao restringir a obrigatoriedade às escolas públicas; e a I, verdadeira, ficou de fora."
+        },
+        {
+          "text": "II e III, apenas.",
+          "explanation": "A II é verdadeira, mas a III não: o ensino de história africana e afro-brasileira é obrigatório também nas escolas privadas. I e IV, verdadeiras, ficaram de fora."
+        },
+        {
+          "text": "I e III, apenas.",
+          "explanation": "A I é verdadeira, mas a III não, pois a obrigatoriedade não se limita à rede pública; II e IV, verdadeiras, ficaram de fora."
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "key": "pave-2025-e3-q19",
+      "source": "PAVE 2025 – Etapa 3, questão 19 (UFPel)",
+      "kind": "Objective",
+      "subject": "matematica",
+      "statement": "Em 2025, as escolas estaduais do Rio Grande do Sul iniciaram o recebimento dos kits de uniformes escolares destinados aos estudantes da rede estadual de ensino. Estima-se que mais de 7 milhões de peças foram distribuídas, entre as 2.320 instituições de ensino, até o final de março. Cada kit é composto por 10 peças, adequadas às diferentes estações do ano, contendo: três camisetas diferentes de manga curta, duas camisetas diferentes de manga longa, uma jaqueta, um moletom, duas calças diferentes e uma bermuda.\n\nReferência: adaptado de https://educacao.rs.gov.br/escolas-estaduais-comecam-a-receber-os-novos-uniformes-a-partir-de-segunda-feira-10. Acesso em: 10/06/2025.\n\nNessa perspectiva, um aluno que deseja escolher uma combinação de três peças distintas de roupa para ir à escola, em um dia de outono, pode optar por:\n\n- Uma peça para a parte de cima (camisetas de manga curta ou camisetas de manga longa);\n- Uma peça para a parte de baixo (calça ou bermuda);\n- Um agasalho (jaqueta ou moletom).\n\n**Com base nessas condições, quantas combinações diferentes de uniforme o aluno pode formar?**",
+      "options": [
+        {
+          "text": "8",
+          "explanation": "8 = 2 × 2 × 2 conta apenas os tipos de peça (manga curta ou longa, calça ou bermuda, jaqueta ou moletom) e ignora que há 3 + 2 = 5 camisetas diferentes e 2 + 1 = 3 peças para a parte de baixo."
+        },
+        {
+          "text": "20",
+          "explanation": "20 = 5 × 2 × 2 trata “calça ou bermuda” como só duas opções, mas o kit tem duas calças diferentes e uma bermuda, ou seja, 3 peças para a parte de baixo."
+        },
+        {
+          "text": "36",
+          "explanation": "36 = 6 × 3 × 2 aparece quando se multiplicam as camisetas (3 × 2 = 6) em vez de somá-las: como o aluno veste uma camiseta de manga curta OU uma de manga longa, as opções são 3 + 2 = 5."
+        },
+        {
+          "text": "24",
+          "explanation": "24 = 4 × 3 × 2 corresponderia a apenas quatro opções para a parte de cima; o kit oferece 3 + 2 = 5 camisetas, o que leva a 5 × 3 × 2 = 30."
+        },
+        {
+          "text": "30",
+          "explanation": "Correta. Pelo princípio multiplicativo: parte de cima, 3 + 2 = 5 opções; parte de baixo, 2 + 1 = 3 opções; agasalho, 1 + 1 = 2 opções. Total: 5 × 3 × 2 = 30 combinações."
+        }
+      ],
+      "correct": "E"
+    },
+    {
+      "key": "pave-2025-e3-q20",
+      "source": "PAVE 2025 – Etapa 3, questão 20 (UFPel)",
+      "kind": "Objective",
+      "subject": "matematica",
+      "statement": "A expansão das casas de apostas virtuais no Brasil tem afetado diretamente o orçamento e o padrão de consumo dos brasileiros, tornando-se um vício preocupante. A combinação entre o fácil acesso e a ilusão de lucros rápidos tem atraído um número cada vez maior de apostadores. No entanto, para muitos, essa prática se transformou em um problema sério. Segundo levantamento nacional realizado pelo Instituto DataSenado, em 2024, 42% dos brasileiros que afirmaram ter gasto alguma quantia em apostas esportivas ao longo de um mês estavam endividados. Os dados referem-se, especialmente, àqueles com contas em atraso há mais de 90 dias.\n\nReferência: adaptado de https://g1.globo.com/economia/noticia/2024/10/01/bets-42percent-dos-brasileiros-que-dizem-apostar-estao-endividados-e-quase-um-terco-esta-fora-do-mercado-de-trabalho-diz-pesquisa-do-senado.ghtml. Acesso em: 20/06/2025.\n\nEsse cenário evidencia que, com o crescimento das apostas no cotidiano, a renda familiar tem sido cada vez mais comprometida, gerando impactos sociais e econômicos significativos. Frequentemente, as dívidas decorrentes do hábito de apostar não afetam apenas o indivíduo envolvido, mas também toda a sua família. **Considerando o contexto de 10 apostadores, dos quais 6 estão endividados e 4 não, de quantas maneiras diferentes é possível formar um grupo de 5 apostadores com exatamente 2 endividados e 3 não endividados?**",
+      "options": [
+        {
+          "text": "20",
+          "explanation": "20 é C(6,3), o número de maneiras de escolher 3 pessoas entre as 6 endividadas; o grupo pedido tem 2 endividados (entre 6) e 3 não endividados (entre 4)."
+        },
+        {
+          "text": "45",
+          "explanation": "45 é C(10,2), a escolha de 2 pessoas entre as 10 sem separar endividados de não endividados e sem completar o grupo de 5."
+        },
+        {
+          "text": "60",
+          "explanation": "Correta. Escolhem-se 2 dos 6 endividados, C(6,2) = (6 × 5)/2 = 15, e 3 dos 4 não endividados, C(4,3) = 4. Como as escolhas são independentes, multiplicam-se: 15 × 4 = 60 grupos."
+        },
+        {
+          "text": "90",
+          "explanation": "90 = C(6,2) × C(4,2) = 15 × 6: usa 2 não endividados em vez de 3. Com 3 entre 4, o segundo fator é C(4,3) = 4, e o total é 15 × 4 = 60."
+        },
+        {
+          "text": "30",
+          "explanation": "30 = 6 × 5 é o número de arranjos de 2 entre os 6 endividados, que conta a ordem (num grupo a ordem não importa) e ainda deixa de fora a escolha dos não endividados."
+        }
+      ],
+      "correct": "C"
+    },
+    {
+      "key": "pave-2025-e3-q21",
+      "source": "PAVE 2025 – Etapa 3, questão 21 (UFPel)",
+      "kind": "Objective",
+      "subject": "matematica",
+      "statement": "A Olimpíada Brasileira de Matemática das Escolas Públicas (OBMEP) ocorre anualmente no Brasil e realiza provas que visam a identificar talentos na área da Matemática, além de promover a inclusão social e aprimorar a qualidade do ensino da disciplina no país por meio de avaliações desafiadoras, projetos e premiações. Na 19ª edição da OBMEP, realizada em 2024, pela primeira vez em uma década, uma estudante da rede municipal de ensino de Pelotas conquistou uma medalha de bronze em nível nacional. Além desse destaque, outros 17 alunos de seis escolas municipais também foram reconhecidos, recebendo menções honrosas ou medalhas em nível regional.\n\nReferência: adaptado de https://www.pelotas.com.br/noticia/alunos-de-pelotas-conquistam-destaque-nas-olimpiadas-de-matematica. Acesso em: 15/06/2025.\n\n**Com base em alguns dados exibidos na notícia, construímos duas tabelas:**\n\n![Tabela 1, com cinco escolas nas linhas e as colunas Prêmios regionais, Prêmios estaduais e Prêmios nacionais. Colégio Municipal Pelotense: 2, 0, 1. EMEF Antônio Joaquim Dias: 0, 1, 0. EMEF Santa Terezinha: 0, 1, 0. EMEF João da Silva Silveira: 0, 2, 0. EMEF Cecília Meireles: 0, 1, 0.](img/pave/2025/etapa-3/q21-1.png)\n\nTabela 1\n\n![Tabela 2, com os níveis nas linhas e as colunas Medalha de bronze e Medalha de prata. Regional: 0 de bronze e 2 de prata. Estadual: 5 de bronze e 0 de prata. Nacional: 1 de bronze e 0 de prata.](img/pave/2025/etapa-3/q21-2.png)\n\nTabela 2\n\nFonte: Autoria própria.\n\nA partir da Tabela 1, pode-se obter a matriz T1 a seguir:\n\n```\n     [ 2  0  1 ]\n     [ 0  1  0 ]\nT1 = [ 0  1  0 ]\n     [ 0  2  0 ]\n     [ 0  1  0 ]\n```\n\nE a partir da Tabela 2, gerou-se a matriz T2, aplicando a divisão de cada valor pelo total de prêmios naquele nível, para que T2 seja uma matriz de proporções.\n\n```\n     [ 0  1 ]\nT2 = [ 1  0 ]\n     [ 1  0 ]\n```\n\n**Sejam aᵢⱼ os elementos da matriz resultante do produto T1 · T2. Nessas condições, qual é a informação representada pelo elemento a₄₁ dessa matriz resultante?**",
+      "options": [
+        {
+          "text": "1",
+          "explanation": "1 é o valor de a₁₁, a₂₁, a₃₁ e a₅₁ (as outras escolas). Para a₄₁ usa-se a linha 4 de T1, (0, 2, 0), cujo produto pela coluna 1 de T2 dá 2."
+        },
+        {
+          "text": "0",
+          "explanation": "0 é o valor de a₄₂, obtido com a coluna 2 de T2 (prata): 0·1 + 2·0 + 0·0 = 0. O elemento pedido, a₄₁, usa a coluna 1 (bronze)."
+        },
+        {
+          "text": "2",
+          "explanation": "Correta. a₄₁ é o produto da linha 4 de T1, (0, 2, 0), pela coluna 1 de T2, (0, 1, 1): 0·0 + 2·1 + 0·1 = 2. Como a linha 4 é a EMEF João da Silva Silveira e a coluna 1 é a medalha de bronze, o elemento indica 2 medalhas de bronze para essa escola (seus dois prêmios estaduais, nível em que todas as medalhas foram de bronze)."
+        },
+        {
+          "text": "3",
+          "explanation": "Nenhum elemento do produto vale 3: T1 · T2 tem linhas (1, 2), (1, 0), (1, 0), (2, 0) e (1, 0). Na linha 4, coluna 1, o valor é 0·0 + 2·1 + 0·1 = 2."
+        },
+        {
+          "text": "4",
+          "explanation": "4 é só o número da linha do elemento a₄₁, não o seu valor. Multiplicando a linha 4 de T1 pela coluna 1 de T2: 0·0 + 2·1 + 0·1 = 2."
+        }
+      ],
+      "correct": "C"
+    },
+    {
+      "key": "pave-2025-e3-q22",
+      "source": "PAVE 2025 – Etapa 3, questão 22 (UFPel)",
+      "kind": "Objective",
+      "subject": "matematica",
+      "statement": "Segundo Alcindo Bastos da Silva Filho, promotor de justiça da Promotoria do Consumidor de Porto Alegre, o Ministério Público do Rio Grande do Sul recebeu mais de 500 denúncias de preços abusivos em todo o estado após o início das enchentes no final de abril.\n\nAlguns itens básicos chegaram a ter um aumento exorbitante, como, por exemplo:\n\n- Óleo de soja: preço normal a R$ 5; chegou a ser encontrado a R$ 16;\n- Feijão: preço normal entre R$ 5 e R$ 6; foi encontrado a R$ 16;\n- Saco de arroz: preço normal entre R$ 7 e R$ 8; foi encontrado a R$ 12;\n- Botijão de gás: preço normal a R$ 99; passou a algo entre R$ 180 e R$ 200;\n- Gasolina: preço normal entre R$ 5 e R$ 6; chegou a R$ 8.\n\nReferência: adaptado de https://www.cnnbrasil.com.br/blogs/caio-junqueira/nacional/mp-registra-mais-de-500-denuncias-de-precos-abusivos-em-meio-as-enchentes-no-rs/. Acesso em: 17/06/2024.\n\nConforme as informações divulgadas, o valor de alguns itens básicos teve um acréscimo que impactou diretamente na alimentação diária tradicional da população, com os preços do litro do óleo de soja e o quilo do feijão subindo 220%, cada um, e o quilo do arroz 50%. Suponha que uma pessoa, durante esse período, comprou 2 quilos de feijão, 5 quilos de arroz e 2 litros de óleo. **Ao fazer a compra, qual terá sido o aumento percentual total do valor final em relação ao preço pago pela mesma quantidade de ingredientes em um momento de estabilidade?**",
+      "options": [
+        {
+          "text": "125,56%",
+          "explanation": "Correta. É o gabarito oficial, que corresponde à média dos aumentos ponderada pelas quantidades compradas: (2 × 220% + 5 × 50% + 2 × 220%) / (2 + 5 + 2) = 1130%/9 ≈ 125,56%. Atenção: essa conta só é exata se os três produtos tiverem o mesmo preço unitário. Com os preços normais do texto compatíveis com os percentuais (feijão e óleo a R$ 5, arroz a R$ 8), a compra passaria de R$ 60 para R$ 124, aumento de cerca de 106,67%, valor que não está entre as alternativas."
+        },
+        {
+          "text": "110,05%",
+          "explanation": "Não decorre dos dados: a média dos aumentos ponderada pelas quantidades dá 1130%/9 ≈ 125,56%, e a conta com os preços do texto (de R$ 60 para R$ 124) dá cerca de 106,67%."
+        },
+        {
+          "text": "201,83%",
+          "explanation": "Superestima o aumento: mais da metade dos itens comprados (5 de 9) é arroz, que subiu só 50%, o que puxa o aumento total para bem abaixo dos 220% do feijão e do óleo."
+        },
+        {
+          "text": "100,00%",
+          "explanation": "Aumento de 100% significa a compra custar exatamente o dobro. Isso só aconteceria tomando o feijão a R$ 6 (de R$ 62 para R$ 124), mas o enunciado fixa alta de 220% no feijão, isto é, de R$ 5 para R$ 16; o gabarito oficial usa a média ponderada dos percentuais, 125,56%."
+        },
+        {
+          "text": "120,83%",
+          "explanation": "Fica próximo, mas não é o resultado da média ponderada pedida pelo gabarito: (2 × 220 + 5 × 50 + 2 × 220)/9 = 1130/9 ≈ 125,56%."
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "key": "pave-2025-e3-q23",
+      "source": "PAVE 2025 – Etapa 3, questão 23 (UFPel)",
+      "kind": "Objective",
+      "subject": "matematica",
+      "statement": "Na passagem do circo Mirage pela cidade de Pelotas, Joana e 7 amigas resolveram ir ao espetáculo. Dentre as 7 amigas de Joana estavam Maria e Carla. As meninas compraram oito lugares juntos, na primeira fila, bem de frente para o palco. Joana, Maria e Carla combinaram, que independentemente das demais amigas, elas deveriam sentar, as três, lado a lado, sem ninguém entre elas.\n\n**Considerando que Joana, Maria e Carla sentem juntas, sem nenhuma outra amiga entre elas, quantas são as possibilidades de todas as amigas sentarem nos oito assentos adquiridos?**",
+      "options": [
+        {
+          "text": "5040 possibilidades.",
+          "explanation": "5040 = 7! seria o número de filas com 7 elementos. Tratando o trio como um bloco, restam 6 elementos (o bloco e as outras 5 amigas), e ainda é preciso contar as trocas de lugar dentro do bloco."
+        },
+        {
+          "text": "720 possibilidades.",
+          "explanation": "720 = 6! conta as posições do bloco e das outras 5 amigas, mas esquece que Joana, Maria e Carla podem trocar de lugar entre si de 3! = 6 maneiras."
+        },
+        {
+          "text": "40320 possibilidades.",
+          "explanation": "40320 = 8! é o total de maneiras de sentar as oito amigas sem nenhuma restrição; a exigência de o trio ficar junto reduz esse número."
+        },
+        {
+          "text": "726 possibilidades.",
+          "explanation": "726 = 6! + 3! soma as duas contagens quando o correto é multiplicar: para cada uma das 720 posições dos blocos há 6 ordens possíveis dentro do trio."
+        },
+        {
+          "text": "4320 possibilidades.",
+          "explanation": "Correta. Considera-se o trio como um único bloco: são 6 elementos para permutar (o bloco e as outras 5 amigas), 6! = 720. Dentro do bloco, as três podem se ordenar de 3! = 6 maneiras. Total: 720 × 6 = 4320."
+        }
+      ],
+      "correct": "E"
+    },
+    {
+      "key": "pave-2025-e3-q24",
+      "source": "PAVE 2025 – Etapa 3, questão 24 (UFPel)",
+      "kind": "Objective",
+      "subject": "lingua-portuguesa",
+      "statement": "**Leia o texto a seguir para responder às questões 24 e 25.**\n\n**satolep**\n\nVitor Ramil\n\nRECUPERADO DO MAL-ESTAR, DEIXEI-ME ACOLHER PELA cidade. Saí da estação na companhia do novo amigo, pois ele me recomendara o hotel em que costumava se hospedar. Era para lá que íamos. Atravessamos o largo e embarcamos no segundo andar de um bonde elétrico Imperial, rumo ao centro. Como eu deixara Satolep ainda criança, guardara a imagem de uma cidade maior e mais ampla. Transitar agora vendo do alto as ruas reforçava meu estranhamento de adulto.\n\nO Cubano, sem imaginar a presença daquela arquitetura em mim, descrevia tudo com entusiasmo. “A cidade é revestida de ladrilhos hidráulicos, especialmente o interior das casas. O senhor já acompanhou o processo de feitura artesanal dessas peças, com as quais montam-se mosaicos fabulosos? As tintas são derramadas em moldes sobre uma superfície metálica untada. Quando o molde é retirado, o desenho do mosaico aparece imperfeito, como que prestes a se desfazer. Porém, na mistura de cimento e areia que é então colocada e prensada sobre ele, a face do ladrilho surge perfeita, como mágica, com flores azuis, triângulos alaranjados ou fitas espiraladas de contornos definidos. A natureza que acabamos de percorrer de trem são as tintas indóceis na chapa oleosa; Satolep é a magia.”. Eu olhava a rua sem deixar de prestar atenção no que ele dizia. As pessoas lá fora abriam caminho no resto de luz avermelhada do fim de tarde. Embora seu ritmo fosse acelerado, eu as observava com tanta avidez, que pareciam estar andando devagar. Eram em grande número, mas a luminosidade restava espessa entre elas.\n\nHomens enérgicos, concisos, vítreos; mulheres plásticas, nítidas, verticais. O frio os delineava. Seu traçado sobre os ladrilhos ia ficando impresso em minha quietude como os trilhos do trem na suavidade inteiriça de água e céu que eu atravessara ao chegar. O bonde fendia o começo da noite. O Cubano ia falando: “Esta cidade foi construída numa zona de alagados. Quando chove muito as ruas viram rios simétricos. Cada fachada, poste ou monumento passa a ser parte de sua flora rebuscada. As chuvas são frequentes, a umidade é das maiores que há. O senhor sabe o porquê do nome ‘hidráulico’? Porque é na água que o ladrilho é curado”.\n\nReferência: RAMIL, Vitor. **satolep**. São Paulo: Cosac Naify, 2014. p. 26-27.\n\n**Com base na leitura do texto satolep, analise as afirmações a seguir.**\n\nI – O fragmento do texto “Como eu deixara Satolep ainda criança, guardara a imagem de uma cidade maior e mais ampla.” permite concluir que o narrador está voltando para um lugar que tinha conhecido anteriormente.\n\nII – Esse fragmento do livro satolep é predominantemente descritivo, pois contém detalhes acerca de aspectos das ruas e, também, impressões sobre os passantes.\n\nIII – A descrição que a personagem Cubano faz sobre o ladrilho hidráulico apresenta juízos de valor e percepções subjetivas.\n\nIV – O trecho de satolep é narrativo pois narra fatos e acontecimentos da cidade de Pelotas, na época dos bondes elétricos.\n\n**Estão corretas:**",
+      "options": [
+        {
+          "text": "I e IV, apenas.",
+          "explanation": "A I é verdadeira, mas a IV não: o trecho não relata fatos e acontecimentos da cidade de Pelotas; ele se detém em descrever uma cidade ficcional, Satolep, suas ruas, seus ladrilhos e seus passantes. II e III, verdadeiras, ficaram de fora."
+        },
+        {
+          "text": "I, II, III e IV.",
+          "explanation": "A IV não se sustenta: há poucas ações (sair da estação, tomar o bonde) e nenhuma narração de acontecimentos de Pelotas; o que predomina é a descrição da cidade e das impressões do narrador."
+        },
+        {
+          "text": "II e III, apenas.",
+          "explanation": "II e III são verdadeiras, mas a I também: se o narrador “deixara Satolep ainda criança” e guardava uma imagem da cidade, ele está retornando a um lugar que já conhecia."
+        },
+        {
+          "text": "I, II e III, apenas.",
+          "explanation": "Correta. “Deixara Satolep ainda criança” indica retorno (I); o trecho se ocupa sobretudo de caracterizar ruas, ladrilhos, luz e pessoas, o que o torna predominantemente descritivo (II); e a fala do Cubano traz avaliações pessoais, como “mosaicos fabulosos”, “como mágica” e “Satolep é a magia” (III). A IV é falsa: o texto não narra fatos e acontecimentos de Pelotas."
+        },
+        {
+          "text": "I e II, apenas.",
+          "explanation": "I e II são verdadeiras, mas a III também: expressões como “mosaicos fabulosos”, “perfeita, como mágica” e “Satolep é a magia” são juízos de valor e impressões subjetivas do Cubano."
+        }
+      ],
+      "correct": "D"
+    },
+    {
+      "key": "pave-2025-e3-q25",
+      "source": "PAVE 2025 – Etapa 3, questão 25 (UFPel)",
+      "kind": "Objective",
+      "subject": "lingua-portuguesa",
+      "statement": "**Leia o texto a seguir para responder às questões 24 e 25.**\n\n**satolep**\n\nVitor Ramil\n\nRECUPERADO DO MAL-ESTAR, DEIXEI-ME ACOLHER PELA cidade. Saí da estação na companhia do novo amigo, pois ele me recomendara o hotel em que costumava se hospedar. Era para lá que íamos. Atravessamos o largo e embarcamos no segundo andar de um bonde elétrico Imperial, rumo ao centro. Como eu deixara Satolep ainda criança, guardara a imagem de uma cidade maior e mais ampla. Transitar agora vendo do alto as ruas reforçava meu estranhamento de adulto.\n\nO Cubano, sem imaginar a presença daquela arquitetura em mim, descrevia tudo com entusiasmo. “A cidade é revestida de ladrilhos hidráulicos, especialmente o interior das casas. O senhor já acompanhou o processo de feitura artesanal dessas peças, com as quais montam-se mosaicos fabulosos? As tintas são derramadas em moldes sobre uma superfície metálica untada. Quando o molde é retirado, o desenho do mosaico aparece imperfeito, como que prestes a se desfazer. Porém, na mistura de cimento e areia que é então colocada e prensada sobre ele, a face do ladrilho surge perfeita, como mágica, com flores azuis, triângulos alaranjados ou fitas espiraladas de contornos definidos. A natureza que acabamos de percorrer de trem são as tintas indóceis na chapa oleosa; Satolep é a magia.”. Eu olhava a rua sem deixar de prestar atenção no que ele dizia. As pessoas lá fora abriam caminho no resto de luz avermelhada do fim de tarde. Embora seu ritmo fosse acelerado, eu as observava com tanta avidez, que pareciam estar andando devagar. Eram em grande número, mas a luminosidade restava espessa entre elas.\n\nHomens enérgicos, concisos, vítreos; mulheres plásticas, nítidas, verticais. O frio os delineava. Seu traçado sobre os ladrilhos ia ficando impresso em minha quietude como os trilhos do trem na suavidade inteiriça de água e céu que eu atravessara ao chegar. O bonde fendia o começo da noite. O Cubano ia falando: “Esta cidade foi construída numa zona de alagados. Quando chove muito as ruas viram rios simétricos. Cada fachada, poste ou monumento passa a ser parte de sua flora rebuscada. As chuvas são frequentes, a umidade é das maiores que há. O senhor sabe o porquê do nome ‘hidráulico’? Porque é na água que o ladrilho é curado”.\n\nReferência: RAMIL, Vitor. **satolep**. São Paulo: Cosac Naify, 2014. p. 26-27.\n\n**Leia os fragmentos a seguir.**\n\n**Fragmento I**\n\n“O Cubano, sem imaginar a presença daquela arquitetura em mim, descrevia tudo com entusiasmo. [...] Eu olhava a rua sem deixar de prestar atenção no que ele dizia. **Embora** seu ritmo fosse acelerado, eu as observava com tanta avidez, que pareciam estar andando devagar.”\n\nReferência: RAMIL, Vitor. **satolep**. São Paulo: Cosac-Naify, 2014, p.26-27.\n\n**Fragmento II**\n\nA coesão sequencial diz respeito aos procedimentos linguísticos por meio dos quais se estabelecem, entre segmentos do texto (enunciados, partes de enunciados, parágrafos e sequências textuais), diversos tipos de relações semânticas e/ou pragmáticas, à medida que se faz o texto progredir.\n\nReferência: KOCH, Ingedore. **A coesão textual**. 22. ed. – São Paulo: Contexto, 2010, p.40.\n\n**Com base na definição de coesão sequencial formulada por Ingedore Koch, assinale a alternativa que melhor explica a função da conjunção “embora” no fragmento de satolep.**",
+      "options": [
+        {
+          "text": "Introduzir uma ideia de explicação para o ritmo acelerado das pessoas.",
+          "explanation": "Explicação seria introduzida por conjunções como “pois” ou “porque”. “Embora” não justifica o ritmo acelerado; ela o apresenta como um fato que contrasta com o que vem depois."
+        },
+        {
+          "text": "Estabelecer uma relação de oposição entre o ritmo das pessoas e a percepção do narrador.",
+          "explanation": "Correta. “Embora” é uma conjunção concessiva: admite um fato (o ritmo das pessoas era acelerado) que se opõe ao que se afirma na oração principal (para o narrador, elas pareciam andar devagar), sem impedir que isso aconteça. É essa relação de contraste entre os dois segmentos que faz o texto progredir."
+        },
+        {
+          "text": "Indicar uma consequência do comportamento do narrador.",
+          "explanation": "A consequência está em outro ponto do período, na estrutura “com tanta avidez, que pareciam...” (tanto... que). “Embora” introduz concessão, não consequência."
+        },
+        {
+          "text": "Comparar o ritmo das pessoas com o movimento do bonde.",
+          "explanation": "Não há comparação com o bonde na frase, e comparação pediria conectivos como “como” ou “tal qual”. O contraste é entre o ritmo real das pessoas e a impressão do narrador."
+        },
+        {
+          "text": "Adicionar uma informação complementar sobre o movimento da cidade.",
+          "explanation": "Adição é a função de conectivos como “e” ou “além disso”. “Embora” não soma informações: ela opõe o ritmo acelerado à impressão de lentidão."
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "key": "pave-2025-e3-q26",
+      "source": "PAVE 2025 – Etapa 3, questão 26 (UFPel)",
+      "kind": "Objective",
+      "subject": "lingua-portuguesa",
+      "statement": "**Leia a entrevista a seguir.**\n\n**Entrevista com Ana Maria Machado**\n\nUma das maiores autoras infantojuvenis do Brasil fala da importância da escola na formação das futuras gerações de leitores.\n\n**A senhora criou um curso na Casa da Leitura, no Rio de Janeiro, para ensinar professores a trabalhar com literatura. Na sua opinião, quais são as principais falhas de formação que eles têm?**\n\n**Ana Maria:** Na faculdade, eles aprendem muito sobre pedagogia e psicologia, mas pouco sobre arte. Têm pouco contato com as obras. Acabam entrando no magistério sem instrumentos para distinguir arte de não arte, textos bons de ruins. O objetivo do curso é suprir essa falha, tornando-os capazes de reconhecer, sozinhos e com segurança, a boa literatura. E isso só é possível com interesse e muita leitura.\n\n**Nossos docentes leem pouco?**\n\n**Ana Maria:** Muito pouco, porque a formação que recebem não dá ênfase a isso. É uma situação completamente contraditória. Ninguém contrata um instrutor de natação que não sabe nadar. No entanto, as salas de aula brasileiras estão cheias de gente que, apesar de não ler, tenta ensinar. Como esperar que os alunos se interessem?\n\n**Isso quer dizer que a literatura não está sendo bem trabalhada nas escolas.**\n\n**Ana Maria:** Não só a literatura. A arte em geral, toda a cultura criadora e questionadora. Nas minhas viagens pelo interior do Brasil tenho conhecido algumas experiências individuais surpreendentes. Mas elas ainda são mais exceção do que regra dentro do sistema educacional. Esbarram na burocracia, no currículo, no horário que não reserva um espaço para que as crianças leiam.\n\nReferência: https://novaescola.org.br/conteudo/955/entrevista-com-ana-maria-machado. Acesso em: 10/07/2025.\n\n**Analise as proposições a seguir.**\n\nI – O aspecto que caracteriza o gênero discursivo “entrevista” é o tom de conversa íntima entre dois interlocutores, marcado pela dinâmica de perguntas e respostas completas.\n\nII – A característica que demonstra que o texto pertence ao gênero discursivo “entrevista” é o discurso direto, que transcreve fidedignamente as falas dos interlocutores, com a intenção de reunir informações sobre determinado tema.\n\nIII – A característica que evidencia o texto como do gênero discursivo “entrevista” é a oralidade, percebida pela utilização de sinais de pontuação que reproduzem aspectos do entrevistado, como emoção, riso etc.\n\nIV – A característica que classifica o texto como pertencente ao gênero discursivo “entrevista” é a descrição detalhada das experiências da autora com a literatura infantil.\n\n**Está(ão) correta(as):**",
+      "options": [
+        {
+          "text": "I e IV, apenas.",
+          "explanation": "As duas são falsas: a entrevista jornalística é feita para ser publicada, não é uma conversa íntima (I), e o texto não descreve em detalhe experiências da autora com a literatura infantil; ela opina sobre a formação dos professores (IV)."
+        },
+        {
+          "text": "II, apenas.",
+          "explanation": "Correta. O que marca o gênero entrevista é a alternância de perguntas e respostas em discurso direto, com a fala de cada interlocutor identificada (“Ana Maria:”), para colher informações e opiniões sobre um tema. I, III e IV são falsas: não se trata de conversa íntima, o texto não traz pontuação que reproduza emoção ou riso e também não é uma descrição de experiências com a literatura infantil."
+        },
+        {
+          "text": "I, II, III e IV.",
+          "explanation": "Só a II descreve o gênero. A entrevista não é conversa íntima (I), o texto não tem marcas de emoção ou riso na pontuação (III) e seu traço definidor não é a descrição de experiências (IV)."
+        },
+        {
+          "text": "II e III, apenas.",
+          "explanation": "A II é verdadeira, mas a III não se confirma no texto: as respostas estão em linguagem escrita formal, sem pontuação ou indicações que reproduzam emoção, riso ou outros traços da fala."
+        },
+        {
+          "text": "I e II, apenas.",
+          "explanation": "A II é verdadeira, mas a I não: a entrevista é um gênero da esfera pública (aqui, jornalística), dirigido a leitores, e não uma conversa íntima entre duas pessoas."
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "key": "pave-2025-e3-q27",
+      "source": "PAVE 2025 – Etapa 3, questão 27 (UFPel)",
+      "kind": "Objective",
+      "subject": "literatura",
+      "statement": "Em Clara dos Anjos, Lima Barreto aborda o preconceito racial e social, com foco na experiência de uma jovem negra e pobre no Rio de Janeiro do início do século XX. A obra critica a hipocrisia da sociedade da época, que, apesar da abolição da escravidão, mantinha estruturas de discriminação e desigualdade.\n\n**Com base nessas informações e em seus conhecimentos sobre o romance Clara dos Anjos, de Lima Barreto, julgue as seguintes afirmativas sobre a obra e a sociedade que ela representa.**\n\nI – A trajetória de Clara é apresentada como um exemplo do determinismo social e racial, em que sua condição de mulher mulata e pobre a predispõe a um destino trágico, independentemente de suas virtudes pessoais.\n\nII – A impunidade de Cassi Jones, o sedutor, é garantida não apenas por sua própria astúcia, mas principalmente pela cumplicidade de sua mãe, Dona Salustiana, e por uma estrutura social que naturaliza a agressão a mulheres não-brancas.\n\nIII – O subúrbio, local em que a narrativa transcorre, é retratado por Lima Barreto como um espaço de solidariedade comunitária e pureza moral, que se contrapõe à decadência do centro urbano do Rio de Janeiro.\n\n**Está(ão) correta(as):**",
+      "options": [
+        {
+          "text": "I e II, apenas.",
+          "explanation": "Correta. Clara, moça mulata e pobre, é seduzida e abandonada, e o romance mostra que cor e classe pesam mais que suas qualidades (I). Cassi Jones, branco e de família mais bem situada, escapa sempre das consequências, protegido pela mãe, Dona Salustiana, e por uma sociedade que não leva a sério a honra das moças negras e mulatas (II). A III é falsa: o subúrbio aparece sem idealização, com pobreza, precariedade e mazelas morais."
+        },
+        {
+          "text": "I e III, apenas.",
+          "explanation": "A I é verdadeira, mas a III não: Lima Barreto descreve o subúrbio de forma crítica, com miséria, abandono e personagens de moral duvidosa, e não como um reduto de pureza. A II, verdadeira, ficou de fora."
+        },
+        {
+          "text": "II e III, apenas.",
+          "explanation": "A II é verdadeira, mas a III idealiza o subúrbio, o que o romance não faz. A I, verdadeira, ficou de fora."
+        },
+        {
+          "text": "III, apenas.",
+          "explanation": "A III é justamente a falsa: o subúrbio de Clara dos Anjos é retratado com suas carências e vícios, não como espaço de pureza moral oposto a um centro decadente."
+        },
+        {
+          "text": "I, II e III.",
+          "explanation": "I e II estão de acordo com a obra, mas a III não: o olhar de Lima Barreto sobre o subúrbio é realista e crítico, sem a idealização que a afirmativa descreve."
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "key": "pave-2025-e3-q28",
+      "source": "PAVE 2025 – Etapa 3, questão 28 (UFPel)",
+      "kind": "Objective",
+      "subject": "arte",
+      "statement": "Os filmes O Que é Isso, Companheiro? (1997), de Bruno Barreto, e Ainda Estou Aqui (2024), de Walter Salles, são duas importantes obras do cinema brasileiro que abordam o período da Ditadura Militar (1964-1985). Ambas as produções são adaptações de livros homônimos, escritos, respectivamente, por Fernando Gabeira e Marcelo Rubens Paiva, e representam diferentes momentos e perspectivas na elaboração cinematográfica desse trauma histórico.\n\n**Qual alternativa descreve com maior precisão a principal diferença na abordagem narrativa entre os dois filmes?**",
+      "options": [
+        {
+          "text": "Ambos os filmes apresentam uma visão idealizada e heroica da resistência, tratando os personagens da oposição como heróis íntegros e o regime militar como uma força unicamente vil, o que demonstra que a abordagem do cinema sobre o tema permaneceu inalterada ao longo das décadas.",
+          "explanation": "A pergunta pede a diferença entre os filmes, e a alternativa afirma que eles são iguais. As abordagens são distintas: um acompanha militantes da luta armada, o outro a família de um desaparecido político."
+        },
+        {
+          "text": "O Que é Isso, Companheiro? é uma obra de pura ficção, com grande liberdade criativa para realizar um filme focado na ação; Ainda Estou Aqui é um documentário fiel aos fatos, e constrói sua narrativa apenas por meio de imagens de arquivo e depoimentos.",
+          "explanation": "Nenhuma das duas classificações procede: ambos são longas de ficção baseados em livros de memórias sobre fatos reais. Ainda Estou Aqui não é documentário; é um drama encenado por atores."
+        },
+        {
+          "text": "O Que é Isso, Companheiro? faz uma abordagem sentimental e focada no drama familiar; Ainda Estou Aqui tem uma perpectiva mais fria, estratégica e de ação política direta.",
+          "explanation": "As características estão trocadas: é O Que é Isso, Companheiro? que trata de ação política direta (o sequestro de um embaixador), enquanto o drama familiar é o centro de Ainda Estou Aqui."
+        },
+        {
+          "text": "O Que é Isso, Companheiro? foca no protagonismo da luta armada, tratando a violência como uma tática de resistência; Ainda Estou Aqui tem seu foco nas consequências do terrorismo de Estado, centrando-se no protagonismo da vítima e de sua família (a busca por um desaparecido) e na luta por memória e justiça.",
+          "explanation": "Correta. O filme de Bruno Barreto reconstitui o sequestro do embaixador dos Estados Unidos por grupos da luta armada, em 1969, do ponto de vista dos militantes. O de Walter Salles acompanha Eunice Paiva e os filhos depois que o ex-deputado Rubens Paiva é levado por agentes da ditadura e desaparece, em 1971, e a longa busca da família por verdade e reconhecimento."
+        },
+        {
+          "text": "O Que é Isso, Companheiro? aborda a dimensão internacional da ditadura, através do sequestro de um embaixador americano; Ainda Estou Aqui se restringe a um drama estritamente privado e familiar, sem implicações políticas mais amplas.",
+          "explanation": "A segunda parte é falsa: a história da família Paiva não é um drama apenas privado; ela expõe a violência do Estado e a luta por memória e justiça, questões políticas que dizem respeito a todo o país."
+        }
+      ],
+      "correct": "D"
+    },
+    {
+      "key": "pave-2025-e3-q29",
+      "source": "PAVE 2025 – Etapa 3, questão 29 (UFPel)",
+      "kind": "Objective",
+      "subject": "literatura",
+      "statement": "Na planície avermelhada os juazeiros alargavam duas manchas verdes. Os infelizes tinham caminhado o dia inteiro, estavam cansados e famintos. Ordinariamente andavam pouco, mas como haviam repousado bastante na areia do rio seco, a viagem progredira bem três léguas. Fazia horas que procuravam uma sombra. A folhagem dos juazeiros apareceu longe, através dos galhos pelados da caatinga rala.\n\nArrastaram-se para lá, devagar, Sinha Vitória com o filho mais novo escanchado no quarto e o baú de folha na cabeça, Fabiano sombrio, cambaio, o aió a tiracolo, a cuia pendurada numa correia presa ao cinturão, a espingarda de pederneira no ombro. O menino mais velho e a cachorra Baleia iam atrás.\n\nReferência: RAMOS, Graciliano. **Vidas Secas**. Disponível em: https://jornal.usp.br/cultura/vidas-secas-denuncia-o-descaso-social-e-a-exploracao-humana/. Acesso em: 03/07/2025.\n\nO trecho acima, que abre o primeiro capítulo de Vidas Secas, sintetiza a saga da família de Fabiano. **Com base nele, julgue as afirmativas como Verdadeiras (V) ou Falsas (F).**\n\n( ) O uso do verbo “arrastar-se” e a descrição física dos personagens sugerem um cansaço extremo, como se a família perdesse sua humanidade.\n\n( ) A visão distante dos juazeiros representa a busca desesperada por um alívio imediato e temporário, como a sombra, e não uma solução definitiva para a miséria.\n\n( ) A cena da família em fila retrata um grupo unido pela necessidade e pelo destino comum, mas o sofrimento é vivido de forma individual.\n\n( ) O narrador mantém uma postura neutra, sem usar palavras que demonstrem juízo de valor ou o sofrimento dos personagens.\n\n( ) A descrição de Fabiano o estabelece como um líder heroico e determinado.",
+      "options": [
+        {
+          "text": "V – F – V – F – V",
+          "explanation": "Erra a segunda e a quinta: os juazeiros significam apenas uma sombra, alívio passageiro (verdadeira), e Fabiano é descrito como “sombrio, cambaio”, imagem de abatimento, não de líder heroico (falsa)."
+        },
+        {
+          "text": "F – F – V – F – V",
+          "explanation": "Erra a primeira, a segunda e a quinta: “arrastaram-se” sugere exaustão e animalização (verdadeira), a sombra dos juazeiros é só um alívio temporário (verdadeira) e Fabiano nada tem de heroico (falsa)."
+        },
+        {
+          "text": "V – V – F – V – F",
+          "explanation": "Erra a terceira e a quarta: a família caminha junta, mas cada um carrega seu fardo em silêncio (verdadeira), e o narrador não é neutro, pois chama os personagens de “os infelizes” e os descreve “cansados e famintos” (falsa)."
+        },
+        {
+          "text": "F – V – F – V – F",
+          "explanation": "Erra a primeira, a terceira e a quarta: o verbo “arrastar-se” indica cansaço extremo e desumanização (verdadeira), o sofrimento é vivido individualmente dentro do grupo (verdadeira) e o narrador revela juízo de valor ao dizer “os infelizes” (falsa)."
+        },
+        {
+          "text": "V – V – V – F – F",
+          "explanation": "Correta. “Arrastaram-se” e o retrato dos corpos carregados e exaustos aproximam a família de bichos (V); os juazeiros oferecem só uma sombra, alívio momentâneo (V); todos seguem juntos, mas calados, cada qual com seu peso (V). O narrador não é neutro, pois usa “os infelizes” e “cansados e famintos” (F), e Fabiano aparece “sombrio, cambaio”, sem nenhum traço heroico (F)."
+        }
+      ],
+      "correct": "E"
+    },
+    {
+      "key": "pave-2025-e3-q30-es",
+      "source": "PAVE 2025 – Etapa 3, questão 30, espanhol (UFPel)",
+      "kind": "Objective",
+      "subject": "espanhol",
+      "statement": "**Leia um trecho da reportagem “Cien años de soledad en Netflix despierta más elogios que críticas en Colombia” e responda às questões 30, 31 e 32.**\n\nEn apenas dos semanas, la serie de Cien años de soledad, basada en la obra cumbre del premio Nobel de literatura, Gabriel García Márquez, se ha mantenido en el top 10 global de series de habla no inglesa en Netflix. También ha calado en las conversaciones cotidianas en el país de origen del escritor, con opiniones de quienes se han sumergido en la historia de la familia Buendía, los tormentos, amores y guerras a lo largo de siete generaciones de la estirpe y el realismo mágico de Macondo, esta vez no en las páginas del libro que se publicó en 1967, sino en las pantallas. La producción, dirigida por la colombiana Laura Mora y el argentino Alex García López, se grabó en Colombia con el respaldo de la familia de Gabo y se estrenó el pasado 11 de diciembre en 190 países.\n\nAdemás de ser considerada una obra maestra de la literatura hispanoamericana y universal, Cien años de soledad ha tenido una incalculable trascendencia popular. “Las novelas de García Márquez han sido muy amadas por el público, ni siquiera queridas o leídas, sino verdaderamente amadas por la gente, entonces son muy personales”, explica el escritor colombiano Ricardo Silva. Producir la serie, además de respetar la obra en sí, implicaba tocar una fibra: invadir, de cierto modo, la imagen que han creado millones de lectores sobre los personajes de Macondo, a partir de una interpretación propia.\n\nSilva Romero opina que la versión de Netflix es respetuosa con la creación original y logra una puesta en escena justa, a la altura del libro. “El solo hecho de que hayan construido el pueblo completamente señala que no es un ejercicio cínico. Lo hicieron con todas las de la ley, con todo el compromiso, con la gente que podía escribirla bien, dirigirla bien; gente sensible a la obra, humilde ante la obra. Eso garantiza que cuando uno la está viendo no se sienta estafado”, asegura. El equipo de producción estuvo integrado por más de 900 personas y el set principal se ubicó en un terreno de 540.000 metros cuadrados. “Difícilmente se podía hacer mejor”, remarca.\n\nCien años de soledad define a los latinoamericanos. Por eso, es natural que Colombia y la región concentren el público más exigente, apunta el crítico de cine Samuel Castro. “Cuando los latinoamericanos leímos la novela era como si nos estuvieran explicando el mundo, como si esas cosas extrañas que nos pasan, nuestra idiosincrasia y naturaleza, estuvieran ahí. Ese era el reto más grande y la serie lo cumple, no perfectamente, pero sí de manera sobresaliente”, señala el colombiano.\n\nLa segunda temporada llegará en junio de 2025 con ocho episodios, el mismo número de la primera temporada. “El destino de estas obras maestras es ser recreadas de mil maneras y creo que incluso es la demostración de que son obras maestras que trascienden la lectura misma. Uno sabe desde muy niño quiénes son el Quijote y Sancho Panza, así no se haya leído Don Quijote. Esos personajes son tan arquetípicos, tan logrados, que se salen de los textos”, subraya Ricardo Silva. En cualquier caso, la expresión única de Gabriel García Márquez siempre hará volver la atención hacia una de sus obras más emblemáticas. “El libro siempre va a ser mucho más grande que todos nosotros y nos va a generar muchas más imágenes de las que podemos recrear”, puntualiza Mora, la directora colombiana.\n\nReferência: adaptado de https://elpais.com/america-colombia/2024-12-26/cien-anos-de-soledad-en-netflix-despierta-mas-elogios-que-criticas-en-colombia.html. Acesso em: 04/07/2025.\n\n**De acordo com o texto, qual (quais) desafio(s) houve na adaptação de Cien años de soledad para a série da Netflix?**",
+      "options": [
+        {
+          "text": "Recriar a imagem que os leitores já tinham dos personagens.",
+          "explanation": "Correta. O segundo parágrafo diz que produzir a série “implicaba tocar una fibra: invadir, de cierto modo, la imagen que han creado millones de lectores sobre los personajes de Macondo”, ou seja, mexer com a imagem que milhões de leitores já tinham criado dos personagens."
+        },
+        {
+          "text": "Adaptar a história para o público norte-americano.",
+          "explanation": "O texto não fala em adaptar a história ao público dos Estados Unidos; diz que a série foi gravada na Colômbia, com apoio da família do autor, e aparece entre as séries “de habla no inglesa”."
+        },
+        {
+          "text": "Encontrar atores conhecidos na América Latina.",
+          "explanation": "Não há nenhuma menção à escolha de atores famosos; o texto destaca a equipe de mais de 900 pessoas e a construção completa do povoado de Macondo."
+        },
+        {
+          "text": "Condensar a narrativa em apenas uma temporada.",
+          "explanation": "O texto informa o contrário: “La segunda temporada llegará en junio de 2025 con ocho episodios”, portanto a história não foi condensada em uma única temporada."
+        },
+        {
+          "text": "Todas as alternativas estão corretas.",
+          "explanation": "Apenas o desafio de lidar com a imagem que os leitores já tinham dos personagens aparece no texto; público norte-americano, atores conhecidos e temporada única não são mencionados."
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "key": "pave-2025-e3-q30-en",
+      "source": "PAVE 2025 – Etapa 3, questão 30, inglês (UFPel)",
+      "kind": "Objective",
+      "subject": "ingles",
+      "statement": "**Leia o texto a seguir para responder às questões 30, 31 e 32.**\n\n**Professor uses ChatGPT for lectures, students demand tuition fee refund**\n\n```\n 1    A professor at Northeastern University, Boston, USA, is facing backlash after students discovered\n 2  he used AI tools to prepare lecture content – despite telling them not to use such tools themselves.\n 3    Rick Arrowood, who teaches business, reportedly relied on platforms like ChatGPT, Perplexity, and\n 4  Gamma to create class notes and visuals. His actions came to light after Ella Stapleton, a business\n 5  student, noticed several unusual elements in the materials shared during class.\n 6    “There were spelling mistakes, weird pictures with too many fingers, and even a line that mentioned\n 7  a ChatGPT search,” Stapleton told The New York Times. “He was warning us against using AI, but\n 8  he was using it all along.”\n 9    Feeling misled, Stapleton approached university officials. She asked for a refund of her $8,000 tui-\n10  tion. However, after several discussions with the administration, which lasted until she completed her\n11  course this month, her request was denied.\n12    Arrowood admitted to using AI to assist with his teaching. He said the aim was to make lessons\n13  more engaging. While he did check the content before presenting it, he missed some AI-related\n14  errors. “Looking back, I should have reviewed the material more carefully,” he told The Times.\n15    The issue has started a broader conversation about the use of artificial intelligence in education.\n16  Some students argue it’s unfair for professors to use tools they restrict in assignments. Others feel\n17  that educators should be open about how such tools are used in the classroom.\n18    Arrowood now agrees that faculty members should be more honest with students when using AI.\n19  He hopes his case will help others navigate these questions in the future. “If people can learn from\n20  what happened to me, then I’m OK with that,” he said. Northeastern University has not commented\n21  publicly on the matter.\n22    The situation reflects a growing concern across universities about the role of AI in academics. As\n23  tools like ChatGPT become more common, both students and faculty are struggling to set clear rules.\n24  For now, the debate continues: Should the same standards apply to everyone in the classroom when\n25  it comes to AI use?\n```\n\nReferência: adaptado de https://www.indiatoday.in/education-today/news/story/professor-uses-chatgpt-for-lectures-students-demand-tuition-fee-refund-2726913-2025-05-19. Acesso em: 29/06/2025.\n\nQual das alternativas abaixo traz uma afirmação que **NÃO** está expressa no texto “Professor uses ChatGPT for lectures, students demand tuition fee refund”?",
+      "options": [
+        {
+          "text": "O autor do texto acredita que o uso de ferramentas de inteligência artificial deve ser permitido somente para estudantes, uma vez que eles são os que mais se beneficiam.",
+          "explanation": "Correta. Essa afirmação não está no texto: o autor não dá opinião própria nem defende o uso exclusivo por estudantes. Ele relata o caso, registra posições de alunos (“it’s unfair for professors to use tools they restrict”) e termina com uma pergunta em aberto sobre regras iguais para todos."
+        },
+        {
+          "text": "O debate gerado pelo uso de inteligência artificial em sala de aula é visto como algo positivo pelo professor Arrowood.",
+          "explanation": "Está no texto (linhas 19-20): Arrowood espera que seu caso ajude outras pessoas e diz “If people can learn from what happened to me, then I’m OK with that” (se as pessoas puderem aprender com o que aconteceu comigo, por mim tudo bem)."
+        },
+        {
+          "text": "Ella Stapleton sentiu-se enganada depois de notar uma série de problemas nos materiais das aulas que ela estava fazendo.",
+          "explanation": "Está no texto: Stapleton notou erros de ortografia, imagens estranhas e até a menção a uma busca no ChatGPT (linhas 6-7) e, “feeling misled” (sentindo-se enganada), procurou a universidade (linha 9)."
+        },
+        {
+          "text": "Ainda que exista uma grande preocupação nas universidades, não há consenso sobre o uso de ferramentas de inteligência artificial no contexto educacional.",
+          "explanation": "Está no texto (linhas 22-25): há “a growing concern across universities”, alunos e professores “are struggling to set clear rules” e “the debate continues”, isto é, ainda não há regras claras nem consenso."
+        },
+        {
+          "text": "O professor Arrowood admite o uso de ferramentas de inteligência artificial e, em retrospecto, entende que deveria ter tido mais cuidado com os materiais criados por elas.",
+          "explanation": "Está no texto (linhas 12-14): “Arrowood admitted to using AI” e “Looking back, I should have reviewed the material more carefully” (olhando para trás, eu deveria ter revisado o material com mais cuidado)."
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "key": "pave-2025-e3-q31-es",
+      "source": "PAVE 2025 – Etapa 3, questão 31, espanhol (UFPel)",
+      "kind": "Objective",
+      "subject": "espanhol",
+      "statement": "**Leia um trecho da reportagem “Cien años de soledad en Netflix despierta más elogios que críticas en Colombia” e responda às questões 30, 31 e 32.**\n\nEn apenas dos semanas, la serie de Cien años de soledad, basada en la obra cumbre del premio Nobel de literatura, Gabriel García Márquez, se ha mantenido en el top 10 global de series de habla no inglesa en Netflix. También ha calado en las conversaciones cotidianas en el país de origen del escritor, con opiniones de quienes se han sumergido en la historia de la familia Buendía, los tormentos, amores y guerras a lo largo de siete generaciones de la estirpe y el realismo mágico de Macondo, esta vez no en las páginas del libro que se publicó en 1967, sino en las pantallas. La producción, dirigida por la colombiana Laura Mora y el argentino Alex García López, se grabó en Colombia con el respaldo de la familia de Gabo y se estrenó el pasado 11 de diciembre en 190 países.\n\nAdemás de ser considerada una obra maestra de la literatura hispanoamericana y universal, Cien años de soledad ha tenido una incalculable trascendencia popular. “Las novelas de García Márquez han sido muy amadas por el público, ni siquiera queridas o leídas, sino verdaderamente amadas por la gente, entonces son muy personales”, explica el escritor colombiano Ricardo Silva. Producir la serie, además de respetar la obra en sí, implicaba tocar una fibra: invadir, de cierto modo, la imagen que han creado millones de lectores sobre los personajes de Macondo, a partir de una interpretación propia.\n\nSilva Romero opina que la versión de Netflix es respetuosa con la creación original y logra una puesta en escena justa, a la altura del libro. “El solo hecho de que hayan construido el pueblo completamente señala que no es un ejercicio cínico. Lo hicieron con todas las de la ley, con todo el compromiso, con la gente que podía escribirla bien, dirigirla bien; gente sensible a la obra, humilde ante la obra. Eso garantiza que cuando uno la está viendo no se sienta estafado”, asegura. El equipo de producción estuvo integrado por más de 900 personas y el set principal se ubicó en un terreno de 540.000 metros cuadrados. “Difícilmente se podía hacer mejor”, remarca.\n\nCien años de soledad define a los latinoamericanos. Por eso, es natural que Colombia y la región concentren el público más exigente, apunta el crítico de cine Samuel Castro. “Cuando los latinoamericanos leímos la novela era como si nos estuvieran explicando el mundo, como si esas cosas extrañas que nos pasan, nuestra idiosincrasia y naturaleza, estuvieran ahí. Ese era el reto más grande y la serie lo cumple, no perfectamente, pero sí de manera sobresaliente”, señala el colombiano.\n\nLa segunda temporada llegará en junio de 2025 con ocho episodios, el mismo número de la primera temporada. “El destino de estas obras maestras es ser recreadas de mil maneras y creo que incluso es la demostración de que son obras maestras que trascienden la lectura misma. Uno sabe desde muy niño quiénes son el Quijote y Sancho Panza, así no se haya leído Don Quijote. Esos personajes son tan arquetípicos, tan logrados, que se salen de los textos”, subraya Ricardo Silva. En cualquier caso, la expresión única de Gabriel García Márquez siempre hará volver la atención hacia una de sus obras más emblemáticas. “El libro siempre va a ser mucho más grande que todos nosotros y nos va a generar muchas más imágenes de las que podemos recrear”, puntualiza Mora, la directora colombiana.\n\nReferência: adaptado de https://elpais.com/america-colombia/2024-12-26/cien-anos-de-soledad-en-netflix-despierta-mas-elogios-que-criticas-en-colombia.html. Acesso em: 04/07/2025.\n\n**Segundo o texto, Cien años de soledad pode ser considerada uma obra que**",
+      "options": [
+        {
+          "text": "retrata fielmente a cultura europeia.",
+          "explanation": "O texto liga a obra à América Latina, não à Europa: “Cien años de soledad define a los latinoamericanos”."
+        },
+        {
+          "text": "representa a identidade e a realidade latino-americanas.",
+          "explanation": "Correta. O quarto parágrafo afirma que a obra “define a los latinoamericanos” e que, ao lê-la, era como se ali estivessem “nuestra idiosincrasia y naturaleza” (nosso modo de ser e nossa natureza)."
+        },
+        {
+          "text": "não é bem compreendida fora da Colômbia.",
+          "explanation": "O texto a chama de obra-prima da literatura “hispanoamericana y universal”, e a série estreou em 190 países e ficou no top 10 global; nada indica incompreensão fora da Colômbia."
+        },
+        {
+          "text": "apresenta uma linguagem acessível apenas a estudiosos.",
+          "explanation": "O texto destaca a “incalculable trascendencia popular” da obra e diz que os romances de García Márquez são “muy amadas por el público”, o oposto de uma leitura restrita a especialistas."
+        },
+        {
+          "text": "possui personagens pouco memoráveis.",
+          "explanation": "O texto diz que milhões de leitores criaram uma imagem própria dos personagens de Macondo, sinal de que são marcantes; Ricardo Silva ainda compara a obra a Dom Quixote, cujos personagens “se salen de los textos”."
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "key": "pave-2025-e3-q31-en",
+      "source": "PAVE 2025 – Etapa 3, questão 31, inglês (UFPel)",
+      "kind": "Objective",
+      "subject": "ingles",
+      "statement": "**Leia o texto a seguir para responder às questões 30, 31 e 32.**\n\n**Professor uses ChatGPT for lectures, students demand tuition fee refund**\n\n```\n 1    A professor at Northeastern University, Boston, USA, is facing backlash after students discovered\n 2  he used AI tools to prepare lecture content – despite telling them not to use such tools themselves.\n 3    Rick Arrowood, who teaches business, reportedly relied on platforms like ChatGPT, Perplexity, and\n 4  Gamma to create class notes and visuals. His actions came to light after Ella Stapleton, a business\n 5  student, noticed several unusual elements in the materials shared during class.\n 6    “There were spelling mistakes, weird pictures with too many fingers, and even a line that mentioned\n 7  a ChatGPT search,” Stapleton told The New York Times. “He was warning us against using AI, but\n 8  he was using it all along.”\n 9    Feeling misled, Stapleton approached university officials. She asked for a refund of her $8,000 tui-\n10  tion. However, after several discussions with the administration, which lasted until she completed her\n11  course this month, her request was denied.\n12    Arrowood admitted to using AI to assist with his teaching. He said the aim was to make lessons\n13  more engaging. While he did check the content before presenting it, he missed some AI-related\n14  errors. “Looking back, I should have reviewed the material more carefully,” he told The Times.\n15    The issue has started a broader conversation about the use of artificial intelligence in education.\n16  Some students argue it’s unfair for professors to use tools they restrict in assignments. Others feel\n17  that educators should be open about how such tools are used in the classroom.\n18    Arrowood now agrees that faculty members should be more honest with students when using AI.\n19  He hopes his case will help others navigate these questions in the future. “If people can learn from\n20  what happened to me, then I’m OK with that,” he said. Northeastern University has not commented\n21  publicly on the matter.\n22    The situation reflects a growing concern across universities about the role of AI in academics. As\n23  tools like ChatGPT become more common, both students and faculty are struggling to set clear rules.\n24  For now, the debate continues: Should the same standards apply to everyone in the classroom when\n25  it comes to AI use?\n```\n\nReferência: adaptado de https://www.indiatoday.in/education-today/news/story/professor-uses-chatgpt-for-lectures-students-demand-tuition-fee-refund-2726913-2025-05-19. Acesso em: 29/06/2025.\n\n**Qual das alternativas abaixo poderia substituir o período “However, after several discussions with the administration, which lasted until she completed her course this month, her request was denied” (l. 10-11) sem alterar o seu sentido no texto?**",
+      "options": [
+        {
+          "text": "Finishing this month, she had her request denied by the administration, before the end of her course.",
+          "explanation": "Diz que o pedido foi negado antes do fim do curso e omite as conversas; no original, as discussões duraram até ela concluir o curso (“lasted until she completed her course”), e só então veio a negativa."
+        },
+        {
+          "text": "Throughout her course, though, that finished this month, she had multiple encounters with the administration, which did not grant her plea.",
+          "explanation": "Correta. “Though” retoma o contraste de “however”; “multiple encounters with the administration” equivale a “several discussions”; “throughout her course... that finished this month” mantém a ideia de que as conversas se estenderam até o fim do curso; e “did not grant her plea” (não atendeu ao seu pedido) equivale a “her request was denied”."
+        },
+        {
+          "text": "Although the administration denied her order, she did not finish her course this month.",
+          "explanation": "Afirma que ela não terminou o curso, quando o original diz que ela o concluiu neste mês (“she completed her course this month”); além disso, “order” (ordem) não é o mesmo que “request” (pedido)."
+        },
+        {
+          "text": "She wanted her money back, but the administration granted her request after the end of her course.",
+          "explanation": "“Granted her request” significa que o pedido foi atendido, o contrário de “her request was denied” (o pedido foi negado)."
+        },
+        {
+          "text": "During the many meetings she had with the administration after the end of her course, her request was not granted.",
+          "explanation": "Coloca as reuniões depois do fim do curso (“after the end of her course”); no original elas aconteceram antes e duraram até a conclusão (“until she completed her course”)."
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "key": "pave-2025-e3-q32-es",
+      "source": "PAVE 2025 – Etapa 3, questão 32, espanhol (UFPel)",
+      "kind": "Objective",
+      "subject": "espanhol",
+      "statement": "**Leia um trecho da reportagem “Cien años de soledad en Netflix despierta más elogios que críticas en Colombia” e responda às questões 30, 31 e 32.**\n\nEn apenas dos semanas, la serie de Cien años de soledad, basada en la obra cumbre del premio Nobel de literatura, Gabriel García Márquez, se ha mantenido en el top 10 global de series de habla no inglesa en Netflix. También ha calado en las conversaciones cotidianas en el país de origen del escritor, con opiniones de quienes se han sumergido en la historia de la familia Buendía, los tormentos, amores y guerras a lo largo de siete generaciones de la estirpe y el realismo mágico de Macondo, esta vez no en las páginas del libro que se publicó en 1967, sino en las pantallas. La producción, dirigida por la colombiana Laura Mora y el argentino Alex García López, se grabó en Colombia con el respaldo de la familia de Gabo y se estrenó el pasado 11 de diciembre en 190 países.\n\nAdemás de ser considerada una obra maestra de la literatura hispanoamericana y universal, Cien años de soledad ha tenido una incalculable trascendencia popular. “Las novelas de García Márquez han sido muy amadas por el público, ni siquiera queridas o leídas, sino verdaderamente amadas por la gente, entonces son muy personales”, explica el escritor colombiano Ricardo Silva. Producir la serie, además de respetar la obra en sí, implicaba tocar una fibra: invadir, de cierto modo, la imagen que han creado millones de lectores sobre los personajes de Macondo, a partir de una interpretación propia.\n\nSilva Romero opina que la versión de Netflix es respetuosa con la creación original y logra una puesta en escena justa, a la altura del libro. “El solo hecho de que hayan construido el pueblo completamente señala que no es un ejercicio cínico. Lo hicieron con todas las de la ley, con todo el compromiso, con la gente que podía escribirla bien, dirigirla bien; gente sensible a la obra, humilde ante la obra. Eso garantiza que cuando uno la está viendo no se sienta estafado”, asegura. El equipo de producción estuvo integrado por más de 900 personas y el set principal se ubicó en un terreno de 540.000 metros cuadrados. “Difícilmente se podía hacer mejor”, remarca.\n\nCien años de soledad define a los latinoamericanos. Por eso, es natural que Colombia y la región concentren el público más exigente, apunta el crítico de cine Samuel Castro. “Cuando los latinoamericanos leímos la novela era como si nos estuvieran explicando el mundo, como si esas cosas extrañas que nos pasan, nuestra idiosincrasia y naturaleza, estuvieran ahí. Ese era el reto más grande y la serie lo cumple, no perfectamente, pero sí de manera sobresaliente”, señala el colombiano.\n\nLa segunda temporada llegará en junio de 2025 con ocho episodios, el mismo número de la primera temporada. “El destino de estas obras maestras es ser recreadas de mil maneras y creo que incluso es la demostración de que son obras maestras que trascienden la lectura misma. Uno sabe desde muy niño quiénes son el Quijote y Sancho Panza, así no se haya leído Don Quijote. Esos personajes son tan arquetípicos, tan logrados, que se salen de los textos”, subraya Ricardo Silva. En cualquier caso, la expresión única de Gabriel García Márquez siempre hará volver la atención hacia una de sus obras más emblemáticas. “El libro siempre va a ser mucho más grande que todos nosotros y nos va a generar muchas más imágenes de las que podemos recrear”, puntualiza Mora, la directora colombiana.\n\nReferência: adaptado de https://elpais.com/america-colombia/2024-12-26/cien-anos-de-soledad-en-netflix-despierta-mas-elogios-que-criticas-en-colombia.html. Acesso em: 04/07/2025.\n\n**No trecho “el destino de estas obras maestras es ser recreadas de mil maneras”, o termo “recreadas” está mais próximo de qual palavra em português?**",
+      "options": [
+        {
+          "text": "Criticadas.",
+          "explanation": "“Recrear” não é criticar (em espanhol, “criticar”). O trecho fala de obras-primas que ganham novas versões, não de obras que recebem críticas."
+        },
+        {
+          "text": "Esquecidas.",
+          "explanation": "É o sentido oposto: ser recriada de mil maneiras mantém a obra viva. Esquecidas seria “olvidadas”."
+        },
+        {
+          "text": "Reformuladas.",
+          "explanation": "Correta. “Recrear” é criar de novo: as obras-primas estão destinadas a ser recriadas, refeitas de mil maneiras, como na adaptação do livro para a série. Entre as opções, “reformuladas” (feitas de novo, em outra forma) é a que mantém essa ideia."
+        },
+        {
+          "text": "Censuradas.",
+          "explanation": "Censurar é proibir ou cortar (em espanhol, “censurar”); o trecho trata de multiplicar as versões da obra, não de impedi-las."
+        },
+        {
+          "text": "Eliminadas.",
+          "explanation": "Eliminar é fazer desaparecer, o contrário de recriar; o texto diz que essas obras transcendem a leitura e seguem ganhando novas formas."
+        }
+      ],
+      "correct": "C"
+    },
+    {
+      "key": "pave-2025-e3-q32-en",
+      "source": "PAVE 2025 – Etapa 3, questão 32, inglês (UFPel)",
+      "kind": "Objective",
+      "subject": "ingles",
+      "statement": "**Leia o texto a seguir para responder às questões 30, 31 e 32.**\n\n**Professor uses ChatGPT for lectures, students demand tuition fee refund**\n\n```\n 1    A professor at Northeastern University, Boston, USA, is facing backlash after students discovered\n 2  he used AI tools to prepare lecture content – despite telling them not to use such tools themselves.\n 3    Rick Arrowood, who teaches business, reportedly relied on platforms like ChatGPT, Perplexity, and\n 4  Gamma to create class notes and visuals. His actions came to light after Ella Stapleton, a business\n 5  student, noticed several unusual elements in the materials shared during class.\n 6    “There were spelling mistakes, weird pictures with too many fingers, and even a line that mentioned\n 7  a ChatGPT search,” Stapleton told The New York Times. “He was warning us against using AI, but\n 8  he was using it all along.”\n 9    Feeling misled, Stapleton approached university officials. She asked for a refund of her $8,000 tui-\n10  tion. However, after several discussions with the administration, which lasted until she completed her\n11  course this month, her request was denied.\n12    Arrowood admitted to using AI to assist with his teaching. He said the aim was to make lessons\n13  more engaging. While he did check the content before presenting it, he missed some AI-related\n14  errors. “Looking back, I should have reviewed the material more carefully,” he told The Times.\n15    The issue has started a broader conversation about the use of artificial intelligence in education.\n16  Some students argue it’s unfair for professors to use tools they restrict in assignments. Others feel\n17  that educators should be open about how such tools are used in the classroom.\n18    Arrowood now agrees that faculty members should be more honest with students when using AI.\n19  He hopes his case will help others navigate these questions in the future. “If people can learn from\n20  what happened to me, then I’m OK with that,” he said. Northeastern University has not commented\n21  publicly on the matter.\n22    The situation reflects a growing concern across universities about the role of AI in academics. As\n23  tools like ChatGPT become more common, both students and faculty are struggling to set clear rules.\n24  For now, the debate continues: Should the same standards apply to everyone in the classroom when\n25  it comes to AI use?\n```\n\nReferência: adaptado de https://www.indiatoday.in/education-today/news/story/professor-uses-chatgpt-for-lectures-students-demand-tuition-fee-refund-2726913-2025-05-19. Acesso em: 29/06/2025.\n\n**Qual a classe gramatical e qual a função discursiva desempenhada pela palavra “like” (l.23)?**",
+      "options": [
+        {
+          "text": "verbo – exemplificação.",
+          "explanation": "A função está certa, mas a classe não: em “tools like ChatGPT” a palavra não é o verbo “to like” (gostar); o verbo da oração é “become”."
+        },
+        {
+          "text": "verbo – conclusão.",
+          "explanation": "“Like” aqui não é verbo nem introduz conclusão: ele liga “tools” a um exemplo, “ChatGPT”."
+        },
+        {
+          "text": "preposição – exemplificação.",
+          "explanation": "Correta. Em “tools like ChatGPT become more common” (ferramentas como o ChatGPT se tornam mais comuns), “like” é preposição, equivalente a “como” ou “such as”, e introduz um exemplo do tipo de ferramenta de que se fala."
+        },
+        {
+          "text": "adjetivo – qualificação.",
+          "explanation": "“Like” não atribui qualidade a “tools”; ele introduz o substantivo “ChatGPT” como exemplo, papel de preposição."
+        },
+        {
+          "text": "substantivo – nomeação.",
+          "explanation": "Como substantivo, “like” seria uma “curtida” ou algo semelhante; na linha 23 a palavra não nomeia nada, apenas introduz o exemplo “ChatGPT”."
+        }
+      ],
+      "correct": "C"
+    }
+  ]
+}

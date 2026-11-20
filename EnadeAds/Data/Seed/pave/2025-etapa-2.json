@@ -1,0 +1,966 @@
+{
+  "year": 2025,
+  "track": "pave-2",
+  "questions": [
+    {
+      "key": "pave-2025-e2-q01",
+      "source": "PAVE 2025 – Etapa 2, questão 1 (UFPel)",
+      "kind": "Objective",
+      "subject": "quimica",
+      "statement": "Ao longo de exercícios físicos intensos, a ventilação pulmonar se intensifica devido à maior produção de dióxido de carbono, que posteriormente é expelido pelos pulmões.\n\nReferência: adaptado de MOYES, Christopher; SCHULTE, Patrícia. **Princípios de fisiologia animal**. 2. ed. Porto Alegre: Artmed, 2010.\n\n**Sob a perspectiva da cinética química, a hiperventilação pode ser esclarecida da seguinte maneira:**",
+      "options": [
+        {
+          "text": "Ocorre porque a elevação dos níveis de CO₂ no sangue favorece sua excreção, de acordo com a cinética das reações gasosas.",
+          "explanation": "Correta. Pela cinética, a velocidade de um processo cresce com a concentração (ou a pressão parcial) das espécies envolvidas: com mais CO₂ no sangue, ele passa mais depressa para os alvéolos e é eliminado, e a respiração se acelera para dar conta dessa produção."
+        },
+        {
+          "text": "Ocorre pela redução da reação entre glicose e oxigênio nas mitocôndrias.",
+          "explanation": "No exercício intenso a respiração celular (glicose + O₂) aumenta, e é justamente ela que produz mais CO₂; não há redução dessa reação."
+        },
+        {
+          "text": "Ocorre pela redução do número de choques entre moléculas nos tecidos musculares.",
+          "explanation": "Com mais CO₂ e temperatura mais alta nos músculos em atividade, há mais colisões entre moléculas, não menos; e menos choques tornariam as reações mais lentas, o que não explicaria a hiperventilação."
+        },
+        {
+          "text": "Ocorre pela criação de soluções tampão que agilizam a decomposição do dióxido de carbono em oxigênio.",
+          "explanation": "O tampão do sangue (ácido carbônico/bicarbonato) apenas atenua variações de pH; ele não decompõe CO₂ em oxigênio, reação que não acontece no organismo humano."
+        },
+        {
+          "text": "Ocorre para diminuir a concentração de oxigênio nos alvéolos dos pulmões.",
+          "explanation": "Respirar mais depressa renova o ar dos alvéolos e aumenta a oferta de O₂; a função da hiperventilação é eliminar o excesso de CO₂, não reduzir o oxigênio alveolar."
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "key": "pave-2025-e2-q02",
+      "source": "PAVE 2025 – Etapa 2, questão 2 (UFPel)",
+      "kind": "Objective",
+      "subject": "biologia",
+      "statement": "Em um processo cirúrgico, é habitual que o paciente tenha sua temperatura corporal constantemente acompanhada. Se houver uma queda excessiva dessa temperatura, mecanismos fisiológicos como os tremores musculares são ativados para gerar calor e manter a homeostase.\n\nReferência: adaptado de GUYTON, Arthur C., HALL, John E. **Tratado de fisiologia médica**. 13. ed. Rio de Janeiro: Elsevier, 2017.\n\n**Com base nos seus conhecimentos, é correto afirmar que:**",
+      "options": [
+        {
+          "text": "A variação de temperatura do corpo está associada à dilatação térmica dos músculos, regulada pelo sistema endócrino.",
+          "explanation": "A temperatura corporal não é regulada por dilatação térmica dos músculos: o controle é feito pelo hipotálamo, no sistema nervoso, e os hormônios têm papel apenas complementar."
+        },
+        {
+          "text": "O tremor muscular aumenta a produção de calor por condução, regulando diretamente a pressão arterial.",
+          "explanation": "O tremor gera calor pelo metabolismo das contrações (energia química do ATP convertida em calor), não por condução, e sua função é manter a temperatura, não regular a pressão arterial."
+        },
+        {
+          "text": "Os tremores por frio são uma resposta integrada do sistema nervoso central (hipotálamo) que, através do sistema nervoso autônomo e somático, induz contrações involuntárias nos músculos esqueléticos para gerar calor.",
+          "explanation": "Correta. O hipotálamo funciona como termostato: ao detectar a queda de temperatura, dispara contrações rápidas e involuntárias dos músculos esqueléticos, cujo consumo de ATP libera calor, além de reduzir a perda de calor pela pele."
+        },
+        {
+          "text": "A regulação térmica ocorre apenas por radiação térmica, sendo os tremores um reflexo condicionado consciente do nosso organismo.",
+          "explanation": "O corpo troca calor também por condução, convecção e evaporação, e o tremor é um reflexo inato e involuntário, não condicionado nem consciente."
+        },
+        {
+          "text": "O calor gerado não tem a ver com os fatores biológicos e físicos descritos acima, e sim, com questões relacionadas à vontade do indivíduo.",
+          "explanation": "Os tremores são involuntários: dependem de mecanismos fisiológicos (hipotálamo e músculos) e físicos (produção e troca de calor), e não da vontade da pessoa."
+        }
+      ],
+      "correct": "C"
+    },
+    {
+      "key": "pave-2025-e2-q03",
+      "source": "PAVE 2025 – Etapa 2, questão 3 (UFPel)",
+      "kind": "Objective",
+      "subject": "biologia",
+      "statement": "Sabe-se que a contaminação por vermes, ou verminose, é um problema de saúde pública significativo, especialmente em áreas com saneamento básico precário. A falta de saneamento adequado facilita a disseminação de parasitas, que podem contaminar a água, os alimentos e o solo, levando a infecções em humanos. Doenças como a esquistossomose e a ascaridíase são verminoses popularmente conhecidas no Brasil.\n\nReferência: adaptado de LOPES, Sônia; ROSSO, Sérgio. **Bio**. 3. ed. São Paulo: Saraiva, 2016.\n\n**Assinale a alternativa que relaciona corretamente os vermes causadores das doenças citadas acima no texto aos seus filos, respectivamente.**",
+      "options": [
+        {
+          "text": "Lombriga – Equinodermo; Tenia – Molusco.",
+          "explanation": "A lombriga é um nematelminto, não um equinodermo (filo das estrelas-do-mar), e a tênia é um platelminto, não um molusco; além disso, a tênia causa teníase, doença que o texto não cita."
+        },
+        {
+          "text": "Esquistossomo – Nematelminto (Asquelminto); Tenia – Platelminto.",
+          "explanation": "O esquistossomo é um platelminto (verme achatado), não um nematelminto, e a tênia, embora seja platelminto, causa teníase, e não ascaridíase."
+        },
+        {
+          "text": "Esquistossomo – Platelminto; Lombriga – Nematelminto (Asquelminto).",
+          "explanation": "Correta. A esquistossomose é causada pelo Schistosoma mansoni, um platelminto (verme achatado), e a ascaridíase pelo Ascaris lumbricoides, a lombriga, um nematelminto (verme cilíndrico)."
+        },
+        {
+          "text": "Bicho-geográfico – Anelídeo; Barbeiro – Artrópodo.",
+          "explanation": "O bicho-geográfico é a larva de um nematelminto, não um anelídeo, e o barbeiro é o inseto transmissor da doença de Chagas; nenhum dos dois causa esquistossomose ou ascaridíase."
+        },
+        {
+          "text": "Barbeiro – Anelídeo; Lombriga – Nematelminto (Asquelminto).",
+          "explanation": "Só a segunda parte está certa: o barbeiro é um inseto (artrópode), não um anelídeo, e não tem relação com a esquistossomose, causada por um platelminto."
+        }
+      ],
+      "correct": "C"
+    },
+    {
+      "key": "pave-2025-e2-q04",
+      "source": "PAVE 2025 – Etapa 2, questão 4 (UFPel)",
+      "kind": "Objective",
+      "subject": "fisica",
+      "statement": "O transporte rodoviário de mercadorias é predominante no Brasil. Para a segurança do tráfego nas estradas, os caminhões, entre outros itens, usam espelhos retrovisores com grande campo de visão. Por outro lado, boa parte desses espelhos produz imagens diminuídas dos objetos, o que pode dar a impressão de os veículos sendo vistos atrás do caminhão estarem mais afastados do que realmente estão, provocando riscos.\n\nReferência: MÁXIMO, Antônio; ALVARENGA, Beatriz. **Física contexto & aplicações.** 2º v. 1ª ed. São Paulo: Scipione, 2014.\n\n**Indique entre as alternativas aquela com o tipo de espelho que melhor representa os efeitos, tanto o favorável à segurança quanto o potencialmente desfavorável, descritos no texto.**",
+      "options": [
+        {
+          "text": "Espelho plano grande.",
+          "explanation": "O espelho plano forma imagem do mesmo tamanho do objeto e, para a mesma abertura, tem campo de visão menor que o do convexo; não explica as imagens diminuídas."
+        },
+        {
+          "text": "Espelho côncavo.",
+          "explanation": "O espelho côncavo só dá imagem direita, e ampliada, de objetos muito próximos; para veículos distantes a imagem fica invertida, e o campo de visão é reduzido."
+        },
+        {
+          "text": "Espelho circular plano.",
+          "explanation": "O formato do contorno não muda a óptica: sendo plano, o espelho forma imagem do mesmo tamanho do objeto, sem a redução descrita no texto."
+        },
+        {
+          "text": "Espelho convexo.",
+          "explanation": "Correta. O espelho convexo sempre forma imagem virtual, direita e menor que o objeto: por isso cabe mais cenário no espelho (campo de visão maior), mas os veículos parecem mais distantes do que estão."
+        },
+        {
+          "text": "Espelho oval côncavo.",
+          "explanation": "O contorno oval não altera o tipo de imagem; um espelho côncavo não amplia o campo de visão nem fornece imagens direitas e reduzidas de objetos distantes."
+        }
+      ],
+      "correct": "D"
+    },
+    {
+      "key": "pave-2025-e2-q05",
+      "source": "PAVE 2025 – Etapa 2, questão 5 (UFPel)",
+      "kind": "Objective",
+      "subject": "fisica",
+      "statement": "**Observe a imagem a seguir.**\n\n![Esquema de uma viga horizontal de comprimento L apoiada pelo centro sobre uma pilastra vertical que se apoia no solo; à esquerda e à direita aparecem as pontas de duas outras vigas no mesmo nível, cada uma separada da viga central por um pequeno espaçamento E.](img/pave/2025/etapa-2/q05-1.png)\n\nJuntas de dilatação em uma construção são espaçamentos, separações entre partes da construção preenchidas com material deformável, que permitem a dilatação térmica sem o risco de danos por contato entre essas partes. A figura considera uma situação hipotética de uma pilastra (barra vertical), apoiada no solo, sustentando uma viga (barra horizontal) pelo centro dessa viga. Duas outras vigas horizontais idênticas à primeira, à direita e à esquerda desta, estão parcialmente representadas, afastadas cada uma delas da viga central por uma junta de dilatação. L = 50m é o comprimento das vigas e E é o espaçamento num dia típico de inverno. As vigas são de concreto armado, com coeficiente de dilatação linear aproximado para 10⁻⁵ °C⁻¹ (dez elevado à potência -5 vezes graus Celsius elevados à potência -1). Considere uma variação de temperatura de 40°C entre inverno e verão, o que pode chegar a ocorrer no Rio Grande do Sul.\n\nReferências: MÁXIMO, Antônio; ALVARENGA, Beatriz. **Física contexto & aplicações.** 2º v. 1ª ed. São Paulo: Scipione, 2014.\n\n**Indique a alternativa que melhor aproxima o valor do espaçamento E entre uma das vigas da figura considerando a variação de temperatura indicada no texto.**",
+      "options": [
+        {
+          "text": "Cerca de 25 m.",
+          "explanation": "25 m é metade do comprimento da viga, não uma dilatação: a variação de comprimento do concreto é da ordem de milímetros (ΔL = α·L·ΔT = 0,02 m)."
+        },
+        {
+          "text": "Cerca de 45 mm.",
+          "explanation": "45 mm é mais que o dobro do necessário: cada viga dilata 20 mm no total, e só metade disso (10 mm) avança sobre cada junta, que recebe 10 mm de cada lado."
+        },
+        {
+          "text": "Cerca de 10 mm.",
+          "explanation": "10 mm é quanto avança cada extremidade de uma viga (metade de ΔL = 20 mm); mas em cada junta chegam duas extremidades, uma de cada viga vizinha, e a folga precisa ser de 10 + 10 = 20 mm."
+        },
+        {
+          "text": "Cerca de 20 mm.",
+          "explanation": "Correta. Cada viga dilata ΔL = α·L·ΔT = 10⁻⁵ × 50 × 40 = 0,02 m = 20 mm, metade para cada lado. Em cada junta se aproximam a ponta de uma viga (10 mm) e a da vizinha (10 mm), então E deve ser de cerca de 20 mm."
+        },
+        {
+          "text": "Cerca de 10 cm.",
+          "explanation": "10 cm = 100 mm seria cinco vezes a dilatação total de uma viga (20 mm); o valor indica erro de potência de dez ou de conversão de unidades."
+        }
+      ],
+      "correct": "D"
+    },
+    {
+      "key": "pave-2025-e2-q06",
+      "source": "PAVE 2025 – Etapa 2, questão 6 (UFPel)",
+      "kind": "Objective",
+      "subject": "fisica",
+      "statement": "O quindim é um doce muito importante na cultura brasileira e marcante no cotidiano e na História da cidade de Pelotas. Em números aproximados, cada 100g de quindim levam ao desprendimento de cerca de 400 calorias dietéticas, sendo que uma caloria dietética representa 1000 calorias de energia. No organismo, a energia é armazenada e desprendida por um complexo sistema de substâncias e reações químicas, ao invés de ser rapidamente liberada. Para examinar quais seriam as hipotéticas consequências do que representaria uma liberação rápida da energia consumida nos alimentos, consideremos um modelo aproximado em que um ser humano corresponde à sua massa em água, de calor específico 1cal/g°C (uma caloria por grama grau Celsius), já que cerca de 70% ou mais do corpo humano corresponde a água. Nessa aproximação, a hipótese da liberação rápida de energia de uma certa quantidade moderada de quindim nos levaria quase imediatamente a uma febre, o que não se observa.\n\nReferência: MÁXIMO, Antônio; ALVARENGA, Beatriz. **Física contexto & aplicações.** 2º v. 1ª ed. São Paulo: Scipione, 2014.\n\n**Qual seria o aumento aproximado da temperatura de uma pessoa de 60kg, no modelo em que essa massa corresponde apenas a água, acompanhando a liberação rápida da energia proveniente do consumo de 50g de quindim?**",
+      "options": [
+        {
+          "text": "Cerca de 1,5°C.",
+          "explanation": "Para aquecer 60 kg de água em 1,5 °C bastam 90 000 cal (90 calorias dietéticas), menos da metade das 200 calorias dietéticas fornecidas por 50 g de quindim."
+        },
+        {
+          "text": "Cerca de 10°C.",
+          "explanation": "10 °C exigiriam 60 000 g × 1 cal/g°C × 10 °C = 600 000 cal, a energia de 150 g de quindim, e não de 50 g."
+        },
+        {
+          "text": "Cerca de 30°C.",
+          "explanation": "30 °C exigiriam 1 800 000 cal, nove vezes a energia disponível (200 000 cal); o valor indica erro de potência de dez nas conversões."
+        },
+        {
+          "text": "Cerca de 1°C.",
+          "explanation": "1 °C corresponde a apenas 60 000 cal; os 50 g de quindim liberam 200 000 cal, mais que o triplo disso."
+        },
+        {
+          "text": "Cerca de 3°C.",
+          "explanation": "Correta. 50 g de quindim liberam 200 calorias dietéticas = 200 000 cal. Como Q = m·c·ΔT, ΔT = 200 000/(60 000 g × 1 cal/g°C) ≈ 3,3 °C, cerca de 3 °C."
+        }
+      ],
+      "correct": "E"
+    },
+    {
+      "key": "pave-2025-e2-q07",
+      "source": "PAVE 2025 – Etapa 2, questão 7 (UFPel)",
+      "kind": "Objective",
+      "subject": "biologia",
+      "statement": "Um grupo de estudantes participava de um projeto sobre alimentação saudável e, em um dado momento, detiveram-se no processo de digestão de alimentos. Durante suas pesquisas, aprenderam que o suco gástrico presente no estômago humano contém uma solução aquosa de ácido clorídrico. Em seus estudos, encontraram informações em livros que indicavam uma faixa do pH do suco gástrico variando de 1,5 a 3,5 para uma pessoa média e saudável.\n\n**Com base nesses dados e nos conhecimentos de Química e Biologia, assinale a alternativa correta sobre o processo de digestão.**",
+      "options": [
+        {
+          "text": "Quanto mais básico o suco gástrico, melhor o efeito de ativação da pepsina na quebra de proteínas.",
+          "explanation": "A pepsina é ativada, a partir do pepsinogênio, em meio ácido e funciona melhor em pH próximo de 2; em meio básico ela perde a atividade."
+        },
+        {
+          "text": "Na faixa indicada, pode-se dizer que um valor de 3,5 para o pH do suco gástrico é mais de duas vezes mais ácido do que quando comparado ao valor de pH igual a 1,5.",
+          "explanation": "Quanto menor o pH, mais ácido o meio: pH 1,5 é mais ácido que pH 3,5. Como a escala é logarítmica, 2 unidades a menos significam concentração de H⁺ 100 vezes maior em pH 1,5."
+        },
+        {
+          "text": "A acidez do suco gástrico prejudica a digestão, pois desativa todas as enzimas.",
+          "explanation": "A acidez não desativa todas as enzimas: a pepsina depende justamente do meio ácido para agir; quem deixa de funcionar no estômago é a amilase salivar."
+        },
+        {
+          "text": "Por ser a primeira etapa da digestão, a reação que ocorre entre o suco gástrico e o bolo alimentar necessita de um meio altamente ácido.",
+          "explanation": "A digestão não começa no estômago: a primeira etapa ocorre na boca, com a mastigação e a amilase salivar, que atua em pH próximo do neutro."
+        },
+        {
+          "text": "A alta acidez do estômago é necessária para a ativação de enzimas, como a pepsina, para a quebra de proteínas.",
+          "explanation": "Correta. O HCl do suco gástrico converte o pepsinogênio em pepsina e mantém o pH ácido em que essa enzima quebra as proteínas em peptídeos menores."
+        }
+      ],
+      "correct": "E"
+    },
+    {
+      "key": "pave-2025-e2-q08",
+      "source": "PAVE 2025 – Etapa 2, questão 8 (UFPel)",
+      "kind": "Objective",
+      "subject": "quimica",
+      "statement": "A concentração de oxigênio dissolvido em água, conhecida por “COD”, é um parâmetro importante para se analisar as características químicas e biológicas das águas potáveis e de rios e lagos. O oxigênio dissolvido (OD) em água pode ter origem tanto na fotossíntese da biota aquática como no processo de difusão que ocorre na interface ar-água e sua concentração pode variar em função da temperatura, salinidade e pressão. No geral, a solubilidade dos gases aumenta com o decréscimo de salinidade e temperatura. Assim, pode-se dizer que águas mais frias retêm mais oxigênio e que a água do mar contém menos OD que outras águas. A solubilidade de um gás diminui com a diminuição da pressão. O excesso de matéria orgânica nos sistemas aquáticos pode provocar uma séria diminuição do nível de OD, consequentemente, a morte de peixes e outras espécies. Alguns métodos de determinação do teor de oxigênio no ar têm sido relatados na literatura, inclusive com a utilização de materiais simples, como a palha-de-aço de uso doméstico (Birk e Lawson, 1999; Braathen, 2000). Esse método processa-se na formação de ferrugem em meio aeróbico e o ferro contido na palha de aço pode ser completamente convertido em óxido de ferro hidratado (chamado de ferrugem). Embora sua fórmula seja indefinida, pode ser escrita como Fe₂O₃ · n H₂O, onde n depende das condições de formação do óxido, conforme a reação global abaixo:\n\n2 Fe(s) + 3/2 O₂ (g) + n H₂O (l) → Fe₂O₃ . n H₂O (s)\n\nA COD pode ser determinada através da massa de Fe₂O₃·nH₂O formada. As águas de hidratação (n H₂O) são eliminadas no processo por secagem, calculando a COD a partir da massa de Fe₂O₃ obtido usando-se a equação:\n\n2Fe(s) + 3/2 O₂(g) → Fe₂O₃ (s)\n\nReferência: http://qnesc.sbq.org.br/online/qnesc19/a10.pdf. Acesso em: 15/08/2024.\n\n**Supondo que a massa de Fe₂O₃, de acordo com o método citado acima, fosse 6 · 10⁻²g, qual seria a massa de oxigênio dissolvido? Dados de massa molar: Ferro = 56 g/mol; oxigênio = 16 g/mol.**",
+      "options": [
+        {
+          "text": "14 mg",
+          "explanation": "14 mg seria cerca de 23% da massa do óxido; no Fe₂O₃ o oxigênio representa 48/160 = 30% da massa, o que dá 18 mg."
+        },
+        {
+          "text": "16 mg",
+          "explanation": "16 mg não respeita a proporção da equação: cada 160 g de Fe₂O₃ contêm 48 g de oxigênio, e 60 mg × 48/160 = 18 mg."
+        },
+        {
+          "text": "18 mg",
+          "explanation": "Correta. M(Fe₂O₃) = 2 × 56 + 3 × 16 = 160 g/mol, então 6 · 10⁻² g são 3,75 · 10⁻⁴ mol. Cada mol de Fe₂O₃ consome 3/2 mol de O₂ (48 g): 3,75 · 10⁻⁴ × 48 = 0,018 g = 18 mg."
+        },
+        {
+          "text": "20 mg",
+          "explanation": "20 mg corresponderia a um terço dos 60 mg de óxido; a fração de oxigênio no Fe₂O₃ é um pouco menor, 48/160 = 30%, ou seja, 18 mg."
+        },
+        {
+          "text": "15 mg",
+          "explanation": "15 mg equivale a um quarto dos 60 mg de óxido; pela equação, o oxigênio representa 48/160 = 30% da massa do Fe₂O₃, isto é, 18 mg."
+        }
+      ],
+      "correct": "C"
+    },
+    {
+      "key": "pave-2025-e2-q09",
+      "source": "PAVE 2025 – Etapa 2, questão 9 (UFPel)",
+      "kind": "Objective",
+      "subject": "quimica",
+      "statement": "No cuidado dental, um importante composto é o íon fluoreto (F⁻). Em vista de suas contribuições para o equilíbrio químico do sistema bucal, compostos contendo fluoreto são sistematicamente empregados em pastas de dentes. Os compostos mais usados nesses materiais são o fluoreto de sódio (NaF), o fluoreto de estanho II (SnF₂) e o monofluorfosfato de sódio (Na₄PO₄F), sendo este último representado nas embalagens geralmente como MPF.\n\nAo entrar em contato com a água presente na saliva, esses compostos fluorados se dissolvem e se dissociam em seus respectivos íons, como no caso do MPF (reação 1):\n\n(reação 1, balanceada)\n\nNa₄PO₄F (aq) + H₂O(l) ⇌ 4Na⁺ (aq) + PO₄⁻(aq) + F⁻(aq)\n\nOs íons fluoreto presentes na saliva interferem no equilíbrio do processo de desmineralização - remineralização do dente (reação 2), e, quando em contato com os íons derivados da hidroxiapatita (Ca₅(PO₄)₃OH) presentes no meio salivar, formam uma nova substância, a fluorapatita (Ca₅(PO₄)₃F):\n\n(reação 2, balanceada)\n\nCa₅(PO₄)₃OH(s) + H₂O(l) ⇌ 5Ca²⁺ (aq) + 3PO₄³⁻ (aq) + OH⁻(aq)\n\n(reação 3, **não** balanceada)\n\n_ Ca²⁺ (aq) + _ PO₄³⁻ (aq) + _ F⁻ (aq) ⇌ _ Ca₅(PO₄)₃F(s)\n\nPor ser um mineral menos solúvel que a hidroxiapatita, a fluorapatita precipita mais facilmente no meio bucal. Quando há a presença de fluoretos na saliva, meio que contém os íons minerais cálcio e fosfato, a fluorapatita é precipitada no esmalte do dente (reação 3).\n\nReferência: adaptado de https://bdm.unb.br/bitstream/10483/18094/1/2017_RenataFelixGaspar_tcc.pdf. Acesso em: 22/08/2025.\n\n**Com base nas informações apresentadas, assinale a alternativa correta.**",
+      "options": [
+        {
+          "text": "Um meio bucal ácido favorece o processo de desmineralização do dente, quando analisada a reação 2.",
+          "explanation": "Correta. Em meio ácido, os íons H⁺ consomem o OH⁻ que está do lado direito da reação 2; pelo princípio de Le Chatelier, o equilíbrio se desloca para a direita, dissolvendo a hidroxiapatita, isto é, desmineralizando o dente."
+        },
+        {
+          "text": "Os sublinhados apresentados na reação 3 podem ser preenchidos, na ordem em que aparecem, com os números 5, 1, 1 e 3 para o correto balanceamento da equação química.",
+          "explanation": "O balanceamento é 5 Ca²⁺ + 3 PO₄³⁻ + 1 F⁻ ⇌ 1 Ca₅(PO₄)₃F, ou seja, 5, 3, 1 e 1; com 5, 1, 1 e 3 não se conservam nem os átomos nem as cargas."
+        },
+        {
+          "text": "As reações apresentadas (reação 1, reação 2 e reação 3) ocorrem somente no sentido da esquerda para a direita, indicando que os compostos à esquerda da seta são reagentes e os à direita são produtos, não sendo possível considerar os compostos à direita da seta como reagentes e os à esquerda como produtos.",
+          "explanation": "A seta dupla (⇌) indica reações reversíveis: elas ocorrem nos dois sentidos, e as espécies da direita também reagem formando as da esquerda. É essa reversibilidade que permite a remineralização."
+        },
+        {
+          "text": "A utilização da pasta de dente não interfere no equilíbrio químico do sistema bucal.",
+          "explanation": "O texto afirma o contrário: o fluoreto da pasta interfere no equilíbrio de desmineralização e remineralização, levando à precipitação de fluorapatita no esmalte."
+        },
+        {
+          "text": "A saliva não interfere no processo de mineralização e desmineralização dos dentes.",
+          "explanation": "É na saliva que estão dissolvidos os íons cálcio, fosfato, hidroxila e fluoreto que participam dos equilíbrios; sua composição e seu pH definem se o dente perde ou ganha mineral."
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "key": "pave-2025-e2-q10",
+      "source": "PAVE 2025 – Etapa 2, questão 10 (UFPel)",
+      "kind": "Objective",
+      "subject": "historia",
+      "statement": "No Brasil Colônia, a escravização se deu primeiro com os indígenas, mas ao longo do século XVI e XVII foi sendo substituída pelo tráfico negreiro, que trouxe africanos para a sujeição. Esse decurso está na base da formação da sociedade brasileira. Nesse sentido, Florestan Fernandes (1920-1995) observa que a escravidão no Brasil se conecta com os ciclos econômicos do período colonial. Indica também que as estruturas de dominação social daquele período são preservadas no processo de modernização capitalista no Brasil, na medida em que no século XX a dependência em relação à metrópole é transferida para o mercado capitalista europeu e como fenômeno social reflete a organização da sociedade no Brasil contemporâneo.\n\n**Leia as seguintes afirmações.**\n\nI – No século XVI, o primeiro da colonização brasileira, o número de pessoas escravizadas vindas do continente africano foi menor, pois as atividades econômicas ainda eram reduzidas.\n\nII – As capitanias hereditárias constituíram a forma inicial que o governo português encontrou para investir na colonização brasileira.\n\nIII – A desigualdade tem relação com a escravidão e com a forma como se deu a socialização do negro na sociedade brasileira, depois da abolição em 1789.\n\nIV – A questão da democracia racial foi discutida por Gilberto Freyre em seu livro Casa-grande & senzala. O autor via o convívio entre negros, brancos e indígenas como salutar para a formação da sociedade brasileira.\n\nReferências:\n\nCOTRIM, Gilberto. **História Global II**. 3. ed. São Paulo: Saraiva, 2016.\n\nMACHADO, Igor José Renó et al. **Sociologia Hoje**. 1. ed. São Paulo: Ática, 2013.\n\n**Está(ão) correta(as):**",
+      "options": [
+        {
+          "text": "I, apenas.",
+          "explanation": "A afirmação I está certa, mas não é a única: a II (capitanias hereditárias, criadas em 1534) e a IV (a visão de Gilberto Freyre) também estão."
+        },
+        {
+          "text": "I, II e IV, apenas.",
+          "explanation": "Correta. O tráfico de africanos só ganhou volume com a expansão açucareira (I), as capitanias hereditárias foram a primeira forma de promover a colonização (II) e Freyre valorizou a convivência e a miscigenação em Casa-grande & senzala (IV). A III erra a data: a abolição é de 1888, não de 1789."
+        },
+        {
+          "text": "II, III e IV, apenas.",
+          "explanation": "Inclui a III, que data a abolição em 1789; a Lei Áurea é de 1888. Além disso, deixa de fora a I, que está correta."
+        },
+        {
+          "text": "I e III, apenas.",
+          "explanation": "A III tem um erro factual: a abolição da escravidão ocorreu em 1888, e não em 1789. Também faltam a II e a IV, que estão corretas."
+        },
+        {
+          "text": "III e IV, apenas.",
+          "explanation": "A IV está certa, mas a III erra a data da abolição (1888, não 1789), e ficam de fora a I e a II, ambas corretas."
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "key": "pave-2025-e2-q11",
+      "source": "PAVE 2025 – Etapa 2, questão 11 (UFPel)",
+      "kind": "Objective",
+      "subject": "historia",
+      "statement": "A Declaração de Direitos (Bill of Rights) em 1689, limitou os poderes da monarquia inglesa. Desse momento em diante, o rei ou a rainha não poderiam, por exemplo, aumentar tributos ou suspender leis, sem aprovação do parlamento. Com isso, estabelecia-se a vontade da lei sobre a vontade do rei, marcando o fim do absolutismo na Inglaterra. A monarquia tradicional deu lugar à monarquia parlamentar, com poderes limitados pelo respeito às leis. Assim, “o rei reina, mas não governa”, pois o governo é exercido pelo primeiro-ministro, normalmente líder do partido que possui o maior número de parlamentares.\n\nNas democracias contemporâneas, o regime político parlamentar se define pela participação dos cidadãos que votam nos deputados (poder legislativo), que, por sua vez, elegem o chefe do poder executivo (o primeiro-ministro). Nesse tipo de regime, a maioria dos deputados pode, a qualquer momento, derrubar o governo, caso decidam que não possui bom desempenho.\n\n**Leia as seguintes afirmações.**\n\nI – A assinatura da Declaração de Direitos, no reinado de Elizabeth I, foi um momento também conhecido como a Revolução Gloriosa.\n\nII – Mesmo sem governar, o monarca inglês continua exercendo importantes funções, como a chefia das forças armadas e da igreja anglicana.\n\nIII – Em países democráticos há diferenças significativas entre os regimes políticos. Uma das mais importantes é a existência de regimes presidencialistas e parlamentaristas.\n\nIV – Nos regimes presidencialistas, como o brasileiro e o estadunidense, os membros tanto do poder legislativo quanto do poder executivo são eleitos pelo voto direto.\n\nReferências:\n\nCOTRIM, Gilberto. **História Global II**. 3. ed. São Paulo: Saraiva, 2016.\n\nMACHADO, Igor José Renó et al. **Sociologia Hoje**. 1. ed. São Paulo: Ática, 2013.\n\n**Estão corretas:**",
+      "options": [
+        {
+          "text": "II e III, apenas.",
+          "explanation": "II e III estão certas, mas a IV também é dada como correta: no presidencialismo, o chefe do Executivo é escolhido pelos eleitores, e não pelo parlamento."
+        },
+        {
+          "text": "I, II e IV, apenas.",
+          "explanation": "A I está errada: a Declaração de Direitos de 1689 foi aceita por Guilherme III e Maria II, após a deposição de Jaime II; Elizabeth I reinou um século antes (1558-1603). Também falta a III."
+        },
+        {
+          "text": "II, III e IV, apenas.",
+          "explanation": "Correta. O monarca conserva funções como a chefia das Forças Armadas e da Igreja Anglicana (II), as democracias podem ser presidencialistas ou parlamentaristas (III) e, no presidencialismo, Executivo e Legislativo saem do voto popular (IV; a questão desconsidera que, nos EUA, o presidente é formalmente escolhido por um Colégio Eleitoral). A I erra ao citar Elizabeth I."
+        },
+        {
+          "text": "I, II e III, apenas.",
+          "explanation": "Inclui a I, que erra o reinado (a Revolução Gloriosa ocorreu em 1688-1689, com Guilherme III e Maria II), e exclui a IV, considerada correta."
+        },
+        {
+          "text": "II e IV, apenas.",
+          "explanation": "II e IV estão certas, mas a III também: presidencialismo e parlamentarismo são, de fato, os dois principais regimes das democracias atuais."
+        }
+      ],
+      "correct": "C"
+    },
+    {
+      "key": "pave-2025-e2-q12",
+      "source": "PAVE 2025 – Etapa 2, questão 12 (UFPel)",
+      "kind": "Objective",
+      "subject": "sociologia",
+      "statement": "Durante o período colonial, o poder político estava fragmentado. Os grandes proprietários rurais aplicavam as leis conforme seus interesses. Em certas regiões, como Minas Gerais, devido à mineração nos séculos XVII e XVIII, o controle da metrópole portuguesa foi mais efetivo. Entretanto, como observou o historiador e cientista político José Murilo de Carvalho (1939-2023), não havia um poder público brasileiro, ou seja, um Estado que garantisse a mesma lei para todos.\n\nNa metade do século XVIII, esse sistema econômico e político, que promovia a exploração de riquezas das colônias em prol das metrópoles, notadamente, Espanha e Portugal, entrou em crise. Um dos motivos apontados pelos historiadores Fernando Novais e Carlos Guilherme Mota, foi o choque entre as formas do colonialismo mercantilista e as formas do capitalismo industrial que necessitava de mercados livres e com poder de consumo.\n\n**Leia as seguintes afirmações.**\n\nI – O período colonial deixou heranças negativas para a formação da cidadania após a independência brasileira. Entre essas, pode-se destacar um Estado com características da metrópole, onde o público e o privado se misturavam.\n\nII – Para o sociólogo Max Weber (1864-1920), uma das características do Estado patrimonialista, é que, ao invés de exigir direitos para todos, grupos, classes ou indivíduos apoiam o governo em troca de favores pessoais.\n\nIII – Raimundo Faoro (1925-2003), jurista, sociólogo, historiador e cientista político brasileiro, em sua obra Os Donos do Poder (1958), observou que a colonização portuguesa implantou no Brasil um Estado patrimonialista, que estaria na origem dos problemas de corrupção enfrentados pela sociedade brasileira.\n\nIV – Entre os governos europeus, praticamente nenhum colaborou com os movimentos de independência da América espanhola, à exceção do governo francês, interessado em conquistar mercados latino-americanos.\n\nReferências:\n\nCOTRIM, Gilberto. **História Global II**. 3. ed. São Paulo: Saraiva, 2016.\n\nMACHADO, Igor José Renó et al. **Sociologia Hoje**. 1. ed. São Paulo: Ática, 2013.\n\n**Estão corretas:**",
+      "options": [
+        {
+          "text": "I, II e III, apenas.",
+          "explanation": "Correta. As três tratam da herança patrimonialista: um Estado em que o público e o privado se confundem (I), o apoio ao governo em troca de favores pessoais, na análise de Weber (II), e a tese de Faoro em Os Donos do Poder (III). A IV erra: quem apoiou as independências hispano-americanas, de olho nos mercados, foi a Inglaterra."
+        },
+        {
+          "text": "I, II e IV, apenas.",
+          "explanation": "A IV está errada: o governo interessado nos mercados latino-americanos, e que apoiou as independências, foi o inglês, não o francês. Além disso, falta a III."
+        },
+        {
+          "text": "II e III, apenas.",
+          "explanation": "II e III estão certas, mas a I também: a mistura entre o público e o privado, herdada do Estado português, dificultou a formação da cidadania após a independência."
+        },
+        {
+          "text": "I, III e IV, apenas.",
+          "explanation": "Inclui a IV, que troca a Inglaterra pela França como potência interessada nos mercados da América, e deixa de fora a II, que traz corretamente a ideia weberiana de patrimonialismo."
+        },
+        {
+          "text": "II e IV, apenas.",
+          "explanation": "A II está certa, mas a IV não: foi a Inglaterra industrial, e não a França, que colaborou com as independências para ampliar seus mercados. Faltam ainda a I e a III."
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "key": "pave-2025-e2-q13",
+      "source": "PAVE 2025 – Etapa 2, questão 13 (UFPel)",
+      "kind": "Objective",
+      "subject": "geografia",
+      "statement": "A globalização e a urbanização são processos interligados que têm transformado o trabalho e a cultura em diversas dimensões. A globalização, marcada pela intensificação das relações econômicas, sociais e culturais em escala mundial, impulsiona a urbanização e, ao mesmo tempo, sofre com suas consequências. A urbanização, por sua vez, concentra a população em áreas urbanas, gerando novas dinâmicas de trabalho e novas expressões culturais.\n\nReferência: adaptado de https://www.terra.com.br/noticias/educacao/urbanizacao-o-crescimento-desenfreado-das-cidades-e-os-problemas-sociais,198fcf8be5607670861944fdcd88b7a4ckajav4q.html. Acesso em: 29/06/2025.\n\n**Com base no texto apresentado, qual das alternativas a seguir descreve corretamente as consequências advindas da inter-relação entre esses dois processos?**",
+      "options": [
+        {
+          "text": "A Nova Divisão Internacional do Trabalho, ao deslocar a produção industrial, erradica o desemprego nos países desenvolvidos devido à criação massiva de novas indústrias de base.",
+          "explanation": "A Nova DIT transferiu fábricas para países com mão de obra mais barata, o que provocou desemprego industrial nos países desenvolvidos, e não a sua erradicação."
+        },
+        {
+          "text": "O intercâmbio cultural resultante da globalização leva à completa homogeneização dos valores e comportamentos, eliminando as especificidades locais e culturais das cidades.",
+          "explanation": "A globalização difunde padrões culturais, mas não elimina as culturas locais: elas resistem, se misturam e se reinventam, de modo que não há homogeneização completa."
+        },
+        {
+          "text": "A flexibilização das leis trabalhistas e o aumento da terceirização promovem a criação de novas profissões de alta tecnologia, diminuindo o risco de desemprego nas áreas urbanas.",
+          "explanation": "Flexibilização e terceirização tendem a precarizar o trabalho, com menos direitos, mais informalidade e instabilidade, sem garantir a redução do desemprego urbano."
+        },
+        {
+          "text": "O crescimento acelerado e desigual das cidades, impulsionado pela globalização, acentua a macrocefalia urbana, a favelização e a concentração de problemas sociais.",
+          "explanation": "Correta. A urbanização rápida e concentrada, ligada à inserção desigual na economia global, incha as grandes metrópoles (macrocefalia urbana) sem oferecer moradia, emprego e infraestrutura para todos, o que multiplica favelas e problemas sociais."
+        },
+        {
+          "text": "O crescimento lento das cidades desacelera a globalização, porém acentua a macrocefalia urbana, a favelização e a concentração de problemas sociais.",
+          "explanation": "O texto diz que a globalização impulsiona a urbanização; os problemas citados decorrem do crescimento acelerado e desordenado das cidades, não de um crescimento lento."
+        }
+      ],
+      "correct": "D"
+    },
+    {
+      "key": "pave-2025-e2-q14",
+      "source": "PAVE 2025 – Etapa 2, questão 14 (UFPel)",
+      "kind": "Objective",
+      "subject": "geografia",
+      "statement": "**Leia o texto a seguir.**\n\nNos séculos XVII, XVIII e XIX, o mundo foi palco de transformações profundas, impulsionadas pelo desenvolvimento tecnológico, culminando na Revolução Industrial. Esse processo não apenas redesenhou a produção, mas também redefiniu a Divisão Internacional do Trabalho (DIT).\n\nO avanço tecnológico permitiu o aumento exponencial da produção, a redução de custos e a intensificação do comércio em escala global. Ferrovia e navegação a vapor, por exemplo, encurtaram distâncias e integraram mercados, solidificando ainda mais essa nova estrutura da DIT. O trabalho humano, antes artesanal e disperso, foi concentrado em fábricas, resultando em uma nova organização social e espacial. Assim, a Revolução Industrial não foi apenas uma revolução na tecnologia, mas também uma reconfiguração geopolítica e econômica, que moldou as relações de poder e dependência entre as nações.\n\n**Analise as assertivas abaixo.**\n\nI – A Revolução Industrial consolidou uma Divisão Internacional do Trabalho (DIT) na qual nações industrializadas se especializaram na produção de manufaturados, enquanto outras regiões se tornaram fornecedoras de matérias-primas e mercados consumidores.\n\nII – Nos séculos XVIII e XIX, o desenvolvimento de tecnologias como a máquina a vapor e a navegação a vapor, embora importantes para a produção, não teve um impacto significativo na integração dos mercados globais ou na intensificação do comércio internacional.\n\nIII – A Divisão Internacional do Trabalho, antes da Revolução Industrial, era caracterizada, majoritariamente, por um sistema colonial, em que as metrópoles europeias exploravam as matérias-primas de suas colônias para a revenda de produtos manufaturados.\n\nIV – A Revolução Industrial, ao centralizar o trabalho em fábricas e promover a automação, resultou na erradicação do desemprego e na melhoria universal das condições de vida para a população urbana dos países industrializados.\n\nV – Embora a Revolução Industrial tenha gerado novas oportunidades e transformado a organização do trabalho, também foi marcada por problemas como jornadas de trabalho longas e exaustivas, condições precárias e desemprego estrutural para aqueles que não se adaptavam ou cujos trabalhos foram substituídos por máquinas.\n\n**Estão corretas:**",
+      "options": [
+        {
+          "text": "II, III e IV, apenas.",
+          "explanation": "II e IV são falsas: o próprio texto diz que ferrovia e navegação a vapor integraram mercados, e a industrialização não acabou com o desemprego nem melhorou a vida de todos. Faltam ainda a I e a V."
+        },
+        {
+          "text": "I, II e III, apenas.",
+          "explanation": "I e III estão certas, mas a II contradiz o texto: a máquina e a navegação a vapor encurtaram distâncias e intensificaram o comércio mundial."
+        },
+        {
+          "text": "II, IV e V, apenas.",
+          "explanation": "Só a V está certa: a II nega a integração dos mercados promovida pelo vapor e a IV fala em erradicação do desemprego, o que nunca ocorreu."
+        },
+        {
+          "text": "III, IV e V, apenas.",
+          "explanation": "III e V estão certas, mas a IV não: as cidades industriais do século XIX conviviam com desemprego, baixos salários e condições de vida precárias."
+        },
+        {
+          "text": "I, III e V, apenas.",
+          "explanation": "Correta. A I descreve a DIT clássica (países industrializados vendem manufaturados; os demais fornecem matérias-primas e mercados), a III a divisão do período colonial, entre metrópoles e colônias, e a V os custos sociais da industrialização. II e IV contrariam o texto e a história."
+        }
+      ],
+      "correct": "E"
+    },
+    {
+      "key": "pave-2025-e2-q15",
+      "source": "PAVE 2025 – Etapa 2, questão 15 (UFPel)",
+      "kind": "Objective",
+      "subject": "geografia",
+      "statement": "**Observe a imagem e analise as assertivas.**\n\n![Ilustração com duas placas de sinalização diante de um triângulo: a da esquerda diz ESTADO, com uma seta apontando para a esquerda; a da direita diz INICIATIVA PRIVADA, com uma seta apontando para a direita.](img/pave/2025/etapa-2/q15-1.png)\n\n**Leia as afirmações sobre o neoliberalismo.**\n\nI – Busca minimizar a atuação do Estado na economia, seja através de privatizações, desregulamentação ou cortes de gastos sociais.\n\nII – O mercado, livre de interferências governamentais, é o melhor mecanismo para alocar recursos, determinar preços e promover o crescimento econômico.\n\nIII – Promove a livre circulação de bens, serviços e capitais entre os países, com o objetivo de aumentar a eficiência e a competitividade.\n\nIV – Cria leis e regulamentos que restringem e ao mesmo tempo ampliam a atividade econômica, como leis trabalhistas, ambientais e fiscais.\n\nV – Transfere empresas privadas para o Estado, com a crença de que a gestão pública é mais eficiente.\n\n**Estão corretas:**",
+      "options": [
+        {
+          "text": "I, II e III, apenas.",
+          "explanation": "Correta. O neoliberalismo defende o Estado mínimo (privatizações, desregulamentação, corte de gastos), a confiança no livre mercado para alocar recursos e a abertura à circulação de bens, serviços e capitais; IV e V descrevem intervenção estatal, o oposto."
+        },
+        {
+          "text": "III, IV e V, apenas.",
+          "explanation": "Só a III é neoliberal: criar regulamentações trabalhistas, ambientais e fiscais (IV) e estatizar empresas (V) são políticas de um Estado interventor."
+        },
+        {
+          "text": "I, III e V, apenas.",
+          "explanation": "I e III estão certas, mas a V descreve a estatização; o neoliberalismo faz o contrário, privatiza empresas públicas por considerar a gestão privada mais eficiente."
+        },
+        {
+          "text": "II, IV e V, apenas.",
+          "explanation": "A II está certa, mas IV (mais regulação) e V (estatização) vão no sentido contrário do neoliberalismo, que prega desregulamentar e privatizar."
+        },
+        {
+          "text": "I, III e IV, apenas.",
+          "explanation": "I e III estão certas, mas a IV não: o neoliberalismo propõe reduzir as leis e os regulamentos que limitam a atividade econômica, não criá-los. Falta ainda a II."
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "key": "pave-2025-e2-q16",
+      "source": "PAVE 2025 – Etapa 2, questão 16 (UFPel)",
+      "kind": "Objective",
+      "subject": "historia",
+      "statement": "**A política imperialista empreendida pelas nações europeias em fins do século XIX promoveu o controle e a ocupação do continente africano. Sobre esta política, analise os seguintes textos.**\n\n**TEXTO I**\n\nSomente longe de casa um cidadão da Inglaterra, da Alemanha ou da França podia ser apenas inglês, alemão ou francês. Em seu país enredava-se de tal forma em interesses econômicos ou lealdades sociais que se sentia mais como um membro de sua classe num país estranho do que um homem de outra classe em seu próprio país. A expansão deu nova vida ao nacionalismo e, portanto, foi aceita como instrumento de política nacional. Os membros das associações colonialistas e ligas imperialistas sentiam-se “bem distantes das lutas partidárias” e, quanto mais se afastavam da pátria, mais acreditavam representar apenas o propósito nacional.\n\nReferência: ARENDT, Hannah. **Origens do totalitarismo.** São Paulo: CIA das Letras, 2006, p. 184.\n\n**TEXTO II**\n\nO racismo generalizado e cruel estava presente no imperialismo como uma variante independente da racionalidade econômica. Foi a economia, aliás, que determinou que a Europa deveria investir na África e controlar as matérias-primas e a mão de obra do continente. Foi o racismo que confirmou a decisão de que a forma de controle deveria ser a autoridade colonial direta.\n\nReferência: RODNEY, Walter. **Como a Europa subdesenvolveu a África**. São Paulo: Boitempo 2022, p. 169.\n\n**Considerando os textos anteriores e os seus conhecimentos sobre a relação entre a ocupação territorial da África em meio ao pacto imperialista assinado na Conferência de Berlim, analise as afirmativas.**\n\nI – O Imperialismo se constituiu como uma política expansionista motivada pela busca de mercados consumidores e matérias primas. Ele buscou legitimar-se através de ideologias racistas em voga no segundo meado do século XIX.\n\nII – Em um momento em que o ideal de cientificidade positivista definia uma noção de progresso linear da história, o discurso racista expresso pelo darwinismo social promovia uma noção de que a sociedade europeia representava o progresso, justificando seu Imperialismo como suposta “missão civilizadora” para com os povos africanos.\n\nIII – Com a desigualdade social fortemente marcada no continente europeu no fim do século XIX, os grupos brancos menos favorecidos política e economicamente em seu continente, encontraram na África uma espécie de orgulho promovido pelo nacionalismo racialmente composto, o que demonstra a aliança entre as relações de poder, a manipulação da opinião pública e a violência racial.\n\nIV – Uma das funções da ideologia, a de mascarar conflitos existentes em uma sociedade e naturalizar relações de dominação, se apresenta tanto nos discursos que fragilizaram politicamente os africanos em relação ao exercício da autonomia, quanto no enaltecimento da “raça” branca como cumpridora de uma missão civilizatória.\n\n**Estão corretas:**",
+      "options": [
+        {
+          "text": "I, II, III e IV.",
+          "explanation": "Correta. As quatro se sustentam: motivação econômica com legitimação racista (I, Texto II), darwinismo social e “missão civilizadora” (II), nacionalismo que unia europeus de classes diferentes fora da Europa (III, Texto I) e ideologia como forma de naturalizar a dominação (IV)."
+        },
+        {
+          "text": "I, II e III, apenas.",
+          "explanation": "Exclui a IV, que está certa: tratar os africanos como incapazes de se governar e os brancos como “civilizadores” é a ideologia mascarando e naturalizando a dominação."
+        },
+        {
+          "text": "I, II e IV, apenas.",
+          "explanation": "Exclui a III, que retoma o Texto I: longe de casa, europeus de classes desfavorecidas passavam a se ver apenas como ingleses, alemães ou franceses, unidos por um nacionalismo de base racial."
+        },
+        {
+          "text": "I, III e IV, apenas.",
+          "explanation": "Exclui a II, que está certa: o darwinismo social e a ideia positivista de progresso linear serviram para apresentar a conquista como “missão civilizadora”."
+        },
+        {
+          "text": "II, III e IV, apenas.",
+          "explanation": "Exclui a I, que está certa: a busca por matérias-primas e mercados consumidores foi o motor do imperialismo, como também afirma o Texto II."
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "key": "pave-2025-e2-q17",
+      "source": "PAVE 2025 – Etapa 2, questão 17 (UFPel)",
+      "kind": "Objective",
+      "subject": "historia",
+      "statement": "Denomina-se Revolução Francesa o movimento político que se desenvolveu entre 1789 e 1799 na França e provocou grandes transformações políticas e sociais nesse país. Contou com a participação de vários grupos sociais, desde burgueses até populações pobres das cidades, pequenos produtores e comerciantes e camponeses explorados pela servidão.\n\nAo final de um longo processo, a estrutura do Antigo Regime foi destruída, e os privilégios da nobreza por nascimento, extintos. O lugar dos nobres passou a ser ocupado, então, pela burguesia, que atingiu privilégios por meio do poder econômico.\n\nReferência: COTRIM, Gilberto. **História Global: Brasil e Geral.** 2. ed. São Paulo: Saraiva, 2013. v. 2. p. 140.\n\n**De acordo com o texto e os seus conhecimentos acerca do tema, analise as afirmativas.**\n\nI – No plano intelectual, a Revolução Francesa foi influenciada pelas filosofias de Rousseau – que defendeu um contrato social firmado a partir da vontade geral dos cidadãos –, e de Montesquieu – que propôs a divisão dos poderes do Estado entre executivo, legislativo e judiciário, a fim de evitar a tirania.\n\nII – A Revolução Francesa se constituiu como uma revolta cujas bases liberais foram defendidas pela burguesia, que pretendia diminuir a intervenção do Estado nas relações comerciais e desenvolver o capitalismo na França.\n\nIII – A Revolução Francesa foi inspirada nos ideais marxistas de que o Estado deveria promover a valorização do proletariado, responsável pela geração de riquezas através de seu trabalho, bem como o fim da desigualdade social.\n\nIV – A Revolução Francesa rompeu com o absolutismo monárquico, sistema político centralizado na figura do rei e que foi defendido pelo filósofo Thomas Hobbes sob a justificativa da proteção dos súditos de uma guerra generalizada, gerada pela inabilidade humana para o convívio em sociedade.\n\n**Estão corretas:**",
+      "options": [
+        {
+          "text": "I, II e III, apenas.",
+          "explanation": "I e II estão certas, mas a III é anacrônica: Marx nasceu em 1818 e o marxismo é posterior à Revolução Francesa. Além disso, falta a IV."
+        },
+        {
+          "text": "I, II e IV, apenas.",
+          "explanation": "Correta. Rousseau e Montesquieu influenciaram os revolucionários (I), a burguesia defendia bases liberais (II) e a revolução derrubou o absolutismo, regime que Hobbes havia justificado como proteção contra a “guerra de todos contra todos” (IV). A III é anacrônica, pois o marxismo surgiu no século XIX."
+        },
+        {
+          "text": "I, III e IV, apenas.",
+          "explanation": "Inclui a III: a Revolução Francesa (1789-1799) não poderia se inspirar no marxismo, formulado só em meados do século XIX. Além disso, exclui a II, que está correta."
+        },
+        {
+          "text": "II, III e IV, apenas.",
+          "explanation": "Inclui a III, anacrônica (o marxismo é do século XIX), e exclui a I, que aponta corretamente as influências iluministas de Rousseau e Montesquieu."
+        },
+        {
+          "text": "I, II, III e IV.",
+          "explanation": "A III não pode estar certa: os ideais da revolução eram iluministas e liberais; o marxismo surgiu décadas depois, em parte como crítica à sociedade burguesa que ela consolidou."
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "key": "pave-2025-e2-q18",
+      "source": "PAVE 2025 – Etapa 2, questão 18 (UFPel)",
+      "kind": "Objective",
+      "subject": "filosofia",
+      "statement": "No verão de 2004, o furacão Charley pôs-se a rugir no Golfo do México e varreu a Flórida até o Oceano Atlântico. A tempestade, que levou 22 vidas e causou prejuízo de 11 bilhões de dólares, deixou também em seu rastro uma discussão sobre preços extorsivos. Em um posto de gasolina em Orlando, sacos de gelo de dois dólares foram vendidos por dez dólares. Sem energia para refrigeradores ou ar-condicionado em pleno agosto, verão no hemisfério norte, muitas pessoas não tinham alternativa senão pagar mais pelo gelo. Árvores derrubadas aumentaram a procura por serrotes e consertos de telhados. Prestadores de serviços cobraram 23 mil dólares para tirar duas árvores de um telhado. Lojas que antes vendiam normalmente pequenos geradores domésticos por 250 dólares pediam agora 2 mil dólares. Por uma noite em um quarto de hotel que normalmente custaria 40 dólares cobraram 160 a uma mulher de 77 anos que fugia do furacão com o marido idoso e a filha deficiente. Muitos habitantes da Flórida mostraram-se revoltados com os preços abusivos. “Depois da tempestade vêm os abutres” foi uma das manchetes do USA Today. Um morador, ao saber que teria que pagar 10.500 dólares para remover uma árvore que caíra em seu telhado, disse que era errado que as pessoas “tentassem capitalizar à custa das dificuldades e da miséria dos outros”.\n\nReferência: SANDEL, Michael. **Justiça: o que é fazer a coisa certa.** 22. ed. Rio de Janeiro: Civilização Brasileira, 2016, p. 11.\n\n**Ao associarmos as noções que definem o papel do Estado com o texto de Michael Sandel, ele expõe, no que diz respeito à cobrança de preços no caso em questão,**\n\nI – uma prática baseada no princípio liberal de que a relação entre a oferta e a procura define o valor dos produtos e serviços.\n\nII – a ação imediata de um Estado que regula a economia em prol da coletividade, sobretudo dos mais vulneráveis, tal como previsto nos princípios de um Estado de bem-estar social.\n\nIII – um conjunto de ações próprias a um Estado mínimo, que tem raízes no princípio de Locke, segundo o qual o Estado deve se restringir à proteção da vida, da liberdade e da propriedade dos indivíduos.\n\nIV – a liberdade baseada no princípio da propriedade de si e de seus produtos, o que contraria o posicionamento marxista sobre a necessária regulação da economia através do Estado.\n\n**Estão corretas:**",
+      "options": [
+        {
+          "text": "I, II e III, apenas.",
+          "explanation": "Inclui a II: no relato não há Estado regulando preços em defesa dos mais vulneráveis; eles subiram livremente. Além disso, exclui a IV, dada como correta."
+        },
+        {
+          "text": "I, II e IV, apenas.",
+          "explanation": "I e IV estão certas, mas a II não: a ação reguladora típica do Estado de bem-estar social é justamente o que falta na situação narrada. Falta ainda a III."
+        },
+        {
+          "text": "II, III e IV, apenas.",
+          "explanation": "III e IV estão certas, mas a II descreve uma intervenção estatal que não aparece no texto, e fica de fora a I, que identifica a lei da oferta e da procura."
+        },
+        {
+          "text": "I, III e IV, apenas.",
+          "explanation": "Correta. O caso mostra preços definidos apenas pela oferta e pela procura (I), sem intervenção de um Estado que se limita a proteger vida, liberdade e propriedade, como em Locke (III), e a liberdade de cada um dispor de si e do que é seu (IV); a II descreve um Estado regulador que não agiu ali."
+        },
+        {
+          "text": "I, II, III e IV.",
+          "explanation": "A II não se aplica: o texto mostra a ausência de regulação dos preços, e não a ação imediata de um Estado de bem-estar social."
+        }
+      ],
+      "correct": "D"
+    },
+    {
+      "key": "pave-2025-e2-q20",
+      "source": "PAVE 2025 – Etapa 2, questão 20 (UFPel)",
+      "kind": "Objective",
+      "subject": "matematica",
+      "statement": "A trigonometria é uma ferramenta matemática essencial no contexto atual, sendo indispensável em áreas como Engenharia civil, Arquitetura, Tecnologia e até mesmo na programação de jogos de vídeo. O domínio das relações trigonométricas permite que profissionais resolvam problemas práticos, calculem medidas com precisão e desenvolvam soluções inovadoras. Um dos fenômenos periódicos modelados pelos seres humanos com o auxílio da função trigonométrica é o das marés, conhecido como maré alta ou baixa, que é influenciado pela força gravitacional do Sol e da Lua sobre o planeta Terra. Esse fenômeno da natureza acontece quatro vezes ao dia, com duas marés altas e duas marés baixas, sendo, portanto, de natureza periódica. Considere um modelo matemático, desenvolvido para os fenômenos das marés, dado pela função f : ℝ⁺ → ℝ⁺, definida pela lei f(t) = 2 · sen t + 1, onde t é o tempo em horas, e f(t) é a altura da maré em metros.\n\nReferências:\n\nhttps://educapes.capes.gov.br/bitstream/capes/746018/1/Livro%20Maicon%20Michael.pdf . Acesso em: 01/07/2025.\n\nhttps://repositorio.utfpr.edu.br/jspui/bitstream/1/20324/1/LD_EMAT_I_2017_18.pdf. Acesso em: 02/06/2025.\n\n**Determine qual dos gráficos a seguir descreve o movimento das marés no modelo sugerido, ou seja, a função f(t).**",
+      "options": [
+        {
+          "text": "![Gráfico de uma curva ondulada que passa pelo ponto (0, 1), sobe até o valor máximo 3 em t ≈ 1,6, desce até o valor mínimo −1 em t ≈ 4,7 e volta ao máximo 3 em t ≈ 7,9.](img/pave/2025/etapa-2/q20-a.png)",
+          "explanation": "Correta. f(0) = 2·sen 0 + 1 = 1; como o seno varia de −1 a 1, f varia de 2·(−1) + 1 = −1 a 2·1 + 1 = 3, com máximo em t = π/2 ≈ 1,57 e mínimo em t = 3π/2 ≈ 4,71. É a senoide de amplitude 2 deslocada 1 unidade para cima."
+        },
+        {
+          "text": "![Gráfico de uma curva ondulada que passa pela origem (0, 0), sobe até o valor máximo 2 em t ≈ 1,6, corta o eixo horizontal em t ≈ 3,1, desce até o valor mínimo −2 em t ≈ 4,7 e volta ao máximo 2 em t ≈ 7,9.](img/pave/2025/etapa-2/q20-b.png)",
+          "explanation": "Este é o gráfico de 2·sen t: tem a amplitude certa (2), mas passa pela origem e oscila entre −2 e 2; falta o deslocamento vertical de +1."
+        },
+        {
+          "text": "![Gráfico de uma curva ondulada que passa pela origem (0, 0), sobe até o valor máximo 1 em t ≈ 1,6, corta o eixo horizontal em t ≈ 3,1, desce até o valor mínimo −1 em t ≈ 4,7 e volta ao máximo 1 em t ≈ 7,9.](img/pave/2025/etapa-2/q20-c.png)",
+          "explanation": "Este é o gráfico de sen t, que passa pela origem e oscila entre −1 e 1; faltam o fator 2 (amplitude) e a soma de 1."
+        },
+        {
+          "text": "![Gráfico de uma curva ondulada que começa no valor máximo 1 em t = 0, corta o eixo horizontal em t ≈ 1,6, desce até o valor mínimo −1 em t ≈ 3,1 e volta ao máximo 1 em t ≈ 6,3.](img/pave/2025/etapa-2/q20-d.png)",
+          "explanation": "A curva começa no valor máximo em t = 0 e oscila entre −1 e 1, comportamento de cos t; já f(t) vale 1 em t = 0, sobe até 3 e desce até −1."
+        },
+        {
+          "text": "![Gráfico de uma curva ondulada que começa no valor máximo 5 em t = 0, desce até o valor mínimo 3 em t ≈ 3,1 e volta ao máximo 5 em t ≈ 6,3, ficando sempre acima do eixo horizontal.](img/pave/2025/etapa-2/q20-e.png)",
+          "explanation": "A curva oscila entre 3 e 5 e começa no máximo, como cos t + 4; em f(t) = 2·sen t + 1 os valores ficam entre −1 e 3 e f(0) = 1."
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "key": "pave-2025-e2-q21",
+      "source": "PAVE 2025 – Etapa 2, questão 21 (UFPel)",
+      "kind": "Objective",
+      "subject": "matematica",
+      "statement": "Pelotas é amplamente reconhecida por sua arquitetura singular e preservada, que revela traços imponentes dos séculos passados. Entre suas características marcantes, destacam-se os ladrilhos hidráulicos presentes em edificações históricas e nas calçadas da cidade. Esse elemento ornamental é produzido por uma fábrica centenária ainda em atividade no município, a qual se tornou referência na confecção de peças decorativas que incorporam uma rica variedade de elementos geométricos em seus desenhos, como observado na figura a seguir.\n\n![Ladrilho quadrado de fundo escuro com quatro losangos claros iguais, um em cada quarto do ladrilho; cada losango é um quadrado girado 45° cujos vértices tocam os pontos médios dos lados do quarto em que está.](img/pave/2025/etapa-2/q21-1.png)\n\nFonte: https://fabricademosaicos.com.br/modelos-de-ladrilhos#all. Acesso em: 30/06/2025.\n\n**Nessa perspectiva, considere que esse ladrilho hidráulico possui 10 cm de lado. Qual é a área correspondente à parte escura da imagem?**",
+      "options": [
+        {
+          "text": "100 cm²",
+          "explanation": "100 cm² é a área do ladrilho inteiro (10 × 10), incluindo os quatro losangos claros, que não fazem parte da região escura."
+        },
+        {
+          "text": "50 cm²",
+          "explanation": "Correta. Cada quarto do ladrilho é um quadrado de 5 cm de lado (25 cm²), e o losango claro inscrito nele, com diagonais de 5 cm, ocupa metade: 5 × 5/2 = 12,5 cm². Os quatro losangos somam 50 cm², restando 100 − 50 = 50 cm² de parte escura."
+        },
+        {
+          "text": "25 cm²",
+          "explanation": "25 cm² é a área de um dos quatro quartos do ladrilho (5 × 5), ou de apenas dois losangos; a parte escura ocupa metade do ladrilho inteiro, 50 cm²."
+        },
+        {
+          "text": "40 cm²",
+          "explanation": "40 é o perímetro do ladrilho (4 × 10 cm), não uma área; a parte escura corresponde à metade dos 100 cm² do ladrilho."
+        },
+        {
+          "text": "10 cm²",
+          "explanation": "10 é a medida do lado do ladrilho, em centímetros; a parte escura ocupa metade da área total, isto é, 50 cm²."
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "key": "pave-2025-e2-q22",
+      "source": "PAVE 2025 – Etapa 2, questão 22 (UFPel)",
+      "kind": "Objective",
+      "subject": "matematica",
+      "statement": "Um dos chafarizes que frequentemente chama a atenção de quem visita o Calçadão de Pelotas está localizado entre as ruas Andrade Neves e Sete de Setembro. No entanto, essa não foi sua localização original. Inicialmente, o chafariz foi instalado na Praça Domingos Rodrigues e, posteriormente, em 1981, foi transferido para um dos pontos centrais da cidade. Segundo registros da época, a mudança teve como objetivo conferir ao Calçadão um toque especial, com influência do estilo francês. À época, ainda não havia uma definição concreta quanto ao tipo de base a ser utilizada no chafariz, embora o projeto original previsse uma bacia com 6,8 metros de diâmetro.\n\nReferência: adaptado de https://wp.ufpel.edu.br/especializacaoemartesvisuais/files/2013/12/Jana%C3%ADna-Silva-Xavier-%E2%80%93-2006.pdf. Acesso em: 01/07/2025.\n\n**Considerando a base da fonte com 6,8 metros de diâmetro, se fosse construída uma borda com 50 cm de altura ao redor, qual seria o volume máximo de água que a fonte poderia comportar?**",
+      "options": [
+        {
+          "text": "15,22 m³",
+          "explanation": "15,22 m³ não resulta de V = π·r²·h com r = 3,4 m e h = 0,5 m, conta que dá cerca de 18,16 m³."
+        },
+        {
+          "text": "9,08 m³",
+          "explanation": "9,08 m³ é metade do volume correto: aparece, por exemplo, quando a altura de 0,5 m é dividida por 2 mais uma vez (π × 3,4² × 0,25)."
+        },
+        {
+          "text": "12,45 m³",
+          "explanation": "12,45 m³ fica abaixo do volume do cilindro de raio 3,4 m e altura 0,5 m: π × 11,56 × 0,5 ≈ 18,16 m³."
+        },
+        {
+          "text": "18,16 m³",
+          "explanation": "Correta. A fonte cheia é um cilindro de raio 6,8/2 = 3,4 m e altura 50 cm = 0,5 m: V = π·r²·h = π × 3,4² × 0,5 = π × 5,78 ≈ 18,16 m³."
+        },
+        {
+          "text": "21,30 m³",
+          "explanation": "21,30 m³ supera o que cabe na fonte: com r = 3,4 m e h = 0,5 m, o cilindro comporta π × 11,56 × 0,5 ≈ 18,16 m³."
+        }
+      ],
+      "correct": "D"
+    },
+    {
+      "key": "pave-2025-e2-q23",
+      "source": "PAVE 2025 – Etapa 2, questão 23 (UFPel)",
+      "kind": "Objective",
+      "subject": "matematica",
+      "statement": "Nos últimos anos, as corridas de rua conquistaram um número cada vez maior de simpatizantes, atraindo pessoas em busca de saúde, superação e qualidade de vida. No entanto, junto com esse crescimento, tem se observado um comportamento cada vez mais comum: o imediatismo em alcançar metas ambiciosas, como completar provas longas ou atingir grandes quilometragens em pouco tempo. Esse desejo de resultados rápidos, muitas vezes sem o preparo físico e acompanhamento adequados, pode sobrecarregar o corpo e levar a lesões, fadiga excessiva e frustrações. A prática da corrida, para ser segura e sustentável, exige respeito aos limites individuais e uma evolução gradual, que considere o tempo necessário para o corpo se adaptar.\n\nReferência: adaptado de https://ge.globo.com/eu-atleta/treinos/noticia/como-se-preparar-para-a-primeira-maratona-seis-meses-sao-o-tempo-minimo-de-treinamento.ghtml. Acesso em: 27/06/2025.\n\nSob essa perspectiva, Mariana, atleta amadora que pratica corrida de rua há dois anos, decidiu desafiar-se ao participar de sua primeira maratona. Na etapa final de preparação para a prova, seu técnico estabeleceu duas metas específicas a serem cumpridas durante a semana que antecedia o evento:\n\n- Percorrer um total de 99 km ao longo de 6 dias consecutivos;\n- Reduzir a distância percorrida em 5 km a cada novo dia de treino.\n\nEntretanto, Mariana percebeu que não havia sido informada sobre a quilometragem exata a ser cumprida no primeiro dia. Com base nas orientações recebidas, e após realizar os devidos cálculos, conseguiu determinar corretamente essa distância inicial. **Qual foi a distância percorrida por Mariana no primeiro dia de treino?**",
+      "options": [
+        {
+          "text": "34 km",
+          "explanation": "34 km aparece quando se descontam 5 km seis vezes em vez de cinco; começando em 34, a soma seria 34 + 29 + 24 + 19 + 14 + 9 = 129 km, e não 99."
+        },
+        {
+          "text": "24 km",
+          "explanation": "24 km é a distância do segundo dia (29 − 5); começando em 24, o total dos seis dias seria 6 × 24 − 75 = 69 km, e não 99."
+        },
+        {
+          "text": "19 km",
+          "explanation": "19 km é a distância do terceiro dia (29 − 10); como primeiro termo, a soma dos seis dias seria 6 × 19 − 75 = 39 km."
+        },
+        {
+          "text": "29 km",
+          "explanation": "Correta. As distâncias formam uma PA de razão −5: x + (x − 5) + (x − 10) + (x − 15) + (x − 20) + (x − 25) = 99, logo 6x − 75 = 99 e x = 29 km. Conferindo: 29 + 24 + 19 + 14 + 9 + 4 = 99."
+        },
+        {
+          "text": "25 km",
+          "explanation": "Começando em 25 km, a sequência 25, 20, 15, 10, 5 e 0 soma 75 km, 24 a menos que os 99 km exigidos."
+        }
+      ],
+      "correct": "D"
+    },
+    {
+      "key": "pave-2025-e2-q24",
+      "source": "PAVE 2025 – Etapa 2, questão 24 (UFPel)",
+      "kind": "Objective",
+      "subject": "lingua-portuguesa",
+      "statement": "**Leia o texto a seguir.**\n\n**Estátua de Mafalda é inaugurada em Pelotas**\n\n![Fotografia de uma praça arborizada: a estátua colorida de Mafalda, de vestido azul e laço no cabelo, está sentada em um banco; ao lado, em pé, a estátua do personagem Betinho, de chapéu azul, segura um livro aberto.](img/pave/2025/etapa-2/q24-1.png)\n\nUma estátua da personagem infantil Mafalda, criada pelo cartunista argentino Quino (1932-2020), foi inaugurada (...) em Pelotas, no Sul do RS. A escultura está localizada na Praça Coronel Pedro Osório, sentada em um banco, ao lado de uma estátua do personagem Betinho, criado pelo cartunista pelotense André Macedo.\n\nAs duas peças foram esculpidas pelo artista plástico argentino Pablo Irrgang, único autorizado por Quino a fazer reproduções de Mafalda. Atualmente, há 12 estátuas da personagem ao redor do mundo - no Brasil, há apenas uma outra, em uma livraria de São Paulo.\n\nO local escolhido para receber as estátuas fica em frente à Bibliotheca Pública Pelotense e, de acordo com a prefeitura, busca incentivar a leitura às crianças e criar um novo ponto turístico na cidade. As obras foram viabilizadas com recursos de instituições privadas e marcam os 60 anos da Mafalda e os 40 anos do curso de Letras da Universidade Federal de Pelotas (UFPel).\n\nReferência: adaptado de https://g1.globo.com/rs/rio-grande-do-sul/noticia/2024/12/20/estatua-de-mafalda-e-inaugurada-em-pelotas-veja-fotos.ghtml. Acesso em: 19/06/2025.\n\n**A personagem Mafalda, criada em 1964 pelo cartunista argentino Quino, é conhecida por suas reflexões críticas sobre desigualdade, injustiça e guerras. Mafalda dialoga também com acontecimentos históricos. Baseado em seus conhecimentos culturais, históricos e linguísticos, responda se a presença das estátuas de Mafalda e de Betinho, em espaço público de Pelotas, na Praça Coronel Pedro Osório, pode ser interpretada como:**",
+      "options": [
+        {
+          "text": "Uma homenagem exclusiva ao cartum como manifestação artística.",
+          "explanation": "A homenagem não é exclusiva ao cartum: o texto liga as estátuas ao incentivo à leitura, à Bibliotheca Pública e ao curso de Letras, e a personagem carrega um sentido crítico e histórico."
+        },
+        {
+          "text": "Um símbolo de crítica social e de valorização da leitura, com alusão a processos históricos da América Latina.",
+          "explanation": "Correta. Mafalda é símbolo de questionamento social e político na América Latina dos anos 1960 e 1970, e as estátuas, instaladas em frente à Bibliotheca Pública Pelotense e com Betinho lendo, foram pensadas para incentivar a leitura."
+        },
+        {
+          "text": "Uma representação apenas das personagens da literatura infantil hispano-americana.",
+          "explanation": "Betinho é criação de um cartunista pelotense, não hispano-americano, e Mafalda vem de tirinhas de humor crítico lidas também por adultos; o “apenas” restringe demais o sentido."
+        },
+        {
+          "text": "Uma referência direta à arte europeia do século XIX, que influenciou o estilo de Quino.",
+          "explanation": "Quino é um cartunista argentino do século XX, e nada no texto ou no enunciado remete à arte europeia do século XIX."
+        },
+        {
+          "text": "Uma referência ao humor crítico presente nas tirinhas da Mafalda.",
+          "explanation": "O humor crítico é só parte do sentido: a alternativa deixa de fora o incentivo à leitura e o diálogo com a história latino-americana, e não contempla Betinho, que não é personagem das tirinhas da Mafalda."
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "key": "pave-2025-e2-q25",
+      "source": "PAVE 2025 – Etapa 2, questão 25 (UFPel)",
+      "kind": "Objective",
+      "subject": "lingua-portuguesa",
+      "statement": "**Leia o texto a seguir.**\n\n**IA pode aumentar a crença em fake news? Estudo responde**\n\nPesquisadores investigaram o impacto da verificação de fato gerada por IA na crença em notícias políticas e na intenção de compartilhamento de manchetes verdadeiras e falsas.\n\nUm novo estudo liderado por pesquisadores da Universidade de Indiana, nos Estados Unidos, mostrou que a verificação de fatos e notícias por meio da inteligência artificial (IA) pode, em alguns casos, aumentar a crença em manchetes falsas. Isso pode acontecer em casos em que a tecnologia não tem certeza sobre a veracidade das notícias divulgadas ou em situações em que uma manchete verdadeira é erroneamente rotulada como falsa. (...)\n\n“Há muita empolgação em alavancar a IA para escalar aplicações como checagem de fatos, já que verificadores de fatos humanos não conseguem acompanhar o volume de alegações falsas ou enganosas que se espalham nas mídias sociais, incluindo conteúdo gerado pela IA”, diz Matthew DeVerna, aluno de doutorado na Indiana University Luddy School of Informatics, Computing and Engineering, em Bloomington, em comunicado.\n\n“No entanto, nosso estudo destaca que quando as pessoas interagem com a IA, consequências não intencionais podem surgir, destacando o quão importante é considerar cuidadosamente como essas ferramentas são implantadas.”\n\nNo estudo, os pesquisadores investigaram o impacto das informações de verificação de fatos geradas por um modelo popular de linguagem ampla, um tipo de IA, na crença e na intenção de compartilhamento de manchetes de notícias políticas.\n\nEmbora a IA tenha identificado com precisão 90% das manchetes falsas, os pesquisadores descobriram que isso não melhorou significativamente a capacidade dos participantes de distinguir entre manchetes verdadeiras e falsas. Por outro lado, o estudo descobriu que o uso de verificação de fatos geradas por humanos melhorou o discernimento dos usuários sobre manchetes verdadeiras. (...)\n\nReferência: adaptado de https://www.cnnbrasil.com.br/tecnologia/ia-pode-aumentar-a-crenca-em-fake-news-estudo-responde/. Acesso em: 03/07/2025.\n\n**Observe o fragmento abaixo.**\n\n“Um novo estudo liderado por pesquisadores da Universidade de Indiana, nos Estados Unidos, mostrou que a verificação de fatos e notícias por meio da inteligência artificial (IA) pode, em alguns casos, aumentar a crença em manchetes falsas.”\n\n**Com base neste fragmento e no texto completo, assinale a alternativa que apresenta corretamente a principal ideia do texto.**",
+      "options": [
+        {
+          "text": "Pessoas especializadas em checagem da veracidade de informações não conseguem acompanhar o volume de notícias falsas.",
+          "explanation": "A informação está no texto, na fala de Matthew DeVerna, mas é um dado secundário, que explica o interesse em usar IA na checagem; não é a ideia principal."
+        },
+        {
+          "text": "A inteligência artificial é totalmente incapaz de verificar fatos com precisão.",
+          "explanation": "O texto informa que a IA identificou com precisão 90% das manchetes falsas; o problema apontado é o efeito sobre as pessoas, não uma incapacidade total."
+        },
+        {
+          "text": "A checagem de fatos feita por IA pode ter efeitos indesejados, como aumentar a crença em títulos enganosos para textos supostamente jornalísticos.",
+          "explanation": "Correta. É a síntese do estudo: a verificação por IA pode gerar consequências não intencionais, como aumentar a crença em manchetes falsas quando a ferramenta demonstra incerteza ou erra a classificação."
+        },
+        {
+          "text": "Os participantes confiam mais na IA do que em sites criados por humanos.",
+          "explanation": "O estudo não compara a confiança em IA e em sites; diz apenas que a verificação feita por humanos melhorou o discernimento sobre manchetes verdadeiras."
+        },
+        {
+          "text": "Qualquer IA consegue identificar 90% das manchetes falsas sem erros.",
+          "explanation": "O índice de 90% refere-se ao modelo testado no estudo, não a qualquer IA, e identificar 90% significa errar nas demais, portanto não é “sem erros”."
+        }
+      ],
+      "correct": "C"
+    },
+    {
+      "key": "pave-2025-e2-q26",
+      "source": "PAVE 2025 – Etapa 2, questão 26 (UFPel)",
+      "kind": "Objective",
+      "subject": "literatura",
+      "statement": "**Leia o texto e observe a imagem a seguir.**\n\n**Texto I**\n\nA feição deles é serem pardos, maneira de avermelhados, de bons rostos e bons narizes, bem-feitos. Andam nus, sem nenhuma cobertura. Nem estimam de cobrir ou de mostrar suas vergonhas; e nisso têm tanta inocência como em mostrar o rosto. [...] Ambos traziam o beiço de baixo furado e metido nele um osso branco e verdadeiro, de comprimento de uma mão travessa, da grossura de um fuso de algodão, agudo na ponta como um furador.\n\nReferência: CAMINHA, Pero Vaz de. Disponível em: http://www.dominiopublico.gov.br/download/texto/ua000283.pdf. (Fragmento.)\n\n**Texto II**\n\n![Pintura de corpo inteiro de um homem indígena nu, em pé, com cocar de penas e pequenos adornos claros atravessados no rosto; ele segura um feixe de lanças em uma das mãos e uma borduna (clava) na outra, e ao fundo há uma paisagem com vegetação tropical.](img/pave/2025/etapa-2/q26-1.png)\n\nFonte: “Homem Tapuia”, Albert Eckhout, 272×161, 1641. Museu Nacional da Dinamarca, Copenhague.\n\n**Analisando a descrição verbal de Pero Vaz de Caminha e a representação pictórica de Albert Eckhout, ambas produzidas sob a ótica europeia do período colonial, é possível inferir que**",
+      "options": [
+        {
+          "text": "tanto o texto quanto a pintura são manifestações de contracultura, pois desafiavam as normas europeias ao apresentarem com destaque figuras consideradas inferiores pela sociedade da época.",
+          "explanation": "Contracultura é um movimento do século XX; a Carta e a pintura são registros feitos a serviço dos colonizadores, sem intenção de contestar os valores europeus."
+        },
+        {
+          "text": "enquanto a literatura de informação se preocupava em registrar objetivamente os costumes, a pintura da época buscava criar uma alegoria do paraíso perdido, idealizando o indígena.",
+          "explanation": "A Carta não é um registro neutro, pois traz juízos como “bons rostos” e “inocência”; e a pintura de Eckhout tem caráter documental, destacando armas e adornos, em vez de uma alegoria idealizada do paraíso."
+        },
+        {
+          "text": "as duas linguagens, verbal e visual, constroem uma imagem do indígena marcada pelo exotismo, focando em sua nudez, em seus adornos e em uma suposta “inocência” ou “barbárie”, o que reflete a visão de superioridade do colonizador.",
+          "explanation": "Correta. Texto e pintura destacam o que parecia estranho ao europeu: a nudez, o osso no lábio, as armas e os enfeites. O indígena aparece como o “outro”, inocente ou selvagem, sempre descrito pelo olhar de quem se julga superior."
+        },
+        {
+          "text": "a arte visual se mostra mais fiel à realidade e menos ideológica do que o texto literário, ao retratar o indígena sem os adornos e a “estranheza” descritos por Caminha.",
+          "explanation": "A pintura também é uma construção do olhar europeu e não omite os adornos: mostra o cocar, as peças atravessadas no rosto e as armas, reforçando a estranheza."
+        },
+        {
+          "text": "a Carta de Caminha expressa uma visão de condenação e repulsa aos nativos, enquanto a pintura de Eckhout, influenciada pelo Humanismo, busca retratar o “bom selvagem” de forma empática e sem preconceitos.",
+          "explanation": "Caminha não demonstra repulsa: elogia os rostos e a “inocência” dos nativos. E Eckhout não retrata um “bom selvagem” sem preconceitos: o tapuia aparece nu e armado, como figura exótica."
+        }
+      ],
+      "correct": "C"
+    },
+    {
+      "key": "pave-2025-e2-q27",
+      "source": "PAVE 2025 – Etapa 2, questão 27 (UFPel)",
+      "kind": "Objective",
+      "subject": "literatura",
+      "statement": "**Leia o texto a seguir para responder às questões 27 e 28.**\n\n“Como é seu nome? Maurício, ele disse. Seu Maurício, o senhor quer se levantar, por favor? Ele se levantou. Desamarrei os braços dele. Muito obrigado, ele disse. Vê-se que o senhor é um homem educado, instruído. Os senhores podem ir embora, que não daremos queixa à polícia. Ele disse isso olhando para os outros, que estavam quietos apavorados no chão, e fazendo um gesto com as mãos abertas, como quem diz, calma minha gente, já levei este bunda-suja no papo. Inocêncio, você já acabou de comer? Me traz uma perna de peru dessas aí. Em cima de uma mesa tinha comida que dava para alimentar o presídio inteiro. Comi a perna de peru. Apanhei a carabina doze e carreguei os dois canos. Seu Maurício, quer fazer o favor de chegar perto da parede? Ele se encostou na parede. Encostado não, não, uns dois metros de distância. Mais um pouquinho para cá. Aí. Muito obrigado. Atirei bem no meio do peito dele, esvaziando os dois canos, aquele tremendo trovão. O impacto jogou o cara com força contra a parede. Ele foi escorregando lentamente e ficou sentado no chão. No peito dele tinha um buraco que dava para colocar um panetone.”\n\nReferência: FONSECA, Rubem. **Feliz Ano Novo.** Rio de Janeiro: Artenova, 1975.\n\nComo pode-se perceber, a literatura de Rubem Fonseca mergulha na violência urbana por meio de uma linguagem dura e pela construção de cenas chocantes. Seus textos expõem a face crua das metrópoles, focando em personagens marginais, na banalidade do mal e na degradação do corpo. **Com base nisso, e no trecho do conto, qual alternativa melhor detalha como os conceitos de “banalidade do mal”, “linguagem dura” e “degradação do corpo” se manifestam de forma articulada na cena?**",
+      "options": [
+        {
+          "text": "O personagem marginal demonstra um profundo conflito psicológico; a linguagem dura e a violência extrema são, na verdade, uma máscara para sua insegurança, e o assassinato é um ato impulsivo para afirmar sua identidade, contrariando o conceito de banalidade.",
+          "explanation": "O narrador não revela conflito interior nem age por impulso: ele come, carrega a arma, posiciona a vítima e atira com toda a calma, o que confirma, e não contraria, a banalidade do mal."
+        },
+        {
+          "text": "A violência é apresentada como uma reação justa do personagem marginal à arrogância de Maurício, sugerindo que a degradação do corpo é uma consequência moral merecida, o que suaviza a ideia de banalidade do mal.",
+          "explanation": "A cena não trata o crime como justo ou merecido: Maurício é morto gratuitamente, depois de obedecer a tudo, e a frieza do relato acentua a banalidade em vez de suavizá-la."
+        },
+        {
+          "text": "A linguagem dura do autor se concentra exclusivamente na comparação final do ferimento com um “panetone”, utilizando o recurso da ironia para aliviar a tensão da cena e fazer uma crítica velada ao consumismo da vítima.",
+          "explanation": "A linguagem dura percorre todo o trecho (o termo chulo, as ordens secas, a descrição do tiro), não só a imagem do panetone, que não alivia a tensão: torna a cena ainda mais brutal."
+        },
+        {
+          "text": "O foco se dá na degradação do corpo, que é explorada de forma simbólica, e não realista; o “tremendo trovão” e o “buraco que dava para colocar um panetone” são metáforas da destruição da classe alta pela classe baixa.",
+          "explanation": "A descrição é realista e crua, não simbólica: o estrondo da carabina e o buraco no peito são dados físicos da cena, narrados sem intenção alegórica."
+        },
+        {
+          "text": "A banalidade do mal é evidenciada na pausa que o narrador faz para comer uma perna de peru, tratando o assassinato como um evento corriqueiro; a linguagem dura se manifesta no contraste entre a falsa polidez e a descrição gráfica do tiro; e a degradação do corpo ocorre pela comparação do ferimento a um espaço para colocar um panetone.",
+          "explanation": "Correta. O narrador come uma perna de peru antes de matar, como se o crime fosse rotina (banalidade do mal); a polidez de “quer fazer o favor” e “muito obrigado” contrasta com o tiro descrito sem rodeios (linguagem dura); e o corpo é reduzido a um buraco onde caberia um panetone (degradação)."
+        }
+      ],
+      "correct": "E"
+    },
+    {
+      "key": "pave-2025-e2-q28",
+      "source": "PAVE 2025 – Etapa 2, questão 28 (UFPel)",
+      "kind": "Objective",
+      "subject": "arte",
+      "statement": "**Leia o texto a seguir para responder às questões 27 e 28.**\n\n“Como é seu nome? Maurício, ele disse. Seu Maurício, o senhor quer se levantar, por favor? Ele se levantou. Desamarrei os braços dele. Muito obrigado, ele disse. Vê-se que o senhor é um homem educado, instruído. Os senhores podem ir embora, que não daremos queixa à polícia. Ele disse isso olhando para os outros, que estavam quietos apavorados no chão, e fazendo um gesto com as mãos abertas, como quem diz, calma minha gente, já levei este bunda-suja no papo. Inocêncio, você já acabou de comer? Me traz uma perna de peru dessas aí. Em cima de uma mesa tinha comida que dava para alimentar o presídio inteiro. Comi a perna de peru. Apanhei a carabina doze e carreguei os dois canos. Seu Maurício, quer fazer o favor de chegar perto da parede? Ele se encostou na parede. Encostado não, não, uns dois metros de distância. Mais um pouquinho para cá. Aí. Muito obrigado. Atirei bem no meio do peito dele, esvaziando os dois canos, aquele tremendo trovão. O impacto jogou o cara com força contra a parede. Ele foi escorregando lentamente e ficou sentado no chão. No peito dele tinha um buraco que dava para colocar um panetone.”\n\nReferência: FONSECA, Rubem. **Feliz Ano Novo.** Rio de Janeiro: Artenova, 1975.\n\nA arte da performance, que ganhou força a partir dos anos 1960, utiliza o corpo do próprio artista como suporte e a ação como principal linguagem. Na performance Ritmo 0, a artista Marina Abramović ofereceu seu próprio corpo como um objeto passivo ao público por seis horas. Em uma mesa, 72 itens estavam disponíveis para serem usados nela, incluindo uma rosa, um chicote e uma arma carregada. A proposta era testar os limites do público quando confrontado com um ser humano completamente vulnerável e sem reações. O resultado foi uma escalada de violência, com o público assumindo um papel ativo na agressão, incluindo uma pessoa que apontou a arma carregada para a cabeça da artista.\n\n![Fotografia em preto e branco de Marina Abramović imóvel, com o olhar distante e marcas no rosto, enquanto uma mão segura uma pistola junto ao seu peito; atrás dela, um homem de cabelos compridos observa e, em primeiro plano, aparece de costas a silhueta escura de outro espectador.](img/pave/2025/etapa-2/q28-1.png)\n\nMarina Abramović, Rhythm 0 (Ritmo 0), 1974. Performance, 6 horas. Studio Morra, Nápoles, Itália.\n\nFonte: https://artrianon.com/2017/10/10/obra-de-arte-da-semana-performance-ritmo-0-de-marina-abramovic/. Acesso em: 29/06/2025.\n\nA literatura de Fonseca e a arte da performance de Abramović, embora usem suportes distintos (a página e o corpo presente), investigam a natureza da violência e do poder. **Analisando comparativamente os dois textos, qual alternativa descreve a relação mais precisa entre o narrador de Fonseca e o público de Abramović?**",
+      "options": [
+        {
+          "text": "Tanto o público de Abramović quanto os reféns na festa fazem a mesma coisa, apenas assistem à violência sem poder reagir.",
+          "explanation": "No conto os reféns estão rendidos e não têm escolha; na performance o público era livre e foi ele quem praticou a violência, portanto não se limitou a assistir."
+        },
+        {
+          "text": "No conto, o narrador controla a violência para uma plateia que só assiste, enquanto na performance, o próprio público controla a violência, mostrando que a maldade pode vir de pessoas comuns, não só de criminosos.",
+          "explanation": "Correta. Em Fonseca, o narrador-criminoso conduz a violência diante de reféns imobilizados; em Ritmo 0, a artista fica passiva e são os espectadores, pessoas comuns, que escolhem agredir, o que desloca a origem do mal do criminoso para qualquer um."
+        },
+        {
+          "text": "Não é possível comparar as duas obras, porque o conto de Rubem Fonseca é uma ficção que nos faz pensar de forma mais distante, já a performance de Abramović é uma experiência real, que provoca uma reação mais de sentimento do que de pensamento.",
+          "explanation": "Linguagens diferentes podem ser comparadas, e o próprio enunciado faz isso: as duas obras investigam a violência e o poder. Além disso, ficção também comove e performance também faz pensar."
+        },
+        {
+          "text": "Tanto o personagem Maurício quanto Abramović se fazem de vítimas para tentar controlar seus agressores. Maurício usa sua boa educação e Abramović usa seu silêncio para comandar a situação, mostrando que, no fundo, a vítima é quem realmente tem o poder.",
+          "explanation": "Maurício até tenta manipular o assaltante com polidez, mas fracassa e é morto; Abramović não comanda nada, entrega o controle ao público. Nenhum dos casos mostra que a vítima detém o poder."
+        },
+        {
+          "text": "Nos dois casos, a violência é usada para fazer uma crítica social. O assassinato de Maurício é uma crítica aos ricos, e a performance de Abramović é uma crítica ao mundo da arte. Por isso, a análise das obras deve focar apenas na política e na luta de classes.",
+          "explanation": "A leitura social é possível, mas reduzir as obras “apenas” à luta de classes ignora o que se pede: a relação entre quem exerce a violência e quem a presencia. E Ritmo 0 testa o comportamento do público, não critica o mundo da arte."
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "key": "pave-2025-e2-q29",
+      "source": "PAVE 2025 – Etapa 2, questão 29 (UFPel)",
+      "kind": "Objective",
+      "subject": "literatura",
+      "statement": "**Leia o texto e observe a imagem a seguir.**\n\n**Texto I: A terceira margem do rio (excerto)**\n\n```\n 1  Nosso pai era homem cumpridor, ordeiro, positivo; e sido assim desde mocinho e menino, pelo que\n 2  testemunharam as diversas sensatas pessoas, quando indaguei a informação. Do que eu mesmo\n 3  me alembro, ele não figurava mais estúrdio nem mais triste do que os outros, conhecidos nossos.\n 4  Só quieto. Nossa mãe era quem regia, e que ralhava no diário com a gente — minha irmã, meu\n 5  irmão e eu. Mas se deu que, certo dia, nosso pai mandou fazer para si uma canoa. Era a sério.\n 6  Encomendou a canoa especial, de pau de vinhático, pequena, mal com a tabuinha da popa, como\n 7  para caber justo o remador. Mas teve de ser toda fabricada, escolhida forte e arqueada em rijo,\n 8  própria para dever durar na água por uns vinte ou trinta anos. Nossa mãe jurou muito contra a ideia.\n 9  Seria que, ele, que nessas artes não vadiava, se ia propor agora para pescarias e caçadas? Nosso\n10  pai nada não dizia. Nossa casa, no tempo, ainda era mais próxima do rio, obra de nem quarto de\n11  légua: o rio por aí se estendendo grande, fundo, calado que sempre. Largo, de não se poder ver a\n12  forma da outra beira. E esquecer não posso, do dia em que a canoa ficou pronta.\n\n13  Sem alegria nem cuidado, nosso pai encalcou o chapéu e decidiu um adeus para a gente. Nem\n14  falou outras palavras, não pegou matula e trouxa, não fez a alguma recomendação. (...)\n```\n\nReferência: adaptado de ROSA, João Guimarães. **A terceira margem do rio.** In: Ficção completa: volume II. Rio de Janeiro: Nova Aguilar, 1994, p. 409-413. Disponível em: https://cogetes.epsjv.fiocruz.br/storage/Textos-e-Material-de-Apoio---4%C2%BA-Ano---Literatura---Gabrielle-n_5ee0d32b36f91.pdf. Acesso em: 18/06/2024.\n\n**Texto II: A terceira margem do rio (por Jessica Vieira Goulart - FAUUSP)**\n\n![Desenho em preto e branco de um rio largo, representado por faixas de linhas onduladas, com uma canoa estreita no centro levando um único homem de chapéu, de costas, cercado só pelas águas.](img/pave/2025/etapa-2/q29-1.png)\n\nFonte: adaptado de O Fantástico em Rosa na Terceira Margem do Rio. Disponível em: https://www.carlosromero.com.br/2023/07/o-fantastico-em-rosa-na-terceira-margem.html. Acesso em: 18/04/2024.\n\nA marca principal das obras de Guimarães Rosa é a linguagem marcada pela originalidade e que une de forma magistral a informalidade, a coloquialidade, os neologismos e a variação linguística a uma complexa linguagem poética. Toda essa riqueza artística possibilita que o autor sirva de inspiração para que outras linguagens artísticas, tais como o desenho e a pintura busquem, também, captar a essência de seus textos.\n\n**As características psicológicas/pessoais que o protagonista do Texto I possui em comum com o rio e que foram captadas pela sensibilidade de Jéssica Vieira Goulart, no Texto II, são, respectivamente:**",
+      "options": [
+        {
+          "text": "estúrdio (linha 03) e grande (linha 11).",
+          "explanation": "“Estúrdio” (esquisito) é justamente o que o narrador diz que o pai não era, e “grande” é dimensão física do rio, não um traço de temperamento."
+        },
+        {
+          "text": "positivo (linha 01) e fundo (linha 11).",
+          "explanation": "“Positivo” descreve o pai como homem sério e correto, e “fundo” é a profundidade do rio; as duas palavras não indicam uma característica comum aos dois."
+        },
+        {
+          "text": "quieto (linha 04) e calado (linha 11).",
+          "explanation": "Correta. O pai era “só quieto” (linha 04) e o rio é “calado que sempre” (linha 11): o silêncio é o traço humano que une os dois, e a ilustração o traduz no homem solitário na canoa, em meio às águas."
+        },
+        {
+          "text": "cumpridor (linha 01) e largo (linha 11).",
+          "explanation": "“Cumpridor” (responsável) é qualidade só do pai, e “largo” é medida do rio; não há correspondência de sentido entre as duas palavras."
+        },
+        {
+          "text": "triste (linha 03) e largo (linha 11).",
+          "explanation": "O narrador afirma que o pai não era mais triste que os outros, e “largo” indica a extensão do rio, não uma característica psicológica."
+        }
+      ],
+      "correct": "C"
+    },
+    {
+      "key": "pave-2025-e2-q30-es",
+      "source": "PAVE 2025 – Etapa 2, questão 30, espanhol (UFPel)",
+      "kind": "Objective",
+      "subject": "espanhol",
+      "statement": "**Leia atentamente o trecho a seguir da canção Te recuerdo Amanda (1969), obra do artista chileno Victor Jara, para responder às questões 30, 31 e 32.**\n\n```\n[...]\nTe recuerdo Amanda\nLa calle mojada\nCorriendo a la fábrica\nDonde trabajaba Manuel\nLa sonrisa ancha\nLa lluvia en el pelo\nNo importaba nada\nIbas a encontrarte con él\nCon él, con él, con él, con él, con él\nQue partió a la sierra\nQue nunca hizo daño\nQue partió a la sierra\nY en cinco minutos quedó destrozado\nSuena la sirena\nDe vuelta al trabajo\nMuchos no volvieron\nTampoco Manuel\nTe recuerdo Amanda\nLa calle mojada\nCorriendo a la fábrica\nDonde trabajaba Manuel\n```\n\nReferência: https://www.letras.mus.br/victor-jara/404889. Acesso em: 04/07/2025.\n\n**Com base em seus conhecimentos de Arte e de Língua Espanhola, marque a alternativa correta.**",
+      "options": [
+        {
+          "text": "A canção aborda uma história de amor em que a figura masculina, Manuel, foge para as montanhas com outra mulher e abandona a personagem Amanda.",
+          "explanation": "Manuel não foge com outra mulher: ele “partió a la sierra” (partiu para a serra) e “en cinco minutos quedó destrozado” (ficou destroçado), ou seja, morreu; era ao encontro dele que Amanda corria."
+        },
+        {
+          "text": "A canção possui um viés de protesto e crítica social ao narrar uma situação de exploração da classe trabalhadora, enfrentando condições precárias de trabalho envolvendo risco de vida.",
+          "explanation": "Correta. Víctor Jara é um dos principais nomes da canção de protesto chilena. Por trás do encontro de Amanda e Manuel, a letra mostra a vida de operários regida pela sirene da fábrica e termina com a morte de muitos deles (“Muchos no volvieron / Tampoco Manuel”: muitos não voltaram, Manuel também não)."
+        },
+        {
+          "text": "A canção, de um famoso artista romântico chileno, trata de uma história de amor não correspondido.",
+          "explanation": "Jara não é um cantor romântico, e sim de canção de protesto; e o amor é correspondido: Amanda ia sorridente “a encontrarte con él” (encontrar-se com ele)."
+        },
+        {
+          "text": "A canção aborda a história de uma mulher apaixonada, que corria na chuva e molhava seus cabelos sem se importar com nada para chegar ao encontro de seu amado, e não evidencia qualquer tipo de crítica social.",
+          "explanation": "A primeira parte descreve bem a cena de Amanda na chuva, mas a canção não para aí: a sirene, a volta ao trabalho e os que “no volvieron” (não voltaram) trazem a crítica social."
+        },
+        {
+          "text": "A canção aborda a história de trabalhadores que fugiram para as montanhas para se libertarem de um sistema opressor de trabalho, tendo que abandonar suas esposas e namoradas para trás.",
+          "explanation": "A letra não fala em fuga coletiva nem em abandono de esposas: quem “partió a la sierra” foi Manuel, que “nunca hizo daño” (nunca fez mal) e acabou “destrozado”, morto."
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "key": "pave-2025-e2-q30-en",
+      "source": "PAVE 2025 – Etapa 2, questão 30, inglês (UFPel)",
+      "kind": "Objective",
+      "subject": "ingles",
+      "statement": "**Leia o texto a seguir para responder às questões 30, 31 e 32.**\n\n**France imposes smoking ban on beaches, parks**\n\n```\n 1  France on Sunday banned smoking in parks and on beaches, part of efforts to protect the public\n 2  from passive smoke and create the country’s first non-smoking generation. The ban, published in\n 3  the official government gazette on Saturday, also applies to bus shelters and areas near libraries,\n 4  swimming pools and schools.\n\n 5  It was introduced one week before the start of school holidays, aiming to shield children from smoke\n 6  on beaches. The rules do not apply to bar and restaurant terraces, where smoking remains permitted.\n 7  They also do not apply to electronic cigarettes.\n\n 8  On a beach packed with sunbathers and sloping into the crashing Atlantic surf in southwestern\n 9  France, opinions on the new rules were mixed as smokers puffed away without apparent fear of\n10  reprimand. “Frankly, I think it’s ridiculous. We bring our own ashtrays and we’re no longer allowed\n11  to smoke in parks, on beaches and so on,” said Damien Dupois, a smoker. But Romain Boonaert, a\n12  non-smoker enjoying the beach in La Porge outside Bordeaux, welcomed the move. “There’s plenty\n13  of space, but it’s never pleasant when you get a little smoke on you. And then some people smoke\n14  other things too, so at least it takes away all the trouble.”\n\n15  According to the new rules, people should also not smoke within a 10 metres radius of schools,\n16  swimming pools, libraries and other places that hurt minors. The health ministry said it would an-\n17  nounce the minimum distance for smoking in these areas in the coming days. Those who violate the\n18  ban could face a fine of 135 euros ($160) up to a maximum of 700 euros.\n\n19  The health ministry is expecting an initial grace period as the new rules are introduced. “Tobacco\n20  must disappear from places where there are children. A park, a beach, a school – these are places\n21  to play, learn, and breathe. Not for smoking”, Health and Family Minister Catherine Vautrin said. She\n22  also said the ban was part of France’s push for a “tobacco-free generation” by 2032.\n\n23  The ban “is a step in the right direction, but remains insufficient”, said Yves Martinet, president of the\n24  National Committee Against Smoking (CNCT), criticising the continued permission to smoke on cafe\n25  terraces. “The minister points to the protection of children, but children also go to the terraces”, Mar-\n26  tinet, a pulmonologist, said. He lamented the absence of e-cigarettes from the text, saying flavours\n27  are used to “hook young people”. “For a measure to be effective, it must be clear – no consumption\n28  of products containing tobacco or nicotine in public”, Martinet said.\n\n29  But Frank Delvau, president of the Union of Hotel Trades and Industries (UMIH) for the Paris region,\n30  said a ban on smoking on cafe terraces “would only shift the problem because people on terraces\n31  would go smoke next to these establishments”. “Smokers and non-smokers can coexist” on terraces,\n32  the “last places of conviviality and freedom”, said Franck Trouet, of hospitality association Hotels and\n33  Restaurants of France (GHR).\n\n34  Passive smoking causes between 3,000 and 5,000 deaths annually in France, according to official\n35  estimates. But smoking is steadily declining in France with “the lowest prevalence ever recorded\n36  since 2000”, according to the French addiction agency OFDT. Less than a quarter of adults aged\n37  18 to 75 smoked daily in 2023. Smoking causes 75,000 deaths a year and costs society 156 billion\n38  euros annually, the agency said.\n\n39  A recent survey found 62 percent of French respondents support a smoking ban in public spaces.\n```\n\nReferência: adaptado de https://www.yahoo.com/news/france-imposes-smoking-ban-beaches-024040662.html. Acesso em: 29/06/2025.\n\n**A partir da leitura do texto “France imposes smoking ban on beaches, parks”, considere as afirmações abaixo.**\n\nI – A data da publicação da medida descrita pelo texto foi motivada pelo calendário escolar francês.\n\nII – Alguns defensores da proposta estão insatisfeitos, pois ela não atinge cigarros eletrônicos e não se estende a outros ambientes que também são frequentados por crianças.\n\nIII – Desde o ano 2000, nunca tantas pessoas morreram devido a problemas causados pelo tabagismo.\n\nIV – Mais da metade dos franceses apoiam a proibição ao fumo em lugares públicos.\n\nV – Mais de 25% dos adultos declararam fumar diariamente no ano de 2023.\n\n**Estão corretas:**",
+      "options": [
+        {
+          "text": "II, III e V, apenas.",
+          "explanation": "A II está certa, mas III e V não: o texto fala na menor prevalência de fumantes desde 2000 (linhas 35 e 36) e em menos de um quarto dos adultos fumando diariamente (“less than a quarter”, linha 36)."
+        },
+        {
+          "text": "I, II e IV, apenas.",
+          "explanation": "Correta. A medida foi introduzida uma semana antes das férias escolares, para proteger as crianças (I, linha 5); Yves Martinet a considera insuficiente por poupar os terraços de cafés e os cigarros eletrônicos (II, linhas 23 a 28); e 62% dos franceses apoiam a proibição (IV, linha 39)."
+        },
+        {
+          "text": "I e III, apenas.",
+          "explanation": "A I está certa, mas a III inverte o texto: “the lowest prevalence ever recorded since 2000” indica que o tabagismo está no menor nível desde 2000, e não que as mortes bateram recorde."
+        },
+        {
+          "text": "III e IV, apenas.",
+          "explanation": "A IV está certa (62% apoiam a proibição), mas a III não: o texto registra queda contínua do tabagismo, com a menor prevalência desde 2000."
+        },
+        {
+          "text": "II e III, apenas.",
+          "explanation": "A II está certa, mas a III não: “smoking is steadily declining” mostra que o tabagismo vem diminuindo. Além disso, ficam de fora a I e a IV, ambas corretas."
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "key": "pave-2025-e2-q31-es",
+      "source": "PAVE 2025 – Etapa 2, questão 31, espanhol (UFPel)",
+      "kind": "Objective",
+      "subject": "espanhol",
+      "statement": "**Leia atentamente o trecho a seguir da canção Te recuerdo Amanda (1969), obra do artista chileno Victor Jara, para responder às questões 30, 31 e 32.**\n\n```\n[...]\nTe recuerdo Amanda\nLa calle mojada\nCorriendo a la fábrica\nDonde trabajaba Manuel\nLa sonrisa ancha\nLa lluvia en el pelo\nNo importaba nada\nIbas a encontrarte con él\nCon él, con él, con él, con él, con él\nQue partió a la sierra\nQue nunca hizo daño\nQue partió a la sierra\nY en cinco minutos quedó destrozado\nSuena la sirena\nDe vuelta al trabajo\nMuchos no volvieron\nTampoco Manuel\nTe recuerdo Amanda\nLa calle mojada\nCorriendo a la fábrica\nDonde trabajaba Manuel\n```\n\nReferência: https://www.letras.mus.br/victor-jara/404889. Acesso em: 04/07/2025.\n\n**No quinto verso, a palavra “ancha” poderia ser corretamente substituída por qual palavra em espanhol, mantendo o sentido original?**",
+      "options": [
+        {
+          "text": "Amplia.",
+          "explanation": "Correta. “Ancha” significa larga: “la sonrisa ancha” é o sorriso largo, aberto, e “amplia” (ampla) mantém esse sentido."
+        },
+        {
+          "text": "Estrecha.",
+          "explanation": "“Estrecha” significa estreita, justamente o antônimo de “ancha” (larga)."
+        },
+        {
+          "text": "Pequeña.",
+          "explanation": "“Pequeña” (pequena) contraria a ideia de sorriso largo, aberto de alegria, expressa por “ancha”."
+        },
+        {
+          "text": "Delgada.",
+          "explanation": "“Delgada” quer dizer magra ou fina, sentido que também se opõe à largura indicada por “ancha”."
+        },
+        {
+          "text": "Hermosa.",
+          "explanation": "“Hermosa” significa bonita: caberia na frase, mas mudaria o sentido, pois “ancha” fala do tamanho do sorriso, não da beleza."
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "key": "pave-2025-e2-q31-en",
+      "source": "PAVE 2025 – Etapa 2, questão 31, inglês (UFPel)",
+      "kind": "Objective",
+      "subject": "ingles",
+      "statement": "**Leia o texto a seguir para responder às questões 30, 31 e 32.**\n\n**France imposes smoking ban on beaches, parks**\n\n```\n 1  France on Sunday banned smoking in parks and on beaches, part of efforts to protect the public\n 2  from passive smoke and create the country’s first non-smoking generation. The ban, published in\n 3  the official government gazette on Saturday, also applies to bus shelters and areas near libraries,\n 4  swimming pools and schools.\n\n 5  It was introduced one week before the start of school holidays, aiming to shield children from smoke\n 6  on beaches. The rules do not apply to bar and restaurant terraces, where smoking remains permitted.\n 7  They also do not apply to electronic cigarettes.\n\n 8  On a beach packed with sunbathers and sloping into the crashing Atlantic surf in southwestern\n 9  France, opinions on the new rules were mixed as smokers puffed away without apparent fear of\n10  reprimand. “Frankly, I think it’s ridiculous. We bring our own ashtrays and we’re no longer allowed\n11  to smoke in parks, on beaches and so on,” said Damien Dupois, a smoker. But Romain Boonaert, a\n12  non-smoker enjoying the beach in La Porge outside Bordeaux, welcomed the move. “There’s plenty\n13  of space, but it’s never pleasant when you get a little smoke on you. And then some people smoke\n14  other things too, so at least it takes away all the trouble.”\n\n15  According to the new rules, people should also not smoke within a 10 metres radius of schools,\n16  swimming pools, libraries and other places that hurt minors. The health ministry said it would an-\n17  nounce the minimum distance for smoking in these areas in the coming days. Those who violate the\n18  ban could face a fine of 135 euros ($160) up to a maximum of 700 euros.\n\n19  The health ministry is expecting an initial grace period as the new rules are introduced. “Tobacco\n20  must disappear from places where there are children. A park, a beach, a school – these are places\n21  to play, learn, and breathe. Not for smoking”, Health and Family Minister Catherine Vautrin said. She\n22  also said the ban was part of France’s push for a “tobacco-free generation” by 2032.\n\n23  The ban “is a step in the right direction, but remains insufficient”, said Yves Martinet, president of the\n24  National Committee Against Smoking (CNCT), criticising the continued permission to smoke on cafe\n25  terraces. “The minister points to the protection of children, but children also go to the terraces”, Mar-\n26  tinet, a pulmonologist, said. He lamented the absence of e-cigarettes from the text, saying flavours\n27  are used to “hook young people”. “For a measure to be effective, it must be clear – no consumption\n28  of products containing tobacco or nicotine in public”, Martinet said.\n\n29  But Frank Delvau, president of the Union of Hotel Trades and Industries (UMIH) for the Paris region,\n30  said a ban on smoking on cafe terraces “would only shift the problem because people on terraces\n31  would go smoke next to these establishments”. “Smokers and non-smokers can coexist” on terraces,\n32  the “last places of conviviality and freedom”, said Franck Trouet, of hospitality association Hotels and\n33  Restaurants of France (GHR).\n\n34  Passive smoking causes between 3,000 and 5,000 deaths annually in France, according to official\n35  estimates. But smoking is steadily declining in France with “the lowest prevalence ever recorded\n36  since 2000”, according to the French addiction agency OFDT. Less than a quarter of adults aged\n37  18 to 75 smoked daily in 2023. Smoking causes 75,000 deaths a year and costs society 156 billion\n38  euros annually, the agency said.\n\n39  A recent survey found 62 percent of French respondents support a smoking ban in public spaces.\n```\n\nReferência: adaptado de https://www.yahoo.com/news/france-imposes-smoking-ban-beaches-024040662.html. Acesso em: 29/06/2025.\n\nQual das opções abaixo traz uma palavra que **NÃO PODE** ser lida como um verbo ou como um substantivo, dependendo de seu contexto de uso?",
+      "options": [
+        {
+          "text": "protect (l. 1).",
+          "explanation": "Correta. “Protect” é somente verbo (proteger); o substantivo correspondente é outra palavra, “protection”, que aparece na linha 25."
+        },
+        {
+          "text": "smoke (l. 13).",
+          "explanation": "“Smoke” pode ser substantivo (fumaça, como em “a little smoke on you”) ou verbo (fumar, como em “some people smoke”); os dois usos aparecem na linha 13."
+        },
+        {
+          "text": "face (l. 18).",
+          "explanation": "“Face” é verbo no texto (“could face a fine”, enfrentar uma multa), mas também é o substantivo “rosto”."
+        },
+        {
+          "text": "park (l. 20).",
+          "explanation": "“Park” é substantivo no texto (“a park”, um parque), mas também funciona como verbo: “to park” é estacionar."
+        },
+        {
+          "text": "step (l. 23).",
+          "explanation": "“Step” é substantivo no texto (“a step in the right direction”, um passo), mas também é verbo: “to step” é pisar, dar um passo."
+        }
+      ],
+      "correct": "A"
+    }
+  ]
+}

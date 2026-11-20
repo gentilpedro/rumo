@@ -17,6 +17,12 @@ public enum MockExamStyle
 
     /// <summary>Questões objetivas distribuídas pelas quatro áreas, no ritmo de um dia de prova.</summary>
     Enem = 1,
+
+    /// <summary>
+    /// 32 objetivas com cota por área, a opção "Ignoro a resposta" e desconto de 10% por erro
+    /// (Edital CRA/UFPel nº 16/2026, itens 12 e 13).
+    /// </summary>
+    Pave = 2,
 }
 
 /// <summary>
@@ -63,6 +69,9 @@ public static class Tracks
     public const int EnadeAds = 1;
     public const int Enem = 2;
     public const int EnadeRedes = 3;
+    public const int Pave1 = 4;
+    public const int Pave2 = 5;
+    public const int Pave3 = 6;
 
     /// <summary>Trilha de quem ainda não escolheu nenhuma: a primeira que a plataforma teve.</summary>
     public const int Default = EnadeAds;
@@ -92,6 +101,28 @@ public static class Tracks
             Level = TrackLevel.HigherEducation, MockExamStyle = MockExamStyle.Enade,
             // Mesmo dia do ENADE de ADS (Edital Inep nº 49/2026); as duas trilhas do ENADE ficam juntas na escolha.
             ExamDate = new(2026, 11, 29), Order = 2,
+        },
+        // PAVE (UFPel): uma etapa por ano do ensino médio. Datas do Edital CRA nº 16/2026, item 11.1.
+        new()
+        {
+            Id = Pave1, Slug = "pave-1", Name = "PAVE 2026 · Etapa 1", ExamName = "PAVE", Label = "PAVE 1",
+            Basis = "Os conteúdos do 1º ano do ensino médio na Matriz de Referência PAVE 2026 da UFPel, na ordem das áreas da prova.",
+            Level = TrackLevel.HighSchool, MockExamStyle = MockExamStyle.Pave,
+            ExamDate = new(2026, 12, 5), Order = 4,
+        },
+        new()
+        {
+            Id = Pave2, Slug = "pave-2", Name = "PAVE 2026 · Etapa 2", ExamName = "PAVE", Label = "PAVE 2",
+            Basis = "Os conteúdos do 2º ano do ensino médio na Matriz de Referência PAVE 2026 da UFPel, na ordem das áreas da prova.",
+            Level = TrackLevel.HighSchool, MockExamStyle = MockExamStyle.Pave,
+            ExamDate = new(2026, 12, 6), Order = 5,
+        },
+        new()
+        {
+            Id = Pave3, Slug = "pave-3", Name = "PAVE 2026 · Etapa 3", ExamName = "PAVE", Label = "PAVE 3",
+            Basis = "Os conteúdos do 3º ano do ensino médio e a redação na Matriz de Referência PAVE 2026 da UFPel, na ordem das áreas da prova.",
+            Level = TrackLevel.HighSchool, MockExamStyle = MockExamStyle.Pave,
+            ExamDate = new(2026, 12, 6), Order = 6,
         },
     ];
 

@@ -1,0 +1,1026 @@
+{
+  "year": 2024,
+  "track": "pave-2",
+  "questions": [
+    {
+      "key": "pave-2024-e2-q01",
+      "source": "PAVE 2024 – Etapa 2, questão 1 (UFPel)",
+      "kind": "Objective",
+      "subject": "biologia",
+      "statement": "**Leia o texto a seguir.**\n\nAtropelamentos de anfíbios na Rota do Sol diminuem 80% com medidas de proteção\n\nAlgumas espécies protegidas só existem nesse local no Sul do Brasil e estão ameaçadas de extinção. É o caso da perereca-macaca (Phyllomedusa distincta), perereca-castanhola (Itapotihyla langsdorffii) e perereca-risadinha (Scinax rizibilis). O sistema de travessias utilizado para proteção, com passagens aéreas, inferiores e cercas direcionadoras, constitui uma iniciativa inédita no Brasil, construída do zero, já que não havia referências anteriores nas quais se basear. O procedimento para evitar o impacto do tráfego sobre a fauna na ERS-486 começou entre 2017 e 2018, com a realização da primeira etapa de monitoramento. Entre 2020 e 2021, foram construídas seis passagens terrestres e cinco aéreas para permitir o deslocamento dos animais, com localização baseada no monitoramento anterior.\n\nReferência: https://www.estado.rs.gov.br/atropelamentos-de-anfibios-terrestres-na-rota-do-sol-diminuem-80-com-medidas-de-protecao. Acesso em: 01/06/2024.\n\n**A que Ordem pertencem os anfíbios citados no texto?**",
+      "options": [
+        {
+          "text": "Gymnophiona.",
+          "explanation": "Ordem das cecílias (cobras-cegas), anfíbios sem pernas e de corpo alongado que vivem enterrados; pererecas têm quatro patas e saltam."
+        },
+        {
+          "text": "Sarcopterygii.",
+          "explanation": "É uma classe de peixes de nadadeiras lobadas (celacantos e peixes pulmonados), não uma ordem de anfíbios."
+        },
+        {
+          "text": "Anura.",
+          "explanation": "Correta. Pererecas, sapos e rãs formam a ordem Anura, a dos anfíbios sem cauda na fase adulta e com patas traseiras adaptadas ao salto."
+        },
+        {
+          "text": "Chelonia.",
+          "explanation": "Reúne tartarugas, cágados e jabutis, que são répteis com casco, não anfíbios."
+        },
+        {
+          "text": "Caudata.",
+          "explanation": "Ordem das salamandras e dos tritões, anfíbios que mantêm a cauda na fase adulta; as pererecas perdem a cauda na metamorfose."
+        }
+      ],
+      "correct": "C"
+    },
+    {
+      "key": "pave-2024-e2-q02",
+      "source": "PAVE 2024 – Etapa 2, questão 2 (UFPel)",
+      "kind": "Objective",
+      "subject": "biologia",
+      "statement": "**Leia o texto a seguir.**\n\nChegada do frio deve elevar o risco de hipotermia nas zonas de enchente do RS\n\nA tendência é que os termômetros registrem marcas bastante baixas nas próximas duas ou três semanas. Na Grande Porto Alegre, por exemplo, pode fazer entre 5°C a 7°C na madrugada de quinta-feira. Na segunda metade do mês, novas frentes frias devem se repetir. Com tais condições, cresce muito o risco de hipotermia, geralmente em função da exposição ao frio intenso. Além das equipes que trabalham nos resgates ou em funções que não prescindem da entrada na água, a Metsul alerta também sobre o risco para as vítimas das cheias alojadas em abrigos ou alojamentos temporários. Neste contexto, torna-se ainda mais necessária a doação de cobertores e agasalhos para minimizar os problemas.\n\nReferência: adaptado de https://www.correiodopovo.com.br/not%C3%ADcias/cidades/chegada-do-frio-deve-elevar-o-risco-de-hipotermia-nas-zonas-de-enchente-do-rs-1.1493848. Acesso em: 04/06/2024.\n\n**Considera-se que a situação de saúde citada no texto tem início quando a temperatura do corpo humano**",
+      "options": [
+        {
+          "text": "fica acima dos 37°C ou acima de 98°F (Fahrenheit).",
+          "explanation": "Temperatura acima de 37 °C indica febre ou hipertermia, o oposto do quadro do texto; hipotermia é queda da temperatura corporal."
+        },
+        {
+          "text": "fica abaixo dos 35°C ou abaixo de 95°F (Fahrenheit).",
+          "explanation": "Correta. A hipotermia começa quando a temperatura central do corpo cai abaixo de 35 °C. Convertendo: F = 1,8 × 35 + 32 = 95 °F."
+        },
+        {
+          "text": "fica acima dos 37°C ou acima de 96°F (Fahrenheit).",
+          "explanation": "Hipotermia é temperatura abaixo do normal, não acima; além disso, 37 °C equivalem a 98,6 °F, e não a 96 °F."
+        },
+        {
+          "text": "fica abaixo dos 35°C ou abaixo de 99°F (Fahrenheit).",
+          "explanation": "O limite de 35 °C está certo, mas a conversão não: 35 °C correspondem a 95 °F (1,8 × 35 + 32); 99 °F são cerca de 37,2 °C."
+        },
+        {
+          "text": "fica acima dos 36°C ou acima de 97°F (Fahrenheit).",
+          "explanation": "Entre 36 °C e 37 °C o corpo está na faixa normal; a hipotermia é definida por temperatura baixa, abaixo de 35 °C."
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "key": "pave-2024-e2-q03",
+      "source": "PAVE 2024 – Etapa 2, questão 3 (UFPel)",
+      "kind": "Objective",
+      "subject": "biologia",
+      "statement": "**Leia o texto a seguir.**\n\nButiá sob ameaça de extinção\n\n“O butiá é muito referente, faz parte da minha infância. Além de ser bonito de se ver, de se comer, ainda gera renda. Em seis anos vamos convidar vocês pra vir aqui comer os primeiros frutos”, conta a agricultora Isabel Monjeló Dalenogare. [...] elas receberam 140 mudas de butiá, sendo 10 para cada família, doadas pelo projeto \"Conservação e manejo de recursos genéticos do butiazeiro (Butia odorata)”, desenvolvido pelo Departamento de Diagnóstico e Pesquisa Agropecuária (DDPA), da Secretaria da Agricultura, Pecuária, Produção Sustentável e Irrigação (Seapi). O objetivo do projeto é fomentar a conservação das espécies de butiazeiro através da sua valorização ambiental, cultural e econômica.\n\nReferência: adaptado de https://www.agrolink.com.br/noticias/butia-sob-ameaca-de-extincao_483677.html. Acesso em: 05/06/2024.\n\n**A que grupo pertence a palmeira citada no texto?**",
+      "options": [
+        {
+          "text": "Gimnospermas.",
+          "explanation": "Gimnospermas, como pinheiros e araucárias, têm sementes nuas, sem fruto; o butiazeiro dá flores e frutos (o butiá)."
+        },
+        {
+          "text": "Angiospermas.",
+          "explanation": "Correta. As palmeiras são angiospermas (monocotiledôneas): produzem flores e frutos que envolvem a semente, como o butiá citado no texto."
+        },
+        {
+          "text": "Briófitas.",
+          "explanation": "Briófitas são musgos e hepáticas, plantas pequenas, sem vasos condutores, sem sementes e sem frutos."
+        },
+        {
+          "text": "Pteridófitas.",
+          "explanation": "Pteridófitas, como samambaias e avencas, têm vasos condutores, mas não formam sementes nem frutos; reproduzem-se por esporos."
+        },
+        {
+          "text": "Algas verdes.",
+          "explanation": "Algas verdes não têm raiz, caule, folhas, flores ou frutos; uma palmeira é uma planta terrestre vascular com todos esses órgãos."
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "key": "pave-2024-e2-q04",
+      "source": "PAVE 2024 – Etapa 2, questão 4 (UFPel)",
+      "kind": "Objective",
+      "subject": "fisica",
+      "statement": "Os exames médicos de ultrassom e ultrassom Doppler são baseados na emissão e recepção de sons pelo transdutor, que é a parte do aparelho em que se coloca gel e que é posta em contato com o corpo. O transdutor emite sons que são refletidos pelos diferentes tecidos e órgãos do corpo e esses sons refletidos são detectados ao voltarem ao transdutor. Um “software”, uma programação no aparelho, é responsável pela tradução dos efeitos desse processo em imagens. O som emitido no exame, no entanto, é inaudível, de frequência muito maior do que a percebida pelo ouvido humano, que está na faixa entre 20Hz e 20000Hz. A frequência mais baixa num exame de ultrassom pode ser cerca de 50000 vezes maior do que a mais baixa frequência audível.\n\nReferência: MÁXIMO, Antônio; ALVARENGA, Beatriz. **Física contexto & aplicações**. 2º v. 1ª ed. São Paulo: Scipione, 2014.\n\n**Marque o valor aproximado de frequências dos exames de ultrassom mais compatível com o texto, ou seja, compatível com a frequência mais baixa num exame de ultrassom.**",
+      "options": [
+        {
+          "text": "100 KHz.",
+          "explanation": "100 kHz são 100 000 Hz, apenas 5 000 vezes a menor frequência audível (20 Hz); o texto fala em 50 000 vezes, dez vezes mais."
+        },
+        {
+          "text": "1 KHz.",
+          "explanation": "1 kHz = 1 000 Hz está dentro da faixa audível (20 Hz a 20 000 Hz), logo nem é ultrassom."
+        },
+        {
+          "text": "10 KHz.",
+          "explanation": "10 kHz = 10 000 Hz ainda é som audível, abaixo do limite de 20 000 Hz; o ultrassom fica acima disso."
+        },
+        {
+          "text": "1 nHz.",
+          "explanation": "O prefixo n (nano) vale 10⁻⁹: 1 nHz é uma frequência baixíssima, muito abaixo dos 20 Hz, o contrário de um ultrassom."
+        },
+        {
+          "text": "1 MHz.",
+          "explanation": "Correta. A menor frequência audível é 20 Hz; 50 000 × 20 Hz = 1 000 000 Hz = 10⁶ Hz = 1 MHz."
+        }
+      ],
+      "correct": "E"
+    },
+    {
+      "key": "pave-2024-e2-q06",
+      "source": "PAVE 2024 – Etapa 2, questão 6 (UFPel)",
+      "kind": "Objective",
+      "subject": "fisica",
+      "statement": "Usinas termelétricas são importantes no Brasil, em que pese a discussão dos impactos ambientais dessas instalações. Numa termelétrica usa-se a combustão de carvão ou derivados de petróleo para produzir, por aquecimento de água, um vapor que movimenta as pás de uma turbina que gera a energia elétrica. Chama-se rendimento, R, a razão (energia elétrica obtida) ÷ (energia desprendida pela combustão). Esse rendimento é sempre menor do que 1 (ou 100%), o que significa que nem toda energia desprendida na combustão se transforma em energia elétrica. Mostra-se que podemos estimar aproximadamente R a partir de duas temperaturas, Tvapor, a temperatura do vapor na turbina, e Tresfriamento, a temperatura do sistema que resfria o vapor de volta ao estado líquido. Temos R = 1-(Tresfriamento÷Tvapor). Para usar essa expressão o único cuidado deve ser usar a escala Kelvin de temperatura, lembrando que, aproximadamente, T(Kelvin)=T(ºC)+273 (temperatura em Kelvin igual a temperatura em Celsius mais 273). Vamos supor Tvapor = 500ºC e Tresfriamento = 25ºC.\n\nReferência: MÁXIMO, Antônio; ALVARENGA, Beatriz. **Física contexto & aplicações**. 2º v. 1ª ed. São Paulo: Scipione, 2014.\n\n**Que estimativa de rendimento temos para as temperaturas de vapor e de resfriamento sugeridas?**",
+      "options": [
+        {
+          "text": "Cerca de 0,4, ou 40%.",
+          "explanation": "É aproximadamente a razão Tresfriamento ÷ Tvapor = 298 ÷ 773 ≈ 0,39; faltou subtrair esse valor de 1 para obter o rendimento."
+        },
+        {
+          "text": "Cerca de 0,95, ou 95%.",
+          "explanation": "É o que se obtém usando as temperaturas em Celsius: 1 − 25/500 = 0,95. A expressão só vale com as temperaturas em Kelvin."
+        },
+        {
+          "text": "Cerca de 0,3, ou 30%.",
+          "explanation": "Com 298 K e 773 K a conta dá 1 − 0,39 ≈ 0,61; um rendimento de 0,3 exigiria um resfriamento bem mais quente, perto de 540 K."
+        },
+        {
+          "text": "Cerca de 0,8, ou 80%.",
+          "explanation": "Para chegar a 0,8 a razão entre as temperaturas teria de ser 0,2, isto é, resfriamento a cerca de 155 K; com 298 K e 773 K o resultado é 0,61."
+        },
+        {
+          "text": "Cerca de 0,6, ou 60%.",
+          "explanation": "Correta. Em Kelvin: Tvapor = 500 + 273 = 773 K e Tresfriamento = 25 + 273 = 298 K. Então R = 1 − 298/773 ≈ 1 − 0,39 = 0,61, cerca de 60%."
+        }
+      ],
+      "correct": "E"
+    },
+    {
+      "key": "pave-2024-e2-q07",
+      "source": "PAVE 2024 – Etapa 2, questão 7 (UFPel)",
+      "kind": "Objective",
+      "subject": "quimica",
+      "statement": "Os refrigerantes são formados por uma mistura de água-gás (no caso o gás carbônico, o CO₂) e algum tipo de xarope, que dá a cor e o gosto da bebida. Mas antes de misturar o gás no xarope, os fabricantes misturam a água e o gás num aparelho chamado carbonizador, gerando o ácido carbônico, que tem forma líquida. Nesse tipo de bebida existe, então, o seguinte equilíbrio químico:\n\n2H₂O(l) + CO₂(g) ⇌ H₃O⁺(aq) + HCO₃⁻(aq)\n\nSegundo o princípio de Le Chatelier, quando é causada alguma forma de perturbação em um sistema químico, o seu equilíbrio se desloca no sentido de reduzir essas perturbações.\n\nReferência: https://brasilescola.uol.com.br/quimica/equilibrio-quimico-refrigerante-no-estomago.htm. Acesso em: 06/10/2022.\n\n**Conforme o texto e de acordo com a equação, selecione a alternativa que explica o processo que pode causar a chamada eructação (arroto), ao tomarmos bebidas com gás.**",
+      "options": [
+        {
+          "text": "Quando o refrigerante entra em contato com o suco gástrico do estômago, há um aumento na concentração da espécie H₃O⁺, deslocando o equilíbrio no sentido da reação inversa.",
+          "explanation": "Correta. O suco gástrico é ácido (HCl) e aumenta a concentração de H₃O⁺, que está no lado dos produtos. Pelo princípio de Le Chatelier, o equilíbrio se desloca no sentido inverso, consumindo H₃O⁺ e formando CO₂ gasoso, que é eliminado no arroto."
+        },
+        {
+          "text": "Quando o refrigerante entra em contato com o suco gástrico do estômago, há um aumento na concentração da espécie H₃O⁺, deslocando o equilíbrio no sentido da reação direta.",
+          "explanation": "O aumento de H₃O⁺ está certo, mas o deslocamento não: acrescentar um produto desloca o equilíbrio no sentido inverso. O sentido direto consumiria CO₂ em vez de liberá-lo."
+        },
+        {
+          "text": "Quando o refrigerante entra em contato com o suco gástrico do estômago, há uma diminuição na concentração da espécie H₃O⁺, deslocando o equilíbrio no sentido da reação inversa.",
+          "explanation": "O suco gástrico é ácido, portanto aumenta (não diminui) a concentração de H₃O⁺; e uma diminuição de H₃O⁺ deslocaria o equilíbrio no sentido direto, não no inverso."
+        },
+        {
+          "text": "Quando o refrigerante entra em contato com o suco gástrico do estômago, há uma diminuição na concentração da espécie CO₂, deslocando o equilíbrio no sentido da reação direta.",
+          "explanation": "A perturbação causada pelo estômago é sobre o H₃O⁺, não sobre o CO₂. Além disso, retirar CO₂ (reagente) deslocaria o equilíbrio no sentido inverso, não no direto."
+        },
+        {
+          "text": "Quando o refrigerante entra em contato com o suco gástrico do estômago, há um aumento na concentração da espécie CO₂, deslocando o equilíbrio no sentido da reação direta.",
+          "explanation": "O contato com o suco gástrico acrescenta H₃O⁺, não CO₂; e o sentido direto consome CO₂, o que não explicaria a liberação de gás no arroto."
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "key": "pave-2024-e2-q08",
+      "source": "PAVE 2024 – Etapa 2, questão 8 (UFPel)",
+      "kind": "Objective",
+      "subject": "quimica",
+      "statement": "No nosso cotidiano, estamos em constante contato com soluções, como as ligas metálicas, o ar atmosférico, o soro fisiológico, entre outras. Em várias dessas soluções formadas por sólidos e líquidos, a água atua como solvente na maioria dos casos e, por isso, é considerada um solvente universal. O grau de dissolução de um soluto em um solvente depende de vários fatores. Os mais importantes são: a natureza das partículas de solvente e soluto e as interações entre elas; a temperatura na qual a solução é formada; a pressão de um soluto gasoso. Ao se adicionar sal comum à água gradativamente em temperatura constante e agitando continuamente, é possível observar que, em dado momento, não ocorrerá a dissolução do sal, utilizando como exemplo o NaCl. Isso ocorrerá no momento em que houver aproximadamente 360 g de sal para cada litro de água quando a temperatura está em 20ºC. A partir desse ponto, dizemos que a solução tornou-se saturada ou que a solução atingiu o seu ponto de saturação, pois qualquer quantidade de sal que for adicionada ao sistema irá precipitar ou formar corpo de fundo. O ponto de saturação depende do soluto, do solvente e das condições físicas (a temperatura sempre influi e a pressão, em especial, em soluções que contêm gases). Este ponto é definido pelo coeficiente ou grau de solubilidade. Podem-se visualizar abaixo os valores dos coeficientes de solubilidade (g de NaCl por 100 g de H₂O) do cloreto de sódio (NaCl) em função da temperatura:\n\n```\nTemperatura (ºC)   Coeficiente de solubilidade (g de NaCl por 100 g de água)\n0ºC                35,7\n20ºC               36,0\n50ºC               37,0\n100ºC              39,8\n```\n\nReferência: https://mundoeducacao.uol.com.br/quimica/solucoes.htm. Acesso em: 15/06/2024.\n\n**Considerando-se os dados disponíveis na tabela acima, a opção que melhor representa a quantidade mínima de água, em gramas, a 50 ºC, necessária para dissolver totalmente 5,0 g de NaCl é**",
+      "options": [
+        {
+          "text": "9,43.",
+          "explanation": "A 50 °C, 9,43 g de água dissolvem no máximo 9,43 × 37,0/100 ≈ 3,5 g de NaCl; cerca de 1,5 g ficaria sem dissolver."
+        },
+        {
+          "text": "10,22.",
+          "explanation": "Com 10,22 g de água a 50 °C dissolvem-se só 10,22 × 0,37 ≈ 3,8 g de NaCl, menos que os 5,0 g pedidos."
+        },
+        {
+          "text": "13,52.",
+          "explanation": "Correta. A 50 °C dissolvem-se 37,0 g de NaCl em 100 g de água. Por proporção, 5,0 g de NaCl pedem 5,0 × 100/37,0 ≈ 13,5 g de água, o valor mais próximo entre as alternativas."
+        },
+        {
+          "text": "15,07.",
+          "explanation": "Essa massa de água dissolve os 5,0 g (comporta até 15,07 × 0,37 ≈ 5,6 g), mas não é a quantidade mínima: bastam cerca de 13,5 g."
+        },
+        {
+          "text": "7,41.",
+          "explanation": "Vem da razão invertida, 37,0 ÷ 5,0 = 7,4. Com 7,41 g de água dissolvem-se apenas cerca de 2,7 g de NaCl a 50 °C."
+        }
+      ],
+      "correct": "C"
+    },
+    {
+      "key": "pave-2024-e2-q09",
+      "source": "PAVE 2024 – Etapa 2, questão 9 (UFPel)",
+      "kind": "Objective",
+      "subject": "quimica",
+      "statement": "Existem substâncias que, quando adicionadas aos reagentes de determinadas reações químicas, alteram a velocidade delas sem, contudo, serem consumidas. As substâncias que promovem um aumento da velocidade das reações químicas nessas condições são designadas geralmente por catalisadores. Um catalisador está profundamente envolvido no decurso de uma reação química, formando e quebrando ligações à medida que os reagentes se transformam em produtos, mas não sofre uma alteração permanente. Ao colocar por exemplo um pedaço de batata em contato com a água oxigenada, ocorre uma reação de decomposição, que produz água e gás oxigênio como produtos, de acordo com a reação abaixo:\n\n2 H₂O₂ (aq) → 2 H₂O (l) + O₂ (g)\n\nReferência: adaptado de https://www.infoescola.com/quimica/peroxido-de-hidrogenio/. Acesso em: 15/06/2024.\n\nA liberação do oxigênio pode ser comprovada quando a chama do palito de fósforo ficar mais intensa ao aproximá-lo da boca do recipiente, no qual a reação está sendo processada. A água oxigenada se decompõe naturalmente de forma bem lenta somente pela exposição à luz solar. Mas, nesse caso, ela ocorreu de forma mais rápida porque a batata possui uma enzima, chamada catalase, que atua como catalisadora da reação de decomposição da água oxigenada. Essa mesma enzima está presente também no sangue. É por isso que quando colocamos água oxigenada num machucado, observa-se uma efervescência, sendo importante porque permite desinfectar matando microrganismos anaeróbicos.\n\nReferência: http://educa.fc.up.pt/ficheiros/fichas/1067/Introdu%E7%E3o.pdf. Acesso em: 20/06/2024\n\n**Conforme o texto acima, assinale a alternativa correta:**",
+      "options": [
+        {
+          "text": "A catalase muda o mecanismo da reação ou o caminho através do qual os reagentes se transformam nos produtos. Isso ocorre porque esse caminho alternativo exige menor energia de ativação, processando uma reação mais rápida.",
+          "explanation": "Correta. O catalisador (aqui, a enzima catalase) oferece um caminho de reação alternativo, com energia de ativação menor; mais moléculas conseguem reagir e a decomposição fica mais rápida, sem que a enzima seja consumida."
+        },
+        {
+          "text": "A catalase muda o mecanismo da reação ou o caminho através do qual os reagentes se transformam nos produtos. Isso ocorre porque esse caminho alternativo mantém a mesma energia de ativação, processando uma reação mais lenta.",
+          "explanation": "Se a energia de ativação fosse a mesma, a velocidade não mudaria; e o texto diz que a reação ficou mais rápida, não mais lenta."
+        },
+        {
+          "text": "A catalase muda o mecanismo da reação ou o caminho através do qual os reagentes se transformam nos produtos. Isso ocorre porque esse caminho alternativo exige uma maior energia de ativação, processando uma reação mais rápida.",
+          "explanation": "Energia de ativação maior tornaria a reação mais lenta, pois menos moléculas teriam energia para reagir; o catalisador faz o contrário, reduz essa barreira."
+        },
+        {
+          "text": "Não ocorre mudança no mecanismo da reação ou no caminho através do qual os reagentes se transformam nos produtos, devido ao fato de que a energia de ativação se mantém constante.",
+          "explanation": "O catalisador participa da reação, formando e quebrando ligações, como diz o texto; ele muda o mecanismo e diminui a energia de ativação, que não se mantém constante."
+        },
+        {
+          "text": "A catalase muda o mecanismo da reação ou o caminho através do qual os reagentes se transformam nos produtos. Isso ocorre porque esse caminho alternativo exige menor energia de ativação, processando uma reação mais lenta.",
+          "explanation": "A primeira parte está certa (menor energia de ativação), mas a consequência é uma reação mais rápida, não mais lenta."
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "key": "pave-2024-e2-q10",
+      "source": "PAVE 2024 – Etapa 2, questão 10 (UFPel)",
+      "kind": "Objective",
+      "subject": "historia",
+      "statement": "**Considere as seguintes afirmações a respeito da Revolta da Cachaça (1660-1661) na História do Brasil Colônia.**\n\nI – A Revolta da Cachaça fez parte dos movimentos separatistas do período colonial brasileiro, tais como a Conjuração Mineira, a Conjuração Baiana e a Revolução Pernambucana.\n\nII – A Revolta da Cachaça ocorreu no Rio de Janeiro, sendo motivada pela proibição da produção de aguardente pelos colonos, forçando, assim, a importação e o consumo de vinho português.\n\nIII – Foi uma revolta nativista, porque não era contra a coroa portuguesa, mas contrária à política fiscal aplicada pelo governador da capitania.\n\n**Está(ão) correta(s)?**",
+      "options": [
+        {
+          "text": "I e II apenas.",
+          "explanation": "A afirmação I é falsa: a Revolta da Cachaça não pretendia separar a colônia de Portugal, ao contrário das conjurações e da Revolução Pernambucana, que são dos séculos XVIII e XIX. E a III, que é verdadeira, ficou de fora."
+        },
+        {
+          "text": "I, II e III.",
+          "explanation": "II e III estão certas, mas a I não: a revolta de 1660-1661 não teve caráter separatista, foi um protesto local contra impostos e proibições."
+        },
+        {
+          "text": "I apenas.",
+          "explanation": "A I é justamente a afirmação errada: tratou-se de uma revolta nativista, sem projeto de independência, enquanto as outras citadas são movimentos emancipacionistas posteriores."
+        },
+        {
+          "text": "II e III apenas.",
+          "explanation": "Correta. A revolta ocorreu no Rio de Janeiro, entre produtores atingidos pela proibição da aguardente (que favorecia o vinho português) e pelos tributos cobrados pelo governador; foi nativista, pois contestava a administração local, não o domínio da Coroa. A I erra ao chamá-la de separatista."
+        },
+        {
+          "text": "III apenas.",
+          "explanation": "A III é verdadeira, mas a II também: a revolta aconteceu no Rio de Janeiro e teve como pano de fundo a proibição da produção de aguardente em favor do vinho português."
+        }
+      ],
+      "correct": "D"
+    },
+    {
+      "key": "pave-2024-e2-q11",
+      "source": "PAVE 2024 – Etapa 2, questão 11 (UFPel)",
+      "kind": "Objective",
+      "subject": "historia",
+      "statement": "Em 1835, mais de duas décadas depois da primeira rebelião, a grande sublevação escrava eclodiu em Salvador. Dessa vez, o ataque partiu de dentro da cidade, e a população não teve uma noite fácil. Na madrugada de 25 de janeiro, grupos de africanos escravos e libertos, armados com porretes, instrumentos de trabalho e armas brancas, lutaram nas ruas de Salvador, durante mais de três horas, enfrentando soldados e civis. A religião esteve entrelaçada com a revolta: boa parte dos rebeldes saiu para lutar nas ruas com as compridas túnicas rituais brancas — os abadás — usadas pelos adeptos do islamismo. Ainda, carregavam junto ao corpo amuletos com mensagens do Alcorão e com orações fortes para proteção.\n\nReferência: SCHWARCZ, Lilia M.; STARLING, Heloísa M. **Brasil: uma biografia**. São Paulo: Companhia das Letras, 2015. p. 256.\n\n**O texto identifica qual revolta regencial?**",
+      "options": [
+        {
+          "text": "Cabanagem.",
+          "explanation": "A Cabanagem (1835-1840) ocorreu no Grão-Pará e reuniu indígenas, mestiços e ribeirinhos pobres, não africanos muçulmanos em Salvador."
+        },
+        {
+          "text": "Sabinada.",
+          "explanation": "A Sabinada (1837-1838) também foi em Salvador, mas liderada por setores médios e militares, como o médico Francisco Sabino, com a proposta de uma república provisória; não foi um levante de africanos islamizados."
+        },
+        {
+          "text": "Revolta de Itapuã.",
+          "explanation": "O levante de Itapuã, nos arredores de Salvador, é de 1814, anterior ao período regencial; o texto trata da grande sublevação de 25 de janeiro de 1835."
+        },
+        {
+          "text": "Revolta dos Malês.",
+          "explanation": "Correta. Em janeiro de 1835, africanos escravizados e libertos de religião islâmica (os malês) se levantaram em Salvador; as túnicas brancas e os amuletos com trechos do Alcorão citados no texto identificam a Revolta dos Malês."
+        },
+        {
+          "text": "Revolta de Manoel Congo.",
+          "explanation": "A revolta de Manoel Congo (1838) foi uma fuga em massa de escravizados de fazendas de café no Vale do Paraíba fluminense, e não um levante urbano em Salvador."
+        }
+      ],
+      "correct": "D"
+    },
+    {
+      "key": "pave-2024-e2-q12",
+      "source": "PAVE 2024 – Etapa 2, questão 12 (UFPel)",
+      "kind": "Objective",
+      "subject": "historia",
+      "statement": "**Leia o texto:**\n\n“O termo **sans-culottes**, referido às pessoas que usavam calças compridas em vez dos calções até o joelho da gente rica, foi originariamente aplicado num sentido puramente social aos pequenos comerciantes, assalariados e vagabundos, quer da cidade, quer do campo. Durante a revolução, o termo passou a ser mais geralmente aplicado aos indivíduos politicamente ativos dessas classes, e o seu âmbito alargou-se com a inclusão dos agitadores mais radicais daquele período, independentemente do respectivo estrato social.”\n\nReferência: MCCRORY, Martin; MOULDER, Robert. **Revolução Francesa para principiantes.** Lisboa: Dom Quixote, 1983, p. 67.\n\n**O texto descreve, os chamados sans-culottes, personagens que tiveram papel preponderante durante**",
+      "options": [
+        {
+          "text": "a Revolução Gloriosa.",
+          "explanation": "A Revolução Gloriosa (1688-1689) ocorreu na Inglaterra e limitou o poder do rei pelo Parlamento; os sans-culottes são personagens franceses do fim do século XVIII."
+        },
+        {
+          "text": "a Independência dos Estados Unidos.",
+          "explanation": "A independência dos Estados Unidos (1776) foi conduzida por colonos contra a Inglaterra; o termo sans-culottes não pertence a esse processo."
+        },
+        {
+          "text": "a Revolução Francesa.",
+          "explanation": "Correta. Sans-culottes eram os trabalhadores e pequenos comerciantes urbanos, sobretudo de Paris, que formaram a base popular mais radical da Revolução Francesa (1789-1799), apoiando os jacobinos."
+        },
+        {
+          "text": "as Independências na América Latina.",
+          "explanation": "As independências latino-americanas, no início do século XIX, foram lideradas principalmente pelas elites criollas; o texto fala de um grupo social da França revolucionária."
+        },
+        {
+          "text": "a Unificação da Alemanha.",
+          "explanation": "A unificação alemã (1871) foi conduzida de cima para baixo pela Prússia de Bismarck, décadas depois do período em que atuaram os sans-culottes."
+        }
+      ],
+      "correct": "C"
+    },
+    {
+      "key": "pave-2024-e2-q13",
+      "source": "PAVE 2024 – Etapa 2, questão 13 (UFPel)",
+      "kind": "Objective",
+      "subject": "geografia",
+      "statement": "**Leia o texto a seguir:**\n\nA questão agrária permanece absolutamente importante para a compreensão das diversas dimensões estruturantes do País: ambiental, econômica, social e territorial. [...] A dinâmica territorial do País foi e segue condicionada a sua estrutura fundiária, desigual em múltiplas facetas. Historicamente, o acesso à terra determinou a inserção de grupos sociais na sociedade e na estrutura política econômica brasileira e, nesse sentido, é possível dizer que a estrutura fundiária constitui um indicador e um revelador importante dos processos de apropriação da natureza e estratificação social nos territórios rurais. Ela pode ser considerada um fator chave na compreensão desta dinâmica, e pode bloquear ou favorecer o desenvolvimento rural.\n\nReferência: Adaptado de IBGE. **Atlas do espaço rural brasileiro**. 2. ed. Rio de Janeiro: IBGE, 2020. Disponível em: https://www.ibge.gov.br/apps/atlasrural/pdfs/02_00_Texto.pdf. Acesso em: 17/08/2024.\n\nA partir dos seus conhecimentos sobre a estrutura fundiária brasileira, avalie as seguintes afirmações:\n\nI – Ao longo dos últimos cinco séculos, algumas leis foram determinantes para forjar a organização fundiária do Brasil.\n\nII – A Sesmaria foi um instituto jurídico espanhol que normatizava a concessão de pequenos lotes de terra aos escravizados para produzir gêneros agrícolas voltados para a subsistência e para o mercado interno.\n\nIII – Em 1850, a Lei de Terras foi a primeira iniciativa no sentido de organizar a propriedade privada no Brasil e dispor sobre o direito agrário.\n\nIV – Em 1964, o Estatuto da Terra traz a ideia de justiça social e função social da terra, dando origem a uma vasta gama de leis que regulamentam a reforma agrária, o salário mínimo, a moradia rural, a colonização, o uso temporário do solo, a posse e a política agrícola tributária.\n\nV – Na Constituição Federal do Brasil, de 1988, não há menções sobre as questões agrárias e de regulamentação das terras, o que torna possível o uso indiscriminado para qualquer finalidade.\n\n**Estão corretas:**",
+      "options": [
+        {
+          "text": "I, III e IV apenas.",
+          "explanation": "Correta. I, III e IV são verdadeiras: a estrutura fundiária foi moldada por leis como a Lei de Terras de 1850, que fez da compra a forma de acesso à terra, e o Estatuto da Terra de 1964, que trouxe a função social da propriedade. A II erra porque a sesmaria era um instituto português de concessão de grandes áreas a quem tinha recursos, e a V porque a Constituição de 1988 trata de política agrária e de reforma agrária."
+        },
+        {
+          "text": "II, III e IV apenas.",
+          "explanation": "Inclui a II, que é falsa: a sesmaria era portuguesa e concedia grandes extensões a colonos com posses, não pequenos lotes a escravizados. Também deixa de fora a I, que é verdadeira."
+        },
+        {
+          "text": "I, II, III e V apenas.",
+          "explanation": "Inclui duas afirmações falsas: a II (a sesmaria não era espanhola nem destinada a escravizados) e a V (a Constituição de 1988 tem capítulo sobre política agrícola, fundiária e reforma agrária)."
+        },
+        {
+          "text": "III, IV e V apenas.",
+          "explanation": "A V é falsa: a Constituição de 1988 exige que a propriedade cumpra função social e prevê a desapropriação para reforma agrária. Além disso, falta a I, que é verdadeira."
+        },
+        {
+          "text": "I, II, IV e V apenas.",
+          "explanation": "Só I e IV são verdadeiras nesse conjunto; a II distorce o que foi a sesmaria e a V ignora que a Constituição de 1988 regula a questão agrária."
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "key": "pave-2024-e2-q14",
+      "source": "PAVE 2024 – Etapa 2, questão 14 (UFPel)",
+      "kind": "Objective",
+      "subject": "geografia",
+      "statement": "**Leia o texto a seguir:**\n\nNão existe uma ideia única do que venha a ser a globalização, mas há um consenso de que se trata de um processo múltiplo de forte integração internacional e de interdependência entre os locais e as economias nacionais, marcado por procedimentos de descentralização da produção. A rapidez e a intensidade do fluxo de pessoas, de informação, de mercadorias e de capital caracterizam essa etapa histórica de marcante desenvolvimento tecnológico.\n\nReferência: Adaptado de JUNIOR, Alfredo Boulos; SILVA, Edilson Adão Candido; FURQUIM, Laercio. **Multiversos:** Ciências Humanas: globalização, tempo e espaço: ensino médio. São Paulo: FTD, 2020.\n\nNo século XX foram desenvolvidas muitas das tecnologias que são utilizadas até os dias atuais e que estão presentes em nosso cotidiano. **Analise as alternativas e indique qual delas NÃO foi desenvolvida no século XX.**",
+      "options": [
+        {
+          "text": "Drones.",
+          "explanation": "Aeronaves não tripuladas foram desenvolvidas ao longo do século XX, principalmente para uso militar, antes de se popularizarem no século XXI."
+        },
+        {
+          "text": "Internet.",
+          "explanation": "A internet nasceu no século XX: a ARPANET é de 1969 e a rede se abriu ao grande público nos anos 1990."
+        },
+        {
+          "text": "GPS.",
+          "explanation": "O sistema GPS foi criado pelos Estados Unidos a partir dos anos 1970 e entrou em operação plena nos anos 1990, portanto no século XX."
+        },
+        {
+          "text": "Televisão em cores.",
+          "explanation": "As transmissões de televisão em cores começaram em meados do século XX (anos 1950 nos Estados Unidos; 1972 no Brasil)."
+        },
+        {
+          "text": "Telégrafo.",
+          "explanation": "Correta. O telégrafo elétrico é do século XIX: foi desenvolvido na década de 1830, e a primeira linha de Samuel Morse entrou em operação em 1844."
+        }
+      ],
+      "correct": "E"
+    },
+    {
+      "key": "pave-2024-e2-q15",
+      "source": "PAVE 2024 – Etapa 2, questão 15 (UFPel)",
+      "kind": "Objective",
+      "subject": "filosofia",
+      "statement": "A própria noção de Iluminismo, Ilustração, ou ainda Esclarecimento, como o termo é por vezes traduzido, indica, através da metáfora da luz e da claridade, uma oposição às trevas, ao obscurantismo, à ignorância, à superstição, ou seja, à existência de algo oculto, enfatizando, ao contrário, a necessidade de o real, em todos os seus aspectos, tornar-se transparente à razão. O grande instrumento do Iluminismo é a consciência individual, autônoma em sua capacidade de conhecer o real; suas armas são, portanto, o conhecimento, a ciência, a educação.\n\nReferência: MARCONDES, Danilo. **Iniciação à História da Filosofia**: Dos Pré-Socráticos a Wittgenstein. 13.ed. Rio de Janeiro: Jorge Zahar Ed., 2010.\n\nCom base na reflexão sobre o Iluminismo apresentada pelo autor, discorra sobre o objetivo central deste movimento filosófico e suas implicações. **Qual das alternativas melhor descreve o propósito essencial do Iluminismo?**",
+      "options": [
+        {
+          "text": "O Iluminismo promove a aceitação da superstição e do misticismo como formas válidas de conhecimento.",
+          "explanation": "O texto diz o contrário: o Iluminismo se opõe à superstição e a tudo que é oculto, exigindo que o real seja explicado pela razão."
+        },
+        {
+          "text": "O Iluminismo visa a manter tradições e crenças populares sem questionamento.",
+          "explanation": "Aceitar tradições e crenças sem questionar é o que o Iluminismo combate; seu instrumento é a consciência individual, que examina tudo criticamente."
+        },
+        {
+          "text": "O Iluminismo volta-se à manutenção do obscurantismo e da ignorância para preservar a ordem social.",
+          "explanation": "Obscurantismo e ignorância são as “trevas” contra as quais a metáfora da luz se dirige; o movimento quer superá-los, não mantê-los."
+        },
+        {
+          "text": "O Iluminismo valoriza a submissão da consciência individual às autoridades religiosas e políticas.",
+          "explanation": "Para o Iluminismo a consciência individual é autônoma em sua capacidade de conhecer; submetê-la a autoridades religiosas ou políticas contraria essa autonomia."
+        },
+        {
+          "text": "O Iluminismo enfatiza a transparência da realidade à razão e utiliza o conhecimento, a ciência e a educação como ferramentas.",
+          "explanation": "Correta. Retoma as ideias centrais do trecho: tornar o real transparente à razão, tendo como armas o conhecimento, a ciência e a educação."
+        }
+      ],
+      "correct": "E"
+    },
+    {
+      "key": "pave-2024-e2-q16",
+      "source": "PAVE 2024 – Etapa 2, questão 16 (UFPel)",
+      "kind": "Objective",
+      "subject": "filosofia",
+      "statement": "A ideologia é, assim, uma forma de dominação, gerando uma falsa consciência, uma consciência ilusória, que se produz através de mecanismos pelos quais se objetificam certas representações (as da classe dominante) como sendo a verdadeira realidade, tudo isso produzindo uma aparente legitimação das condições existentes numa determinada sociedade em um período histórico determinado. Produz-se com isso uma forma de alienação da consciência humana de sua situação real de existência (as relações de produção). A ideologia é produto de uma estrutura social profundamente desigual e, portanto, não transparente, já que esta desigualdade não pode explicitar-se no nível da consciência. Evitar que isso aconteça é tarefa da ideologia.\n\nReferência: MARCONDES, Danilo. **Iniciação à História da Filosofia**: Dos Pré-Socráticos a Wittgenstein. 13.ed. Rio de Janeiro: Jorge Zahar Ed., 2010.\n\n**Qual é o principal desdobramento da objetificação das representações pela classe dominante, conforme descrito pelo autor na análise sobre ideologia?**",
+      "options": [
+        {
+          "text": "Reforça a conscientização crítica das estruturas sociais desiguais.",
+          "explanation": "A ideologia, segundo o texto, impede que a desigualdade se explicite na consciência; ela enfraquece a crítica, não a reforça."
+        },
+        {
+          "text": "Cria uma consciência autêntica e imparcial sobre as relações de produção.",
+          "explanation": "O texto fala em falsa consciência, ilusória: a ideologia apresenta as representações da classe dominante como se fossem a realidade, o oposto de uma consciência autêntica e imparcial."
+        },
+        {
+          "text": "Legitima as condições existentes e oculta as relações de dominação.",
+          "explanation": "Correta. Ao apresentar as representações da classe dominante como a verdadeira realidade, a ideologia produz uma aparente legitimação das condições existentes e esconde a desigualdade e a dominação que as sustentam."
+        },
+        {
+          "text": "Permite a precisa compreensão das relações de poder no contexto da sociedade.",
+          "explanation": "A ideologia torna a estrutura social “não transparente”: ela aliena a consciência das relações reais de produção, em vez de permitir compreendê-las com precisão."
+        },
+        {
+          "text": "Mobiliza a transformação social e a igualdade de oportunidades.",
+          "explanation": "Ao legitimar o que existe, a ideologia funciona para conservar a ordem, não para mobilizar sua transformação."
+        }
+      ],
+      "correct": "C"
+    },
+    {
+      "key": "pave-2024-e2-q17",
+      "source": "PAVE 2024 – Etapa 2, questão 17 (UFPel)",
+      "kind": "Objective",
+      "subject": "sociologia",
+      "statement": "O Congresso de Viena (1814-1815) reorganizou a geopolítica europeia após as guerras napoleônicas, unindo forças tradicionais da Europa, propondo a restauração das antigas monarquias absolutistas. Entretanto, não houve demora para que essa tendência conservadora fosse contestada, aliando setores da burguesia, do operariado e das camadas médias urbanas, representando forças sociais surgidas após as Revoluções Francesa e Industrial. Na coesão instável desse arranjo político e social se desenvolveram vários movimentos inspirados no liberalismo, no nacionalismo, no socialismo e no anarquismo.\n\n**Leia as seguintes afirmações.**\n\nI – O liberalismo econômico defendia a interferência forte do Estado, regulando o livre-comércio.\n\nII – Os ideais nacionalistas tiveram grande influência na unificação da Itália e da Alemanha.\n\nIII – O marxismo como corrente socialista estabeleceu conceitos importantes, como dialética, mais-valia e luta de classes.\n\nIV – Para o marxismo a desigualdade social é resultado da divisão da sociedade em classes, entre os proprietários dos meios de produção, que compram a mão-de-obra daqueles desprovidos desses meios.\n\nReferência: COTRIM, Gilberto. **História Global II**. 3. ed. São Paulo: Saraiva, 2016.\n\nReferência: MACHADO, Igor José Renó et al. **Sociologia Hoje**. 1. ed. São Paulo: Ática, 2013.\n\n**Estão corretas**",
+      "options": [
+        {
+          "text": "II, III e IV apenas.",
+          "explanation": "Correta. O nacionalismo impulsionou as unificações italiana e alemã (II); dialética, mais-valia e luta de classes são conceitos centrais do marxismo (III), que explica a desigualdade pela divisão entre donos dos meios de produção e trabalhadores que vendem sua força de trabalho (IV). A I é falsa: o liberalismo econômico defende a mínima intervenção do Estado."
+        },
+        {
+          "text": "I, II e III apenas.",
+          "explanation": "Inclui a I, que inverte o liberalismo econômico: ele defende o livre-comércio sem regulação estatal forte. E deixa de fora a IV, que é verdadeira."
+        },
+        {
+          "text": "I, II e IV apenas.",
+          "explanation": "A I é falsa, pois o liberalismo econômico rejeita a interferência forte do Estado na economia; além disso, a III, verdadeira, ficou de fora."
+        },
+        {
+          "text": "II e IV apenas.",
+          "explanation": "II e IV estão certas, mas a III também: dialética, mais-valia e luta de classes são conceitos fundamentais do marxismo."
+        },
+        {
+          "text": "I e II apenas.",
+          "explanation": "A I é falsa (o liberalismo quer o Estado fora da regulação do comércio) e faltam III e IV, que descrevem corretamente o marxismo."
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "key": "pave-2024-e2-q18",
+      "source": "PAVE 2024 – Etapa 2, questão 18 (UFPel)",
+      "kind": "Objective",
+      "subject": "sociologia",
+      "statement": "Os movimentos contraculturais, que sinalizam manifestações de grupos que questionam e rejeitam valores e práticas da cultura dominante, trouxeram novas abordagens para a manutenção dos seus objetivos, criando uma identidade forte nas áreas da expressão artística e cultural. Exemplos são os movimentos hippie, punk, hip-hop e rap. Além disso, o enfrentamento ao sistema surgia também na imagem com cortes de cabelo tipo moicano, tatuagens e piercings, bem como as manifestações de dança na rua como break e o grafite, uma marca de existência e visibilidade em meio aos espaços urbanos centrais que marginaliza e exclui os jovens negros e pobres da periferia.\n\nReferência: ARAÚJO, Silvia Maria de; BRIDI, Maria Aparecida; MOTIM, Benilde Lenzi. **Sociologia**. São Paulo: FNDE, 2016. p. 327.\n\n**São características desses movimentos:**\n\nI – O punk emergiu entre os jovens brancos de classe média e média baixa, já o hip-hop se formou entre jovens afrodescendentes nos Estados Unidos.\n\nII – O movimento punk desenvolveu-se nos Estados Unidos e na Inglaterra em oposição ao otimismo do hip-hop surgido naqueles países.\n\nIII – O rap nacional se mantém conectado às letras de apoio à cultura dominante e à manutenção da ordem social.\n\nIV – O movimento hip-hop fundamentou-se no rap como expressão musical, no break como dança e no grafite como expressão visual.\n\nV – No Brasil o hip-hop ganhou força nos anos 1980, sobretudo na cidade de São Paulo, enquanto nos Estados Unidos o rap foi incorporado à indústria cultural a partir do final dos anos 1990.\n\n**Estão corretas:**",
+      "options": [
+        {
+          "text": "II, III e IV apenas.",
+          "explanation": "II e III são falsas: o punk não surgiu em oposição a um suposto otimismo do hip-hop, e o rap nacional se caracteriza pela crítica à desigualdade e à ordem social, não pelo apoio à cultura dominante."
+        },
+        {
+          "text": "I, IV e V apenas.",
+          "explanation": "Correta. O punk nasceu entre jovens brancos de classe média e média baixa e o hip-hop entre jovens afrodescendentes dos Estados Unidos (I); o hip-hop se apoia no rap, no break e no grafite (IV); no Brasil, ganhou força nos anos 1980, sobretudo em São Paulo (V)."
+        },
+        {
+          "text": "I, II e V apenas.",
+          "explanation": "A II é falsa: punk e hip-hop são ambos movimentos de contestação surgidos nos anos 1970; o punk não se definiu contra um otimismo do hip-hop. Falta ainda a IV, que é verdadeira."
+        },
+        {
+          "text": "III, IV e V apenas.",
+          "explanation": "A III é falsa: o rap nacional denuncia racismo, violência e exclusão nas periferias, em vez de apoiar a cultura dominante. Falta também a I, verdadeira."
+        },
+        {
+          "text": "I, II e IV apenas.",
+          "explanation": "I e IV estão certas, mas a II não: o hip-hop também é um movimento de contestação, nascido da exclusão dos jovens negros, e não uma corrente otimista à qual o punk teria se oposto."
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "key": "pave-2024-e2-q19",
+      "source": "PAVE 2024 – Etapa 2, questão 19 (UFPel)",
+      "kind": "Objective",
+      "subject": "matematica",
+      "statement": "Os alunos de uma turma de segundo ano do Ensino Médio estavam organizando comemorações mensais para os aniversariantes. Todos estavam informando o mês do seu aniversário, mas quando chegou a vez de Joaquim, ele lançou uma “charada” envolvendo o conteúdo que estavam estudando nas aulas de Matemática.\n\nJoaquim disse: “O meu mês de aniversário corresponde à parte real do número complexo resultante do produto de (3 − i) pelo conjugado de (2 − 2i)”.\n\n**Em que mês Joaquim faz aniversário?**",
+      "options": [
+        {
+          "text": "Dezembro.",
+          "explanation": "A parte real não chega a 12: no produto (3 − i)(2 + 2i) só dois termos são reais, 3·2 = 6 e (−i)(2i) = −2i² = 2, que somam 8."
+        },
+        {
+          "text": "Agosto.",
+          "explanation": "Correta. O conjugado de 2 − 2i é 2 + 2i. Então (3 − i)(2 + 2i) = 6 + 6i − 2i − 2i² = 6 + 4i + 2 = 8 + 4i. A parte real é 8: agosto."
+        },
+        {
+          "text": "Maio.",
+          "explanation": "Nenhuma parte do resultado vale 5: o produto é 8 + 4i, com parte real 8 e parte imaginária 4."
+        },
+        {
+          "text": "Abril.",
+          "explanation": "O 4 é a parte imaginária de 8 + 4i e também a parte real quando se esquece o conjugado: (3 − i)(2 − 2i) = 4 − 8i. A charada pede a parte real do produto pelo conjugado, que é 8."
+        },
+        {
+          "text": "Setembro.",
+          "explanation": "O produto correto é 8 + 4i, de parte real 8 (6 + 2, pois −2i² = +2); 9 não resulta dessa multiplicação."
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "key": "pave-2024-e2-q20",
+      "source": "PAVE 2024 – Etapa 2, questão 20 (UFPel)",
+      "kind": "Objective",
+      "subject": "matematica",
+      "statement": "Durante o ano de 2024, o estado do Rio Grande do Sul sofreu novamente com fortes chuvas que superaram recordes históricos quanto ao volume de água e muitas localidades em todo o estado tiveram níveis elevados de água da chuva. Suponha que uma determinada rua tem uma distância horizontal entre seu ponto mais alto e o mais baixo de 8 metros, e a diferença de altura entre esses dois pontos é de 6 metros. Durante um dia de chuva, caiu ao longo de toda a extensão da rua uma altura de água de 30 milímetros por metro, que, sem escoamento, acabou se acumulando na parte mais baixa, como representado na imagem abaixo:\n\n![Triângulo retângulo que representa a rua vista de lado: cateto vertical de 6 m à esquerda, cateto horizontal de 8 m na base e a rua como hipotenusa, descendo da esquerda para a direita. No vértice direito, o ponto mais baixo, há ondas indicando a água acumulada; uma linha vertical fina marca até onde a água chega, formando um pequeno triângulo semelhante ao maior.](img/pave/2024/etapa-2/q20-1.png)\n\nFonte: Autoria própria.\n\n**Com base nisso, qual é a altura, em relação ao fim da rua, em que ficou o nível máximo de água após essa chuva?**",
+      "options": [
+        {
+          "text": "3/(2√5)",
+          "explanation": "Correta. A rua é a hipotenusa: √(8² + 6²) = 10 m. A chuva soma 0,03 m × 10 m = 0,3 m² de água no corte da rua. A água acumulada forma um triângulo semelhante ao da rua (altura h, base 4h/3), de área (1/2)·h·(4h/3) = 2h²/3. De 2h²/3 = 0,3 vem h² = 9/20 e h = 3/(2√5) m, cerca de 0,67 m."
+        },
+        {
+          "text": "15/√2",
+          "explanation": "15/√2 vale cerca de 10,6, mais que os 6 m de desnível da própria rua; com 0,3 m² de água acumulada a altura fica abaixo de 1 m."
+        },
+        {
+          "text": "15√2",
+          "explanation": "É o resultado de usar 30 × 10 = 300 como área, sem converter milímetros em metros: 2h²/3 = 300 dá h = √450 = 15√2. Com 0,03 m no lugar de 30, a altura fica abaixo de 1 m."
+        },
+        {
+          "text": "300",
+          "explanation": "300 é só o produto 30 × 10 (milímetros de chuva vezes metros de rua): mistura unidades e não leva em conta a forma triangular da região onde a água se acumula."
+        },
+        {
+          "text": "6√2",
+          "explanation": "6√2 ≈ 8,5 supera os 6 m de altura total da rua, o que é impossível para a pequena quantidade de água acumulada no ponto mais baixo."
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "key": "pave-2024-e2-q21",
+      "source": "PAVE 2024 – Etapa 2, questão 21 (UFPel)",
+      "kind": "Objective",
+      "subject": "matematica",
+      "statement": "A cidade de Pelotas é rica pela arquitetura presente em seus casarões, que são testemunhos da era do charque no Sul do Brasil. As fachadas ornamentadas, janelas amplas e varandas detalhadas são símbolos existentes nas construções que remetem aos séculos XVIII e XIX.\n\nUm dos prédios que compõe esse acervo arquitetônico da cidade é a Escola de Agronomia Eliseu Maciel, atualmente denominada como Sala dos Conselhos Superiores da UFPel. O edifício, cujo projeto arquitetônico foi desenvolvido pelo desenhista Dominique Pineau, inicialmente concebido pela família Antunes Maciel para abrigar uma escola municipal em homenagem póstuma ao tenente-coronel Eliseu Antunes Maciel, nunca chegou a ser usado com esse propósito devido à falta de professores. Em 1883, a Câmara cedeu o prédio para fundar a Escola de Medicina Veterinária e Agricultura Prática, e no ano seguinte, o Instituto Vacinológico foi anexado ao complexo. A Escola de Agronomia Eliseu Maciel, pioneira no Brasil, estabelecida em 1934, evoluiu para a Faculdade de Agronomia Eliseu Maciel, integrando-se à Universidade Federal de Pelotas em 1969.\n\nReferência: Adaptado de “Escola de Agronomia Eliseu Maciel”. Disponível em: https://wp.ufpel.edu.br/patrimonio/patrimonio-cultural-edificado/escola-de-agronomia-eliseu-maciel/. Acesso em: 16/06/2024.\n\n![Fotografia em preto e branco de parte da fachada de um casarão antigo: duas janelas altas e estreitas, lado a lado, com bandeiras em arco no topo, separadas por colunas ornamentadas e encimadas por um arco maior decorado.](img/pave/2024/etapa-2/q21-1.png)\n\nFonte: Autoria própria.\n\nSuponha-se que serão construídas novas coberturas para as janelas, como a mostrada na imagem, com tábuas que devem ser utilizadas na horizontal para a confecção das janelas, de forma a proteger da entrada de chuva, sem prejudicar o fluxo de ar.\n\n**Para isso, considerando que a abertura tem 1,5 m de altura e 0,8 m de largura, quantas tábuas, com medidas de 20 cm de largura e comprimento de 1,2 m serão necessárias, com um desperdício mínimo?**",
+      "options": [
+        {
+          "text": "6",
+          "explanation": "Seis tábuas somam 6 × 0,24 = 1,44 m², mais que os 1,2 m² da abertura: sobraria uma tábua inteira, o que não é desperdício mínimo."
+        },
+        {
+          "text": "0,5",
+          "explanation": "Meia tábua cobre só 0,12 m², um décimo da área da abertura (1,5 × 0,8 = 1,2 m²)."
+        },
+        {
+          "text": "4",
+          "explanation": "Quatro tábuas cobrem 4 × 0,24 = 0,96 m², menos que os 1,2 m² da abertura; faltaria madeira."
+        },
+        {
+          "text": "5",
+          "explanation": "Correta. Área da abertura: 1,5 × 0,8 = 1,2 m². Área de cada tábua: 0,20 × 1,2 = 0,24 m². 1,2 ÷ 0,24 = 5 tábuas. Dá para cortar sem sobra: cada tábua de 1,2 m rende um pedaço de 0,8 m e outro de 0,4 m, e dois pedaços de 0,4 m completam mais uma fileira."
+        },
+        {
+          "text": "7,5",
+          "explanation": "7,5 é o número de fileiras horizontais (1,5 m ÷ 0,20 m), não de tábuas: cada fileira usa só 0,8 m dos 1,2 m de uma tábua, e as sobras são reaproveitadas."
+        }
+      ],
+      "correct": "D"
+    },
+    {
+      "key": "pave-2024-e2-q22",
+      "source": "PAVE 2024 – Etapa 2, questão 22 (UFPel)",
+      "kind": "Objective",
+      "subject": "matematica",
+      "statement": "**Utilize a figura e o texto a seguir para responder à questão.**\n\n![Perspectiva de uma moradia provisória modular, sem o telhado, mostrando quarto, sala conjugada à cozinha e banheiro. Cotas indicadas: 9m no comprimento, 3m na profundidade e 2,70 na altura das paredes.](img/pave/2024/etapa-2/q22-1.png)\n\nFonte: https://gauchazh.clicrbs.com.br/geral/noticia/2024/06/governo-do-rs-anuncia-investimento-em-500-casas-provisorias-para-atingidos-pela-enchente-instalacao-depende-de-terrenos-de-prefeituras-clx4vxbea01rq015dg68409jl.html. Acesso em: 17/06/2024.\n\nEm 2024, o estado do Rio Grande do Sul, foi afetado por fortes chuvas que causaram grandes inundações, gerando “a maior catástrofe climática” da história do estado. De acordo com relatórios da Defesa Civil, 471 das 497 cidades gaúchas foram afetadas pelas tempestades, ou seja, o equivalente a 94,77% do total. De acordo com os dados, somente 26 cidades não tiveram nenhum impacto relacionado às chuvas. Muitas famílias ficaram sem casa para voltar, sendo alojadas em espaços comunitários. No intuito de oferecer um pouco mais de dignidade às famílias atingidas pela enchente, o Governo do Estado anunciou a compra de moradias provisórias. Após as prefeituras beneficiadas conseguirem terrenos adequados e prepararem os locais para a colocação das casas provisórias, os módulos devem ser instalados em até 30 dias. As moradias provisórias – com 9m de largura e 3m de profundidade – têm espaço interno de 27m². O espaço é dividido em um quarto, uma sala conjugada à cozinha e um banheiro. O projeto prevê que até seis pessoas vivam em cada moradia provisória. Conforme o governo do Estado, as moradias temporárias são feitas no formato de construção modular, com chassis metálicos, sendo entregues já com mobiliário planejado e eletrodomésticos.\n\nReferência: https://gauchazh.clicrbs.com.br/geral/noticia/2024/06/governo-do-rs-anuncia-investimento-em-500-casas-provisorias-para-atingidos-pela-enchente-instalacao-depende-de-terrenos-de-prefeituras-clx4vxbea01rq015dg68409jl.html. Acesso em: 17/06/2024.\n\nAs moradias provisórias possuem três aberturas: uma janela de 0,80 m x 0,50 m, no banheiro; uma janela de 1,20 m x 1 m, no quarto e uma porta-janela de 2,10 m x 1,20 m. As moradias devem ser entregues com sua parte externa pintada, com exceção das aberturas que já vêm coloridas. Considere que um galão de tinta de 18 litros consegue cobrir (pintar) 100 m² e que cada galão custa R$ 260,00. **Quantos reais serão gastos para pintar 8 casas, sendo que não pode faltar tinta e que não é possível comprar latas com menos de 18 litros de tinta?**",
+      "options": [
+        {
+          "text": "R$ 1.577,68.",
+          "explanation": "Só se compram galões inteiros de R$ 260,00, então o gasto tem de ser múltiplo de 260; esse valor não é (equivaleria a pouco mais de 6 galões)."
+        },
+        {
+          "text": "R$ 2.600,00.",
+          "explanation": "Corresponde a 10 galões, que cobrem 1 000 m²; a área a pintar é de 485,44 m², e 5 galões já bastam."
+        },
+        {
+          "text": "R$ 485,44.",
+          "explanation": "485,44 é a área total a pintar, em m², e não o custo; como valor em reais, não pagaria nem dois galões."
+        },
+        {
+          "text": "R$ 1.300,00.",
+          "explanation": "Correta. Paredes externas de uma casa: perímetro 2 × (9 + 3) = 24 m, vezes 2,70 m de altura = 64,8 m². Aberturas: 0,40 + 1,20 + 2,52 = 4,12 m². Área pintada: 60,68 m² por casa e 485,44 m² nas 8 casas. São 4,85 galões, ou seja, 5 galões inteiros: 5 × R$ 260,00 = R$ 1.300,00."
+        },
+        {
+          "text": "R$ 2.080,00.",
+          "explanation": "É o preço de 8 galões, um por casa; mas a tinta pode ser aproveitada de uma casa para outra: cada uma gasta só 60,68 m² dos 100 m² que um galão cobre, e 5 galões dão conta das 8."
+        }
+      ],
+      "correct": "D"
+    },
+    {
+      "key": "pave-2024-e2-q23",
+      "source": "PAVE 2024 – Etapa 2, questão 23 (UFPel)",
+      "kind": "Objective",
+      "subject": "matematica",
+      "statement": "Ana é uma estudante do ensino médio do Colégio Municipal Pelotense e está aprendendo sobre o funcionamento do teodolito e sua aplicabilidade para medir alturas de diferentes estruturas e construções.\n\n![Silhueta de uma menina que observa, com um aparelho na altura dos olhos, o topo de um prédio à sua direita. A linha de visada até o topo do prédio, uma linha horizontal na altura dos olhos e a parede do prédio formam um triângulo retângulo, com o ângulo reto junto ao prédio e o ângulo a ser medido junto ao aparelho.](img/pave/2024/etapa-2/q23-1.png)\n\nSuponha que Ana utilizou essa técnica para descobrir qual é a altura do prédio em que mora, chegando ao resultado de 85,5 m. Para isso, teve que ficar a uma distância, em linha reta, do topo do prédio de 168 m, usando o aparelho a uma altura de 1,5 m na linha dos olhos.\n\nFonte: Autoria própria, imagem meramente ilustrativa, as medidas dos ângulos e comprimentos da figura não necessariamente se referem à questão com exatidão.\n\n**Ao fazer essa medição, qual é o ângulo em graus que Ana viu no aparelho?**",
+      "options": [
+        {
+          "text": "30º",
+          "explanation": "Correta. O cateto oposto ao ângulo é a altura do prédio acima dos olhos: 85,5 − 1,5 = 84 m. A distância em linha reta até o topo, 168 m, é a hipotenusa. sen θ = 84/168 = 1/2, logo θ = 30°."
+        },
+        {
+          "text": "90º",
+          "explanation": "Com 90° Ana estaria olhando verticalmente para cima, e não haveria triângulo retângulo com hipotenusa de 168 m e cateto de 84 m."
+        },
+        {
+          "text": "60º",
+          "explanation": "60° é o outro ângulo agudo do triângulo, o do topo do prédio (cos 60° = 84/168). O ângulo lido no aparelho, junto aos olhos, tem a altura de 84 m como cateto oposto."
+        },
+        {
+          "text": "15º",
+          "explanation": "sen 15° ≈ 0,26; com hipotenusa de 168 m, a altura acima dos olhos seria de uns 43 m, e não 84 m."
+        },
+        {
+          "text": "45º",
+          "explanation": "Com 45° os dois catetos seriam iguais e a razão entre a altura e a hipotenusa seria √2/2 ≈ 0,71, não 84/168 = 0,5."
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "key": "pave-2024-e2-q24",
+      "source": "PAVE 2024 – Etapa 2, questão 24 (UFPel)",
+      "kind": "Objective",
+      "subject": "lingua-portuguesa",
+      "statement": "**Leia os textos a seguir para responder a próxima questão.**\n\n**Texto I**\n\n![Cartaz em tons de cinza com o título Campanha Contra a Violência Doméstica. Uma mulher chorando estende a mão aberta, com um X na palma, em sinal de pare; num balão: DENUNCIE! DISQUE 180 – Central de Atendimento à Mulher. À direita, a lista: VIOLÊNCIA FÍSICA: Lesar a integridade ou saúde corporal da mulher. VIOLÊNCIA PSICOLÓGICA: Danar a saúde emocional, mental e sua liberdade de ser. VIOLÊNCIA SEXUAL: Forçar ou intimidar a mulher a uma relação sexual não desejada. VIOLÊNCIA PATRIMONIAL: Reter, subtrair ou destruir bens, valores e direitos. VIOLÊNCIA MORAL: Caluniar, difamar ou cometer injúria. No rodapé, logotipos da Prefeitura de Chapada do Norte, da Secretaria de Assistência Social e da Polícia Militar de Minas Gerais.](img/pave/2024/etapa-2/q24-1.png)\n\nFonte: https://chapadadonorte.mg.gov.br/noticias/campanha-contra-a-violencia-domestica. Acesso em: 11/03/2023.\n\n**Texto II**\n\nPoesia | Uma mulher que grita na esperança de viver\n\n```\nNa esquina da minha casa\nO medo bate a minha porta\nda janela vejo a rua\ne muito sangue a minha volta\nVejo choro, vejo guerra\nmachismo por toda parte\nassédio tomando conta\né mais um homem covarde\nÉ mais uma mulher que grita na esperança de viver\né mais um fato ao meio-dia\npassando pela tv\nPra que lado olho agora?\nquem será que vai me ouvir?\nsó por causa de uma saia\na culpa toda vem pra mim?\nTodo dia uma luta\ntodo dia um sofrimento\ncolocam a mão em minha boca\ndepois vivem o lamento\nCultura do machismo que me tira a existência\npela morte de mais uma\ntodas gritam RESISTÊNCIA.\n```\n\nEstudante do segundo ano de Hotelaria na Escola Estadual João Goulart.\n\nReferência: https://www.brasildefato.com.br/2019/05/10/poesia-or-uma-mulher-que-grita-na-esperanca-de-viver. Acesso em: 11/03/2023.\n\nAs funções da linguagem são categorias dos estudos da comunicação. Toda linguagem é utilizada para comunicar algo a alguém. A transmissão da mensagem pressupõe alguns elementos: um emissor, um receptor, um contexto, um código e um canal entre o emissor e o receptor. Analise as proposições que seguem:\n\nI. No texto I, o cartaz, tem-se como objetivo a conscientização da população sobre a necessidade de denunciar a violência doméstica e a função da linguagem predominante é conativa ou apelativa.\n\nII. Nos textos I e II se destaca o fato de que as autoridades são responsáveis por ações preventivas contra a violência doméstica e a função predominante é a referencial.\n\nIII. No texto II, “Poesia | Uma mulher que grita na esperança de viver”, predominam as funções: emotiva ou expressiva e poética.\n\nIV. No texto I, o cartaz aborda os tipos de violência e, por esse motivo, a função da linguagem predominante é a metalinguística.\n\n**Estão corretas:**",
+      "options": [
+        {
+          "text": "I e II apenas.",
+          "explanation": "A I está certa, mas a II não: nenhum dos textos destaca a responsabilidade das autoridades, e a função referencial (informar de modo objetivo) não predomina no cartaz, que apela ao leitor, nem no poema."
+        },
+        {
+          "text": "I e III apenas.",
+          "explanation": "Correta. O cartaz se dirige ao receptor com imperativos (“Denuncie! Disque 180”) para levá-lo a agir: função conativa. O poema expõe em primeira pessoa o medo e o sofrimento do eu lírico (função emotiva) e trabalha a forma, com versos e rimas (função poética)."
+        },
+        {
+          "text": "I e IV apenas.",
+          "explanation": "A IV é falsa: função metalinguística é o código falando do próprio código (como num dicionário); listar os tipos de violência é informar sobre a realidade, a serviço do apelo à denúncia."
+        },
+        {
+          "text": "II e III apenas.",
+          "explanation": "A III está certa, mas a II não: os textos não tratam da responsabilidade das autoridades, e a função referencial não é a predominante em nenhum deles. Falta ainda a I."
+        },
+        {
+          "text": "III e IV apenas.",
+          "explanation": "A III é verdadeira, mas a IV confunde a explicação dos tipos de violência com metalinguagem, que só ocorre quando a linguagem explica a si mesma."
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "key": "pave-2024-e2-q25",
+      "source": "PAVE 2024 – Etapa 2, questão 25 (UFPel)",
+      "kind": "Objective",
+      "subject": "lingua-portuguesa",
+      "statement": "**Leia o texto a seguir para responder a próxima questão.**\n\nManuel Bandeira\n\nFilho de engenheiro, Manuel Bandeira foi obrigado abandonar os estudos de arquitetura por causa da tuberculose. Mas a iminência da morte não marcou de forma lúgubre sua obra, embora em seu humor lírico haja sempre um toque de funda melancolia, e na sua poesia haja sempre um certo toque de morbidez, até no erotismo.\n\nTradutor de autores como Marcel Proust e William Shakespeare, esse nosso Manuel traduziu mesmo foi a nostalgia do paraíso cotidiano mal idealizado por nós, brasileiros, órfãos de um país imaginário, nossa Cocanha perdida, Pasárgada. Descrever seu retrato em palavras é uma tarefa impossível, depois que ele mesmo já o fez tão bem em versos.\n\nReferência: Revista Língua Portuguesa, n° 40, fev. 20.\n\nA coesão textual é um fenômeno linguístico caracterizado pela articulação entre elementos de um texto. Ela garante a harmonia e a conexão lógica entre as frases, o que colabora para uma melhor compreensão por parte do leitor. Analise as proposições a seguir:\n\nI. A coesão textual no texto está relacionada com os componentes da superfície textual, ou seja, as palavras e frases que o compõem. No texto em questão, “Manuel Bandeira”, percebe-se que a coesão é construída pelo emprego de pronomes pessoais, possessivos e demonstrativos: “sua”, “seu”, “esse”, “nosso”, “ele”. Esses componentes estão conectados entre si em uma sequência linear por meio de dependências de ordem gramatical.\n\nII. No texto “Manuel Bandeira” a coesão é imaterial e não está na superfície textual. A compreensão do que está escrito dependerá dos níveis de interação entre o leitor, o autor e o texto. Por esse motivo, um mesmo texto pode apresentar múltiplas interpretações.\n\nIII. No texto “Manuel Bandeira” o uso adequado dos conectivos e dos mecanismos de coesão evitam erros que prejudicam a sintaxe e a construção de sentidos do texto.\n\nIV. No texto “Manuel Bandeira”, a coesão é estabelecida apenas pelo uso de expressões e repetições de palavras.\n\nV. No texto “Manuel Bandeira” percebem-se mecanismos de coesão sequencial e referencial.\n\n**Estão corretas:**",
+      "options": [
+        {
+          "text": "I e II apenas.",
+          "explanation": "A II é falsa: descreve a coerência, que depende da interação entre leitor, autor e texto; a coesão é material, feita de marcas na superfície do texto."
+        },
+        {
+          "text": "I e IV apenas.",
+          "explanation": "A IV é falsa por causa do “apenas”: o texto usa pronomes (“sua”, “seu”, “ele”), conectivos (“mas”, “embora”, “depois que”) e substituições (“esse nosso Manuel”), não só repetições."
+        },
+        {
+          "text": "I, III e V apenas.",
+          "explanation": "Correta. A coesão está na superfície textual, em pronomes que retomam Manuel Bandeira (I); o bom uso de conectivos e mecanismos coesivos sustenta a sintaxe e o sentido (III); e há coesão referencial (retomadas como “sua obra”, “ele mesmo”) e sequencial (conectivos como “mas”, “embora”) (V)."
+        },
+        {
+          "text": "II e III apenas.",
+          "explanation": "A III é verdadeira, mas a II não: dizer que a coesão é imaterial e depende da interpretação do leitor é confundi-la com a coerência. Faltam I e V."
+        },
+        {
+          "text": "III e IV apenas.",
+          "explanation": "A III está certa, mas a IV restringe a coesão a expressões e repetições, quando o texto recorre a pronomes, conectivos e substituições lexicais."
+        }
+      ],
+      "correct": "C"
+    },
+    {
+      "key": "pave-2024-e2-q26",
+      "source": "PAVE 2024 – Etapa 2, questão 26 (UFPel)",
+      "kind": "Objective",
+      "subject": "literatura",
+      "statement": "**Leia os textos abaixo.**\n\n**Texto 1: Nosso Caramelo resgatado**\n\n![Charge em tons de cinza: um cavalo magro e cabisbaixo está de pé sobre um pedaço de terra com o contorno do mapa do Rio Grande do Sul, cercado de água por todos os lados. Dois botes infláveis com socorristas de capacete se aproximam para o resgate.](img/pave/2024/etapa-2/q26-1.png)\n\nFonte: radiccioficial. Disponível em: https://www.instagram.com/p/C6wOpnjNHBV/?igsh=N2V3dWtrZG9yNmZz. Acesso em: 18/06/2024.\n\n**Texto 2: MEU ROSILHO “PIOLHO”**\n\n“Nisto senti um – tchá! tcbá! tchá! – atrás de mim; olhei, de relancina apenas, porque nem tempo para mais, tive; era o temporal, a bomba d'água que se despenhava, quase nos garrões do rosilho! Foi o quanto amaguei o corpo e toquei, de meia rédea. Cupins e buracos de caranguejos, tacurus, macegas e carquejas, sangas, lagoas, barrais – o diabo! – não vi nada! Se rodasse, nem o sebo da coalheira se me aproveitava! Mas o rosilho \"Piolho\" era firme e bonzão, sem mais nada! Eu corria, é verdade, porém a manga d'água também corria... A polvadeira que eu levantava a chuvarada engolia logo. Eu sentia-lhe a frescura, percebia que ela estava-me na garupa, na anca do rosilho, nos garrões dele! Um que outro pingo de chuva mais ponteiro batia-me às vezes na aba do chapéu... Era um duelo esquisito. Um duelo, em que um valente fugia para ficar vencedor! Vencer, aqui, era chegar enxuto. E assim viemos, eu e a tormenta, na mesma disparada: a que te pego! a que te largo! a que te pego! a que te largo!”(...)\n\nReferência: LOPES NETO, J. Simões. **Casos do Romualdo**. Porto Alegre: Martins Livreiro, 2000.\n\nO escritor pelotense Simões Lopes Neto apresenta em suas narrativas situações, costumes e vivências que fazem parte da cultura gaúcha tradicional, apresentando-as de forma vívida e intensa, com um vocabulário marcado por estilo próprio e inconfundível. No trecho retirado de Meu rosilho “Piolho”, por exemplo, é retratada a relação cotidiana existente entre o gaúcho e o seu cavalo.\n\n**Baseando-se nos textos dados leia as afirmações:**\n\nI) Os dois textos reforçam a ligação emocional entre o povo gaúcho e o cavalo.\n\nII) O texto 1 nos passa a ideia de que tanto o cavalo como o RS precisam de ajuda.\n\nIII) O texto 2 mostra uma exaltação à paciência do cavalo.\n\nIV) O texto 1 demonstra a agilidade inerente ao cavalo.\n\n**Estão corretas:**",
+      "options": [
+        {
+          "text": "II e III apenas.",
+          "explanation": "A II está certa, mas a III não: o conto exalta a firmeza e a velocidade do rosilho na corrida contra a tormenta, não a paciência. Falta a I."
+        },
+        {
+          "text": "I, II e III apenas.",
+          "explanation": "I e II são verdadeiras, mas a III não: “firme e bonzão”, o rosilho é elogiado por correr à frente da chuva, e não por ser paciente."
+        },
+        {
+          "text": "I e II apenas.",
+          "explanation": "Correta. A charge mostra o cavalo ilhado sobre o mapa do Rio Grande do Sul, à espera do resgate: animal e estado precisam de socorro (II). Nela e no conto, em que o narrador elogia seu rosilho “firme e bonzão”, o cavalo aparece como figura querida do gaúcho (I)."
+        },
+        {
+          "text": "III e IV apenas.",
+          "explanation": "As duas são falsas: o texto 2 destaca a rapidez e a firmeza do cavalo, não a paciência; e na charge o cavalo está parado, ilhado, sem demonstrar agilidade."
+        },
+        {
+          "text": "I e IV apenas.",
+          "explanation": "A I é verdadeira, mas a IV não: na charge o cavalo está imóvel sobre o pouco de terra que resta, esperando ajuda; a agilidade aparece no texto 2."
+        }
+      ],
+      "correct": "C"
+    },
+    {
+      "key": "pave-2024-e2-q27",
+      "source": "PAVE 2024 – Etapa 2, questão 27 (UFPel)",
+      "kind": "Objective",
+      "subject": "literatura",
+      "statement": "**Leia os textos abaixo.**\n\n**Texto 1: Trecho da CARTA de Pero Vaz de Caminha (excerto)**\n\n(...) “E segundo o que a mim e a todos pareceu, esta gente, não lhes falece outra coisa para ser toda cristã, do que entenderem-nos, porque assim tomavam aquilo que nos viam fazer como nós mesmos; por onde pareceu a todos que nenhuma idolatria nem adoração têm. E bem creio que, se Vossa Alteza aqui mandar quem entre eles mais devagar ande, que todos serão tornados e convertidos ao desejo de Vossa Alteza. E por isso, se alguém vier, não deixe logo de vir clérigo para os batizar; porque já então terão mais conhecimentos de nossa fé, pelos dois degredados que aqui entre eles ficam, os quais hoje também comungaram.”\n\nReferência: Adaptada de CAMINHA, Pero Vaz de. **A carta**. NEAD. Núcleo de Educação a Distância. UNAMA – Universidade da Amazônia. P. 13. s/d. Disponível em: http://www.dominiopublico.gov.br/download/texto/ua000283.pdf. Acesso em: 18/16/2024.\n\n**Texto 2: Tira do Armandinho – Descobrimento do Brasil**\n\n![Tirinha do Armandinho em três quadrinhos, com o menino sentado à carteira escolar. Quadro 1: uma voz de fora do quadro, a da professora, diz “...E ASSIM FOI O DESCOBRIMENTO DO BRASIL!”. Quadro 2: Armandinho pergunta “COMO ASSIM?!”. Quadro 3: Armandinho insiste “E A VERSÃO DOS ÍNDIOS?!”.](img/pave/2024/etapa-2/q27-1.png)\n\nFONTE: https://tirasarmandinho.tumblr.com/search/descobrimento%20do%20brasil520. Acesso em: 18/06/2024.\n\n**Quais as visões sobre o “Descobrimento” do Brasil e a religiosidade dos povos originários apresentadas nos textos 1 e 2?**",
+      "options": [
+        {
+          "text": "No texto 1, trecho da Carta, temos a visão do conquistador europeu buscando impor a religião católica aos povos originários do Brasil. Já no texto 2, a tirinha, temos o questionamento de tal visão, feita pelo personagem Armandinho, que não concorda com a versão eurocêntrica da professora nem do cronista português.",
+          "explanation": "Correta. Caminha escreve do ponto de vista do colonizador: supõe que os indígenas não têm “nenhuma idolatria nem adoração” e pede um clérigo para batizá-los e convertê-los. Na tirinha, Armandinho reage à narrativa do “descobrimento” perguntando pela versão dos índios, isto é, questiona essa visão eurocêntrica."
+        },
+        {
+          "text": "No texto 1, trecho da Carta, temos a visão do cronista português acerca da importância da catequização dos povos originários do Brasil e no texto 2, a tirinha, notamos que a professora de Armandinho discorda de tal visão eurocêntrica.",
+          "explanation": "A leitura da Carta está adequada, mas a da tirinha não: quem discorda é Armandinho; a professora é quem apresenta a versão tradicional do “descobrimento”."
+        },
+        {
+          "text": "No texto 1, trecho da Carta, verificamos que, na visão de Pero Vaz de Caminha, os povos originários do Brasil já possuem religiosidade própria, não necessitando ser catequizados e no texto 2, a tirinha, notamos que Armandinho concorda com a visão do cronista português.",
+          "explanation": "Caminha afirma o contrário: os indígenas não teriam “nenhuma idolatria nem adoração” e deveriam ser batizados. E Armandinho não concorda com essa visão: ele pergunta pela versão dos índios."
+        },
+        {
+          "text": "No texto 1, trecho da Carta, verificamos que, na visão do cronista português, é importante que os portugueses entendam a religiosidade dos povos originários do Brasil. Já no texto 2, a tirinha, notamos que Armandinho concorda com o cronista português e discorda da professora.",
+          "explanation": "O cronista não quer que os portugueses entendam a religiosidade indígena; quer que os indígenas entendam os portugueses para se tornarem cristãos. Armandinho também não concorda com ele."
+        },
+        {
+          "text": "Os dois textos criticam a visão eurocêntrica da história.",
+          "explanation": "Só a tirinha critica a visão eurocêntrica; a Carta é justamente um exemplo dela, pois trata a conversão dos indígenas como algo natural e desejável."
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "key": "pave-2024-e2-q28",
+      "source": "PAVE 2024 – Etapa 2, questão 28 (UFPel)",
+      "kind": "Objective",
+      "subject": "literatura",
+      "statement": "**Leia os textos:**\n\n**Texto 1:**\n\nCARTA 2ª- Em que se mostra a piedade que Fanfarrão fingiu no princípio do seu governo, para chamar a si todos os negócios.\n\n```\n(...)\n1.Do cavalo andaluz, é, sim, provável\n2.Nascer, também, um potro de esperança,\n3.Que tenha frente aberta, largos peitos,\n4.Que tenha alegres olhos e compridos,\n5.Que seja, enfim, de mãos e pés calçado;\n6.– Porém de um bom ginete também pode\n7.Um catralvo nascer, nascer um zarco.\n8.Aquele mesmo potro, que tem todos\n9.Os formosos sinais, que aponta o Rego,\n10.Carece, Doroteu, correr em roda\n11.– No grande picadeiro muitos meses,\n12.Para um e outro lado, necessita\n13.Que o destro picador lhe ponha a sela\n14.E que, montando nele, pouco a pouco,\n15.O faça obedecer ao leve toque\n16. – Do duro cabeção, da branda rédea.\n```\n\nBibliografia: Adaptada de GONZAGA, Tomas A. **Cartas chilenas**. NEAD – Núcleo de Educação a Distância. UNAMA. Universidade do Amazonas. s/d.\n\nDisponível em: http://www.dominiopublico.gov.br/download/texto/ua000293.pdf. Acesso em: 18/06/2024.\n\n**Texto 2:**\n\nO bêbado e a equilibrista\n\n```\n1.Caía a tarde feito um viaduto\n2.E um bêbado trajando luto me lembrou Carlitos\n3.A lua, tal qual a dona de um bordel\n4.Pedia a cada estrela fria um brilho de aluguel\n5.E nuvens lá no mata-borrão do céu\n6.Chupavam manchas torturadas\n7.Que sufoco\n8.Louco\n9.O bêbado com chapéu-coco\n10.Fazia irreverências mil\n11.Pra noite do Brasil\n12.Meu Brasil\n13.Que sonha com a volta do irmão do Henfil\n14.Com tanta gente que partiu\n15.Num rabo de foguete\n16.Chora\n17.A nossa Pátria mãe gentil\n18.Choram Marias e Clarisses\n19.No solo do Brasil\n20.Mas sei que uma dor assim pungente\n21.Não há de ser inutilmente\n22.A esperança\n23.Dança na corda bamba de sombrinha\n24.E em cada passo dessa linha\n25.Pode se machucar\n26.Azar\n27.A esperança equilibrista\n28.Sabe que o show de todo artista\n29.Tem que continuar.\n```\n\nCompositores: Aldir Blanc Mendes / João Bosco De Freitas Mucci, Intérprete: Elis Regina\n\nFonte: adaptada de LyricFind. Disponível em: https://www.letras.mus.br/elis-regina/45679/. Acesso em: 18/06/2024\n\nHistoricamente, o Brasil passou por períodos conturbados politicamente, em que os governantes abusavam do poder para roubar, perseguir, matar e prender quem se colocasse contra os atos ilegítimos que cometiam. Na mesma medida, intelectuais e artistas denunciavam tais atrocidades utilizando a linguagem conotativa em suas obras, a partir do uso de metáforas, metonímias, comparações, etc., para não serem punidos. Os autores dos textos 1 e 2 assim procederam em sua época.\n\n**Nesse contexto, Tomás Antônio Gonzaga, Aldyr Blank e João Bosco utilizaram a metáfora em seus textos, respectivamente em**",
+      "options": [
+        {
+          "text": "“Do cavalo andaluz” (verso 1, Texto 1) e “tal qual a dona de um bordel” (verso 3, Texto 2).",
+          "explanation": "“Do cavalo andaluz” apenas nomeia o animal de que se fala, e “tal qual a dona de um bordel” é uma comparação (símile), marcada pelo conectivo “tal qual”; a metáfora dispensa esse conectivo."
+        },
+        {
+          "text": "“potro de esperança” (verso 2, Texto 1) e “Num rabo de foguete” (verso 15, Texto 2).",
+          "explanation": "Correta. Em “potro de esperança”, o potro é qualificado por algo abstrato, sem conectivo de comparação: é o filhote que promete. “Num rabo de foguete” não fala de um foguete de verdade: representa a partida forçada e às pressas dos exilados da ditadura. Nos dois casos há sentido figurado sem termo comparativo, isto é, metáfora."
+        },
+        {
+          "text": "“bom ginete” (verso 6, Texto 1) e “No solo do Brasil” (verso 19, Texto 2).",
+          "explanation": "“Bom ginete” (cavalo de boa raça) e “No solo do Brasil” estão em sentido literal; não há transferência de sentido em nenhuma das duas expressões."
+        },
+        {
+          "text": "“correr em roda” (verso 10, Texto 1) e “Chupavam manchas torturadas”. (verso 6, texto 2).",
+          "explanation": "“Correr em roda” descreve literalmente o treino do potro no picadeiro. O verso do texto 2 é figurado (as nuvens que “chupavam manchas torturadas”), mas o par falha no texto 1."
+        },
+        {
+          "text": "“Os formosos sinais” (verso 9, Texto 1) e “Meu Brasil” (verso 12, Texto 2).",
+          "explanation": "“Os formosos sinais” são as marcas físicas do potro e “Meu Brasil” é uma referência direta ao país; ambos estão em sentido denotativo."
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "key": "pave-2024-e2-q29",
+      "source": "PAVE 2024 – Etapa 2, questão 29 (UFPel)",
+      "kind": "Objective",
+      "subject": "arte",
+      "statement": "**Observe a imagem e leia o fragmento a seguir.**\n\n![Pintura Os Amantes (1928), de René Magritte: duas pessoas vistas de perto se beijam com as cabeças inteiramente cobertas por panos brancos. À direita, a figura mais alta veste terno escuro e gravata; à esquerda, a outra usa roupa vermelha. Ao fundo, uma parede azul-acinzentada, uma parede vermelha e uma moldura de teto.](img/pave/2024/etapa-2/q29-1.png)\n\nFonte: http://issocompensa.com/sem-categoria/rene-magritte-os-amantes-1928. Acesso em: 05/06/2024.\n\nA análise visual da obra nos permite apreciar elementos que podem se comunicar a partir da paleta de cores, do tema, da textura e do contexto. Vemos, de perfil, a figura de dois sujeitos direcionados para beijar um ao outro. À direita, de vestimenta social, temos o sujeito de maior altura, com terno em cores neutras, e à esquerda, outra personagem trajando, por sua vez, um vestido vermelho. Impedindo o contato físico entre as figuras, dois panos repousam sobre suas cabeças, suprimindo as sensações que poderiam estabelecer uma conexão entre ambos.\n\nFonte: Adaptado de https://www.gazetavargasfgv.com/post/isolamento-uma-an%C3%A1lise-de-the-lovers-ii. Acesso em: 05/06/2024.\n\n**Com base em seus conhecimentos de Arte e de Língua Portuguesa, marque a alternativa correta:**",
+      "options": [
+        {
+          "text": "Trata-se de uma obra de vanguarda expressionista, seguida de um texto de gênero informativo.",
+          "explanation": "A obra não é expressionista (movimento marcado pela deformação e por cores intensas para exprimir angústia), e o fragmento não noticia fatos: ele descreve o que se vê na tela."
+        },
+        {
+          "text": "Trata-se de uma obra de vanguarda futurista, seguida de um texto de gênero narrativo.",
+          "explanation": "O Futurismo exalta velocidade, máquinas e movimento, ausentes da tela; e o texto não narra acontecimentos em sequência, apenas descreve a imagem."
+        },
+        {
+          "text": "Trata-se de uma obra de vanguarda impressionista, seguida de um texto de gênero prescritivo.",
+          "explanation": "O Impressionismo, do século XIX, busca efeitos de luz com pinceladas soltas, o que não se vê na tela; e texto prescritivo dá instruções ou ordens, o que não ocorre aqui."
+        },
+        {
+          "text": "Trata-se de uma obra de vanguarda fauvista, seguida de um texto de gênero expositivo.",
+          "explanation": "O Fauvismo se define pelo uso de cores puras e intensas, sem compromisso com a cor real; a tela de Magritte, de pintura lisa e cena enigmática, pertence a outra vanguarda."
+        },
+        {
+          "text": "Trata-se de uma obra de vanguarda surrealista, seguida de um texto de gênero descritivo.",
+          "explanation": "Correta. “Os Amantes” (1928), de René Magritte, é uma obra surrealista: uma cena de aparência realista tornada estranha e onírica pelos rostos cobertos. O fragmento descreve o que se vê (posições, roupas, cores, panos), o que caracteriza um texto descritivo."
+        }
+      ],
+      "correct": "E"
+    },
+    {
+      "key": "pave-2024-e2-q30-es",
+      "source": "PAVE 2024 – Etapa 2, questão 30, espanhol (UFPel)",
+      "kind": "Objective",
+      "subject": "espanhol",
+      "statement": "**Leia a tirinha a seguir para responder as questões.**\n\n![Tirinha do Gaturro, um gato amarelo, em onze quadrinhos com balões de pensamento. Quadro 1: Gaturro, sorridente e de dedo erguido: “CON VOLUNTAD SE PUEDE LOGRAR CUALQUIER COSA...”. Quadros 2 e 3: diante de um enorme NO vermelho, “CONVERTIR UN \"NO\"”; diante de um enorme SÍ azul, “EN \"SÍ\"”. Quadros 4 e 5: diante de um semáforo vermelho, “CONVERTIR UN \"PROHIBIDO\"”; com o semáforo verde, “EN \"ADELANTE\"...”. Quadros 6 e 7: diante de uma corda toda embolada, “CONVERTIR LO \"DIFÍCIL\"”; com a corda esticada, “EN \"FÁCIL\"”. Quadro 8: ao lado de um homem careca de cara fechada, “CONVERTIR UN \"MALHUMORADO\"”. Quadro 9: ao lado de uma gata de laço na cabeça, emburrada e de braços cruzados, “EN...”. Quadro 10: sem balão, Gaturro olha para a gata, que continua emburrada. Quadro 11: sozinho, “BUENO, LA VOLUNTAD TAMBIÉN TIENE UN LÍMITE...”.](img/pave/2024/etapa-2/q30-es-1.png)\n\nReferência: Adaptado de https://22tonslatinos.blogspot.com/2013/05/gaturro-e-os-antonimos.html/. Acesso em: 17/06/2024.\n\n**A expressão “lograr” poderia ser corretamente traduzida por qual palavra em português?**",
+      "options": [
+        {
+          "text": "Tentar.",
+          "explanation": "Tentar, em espanhol, é “intentar”; “lograr” indica que o objetivo foi alcançado, não apenas tentado."
+        },
+        {
+          "text": "Querer.",
+          "explanation": "Querer também é “querer” em espanhol; na tirinha a vontade (“voluntad”) é o meio, e “lograr” é o resultado obtido com ela."
+        },
+        {
+          "text": "Perder.",
+          "explanation": "Perder é o oposto da ideia: “lograr” é alcançar, obter aquilo que se buscava."
+        },
+        {
+          "text": "Conseguir.",
+          "explanation": "Correta. “Lograr” significa conseguir, alcançar: “Con voluntad se puede lograr cualquier cosa” quer dizer que, com vontade, pode-se conseguir qualquer coisa."
+        },
+        {
+          "text": "Pensar.",
+          "explanation": "Pensar também é “pensar” em espanhol; a frase não fala de imaginar algo, e sim de obtê-lo com força de vontade."
+        }
+      ],
+      "correct": "D"
+    },
+    {
+      "key": "pave-2024-e2-q30-en",
+      "source": "PAVE 2024 – Etapa 2, questão 30, inglês (UFPel)",
+      "kind": "Objective",
+      "subject": "ingles",
+      "statement": "**Leia o texto para responder as questões.**\n\n**Makeshift shelter saves hundreds of dogs amid floods in southern Brazil**\n\n```\n 1      CANOAS, Brazil -- Hundreds of volunteers have set up a makeshift dog shelter in\n 2  an abandoned, roofless warehouse in the city of Canoas, one of the hardest hit by floods\n 3  in southern Brazil's Rio Grande do Sul state. They treat and feed sick, hungry or injured\n 4  dogs, hoping to reunite them with their owners, and they were working at full speed\n 5  Friday morning as renewed heavy rains are forecast in the region over the weekend.\n 6      Authorities say more than 110 people have died, almost 150 are missing, and\n 7  more than 300,000 people have been displaced by the floods. There is no official tally\n 8  for the number of animals that have died or are made homeless. Local media estimated\n 9  the number to be in the thousands.\n10      The makeshift shelter, about the size of a soccer field, has taken in hundreds of\n11  canines from inundated areas since Sunday. Every hour between 20 and 30 dogs arrive,\n12  many injured after having been run over or nearly drowned. The shelter sends some to\n13  veterinary hospitals, but others that are in need of medical attention are too frail to be\n14  transported. Dog food is scattered throughout the facility, and dogs are chained at\n15  distances from one another to prevent fighting.\n16      Hairdresser Gabriel Cardoso da Silva is one of the main organizers. He came from\n17  the neighboring city of Gravatai, which wasn't hit by the heavy rains, to help rescue\n18  people. “When we were about to leave, we heard the barking. I and my wife felt so\n19  moved, we just cried; we have two dogs,” said Silva, 28. Many more were drawn to the\n20  movement following a social media campaign, he added: “Sunday we had 10 volunteers,\n21  now we have 200. We have tons of food. Our community chose to embrace this, but days\n22  ago we felt so alone.”\n23      Whenever a dog is reunited with family, the hairdresser shouts “One less!” so\n24  other volunteers can stop and applaud throughout the shelter. Cardoso's call often mixes\n25  with loud barks of small, jittery dogs, fights between distraught animals that manage to\n26  get close and frantic movement by desperate families trying to locate their lost pets.\n27      Animal protection groups and volunteers have shared images of difficult rescues\n28  and heartwarming scenes of pets reuniting with their owners on social media. One video\n29  that went viral showed a man crying inside a boat, hugging his four dogs after rescuers\n30  went back to his home to save them. The images have spurred Brazilians to send\n31  donations and brought veterinarians to the region.\n32      Gustavo Ungerer, a jiu-jitsu teacher who lives in Rio de Janeiro and treats stray\n33  animals during his spare time, will join a group of veterinarians heading south in just\n34  over a week. They will bring food and medical supplies, assist cats and dogs that have\n35  found shelter and seek out those still fending for themselves, said Ungerer, 41. One\n36  veterinarian is specialized in larger animals, such as oxen and horses.\n37      Stray animals \"don’t know how to ask for help. They get scared and run away or\n38  attack when people approach to help,” he said by phone. “Sometimes it might be\n39  necessary to climb a house, or enter into the river.” The plight of lost animals in southern\n40  Brazil became national news this week after a television news helicopter spotted a horse\n41  nicknamed Caramelo stranded on a rooftop in Canoas, not far from the shelter. About\n42  24 hours afterward, as people clamored for his rescue, authorities in Rio Grande do Sul\n43  successfully removed Caramelo on Thursday, providing a dose of hope to a beleaguered\n44  region.\n45      Carla Sassi, chairwoman of Grad, a Brazilian nonprofit that rescues animals after\n46  disasters, said she met with state government officials in Canoas to discuss emergency\n47  measures to rescue lost pets, but that nothing came of it. So far, according to volunteers\n48  in some areas, only business leaders and local residents have acted to save pets in\n49  flooded areas. Rio Grande do Sul's housing secretariat says state agents have rescued\n50  about 10,000 animals since last week, while those in municipalities and volunteers have\n51  saved thousands more.\n```\n\nReferência: Adaptado de https://abcnews.go.com/International/wireStory/makeshift-shelter-saves-hundreds-dogs-amid-floods-southern-110101279. Acesso em: 24/05/2024.\n\nA partir da leitura do texto “Makeshift shelter saves hundreds of dogs amid floods in southern Brazil”, considere as seguintes afirmações abaixo:\n\nI – A cidade de Canoas já contava com um espaço preparado para receber animais em situações de crise.\n\nII – Sempre que um cão é encontrado por seus tutores, os voluntários fazem um momento de silêncio para celebrar o reencontro.\n\nIII – Muitos chegam após terem sido atropelados ou quase se afogado, mas nem todos os cães feridos que são resgatados conseguem ser enviados para hospitais veterinários.\n\nIV – O governo rebateu as acusações de inação em relação às ações de resgate de animais.\n\nV – Além de cães e gatos, bovinos também podem contar com auxílio veterinário.\n\n**Estão corretas:**",
+      "options": [
+        {
+          "text": "I, II e V apenas.",
+          "explanation": "I e II são falsas: o abrigo é improvisado (“makeshift”) num galpão abandonado e sem teto, e os voluntários param para aplaudir (“stop and applaud”), não para fazer silêncio."
+        },
+        {
+          "text": "II, III e V apenas.",
+          "explanation": "III e V estão certas, mas a II não: quando um cão reencontra a família, o cabeleireiro grita “One less!” e os voluntários aplaudem."
+        },
+        {
+          "text": "I e IV apenas.",
+          "explanation": "A IV está certa, mas a I não: Canoas não tinha um espaço preparado; voluntários montaram um abrigo improvisado em “an abandoned, roofless warehouse”. Faltam III e V."
+        },
+        {
+          "text": "III, IV e V apenas.",
+          "explanation": "Correta. III: muitos cães chegam feridos “after having been run over or nearly drowned”, e alguns estão “too frail to be transported”. IV: diante da queixa de que só moradores e empresários agiram, a secretaria estadual diz que agentes do estado resgataram cerca de 10.000 animais. V: um dos veterinários é especializado em animais maiores, “such as oxen and horses”."
+        },
+        {
+          "text": "II e IV apenas.",
+          "explanation": "A IV é verdadeira, mas a II não: o reencontro é comemorado com aplausos, não com silêncio. Faltam III e V."
+        }
+      ],
+      "correct": "D"
+    },
+    {
+      "key": "pave-2024-e2-q31-es",
+      "source": "PAVE 2024 – Etapa 2, questão 31, espanhol (UFPel)",
+      "kind": "Objective",
+      "subject": "espanhol",
+      "statement": "**Leia a tirinha a seguir para responder as questões.**\n\n![Tirinha do Gaturro, um gato amarelo, em onze quadrinhos com balões de pensamento. Quadro 1: Gaturro, sorridente e de dedo erguido: “CON VOLUNTAD SE PUEDE LOGRAR CUALQUIER COSA...”. Quadros 2 e 3: diante de um enorme NO vermelho, “CONVERTIR UN \"NO\"”; diante de um enorme SÍ azul, “EN \"SÍ\"”. Quadros 4 e 5: diante de um semáforo vermelho, “CONVERTIR UN \"PROHIBIDO\"”; com o semáforo verde, “EN \"ADELANTE\"...”. Quadros 6 e 7: diante de uma corda toda embolada, “CONVERTIR LO \"DIFÍCIL\"”; com a corda esticada, “EN \"FÁCIL\"”. Quadro 8: ao lado de um homem careca de cara fechada, “CONVERTIR UN \"MALHUMORADO\"”. Quadro 9: ao lado de uma gata de laço na cabeça, emburrada e de braços cruzados, “EN...”. Quadro 10: sem balão, Gaturro olha para a gata, que continua emburrada. Quadro 11: sozinho, “BUENO, LA VOLUNTAD TAMBIÉN TIENE UN LÍMITE...”.](img/pave/2024/etapa-2/q30-es-1.png)\n\nReferência: Adaptado de https://22tonslatinos.blogspot.com/2013/05/gaturro-e-os-antonimos.html/. Acesso em: 17/06/2024.\n\n**Qual palavra possui um sentido contrário a “también” em espanhol?**",
+      "options": [
+        {
+          "text": "Además.",
+          "explanation": "“Además” significa “além disso”: acrescenta informação, na mesma direção de “también”, e não em sentido contrário."
+        },
+        {
+          "text": "Tal vez.",
+          "explanation": "“Tal vez” é “talvez”: expressa dúvida, não oposição a “también”."
+        },
+        {
+          "text": "Incluso.",
+          "explanation": "“Incluso” quer dizer “inclusive”, “até mesmo”; reforça a inclusão, como “también”."
+        },
+        {
+          "text": "Tampoco.",
+          "explanation": "Correta. “También” (também) acrescenta algo em frases afirmativas; seu oposto é “tampoco” (tampouco, também não), usado em frases negativas: “yo también” × “yo tampoco”."
+        },
+        {
+          "text": "No.",
+          "explanation": "“No” é a negação simples (“não”); o par de sentido contrário de “también” é “tampoco”, que nega incluindo."
+        }
+      ],
+      "correct": "D"
+    },
+    {
+      "key": "pave-2024-e2-q31-en",
+      "source": "PAVE 2024 – Etapa 2, questão 31, inglês (UFPel)",
+      "kind": "Objective",
+      "subject": "ingles",
+      "statement": "**Leia o texto para responder as questões.**\n\n**Makeshift shelter saves hundreds of dogs amid floods in southern Brazil**\n\n```\n 1      CANOAS, Brazil -- Hundreds of volunteers have set up a makeshift dog shelter in\n 2  an abandoned, roofless warehouse in the city of Canoas, one of the hardest hit by floods\n 3  in southern Brazil's Rio Grande do Sul state. They treat and feed sick, hungry or injured\n 4  dogs, hoping to reunite them with their owners, and they were working at full speed\n 5  Friday morning as renewed heavy rains are forecast in the region over the weekend.\n 6      Authorities say more than 110 people have died, almost 150 are missing, and\n 7  more than 300,000 people have been displaced by the floods. There is no official tally\n 8  for the number of animals that have died or are made homeless. Local media estimated\n 9  the number to be in the thousands.\n10      The makeshift shelter, about the size of a soccer field, has taken in hundreds of\n11  canines from inundated areas since Sunday. Every hour between 20 and 30 dogs arrive,\n12  many injured after having been run over or nearly drowned. The shelter sends some to\n13  veterinary hospitals, but others that are in need of medical attention are too frail to be\n14  transported. Dog food is scattered throughout the facility, and dogs are chained at\n15  distances from one another to prevent fighting.\n16      Hairdresser Gabriel Cardoso da Silva is one of the main organizers. He came from\n17  the neighboring city of Gravatai, which wasn't hit by the heavy rains, to help rescue\n18  people. “When we were about to leave, we heard the barking. I and my wife felt so\n19  moved, we just cried; we have two dogs,” said Silva, 28. Many more were drawn to the\n20  movement following a social media campaign, he added: “Sunday we had 10 volunteers,\n21  now we have 200. We have tons of food. Our community chose to embrace this, but days\n22  ago we felt so alone.”\n23      Whenever a dog is reunited with family, the hairdresser shouts “One less!” so\n24  other volunteers can stop and applaud throughout the shelter. Cardoso's call often mixes\n25  with loud barks of small, jittery dogs, fights between distraught animals that manage to\n26  get close and frantic movement by desperate families trying to locate their lost pets.\n27      Animal protection groups and volunteers have shared images of difficult rescues\n28  and heartwarming scenes of pets reuniting with their owners on social media. One video\n29  that went viral showed a man crying inside a boat, hugging his four dogs after rescuers\n30  went back to his home to save them. The images have spurred Brazilians to send\n31  donations and brought veterinarians to the region.\n32      Gustavo Ungerer, a jiu-jitsu teacher who lives in Rio de Janeiro and treats stray\n33  animals during his spare time, will join a group of veterinarians heading south in just\n34  over a week. They will bring food and medical supplies, assist cats and dogs that have\n35  found shelter and seek out those still fending for themselves, said Ungerer, 41. One\n36  veterinarian is specialized in larger animals, such as oxen and horses.\n37      Stray animals \"don’t know how to ask for help. They get scared and run away or\n38  attack when people approach to help,” he said by phone. “Sometimes it might be\n39  necessary to climb a house, or enter into the river.” The plight of lost animals in southern\n40  Brazil became national news this week after a television news helicopter spotted a horse\n41  nicknamed Caramelo stranded on a rooftop in Canoas, not far from the shelter. About\n42  24 hours afterward, as people clamored for his rescue, authorities in Rio Grande do Sul\n43  successfully removed Caramelo on Thursday, providing a dose of hope to a beleaguered\n44  region.\n45      Carla Sassi, chairwoman of Grad, a Brazilian nonprofit that rescues animals after\n46  disasters, said she met with state government officials in Canoas to discuss emergency\n47  measures to rescue lost pets, but that nothing came of it. So far, according to volunteers\n48  in some areas, only business leaders and local residents have acted to save pets in\n49  flooded areas. Rio Grande do Sul's housing secretariat says state agents have rescued\n50  about 10,000 animals since last week, while those in municipalities and volunteers have\n51  saved thousands more.\n```\n\nReferência: Adaptado de https://abcnews.go.com/International/wireStory/makeshift-shelter-saves-hundreds-dogs-amid-floods-southern-110101279. Acesso em: 24/05/2024.\n\n**Considerando os contextos textual e frasal, as palavras “makeshift” (l.1), “jittery” (l.25) e “heartwarming” (l.28) podem ser substituídas, sem mudança de sentido, respectivamente por**",
+      "options": [
+        {
+          "text": "disposable; noisy; cardiological.",
+          "explanation": "“Disposable” é descartável, “noisy” é barulhento e “cardiological” é relativo à cardiologia; “heartwarming” não tem sentido médico, quer dizer comovente."
+        },
+        {
+          "text": "uncomfortable; angry; sad.",
+          "explanation": "“Uncomfortable” (desconfortável), “angry” (zangado) e “sad” (triste) não equivalem: o abrigo é improvisado, os cães estão agitados e as cenas de reencontro são tocantes, não tristes."
+        },
+        {
+          "text": "temporary; edgy; sickening.",
+          "explanation": "“Temporary” e “edgy” serviriam para as duas primeiras, mas “sickening” (repugnante, que dá náusea) é o oposto de “heartwarming”."
+        },
+        {
+          "text": "provisional; nervous; emotional.",
+          "explanation": "Correta. “Makeshift” é improvisado, provisório (“provisional”); “jittery” é agitado, nervoso (“nervous”); “heartwarming” é comovente, que emociona (“emotional”)."
+        },
+        {
+          "text": "permanent; hungry; lukewarm.",
+          "explanation": "“Permanent” é o contrário de “makeshift”; “hungry” (faminto) e “lukewarm” (morno) também não correspondem a “jittery” e “heartwarming”."
+        }
+      ],
+      "correct": "D"
+    },
+    {
+      "key": "pave-2024-e2-q32-es",
+      "source": "PAVE 2024 – Etapa 2, questão 32, espanhol (UFPel)",
+      "kind": "Objective",
+      "subject": "espanhol",
+      "statement": "**Leia a tirinha a seguir para responder as questões.**\n\n![Tirinha do Gaturro, um gato amarelo, em onze quadrinhos com balões de pensamento. Quadro 1: Gaturro, sorridente e de dedo erguido: “CON VOLUNTAD SE PUEDE LOGRAR CUALQUIER COSA...”. Quadros 2 e 3: diante de um enorme NO vermelho, “CONVERTIR UN \"NO\"”; diante de um enorme SÍ azul, “EN \"SÍ\"”. Quadros 4 e 5: diante de um semáforo vermelho, “CONVERTIR UN \"PROHIBIDO\"”; com o semáforo verde, “EN \"ADELANTE\"...”. Quadros 6 e 7: diante de uma corda toda embolada, “CONVERTIR LO \"DIFÍCIL\"”; com a corda esticada, “EN \"FÁCIL\"”. Quadro 8: ao lado de um homem careca de cara fechada, “CONVERTIR UN \"MALHUMORADO\"”. Quadro 9: ao lado de uma gata de laço na cabeça, emburrada e de braços cruzados, “EN...”. Quadro 10: sem balão, Gaturro olha para a gata, que continua emburrada. Quadro 11: sozinho, “BUENO, LA VOLUNTAD TAMBIÉN TIENE UN LÍMITE...”.](img/pave/2024/etapa-2/q30-es-1.png)\n\nReferência: Adaptado de https://22tonslatinos.blogspot.com/2013/05/gaturro-e-os-antonimos.html/. Acesso em: 17/06/2024.\n\n**A expressão “com voluntad” no primeiro quadrinho poderia ser substituída por qual outra sem perder o significado proposto?**",
+      "options": [
+        {
+          "text": "Con ganas.",
+          "explanation": "Correta. “Ganas” é vontade, desejo de fazer algo (“tener ganas de”); “con ganas” mantém o sentido de “con voluntad”: com vontade, com empenho."
+        },
+        {
+          "text": "Con permiso.",
+          "explanation": "“Con permiso” é “com licença”, expressão de cortesia, sem relação com força de vontade."
+        },
+        {
+          "text": "Con realidad.",
+          "explanation": "“Realidad” é “realidade”; a expressão não transmite a ideia de disposição ou empenho do primeiro quadrinho."
+        },
+        {
+          "text": "Con certeza.",
+          "explanation": "“Con certeza” indica segurança sobre um fato (“com certeza”), não o desejo ou a determinação de conseguir algo."
+        },
+        {
+          "text": "Com voluntariedad.",
+          "explanation": "“Voluntariedad” refere-se ao caráter voluntário de um ato, não à força de vontade; além disso, “com” é português: em espanhol a preposição é “con”."
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "key": "pave-2024-e2-q32-en",
+      "source": "PAVE 2024 – Etapa 2, questão 32, inglês (UFPel)",
+      "kind": "Objective",
+      "subject": "ingles",
+      "statement": "**Leia o texto para responder as questões.**\n\n**Makeshift shelter saves hundreds of dogs amid floods in southern Brazil**\n\n```\n 1      CANOAS, Brazil -- Hundreds of volunteers have set up a makeshift dog shelter in\n 2  an abandoned, roofless warehouse in the city of Canoas, one of the hardest hit by floods\n 3  in southern Brazil's Rio Grande do Sul state. They treat and feed sick, hungry or injured\n 4  dogs, hoping to reunite them with their owners, and they were working at full speed\n 5  Friday morning as renewed heavy rains are forecast in the region over the weekend.\n 6      Authorities say more than 110 people have died, almost 150 are missing, and\n 7  more than 300,000 people have been displaced by the floods. There is no official tally\n 8  for the number of animals that have died or are made homeless. Local media estimated\n 9  the number to be in the thousands.\n10      The makeshift shelter, about the size of a soccer field, has taken in hundreds of\n11  canines from inundated areas since Sunday. Every hour between 20 and 30 dogs arrive,\n12  many injured after having been run over or nearly drowned. The shelter sends some to\n13  veterinary hospitals, but others that are in need of medical attention are too frail to be\n14  transported. Dog food is scattered throughout the facility, and dogs are chained at\n15  distances from one another to prevent fighting.\n16      Hairdresser Gabriel Cardoso da Silva is one of the main organizers. He came from\n17  the neighboring city of Gravatai, which wasn't hit by the heavy rains, to help rescue\n18  people. “When we were about to leave, we heard the barking. I and my wife felt so\n19  moved, we just cried; we have two dogs,” said Silva, 28. Many more were drawn to the\n20  movement following a social media campaign, he added: “Sunday we had 10 volunteers,\n21  now we have 200. We have tons of food. Our community chose to embrace this, but days\n22  ago we felt so alone.”\n23      Whenever a dog is reunited with family, the hairdresser shouts “One less!” so\n24  other volunteers can stop and applaud throughout the shelter. Cardoso's call often mixes\n25  with loud barks of small, jittery dogs, fights between distraught animals that manage to\n26  get close and frantic movement by desperate families trying to locate their lost pets.\n27      Animal protection groups and volunteers have shared images of difficult rescues\n28  and heartwarming scenes of pets reuniting with their owners on social media. One video\n29  that went viral showed a man crying inside a boat, hugging his four dogs after rescuers\n30  went back to his home to save them. The images have spurred Brazilians to send\n31  donations and brought veterinarians to the region.\n32      Gustavo Ungerer, a jiu-jitsu teacher who lives in Rio de Janeiro and treats stray\n33  animals during his spare time, will join a group of veterinarians heading south in just\n34  over a week. They will bring food and medical supplies, assist cats and dogs that have\n35  found shelter and seek out those still fending for themselves, said Ungerer, 41. One\n36  veterinarian is specialized in larger animals, such as oxen and horses.\n37      Stray animals \"don’t know how to ask for help. They get scared and run away or\n38  attack when people approach to help,” he said by phone. “Sometimes it might be\n39  necessary to climb a house, or enter into the river.” The plight of lost animals in southern\n40  Brazil became national news this week after a television news helicopter spotted a horse\n41  nicknamed Caramelo stranded on a rooftop in Canoas, not far from the shelter. About\n42  24 hours afterward, as people clamored for his rescue, authorities in Rio Grande do Sul\n43  successfully removed Caramelo on Thursday, providing a dose of hope to a beleaguered\n44  region.\n45      Carla Sassi, chairwoman of Grad, a Brazilian nonprofit that rescues animals after\n46  disasters, said she met with state government officials in Canoas to discuss emergency\n47  measures to rescue lost pets, but that nothing came of it. So far, according to volunteers\n48  in some areas, only business leaders and local residents have acted to save pets in\n49  flooded areas. Rio Grande do Sul's housing secretariat says state agents have rescued\n50  about 10,000 animals since last week, while those in municipalities and volunteers have\n51  saved thousands more.\n```\n\nReferência: Adaptado de https://abcnews.go.com/International/wireStory/makeshift-shelter-saves-hundreds-dogs-amid-floods-southern-110101279. Acesso em: 24/05/2024.\n\n**Qual das alternativas abaixo está correta?**",
+      "options": [
+        {
+          "text": "Em “Dog food is scattered throughout the facility, and dogs are chained at distances from one another to prevent fighting” (l.14-15), vemos um exemplo de uso de passive voice.",
+          "explanation": "Correta. “Is scattered” e “are chained” seguem a estrutura da voz passiva (verbo to be + particípio passado): a ração é espalhada e os cães são acorrentados por alguém que a frase não menciona."
+        },
+        {
+          "text": "Em “Animal protection groups and volunteers have shared images of difficult rescues and heartwarming scenes of pets reuniting with their owners on social media” (l.27-28), vemos um exemplo de uso de past perfect.",
+          "explanation": "“Have shared” é present perfect (have + particípio); o past perfect seria “had shared”."
+        },
+        {
+          "text": "Em “They will bring food and medical supplies, assist cats and dogs that have found shelter and seek out those still fending for themselves, said Ungerer, 41” (l.34-35), vemos um exemplo de uso de past perfect continuous.",
+          "explanation": "“Will bring” é futuro simples e “have found” é present perfect; o past perfect continuous teria a forma “had been” + verbo com -ing."
+        },
+        {
+          "text": "Em “Our community chose to embrace this, but days ago we felt so alone” (l.21-22), vemos um exemplo de uso de present perfect.",
+          "explanation": "“Chose” e “felt” estão no simple past, exigido por “days ago”; o present perfect seria “has chosen” ou “have felt”."
+        },
+        {
+          "text": "Em “The images have spurred Brazilians to send donations and brought veterinarians to the region” (l.30-31), vemos um exemplo de uso de future continuous.",
+          "explanation": "“Have spurred” é present perfect; o future continuous teria a forma “will be” + verbo com -ing."
+        }
+      ],
+      "correct": "A"
+    }
+  ]
+}

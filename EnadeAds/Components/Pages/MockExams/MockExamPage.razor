@@ -37,6 +37,13 @@
     @if (exam.IsOpen)
     {
         var remaining = exam.DeadlineAt - Clock.GetUtcNow();
+        @if (IsPave)
+        {
+            <p class="text-body-secondary">
+                Como na prova: marcar <strong>Ignoro a resposta</strong> não soma nem desconta. Errar ou deixar em branco
+                desconta 10% do valor de um acerto.
+            </p>
+        }
         <div class="alert alert-warning sticky-top mock-exam-clock" role="status">
             Termina às <strong>@Calendar.ToLocal(exam.DeadlineAt).ToString("HH:mm")</strong> (horário de Brasília)
             · faltam cerca de <strong>@Math.Max(0, (int)Math.Ceiling(remaining.TotalMinutes)) min</strong>.
@@ -72,6 +79,15 @@
                                     <label class="form-check-label" for="@inputId"><strong>@option.Letter)</strong> <OptionText Text="@option.Text" /></label>
                                 </div>
                             }
+                            @if (IsPave)
+                            {
+                                var ignoredId = $"q{question.Id}-{MockExamService.IgnoredAnswerLetter}";
+                                <div class="form-check mb-1">
+                                    <input class="form-check-input" type="radio" name="q-@question.Id" id="@ignoredId" value="@MockExamService.IgnoredAnswerLetter"
+                                           checked="@item.IgnoredAnswer" />
+                                    <label class="form-check-label" for="@ignoredId"><strong>@MockExamService.IgnoredAnswerLetter)</strong> Ignoro a resposta</label>
+                                </div>
+                            }
                         }
                     </div>
                 </fieldset>
@@ -97,7 +113,23 @@
             {
                 <span>O tempo acabou e o simulado foi entregue com as respostas salvas.</span>
             }
-            Questões em branco contam como erradas. As erradas foram para o seu <a href="meu-desempenho">caderno de erros</a>.
+            @if (IsPave)
+            {
+                <span>
+                    Você errou ou deixou em branco @exam.WrongCount e marcou "Ignoro a resposta" em @exam.IgnoredCount.
+                    <strong>Nota: @PaveScoring.Format(PaveScoring.Score(exam)) de @PaveScoring.Format(PaveScoring.MaxScore(exam)) pontos.</strong>
+                    Cada acerto vale @PaveScoring.Format(PaveScoring.PointsPerQuestion(exam.TrackId)) e cada erro ou questão em branco desconta 10% disso.
+                    @if (exam.TrackId == Tracks.Pave3)
+                    {
+                        <span>Na prova, a redação vale até @PaveScoring.Format(PaveScoring.EssayMaxPoints) pontos a mais.</span>
+                    }
+                </span>
+            }
+            else
+            {
+                <span>Questões em branco contam como erradas.</span>
+            }
+            As erradas foram para o seu <a href="meu-desempenho">caderno de erros</a>.
         </div>
 
         @foreach (var item in exam.Questions)
@@ -122,9 +154,13 @@
                     }
                     else
                     {
-                        @if (item.SelectedOptionId is null)
+                        @if (item.IgnoredAnswer)
                         {
-                            <p class="small text-danger mb-2">Em branco.</p>
+                            <p class="small text-body-secondary mb-2">Você marcou "Ignoro a resposta": não somou nem descontou.</p>
+                        }
+                        else if (item.SelectedOptionId is null)
+                        {
+                            <p class="small text-danger mb-2">Em branco@(IsPave ? ": descontou como um erro." : ".")</p>
                         }
                         <ol class="list-unstyled d-flex flex-column gap-2 mb-0">
                             @foreach (var option in question.Options)
@@ -159,10 +195,12 @@
     private MockExam? exam;
     private string? userId;
 
-    /// <summary>Parte da prova da questão: no ENADE, formação geral ou componente específico; no ENEM, a área.</summary>
+    private bool IsPave => exam is not null && MockExamFormat.StyleOf(exam.TrackId) == MockExamStyle.Pave;
+
+    /// <summary>Parte da prova da questão: no ENADE, formação geral ou componente específico; no ENEM e no PAVE, a área.</summary>
     private string PartName(MockExamQuestion item, Question question) =>
         question.Kind == QuestionKind.Discursive ? "Discursiva"
-        : exam is not null && MockExamFormat.Of(exam).Style == MockExamStyle.Enem ? question.Subject?.Block.Name() ?? ""
+        : exam is not null && MockExamFormat.StyleOf(exam.TrackId) != MockExamStyle.Enade ? question.Subject?.Block.Name() ?? ""
         : item.IsGeneralEducation ? "Formação geral" : "Componente específico";
     private string? message;
     private bool messageIsError;

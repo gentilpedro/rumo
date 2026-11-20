@@ -84,7 +84,7 @@ public class ApplicationDbContext(DbContextOptions<ApplicationDbContext> options
                 .WithMany(n => n.Topics)
                 .HasForeignKey(n => n.ParentId)
                 .OnDelete(DeleteBehavior.Cascade);
-            node.HasData(RoadmapSeed.Nodes.Concat(EnemRoadmapSeed.Nodes).Concat(RedesRoadmapSeed.Nodes).Select(n => new RoadmapNode
+            node.HasData(RoadmapSeed.Nodes.Concat(EnemRoadmapSeed.Nodes).Concat(RedesRoadmapSeed.Nodes).Concat(PaveRoadmapSeed.Nodes).Select(n => new RoadmapNode
             {
                 Id = n.Id, TrackId = n.TrackId, Slug = n.Slug, Title = n.Title, Summary = n.Summary,
                 Kind = n.Kind, Block = n.Block, Order = n.Order, ParentId = n.ParentId,
@@ -221,6 +221,7 @@ public class ApplicationDbContext(DbContextOptions<ApplicationDbContext> options
         builder.Entity<MockExam>(exam =>
         {
             exam.Ignore(m => m.IsOpen);
+            exam.Ignore(m => m.WrongCount);
             exam.HasOne<ApplicationUser>().WithMany().HasForeignKey(m => m.UserId).OnDelete(DeleteBehavior.Cascade);
             exam.HasMany(m => m.Questions).WithOne().HasForeignKey(q => q.MockExamId).OnDelete(DeleteBehavior.Cascade);
 

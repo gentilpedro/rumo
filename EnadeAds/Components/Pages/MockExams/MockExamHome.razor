@@ -19,6 +19,13 @@
     {
         <text>Treine com tempo, no ritmo do ENEM: questões objetivas das quatro áreas, com cerca de 3 minutos por questão. A redação você treina pelo roadmap.</text>
     }
+    else if (MockExams.Style == MockExamStyle.Pave)
+    {
+        <text>
+            Treine com tempo e com a regra do PAVE: toda questão tem a opção "Ignoro a resposta", que não soma nem desconta,
+            e cada erro ou questão em branco desconta 10% do valor de um acerto.
+        </text>
+    }
     else
     {
         <text>Treine com tempo, no formato da prova: questões de formação geral, específicas e uma discursiva.</text>
@@ -69,6 +76,10 @@ else if (plans is not null)
                                     {
                                         <text>Objetivas, revezando entre Linguagens, Humanas, Natureza e Matemática.</text>
                                     }
+                                    else if (plan.Format.Style == MockExamStyle.Pave)
+                                    {
+                                        <text>@PaveParts(plan.Format.Size)</text>
+                                    }
                                     else
                                     {
                                         <text>@plan.GeneralEducation de formação geral, @plan.Specific específicas e @plan.Discursive discursiva.</text>
@@ -86,6 +97,20 @@ else if (plans is not null)
                 }
             </div>
         </fieldset>
+        @if (MockExams.Style == MockExamStyle.Pave)
+        {
+            <fieldset class="mb-3">
+                <legend class="h5">Língua estrangeira</legend>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="Language" id="idioma-ingles" value="@PaveRoadmapSeed.EnglishSlug" checked />
+                    <label class="form-check-label" for="idioma-ingles">Inglês</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="Language" id="idioma-espanhol" value="@PaveRoadmapSeed.SpanishSlug" />
+                    <label class="form-check-label" for="idioma-espanhol">Espanhol</label>
+                </div>
+            </fieldset>
+        }
         <button type="submit" class="btn btn-primary" disabled="@(plans.All(p => p.Total == 0))">Começar o simulado</button>
         <span class="small text-body-secondary ms-2">O relógio começa a contar assim que você clicar.</span>
     </form>
@@ -108,6 +133,10 @@ else if (plans is not null)
                             <td>@MockExamFormat.Of(exam).Name</td>
                             <td class="font-monospace">
                                 @exam.CorrectCount de @exam.ObjectiveCount
+                                @if (MockExamFormat.StyleOf(exam.TrackId) == MockExamStyle.Pave)
+                                {
+                                    <span>· nota @PaveScoring.Format(PaveScoring.Score(exam))</span>
+                                }
                                 @if (exam.SubmittedByTimeout)
                                 {
                                     <span class="badge text-bg-secondary ms-1">tempo esgotado</span>
@@ -134,6 +163,10 @@ else if (plans is not null)
 
     [SupplyParameterFromForm(FormName = "start-mock-exam")]
     private string? Size { get; set; }
+
+    /// <summary>PAVE: matéria da língua estrangeira escolhida; as outras trilhas não mandam.</summary>
+    [SupplyParameterFromForm(FormName = "start-mock-exam")]
+    private string? Language { get; set; }
 
     protected override async Task OnInitializedAsync()
     {
@@ -164,7 +197,7 @@ else if (plans is not null)
             return;
         }
 
-        var result = await MockExams.StartAsync(userId, size);
+        var result = await MockExams.StartAsync(userId, size, Language);
         if (result.Outcome == StartOutcome.NoQuestions)
         {
             errorMessage = "O banco ainda não tem questões para montar um simulado.";
@@ -173,6 +206,15 @@ else if (plans is not null)
         }
 
         Navigation.NavigateTo($"simulados/{result.MockExamId}");
+    }
+
+    /// <summary>"9 de Ciências da Natureza, 9 de Ciências Humanas, 5 de Matemática e 9 de Linguagens (3 de língua estrangeira)."</summary>
+    private static string PaveParts(MockExamSize size)
+    {
+        var quotas = MockExamFormat.PaveQuotas(size).ToDictionary(q => q.Part, q => q.Count);
+        var foreign = quotas[PavePart.ForeignLanguage];
+        return $"{quotas[PavePart.NaturalSciences]} de Ciências da Natureza, {quotas[PavePart.Humanities]} de Ciências Humanas, "
+            + $"{quotas[PavePart.Mathematics]} de Matemática e {quotas[PavePart.Languages] + foreign} de Linguagens ({foreign} de língua estrangeira).";
     }
 
     private static string Duration(int minutes) => minutes >= 60
