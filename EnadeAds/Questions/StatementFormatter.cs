@@ -21,7 +21,8 @@ public sealed record StatementBlock(string Text, bool IsCode)
 /// - bloco em que toda linha começa com <c>- </c> vira lista;
 /// - <c>**negrito**</c>, <c>`código`</c>, <c>[texto](https://…)</c> e <c>![descrição](https://…)</c> dentro de parágrafos;
 /// - sem cercas, blocos com cara de código (indentação, tabelas, chaves, <c>;</c>) também viram código,
-///   para manter o conteúdo antigo legível.
+///   para manter o conteúdo antigo legível. Uma lista nunca é código, mesmo com itens terminados em <c>;</c>,
+///   e <c> | </c> só indica tabela em bloco de mais de uma linha (numa frase, costuma separar versos).
 /// </summary>
 public static partial class StatementFormatter
 {
@@ -89,7 +90,9 @@ public static partial class StatementFormatter
                 return;
             }
 
-            blocks.Add(new StatementBlock(string.Join('\n', current), current.Any(LooksLikeCode)));
+            var isList = current.All(line => line.StartsWith("- ", StringComparison.Ordinal));
+            var isTable = current.Count > 1 && current.Any(line => line.Contains(" | ", StringComparison.Ordinal));
+            blocks.Add(new StatementBlock(string.Join('\n', current), !isList && (isTable || current.Any(LooksLikeCode))));
             current.Clear();
         }
     }
@@ -197,7 +200,6 @@ public static partial class StatementFormatter
     private static bool LooksLikeCode(string line) =>
         line.StartsWith("  ", StringComparison.Ordinal)
         || line.Contains("  ", StringComparison.Ordinal)
-        || line.Contains(" | ", StringComparison.Ordinal)
         || line.Contains('{') || line.Contains('}')
         || line.TrimEnd().EndsWith(';');
 
