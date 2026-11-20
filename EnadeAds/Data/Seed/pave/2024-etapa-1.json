@@ -1,0 +1,996 @@
+{
+  "year": 2024,
+  "track": "pave-1",
+  "questions": [
+    {
+      "key": "pave-2024-e1-q01",
+      "source": "PAVE 2024 – Etapa 1, questão 1 (UFPel)",
+      "kind": "Objective",
+      "subject": "biologia",
+      "statement": "**Rio Grande do Sul investiga mais de 800 casos de leptospirose**\n\nO Laboratório Central (Lacen) do Rio Grande do Sul analisa mais de 800 amostras de casos suspeitos de leptospirose. Em nota, a Secretaria de Saúde do estado informou que acompanha o aumento de casos suspeitos associados às enchentes e, consequentemente, ao aumento da exposição da população à doença. De acordo com a secretaria, o Lacen dispõe de dois testes para o diagnóstico da leptospirose: o teste de biologia molecular, conhecido como RT-PCR, e o teste diagnóstico sorológico.\n\nReferência: https://agenciabrasil.ebc.com.br/saude/noticia/2024-05/rio-grande-do-sul-investiga-mais-de-800-casos-de-leptospirose. Acesso em: 27/05/2024.\n\n**A doença infecciosa citada no texto tem como agente causador um(a)**",
+      "options": [
+        {
+          "text": "verme.",
+          "explanation": "Verminoses são causadas por helmintos, como a lombriga e o esquistossomo. A leptospirose é causada por um organismo unicelular procarionte, não por um animal."
+        },
+        {
+          "text": "vírus.",
+          "explanation": "Viroses ligadas a enchentes existem (hepatite A, por exemplo), mas a leptospirose não é uma delas: seu agente é uma célula procarionte, tanto que a doença é tratada com antibióticos, que não agem sobre vírus."
+        },
+        {
+          "text": "protozoário.",
+          "explanation": "Protozoários causam doenças como giardíase, amebíase e malária. O agente da leptospirose é procarionte, e não um eucarionte unicelular."
+        },
+        {
+          "text": "bactéria.",
+          "explanation": "Correta. A leptospirose é causada por bactérias do gênero Leptospira, eliminadas na urina de ratos e de outros animais; nas enchentes, a água e a lama contaminadas entram em contato com a pele e as mucosas das pessoas."
+        },
+        {
+          "text": "mosca.",
+          "explanation": "Insetos podem ser vetores de doenças, mas não são agentes causadores. Na leptospirose nem há inseto vetor: a transmissão se dá pelo contato com água ou lama contaminada pela urina de animais infectados."
+        }
+      ],
+      "correct": "D"
+    },
+    {
+      "key": "pave-2024-e1-q02",
+      "source": "PAVE 2024 – Etapa 1, questão 2 (UFPel)",
+      "kind": "Objective",
+      "subject": "biologia",
+      "statement": "**Cientistas criam DNA humano sintético usando inteligência artificial**\n\nA inteligência artificial (IA) acaba de ir um passo além. Uma equipe de cientistas da Universidade Paris-Saclay, da França, e da Universidade de Tartu, da Estônia, conseguiram criar um algoritmo que gera sequências de DNA de pessoas inexistentes. Com ele, a equipe conseguiu replicar genomas humanos realistas que, de acordo com eles, são indistinguíveis do DNA verdadeiro — a única diferença é que são totalmente sintéticos. Os pesquisadores acreditam que o projeto pode ser usado como uma ferramenta para geneticistas de pesquisa, que podem experimentar com genética sem comprometer a ética científica ou a vida de pessoas reais.\n\nReferência:https://exame.com/ciencia/cientistas-criam-dna-humano-sintetico-usando-inteligencia-artificial/. Acesso em: 27/05/2024.\n\n**As bases nitrogenadas que compõem a molécula citada no texto e as ligações que as mantêm unidas quimicamente são**",
+      "options": [
+        {
+          "text": "adenina, guanina, citosina e timina, via ligações Van der Waals.",
+          "explanation": "As quatro bases estão certas, mas o que une uma base à sua par na fita oposta são ligações de hidrogênio, mais fortes e mais específicas que as forças de Van der Waals."
+        },
+        {
+          "text": "adenina, guanina, citosina e uracila, via ligações covalentes.",
+          "explanation": "A uracila é base do RNA; no DNA, seu lugar é ocupado pela timina. Além disso, as ligações covalentes do DNA unem os nucleotídeos da mesma fita (açúcar e fosfato), não uma base à outra."
+        },
+        {
+          "text": "adenina, guanina, citosina e timina, via ligações metálicas.",
+          "explanation": "As bases estão certas, mas ligação metálica ocorre entre átomos de metais, com elétrons livres. Entre as bases do DNA há ligações de hidrogênio."
+        },
+        {
+          "text": "adenina, guanina, citosina e timina, via ligações de hidrogênio.",
+          "explanation": "Correta. O DNA tem adenina, guanina, citosina e timina; as duas fitas se mantêm unidas por ligações de hidrogênio entre as bases complementares: duas entre A e T, três entre C e G."
+        },
+        {
+          "text": "adenina, guanina, citosina e uracila, via ligações iônicas.",
+          "explanation": "A uracila pertence ao RNA, não ao DNA, e as bases não se unem por atração entre íons: o pareamento é feito por ligações de hidrogênio."
+        }
+      ],
+      "correct": "D"
+    },
+    {
+      "key": "pave-2024-e1-q03",
+      "source": "PAVE 2024 – Etapa 1, questão 3 (UFPel)",
+      "kind": "Objective",
+      "subject": "biologia",
+      "statement": "**Recuperar vegetação degradada no RS ajuda a prevenir tragédias**\n\nO Rio Grande do Sul dispõe de 1,16 milhão de hectares de áreas degradadas de vegetação, que podem ser recuperadas e usadas para aumentar a resiliência do estado a eventos climáticos extremos. A análise é do Instituto Escolhas, que lançou o relatório Estratégias de recuperação da vegetação nativa em ampla escala para o Brasil. “Um investimento mais que necessário para contribuir com a mitigação climática, como também com outros serviços ecossistêmicos essenciais à sustentabilidade dos agroecossistemas brasileiros, com a promoção da biodiversidade e a manutenção de recursos hídricos, do solo e dos processos ecológicos, que asseguram a estabilidade ambiental para o desenvolvimento das atividades produtivas no campo”, diz o documento.\n\nReferência: https://agenciabrasil.ebc.com.br/geral/noticia/2024-05/recuperar-vegetacao-degradada-no-rs-ajuda-prevenir-tragedias. Acesso em: 29/05/2024.\n\n**Entre as estratégias que podem contribuir para a melhoria do problema citado no texto está**",
+      "options": [
+        {
+          "text": "a liberação da caça de espécies animais endêmicas do estado.",
+          "explanation": "Espécies endêmicas só existem naquela região; caçá-las reduz a biodiversidade, justamente o que o relatório quer promover, e não recupera vegetação nenhuma."
+        },
+        {
+          "text": "o investimento em tecnologias para uso racional do solo.",
+          "explanation": "Correta. Usar o solo de forma racional (manejo que evita erosão e compactação, recuperação de áreas degradadas) mantém a cobertura vegetal, a infiltração da água e os recursos hídricos, conciliando produção e estabilidade ambiental, como defende o texto."
+        },
+        {
+          "text": "a alteração do curso de rios e esvaziamento de lagoas.",
+          "explanation": "Retificar rios e drenar lagoas e banhados elimina áreas que amortecem as cheias e abrigam biodiversidade, o que agrava os efeitos dos eventos extremos em vez de aumentar a resiliência."
+        },
+        {
+          "text": "o aumento das áreas dedicadas à criação de gado.",
+          "explanation": "Ampliar a área de pecuária tende a converter mais vegetação nativa e a compactar o solo; o texto propõe o caminho inverso, recuperar a vegetação das áreas já degradadas."
+        },
+        {
+          "text": "a retirada dos produtores rurais de suas áreas de ocupação.",
+          "explanation": "O texto fala em assegurar estabilidade ambiental “para o desenvolvimento das atividades produtivas no campo”: a proposta é produzir de forma sustentável, não expulsar quem produz."
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "key": "pave-2024-e1-q04",
+      "source": "PAVE 2024 – Etapa 1, questão 4 (UFPel)",
+      "kind": "Objective",
+      "subject": "fisica",
+      "statement": "Para ajudar na organização e limpeza da sala de aula, um estudante tomou a iniciativa de mover a mesa do professor para que ele e seus colegas conseguissem varrer a sala com maior eficiência. Para isso, ele está empurrando uma mesa de massa 30 kg sobre um chão horizontal, conforme a imagem a seguir. Ele aplica uma força de 150N para a direita. A força de atrito entre a mesa e o chão é de 90N.\n\n![Ilustração de um estudante de boné empurrando com as duas mãos, para a direita, uma mesa apoiada em um chão horizontal.](img/pave/2024/etapa-1/q04-1.png)\n\nReferência: MÁXIMO, Antônio; ALVARENGA, Beatriz; GUIMARÃES, Carla. **FÍSICA FRENTE A.** 2. ed. São Paulo: Ática, 2017.\n\nFonte: adaptada de FÍSICA FRENTE A de Antônio Máximo, Beatriz Alvarenga e Carla Guimarães. Disponível em: https://docplayer.com.br/184990493-Fisica-frente-a-ensino-medio.html. Acesso em: 25/05/2024.\n\n**Qual das alternativas a seguir está de acordo com a 3ª Lei de Newton?**",
+      "options": [
+        {
+          "text": "A mesa se move porque a força aplicada pelo estudante sobre ela é maior do que a força que a mesa aplica sobre o estudante.",
+          "explanation": "Ação e reação têm sempre o mesmo módulo: a mesa empurra o estudante com os mesmos 150 N. A mesa acelera porque, entre as forças que atuam nela, os 150 N superam os 90 N de atrito (resultante de 60 N)."
+        },
+        {
+          "text": "A força normal exercida pelo chão na mesa e a força gravitacional exercida pela Terra na mesa são forças de ação e reação.",
+          "explanation": "Normal e peso atuam no mesmo corpo (a mesa) e têm naturezas diferentes, então não formam um par. A reação ao peso é a força com que a mesa atrai a Terra; a reação à normal é a força com que a mesa comprime o chão."
+        },
+        {
+          "text": "A força de 150N aplicada pelo estudante na mesa e a força de 150N que a mesa aplica ao estudante são forças de ação e reação.",
+          "explanation": "Correta. O par ação e reação tem mesmo módulo, mesma direção, sentidos opostos e atua em corpos diferentes: o estudante empurra a mesa com 150 N e a mesa empurra o estudante com 150 N no sentido contrário."
+        },
+        {
+          "text": "A força de 150N aplicada pelo estudante na mesa e a força de atrito de 90N são forças de ação e reação.",
+          "explanation": "As duas forças atuam no mesmo corpo (a mesa) e nem têm o mesmo módulo. A reação ao atrito que o chão faz na mesa é o atrito que a mesa faz no chão."
+        },
+        {
+          "text": "Uma força é uma interação entre corpos e, por isso, envolve uma ação e uma reação que atuam no mesmo corpo. Na situação citada a ação e a reação estão na mesa.",
+          "explanation": "A primeira parte está certa (força é interação entre dois corpos), mas a conclusão não: ação e reação atuam em corpos diferentes, uma em cada corpo que interage, e por isso nunca se anulam."
+        }
+      ],
+      "correct": "C"
+    },
+    {
+      "key": "pave-2024-e1-q05",
+      "source": "PAVE 2024 – Etapa 1, questão 5 (UFPel)",
+      "kind": "Objective",
+      "subject": "fisica",
+      "statement": "“O Maio Amarelo é um movimento criado com a finalidade de chamar a atenção da sociedade para o alto índice de mortos e feridos no trânsito de todo o mundo. No Brasil, as campanhas do Maio Amarelo iniciaram em 2014 e unem o poder público, a iniciativa privada e a sociedade civil no propósito de discutir e criar estratégias voltadas à segurança viária e à construção de vias e espaços mais seguros e ambientalmente sustentáveis. O envolvimento destes vários segmentos da sociedade reflete na efetividade das campanhas, pois promovem ações coordenadas entre os participantes, evidenciando a importância do tema da segurança no trânsito e ampliando as ações e propagação de campanhas educativas.”\n\nReferência:https://www.gov.br/transportes/pt-br/assuntos/transito/maio-amarelo-2024. Acesso em: 25/05/2024.\n\n![Cartaz da campanha Maio Amarelo 2024, com uma placa de trânsito em forma de losango em que se lê Paz no trânsito começa por você, e os logotipos do Ministério dos Transportes e do Governo Federal.](img/pave/2024/etapa-1/q05-1.png)\n\nFonte: https://www.gov.br/transportes/pt-br/assuntos/transito/maio-amarelo-2024. Acesso em: 25/05/2024.\n\nUma das formas de evitar acidentes de trânsito é respeitar os limites de velocidade em cada via. Considere que um carro está viajando em uma estrada reta a uma velocidade constante de 72 km/h, onde a velocidade máxima permitida é de 80 Km/h. De repente, ele é atingido por trás por outro veículo que vinha a 108 km/h e não conseguiu frear a tempo. Após a colisão, o carro atingido acelera a 5 m/s² por 4 segundos antes de perder velocidade e parar completamente. **Qual é a distância total percorrida pelo carro atingido durante os 4 segundos?**",
+      "options": [
+        {
+          "text": "120 metros.",
+          "explanation": "Correta. O carro atingido parte de v₀ = 72 km/h = 20 m/s e acelera a 5 m/s² durante 4 s: d = v₀·t + a·t²/2 = 20·4 + 5·4²/2 = 80 + 40 = 120 m."
+        },
+        {
+          "text": "140 metros.",
+          "explanation": "A função horária do movimento uniformemente variado dá 80 m (20 m/s × 4 s) mais 40 m (5 × 4²/2), isto é, 120 m; não há combinação correta dos dados que leve a 140 m."
+        },
+        {
+          "text": "160 metros.",
+          "explanation": "É o valor de quem esquece de dividir a·t² por 2 (20·4 + 5·16 = 160) ou usa a velocidade do outro veículo, 108 km/h = 30 m/s, como velocidade inicial (30·4 + 40 = 160)."
+        },
+        {
+          "text": "180 metros.",
+          "explanation": "Supera em 60 m o resultado de d = v₀·t + a·t²/2 com v₀ = 20 m/s, a = 5 m/s² e t = 4 s, que é 80 + 40 = 120 m."
+        },
+        {
+          "text": "200 metros.",
+          "explanation": "Surge da soma de dois erros: usar 30 m/s (a velocidade do veículo que bateu) como velocidade inicial e não dividir a·t² por 2: 30·4 + 5·16 = 200. O carro atingido estava a 20 m/s."
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "key": "pave-2024-e1-q06",
+      "source": "PAVE 2024 – Etapa 1, questão 6 (UFPel)",
+      "kind": "Objective",
+      "subject": "fisica",
+      "statement": "Os elevadores hidráulicos são dispositivos que utilizam o princípio de Pascal para multiplicar uma força aplicada em um pistão menor para gerar uma força maior em um pistão maior. Eles são amplamente usados em diferentes contextos, desde elevadores de carros e de cargas em indústrias até elevadores de prédios comerciais e residenciais.\n\nReferência: GASPAR, Alberto. **Física, volume único**. 1. ed. São Paulo: Ática, 2005.\n\n**Qual das seguintes afirmações está de acordo com o princípio de Pascal?**",
+      "options": [
+        {
+          "text": "A pressão em um líquido é inversamente proporcional à profundidade do líquido.",
+          "explanation": "É o contrário: pela lei de Stevin (p = p₀ + d·g·h), a pressão aumenta com a profundidade. E essa relação nem é o princípio de Pascal."
+        },
+        {
+          "text": "A pressão exercida por um líquido em um recipiente é diretamente proporcional à área da superfície em contato com o líquido.",
+          "explanation": "Pressão é força dividida por área e não cresce com a área de contato. No elevador hidráulico, o que é proporcional à área do pistão é a força (F = p·A), porque a pressão é a mesma nos dois pistões."
+        },
+        {
+          "text": "A pressão em um líquido diminui com a densidade do líquido.",
+          "explanation": "A pressão hidrostática aumenta com a densidade (p = d·g·h): na mesma profundidade, um líquido mais denso exerce pressão maior."
+        },
+        {
+          "text": "A pressão em um líquido depende apenas da temperatura do líquido.",
+          "explanation": "A pressão num ponto de um líquido em repouso depende da pressão na superfície, da densidade, da gravidade e da profundidade, e não apenas da temperatura."
+        },
+        {
+          "text": "A pressão em um líquido em equilíbrio é a mesma em todas as direções.",
+          "explanation": "Correta. Num líquido em equilíbrio, a pressão em um ponto atua igualmente em todas as direções, e um acréscimo de pressão se transmite integralmente a todo o líquido. Por isso, no elevador hidráulico, F₁/A₁ = F₂/A₂: uma força pequena no pistão menor sustenta uma força grande no maior."
+        }
+      ],
+      "correct": "E"
+    },
+    {
+      "key": "pave-2024-e1-q07",
+      "source": "PAVE 2024 – Etapa 1, questão 7 (UFPel)",
+      "kind": "Objective",
+      "subject": "quimica",
+      "statement": "**A QUÍMICA DA HIGIENE BUCAL**\n\nA composição química da “pasta de dentes” que utilizamos hoje é formada por 20-55% de abrasivos, 15-25% de água, 0,2-0,3% de fluoreto, 20-35% de umectantes, além de outros componentes secundários como, por exemplo, flavorizantes, espessantes, conservantes e aromatizantes. Os abrasivos são pós insolúveis em água que precisam ter sua aplicação controlada para que não haja danos aos dentes e à saúde do consumidor. Os principais abrasivos usados são o carbonato de cálcio (CaCO₃) e o dióxido de silício (SiO₂). Os umectantes (como a glicerina, o sorbitol e o etilenoglicol) são usados para evitar o ressecamento da pasta. Já os espessantes dão a textura viscosa do creme dental.\n\nReferência: adaptado de https://www.crqv.org.br/index.php?option=com_content&view=article&id=502:a-quimica-da-higiene-bucal&catid=96&Itemid=2483. Acesso em: 04/10/2022.\n\n**As substâncias abrasivas mencionadas no texto podem ser classificadas respectivamente como:**",
+      "options": [
+        {
+          "text": "Óxido e Base",
+          "explanation": "Óxido é composto binário em que o oxigênio é o elemento mais eletronegativo; o CaCO₃ tem três elementos e é um sal. E o SiO₂ não tem o ânion OH⁻ que caracteriza uma base."
+        },
+        {
+          "text": "Sal e Óxido",
+          "explanation": "Correta. O CaCO₃ é um sal: composto iônico formado pelo cátion Ca²⁺ e pelo ânion carbonato, CO₃²⁻. O SiO₂ é um óxido: composto binário em que o oxigênio é o elemento mais eletronegativo."
+        },
+        {
+          "text": "Ácido e Ácido",
+          "explanation": "Ácidos de Arrhenius liberam H⁺ em água; nenhuma das duas fórmulas tem hidrogênio ionizável."
+        },
+        {
+          "text": "Sal e Sal",
+          "explanation": "O carbonato de cálcio é mesmo um sal, mas o SiO₂ é formado só por silício e oxigênio: é um óxido, não um composto de cátion e ânion vindos de uma base e de um ácido."
+        },
+        {
+          "text": "Base e Sal",
+          "explanation": "Bases de Arrhenius têm o ânion hidroxila (OH⁻), que não aparece no CaCO₃. E o SiO₂, composto binário com oxigênio, é óxido."
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "key": "pave-2024-e1-q08",
+      "source": "PAVE 2024 – Etapa 1, questão 8 (UFPel)",
+      "kind": "Objective",
+      "subject": "quimica",
+      "statement": "Em Pelotas, o Serviço Autônomo de Saneamento de Pelotas (SANEP) é responsável pela captação, tratamento e distribuição de água potável, entre outros serviços. Ao todo, são cinco Estações de Tratamento de água (ETA) na cidade. A mais antiga delas é a ETA Santa Bárbara, com obras realizadas em duas etapas, 1968 e 1985. A imagem abaixo representa todas as etapas de tratamento de água, desde a captação até a distribuição para as residências.\n\nReferência: adaptado de https://portal.sanep.com.br/agua/tratamento-agua. Acesso em: 15/06/2024.\n\n![Esquema Tratamento da água, da esquerda para a direita: água bruta; estação de tratamento de água com quatro tanques em sequência, coagulação e floculação com sulfato de alumínio, decantação, filtração com areia e seixos, cloração e fluoretação; depois, reservatório e residências.](img/pave/2024/etapa-1/q08-1.png)\n\nFonte: https://portal.sanep.com.br/agua/tratamento-agua. Acesso em: 15/06/2024.\n\n**A partir dos processos de separação de misturas elencados na figura, relacione a coluna 1 com a coluna 2, considerando o que acontece em cada um dos processos:**\n\nColuna 1\n\nI - Coagulação e Floculação\n\nII - Decantação\n\nIII - Filtração\n\nIV - Cloração e Fluoretação\n\nColuna 2\n\n( ) Consiste na adição de um sal inorgânico, cuja reação produz o agrupamento e a compactação das partículas em suspensão e no estado coloidal, em grandes conjuntos, o que se consegue através de uma agitação lenta para evitar o rompimento do material formado.\n\n( ) Etapa que separa misturas sólido-líquido, sendo o sólido separado do líquido por um sistema que retém as partículas maiores que o diâmetro de seus “poros” e permite que as partículas de menor tamanho o atravessem.\n\n( ) Etapa de desinfecção e purificação da água, buscando reduzir bactérias patogênicas e contribuir para a prevenção de cáries no usuário final.\n\n( ) Processo utilizado em misturas entre um líquido e um sólido ou entre dois líquidos imiscíveis. Nas estações de tratamento da água, esta é uma das técnicas empregadas para separar a água da areia e de outros materiais orgânicos.\n\n**Qual sequência representa, respectivamente, os processos descritos na Estação de Tratamento de água?**",
+      "options": [
+        {
+          "text": "I, III, IV, II.",
+          "explanation": "Correta. Adicionar um sal (o sulfato de alumínio) para agrupar as partículas em flocos é coagulação e floculação (I); reter sólidos em “poros” é filtração (III); desinfetar e prevenir cáries é cloração e fluoretação (IV); separar sólido de líquido, ou líquidos imiscíveis, pela ação da gravidade é decantação (II)."
+        },
+        {
+          "text": "I, II, III, IV.",
+          "explanation": "É a ordem em que as etapas aparecem na figura, mas a coluna 2 não as descreve nessa ordem: a segunda descrição (retenção em “poros”) é a filtração (III), e a decantação (II) só aparece na última."
+        },
+        {
+          "text": "IV, III, II, I.",
+          "explanation": "A primeira descrição fala em adicionar um sal para agrupar partículas, o que é coagulação e floculação (I), e não cloração; a desinfecção (IV) é a terceira descrição."
+        },
+        {
+          "text": "I, IV, III, II.",
+          "explanation": "Troca a segunda e a terceira: o sistema com “poros” que retém partículas é a filtração (III), e a etapa que desinfeta e previne cáries é a cloração e fluoretação (IV)."
+        },
+        {
+          "text": "IV, II, I, III.",
+          "explanation": "Nenhuma posição confere: a adição de sal que forma flocos é a etapa I, os “poros” são da filtração (III), a desinfecção é a IV e a separação de sólido e líquido por repouso é a decantação (II)."
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "key": "pave-2024-e1-q09",
+      "source": "PAVE 2024 – Etapa 1, questão 9 (UFPel)",
+      "kind": "Objective",
+      "subject": "quimica",
+      "statement": "**Observe a tirinha abaixo:**\n\n![Tirinha em quatro quadros. Quadro 1: três cientistas ao lado de uma mesa posta, com a legenda No jantar dos cientistas, Mendeleev pôs a mesa (e definiu o lugar de cada um). Quadro 2: uma colher de sopa com macarrão em hélice e as letras A, C, G e T, com a legenda Watson e Crick levaram o prato principal: fusilli com sopa de letrinhas. Quadro 3: um homem de óculos e bigode segura um pudim, com a legenda Thomson serviu a sobremesa. Quadro 4: enquanto Thomson come, um cientista ao fundo diz Aff... pudim de passas? e outro responde Esse cara nunca ouviu falar em gotas de chocolate?](img/pave/2024/etapa-1/q09-1.png)\n\nFonte: @quadrinhorama. Criado: 06 abril de 2021. Acesso em: 19/06/2024.\n\n**Como podemos relacionar o papel de Mendeleev e Thomson no jantar com suas contribuições para a ciência?**",
+      "options": [
+        {
+          "text": "Mendeleev foi o responsável por organizar o lugar de cada cientista na mesa, pois ficava nervoso com desorganização. Já Thomson ficou responsável pela sobremesa, levando um pudim de passas, pois era a única sobremesa que sabia cozinhar.",
+          "explanation": "Explica a piada por traços pessoais inventados e ignora a ciência: a graça está na Tabela Periódica de Mendeleev e no modelo atômico de Thomson, apelidado de “pudim de passas”."
+        },
+        {
+          "text": "Mendeleev foi o responsável por organizar o lugar de cada cientista na mesa, uma vez que ele propôs um modelo atômico que ordenava as partículas. Já Thomson ficou responsável pela sobremesa, levando um pudim de passas por ter proposto uma tabela periódica representada dessa forma.",
+          "explanation": "Inverte as contribuições: Mendeleev organizou a Tabela Periódica, e quem propôs um modelo atômico (o do “pudim de passas”) foi Thomson."
+        },
+        {
+          "text": "Mendeleev foi o responsável por organizar o lugar de cada cientista na mesa, uma vez que ele ordenou os elementos químicos na Tabela Periódica. Já Thomson ficou responsável pela sobremesa, levando um pudim de passas por ter proposto o modelo atômico representado dessa forma.",
+          "explanation": "Correta. Mendeleev organizou os elementos na Tabela Periódica, dando a cada um o seu lugar, como faz com os convidados. Thomson, que descobriu o elétron, propôs o átomo como uma esfera de carga positiva com elétrons incrustados, modelo conhecido como “pudim de passas”."
+        },
+        {
+          "text": "Mendeleev foi o responsável por organizar o lugar de cada cientista na mesa, uma vez que ele propôs a ordem de reatividade dos elementos químicos na Tabela Periódica. Já Thomson ficou responsável pela sobremesa, levando um pudim de passas por representar as interações intermoleculares dessa forma.",
+          "explanation": "Mendeleev ordenou os elementos pela massa atômica, agrupando os de propriedades semelhantes, e não por uma fila de reatividade. O “pudim de passas” de Thomson representa o átomo, não as interações entre moléculas."
+        },
+        {
+          "text": "Mendeleev foi o responsável por organizar o lugar de cada cientista na mesa, uma vez que ele organizou a ordem de eletronegatividade dos elementos químicos. Já Thomson ficou responsável pela sobremesa, levando um pudim de passas por ter estudado as reações químicas.",
+          "explanation": "A escala de eletronegatividade é de Linus Pauling, bem posterior a Mendeleev. E o pudim de passas se refere ao modelo atômico de Thomson, não a estudos sobre reações químicas."
+        }
+      ],
+      "correct": "C"
+    },
+    {
+      "key": "pave-2024-e1-q10",
+      "source": "PAVE 2024 – Etapa 1, questão 10 (UFPel)",
+      "kind": "Objective",
+      "subject": "historia",
+      "statement": "**Leia o fragmento abaixo.**\n\nA escrita teria então surgido, pela primeira vez na Mesopotâmia, na forma de desenhos (pictogramas) que ainda hoje podemos facilmente identificar, interpretar. Esses sinais pictográficos iniciais estavam gravados em placas de pedra que foram encontrados no sul da Mesopotâmia, sobretudo na região de Uruk. Muito rapidamente, a forma desses sinais evoluiu para se tornar mais esquemática e depois, numa fase posterior, totalmente abstrata. Por causa da forma particular em “cunha, ângulo reto” (do latim cuneus: cunha) dos elementos que compunham cada signo, essa escrita avançada foi chamada de “cuneiforme”.\n\nReferência: BACHELOT, Luc. Aventuras e desventuras da escrita. A propósito da interpretação do nascimento da escrita na Mesopotâmia. **Cadernos do Lepaarq (Revista do Laboratório de Ensino e Pesquisa em Antropologia e Arqueologia da Universidade Federal de Pelotas)**, v. XVII, n.33, p. 229, Jan-Jun. 2020.\n\n**Assinale a alternativa correta sobre a escrita cuneiforme:**",
+      "options": [
+        {
+          "text": "A evolução da escrita cuneiforme só foi possível com a ajuda dos egípcios, que a aperfeiçoaram, surgindo, assim, os hieróglifos.",
+          "explanation": "Os hieróglifos são um sistema próprio do Egito, não um aperfeiçoamento da escrita cuneiforme; esta evoluiu na própria Mesopotâmia, como descreve o fragmento."
+        },
+        {
+          "text": "A expansão militar dos assírios foi responsável pela introdução da escrita cuneiforme na Grécia, dando origem à escrita Linear B.",
+          "explanation": "A Linear B é a escrita dos micênicos, derivada da Linear A da ilha de Creta, e é muitos séculos anterior ao auge do Império Assírio, que nunca dominou a Grécia."
+        },
+        {
+          "text": "A Pedra de Roseta foi peça-chave para o entendimento da escrita cuneiforme.",
+          "explanation": "A Pedra de Roseta traz o mesmo decreto em hieróglifos, demótico e grego, e por isso foi a chave dos hieróglifos egípcios, não da escrita cuneiforme."
+        },
+        {
+          "text": "O linguista francês Jean-François Champollion foi o responsável por decifrar a escrita cuneiforme.",
+          "explanation": "Champollion decifrou os hieróglifos egípcios, em 1822, a partir da Pedra de Roseta. A decifração do cuneiforme foi obra de outros estudiosos do século XIX, como Grotefend e Rawlinson."
+        },
+        {
+          "text": "Foi inventada pelos sumérios com fins contábeis e administrativos.",
+          "explanation": "Correta. A escrita surgiu entre os sumérios, no sul da Mesopotâmia (região de Uruk, citada no texto), para registrar em tabuletas a contabilidade de templos e palácios: estoques, rebanhos, tributos."
+        }
+      ],
+      "correct": "E"
+    },
+    {
+      "key": "pave-2024-e1-q11",
+      "source": "PAVE 2024 – Etapa 1, questão 11 (UFPel)",
+      "kind": "Objective",
+      "subject": "historia",
+      "statement": "**Observe a figura.**\n\n![Meme em dois quadros. No primeiro, um ônibus com a legenda CARTAGO atravessa uma linha de trem enquanto uma locomotiva se aproxima. No segundo, a locomotiva, com a legenda ROMA, atinge e destrói o ônibus.](img/pave/2024/etapa-1/q11-1.png)\n\nConsidere as afirmações abaixo, sobre a história das Guerras Púnicas (264 a.C a 146 a.C).\n\nI – Na Segunda Guerra Púnica, Roma foi derrotada pelo general cartaginês Aníbal Barca, que liderou uma invasão bem-sucedida à capital romana.\n\nII – Com a derrota definitiva de Cartago, Roma passou a exercer seu domínio sobre o mar Mediterrâneo, que passou a ser chamado de Mare Nostrum (“nosso mar”) pelos romanos.\n\nIII - As Guerras Púnicas foram três conflitos travados entre Roma e Cartago, e ao final das guerras, os cartagineses foram derrotados.\n\n**Estão corretas?**",
+      "options": [
+        {
+          "text": "I, II e III.",
+          "explanation": "A afirmação I é falsa: Aníbal atravessou os Alpes e venceu batalhas na Itália, como a de Canas, mas nunca tomou a cidade de Roma e acabou derrotado em Zama (202 a.C.)."
+        },
+        {
+          "text": "I e III apenas.",
+          "explanation": "Inclui a I, que é falsa (Aníbal não conquistou Roma e perdeu a Segunda Guerra Púnica), e deixa de fora a II, que é verdadeira."
+        },
+        {
+          "text": "II e III apenas.",
+          "explanation": "Correta. Foram três guerras, todas vencidas por Roma, que arrasou Cartago em 146 a.C. e passou a dominar o Mediterrâneo, o Mare Nostrum. A I é falsa: Aníbal venceu batalhas na Itália, mas não tomou Roma e foi derrotado em Zama."
+        },
+        {
+          "text": "II apenas.",
+          "explanation": "A II é verdadeira, mas a III também: as Guerras Púnicas foram três e terminaram com a destruição de Cartago, como o meme resume."
+        },
+        {
+          "text": "III apenas.",
+          "explanation": "A III é verdadeira, mas a II também: sem a rival Cartago, Roma tornou-se senhora do Mediterrâneo, que os romanos chamavam de Mare Nostrum."
+        }
+      ],
+      "correct": "C"
+    },
+    {
+      "key": "pave-2024-e1-q12",
+      "source": "PAVE 2024 – Etapa 1, questão 12 (UFPel)",
+      "kind": "Objective",
+      "subject": "geografia",
+      "statement": "As coordenadas geográficas são um sistema de linhas imaginárias que permitem a localização de qualquer ponto na superfície terrestre. A localização de uma determinada coordenada geográfica ocorre por meio do ponto de encontro entre um paralelo e um meridiano.\n\n**A partir dos seus conhecimentos sobre o assunto, avalie as seguintes afirmações:**\n\nI – A linha do Equador está traçada a igual distância dos polos, formando um plano que divide horizontalmente a Terra em duas partes iguais: o hemisfério Norte e o hemisfério Sul.\n\nII – A longitude de um ponto é a distância angular entre o plano do Equador e um ponto na superfície da Terra, unido perpendicularmente ao centro do Planeta, com variação entre 0° e 90°, nas direções norte ou sul.\n\nIII – O Trópico de Câncer e o Círculo Polar Ártico se situam no Hemisfério Norte; já o Trópico de Capricórnio e o Círculo Polar Antártico, no Hemisfério Sul.\n\nIV – A faixa do planeta situada entre o trópico de Capricórnio e o de Câncer é denominada de zona tropical ou intertropical.\n\n**Estão corretas:**",
+      "options": [
+        {
+          "text": "I, III e IV apenas.",
+          "explanation": "Correta. I, III e IV descrevem corretamente o Equador, a posição dos trópicos e círculos polares e a zona intertropical. A II é falsa porque dá a definição de latitude; a longitude é a distância angular até o meridiano de Greenwich, de 0° a 180°, para leste ou oeste."
+        },
+        {
+          "text": "II, III e IV apenas.",
+          "explanation": "A II chama de longitude o que é latitude (distância angular ao Equador, de 0° a 90°, norte ou sul). Além disso, a I, que é verdadeira, ficou de fora."
+        },
+        {
+          "text": "I, II e III apenas.",
+          "explanation": "Inclui a II, que troca longitude por latitude, e exclui a IV, que está certa: a zona entre os trópicos é a tropical ou intertropical."
+        },
+        {
+          "text": "I e II apenas.",
+          "explanation": "A I está certa, mas a II define latitude, não longitude; e III e IV, que são verdadeiras, ficaram de fora."
+        },
+        {
+          "text": "II e III apenas.",
+          "explanation": "A II é a única falsa: distância angular ao Equador, de 0° a 90°, norte ou sul, é latitude. I e IV, verdadeiras, foram omitidas."
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "key": "pave-2024-e1-q13",
+      "source": "PAVE 2024 – Etapa 1, questão 13 (UFPel)",
+      "kind": "Objective",
+      "subject": "geografia",
+      "statement": "A água é um elemento vital. Para a humanidade, é um recurso de sobrevivência e abastecimento, de manutenção e ampliação das atividades econômicas e da vida cotidiana. A forma como a água está distribuída pelo planeta não é regular, ou seja, em alguns lugares há maior abundância e em outros é mais escassa. Segundo a ONU, cada pessoa necessita em média 110 litros de água para atender suas necessidades básicas de consumo e higiene, como fazer comida e comer, tomar banho, escovar os dentes, lavar as mãos e o rosto, usar a descarga no vaso sanitário. O que se sabe é que em alguns países esse consumo é muito maior e, em outros, inferior ao mínimo, ou seja, o consumo é desigual. No Brasil, por exemplo, no ano de 2018, a média de consumo dos brasileiros foi de 154 litros por pessoa.\n\nReferência: adaptado de Brasileiro consome cerca de 154 litros de água por dia. Rádio Agência. Brasília, DF. 23 fev. 2018. Disponível em: https://agenciabrasil.ebc.com.br. Acesso em: 17/08/2024.\n\n**Considerando que esse recurso é finito, identifique, nas alternativas a seguir, a que NÃO caracteriza uma medida de consumo consciente da água.**",
+      "options": [
+        {
+          "text": "Priorizar banhos curtos.",
+          "explanation": "Reduzir o tempo de banho é uma das medidas que mais economizam água em casa; é consumo consciente, e a questão pede a alternativa que não é."
+        },
+        {
+          "text": "Esperar juntar uma quantidade de roupas suficiente para lavar.",
+          "explanation": "Lavar a roupa acumulada de uma só vez aproveita melhor cada carga de água da máquina ou do tanque; é uma medida de economia."
+        },
+        {
+          "text": "Deixar a torneira aberta ao escovar os dentes, ao fazer a barba e ao passar sabão na louça.",
+          "explanation": "Correta. Torneira aberta enquanto a água não está sendo usada é desperdício puro: litros de água tratada vão direto para o ralo. É a única prática da lista que não representa consumo consciente."
+        },
+        {
+          "text": "Organizar a louça antes de lavá-la.",
+          "explanation": "Organizar a louça (retirar restos, ensaboar tudo e só depois enxaguar) reduz o tempo de torneira aberta; é consumo consciente."
+        },
+        {
+          "text": "Usar cisternas para fazer a captação e o armazenamento da água da chuva.",
+          "explanation": "Captar água da chuva para regar plantas, lavar pisos ou dar descarga poupa água tratada; é uma medida de uso consciente."
+        }
+      ],
+      "correct": "C"
+    },
+    {
+      "key": "pave-2024-e1-q14",
+      "source": "PAVE 2024 – Etapa 1, questão 14 (UFPel)",
+      "kind": "Objective",
+      "subject": "filosofia",
+      "statement": "**Leia os textos a seguir.**\n\n**TEXTO 1**\n\n“A nutrição de todas as coisas é úmida, as sementes e os germes de todas as coisas têm natureza úmida, e, portanto, a secura total é a morte. A vida está ligada à umidade e esta pressupõe a água, então a água é a fonte última da vida”.\n\nReferência: REALE, G. **História da filosofia**: filosofia pagã antiga, v. 1. São Paulo: Paulus, 2003, p. 19.\n\n**TEXTO 2**\n\n“O ar se presta melhor do que qualquer outro elemento às variações e transformações necessárias para fazer nascer as diversas coisas. Ao se condensar, resfria-se e se torna água e, depois, terra; ao se distender (ou seja, rarefazendo-se) e dilatar, esquenta e torna-se fogo” .\n\nReferência: REALE, G. **História da filosofia**: filosofia pagã antiga, v. 1. São Paulo: Paulus, 2003, p. 21.\n\n**Avalie as afirmações:**\n\nI - Representam as posições dos pré-socráticos Tales e Anaxímenes, respectivamente, que através do logos, o discurso racional, desenvolveram hipóteses sobre a origem da matéria, valendo-se do conceito de arché, a substância primordial.\n\nII - Simbolizam o tipo de discussão desenvolvida pelos estoicos e epicuristas que, no período da invasão macedônica, preocuparam-se, primordialmente, com questões relacionadas às ciências físicas.\n\nIII – Demarcam o modelo de explicação mítica próprio da Grécia Antiga, que condiciona os elementos da natureza a um poder metafísico que extravasa a própria matéria.\n\nIV – Apontam a passagem do mito ao logos, em um contexto cuja filosofia nascente, preocupada em desvendar os mistérios da physis, a natureza, se desenvolve nas colônias gregas junto à costa do Mar Egeu.\n\n**Estão corretas:**",
+      "options": [
+        {
+          "text": "I apenas.",
+          "explanation": "A I está certa (água para Tales, ar para Anaxímenes), mas a IV também: esses textos marcam a passagem do mito ao logos, na filosofia que nasce em Mileto, colônia grega na costa do mar Egeu."
+        },
+        {
+          "text": "II apenas.",
+          "explanation": "Estoicos e epicuristas são do período helenístico, séculos depois, e sua preocupação central era a ética (como viver bem). Os textos são de pré-socráticos."
+        },
+        {
+          "text": "III apenas.",
+          "explanation": "Os textos fazem o oposto do mito: explicam a natureza por um elemento da própria natureza (água, ar) e por argumentos, sem recorrer a deuses ou forças sobrenaturais."
+        },
+        {
+          "text": "I e IV apenas.",
+          "explanation": "Correta. O texto 1 traz a tese de Tales (a água como arché) e o texto 2 a de Anaxímenes (o ar), ambos de Mileto, colônia grega na costa do mar Egeu. São explicações racionais da physis, que marcam a passagem do mito ao logos."
+        },
+        {
+          "text": "II e IV apenas.",
+          "explanation": "A IV está certa, mas a II não: os autores são pré-socráticos (Tales e Anaxímenes), não estoicos ou epicuristas, que são posteriores e voltados sobretudo à ética. E a I, verdadeira, ficou de fora."
+        }
+      ],
+      "correct": "D"
+    },
+    {
+      "key": "pave-2024-e1-q15",
+      "source": "PAVE 2024 – Etapa 1, questão 15 (UFPel)",
+      "kind": "Objective",
+      "subject": "filosofia",
+      "statement": "O conhecimento humano se desenvolve ao longo da história como uma resposta às necessidades de enfrentar o desconhecido, buscando alívio para as angústias que ele provoca. Diversas formas de construção do conhecimento foram e continuam a ser utilizadas, conferindo maior autonomia e poder àqueles que o detêm. Entre essas formas, destacam-se os mitos, a filosofia e a ciência.\n\n**As sentenças a seguir se referem a diferentes modos de construção do conhecimento. A seu respeito, analise sua veracidade:**\n\nI – Os mitos costumam ser representados através da tradição oral, estando presentes nas mais diversas culturas. Através deles o ser humano representa a ação do sobrenatural nos acontecimentos cotidianos, de modo que a crença se sobrepõe como critério de verdade.\n\nII – O conhecimento científico busca identificar regularidades, padrões e leis gerais que expliquem o funcionamento dos fenômenos naturais. Baseia-se na experimentação e na racionalidade, estabelecendo relações de causa e efeito sem recorrer à superstição, mas através da observação rigorosa dos fenômenos.\n\nIII – Os mitos gregos supunham a existência de uma liberdade humana independente de quaisquer predeterminações do destino, motivo pelo qual não conflitou com a filosofia pré-socrática. Em ambos os casos, no mito e na filosofia, o saber racional é apontado como principal critério para o estabelecimento da verdade.\n\nIV – A filosofia grega teve início questionando a constituição da physis, a natureza material do mundo, outrora explicada por critérios sobrenaturais. Os filósofos chamados pré-socráticos, questionando a validade dos mitos, apostaram na razão como critério de verdade para avaliar suas hipóteses sobre a ocorrência dos fenômenos que os circundavam.\n\n**Estão corretas:**",
+      "options": [
+        {
+          "text": "I, II e IV apenas.",
+          "explanation": "Correta. I, II e IV caracterizam bem o mito (tradição oral e crença), a ciência (observação, experimentação, leis gerais) e a filosofia nascente (a razão investigando a physis). A III é falsa: no mito grego o destino determina a vida humana, e o critério de verdade do mito é a crença, não a razão."
+        },
+        {
+          "text": "I, II e III apenas.",
+          "explanation": "Inclui a III, que é falsa (os mitos gregos são marcados pelo destino, e não se apoiam no saber racional), e exclui a IV, que descreve corretamente os pré-socráticos."
+        },
+        {
+          "text": "I, III e IV apenas.",
+          "explanation": "A III é falsa: a própria afirmação I diz que no mito a crença é o critério de verdade, e não a razão. Além disso, a II, verdadeira, ficou de fora."
+        },
+        {
+          "text": "II, III e IV apenas.",
+          "explanation": "Inclui a III, falsa, e deixa de fora a I, que descreve corretamente o mito como narrativa de tradição oral baseada na crença."
+        },
+        {
+          "text": "I, II, III e IV.",
+          "explanation": "A III não se sustenta: nos mitos gregos nem os heróis escapam do destino (basta lembrar Édipo), e a filosofia pré-socrática surge justamente questionando as explicações míticas."
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "key": "pave-2024-e1-q16",
+      "source": "PAVE 2024 – Etapa 1, questão 16 (UFPel)",
+      "kind": "Objective",
+      "subject": "filosofia",
+      "statement": "O senso comum reflete o entendimento médio, comum das pessoas. São usualmente generalizações, cuja origem ou fundamentação inicial já se perdeu. (...). Repetidas irrefletidamente no cotidiano, algumas noções do senso comum manifestam ideias falsas, preconceituosas ou parciais da realidade. Outras, no entanto, revelam profunda reflexão sobre a vida – o que chamamos sabedoria popular.\n\nReferência: COTRIM, G.; FERNANDES, M. **Fundamentos de Filosofia**. 4. Ed. São Paulo: Saraiva, 2016, p. 83.\n\n**Qual dentre as alternativas a seguir melhor se adequa às características do senso comum?**",
+      "options": [
+        {
+          "text": "Questionamento crítico e criatividade individual.",
+          "explanation": "Questionar criticamente é a atitude da filosofia e da ciência. O senso comum, segundo o texto, é repetido “irrefletidamente”, e é coletivo, não criação individual."
+        },
+        {
+          "text": "Conformismo e reprodução de generalizações populares.",
+          "explanation": "Correta. O texto define o senso comum como generalizações de origem já perdida, repetidas irrefletidamente no cotidiano: aceita-se e reproduz-se o que “todo mundo diz”, sem exame."
+        },
+        {
+          "text": "Curiosidade investigativa e análise lógica.",
+          "explanation": "Investigar e analisar logicamente são marcas do conhecimento científico e filosófico; o senso comum dispensa verificação e se apoia no hábito e na tradição."
+        },
+        {
+          "text": "Distanciamento dos valores culturais e autonomia de pensamento.",
+          "explanation": "O senso comum é o entendimento médio de um grupo, portanto colado aos valores da cultura em que circula; quem o repete não pensa com autonomia, apenas reproduz."
+        },
+        {
+          "text": "Reflexão profunda e abertura à pluralidade de ideias.",
+          "explanation": "O texto admite que algumas noções populares guardam reflexão sobre a vida, mas a característica geral do senso comum é a repetição sem reflexão, que pode carregar ideias falsas e preconceitos."
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "key": "pave-2024-e1-q17",
+      "source": "PAVE 2024 – Etapa 1, questão 17 (UFPel)",
+      "kind": "Objective",
+      "subject": "sociologia",
+      "statement": "**Observe a figura:**\n\n![Charge com duas aranhas penduradas por fios. A da direita pende de uma teia comum, de fios radiais e regulares. A da esquerda pende de uma teia de linhas retas e irregulares, parecida com um labirinto, e diz: Rompi com o modelo!](img/pave/2024/etapa-1/q17-1.png)\n\nFonte: MACHADO, Igor José Renó et al. **Sociologia Hoje**. 1. ed. São Paulo: Ática, 2013. p.11.\n\nComo afirmou o pensador alemão Karl Jaspers (1883-1969), as perguntas em filosofia são mais essenciais que as respostas e cada resposta transforma-se numa nova pergunta. Isso ocorre porque a filosofia busca essa ampliação da paisagem e seus horizontes. (Fundamentos de Filosofia, p. 39). Nessa mesma linha, um dos objetivos das ciências sociais é justamente desenvolver o pensamento crítico. Quando olhamos para a sociedade e fazemos determinados questionamentos, encontramos respostas que revelam aspectos que a princípio não eram evidentes.\n\nReferência: MACHADO, Igor José Renó et al. **Sociologia Hoje**. 1. ed. São Paulo: Ática, 2013. p.12.\n\n**Leia as seguintes afirmações:**\n\nI – A sociologia dedicou-se a entender como a sociedade se estrutura, como produz bens, como os distribui e como essa distribuição implica em concentração de poder.\n\nII – Viver contemplando, sem uma atitude questionadora, é um dos objetivos da filosofia.\n\nIII – É nos momentos críticos de quebra e estranhamento do cotidiano que costumam surgir dúvidas sobre temas fundamentais e permanentes da existência humana, dos quais trata a filosofia.\n\nIV – O ensino da sociologia deve-se basear em dois princípios epistemológicos: o estranhamento e a desnaturalização.\n\nReferência: MACHADO, Igor José Renó et al. **Sociologia Hoje**. 1. ed. São Paulo: Ática, 2013.\n\nReferência: COTRIM, Gilberto; FERNANDES, Mirna. **Fundamentos de Filosofia**. 2. Ed. São Paulo: Saraiva, 2013.\n\n**Estão corretas**",
+      "options": [
+        {
+          "text": "II e IV apenas.",
+          "explanation": "A II contradiz o próprio enunciado: para Jaspers, as perguntas são o essencial da filosofia, logo ela é atitude questionadora, não contemplação passiva. E faltam a I e a III, verdadeiras."
+        },
+        {
+          "text": "I, II e IV apenas.",
+          "explanation": "I e IV estão certas, mas a II é falsa (filosofar é questionar, não viver sem atitude questionadora) e a III, verdadeira, ficou de fora."
+        },
+        {
+          "text": "II e III apenas.",
+          "explanation": "A III está certa, mas a II é falsa, e I e IV, que descrevem corretamente a sociologia, foram omitidas."
+        },
+        {
+          "text": "I, II e III apenas.",
+          "explanation": "Inclui a II, que nega a atitude questionadora própria da filosofia, e exclui a IV: estranhar e desnaturalizar o que parece óbvio são os princípios do ensino de sociologia."
+        },
+        {
+          "text": "I, III e IV apenas.",
+          "explanation": "Correta. A sociologia estuda a estrutura da sociedade, a produção e distribuição de bens e o poder (I) e se apoia no estranhamento e na desnaturalização (IV), como a aranha que “rompe com o modelo”; a filosofia nasce do espanto diante do cotidiano (III). A II é falsa: filosofar é questionar."
+        }
+      ],
+      "correct": "E"
+    },
+    {
+      "key": "pave-2024-e1-q18",
+      "source": "PAVE 2024 – Etapa 1, questão 18 (UFPel)",
+      "kind": "Objective",
+      "subject": "sociologia",
+      "statement": "Durante a Idade Moderna ocorreu o fortalecimento dos governos monárquicos em grande parte da Europa. Disso resultou o que foi denominado de absolutismo monárquico. Consistia na autoridade do rei como fonte suprema e soberana. Na França, o rei Luiz XIV, autor da famosa frase “L’Étatc’est moi” (o Estado sou eu), governou de 1651 até 1715, e foi um dos principais exemplos desse poder.\n\nA origem do Estado pode ser atribuída às guerras e às conquistas do poder. Entretanto ele precisa ser legítimo para estabelecer suas prerrogativas de governo. Essa questão, sobre quando o Estado é legítimo, esteve presente na construção do Estado moderno e nas teorias contratualistas representadas pelos ingleses Thomas Hobbes (1568-1679), defensor do absolutismo, John Locke (1632-1704), teórico da doutrina liberal, e também pelo franco-suiço Jean-Jacques Rousseau (1712-1778), inspirador da Revolução Francesa.\n\n**Leia as seguintes afirmações:**\n\nI – O filósofo Thomas Hobbes defendia o absolutismo, escreveu O Príncipe, livro no qual aconselhava o rei como governar.\n\nII – Jean-Jacques Rousseau rejeitava o absolutismo e defendia a existência de um Estado civil dirigido pela vontade geral do povo, que é o agente soberano responsável tanto por elaborar como por obedecer às leis.\n\nIII – Para Thomas Hobbes, o estado de natureza, seria a fase anterior à fundação do Estado, onde a vida seria violenta, pobre e curta.\n\nIV – John Locke foi um dos primeiros teóricos modernos a defender a propriedade privada, a liberdade e os direitos do cidadão. Sobre isso escreveu o livro O Contrato Social – princípios de direito político.\n\nReferência: COTRIM, Gilberto. **História Global II**. 3. ed. São Paulo: Saraiva, 2016.\n\nReferência: MACHADO, Igor José Renó et al. **Sociologia Hoje**. 1. ed. São Paulo: Ática, 2013.\n\n**Estão corretas:**",
+      "options": [
+        {
+          "text": "II e IV apenas.",
+          "explanation": "A II está certa, mas a IV erra a autoria: O Contrato Social é de Rousseau; a obra política de Locke é o Segundo Tratado sobre o Governo Civil. E a III, verdadeira, ficou de fora."
+        },
+        {
+          "text": "I, II e IV apenas.",
+          "explanation": "I e IV trocam os autores das obras: O Príncipe é de Maquiavel (Hobbes escreveu Leviatã) e O Contrato Social é de Rousseau, não de Locke."
+        },
+        {
+          "text": "II e III apenas.",
+          "explanation": "Correta. Rousseau defende a soberania do povo, expressa na vontade geral (II), e Hobbes descreve o estado de natureza como uma guerra de todos contra todos, em que a vida é violenta, pobre e curta (III). I e IV erram as obras: O Príncipe é de Maquiavel e O Contrato Social é de Rousseau."
+        },
+        {
+          "text": "I, II e III apenas.",
+          "explanation": "II e III estão certas, mas a I atribui a Hobbes O Príncipe, que é de Maquiavel; a obra em que Hobbes defende o poder absoluto do soberano é Leviatã."
+        },
+        {
+          "text": "III e IV apenas.",
+          "explanation": "A III está certa, mas a IV atribui a Locke O Contrato Social, que é de Rousseau; e a II, verdadeira, foi omitida."
+        }
+      ],
+      "correct": "C"
+    },
+    {
+      "key": "pave-2024-e1-q19",
+      "source": "PAVE 2024 – Etapa 1, questão 19 (UFPel)",
+      "kind": "Objective",
+      "subject": "matematica",
+      "statement": "“Em meio ao caos provocado pelas águas que invadiram ruas, casas e estabelecimentos comerciais de Porto Alegre, a enchente de 2024 ergueu uma ponte entre o presente e as memórias de um passado já distante, mas ainda doloroso: a enchente de 1941. A história, de fato, se repete - não apenas em termos de coincidência climática, mas também em posturas coletivas que, 83 anos depois, nos deixaram à mercê de vulnerabilidades semelhantes” (ZUCATTI, 2024). Em 2024, o estado do Rio Grande do Sul, foi afetado por fortes chuvas que causaram grandes inundações, gerando “a maior catástrofe climática” da história do estado. Entre 26 de abril e 5 de maio, chegou a chover de 500 a 700 mm, em quase 60% das cidades do estado. De acordo com relatórios da Defesa Civil, 471 das 497 cidades gaúchas foram afetadas pelas tempestades, ou seja, o equivalente a 94,77% do total. De acordo com os dados, somente 26 cidades não tiveram nenhum impacto relacionado às chuvas.\n\nReferências:\n\nhttps://pt.wikipedia.org/wiki/Enchentes_no_Rio_Grande_do_Sul_em_2024. Acesso em: 04/06/2024.\n\nhttps://www.jornaldocomercio.com/cultura/2024/06/1157133-autor-de-livro-sobre-a-enchente-de-1941-deixou-ensinamento-mas-parece-que-nao-aprenderam.html. Acesso em: 04/06/2024.\n\n**Observe no gráfico abaixo, os municípios do Rio Grande do Sul com maior estimativa de população absoluta diretamente afetada pelas enchentes, em observação por satélite em 06/05/2024.**\n\n![Gráfico de barras horizontais com a população afetada em 15 municípios: Canoas, 154 mil; Porto Alegre, 151 mil; São Leopoldo, 84 mil; Eldorado do Sul, 32 mil; Guaíba, 21 mil; Santa Cruz do Sul, 20 mil; Lajeado, 20 mil; Novo Hamburgo, 19 mil; Estrela, 15 mil; Montenegro, 9 mil; Arroio do Meio, 7 mil; Encantado, 6 mil; Sapucaia do Sul, 6 mil; Rio Pardo, 6 mil; Triunfo, 6 mil.](img/pave/2024/etapa-1/q19-1.png)\n\nFonte:https://oglobo.globo.com/brasil/sos-rio-grande-do-sul/noticia/2024/05/11/plataforma-interativa-mostra-areas-inundadas-pontos-de-abrigo-e-previsoes-para-cheia-no-rs.ghtml. Acesso em: 04/06/2024.\n\n**Com base nos dados do gráfico de barras acima, os valores da Média, Moda e Mediana, dos municípios com maior estimativa de população absoluta diretamente afetada pelas enchentes, são respectivamente**",
+      "options": [
+        {
+          "text": "37 mil, 20 mil e 6 mil.",
+          "explanation": "A média está certa (556 ÷ 15 ≈ 37 mil), mas 20 mil aparece só duas vezes, contra quatro vezes de 6 mil, que é a moda. E 6 mil é o menor valor da lista, não o valor central."
+        },
+        {
+          "text": "37 mil, 6 mil e 19 mil.",
+          "explanation": "Correta. A soma dos 15 valores é 556 mil, e 556 ÷ 15 ≈ 37 mil (média). O valor mais repetido é 6 mil, quatro vezes (moda). Com os 15 valores em ordem, o central é o 8º, 19 mil, de Novo Hamburgo (mediana)."
+        },
+        {
+          "text": "556 mil, 6 mil e 20 mil.",
+          "explanation": "556 mil é a soma dos 15 valores; para a média falta dividir por 15. Além disso, o valor central da lista ordenada é o 8º, 19 mil, e não 20 mil."
+        },
+        {
+          "text": "45 mil, 37 mil e 15 mil.",
+          "explanation": "Nenhum dos três confere: a média é 556 ÷ 15 ≈ 37 mil, 37 mil nem aparece entre os dados (não pode ser a moda) e o termo central é 19 mil."
+        },
+        {
+          "text": "19 mil, 6 mil e 37 mil.",
+          "explanation": "Tem os três números certos, mas troca média e mediana: 37 mil é a média (556 ÷ 15) e 19 mil é a mediana (8º valor da lista ordenada)."
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "key": "pave-2024-e1-q20",
+      "source": "PAVE 2024 – Etapa 1, questão 20 (UFPel)",
+      "kind": "Objective",
+      "subject": "matematica",
+      "statement": "O You Tube é uma plataforma de vídeos online. Por meio dela, usuários podem assistir, criar e compartilhar vídeos pela internet. Fundada em 2005, a plataforma possui mais de um bilhão de usuários pelo mundo. A ideia do YouTube é que seus usuários possam não apenas consumir conteúdos na plataforma, mas também os produzir. Na educação, as redes sociais vêm ganhando muita força, sendo utilizadas como importantes ferramentas de ensino. Canais com conteúdos de Matemática e demais disciplinas, têm crescido muito no país.\n\nO acesso a materiais de qualidade, divulgados por professores de Matemática na internet, facilita muito o aprendizado. Pensando em auxiliar seus alunos de escola pública, buscando também, diminuir a defasagem ocasionada após a pandemia da Covid, o Professor João criou um canal com desenvolvimento de atividades e explicação de conteúdos básicos. O canal foi criado há mais de 3 anos e tem crescido muito.\n\nReferência: https://revistas.uece.br/index.php/BOCEHM/article/view/8004. Acesso em: 10/06/2024.\n\nReferência:https://gauchazh.clicrbs.com.br/passo-fundo/educacao/noticia/2023/12/com-mais-de-3-milhoes-de-inscritos-passo-fundense-tem-um-dos-maiores-canais-de-matematica-do-youtube-clpu36ras001x012txjf9o91i.html. Acesso em: 10/06/2024.\n\nReferência: https://brasilescola.uol.com.br/informatica/youtube.htm. Acesso em: 10/06/2024.\n\n**Considerando que o ano de 2020 foi encerrado com um total de 20.000 seguidores e que esse número tem dobrado a cada semestre, qual deverá ser o número de seguidores do Canal do Professor João no final de 2024?**",
+      "options": [
+        {
+          "text": "160.000",
+          "explanation": "Corresponde a apenas 3 duplicações (20.000 × 2³). Do fim de 2020 ao fim de 2024 são 4 anos, isto é, 8 semestres."
+        },
+        {
+          "text": "1.280.000",
+          "explanation": "É 20.000 × 2⁶, o número de seguidores após 6 semestres (fim de 2023). Falta um ano inteiro, com mais duas duplicações."
+        },
+        {
+          "text": "640.000",
+          "explanation": "É 20.000 × 2⁵, apenas 5 duplicações; em 4 anos o número dobra 8 vezes."
+        },
+        {
+          "text": "320.000",
+          "explanation": "É 20.000 × 2⁴: o resultado de dobrar uma vez por ano durante 4 anos. O enunciado diz que o número dobra a cada semestre, o que dá 8 duplicações."
+        },
+        {
+          "text": "5.120.000",
+          "explanation": "Correta. Do fim de 2020 ao fim de 2024 passam 4 anos = 8 semestres, e o número dobra em cada um (progressão geométrica de razão 2): 20.000 × 2⁸ = 20.000 × 256 = 5.120.000."
+        }
+      ],
+      "correct": "E"
+    },
+    {
+      "key": "pave-2024-e1-q21",
+      "source": "PAVE 2024 – Etapa 1, questão 21 (UFPel)",
+      "kind": "Objective",
+      "subject": "matematica",
+      "statement": "Durante cerca de 500 anos, o Brasil teve altas taxas de fecundidade, uma estrutura etária jovem e um elevado ritmo de crescimento populacional. Mas com a transição demográfica tudo isto mudou e, daqui para a frente, serão outros quinhentos, pois o país terá baixas taxas de fecundidade e um número de filhos cada vez menor. Em consequência, o número de nascimentos que estava em torno de 2,5 milhões de bebês em 1950, aumentou até o quinquênio 1981-1985 e começou a cair a partir de 1986.O gráfico abaixo, também com dados das projeções da Divisão de População da ONU, mostra que o número de nascimentos chegou a 2,7 milhões no início da década de 2020 e deve ficar abaixo de 2,5 milhões de nascimentos por volta de 2030. Desta forma, o número anual de nascimentos nas 7 últimas décadas do atual século deve ser sempre menor do que o número de bebês nascidos em 1950. O número de nascimentos deve ficar em 1,5 milhão de bebês em 2100.\n\nReferência:https://www.ihu.unisinos.br/626430-o-futuro-da-fecundidade-e-da-%20natalidade-no-brasil-artigo-de-jose-eustaquio-diniz-alves. Acesso em: 10/06/2024.\n\n![Gráfico de barras Número de nascimentos no Brasil: 1950-2100, em milhares por ano. Começa em cerca de 2 500 em 1950, sobe até um pico de cerca de 4 000 no início da década de 1980, fica perto de 3 000 por volta de 2010, cerca de 2 700 em 2020, cai abaixo de 2 500 por volta de 2030 e segue diminuindo até cerca de 1 500 em 2100.](img/pave/2024/etapa-1/q21-1.png)\n\nFonte:https://www.ecodebate.com.br/2023/02/20/o-futuro-da-fecundidade-e-da-natalidade-no-brasil/. Acesso em: 07/04/2024.\n\n**Considere que no ano de 2022 o número de nascimentos no Brasil foi de 2.870.698. Supondo que o número de bebês nascidos está em queda de 1,8% ao ano, qual será o número aproximado de nascimentos no Brasil, no ano de 2028?**",
+      "options": [
+        {
+          "text": "Menos de 1.500.000.",
+          "explanation": "Seria uma queda de quase metade em 6 anos; a 1,8% ao ano, a redução acumulada no período é de cerca de 10%. O valor de 1,5 milhão aparece no texto como projeção para 2100."
+        },
+        {
+          "text": "Entre 2.600.000 e 2.700.000.",
+          "explanation": "É a faixa de quem conta só 4 ou 5 anos de queda (2.870.698 × 0,982⁴ ≈ 2.669.500; × 0,982⁵ ≈ 2.621.500). De 2022 a 2028 são 6 anos."
+        },
+        {
+          "text": "Mais de 3.000.000.",
+          "explanation": "O número só passaria de 3 milhões se estivesse crescendo: é o resultado de multiplicar por 1,018 em vez de 0,982 (2.870.698 × 1,018⁶ ≈ 3.195.000). O enunciado fala em queda."
+        },
+        {
+          "text": "Entre 2.500.000 e 2.600.000.",
+          "explanation": "Correta. Cair 1,8% ao ano é multiplicar por 0,982 a cada ano. De 2022 a 2028 são 6 anos: 2.870.698 × 0,982⁶ ≈ 2.870.698 × 0,8967 ≈ 2.574.000."
+        },
+        {
+          "text": "Entre 2.800.000 e 2.900.000.",
+          "explanation": "É a faixa do valor inicial ou de um único ano de queda (2.870.698 × 0,982 ≈ 2.819.000). Em 6 anos a redução acumulada é de cerca de 10%, o que leva o número para perto de 2.574.000."
+        }
+      ],
+      "correct": "D"
+    },
+    {
+      "key": "pave-2024-e1-q22",
+      "source": "PAVE 2024 – Etapa 1, questão 22 (UFPel)",
+      "kind": "Objective",
+      "subject": "matematica",
+      "statement": "O Imposto de Renda de Pessoa Física (IRPF) precisa ser declarado anualmente por todos os cidadãos que possuem bens ou algum tipo de renda que ultrapasse um certo limite. A alíquota do IRPF, ou a porcentagem que um cidadão precisa pagar sobre seus rendimentos, é calculada em diferentes extratos, evoluindo de forma progressiva, pagando mais quem ganha mais. O Imposto de Renda (IR) é calculado em cima do Salário Líquido, que nada mais é do que o valor que o trabalhador recebe, após a incidência dos descontos legais, tais como: INSS, dependentes, auxílio transporte, auxílio alimentação, entre outros. O IR é calculado através da fórmula:\n\n```\ni = r . a − p     onde   i = imposto\n                         r = salário líquido (base de cálculo)\n                         a = alíquota (%)\n                         p = dedução\n```\n\nO valor da alíquota varia de acordo com a faixa salarial de cada trabalhador. Observe abaixo a tabela de incidência do IRPF de 2024:\n\nIncidência mensal - a partir de fevereiro de 2024.\n\n```\nBase de cálculo                   Alíquota   Dedução\nAté R$ 2.259,20                   -          -\nDe R$ 2.259,21 até R$ 2.826,65    7,5%       R$ 169,44\nDe R$ 2.826,66 até R$ 3.751,05    15,0%      R$ 381,44\nDe R$ 3.751,06 até R$ 4.664,68    22,5%      R$ 662,77\nAcima de R$ 4.664,68              27,5%      R$ 896,00\n```\n\nFonte: https://www.gov.br/receitafederal/pt-br/assuntos/meu-imposto-de-renda/tabelas/2024. Acesso em: 27/05/2024.\n\nReferência: CEVADA, J. et al. **Matemática nos dias de hoje**: algoritmos e álgebra. 1.ed. São Paulo: Sei, 2020.\n\nReferência:https://www.institutoclaro.org.br/educacao/para-ensinar/planos-de-aula/matematica-financeira-imposto-de-renda/. Acesso em: 28/05/2024.\n\n**Considerando as informações apresentadas, qual deve ser o valor do Imposto de Renda a ser pago, por um trabalhador que recebeu um Salário Líquido de R$ 3491,00?**",
+      "options": [
+        {
+          "text": "R$ 905,09",
+          "explanation": "É o resultado de somar a dedução em vez de subtraí-la: 523,65 + 381,44 = 905,09. Na fórmula, a dedução p é subtraída."
+        },
+        {
+          "text": "R$ 381,44",
+          "explanation": "É apenas a dedução da faixa de 15%, o valor a subtrair, e não o imposto."
+        },
+        {
+          "text": "R$ 523,65",
+          "explanation": "É 15% de R$ 3.491,00 (r·a), antes de descontar a dedução de R$ 381,44 que a fórmula manda subtrair."
+        },
+        {
+          "text": "R$ 142,21",
+          "explanation": "Correta. R$ 3.491,00 está na faixa de R$ 2.826,66 a R$ 3.751,05: alíquota de 15% e dedução de R$ 381,44. Então i = 3.491 × 0,15 − 381,44 = 523,65 − 381,44 = 142,21."
+        },
+        {
+          "text": "R$ 349,00",
+          "explanation": "Equivale a cerca de 10% do salário, alíquota que não existe na tabela, e ignora a dedução. Para essa faixa, a conta é 15% do salário menos R$ 381,44."
+        }
+      ],
+      "correct": "D"
+    },
+    {
+      "key": "pave-2024-e1-q23",
+      "source": "PAVE 2024 – Etapa 1, questão 23 (UFPel)",
+      "kind": "Objective",
+      "subject": "matematica",
+      "statement": "Uma matéria realizada pela Coordenação de Comunicação Social da Universidade Federal de Pelotas (UFPel), em alusão ao dia das mulheres na Matemática, comemorado em 12 de maio, salienta que no Brasil, menos de 45% dos ingressantes em cursos de graduação em Matemática são mulheres. Conforme os degraus da carreira científica vão ficando mais altos, o percentual vai diminuindo e se reduz a 15% quando a análise leva em conta os bolsistas de produtividade em pesquisa do Conselho Nacional de Desenvolvimento Científico e Tecnológico (CNPq). Segundo dados de 2019, o Departamento de Matemática e Estatística da UFPel conta com 28 docentes na área de Matemática, sendo 11 mulheres, o que representa 39,28%. Com relação aos alunos, no curso de Licenciatura em Matemática diurno são 115 matriculados, sendo 63 mulheres, o que representa 54,78%. No curso de Licenciatura em Matemática noturno são 163 alunos matriculados, sendo 84 mulheres, o que representa 51,53%.\n\nReferência: **Dia das Mulheres na Matemática.** Coordenação de Comunicação Social UFPel, Pelotas, 14 de maio de 2019. Disponível em: https://ccs2.ufpel.edu.br/wp/2019/05/14/dia-das-mulheres-na-matematica. Acesso em: 13/03/2023.\n\n**Com base nessas informações, pode-se observar que a proporção entre as mulheres que estudam no curso de Licenciatura em Matemática, diurno e noturno, na UFPel e as docentes do referido curso é diferente. Pode-se afirmar que em 2019 na UFPel havia uma disparidade entre os percentuais de alunas nos cursos de Licenciatura em Matemática diurno e noturno e de professoras no Departamento de Matemática e Estatística representada por aproximadamente**",
+      "options": [
+        {
+          "text": "50 %.",
+          "explanation": "Nenhuma comparação entre os dados leva a 50%: as alunas são cerca de 52,9% dos matriculados e as professoras, 39,28% dos docentes; a disparidade é a diferença entre esses percentuais."
+        },
+        {
+          "text": "31,6 %.",
+          "explanation": "Não corresponde à diferença pedida. Juntando os dois turnos, as alunas são 147 de 278 (≈ 52,88%); subtraindo os 39,28% de professoras, restam cerca de 13,6 pontos percentuais."
+        },
+        {
+          "text": "13,6 %.",
+          "explanation": "Correta. Somando os turnos: 63 + 84 = 147 alunas em 115 + 163 = 278 matriculados, e 147 ÷ 278 ≈ 52,88%. A diferença para o percentual de professoras é 52,88% − 39,28% = 13,6 pontos percentuais."
+        },
+        {
+          "text": "15,6 %.",
+          "explanation": "Fica perto de 54,78% − 39,28% = 15,5, conta que usa só o turno diurno. O enunciado pede os dois turnos juntos: 147 ÷ 278 ≈ 52,88%, e a diferença cai para 13,6."
+        },
+        {
+          "text": "52,8 %.",
+          "explanation": "É o percentual de alunas nos dois turnos somados (147 ÷ 278 ≈ 52,88%), mas falta compará-lo com os 39,28% de professoras: a disparidade é a diferença entre os dois."
+        }
+      ],
+      "correct": "C"
+    },
+    {
+      "key": "pave-2024-e1-q24",
+      "source": "PAVE 2024 – Etapa 1, questão 24 (UFPel)",
+      "kind": "Objective",
+      "subject": "lingua-portuguesa",
+      "statement": "**Leia a charge a seguir para responder a próxima questão.**\n\n![Charge de Arionauro. Um homem deitado na cama sorri olhando para o celular e diz: Oba! Está chovendo postagens legais nas redes sociais! Ao redor dele há um notebook, um tablet e uma TV que mostra a previsão do tempo, todos ligados por um emaranhado de fios a uma tomada sobrecarregada que solta faíscas. Pela janela, vê-se uma tempestade com raios.](img/pave/2024/etapa-1/q24-1.png)\n\nFonte: http://www.arionaurocartuns.com.br/2019/02/charge-celular-tecnologia.html. Acesso em: 03/03/2023.\n\n**Analise as proposições a seguir sobre a charge.**\n\nI. A charge é um dos gêneros textuais que faz uso da linguagem verbal e não verbal. Pelo cenário e pela fisionomia expressa no rosto da personagem (complementados pela linguagem verbal), infere-se que ela está feliz porque está chovendo após um longo período de estiagem, que assolou o estado do Rio Grande do Sul, durante o verão do ano de 2023.\n\nII. A interjeição é a classe de palavras utilizada para expressar emoções fortes do emissor do enunciado, como alegria, surpresa, dor, medo, raiva, entre outras. Podem ser sons vocálicos, palavras exclamativas ou locuções interjetivas. A palavra “Oba!” seguida do ponto de exclamação é um exemplo de interjeição, classificada como de alegria.\n\nIII. A polissemia é o nome que se dá ao fato de um termo apresentar mais de um significado. Dessa maneira, o sentido do termo depende, também, do contexto em que ele é empregado. O uso do verbo “chovendo” na charge pode ser considerado com um exemplo de polissemia.\n\nIV. Pelo cenário e pelo contexto de linguagem verbal e não verbal, a charge aborda uma crítica sobre o interesse das pessoas nas ferramentas digitais, principalmente no que está sendo postado nas redes sociais, mesmo que esteja saindo faísca da tomada por causa da forte chuva com trovões, raios e relâmpagos.\n\n**Estão corretas:**",
+      "options": [
+        {
+          "text": "II e III apenas.",
+          "explanation": "II e III estão certas, mas a IV também: a charge critica a atenção presa às redes sociais enquanto a tempestade cai e a tomada solta faíscas."
+        },
+        {
+          "text": "I e II apenas.",
+          "explanation": "A I é falsa: a alegria do personagem vem das postagens, não da chuva; a fala diz que estão “chovendo postagens”, e nada na charge (que é de 2019) remete a estiagem."
+        },
+        {
+          "text": "I e IV apenas.",
+          "explanation": "A IV está certa, mas a I atribui a alegria ao fim de uma estiagem que não aparece nem na fala nem no desenho; e II e III, verdadeiras, ficaram de fora."
+        },
+        {
+          "text": "II, III, IV apenas.",
+          "explanation": "Correta. “Oba!” é interjeição de alegria (II); “chovendo” tem o sentido de “aparecendo em grande quantidade”, enquanto a chuva literal cai lá fora (III); e a charge critica o apego às redes, indiferente à tempestade e à tomada em faíscas (IV). A I é falsa: o personagem comemora as postagens, não a chuva."
+        },
+        {
+          "text": "III e IV apenas.",
+          "explanation": "III e IV estão certas, mas falta a II: “Oba!” é mesmo uma interjeição que expressa alegria."
+        }
+      ],
+      "correct": "D"
+    },
+    {
+      "key": "pave-2024-e1-q25",
+      "source": "PAVE 2024 – Etapa 1, questão 25 (UFPel)",
+      "kind": "Objective",
+      "subject": "lingua-portuguesa",
+      "statement": "**Leia o texto a seguir para responder a próxima questão.**\n\nA outra noite\n\nOutro dia fui a São Paulo e resolvi voltar à noite, uma noite de vento sul e chuva, tanto lá como aqui. Quando vinha para casa de táxi, encontrei um amigo e o trouxe até Copacabana; e contei a ele que lá em cima, além das nuvens, estava um luar lindo, de lua cheia; e que as nuvens feias que cobriam a cidade eram, vistas de cima, enluaradas, colchões de sonho, alvas, uma paisagem irreal.\n\nDepois que o meu amigo desceu do carro, o chofer aproveitou um sinal fechado para voltar-se para mim:\n\n– O senhor vai desculpar, eu estava aqui a ouvir sua conversa. Mas, tem mesmo luar lá em cima?\n\nConfirmei: sim, acima da nossa noite preta e enlamaçada e torpe havia uma outra - pura, perfeita e linda.\n\n– Mas, que coisa. . .\n\nEle chegou a pôr a cabeça fora do carro para olhar o céu fechado de chuva. Depois continuou guiando mais lentamente. Não sei se sonhava em ser aviador ou pensava em outra coisa.\n\n– Ora, sim senhor. . .\n\nE, quando saltei e paguei a corrida, ele me disse um \"boa noite\" e um \"muito obrigado ao senhor\" tão sinceros, tão veementes, como se eu lhe tivesse feito um presente de rei.\n\nReferência: BRAGA, Rubem. A outra noite. In: BRAGA, Rubem. **Para gostar de ler**: Vol.2. Crônicas. São Paulo: Ática, 1992.\n\n**Os gêneros textuais podem ser definidos como unidades formadoras de sentido, com determinados propósitos ou intencionalidades discursivas. Nesse sentido, a vontade do emissor (locutor) poderá ser revelada por meio do discurso: informar, convencer, contar uma história, persuadir, posicionar-se, opinar etc. Observando o texto em questão, “A outra noite”, e as suas principais características, pode-se afirmar que seu gênero predominante é:**",
+      "options": [
+        {
+          "text": "Texto teatral, pois é um texto narrativo que tem a função de apresentar a história para o público espectador através dos diálogos entre as personagens no palco.",
+          "explanation": "O texto teatral é escrito para ser encenado, só com falas e rubricas. Aqui há um narrador em primeira pessoa que conta o episódio, e o diálogo com o chofer é apenas parte da narração."
+        },
+        {
+          "text": "Crônica, pois é um texto que retrata acontecimentos do cotidiano, sempre com um caráter crítico (sobre comportamentos sociais, leis, instituições etc).",
+          "explanation": "Correta. É uma crônica: texto curto, em primeira pessoa, que parte de um fato banal do cotidiano (uma corrida de táxi numa noite de chuva) para uma reflexão; a própria referência indica um volume de crônicas. A justificativa exagera ao dizer “sempre com um caráter crítico” (esta crônica é mais lírica do que crítica), mas é a única alternativa que aponta o gênero certo."
+        },
+        {
+          "text": "Poesia, pois o texto é um gênero literário caracterizado pela composição em versos estruturados de forma harmoniosa.",
+          "explanation": "O texto tem imagens poéticas (“colchões de sonho”), mas está escrito em prosa, em parágrafos e diálogos, e não em versos."
+        },
+        {
+          "text": "Diário, pois o texto apresenta características mais presentes como a linguagem informal e na primeira pessoa, expressões sentimentais, registro cronológico com páginas datadas e assinatura.",
+          "explanation": "Há primeira pessoa e tom pessoal, mas faltam as marcas do diário citadas na própria alternativa: não há data, registro dia a dia nem assinatura; é um texto feito para publicação."
+        },
+        {
+          "text": "Conto, pois o texto é um gênero literário que possui narrativa curta e tem sua origem na necessidade humana de contar e ouvir histórias.",
+          "explanation": "O conto também é uma narrativa curta, mas é ficção construída em torno de um conflito. Aqui o autor relata, em tom de conversa, um episódio corriqueiro que viveu, o que caracteriza a crônica, gênero indicado na referência do texto."
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "key": "pave-2024-e1-q26",
+      "source": "PAVE 2024 – Etapa 1, questão 26 (UFPel)",
+      "kind": "Objective",
+      "subject": "literatura",
+      "statement": "**O poema e seu segredo, de Alvaro Barcellos**\n\n```\nO segredo dos poemas\nnão está no uso\nde palavras rebuscadas\nque só foram criadas\npara constar\nem velhos dicionários.\nHá que virem os poemas\nfeito hemorragia\ntrazendo um sentimento\nsublime\nde dor ou paixão.\nHá que brotarem os poemas\ncomo brotam os pés de milho.\nHá que eclodirem\ncomo as águas correntes\ndas cachoeiras.\nHá que surgirem os poemas\ncomo as chuvas – bem-vindas –\npra verdejar a vida\ngarantir a floração\ne amenizar as secas\nque assolam sertões.\nMas fundamentalmente\nnão podem jamais\nmorrer os poemas\nque tanto nos ensinam\na amar e resistir.\n```\n\nReferência: BARCELLOS, Alvaro. **Um Céu de Tantos Remendos**. Guaratinguetá: Editora Penalux, 2015, p. 78-79.\n\n**Em \"O poema e seu segredo\", do poeta pelotense Alvaro Barcellos, qual das alternativas abaixo melhor descreve a concepção do autor sobre a criação poética?**",
+      "options": [
+        {
+          "text": "Os poemas devem se limitar a descrever a realidade objetiva.",
+          "explanation": "O poema fala em trazer “um sentimento sublime de dor ou paixão” e em ensinar “a amar e resistir”: a poesia nasce da emoção, não da descrição objetiva."
+        },
+        {
+          "text": "A criação poética deve ser técnica e seguir regras estritas.",
+          "explanation": "Nada no poema fala em técnica ou regras; as comparações são com o que acontece sem cálculo, como hemorragia, pés de milho que brotam, cachoeiras e chuvas."
+        },
+        {
+          "text": "Os poemas devem utilizar palavras rebuscadas e raras.",
+          "explanation": "É o que os primeiros versos negam: o segredo “não está no uso de palavras rebuscadas”, criadas só para constar em velhos dicionários."
+        },
+        {
+          "text": "A poesia deve ser apenas uma forma de entretenimento.",
+          "explanation": "Para o eu lírico, os poemas não podem morrer porque “nos ensinam a amar e resistir”: têm uma função vital, muito além de distrair."
+        },
+        {
+          "text": "Os poemas devem surgir espontaneamente, como fenômenos naturais.",
+          "explanation": "Correta. A repetição de “Há que…” compara o surgimento dos poemas a processos naturais e espontâneos: virem “feito hemorragia”, brotarem como o milho, eclodirem como as águas das cachoeiras, surgirem como as chuvas."
+        }
+      ],
+      "correct": "E"
+    },
+    {
+      "key": "pave-2024-e1-q27",
+      "source": "PAVE 2024 – Etapa 1, questão 27 (UFPel)",
+      "kind": "Objective",
+      "subject": "literatura",
+      "statement": "**Leia os poemas a seguir para responder à questão.**\n\n**Poema da mulher suja, Angélica Freitas**\n\n```\né o poema da mulher suja\nda mulher suja que vi na feira\nno chão juntando bananas\ne uvas caídas dos cachos\n\ntinha o rosto sujo\nas mãos imundas\ne sob as unhas compridas\nmilhares de micróbios\n\ne em seus cabelos\nlongos, sujos, cacheados\nmilhares de piolhos\n\na mulher suja da feira\nela mesma uma fruta\ncaída de um cacho\n\nera frugívora\npelas circunstâncias\n\ngostava muito de uvas\nmas em não havendo uvas\ngostava também de bananas\n```\n\nReferência: FREITAS, A.**Um útero é do tamanho de um punho.** São Paulo: Cosac Naify, 2013.\n\n**O Bicho, Manuel Bandeira**\n\n```\nVi ontem um bicho\nNa imundície do pátio\nCatando comida entre os detritos.\n\nQuando achava alguma coisa,\nNão examinava nem cheirava:\nEngolia com voracidade.\n\nO bicho não era um cão,\nNão era um gato,\nNão era um rato.\n\nO bicho, meu Deus, era um homem.\n\nRio, 27 de dezembro de 1947\n```\n\nReferência: BANDEIRA, M. **Belo belo**. São Paulo: Global Editora, 2014.\n\n**Em relação à linguagem poética, como os autores dos dois poemas destacam a condição dos personagens principais?**",
+      "options": [
+        {
+          "text": "Usam um tom humorístico para amenizar a gravidade do tema.",
+          "explanation": "Não há humor que alivie o tema. A ironia de “frugívora pelas circunstâncias” e o espanto de “meu Deus, era um homem” tornam a cena mais dura, não mais leve."
+        },
+        {
+          "text": "Utilizam metáforas complexas para embelezar a situação.",
+          "explanation": "A linguagem dos dois poemas é simples e direta. As poucas imagens (a mulher como fruta caída do cacho, o homem visto como bicho) expõem a degradação, em vez de embelezá-la."
+        },
+        {
+          "text": "Descrevem com detalhes visuais e sensoriais as condições de miséria.",
+          "explanation": "Correta. Os dois poemas mostram a miséria por imagens concretas: o rosto sujo, as unhas compridas, os piolhos, as frutas juntadas do chão; a imundície do pátio, a comida catada entre os detritos e engolida com voracidade, sem examinar nem cheirar."
+        },
+        {
+          "text": "Empregam linguagem técnica e científica para descrever a pobreza.",
+          "explanation": "O vocabulário é cotidiano. Palavras como “micróbios” e “frugívora” aparecem isoladas e com ironia; não há análise técnica da pobreza."
+        },
+        {
+          "text": "Narram de forma abstrata e indireta, sem focar em detalhes.",
+          "explanation": "É o contrário: os dois textos são concretos e se constroem com detalhes, como as bananas e uvas caídas, as mãos imundas, o pátio e os detritos."
+        }
+      ],
+      "correct": "C"
+    },
+    {
+      "key": "pave-2024-e1-q28",
+      "source": "PAVE 2024 – Etapa 1, questão 28 (UFPel)",
+      "kind": "Objective",
+      "subject": "arte",
+      "statement": "O Museu Afro-Brasil-Sul (MABSul, 2019) é o primeiro museu virtual da região sul do Brasil (Rio Grande do Sul, Santa Catarina e Paraná). Vinculado ao Centro de Artes, pertencente à Divisão de Pesquisa e Extensão da Universidade Federal de Pelotas e é coordenado pela Profa. Dra. Rosemar Lemos. Tem como missão, dentro de seus objetivos, reduzir a invisibilidade negra, preservar o que não está escrito e promover a construção do conhecimento das simbologias e singularidades da cultura negra.\n\n**Sobre a arte africana é correto afirmar que**",
+      "options": [
+        {
+          "text": "igual à arte europeia, possui característica apenas contemplativa.",
+          "explanation": "A arte africana tradicional não é feita só para ser contemplada: máscaras, esculturas e adornos têm uso em rituais e na vida cotidiana da comunidade."
+        },
+        {
+          "text": "diferentemente da arte europeia, que possui característica contemplativa, é uma arte utilitária e ritualística.",
+          "explanation": "Correta. Na arte africana tradicional, máscaras, estatuetas, tecidos e utensílios são feitos para ser usados em cerimônias religiosas, ritos de passagem e no dia a dia, enquanto a tradição europeia consagrou a obra feita para ser contemplada."
+        },
+        {
+          "text": "diferentemente da arte europeia, que possui característica utilitária e ritualística, é uma arte contemplativa.",
+          "explanation": "Inverte as características: a contemplação é a marca atribuída à arte europeia, e a função utilitária e ritual, à arte africana."
+        },
+        {
+          "text": "assim como a arte europeia, não possui característica contemplativa ou utilitária.",
+          "explanation": "Nega as duas características que distinguem as tradições: a arte africana é utilitária e ritualística, e a europeia é marcada pela contemplação."
+        },
+        {
+          "text": "assim como a arte europeia, possui característica ritualística elaborada.",
+          "explanation": "O caráter ritualístico é próprio da arte africana; a comparação usual, adotada na questão, caracteriza a arte europeia como contemplativa, e não ritual."
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "key": "pave-2024-e1-q29",
+      "source": "PAVE 2024 – Etapa 1, questão 29 (UFPel)",
+      "kind": "Objective",
+      "subject": "literatura",
+      "statement": "**Leia atentamente a letra da canção abaixo, do artista brasileiro contemporâneo Chico Buarque.**\n\nBOM CONSELHO (1972)\n\n```\nOuça um bom conselho\nQue eu lhe dou de graça\nInútil dormir, que a dor não passa\n\nEspere sentado\nOu você se cansa\nEstá provado\nQuem espera nunca alcança\n\nVenha, meu amigo\nDeixe esse regaço\nBrinque com meu fogo\nVenha se queimar\n\nFaça como eu digo\nFaça como eu faço\nAja duas vezes\nAntes de pensar\n\nCorro atrás do tempo\nVim de não sei onde\nDevagar é que não se vai longe\n\nEu semeio o vento\nNa minha cidade\nVou pra rua e bebo a tempestade\nVou pra rua e bebo a tempestade\n```\n\nReferência: https://www.musixmatch.com/. Acesso em: 12/06/2024.\n\n**Considerando seus conhecimentos de Literatura e Arte, leia as afirmações a seguir.**\n\nI - A canção não apresenta qualquer possibilidade de crítica social ou mensagens subliminares. Ela se constrói com trocadilhos de provérbios antigos, chamando a atenção do ouvinte de maneira bucólica.\n\nII - É uma obra que se destaca pela ironia e pela crítica social implícita em seus versos, iniciando-se pelo oferecimento de um conselho gratuito, e logo após subvertendo a ideia de que esperar pacientemente trará algum benefício, afirmando que 'quem espera nunca alcança'. Essa inversão sugere uma crítica à aceitação passiva da realidade, incentivando o ouvinte a agir em vez de esperar por mudanças.\n\nIII - A canção é uma sucessão da negação de provérbios conhecidos. A recomendação para 'agir duas vezes antes de pensar' é outra inversão do ditado popular 'pense duas vezes antes de agir', reforçando a ideia de que a ação é preferível à hesitação. A música, portanto, é um convite à reflexão sobre a importância da iniciativa e da coragem para provocar mudanças, seja no âmbito pessoal ou social.\n\nIV - Chico Buarque, conhecido por suas letras engajadas e muitas vezes críticas ao regime militar no Brasil, pode estar incentivando uma postura mais ativa e desafiadora diante das adversidades. No segundo verso, o narrador convida o sujeito a deixar a zona de conforto, simbolizados pelo 'regaço', e a se arriscar, 'brincar com meu fogo'. Aqui, o fogo pode ser interpretado como uma metáfora para a paixão, o risco ou, até mesmo, a revolução.\n\nV - A última estrofe traz imagens de movimento e urgência, com o narrador correndo atrás do tempo e semeando o vento, uma possível alusão ao ditado 'quem semeia vento, colhe tempestade', indicando que as ações têm consequências. No entanto, o narrador parece abraçar essas consequências, pois ele 'bebe a tempestade', sugerindo que ele está disposto a enfrentar as turbulências resultantes de suas escolhas.\n\n**Estão corretas:**",
+      "options": [
+        {
+          "text": "I e III apenas.",
+          "explanation": "A I é falsa: a letra, de 1972, em plena ditadura militar, vira os provérbios do avesso justamente para criticar a passividade; não há nada de bucólico nem de inocente nela."
+        },
+        {
+          "text": "I e V apenas.",
+          "explanation": "A I nega a crítica social que estrutura a canção, e a V não é aceita pelo gabarito; II, III e IV, que tratam da inversão dos provérbios e do convite à ação, ficaram de fora."
+        },
+        {
+          "text": "I, III e V apenas.",
+          "explanation": "A III está certa, mas a I é falsa (a canção é irônica e crítica, não bucólica) e a V não consta do gabarito oficial."
+        },
+        {
+          "text": "II, III e IV apenas.",
+          "explanation": "Correta. A letra inverte provérbios (“quem espera sempre alcança”, “pense duas vezes antes de agir”, “não brinque com fogo”) para criticar a passividade e convidar à ação e ao risco, leitura reforçada pelo contexto da ditadura. A I nega essa crítica. Pelo gabarito oficial, a V também fica de fora: ela situa na última estrofe a imagem de “Corro atrás do tempo”, que está na penúltima."
+        },
+        {
+          "text": "II, III, IV e V apenas.",
+          "explanation": "Inclui a V, que o gabarito oficial não considera correta: ela atribui à última estrofe a imagem de correr “atrás do tempo”, que está na penúltima; na última só aparecem o vento semeado e a tempestade."
+        }
+      ],
+      "correct": "D"
+    },
+    {
+      "key": "pave-2024-e1-q30-es",
+      "source": "PAVE 2024 – Etapa 1, questão 30, espanhol (UFPel)",
+      "kind": "Objective",
+      "subject": "espanhol",
+      "statement": "**Leia o texto a seguir, de Augusto Monterroso, para responder as questões.**\n\nEL DINOSAURIO\n\nCuando despertó, el dinosaurio todavía estaba allí.\n\nReferência: https://ciudadseva.com/texto/el-dinosaurio/. Acesso em: 17/06/2024.\n\n**A expressão “todavía” poderia ser corretamente traduzida por qual palavra em português?**",
+      "options": [
+        {
+          "text": "Tampouco.",
+          "explanation": "“Tampouco” corresponde a “tampoco” em espanhol, usado para acrescentar uma negação a outra; “todavía” indica que algo continua acontecendo."
+        },
+        {
+          "text": "Não.",
+          "explanation": "A negação em espanhol é “no”. Na frase não há negação: o dinossauro continuava ali."
+        },
+        {
+          "text": "Sequer.",
+          "explanation": "“Sequer” corresponde a “siquiera” (“ni siquiera”); não é o sentido de “todavía”."
+        },
+        {
+          "text": "Provavelmente.",
+          "explanation": "“Provavelmente” é “probablemente” ou “a lo mejor”. “Todavía” não expressa dúvida, e sim continuidade no tempo."
+        },
+        {
+          "text": "Ainda.",
+          "explanation": "Correta. “Todavía” é um falso cognato: significa “ainda” (“quando acordou, o dinossauro ainda estava ali”). O “todavia” do português, que indica oposição, corresponde em espanhol a “sin embargo”."
+        }
+      ],
+      "correct": "E"
+    },
+    {
+      "key": "pave-2024-e1-q30-en",
+      "source": "PAVE 2024 – Etapa 1, questão 30, inglês (UFPel)",
+      "kind": "Objective",
+      "subject": "ingles",
+      "statement": "**Observe a imagem e leia o fragmento a seguir.**\n\n![Fotografia de arte rupestre em um paredão de rocha do Sego Canyon: uma grande figura escura de forma humana, com olhos grandes e vazados, duas hastes no alto da cabeça e sem braços nem pernas, ao lado de outras figuras alongadas e de linhas onduladas.](img/pave/2024/etapa-1/q30-en-1.png)\n\nFonte: https://www.theepochtimes.com/article/the-haunting-rock-art-of-sego-canyon-extra-terrestrials-or-spiritual-visions/. Acesso em: 12/06/2024.\n\nThe sandstone cliffs of Sego Canyon are a spectacular outdoor art gallery of petroglyphs painted and carved by Native Americans peoples over a period of around 8,000 years. They are characterised by more than 80 imposing and haunting life-sized figures with hollowed eyes or missing eyes and the frequent absence of arms and legs. Some claim that the mysterious figures are evidence of alien visitation in our ancient past, while scholars maintain that the strange beings represent shamanistic visions produced in trance-like states.\n\nExtra-Terrestrials or Spiritual Visions? Advocates of the ancient astronaut theory suggest that the strange figures of the Barrier Canyon style rock art depict extra-terrestrials that once visited Earth. They point to the large, hollow looking eyes and the triangular shaped heads as evidence that the figures were not human. However, others, like researcher Polly Schaafsma (1999) say that they represent shamanistic art associated with ritual activities of the Archaic people. According to Ms Schaafsma, shamanic practitioners, with the assistance of various spirits, were said to have the ability to travel to celestial realms and the underworld, in order to communicate with ‘purveyors of power’. Hallucinations and visionary experiences characterise the shamanic trance experience, often provoked by the use of hallucinogens. No one really knows for sure what the images represent or why they were painted. The god-like, imposing and fantastical figures etched onto the cliffs of Sego Canyon remain an enigma and the true meaning behind them may never be unlocked.\n\nFonte: adaptado de https://www.ancient-origins.net/ancient-places-americas/haunting-rock-art-sego-canyon-extra-terrestrials-or-spiritual-visions-001584. Acesso em: 12/06/2024.\n\n**Com base em seus conhecimentos de Arte Pré-Histórica e de Língua Inglesa, marque a alternativa correta.**",
+      "options": [
+        {
+          "text": "Os penhascos de arenito do Sego Canyon são uma espetacular galeria de arte ao ar livre com pinturas rupestres pintadas e esculpidas durante um período de cerca de 8.000 anos. As pinturas representam comprovadamente a presença de extraterrestres que visitaram a Terra, possuindo olhos grandes e vazios e cabeças triangulares, o que prova que as figuras não eram humanas.",
+          "explanation": "A primeira frase traduz bem o início do texto, mas a segunda transforma hipótese em fato: o texto diz “some claim” (alguns alegam) e que os defensores da teoria “suggest” (sugerem); nada foi comprovado."
+        },
+        {
+          "text": "Formas humanas e de animais não costumam ser retratados na arte rupestre. No caso das pinturas no Sego Canyon, estudiosos concluíram em pesquisa tratar-se de imagens ilustrando seres alienígenas.",
+          "explanation": "Figuras humanas e de animais são justamente os temas mais comuns da arte rupestre. E os estudiosos (“scholars”) defendem a interpretação xamânica; a hipótese alienígena é dos adeptos da teoria dos antigos astronautas."
+        },
+        {
+          "text": "As expressões da arte rupestre não variam de acordo com o local geográfico, nem seus possíveis significados. A simbologia predominante nas pinturas no Sego Canyon representa, segundo estudiosos, deuses do reino celestial e do submundo acessados por homens arcaicos em viagem astral.",
+          "explanation": "A arte rupestre varia muito conforme a região e a cultura. E, segundo os estudiosos citados, as figuras representam visões xamânicas; os xamãs é que viajariam a reinos celestiais e ao submundo para se comunicar com “purveyors of power” (provedores de poder); o texto não diz que as pinturas retratam deuses desses reinos."
+        },
+        {
+          "text": "As pinturas rupestres eram feitas a partir da aplicação de pigmentos sobre a rocha, extraídos de argilas, vegetais, minerais e ossos carbonizados. Especialistas constataram que as pinturas no Sego Canyon representam exclusivamente visões xamânicas produzidas em estados de transe, sob o efeito de alucinógenos.",
+          "explanation": "A parte sobre os pigmentos está correta, mas o texto não diz que algo foi constatado: a leitura xamânica é uma interpretação, e “no one really knows for sure what the images represent” (ninguém sabe ao certo o que as imagens representam)."
+        },
+        {
+          "text": "A pintura rupestre é uma das principais fontes de estudo sobre o homem pré-histórico. As figuras divinas, imponentes e fantásticas gravadas nas falésias do Sego Canyon permanecem um enigma e o verdadeiro significado por trás delas pode nunca ser desvendado.",
+          "explanation": "Correta. A segunda frase traduz o fecho do texto: “The god-like, imposing and fantastical figures etched onto the cliffs of Sego Canyon remain an enigma and the true meaning behind them may never be unlocked”. E a arte rupestre é, de fato, uma das principais fontes sobre os povos pré-históricos."
+        }
+      ],
+      "correct": "E"
+    },
+    {
+      "key": "pave-2024-e1-q31-es",
+      "source": "PAVE 2024 – Etapa 1, questão 31, espanhol (UFPel)",
+      "kind": "Objective",
+      "subject": "espanhol",
+      "statement": "**Leia o texto a seguir, de Augusto Monterroso, para responder as questões.**\n\nEL DINOSAURIO\n\nCuando despertó, el dinosaurio todavía estaba allí.\n\nReferência: https://ciudadseva.com/texto/el-dinosaurio/. Acesso em: 17/06/2024.\n\n**O sujeito oculto do verbo “despertó” poderia ser substituído por qual pronome pessoal?**",
+      "options": [
+        {
+          "text": "Él.",
+          "explanation": "Correta. “Despertó” é a 3ª pessoa do singular do pretérito indefinido de “despertar” (em português, “despertou”); o sujeito oculto pode ser “él”, “ella” ou “usted”, e a única dessas formas entre as alternativas é “él”."
+        },
+        {
+          "text": "Yo.",
+          "explanation": "Com “yo” (eu), o verbo seria “desperté” (despertei)."
+        },
+        {
+          "text": "Tú.",
+          "explanation": "Com “tú” (tu), o verbo seria “despertaste” (despertaste)."
+        },
+        {
+          "text": "Nosotros.",
+          "explanation": "Com “nosotros” (nós), o verbo estaria no plural: “despertamos”."
+        },
+        {
+          "text": "Ustedes.",
+          "explanation": "“Ustedes” (vocês, os senhores) pede o verbo na 3ª pessoa do plural: “despertaron”."
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "key": "pave-2024-e1-q31-en",
+      "source": "PAVE 2024 – Etapa 1, questão 31, inglês (UFPel)",
+      "kind": "Objective",
+      "subject": "ingles",
+      "statement": "**Observe a imagem e leia o fragmento a seguir.**\n\n![Fotografia de um caboclo de lança do maracatu rural: um homem com uma enorme cabeleira de fitas metálicas coloridas e uma gola bordada com lantejoulas; ao fundo, outros participantes com roupas e chapéus coloridos.](img/pave/2024/etapa-1/q31-en-1.png)\n\nFonte: https://patrimonioculturaldorecife.wordpress.com/2017/11/28/literatura//. Acesso em: 03/06/2024.\n\nMaracatu rural is a manifestation of brazilian folklore that involves dance and music. Its origin dates back to the time of Colonial Brazil and consists of a mixture of African, Portuguese and indigenous cultures. It is therefore a genuinely Brazilian expression and was created in the state of Pernambuco, being present, above all, in the cities of Olinda, Recife and Nazaré da Mata. With about 30,000 inhabitants and an average of one hour from the capital Recife, Nazaré da Mata, located in the Zona da Mata of Pernambuco is the centre of the culture of maracatu rural (or baque solto), which is closely linked to the sugar cane plantations, very traditional throughout the region.\n\nReferência: adaptado de https://www.bahia.ws/en/maracatu-rural-at-the-carnival-of-nazare-da-mata-in-pernambuco/. Acesso em: 03/06/2024.\n\n**Com base em seus conhecimentos de Arte e de Língua Inglesa, marque a alternativa correta:**",
+      "options": [
+        {
+          "text": "O Maracatu Rural, uma das maiores tradições do interior de Pernambuco, é uma manifestação da cultura popular, também conhecido como Maracatu de Orquestra. Sua origem remonta à época do Brasil Colônia e consiste em uma mistura de culturas africanas, portuguesas e indígenas.",
+          "explanation": "Correta. A segunda frase traduz o texto: “Its origin dates back to the time of Colonial Brazil and consists of a mixture of African, Portuguese and indigenous cultures”. O maracatu rural, ou de baque solto, também é chamado de maracatu de orquestra, por causa dos instrumentos de sopro que acompanham a percussão."
+        },
+        {
+          "text": "A imagem retrata um caboclo de lança, principal símbolo do Maracatu Rural, criado décadas após a Proclamação da República no Brasil, por trabalhadores rurais de lavouras de cana de açúcar.",
+          "explanation": "A imagem mostra mesmo um caboclo de lança, e o texto liga o maracatu rural às plantações de cana, mas a datação contradiz o fragmento, que situa a origem na época do Brasil Colônia (“dates back to the time of Colonial Brazil”)."
+        },
+        {
+          "text": "O Maracatu rural é uma manifestação do folclore brasileiro que envolve dança e música, proveniente da cultura portuguesa e espanhola, sem influências africanas ou indígenas.",
+          "explanation": "O começo traduz a primeira frase do texto, mas o restante a contradiz: o maracatu rural é uma mistura de culturas africanas, portuguesas e indígenas (“a mixture of African, Portuguese and indigenous cultures”)."
+        },
+        {
+          "text": "O cortejo do Maracatu Rural diferencia-se dos outros maracatus por suas características musicais próprias. As principais cidades onde ele acontece são Senhor do Bonfim e Vitória, em Pernambuco.",
+          "explanation": "As cidades citadas no texto são Olinda, Recife e Nazaré da Mata, esta última apontada como o centro da cultura do maracatu rural."
+        },
+        {
+          "text": "O Maracatu rural também é conhecido por Maracatu do Baque Solto, e sua orquestra é formada por instrumentos de percussão e sopro, além de violão, violoncelo e violinos.",
+          "explanation": "O nome “baque solto” aparece no texto, e a orquestra tem de fato percussão e sopros; violão, violoncelo e violinos, porém, não fazem parte dela."
+        }
+      ],
+      "correct": "A"
+    }
+  ]
+}

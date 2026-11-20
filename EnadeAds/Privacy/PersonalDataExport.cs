@@ -38,7 +38,7 @@ public sealed class PersonalDataExport(ApplicationDbContext db, UserManager<Appl
 
         var mockExams = await db.MockExams.IgnoreQueryFilters().AsNoTracking()
             .Where(m => m.UserId == userId)
-            .Select(m => new { Trilha = m.TrackId, Tamanho = m.Size.ToString(), Inicio = m.StartedAt, Entrega = m.SubmittedAt, Acertos = m.CorrectCount, Objetivas = m.ObjectiveCount })
+            .Select(m => new { Trilha = m.TrackId, Tamanho = m.Size.ToString(), Inicio = m.StartedAt, Entrega = m.SubmittedAt, Acertos = m.CorrectCount, Objetivas = m.ObjectiveCount, IgnoroAResposta = m.IgnoredCount })
             .ToListAsync(cancellationToken);
 
         var duels = await db.DuelPlayers.AsNoTracking()

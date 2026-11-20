@@ -1,0 +1,1026 @@
+{
+  "year": 2024,
+  "track": "pave-3",
+  "questions": [
+    {
+      "key": "pave-2024-e3-q01",
+      "source": "PAVE 2024 – Etapa 3, questão 1 (UFPel)",
+      "kind": "Objective",
+      "subject": "biologia",
+      "statement": "Darwin e Lamarck são os pesquisadores mais conhecidos pelas suas teorias evolucionistas. Um dos principais exemplos que podemos ressaltar entre as diferenças de suas teorias é aquele relacionado ao pescoço das girafas. **De acordo com as teorias de Lamarck, o que ocorre com o pescoço das girafas?**\n\n![Ilustração de quatro girafas lado a lado, ligadas por setas da esquerda para a direita; de uma para a outra o pescoço fica mais comprido e alcança folhas cada vez mais altas](img/pave/2024/etapa-3/q01-1.png)",
+      "options": [
+        {
+          "text": "Lamarck afirma que as girafas são imutáveis, e desde sempre foram assim como são hoje.",
+          "explanation": "Essa é a ideia fixista, que Lamarck combateu: para ele, as espécies se transformam ao longo das gerações em resposta ao ambiente."
+        },
+        {
+          "text": "Segundo Lamarck, os pescoços longos surgiram de uma série de mutações que ocorreram nas girafas.",
+          "explanation": "Mutação é um conceito da genética, incorporado à teoria da evolução só no século XX (neodarwinismo). Lamarck explicava a mudança pelo uso e desuso dos órgãos, não por mutações."
+        },
+        {
+          "text": "De acordo com Lamarck, o pescoço longo surgiu da necessidade de alcançar folhas mais altas nas árvores, a qual levava as girafas a esticarem seus pescoços, aumentando-os de tamanho.",
+          "explanation": "Correta. É a lei do uso e desuso somada à herança dos caracteres adquiridos: o esforço de esticar o pescoço o alongaria, e essa característica adquirida em vida passaria aos descendentes."
+        },
+        {
+          "text": "Conforme Lamarck, os pescoços das girafas não crescem.",
+          "explanation": "Lamarck defendia justamente o contrário: o uso frequente do pescoço faria com que ele se desenvolvesse e ficasse maior de uma geração para a outra."
+        },
+        {
+          "text": "Para Lamarck, somente as girafas mais aptas conseguem sobreviver.",
+          "explanation": "A sobrevivência dos mais aptos é a seleção natural de Darwin: girafas que já nasciam com pescoço mais longo teriam vantagem e deixariam mais descendentes."
+        }
+      ],
+      "correct": "C"
+    },
+    {
+      "key": "pave-2024-e3-q02",
+      "source": "PAVE 2024 – Etapa 3, questão 2 (UFPel)",
+      "kind": "Objective",
+      "subject": "biologia",
+      "statement": "Durante uma aula de Biologia, a professora falou sobre o sistema ABO. Explicou sobre os quatro grupos sanguíneos existentes (A, B, AB e O) e fator Rh (+ ou -).\n\nUm estudante curioso sobre seu tipo sanguíneo, ao chegar em casa, questionou sua família, perguntando aos seus familiares quais eram seus tipos sanguíneos e também o fator Rh.\n\nO resultado de sua pesquisa foi:\n\n- Mãe – A+\n- Pai – B+\n- Avó paterno – O+\n- Avô paterno – B+\n- Avó materna – O+\n- Avô materno – AB+\n\n**Sabendo o tipo sanguíneo de seus familiares, qual(is) a(s) possibilidade(s) de tipo sanguíneo do Sistema ABO do referido estudante?**",
+      "options": [
+        {
+          "text": "A, B, AB e O.",
+          "explanation": "Correta. A mãe é A e tem mãe O, logo herdou o alelo recessivo i e é heterozigota (Ai); o pai é B e tem mãe O, logo é Bi. O cruzamento Ai × Bi pode gerar AB, Ai (tipo A), Bi (tipo B) e ii (tipo O)."
+        },
+        {
+          "text": "A e B apenas.",
+          "explanation": "Além de A e B, o cruzamento Ai × Bi também pode gerar AB e ii (tipo O), pois os dois pais carregam o alelo recessivo i herdado das avós de tipo O."
+        },
+        {
+          "text": "AB ou O apenas.",
+          "explanation": "AB e O são possíveis, mas não só eles: o filho também pode receber A da mãe com i do pai (tipo A) ou B do pai com i da mãe (tipo B)."
+        },
+        {
+          "text": "A, B ou O apenas.",
+          "explanation": "Falta o tipo AB: o filho pode receber o alelo A da mãe e o alelo B do pai, que são codominantes e se expressam juntos."
+        },
+        {
+          "text": "AB apenas.",
+          "explanation": "AB é só uma das quatro combinações. Como a mãe e o pai são heterozigotos (Ai e Bi), também podem ter filhos dos tipos A, B ou O."
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "key": "pave-2024-e3-q03",
+      "source": "PAVE 2024 – Etapa 3, questão 3 (UFPel)",
+      "kind": "Objective",
+      "subject": "biologia",
+      "statement": "No desenvolvimento embrionário de indivíduos triblásticos, são formados três folhetos embrionários. O folheto que recobre o embrião mais externamente é chamado de ectoderme. O folheto intermediário é denominado de mesoderme. Já o folheto mais interno é chamado de endoderme.\n\nEntre os folhetos embrionários, pode ou não se formar uma cavidade durante o desenvolvimento embrionário. **Como são denominados os indivíduos em que a cavidade é formada e delimitada totalmente pela mesoderme?**",
+      "options": [
+        {
+          "text": "Pseudocelomados.",
+          "explanation": "No pseudoceloma, a cavidade é revestida pela mesoderme de um lado e pela endoderme do outro, como nos nematódeos; ela não é totalmente delimitada pela mesoderme."
+        },
+        {
+          "text": "Acelomados.",
+          "explanation": "Acelomados, como os platelmintos, não têm cavidade corporal: o espaço entre a ectoderme e a endoderme é todo preenchido por tecido de origem mesodérmica."
+        },
+        {
+          "text": "Celomados.",
+          "explanation": "Correta. Celoma verdadeiro é a cavidade corporal inteiramente revestida por mesoderme, presente em anelídeos, moluscos, artrópodes, equinodermos e cordados."
+        },
+        {
+          "text": "Ablásticos.",
+          "explanation": "O termo indica ausência de folhetos embrionários, e não um tipo de cavidade; a pergunta trata de animais triblásticos, com os três folhetos."
+        },
+        {
+          "text": "Diblásticos.",
+          "explanation": "Diblásticos, como os cnidários, têm apenas ectoderme e endoderme; sem mesoderme não há como formar um celoma."
+        }
+      ],
+      "correct": "C"
+    },
+    {
+      "key": "pave-2024-e3-q04",
+      "source": "PAVE 2024 – Etapa 3, questão 4 (UFPel)",
+      "kind": "Objective",
+      "subject": "fisica",
+      "statement": "No século XVIII, Charles-Augustin de Coulomb fez importantes contribuições para a eletrostática com a formulação da Lei de Coulomb.\n\nReferência: GASPAR, Alberto. **Física, volume único**. 1. ed. São Paulo: Ática, 2005.\n\nTendo em mente suas descobertas, considere que em um campo elétrico estão posicionadas duas cargas elétricas puntiformes Q₁ e Q₂, de cargas 5μC e -4μC, respectivamente. Elas estão separadas por uma distância de 3m no vácuo. (dados: constante eletrostática: k=9x10⁹Nm²/C²).\n\n**Assinale a alternativa que indica, respectivamente, o valor da força elétrica entre as cargas, o tipo de interação entre as cargas e o campo elétrico a uma distância de 2m de Q₁.**",
+      "options": [
+        {
+          "text": "0,2N; atração eletrostática; 11,25x10⁴N/C.",
+          "explanation": "A força não é 0,2 N: F = 9×10⁹ × 5×10⁻⁶ × 4×10⁻⁶ / 3² = 0,02 N. O campo também está dez vezes maior que o correto, que é 1,125×10⁴ N/C."
+        },
+        {
+          "text": "0,02N; atração eletrostática; 1,125x10⁴N/C.",
+          "explanation": "Correta. F = k·|Q₁·Q₂|/d² = 9×10⁹ × 5×10⁻⁶ × 4×10⁻⁶ / 3² = 0,02 N; cargas de sinais opostos se atraem; e E = k·|Q₁|/d² = 9×10⁹ × 5×10⁻⁶ / 2² = 11 250 N/C = 1,125×10⁴ N/C."
+        },
+        {
+          "text": "0,02N; repulsão eletrostática; 112,5x10⁴N/C.",
+          "explanation": "A força está certa, mas cargas de sinais opostos se atraem, não se repelem; e 112,5×10⁴ N/C é cem vezes o valor do campo (1,125×10⁴ N/C)."
+        },
+        {
+          "text": "0,2N; repulsão eletrostática; 11,25x10³N/C.",
+          "explanation": "O campo confere (11,25×10³ = 1,125×10⁴ N/C), mas a força é 0,02 N, não 0,2 N, e a interação é de atração, porque Q₁ é positiva e Q₂ é negativa."
+        },
+        {
+          "text": "0,02N; atração eletrostática; 1,125x10³N/C.",
+          "explanation": "Força e atração estão certas, mas o campo está dez vezes menor: E = 9×10⁹ × 5×10⁻⁶ / 2² = 11 250 N/C = 1,125×10⁴ N/C, e não 1,125×10³ N/C."
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "key": "pave-2024-e3-q05",
+      "source": "PAVE 2024 – Etapa 3, questão 5 (UFPel)",
+      "kind": "Objective",
+      "subject": "fisica",
+      "statement": "**Observe a tabela a seguir, que mostra os efeitos fisiológicos diretos da eletricidade.**\n\n```\nIntensidade   Efeito          Causas\n\n1 a 3 mA      Percepção       A passagem da corrente provoca formigamento.\n                              Não existe perigo.\n\n3 a 10 mA     Eletrização     A passagem da corrente provoca movimentos.\n\n10 mA         Tetanização     A passagem da corrente provoca contrações\n                              musculares, agarramento ou repulsão.\n\n25 mA         Parada          A corrente atravessa o cérebro.\n              Respiratória\n\n25 a 30 mA    Asfixia         A corrente atravessa o tórax.\n\n60 a 75 mA    Fibrilação      A corrente atravessa o coração.\n              Ventricular\n```\n\nFonte: adaptado de https://manualdotrabalhoseguro.blogspot.com/2014/07/quais-sao-os-efeitos-do-choque-eletrico.html. Acesso em: 25/05/2024.\n\n**Considere que por um fio passam 2,8x10⁻¹ C de carga. Se uma pessoa, por acidente, encostar nesse fio por 10s, quais os efeitos da corrente no seu corpo?**",
+      "options": [
+        {
+          "text": "Percepção.",
+          "explanation": "Percepção vale para 1 a 3 mA. A corrente aqui é i = Q/Δt = 0,28 C / 10 s = 0,028 A = 28 mA; só se chega a 2,8 mA errando a conversão de ampère para miliampère."
+        },
+        {
+          "text": "Asfixia.",
+          "explanation": "Correta. i = Q/Δt = 2,8×10⁻¹ C / 10 s = 2,8×10⁻² A = 28 mA, valor dentro da faixa de 25 a 30 mA, que a tabela associa à asfixia."
+        },
+        {
+          "text": "Eletrização.",
+          "explanation": "Eletrização corresponde à faixa de 3 a 10 mA, e a corrente calculada é de 28 mA (0,28 C divididos por 10 s)."
+        },
+        {
+          "text": "Tetanização.",
+          "explanation": "A tabela associa a tetanização a 10 mA; a corrente do problema, 28 mA, é quase o triplo disso."
+        },
+        {
+          "text": "Parada Respiratória.",
+          "explanation": "A tabela indica parada respiratória em 25 mA; os 28 mA calculados caem na faixa seguinte, de 25 a 30 mA, que é a da asfixia."
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "key": "pave-2024-e3-q06",
+      "source": "PAVE 2024 – Etapa 3, questão 6 (UFPel)",
+      "kind": "Objective",
+      "subject": "fisica",
+      "statement": "O magnetismo é uma área da Física que investiga os fenômenos e propriedades dos materiais e forças associados aos campos magnéticos, tendo inúmeras aplicações práticas e tecnológicas em diversas áreas.\n\nReferência: GASPAR, Alberto. **Física, volume único**. 1. ed. São Paulo: Ática, 2005.\n\nConsidere as seguintes afirmações sobre as características do magnetismo.\n\nI. A intensidade do campo magnético é medida em unidades de Tesla (T).\n\nII. Os ímãs possuem pólos magnéticos que podem ser separados, obtendo-se um pólo norte e um pólo sul isoladamente.\n\nIII. A força magnética sobre uma carga em movimento é máxima quando a velocidade da carga é perpendicular ao campo magnético.\n\nIV. Linhas de campo magnético emergem do pólo sul e penetram no pólo norte de um ímã.\n\nV. Materiais paramagnéticos são fortemente atraídos por ímãs e mantêm a magnetização mesmo após a remoção do campo magnético externo.\n\n**Está(ão) correta(s):**",
+      "options": [
+        {
+          "text": "I, II e IV apenas.",
+          "explanation": "A I está certa, mas II e IV não: não existe polo magnético isolado (ao partir um ímã surgem dois ímãs completos) e as linhas de campo saem do polo norte e entram no polo sul."
+        },
+        {
+          "text": "II apenas.",
+          "explanation": "A II é falsa: os polos magnéticos são inseparáveis; cortar um ímã produz dois ímãs menores, cada um com polo norte e polo sul."
+        },
+        {
+          "text": "II e III apenas.",
+          "explanation": "A III está certa, mas a II não, pois não se obtém polo norte ou polo sul isolado. Falta ainda a I: o tesla é mesmo a unidade de campo magnético no SI."
+        },
+        {
+          "text": "I e III apenas.",
+          "explanation": "Correta. I: o campo magnético é medido em tesla (T). III: F = |q|·v·B·sen θ é máxima para θ = 90°. As demais falham: polos não se isolam (II), as linhas saem do norte e entram no sul (IV) e quem retém a magnetização são os materiais ferromagnéticos (V)."
+        },
+        {
+          "text": "V apenas.",
+          "explanation": "A V descreve materiais ferromagnéticos, como o ferro. Os paramagnéticos são atraídos fracamente e perdem a magnetização quando o campo externo é retirado."
+        }
+      ],
+      "correct": "D"
+    },
+    {
+      "key": "pave-2024-e3-q07",
+      "source": "PAVE 2024 – Etapa 3, questão 7 (UFPel)",
+      "kind": "Objective",
+      "subject": "quimica",
+      "statement": "Os microplásticos, como o próprio nome diz, são pequenas partículas de plástico. Esse tipo de material é um dos principais poluentes dos oceanos. Algumas pesquisas consideram que o tamanho máximo dos microplásticos é de 1 milímetro, enquanto outras adotam a medida de 5 milímetros. Nas últimas décadas, a produção de plástico tem aumentado cada vez mais em função da sua aplicabilidade em itens de diferentes setores. Dentre os polímeros mais comuns, destacam-se:\n\n![Unidade repetitiva do polipropileno, entre colchetes com índice n: dois carbonos unidos por ligação simples; o primeiro ligado a dois hidrogênios e o segundo a um hidrogênio e a um grupo CH₃](img/pave/2024/etapa-3/q07-1.png)\n\nPolipropileno (PP)\n\n![Unidade repetitiva do polietileno tereftalato, entre colchetes com índice n: anel benzênico ligado, em posições opostas, a dois grupos com carbonila C=O unida a um oxigênio; um desses oxigênios se liga a uma cadeia com dois grupos CH₂](img/pave/2024/etapa-3/q07-2.png)\n\nPolietileno tereftalato (PET)\n\nFigura 1: Apresentação das estruturas químicas do polipropileno e do polietileno tereftalato.\n\nFonte: https://brasilescola.uol.com.br/quimica/pet-plastico-momento.htm. Acesso em: 11/08/2024.\n\nEm consequência do consumo de produtos feitos por esses polímeros, são geradas grandes quantidades de resíduos que nem sempre são reciclados ou reutilizados. Assim, eles são lançados de forma direta ou indireta no ambiente causando uma série de danos. Desse modo, as atividades antrópicas e industriais são consideradas altamente impactantes, pois são as principais fontes de inserção de plásticos no ambiente.\n\nReferência: https://www.ecycle.com.br/polimeros/#:~:text=Pol%C3%ADmeros%20s%C3%A3o%20macromol%. Acesso em: 15/06/2024.\n\n**De acordo com as estruturas mencionadas acima, quais são os nomes das funções orgânicas às quais esses polímeros pertencem, respectivamente?**",
+      "options": [
+        {
+          "text": "Hidrocarboneto e ácido carboxílico.",
+          "explanation": "O polipropileno é mesmo um hidrocarboneto, mas o PET não tem o grupo –COOH: o oxigênio vizinho à carbonila está ligado a carbono, e não a hidrogênio, o que caracteriza éster."
+        },
+        {
+          "text": "Hidrocarboneto, cetona e éter.",
+          "explanation": "No PET, a carbonila (C=O) e o oxigênio (–O–) estão ligados ao mesmo carbono e formam um único grupo funcional, o éster; não são uma cetona e um éter separados."
+        },
+        {
+          "text": "Álcool e cetona.",
+          "explanation": "Nenhuma das estruturas tem hidroxila (–OH) ligada a carbono saturado, e a carbonila do PET está ligada a um oxigênio, o que faz dela parte de um éster, não de uma cetona."
+        },
+        {
+          "text": "Álcool e éster.",
+          "explanation": "O PET é um poliéster, mas o polipropileno só tem carbono e hidrogênio: é um hidrocarboneto, sem a hidroxila que caracterizaria um álcool."
+        },
+        {
+          "text": "Hidrocarboneto e éster.",
+          "explanation": "Correta. O polipropileno é formado apenas por carbono e hidrogênio (hidrocarboneto), e o PET traz o grupo –COO– ligado a carbonos dos dois lados, característico dos ésteres (é um poliéster)."
+        }
+      ],
+      "correct": "E"
+    },
+    {
+      "key": "pave-2024-e3-q08",
+      "source": "PAVE 2024 – Etapa 3, questão 8 (UFPel)",
+      "kind": "Objective",
+      "subject": "quimica",
+      "statement": "A prednisona é um corticosteroide farmacologicamente inerte que requer biotransformação hepática para produzir prednisolona, sua forma terapeuticamente ativa. Ambos os fármacos têm as mesmas indicações e posologias, mas alguns pacientes com disfunção hepática podem ter mais vantagens com a prednisolona, já que não requer biotransformação hepática. Na hora da prescrição é o médico quem poderá decidir qual será a mais adequada ao paciente. Conforme as estruturas abaixo, julgue os itens a seguir.\n\nReferência: https://guiadafarmacia.com.br/prednisona-prednisolona-o-que-e-para-o-que-serve-e-como-tomar/. Acesso em: 21/06/2024.\n\n![Fórmula estrutural da prednisona: esteroide com quatro anéis fundidos. O primeiro anel tem duas ligações duplas C=C e uma carbonila C=O; o terceiro anel tem outra carbonila C=O; no anel de cinco membros, um carbono está ligado a um grupo OH e a uma cadeia lateral com carbonila C=O seguida de CH₂OH. Cunhas e traços indicam a orientação espacial de metilas, hidrogênios e hidroxila](img/pave/2024/etapa-3/q08-1.png)\n\nEstrutura da Prednisona\n\nFonte: https://www.sigmaaldrich.com/BR/pt/product/sial/phr1042. Acesso em: 21/06/2024.\n\n![Fórmula estrutural da prednisolona: igual à da prednisona, exceto no terceiro anel, em que há um grupo OH em cunha no lugar da carbonila C=O. Mantém as duas ligações duplas C=C e a carbonila do primeiro anel, o OH no anel de cinco membros e a cadeia lateral com carbonila C=O seguida de CH₂OH](img/pave/2024/etapa-3/q08-2.png)\n\nEstrutura da Prednisolona\n\nFonte: https://www.sigmaaldrich.com/BR/pt/product/sigma/p6004. Acesso em: 21/06/2024.\n\nFigura I: Estruturas molecular da Prednisona e Prednisolona.\n\nI - As duas estruturas mencionadas, apresentam 7 carbonos com geometria trigonal plana.\n\nII - A prednisona apresenta isomeria cis-trans.\n\nIII - As duas estruturas apresentam as funções orgânicas cetona e álcool.\n\nIV - A prednisolona apresenta pelo menos um carbono quiral.\n\n**Estão corretas:**",
+      "options": [
+        {
+          "text": "II, III e IV apenas.",
+          "explanation": "Correta. II: nos anéis há carbonos com dois ligantes diferentes voltados para a mesma face ou para faces opostas (as cunhas e os traços), o que dá isomeria geométrica. III: as duas têm carbonila entre carbonos (cetona) e OH em carbono saturado (álcool). IV: a prednisolona tem vários carbonos com quatro ligantes diferentes. A I falha porque só a prednisona tem 7 carbonos trigonais; a prednisolona tem 6."
+        },
+        {
+          "text": "I, II e III apenas.",
+          "explanation": "A I é falsa: carbono trigonal plano é o de ligação dupla (sp²). A prednisona tem 7 (quatro das duas C=C e três carbonilas), mas a prednisolona tem 6, pois uma carbonila deu lugar a C–OH. E falta a IV, que é verdadeira."
+        },
+        {
+          "text": "I, III e IV apenas.",
+          "explanation": "III e IV estão certas, mas a I não: só a prednisona tem 7 carbonos trigonais planos; a prednisolona tem 6. Falta ainda a II, considerada correta."
+        },
+        {
+          "text": "I e II apenas.",
+          "explanation": "Inclui a I, que é falsa (a prednisolona tem 6 carbonos trigonais planos, não 7), e deixa de fora III e IV, que são verdadeiras."
+        },
+        {
+          "text": "II e III apenas.",
+          "explanation": "As duas estão certas, mas a IV também: a prednisolona tem carbonos quirais, como o carbono do anel ligado à hidroxila em cunha."
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "key": "pave-2024-e3-q09",
+      "source": "PAVE 2024 – Etapa 3, questão 9 (UFPel)",
+      "kind": "Objective",
+      "subject": "quimica",
+      "statement": "Glicose e frutose são dois tipos de carboidratos conhecidos como monossacarídeos. Eles têm a mesma composição, mas diferentes estruturas moleculares, o que faz com que possuam poderes adoçantes diferentes. A glicose pura possui um poder médio de dulçor, enquanto a frutose já possui um gosto doce mais intenso, sendo o principal tipo de açúcar presente no mel. Em conjunto, a combinação de glicose e frutose forma o dissacarídeo sacarose, que é conhecido popularmente como o açúcar de mesa. A glicose e a frutose ocorrem naturalmente nos alimentos, mas também são utilizadas industrialmente na forma de xarope para adoçar refrigerantes e outras bebidas, cereais, doces e outros produtos.\n\nReferência: https://nutricaoclinica.com.br/administrar-artigos/264-1-dicas-verdades-e-significados/2069-qual-a-diferenca-entre-glicose-e-frutose. Acesso em: 11/08/2024.\n\nAs estruturas de glicose e frutose estão representadas abaixo:\n\n![Projeções de Fischer de duas cadeias abertas de seis carbonos. Glicose: grupo CHO no topo, hidroxilas nos quatro carbonos seguintes e CH₂OH na base. Frutose: CH₂OH no topo, carbonila C=O no segundo carbono, hidroxilas nos três carbonos seguintes e CH₂OH na base](img/pave/2024/etapa-3/q09-1.png)\n\nFigura 1: Representação das estruturas químicas da D-glicose e da D-frutose, respectivamente.\n\nFonte: http://qnesc.sbq.org.br/online/qnesc29/03-CCD-2907.pdf. Acesso em: 11/08/2024.\n\n**Dadas as estruturas acima, é correto afirmar que são isômeros**",
+      "options": [
+        {
+          "text": "de cadeia.",
+          "explanation": "Isômeros de cadeia têm a mesma função e diferem no tipo de cadeia (aberta ou fechada, normal ou ramificada). Aqui as duas cadeias são abertas e normais; o que muda é o grupo funcional."
+        },
+        {
+          "text": "que apresentam metameria.",
+          "explanation": "Metameria é a mudança de posição de um heteroátomo dentro da cadeia, como em éteres, ésteres e aminas. Nas duas estruturas não há heteroátomo entre carbonos da cadeia."
+        },
+        {
+          "text": "de posição.",
+          "explanation": "Na isomeria de posição a função é a mesma e muda apenas o lugar do grupo ou da insaturação. Aqui, ao passar da ponta para o meio da cadeia, a carbonila deixa de ser aldeído e vira cetona: muda a função."
+        },
+        {
+          "text": "que apresentam tautomeria.",
+          "explanation": "Tautomeria é o equilíbrio dinâmico entre isômeros que se convertem um no outro, como aldeído ⇌ enol ou cetona ⇌ enol. As estruturas mostradas são um aldeído e uma cetona, substâncias distintas."
+        },
+        {
+          "text": "de função.",
+          "explanation": "Correta. As duas têm a mesma fórmula molecular (C₆H₁₂O₆), mas a glicose tem a carbonila na ponta da cadeia (aldeído, é uma aldose) e a frutose, no segundo carbono (cetona, é uma cetose): funções diferentes."
+        }
+      ],
+      "correct": "E"
+    },
+    {
+      "key": "pave-2024-e3-q10",
+      "source": "PAVE 2024 – Etapa 3, questão 10 (UFPel)",
+      "kind": "Objective",
+      "subject": "historia",
+      "statement": "**Leia o trecho da música abaixo e responda à questão proposta.**\n\n```\n“Que ousou lutar, honrou a raça\nHonrou a causa que adotou\nAplauso é pra poucos\nRevolução no Brasil tem um nome\nVejam o homem\nSei que esse era um homem também\nA imagem e o gesto\nLutar por amor”\n```\n\nReferência: Racionais MC's. **Mil Faces de um Homem Leal - Marighella**. 2012.\n\nCom relação às ações armadas e à repressão durante a ditadura militar no Brasil, considere as afirmações abaixo.\n\nI. Carlos Brilhante Ustra participou ativamente como agente repressor, sendo o primeiro militar condenado pela justiça brasileira por prática de tortura.\n\nII. No período do Regime Militar foram violados os direitos humanos, sendo os exemplos evidentes a censura aos meios de comunicação, as prisões arbitrárias, as torturas e os assassinatos dos opositores da ditadura.\n\nIII. Político, guerrilheiro e poeta, Carlos Marighella foi considerado o inimigo número um da ditadura militar e acabou morto a tiros por agentes do DOPS em uma emboscada.\n\n**Está(ão) correta(s):**",
+      "options": [
+        {
+          "text": "I apenas.",
+          "explanation": "A I está certa, mas II e III também: as violações de direitos humanos do regime são amplamente documentadas, e Marighella foi morto em uma emboscada de agentes do DOPS, em 1969."
+        },
+        {
+          "text": "II apenas.",
+          "explanation": "Além da II, são verdadeiras a I (Ustra, que comandou o DOI-Codi de São Paulo, foi declarado torturador pela Justiça em 2008) e a III (a morte de Marighella em 1969)."
+        },
+        {
+          "text": "I e II apenas.",
+          "explanation": "Falta a III: Marighella, líder da Ação Libertadora Nacional (ALN), foi tratado pelo regime como inimigo número um e morreu baleado em uma emboscada em São Paulo, em 1969."
+        },
+        {
+          "text": "II e III apenas.",
+          "explanation": "Falta a I: Ustra chefiou o DOI-Codi de São Paulo, centro de repressão e tortura, e em 2008 foi o primeiro militar reconhecido pela Justiça brasileira como torturador."
+        },
+        {
+          "text": "I, II e III.",
+          "explanation": "Correta. As três procedem: Ustra comandou o DOI-Codi paulista e foi o primeiro militar reconhecido pela Justiça como torturador (I); censura, prisões arbitrárias, tortura e assassinatos marcaram o regime (II); e Marighella, líder da ALN, foi morto em 1969 em uma emboscada do DOPS (III)."
+        }
+      ],
+      "correct": "E"
+    },
+    {
+      "key": "pave-2024-e3-q11",
+      "source": "PAVE 2024 – Etapa 3, questão 11 (UFPel)",
+      "kind": "Objective",
+      "subject": "historia",
+      "statement": "“Entre nós, a força do fascismo anunciou-se de maneira clara a partir de 1932, com a criação da Ação Integralista Brasileira (AIB). Era o primeiro partido político de massas do Brasil, com capacidade de inserção nacional, crença corporativa, culto à liderança política e ao domínio do Estado, e disposição para fazer ecoar o discurso antissemita uma oitava acima do que já era corrente na sociedade brasileira. Os integralistas arrebanharam apoio nos setores das classes médias urbanas, sobretudo entre funcionários públicos, padres, profissionais liberais, poetas, comerciantes, industriais, e nas áreas de colonização alemã e italiana. Recebiam assessoria e ajuda financeira da embaixada da Itália, dispunham em seus quadros de um grupo de intelectuais prontos a produzir ideologia fascista em moldura de brasilidade, Plínio Salgado, Miguel Reale, Gustavo Barroso, e contavam com uma militância ativa.”\n\nReferência: SCHWARCZ, Lilia M.; STARLING, Heloísa M. **Brasil**: uma biografia. 1ª Ed. São Paulo: Companhia das Letras, 2015. p. 367.\n\n**Considerando o texto acima sobre o integralismo, assim como seus conhecimentos, assinale a alternativa correta**.",
+      "options": [
+        {
+          "text": "O integralismo surgiu no Brasil em 1932, liderado por Plínio Salgado, com uma proposta política que defendia a democracia, a igualdade e a liberdade individual.",
+          "explanation": "Data e líder estão certos, mas a proposta era a oposta: um Estado autoritário, corporativista e nacionalista, com culto ao chefe, contrário à democracia liberal e às liberdades individuais."
+        },
+        {
+          "text": "O integralismo combatia o liberalismo e o comunismo e apoiou Luís Carlos Prestes durante a elaboração do Plano Cohen.",
+          "explanation": "Prestes era o principal líder comunista, inimigo dos integralistas. O Plano Cohen (1937) foi um documento forjado, redigido por um militar integralista, que atribuía aos comunistas um plano de tomada do poder e serviu de pretexto para o golpe do Estado Novo."
+        },
+        {
+          "text": "A Ação Integralista Brasileira (AIB) tinha como lema “pão, terra e liberdade”, sendo liderada por Plínio Salgado.",
+          "explanation": "O lema integralista era “Deus, Pátria e Família”. “Pão, terra e liberdade” foi a palavra de ordem da Aliança Nacional Libertadora (ANL), adversária da AIB."
+        },
+        {
+          "text": "O integralismo foi uma versão abrasileirada do fascismo italiano surgido durante a Era Vargas.",
+          "explanation": "Correta. Criada em 1932, no governo Vargas, a AIB adaptou o fascismo ao Brasil, como diz o texto (“ideologia fascista em moldura de brasilidade”): partido de massas, culto ao líder, nacionalismo, uniformes e símbolos próprios."
+        },
+        {
+          "text": "A Aliança Nacional Libertadora (ANL) foi uma grande aliada dos integralistas, pois possuía os mesmos objetivos de modernizar o Brasil.",
+          "explanation": "A ANL (1935) era uma frente antifascista, com forte presença de comunistas e presidência de honra de Prestes; integralistas e aliancistas eram adversários e chegaram a se enfrentar nas ruas."
+        }
+      ],
+      "correct": "D"
+    },
+    {
+      "key": "pave-2024-e3-q12",
+      "source": "PAVE 2024 – Etapa 3, questão 12 (UFPel)",
+      "kind": "Objective",
+      "subject": "geografia",
+      "statement": "**Leia o texto a seguir.**\n\nAs pessoas estão em constante movimento pelos territórios, essencialmente em busca de novas e melhores perspectivas de vida. A mobilidade populacional pelo espaço geográfico é chamada de migração. Movimentos migratórios ocorreram praticamente em todas as épocas da história da humanidade e não é diferente no mundo atual. Nos últimos trinta anos, eles se tornaram ainda mais dinâmicos e, de acordo com a Divisão de População da ONU, em 2019, atingiram a cifra de 271,6 milhões de imigrantes em todo o mundo.\n\nReferência: Adaptado de JUNIOR, Alfredo Boulos; SILVA, Edilson Adão Candido; FURQUIM, Laercio. **Multiversos:** Ciências Humanas: globalização, tempo e espaço: ensino médio. São Paulo: FTD, 2020.\n\nA partir dos seus conhecimentos sobre o tema a que se refere o texto, avalie as seguintes afirmações.\n\nI – Êxodo rural e urbano não são tipos de migração.\n\nII – A migração espontânea ou voluntária acontece de acordo com a vontade e os interesses do indivíduo.\n\nIII – A imigração provoca mudanças tanto no local de origem quanto no de chegada, assim como impactos positivos e negativos.\n\nIV – Pessoas que migram por motivos de guerras, perseguições políticas ou religiosas estão inseridas no conceito de migração pendular.\n\nV – A migração interna acontece dentro dos limites territoriais de um mesmo país.\n\n**Estão corretas:**",
+      "options": [
+        {
+          "text": "II, III e V apenas.",
+          "explanation": "Correta. II define a migração voluntária, III reconhece os efeitos nos dois lugares e V define a migração interna. A I é falsa (êxodo rural é um tipo de migração) e a IV também: quem foge de guerras e perseguições faz migração forçada, é refugiado; pendular é o vaivém diário entre casa e trabalho ou estudo."
+        },
+        {
+          "text": "II, III e IV apenas.",
+          "explanation": "A IV é falsa: migração pendular é o deslocamento diário de ida e volta, por exemplo entre cidades de uma região metropolitana. Fugir de guerra ou perseguição é migração forçada. Falta ainda a V."
+        },
+        {
+          "text": "I, IV e V apenas.",
+          "explanation": "Só a V procede. O êxodo rural é a migração do campo para a cidade (a I é falsa), e a IV confunde migração forçada com migração pendular."
+        },
+        {
+          "text": "I, II e III apenas.",
+          "explanation": "A I é falsa, pois o êxodo rural é um dos tipos mais conhecidos de migração interna; e falta a V, que está correta."
+        },
+        {
+          "text": "III, IV e V apenas.",
+          "explanation": "III e V estão certas, mas a IV não: refugiados de guerras e perseguições fazem migração forçada, não pendular. Falta ainda a II."
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "key": "pave-2024-e3-q13",
+      "source": "PAVE 2024 – Etapa 3, questão 13 (UFPel)",
+      "kind": "Objective",
+      "subject": "geografia",
+      "statement": "**Leia os textos a seguir.**\n\n**TEXTO I**\n\nO direito à cidade não pode ser concebido como um simples direito de visita [...] Basta abrir os olhos para compreender a vida cotidiana daquele que corre de sua moradia para a estação próxima ou distante, para o metrô superlotado, para o escritório ou para a fábrica, para retomar à tarde o mesmo caminho e voltar para a casa a fim de recuperar as forças para recomeçar tudo no dia seguinte. O quadro dessa miséria generalizada não poderia deixar de se fazer acompanhar pelo quadro das “satisfações” que a dissimulam e que se tornam os meios de eludi-la e de evadir-se dela.\n\nReferência: LEFEBVRE, H. **O direito à cidade.** São Paulo: Centauro, 2010. p. 117-118.\n\n**TEXTO II**\n\n![Fotografia em preto e branco de uma manifestação de rua. Em primeiro plano, uma mulher de punho erguido segura um cartaz escrito A CIDADE É DO POVO; ao lado, outra mulher veste camiseta com os dizeres MOVIMENTO DE MORADIA; ao fundo, mais manifestantes com bandeiras e faixas](img/pave/2024/etapa-3/q13-1.png)\n\nFonte: https://mst.org.br/wp-content/uploads/2021/07/photo_2018-02-28_18-28-46-1024x576-1-768x432.jpg. Acesso em: 19/06/2024.\n\n**Sobre as questões urbanas tratadas nos textos I e II, marque a alternativa correta**.",
+      "options": [
+        {
+          "text": "O surgimento das periferias tornou possível o acesso à moradia, o que facilitou o planejamento urbano para melhorar o deslocamento das pessoas de um lugar a outro das cidades.",
+          "explanation": "As periferias cresceram pela segregação socioespacial: moradia precária e distante do trabalho e dos serviços, em geral sem planejamento. O resultado são os longos deslocamentos diários que o Texto I descreve."
+        },
+        {
+          "text": "O direito à moradia somente poderá ser garantido para os cidadãos que possam arcar com despesas financeiras e pagamento de impostos das suas casas.",
+          "explanation": "A moradia é um direito social de todos, previsto na Constituição, e não depende da renda de cada um; por isso existem políticas habitacionais voltadas justamente a quem não pode pagar."
+        },
+        {
+          "text": "O lento crescimento urbano no Brasil é acompanhado por planejamento e organização socioespacial, sendo possível percebê-lo em áreas urbanas que têm grande crescimento.",
+          "explanation": "A urbanização brasileira foi rápida, concentrada na segunda metade do século XX, e em grande parte desordenada, o que gerou favelas, periferias sem infraestrutura e déficit habitacional."
+        },
+        {
+          "text": "O enfraquecimento da ação dos movimentos sociais pelo direito à moradia, entre os séculos XX e XXI, se deu pela atenção dispensada pelos governos à resolução da falta de moradias.",
+          "explanation": "O déficit habitacional persiste, e os movimentos de moradia seguem ativos, com ocupações e protestos como o da fotografia do Texto II (“A cidade é do povo”)."
+        },
+        {
+          "text": "Assegurado pela Constituição Federal de 1988, o direito à moradia é uma competência comum da União, dos estados e dos municípios.",
+          "explanation": "Correta. A moradia está entre os direitos sociais do art. 6º da Constituição, e o art. 23 define como competência comum da União, dos estados, do Distrito Federal e dos municípios promover programas de construção de moradias e de melhoria das condições habitacionais."
+        }
+      ],
+      "correct": "E"
+    },
+    {
+      "key": "pave-2024-e3-q14",
+      "source": "PAVE 2024 – Etapa 3, questão 14 (UFPel)",
+      "kind": "Objective",
+      "subject": "geografia",
+      "statement": "**Leia os textos a seguir.**\n\n**TEXTO I**\n\n![Gráfico de linha Taxa de fecundidade total, Brasil, 1940-2010. Valores: 1940, 6,16; 1950, 6,21; 1960, 6,28; 1970, 5,76; 1980, 4,35; 1990, 2,85; 2000, 2,38; 2010, 1,90](img/pave/2024/etapa-3/q14-1.png)\n\nFonte: IBGE. Censo demográfico 2010. Disponível em: https://www.ibge.gov.br/. Acesso em: 13/03/2023.\n\n**TEXTO II**\n\nA Constituição Federal, no Art. 226, § 7º, reconhece o planejamento familiar como um direito fundamental:\n\n“Fundado nos princípios da dignidade da pessoa humana e da paternidade responsável, o planejamento familiar é livre decisão do casal, competindo ao Estado propiciar recursos educacionais e científicos para o exercício deste direito, vedada qualquer forma coercitiva por parte de instituições oficiais ou privadas.”.\n\nReferência: BRASIL. [Constituição (1988)]. Constituição da República Federativa do Brasil de 1988. Disponível em: https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm. Acesso em: 13/03/2023.\n\n**Sabendo que a taxa de fecundidade tem relação direta com o planejamento familiar, avalie as afirmativas a seguir.**\n\nI - A taxa de fecundidade indica o número médio de filhos por mulher, considerando mulheres entre 20 e 59 anos. A análise desse índice é fundamental para o planejamento de políticas públicas de educação, saúde e previdência.\n\nII - Entende-se planejamento familiar como o conjunto de ações de regulação da fecundidade que garanta direitos iguais de constituição, limitação ou aumento da prole pela mulher, pelo homem ou pelo casal.\n\nIII - O declínio das taxas de fecundidade deve-se à maior inserção da mulher no mercado de trabalho, à disseminação do uso de métodos contraceptivos e à esterilização de mulheres, entre outros fatores relacionados ao processo de urbanização brasileiro, iniciado na segunda metade do século passado.\n\nIV - É dever do Estado, através do Sistema Único de Saúde, em associação às instâncias componentes do sistema educacional, promover condições e recursos informativos, educacionais, técnicos e científicos que assegurem o livre exercício do planejamento familiar.\n\n**Estão corretas:**",
+      "options": [
+        {
+          "text": "II e III apenas.",
+          "explanation": "II e III estão certas, mas a IV também: cabe ao Estado, por meio do SUS e do sistema educacional, oferecer informação e recursos para o planejamento familiar, como indica o Texto II."
+        },
+        {
+          "text": "II, III e IV apenas.",
+          "explanation": "Correta. II e IV reproduzem o que a Lei do Planejamento Familiar (Lei 9.263/1996) estabelece, em linha com o art. 226, § 7º, da Constituição; III aponta causas reconhecidas da queda mostrada no gráfico (de 6,28 filhos por mulher em 1960 para 1,90 em 2010). A I é falsa: a taxa considera mulheres em idade reprodutiva, de 15 a 49 anos."
+        },
+        {
+          "text": "II e IV apenas.",
+          "explanation": "Falta a III: a entrada das mulheres no mercado de trabalho, os contraceptivos, a esterilização e a urbanização explicam a queda da fecundidade a partir dos anos 1960, visível no gráfico."
+        },
+        {
+          "text": "III e IV apenas.",
+          "explanation": "Falta a II, que traz a definição legal de planejamento familiar: ações de regulação da fecundidade com direitos iguais para a mulher, o homem ou o casal."
+        },
+        {
+          "text": "I, II, III e IV.",
+          "explanation": "A I é falsa: a taxa de fecundidade é calculada para mulheres em idade reprodutiva, convencionalmente de 15 a 49 anos, e não de 20 a 59."
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "key": "pave-2024-e3-q15",
+      "source": "PAVE 2024 – Etapa 3, questão 15 (UFPel)",
+      "kind": "Objective",
+      "subject": "filosofia",
+      "statement": "**Leia os textos abaixo.**\n\n**TEXTO I**\n\nA obra Eichmann em Jerusalém, um relato sobre a banalidade do mal (1961), escrita pela filósofa Hannah Arendt (1906-1975), sugere que a incapacidade ou a preguiça de se fazer julgamentos racionais sobre as ações morais e políticas, sustenta a violência sob a aparência da “normalidade”, postura fortemente amparada por slogans nacionalistas e pelos estereótipos que alimentam uma noção superficial de quem se considera um “cidadão de bem”. Ao acompanhar o julgamento de Adolf Eichmann, funcionário do regime de Hitler, responsável por encaminhar judeus, homossexuais, ciganos, testemunhas de Jeová, e deficientes físicos e intelectuais aos campos de extermínio, Arendt percebeu que as declarações do réu se mantinham através da repetição de clichês e de uma obediência absoluta ao que ele considerava um ofício como qualquer outro. Sua noção de responsabilidade pessoal pelos crimes estava, assim, comprometida pelo que a filósofa intitulou como banalização do mal, mal cotidiano operado por sujeitos comuns.\n\nReferência: TIBURI, Márcia. **Filosofia Prática**. 3.ed. Rio de Janeiro: Record, 2016. p. 35-36.\n\n**TEXTO II**\n\nAdolf Eichmann era um funcionário do governo, do alto escalão do partido de Hitler e, como viemos a perceber por seu próprio testemunho, um de seus funcionários mais dedicados e competentes, daqueles que cumpriam seu papel, daqueles que vestiam a camiseta da empresa nazista (...). No fim da guerra, com a derrota da Alemanha, ele fugiu para a América do Sul, como fizeram outros, sendo capturado na Argentina em 1961(...). O que se via nele era uma espécie de carrasco de gabinete, um carrasco racional que não se envolvia com a sanguinolência do crime na prática do cotidiano. Até porque, como ele sabia, o que ele fazia, do ponto de vista da lei do Estado naquele momento, não era crime. Crime contra a humanidade, sim, mas não crime juridicamente punível pelo Estado, já que era um crime em nome do Estado. Eichmann nunca dera um tiro em uma pessoa. Ele calculava a morte de todos, é verdade, para que acontecesse do modo mais racional e econômico possível.\n\nReferência: TIBURI, Márcia. **Filosofia Prática**. 3.ed. Rio de Janeiro: Record, 2016. p. 35-36.\n\n**Sobre o fenômeno apontado nos textos e o seu contexto histórico, é correto afirmar que:**",
+      "options": [
+        {
+          "text": "Em um contexto no qual a Alemanha enfrentava a Rússia e a Grã-Bretanha durante a Primeira Guerra Mundial, a filósofa Hannah Arendt definiu Eichmann como um burocrata do Estado nazista, cuja personalidade aliava psicopatia e sadismo, razão pela qual praticou tais crimes.",
+          "explanation": "O Estado nazista e seus crimes pertencem ao contexto da Segunda Guerra, não da Primeira. E Arendt não viu em Eichmann um psicopata sádico: descreveu um funcionário comum, que cumpria ordens sem refletir sobre o que fazia."
+        },
+        {
+          "text": "O nazismo, como um regime totalitário, promoveu um racismo de Estado que culminou em práticas de eugenia e no extermínio de milhões de pessoas consideradas indesejáveis durante a Segunda Guerra Mundial. Conforme Arendt, esses eventos ilustram a naturalização de crimes e a incapacidade de Eichmann em distinguir entre as esferas legal e moral.",
+          "explanation": "Correta. O nazismo fez do racismo uma política de Estado, com eugenia e extermínio em massa na Segunda Guerra. A “banalidade do mal” descreve como esses crimes viraram rotina para burocratas como Eichmann, que tomava por certo o que era legal (Texto II) e obedecia sem fazer julgamento moral (Texto I)."
+        },
+        {
+          "text": "O relato de Arendt remete ao julgamento ocorrido em Versalhes, no fim da Primeira Guerra Mundial, a partir do qual ela definiu a personalidade de Eichmann como a de um cidadão subserviente que apenas cumpria as obrigações determinadas pelo Estado, sem fazer um julgamento moral de suas ações.",
+          "explanation": "A descrição de Eichmann é fiel a Arendt, mas o julgamento que ela acompanhou ocorreu em Jerusalém, em 1961, como indica o título da obra. Versalhes foi o tratado de paz de 1919, ao fim da Primeira Guerra."
+        },
+        {
+          "text": "O julgamento de Eichmann ocorreu no Tribunal de Nuremberg, na Alemanha, logo após o término da Segunda Guerra Mundial, a partir do qual Arendt o descreveu como um burocrata que não refletia sobre as atrocidades cometidas pelo Estado e sobre sua responsabilidade moral.",
+          "explanation": "A descrição do burocrata irrefletido confere, mas Eichmann não foi julgado em Nuremberg (1945-1946): ele fugiu para a Argentina, como conta o Texto II, e só foi julgado em Jerusalém, em 1961."
+        },
+        {
+          "text": "O julgamento de Eichmann, acompanhado por Arendt, ocorreu durante a ascensão dos regimes nazifascistas na Europa. Segundo a filósofa, suas ações eram movidas por uma convicção antissemita profundamente enraizada e acompanhadas por uma consciência de culpa em relação aos atos atrozes, com clara distinção entre as esferas legal e moral.",
+          "explanation": "O julgamento foi em 1961, muito depois da queda do nazismo. E Arendt sustenta o oposto: Eichmann agia por obediência, repetindo clichês, sem consciência de culpa e sem distinguir o que era legal do que era moral."
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "key": "pave-2024-e3-q16",
+      "source": "PAVE 2024 – Etapa 3, questão 16 (UFPel)",
+      "kind": "Objective",
+      "subject": "filosofia",
+      "statement": "**Leia os textos a seguir.**\n\n**TEXTO I**\n\nSomos criaturas sociais, e nosso bem-estar depende, em boa parte, da aprovação dos que estão em volta. (...) O diabólico poder de atração das redes sociais se baseia nesse elemento primordial. Cada curtida é uma carícia maternal em nosso ego. A arquitetura do Facebook é toda sustentada sobre a nossa necessidade de reconhecimento, como admite, tranquilamente, seu primeiro financiador, Sean Parker: “Nós fornecemos a você uma pequena dose de dopamina cada vez que alguém o curte, comenta uma foto ou um post, ou qualquer outra coisa sua. É um loop de validação social, exatamente o tipo de coisa que um hacker como eu poderia explorar, porque tira proveito de um ponto fraco da psicologia humana. Os inventores, os criadores, eu, Mark Zuckerberg, Kevin Systrom, do Instagram, estávamos perfeitamente conscientes disso. E, mesmo assim, fizemos. E isso transforma (...) as relações que as pessoas têm entre si e com a sociedade como um todo”.\n\nReferência: EMPOLI, G. **Os engenheiros do caos**. São Paulo: Vestígio, 2020. p. 75.\n\n**TEXTO II**\n\nPara Kant, o imperativo é um mandamento da razão que serve para orientar a ação e se exprime pelo verbo dever. Distingue então dois tipos de imperativos: a) o imperativo hipotético ordena uma ação como meio de alcançar qualquer outra coisa que se queira; ou seja, a ação é boa porque me possibilita alcançar outra coisa além dela (por exemplo, um objeto, o prazer, o interesse, a felicidade). E, b) o imperativo categórico é o que visa a uma ação como necessária por si mesma, ou seja, a ação é boa em si, e não por ter como objetivo outra coisa; portanto, é assim chamado por ser incondicionado, absoluto, voltado para a realização da ação tendo em vista o dever (...). Ao distinguir os imperativos hipotéticos dos imperativos categóricos, Kant conclui que a vontade humana é verdadeiramente moral apenas quando regida por estes últimos.\n\nReferência: ARANHA, M. L. A. e MARTINS, M. H. P. **Filosofando**: introdução à filosofia. 2. ed. São Paulo: Moderna, 1993, p. 254.\n\n**Com base nos textos apresentados, analise as seguintes afirmações:**\n\nI – A permanência dos usuários nas redes sociais gera lucros às empresas do setor, razão pela qual lhes convém explorar, do ponto de vista financeiro, o desejo humano por reconhecimento público. Sob a perspectiva ética de Kant, no entanto, a lógica empresarial das redes sociais, conforme exposta por Sean Parker, seria questionável, pois compromete o exercício da autonomia, não atendendo a um imperativo categórico.\n\nII – A liberdade de escolha de informações nas redes sociais é benéfica à autoestima dos usuários e proporciona uma experiência autêntica de si mesmos. Considerando a perspectiva de Kant, a intenção dos criadores das redes sociais em gerar um poder de atração nos internautas seria validada moralmente pelo filósofo, pois corresponderia ao que Kant compreende por ação movida pelo dever.\n\nIII – As redes sociais democratizaram o direito à expressão, independentemente de onde se encontrem os usuários, e ampliaram a satisfação humana em geral. Considerando que para Kant a felicidade é um bem buscado em si mesmo e que as ações que a ela se dirigem são válidas do ponto de vista moral, para o filósofo, os meios empregados pelos criadores das redes sociais, tal como exposto no texto I, seriam considerados éticos.\n\n**Está(ão) correta(s):**",
+      "options": [
+        {
+          "text": "I apenas.",
+          "explanation": "Correta. Explorar de propósito um “ponto fraco da psicologia humana” para lucrar é agir por interesse (imperativo hipotético) e tratar as pessoas como meio, minando sua autonomia; não passa pelo crivo do imperativo categórico. II e III atribuem a Kant ideias que ele rejeita."
+        },
+        {
+          "text": "II apenas.",
+          "explanation": "A II erra ao dizer que Kant validaria os criadores das redes: eles agiram por interesse, explorando uma fraqueza psicológica, o que é o oposto de agir por dever."
+        },
+        {
+          "text": "III apenas.",
+          "explanation": "Para Kant, a felicidade não é critério de moralidade: a ação que visa ao prazer ou à felicidade obedece a um imperativo hipotético, como diz o Texto II. A III inverte a ética kantiana."
+        },
+        {
+          "text": "I e II apenas.",
+          "explanation": "A I está certa, mas a II não: a intenção de prender a atenção dos usuários para lucrar não é uma ação por dever, e sim por interesse."
+        },
+        {
+          "text": "II e III apenas.",
+          "explanation": "As duas são falsas: nem a busca de lucro pela atração dos usuários (II) nem a busca da felicidade (III) contam, em Kant, como ação moral feita por dever. A única correta é a I."
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "key": "pave-2024-e3-q17",
+      "source": "PAVE 2024 – Etapa 3, questão 17 (UFPel)",
+      "kind": "Objective",
+      "subject": "sociologia",
+      "statement": "A noção de interseccionalidade busca compreender as desigualdades presentes nas sociedades contemporâneas através do entrelaçamento de formas múltiplas e articuladas de opressão. De acordo com Patrícia Hill Collins, raça, classe, gênero, sexualidade, etnicidade, nação, habilidade e idade operam não de forma unitária, como entidades mutuamente excludentes, mas como fenômenos que se constroem reciprocamente e como tal dão forma a desigualdades sociais complexas.\n\nReferência: adaptado de COLLINS, Patrícia Hill, apud BIROLI, Flávia e MIGUEL, Luís. Gênero, raça e classe: opressões cruzadas e convergências na reprodução das desigualdades. **Revista Mediações**, v. 20 n. 2, p. 27-55, jul/dez 2015.\n\n**Sobre a desigualdade de gênero no Brasil, assinale a alternativa correta.**",
+      "options": [
+        {
+          "text": "O Brasil foi um dos primeiros países a aprovar a lei da cota de representação de gênero no Congresso, assegurando um percentual mínimo para as mulheres de 50% das cadeiras legislativas.",
+          "explanation": "A lei brasileira de cotas (Lei 9.504/1997) reserva o mínimo de 30% das candidaturas de cada partido para cada sexo, e não 50% das cadeiras; as mulheres seguem sendo minoria no Congresso."
+        },
+        {
+          "text": "O número de mulheres ocupando cargos de gerência de grandes empresas atualmente é compatível com o número de homens.",
+          "explanation": "As mulheres continuam sub-representadas nos cargos de gerência e direção, sobretudo nos níveis mais altos das grandes empresas."
+        },
+        {
+          "text": "De acordo com o IBGE, as mulheres recebem salário 20% menor do que os homens quando se comparam trabalhadores do mesmo perfil de escolaridade e idade, na mesma categoria de ocupação.",
+          "explanation": "Correta. Os levantamentos do IBGE mostram que as mulheres ganham, em média, cerca de um quinto a menos que os homens, e que a diferença persiste mesmo entre pessoas com escolaridade, idade e ocupação semelhantes."
+        },
+        {
+          "text": "Mulheres negras e brancas enfrentam as mesmas dificuldades de acesso a oportunidades de trabalho no Brasil.",
+          "explanation": "É justamente o que a interseccionalidade contesta: as mulheres negras acumulam as desigualdades de gênero e de raça, com mais desemprego e informalidade e salários menores que os das mulheres brancas."
+        },
+        {
+          "text": "Após a entrada em vigor da Lei Maria da Penha, no ano de 2006, o número de feminicídios no Brasil caiu drasticamente, assim como o número de agressões registradas contra as mulheres na maioria das capitais brasileiras.",
+          "explanation": "A Lei Maria da Penha criou mecanismos de proteção e punição, mas os índices de violência contra a mulher e de feminicídio seguiram altos; não houve queda drástica."
+        }
+      ],
+      "correct": "C"
+    },
+    {
+      "key": "pave-2024-e3-q18",
+      "source": "PAVE 2024 – Etapa 3, questão 18 (UFPel)",
+      "kind": "Objective",
+      "subject": "historia",
+      "statement": "**Observe a charge a seguir.**\n\n![Charge de Angeli com o título A VERDADEIRA HISTÓRIA DO BRASIL. Em um programa de entrevistas na TV, um militar idoso, de óculos escuros e farda com medalhas, diz: Besteira! Invenção! Nunca houve tortura no Brasil! O apresentador pergunta: Então, o preso era levado até o quarto escuro pra fazer o quê? O militar responde: Yoga!](img/pave/2024/etapa-3/q18-1.png)\n\nFonte: https://repositorio.ufsc.br/xmlui/handle/praxis/63. Acesso em: 14/12/2022.\n\n**A respeito da ditadura militar no Brasil (1964-1985), é correto afirmar:**",
+      "options": [
+        {
+          "text": "Apesar de ainda tratar o golpe de 1964 como uma “revolução”, o alto comando das Forças Armadas nos dias de hoje evita fazer comemorações públicas na data de aniversário do evento.",
+          "explanation": "Não se pode dizer que as comemorações sejam evitadas: entre 2019 e 2022, o Ministério da Defesa e os comandantes militares divulgaram ordens do dia alusivas ao 31 de março, tratando a data como um marco a ser lembrado."
+        },
+        {
+          "text": "Entre as instituições que se opuseram ao golpe e à tortura em 1964 estavam a Igreja Católica, a Ordem dos Advogados do Brasil (OAB), o Congresso Nacional, o Supremo Tribunal Federal, além dos grandes meios de comunicação.",
+          "explanation": "Em 1964, setores da Igreja Católica, a OAB, a maioria do Congresso e a grande imprensa apoiaram a derrubada de João Goulart; parte dessas instituições só passou à oposição anos depois, com o endurecimento do regime."
+        },
+        {
+          "text": "Em 2014, o relatório da Comissão Nacional da Verdade identificou 434 pessoas mortas e desaparecidas e milhares de torturados pela ditadura, além de indicar que pelo menos 8.350 indígenas e 1.196 camponeses foram assassinados em disputas pelas terras no período ditatorial.",
+          "explanation": "Correta. São os números do relatório final da Comissão Nacional da Verdade, entregue em dezembro de 2014, que também responsabilizou agentes do Estado pelas violações. É essa história que o militar da charge nega."
+        },
+        {
+          "text": "Assim como a Argentina, o Brasil foi um dos poucos países da América do Sul que condenou os militares responsáveis por crimes de lesa-humanidade durante o período ditatorial.",
+          "explanation": "Ao contrário da Argentina, que julgou e prendeu chefes militares, o Brasil não condenou criminalmente os agentes da ditadura: a Lei da Anistia de 1979, mantida pelo STF em 2010, impediu as punições."
+        },
+        {
+          "text": "A ditadura no Brasil foi obra dos militares, tendo pouco respaldo de empresários e de grandes proprietários de terras ao regime autoritário.",
+          "explanation": "O golpe e o regime tiveram amplo apoio civil, de empresários, grandes proprietários de terras, parte da imprensa e da classe média; por isso se fala em ditadura civil-militar."
+        }
+      ],
+      "correct": "C"
+    },
+    {
+      "key": "pave-2024-e3-q19",
+      "source": "PAVE 2024 – Etapa 3, questão 19 (UFPel)",
+      "kind": "Objective",
+      "subject": "matematica",
+      "statement": "A relação entre a prática de exercícios físicos e a saúde mental é amplamente reconhecida pelos profissionais de saúde. Estudos indicam que exercícios regulares podem diminuir o risco de depressão e retardar a perda cognitiva em pacientes com Alzheimer. Pesquisas recentes destacam que atividades como caminhar, correr e andar de bicicleta são cruciais para manter a função nervosa saudável, mesmo em idades avançadas. Com a redução dos níveis de atividade física globalmente, a Organização Mundial da Saúde (OMS) alerta sobre o aumento dos estilos de vida sedentários. A falta de atividade física não é mais apenas uma questão estética, mas um sério problema de saúde pública, causando 2 milhões de mortes anualmente.\n\nReferência: Adaptado de https://www.desenvolvimentosocial.sp.gov.br/beneficios-do-esporte-para-a-saude-mental/. Acesso em: 17/06/2024.\n\nNa perspectiva de manter a saúde em dia, Pedro resolveu se matricular em uma academia. Ele pratica atividades físicas cinco vezes na semana: três dias de musculação e dois dias de luta. Considerando que a cada semana ele escolhe uma ordem diferente dos dias em que praticará cada modalidade, **a quantidade total de formas distintas que Pedro pode escolher levando em conta quais os dias em que irá treinar cada uma das modalidades é igual a:**",
+      "options": [
+        {
+          "text": "22.",
+          "explanation": "Nenhuma contagem do problema resulta em 22. Basta escolher em quais 3 dos 5 dias haverá musculação (os outros 2 ficam para a luta): C(5,3) = 10."
+        },
+        {
+          "text": "12.",
+          "explanation": "12 = 3! × 2! contaria trocas de ordem dentro de cada modalidade, mas treinos da mesma modalidade são iguais entre si; o que importa é só quais dias cabem a cada uma."
+        },
+        {
+          "text": "20.",
+          "explanation": "20 = 5 × 4 é o arranjo de 2 dias em 5, que conta duas vezes cada par de dias de luta (segunda e quarta é a mesma escolha que quarta e segunda). Dividindo por 2, chega-se a 10."
+        },
+        {
+          "text": "10.",
+          "explanation": "Correta. Basta escolher os 3 dias de musculação entre os 5 (os 2 restantes serão de luta): C(5,3) = 5!/(3!·2!) = 10. É o mesmo que contar as permutações de MMMLL, com repetição."
+        },
+        {
+          "text": "120.",
+          "explanation": "120 = 5! seria o número de ordens se os cinco treinos fossem todos diferentes. Como há 3 de musculação e 2 de luta, repetidos, divide-se por 3!·2!: 120/12 = 10."
+        }
+      ],
+      "correct": "D"
+    },
+    {
+      "key": "pave-2024-e3-q20",
+      "source": "PAVE 2024 – Etapa 3, questão 20 (UFPel)",
+      "kind": "Objective",
+      "subject": "matematica",
+      "statement": "**Observe as informações abaixo.**\n\n![Gráfico de linha da taxa de mortalidade infantil de Pelotas, de 2006 a 2020, com eixo vertical de 8,00 a 18,00. Valores aproximados: 2006, 15,3; 2007, 12,2; 2008, 16,8; 2009, 13,8; 2010, 15,0; 2011, 13,3; 2012, 14,3; 2013, 9,9; 2014, 13,6; 2015, 13,3; 2016, 15,7; 2017, 10,0; 2018, 14,2; 2019, 14,1; 2020, 9,1](img/pave/2024/etapa-3/q20-1.png)\n\nFonte: https://www.ibge.gov.br/cidades-e-estados/rs/pelotas.html. Acesso em: 06/03/2023.\n\n```\nAno     Óbitos por mil nascidos vivos\n2011    13,34\n2012    14,29\n2013    9,89\n2014    13,55\n2015    13,32\n2016    15,73\n2017    9,98\n2018    14,19\n2019    14,05\n2020    9,07\n```\n\nFonte: Autoria própria.\n\nA mortalidade infantil é um importante indicador de saúde e condições de vida de uma população. Com o cálculo da sua taxa, estima-se o risco de um nascido vivo morrer antes de chegar a um ano de vida. Valores elevados refletem precárias condições de vida e saúde e baixo nível de desenvolvimento social e econômico.\n\nDe acordo com os dados divulgados pelo Instituto Brasileiro de Geografia e Estatística (IBGE), vem se observando no Brasil um declínio na taxa de mortalidade em todas as regiões do país. A TMI (taxa de mortalidade infantil) é um indicador utilizado para mensurar a mortalidade infantil a partir da seguinte fórmula:\n\nTMI = (Número de óbitos de crianças com menos de 1 ano de vida / Número de nascidos vivos) × 1000\n\nFonte: Adaptado de https://www.ibge.gov.br/cidades-e-estados/rs/pelotas.html. Acesso em: 06/03/2023.\n\nEm relação ao município de Pelotas, é possível observar constante variação na taxa de mortalidade infantil entre os anos de 2006 e 2020. Em 2008 o município atingiu a marca de 16,76 óbitos por mil nascidos vivos e no ano de 2020 registrou seu menor índice, 9,07 óbitos por mil nascidos vivos.\n\n**Analisando os dados apresentados para o período de 2011 a 2020, podemos afirmar que a maior queda percentual em relação ao ano anterior foi de aproximadamente**",
+      "options": [
+        {
+          "text": "30,7%.",
+          "explanation": "É a queda de 2012 para 2013: (14,29 − 9,89)/14,29 ≈ 0,3079. Ela existe, mas não é a maior do período; a de 2016 para 2017 foi de cerca de 36,5%."
+        },
+        {
+          "text": "64,5%.",
+          "explanation": "9,07/14,05 ≈ 0,6455 é quanto a taxa de 2020 representa da taxa de 2019, e não a queda. A queda é o complemento: 100% − 64,5% ≈ 35,4%, que ainda não é a maior."
+        },
+        {
+          "text": "63,4%.",
+          "explanation": "9,98/15,73 ≈ 0,6345 é a razão entre as taxas de 2017 e 2016, isto é, o que restou. A queda percentual é o complemento: 100% − 63,4% ≈ 36,5%."
+        },
+        {
+          "text": "35,4%.",
+          "explanation": "É a queda de 2019 para 2020: (14,05 − 9,07)/14,05 ≈ 0,3545. Fica um pouco abaixo da queda de 2016 para 2017, de cerca de 36,5%."
+        },
+        {
+          "text": "36,5%.",
+          "explanation": "Correta. As três quedas grandes são 2012→2013 (4,40/14,29 ≈ 30,8%), 2016→2017 (5,75/15,73 ≈ 36,5%) e 2019→2020 (4,98/14,05 ≈ 35,4%). A maior é a de 2016 para 2017: (15,73 − 9,98)/15,73 ≈ 0,3655."
+        }
+      ],
+      "correct": "E"
+    },
+    {
+      "key": "pave-2024-e3-q22",
+      "source": "PAVE 2024 – Etapa 3, questão 22 (UFPel)",
+      "kind": "Objective",
+      "subject": "matematica",
+      "statement": "A proporção de mulheres que escolhem engravidar mais tarde na vida aumentou no Brasil ao longo das décadas. Um levantamento do Instituto Brasileiro de Geografia e Estatística (IBGE), publicado em 2021, mostrou que, em uma década, houve um crescimento de 63% no número de mulheres de 35 a 39 anos que tiveram filhos, enquanto a taxa de nascimentos entre mães com até 19 anos diminuiu 23% no mesmo período. Uma pesquisa da Fundação Oswaldo Cruz (Fiocruz), utilizando dados do Departamento de Informática do Sistema Único de Saúde (DataSUS), apresentou resultados semelhantes. Em 2000, apenas 9,1% dos bebês nasceram de mulheres com 35 anos ou mais. Em 2020, esse percentual subiu para 16,5%.\n\nDe acordo com estudos, \"o principal motivo é o objetivo profissional das mulheres. Antes de terem filhos, elas preferem completar sua formação acadêmica, atingir metas profissionais e obter estabilidade financeira\", afirma Fernanda Guttilla, especialista em reprodução humana do Hospital Sírio-Libanês.\n\nReferência: Adaptado de https://www.cnnbrasil.com.br/saude/dia-das-maes-mulheres-tem-filhos-cada-vez-mais-tarde-no-brasil/. Acesso em: 19/06/2024.\n\nNessa perspectiva, foi realizado um levantamento com mulheres que atuam em uma empresa na cidade de Pelotas. Elas foram indagadas sobre a idade em que tiveram o primeiro filho, obtendo-se o quadro a seguir:\n\n```\nIdade              Número de mulheres\n25 anos            1\n30 anos            3\n35 anos            5\n40 anos            4\nMais de 40 anos    2\n```\n\n**Escolhendo uma mulher ao acaso, a probabilidade de ela ter tido o primeiro filho com mais de 40 anos é de quanto?**",
+      "options": [
+        {
+          "text": "12,3%.",
+          "explanation": "São 2 casos favoráveis em 1 + 3 + 5 + 4 + 2 = 15 mulheres: 2/15 ≈ 0,133. Para dar 12,3%, o total teria de passar de 16 mulheres, o que não confere com o quadro."
+        },
+        {
+          "text": "15%.",
+          "explanation": "15 é o total de mulheres do levantamento, não a probabilidade. Com 2 casos favoráveis em 15, a probabilidade é 2/15 ≈ 13,3%."
+        },
+        {
+          "text": "14,5%.",
+          "explanation": "2/15 ≈ 0,133, não 0,145. Para chegar a 14,5%, o total teria de ser de cerca de 14 mulheres, mas a soma do quadro é 15."
+        },
+        {
+          "text": "12%.",
+          "explanation": "2/15 ≈ 13,3%. Um valor próximo de 12% só apareceria com um total maior que o do quadro (2/16 = 12,5%, por exemplo), ou seja, com erro na soma das mulheres."
+        },
+        {
+          "text": "13,3%.",
+          "explanation": "Correta. O total é 1 + 3 + 5 + 4 + 2 = 15 mulheres, e 2 delas tiveram o primeiro filho com mais de 40 anos: P = 2/15 ≈ 0,133 = 13,3%."
+        }
+      ],
+      "correct": "E"
+    },
+    {
+      "key": "pave-2024-e3-q23",
+      "source": "PAVE 2024 – Etapa 3, questão 23 (UFPel)",
+      "kind": "Objective",
+      "subject": "matematica",
+      "statement": "As inundações no Rio Grande do Sul, em maio deste ano, afetaram mais de 2 milhões de pessoas. O número de mortos em decorrência das enchentes que atingiram o estado aumentou para 177 nesta terça-feira (18 de junho) e há 37 pessoas desaparecidas.\n\nDe acordo com balanço divulgado pela Defesa Civil, o estado ainda conta com 478 municípios afetados pelas fortes chuvas. Cerca de 10 mil pessoas continuam em abrigos.\n\nReferência: Adaptado de https://sul21.com.br/noticias/geral/2024/06/mortes-por-enchentes-no-rio-grande-do-sul-chegam-a-177/. Acesso em: 19/06/2024.\n\nPara entender a dinâmica das famílias deslocadas pelos efeitos das enchentes no Rio Grande do Sul, foi conduzida uma pesquisa em abrigos. Um grupo de 350 mães foi entrevistado em um abrigo na cidade de Porto Alegre. Foi analisado que o número médio de filhos n(x) que cada mãe possui pode ser modelado pela determinante da matriz A, onde:\n\n```\n    [ 1/3    3   −2 ]\nA = [ −1     1    x ].\n    [  0     1    2 ]\n```\n\n**Utilizando n(x) = det A, determine a expressão que indica o número médio de filhos que cada mãe tem como função n(x):**",
+      "options": [
+        {
+          "text": "(26 − x)/3",
+          "explanation": "Correta. Pela regra de Sarrus: det A = (1/3)·1·2 + 3·x·0 + (−2)·(−1)·1 − [(−2)·1·0 + (1/3)·x·1 + 3·(−1)·2] = 2/3 + 2 − x/3 + 6 = 26/3 − x/3 = (26 − x)/3."
+        },
+        {
+          "text": "x/3",
+          "explanation": "x/3 é só o produto (1/3)·x·1, que ainda entra no determinante com sinal negativo; faltam os termos constantes 2/3, 2 e 6, que somam 26/3."
+        },
+        {
+          "text": "2x",
+          "explanation": "No determinante, x só aparece multiplicado por 1/3 (com sinal negativo) e por 0; não há produto que gere 2x. O resultado é 26/3 − x/3."
+        },
+        {
+          "text": "(24 − x)/6",
+          "explanation": "A única fração da matriz é 1/3, então o denominador comum é 3, não 6. E a parte constante é 2/3 + 2 + 6 = 26/3; 24/3 apareceria se o termo 2/3 fosse esquecido."
+        },
+        {
+          "text": "(22 − x)/3",
+          "explanation": "O termo em x e o denominador estão certos, mas a parte constante é 2/3 + 2 + 6 = 26/3. Chegar a 22/3 indica erro de sinal ou de soma em algum dos produtos."
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "key": "pave-2024-e3-q24",
+      "source": "PAVE 2024 – Etapa 3, questão 24 (UFPel)",
+      "kind": "Objective",
+      "subject": "lingua-portuguesa",
+      "statement": "**Leia o texto a seguir, a tirinha de Mafalda, e analise os mecanismos de coerência, a presença de elementos de produção de sentido e efeitos de humor, para responder a próxima questão.**\n\n![Tirinha de Mafalda em cinco quadrinhos, sem falas. No primeiro, Mafalda caminha com a pasta escolar e o chão está seco. No segundo e no terceiro, ela segue pela calçada com água no chão, em quantidade cada vez maior. No quarto, parada dentro da água, tem um ponto de interrogação sobre a cabeça. No último, diante de um prédio com a placa ESCUELA, várias crianças choram de boca aberta, com gotas em volta da cabeça, ao lado de adultos, e a água escorre dali](img/pave/2024/etapa-3/q24-1.png)\n\nFonte: QUINO. **Toda a Mafalda**: da primeira à última tira. São Paulo: Martins Fontes, 2003. p. 24.\n\n**Analise as proposições abaixo:**\n\nI. A tirinha apresenta no primeiro quadrinho a personagem Mafalda caminhando e o chão está seco. Já nos demais quadrinhos o chão está molhado e a quantidade de “água” vai aumentando a cada quadrinho. No último, se dá o desfecho, quando ela identifica de onde vem esse suposto “rio”, que está relacionado com as lágrimas das crianças, representadas de bocas abertas e gotas em volta das cabeças. Também há a presença de adultos, que aparentemente se dirigem às crianças de maneira impaciente.\n\nII. O efeito de humor na tirinha pode ser percebido de duas maneiras: o exagero da cena em que crianças inundam com lágrimas o chão e a presença de um único elemento linguístico (escrito) no canto superior direito do último quadrinho, que nomeia o local e o motivo do choro. “Escuela” significa “escola” em português, escrito em espanhol pela origem da personagem e do autor, que são argentinos.\n\nIII. A presença do elemento linguístico “escuela” restituiu a coerência à narrativa, porque se lêssemos o texto apenas pelo conteúdo visual, provavelmente o efeito humorístico não se estabeleceria e poderia comprometer a compreensão do texto no seu sentido global.\n\nIV. Não é possível perceber que a coesão se estabelece por meio dos elementos visuais, com as relações textuais de reiteração, associação e conexão entre as partes da sequência narrativa.\n\n**Estão corretas:**",
+      "options": [
+        {
+          "text": "I, II, III apenas.",
+          "explanation": "Correta. A I descreve fielmente a sequência; a II identifica as fontes do humor (o exagero das lágrimas e a placa “Escuela”); a III reconhece que essa palavra dá sentido ao conjunto. A IV é falsa: a coesão se constrói justamente pelos elementos visuais que se repetem e se encadeiam (Mafalda, a pasta, a água que aumenta)."
+        },
+        {
+          "text": "I e II apenas.",
+          "explanation": "I e II estão certas, mas a III também: sem a placa “escuela”, o leitor não saberia por que as crianças choram, e o humor se perderia."
+        },
+        {
+          "text": "I e IV apenas.",
+          "explanation": "A IV nega algo que a tirinha mostra: a repetição da personagem e o aumento gradual da água ligam um quadrinho ao outro, isto é, estabelecem a coesão por meios visuais."
+        },
+        {
+          "text": "II e III apenas.",
+          "explanation": "As duas estão corretas, mas falta a I, que descreve com precisão a progressão do chão seco até o “rio” de lágrimas diante da escola."
+        },
+        {
+          "text": "III e IV apenas.",
+          "explanation": "A III está certa, mas a IV é falsa, pois a coesão é perceptível nos elementos visuais que se repetem e se conectam; além disso, I e II ficam de fora."
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "key": "pave-2024-e3-q25",
+      "source": "PAVE 2024 – Etapa 3, questão 25 (UFPel)",
+      "kind": "Objective",
+      "subject": "lingua-portuguesa",
+      "statement": "**Leia o texto a seguir para responder a próxima questão.**\n\nSimões Lopes Neto\n\nJoão Simões Lopes Neto passou a infância nas estâncias de propriedade dos avós, no interior do Rio Grande do Sul. Aos 13 anos partiu para o Rio de Janeiro, onde estudaria no Colégio Abílio e, a seguir, na Faculdade de Medicina.\n\nPor motivos de saúde, contudo, abandonou os estudos e retornou ao Sul, para residir em sua cidade natal, Pelotas, onde trabalhou como professor, tabelião, funcionário público, comerciante e industrial.\n\nEm Pelotas, incentivou a vida cultural, escrevendo peças para grupos de teatro amador e participando de iniciativas que visassem à preservação das tradições gaúchas. Atuou também na imprensa, nos jornais A Opinião Pública e O Correio Mercantil, às vezes usando o pseudônimo de João do Sul. Principal figura do regionalismo rio-grandense, Simões Lopes Neto deixou pequena obra de ficção: dezoito contos (Contos gauchescos, 1912) e algumas lendas (Lendas do Sul, 1913) recontadas de maneira literária. Os contos são narrados pelo vaqueano Blau Nunes, no qual, segundo José Paulo Paes, Simões Lopes Neto \"encarnou sua nostalgia do velho Rio Grande, o Rio Grande do Império e da Primeira República, cuja rude sociedade pastoril, com seu código de bravura pessoal, lhe forneceu os heróis e os motivos de sua novelística”.\n\nO escritor narra suas histórias em primeira pessoa, o que concede autenticidade aos ambientes e personagens. Às vezes, o linguajar prepondera sobre a trama, diminuindo a força da narrativa, mas, em alguns casos, o drama dos personagens avulta, concedendo vida a contos admiráveis. É o que acontece, por exemplo, em \"Trezentas onças\", \"O boi velho\", \"O chasque do imperador\" e \"Contrabandista”.\n\nQuanto às lendas, três são verdadeiras obras-primas: \"A boitatá\", \"A Salamanca do Jarau\" e \"O Negrinho do Pastoreio\".\n\nApós uma sequência de desastres no mundo dos negócios, Simões Lopes Neto faleceu em completa pobreza.\n\nReferência: **Pequeno Dicionário de Literatura Brasileira**. Disponível em: https://educacao.uol.com.br/biografias/simoes-lopes-neto.htm . Acesso em: 11/03/2023.\n\n**A análise dos elementos constitutivos do texto, “Simões Lopes Neto”, como forma de composição, tema e estilo de linguagem, permite identificá-lo como**",
+      "options": [
+        {
+          "text": "ensaístico, pois discute fatos da vida do escritor Simões Lopes Neto.",
+          "explanation": "O ensaio defende um ponto de vista pessoal sobre um tema. O texto não discute nem argumenta: relata, em ordem cronológica, a vida e a obra do escritor."
+        },
+        {
+          "text": "biográfico, pois narra a trajetória de vida de Simões Lopes Neto.",
+          "explanation": "Correta. O texto conta, em terceira pessoa e em ordem cronológica, a vida de uma pessoa real (infância, estudos, volta a Pelotas, ofícios, obras e morte), que é a marca do gênero biografia; a própria fonte é uma seção de biografias."
+        },
+        {
+          "text": "didático, pois explica a importância das contribuições de Simões Lopes Neto para a literatura gaúcha.",
+          "explanation": "Há informações sobre a obra, mas o eixo do texto é a trajetória de vida do autor, da infância à morte; ele não se organiza como explicação de um conteúdo de ensino."
+        },
+        {
+          "text": "científico, pois investiga informações sobre a vida de Simões Lopes Neto.",
+          "explanation": "Um texto científico apresenta problema, método e resultados de uma investigação. Aqui há um relato de vida em linguagem acessível, sem procedimento de pesquisa."
+        },
+        {
+          "text": "jornalístico, pois aborda fatos relacionados às obras do autor Simões Lopes Neto.",
+          "explanation": "O texto não noticia um fato atual nem tem estrutura de notícia ou reportagem; é um verbete que resume a vida do escritor, e as obras entram como parte dessa trajetória."
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "key": "pave-2024-e3-q26",
+      "source": "PAVE 2024 – Etapa 3, questão 26 (UFPel)",
+      "kind": "Objective",
+      "subject": "literatura",
+      "statement": "Lygia Fagundes Telles, em sua obra As Meninas, tece um retrato vívido da juventude feminina em meio à repressão militar da década de 1970 no Brasil. Através das vivências de três jovens universitárias – Lorena, Lia e Ana Clara –, a autora explora temas como sexualidade, amizade, drogas, política e os conflitos geracionais entre pais e filhas.\n\n**Considerando o romance mencionado, assinale a alternativa correta, levando em conta a relação entre as protagonistas e a repressão militar da época.**",
+      "options": [
+        {
+          "text": "As protagonistas se rebelam abertamente contra a repressão militar, utilizando-se de ativismo político e engajamento social.",
+          "explanation": "No romance, só Lia é militante de esquerda; Lorena vive voltada para o seu mundo interior, e Ana Clara está mergulhada nas drogas. Não se pode dizer que as três se rebelam abertamente."
+        },
+        {
+          "text": "As jovens vivenciam a repressão de forma indireta, através das histórias de familiares e amigos que sofreram com a ditadura.",
+          "explanation": "A repressão não chega só por relatos de terceiros: Lia milita e tem o namorado preso político, e o clima de medo atravessa o cotidiano das três no pensionato onde moram."
+        },
+        {
+          "text": "A repressão militar se manifesta na vida das protagonistas através da censura, do medo e da limitação de suas liberdades individuais.",
+          "explanation": "Correta. A ditadura é o pano de fundo que cerceia as personagens: o medo, a vigilância, a censura e as prisões políticas limitam escolhas e liberdades, o que aparece sobretudo na trajetória de Lia."
+        },
+        {
+          "text": "As jovens se beneficiam da repressão militar, pois lhes garante um ambiente seguro e protegido para seus estudos e desenvolvimento pessoal.",
+          "explanation": "O romance, publicado em 1973, tem tom crítico ao regime: a repressão traz medo e perdas, e a narrativa chega a incluir o relato da tortura de um preso político."
+        },
+        {
+          "text": "A repressão militar não exerce influência significativa na vida das protagonistas, pois estão focadas em suas vidas pessoais e individuais.",
+          "explanation": "Mesmo as personagens menos politizadas vivem sob o clima da época, que o próprio enunciado destaca; a ditadura pesa diretamente sobre Lia e seu namorado preso."
+        }
+      ],
+      "correct": "C"
+    },
+    {
+      "key": "pave-2024-e3-q27",
+      "source": "PAVE 2024 – Etapa 3, questão 27 (UFPel)",
+      "kind": "Objective",
+      "subject": "literatura",
+      "statement": "Em Hotel Atlântico, do escritor gaúcho João Gilberto Noll, a narrativa fragmentada e carregada de simbolismo constrói uma atmosfera decadente e claustrofóbica, acompanhando a trajetória do anti-herói Leal. Através da imersão no Hotel Atlântico, um microcosmo da sociedade brasileira da época, o autor tece uma crítica social contundente, marcada pela repressão militar, corrupção e falta de perspectivas.\n\n**Considerando a obra e seu contexto histórico, assinale a alternativa que MELHOR caracteriza a construção da personagem Leal:**",
+      "options": [
+        {
+          "text": "A personagem de Leal é construída como um símbolo da decadência moral da sociedade brasileira.",
+          "explanation": "A decadência, no enunciado, é da atmosfera e da sociedade retratada; o protagonista não funciona como alegoria moral, e sim como um indivíduo à deriva, definido como anti-herói."
+        },
+        {
+          "text": "A figura de Leal representa o homem comum, alienado e sem voz em meio à repressão militar.",
+          "explanation": "Aproxima-se, mas reduz a personagem a uma vítima silenciada pelo regime. O enunciado a define como anti-herói, e o traço central é a falta de rumo e de propósito, não a falta de voz política."
+        },
+        {
+          "text": "Leal é retratado como um herói trágico, vítima das circunstâncias e da sociedade em que vive.",
+          "explanation": "O herói trágico tem grandeza e enfrenta o destino com um propósito elevado. O enunciado fala em anti-herói, o oposto disso: alguém sem feitos, sem projeto e sem nobreza."
+        },
+        {
+          "text": "Leal encarna o anti-herói, marcado pela apatia, vícios e falta de propósito na vida.",
+          "explanation": "Correta. Retoma a caracterização do próprio enunciado (“anti-herói”) e a completa com os traços típicos desse tipo de personagem na ficção de Noll: apatia, deriva e ausência de projeto de vida, em um mundo sem perspectivas."
+        },
+        {
+          "text": "Leal representa a esperança de mudança e redenção em um mundo decadente e opressor.",
+          "explanation": "A atmosfera descrita é decadente, claustrofóbica e sem perspectivas; não há, na trajetória do anti-herói, promessa de mudança ou de redenção."
+        }
+      ],
+      "correct": "D"
+    },
+    {
+      "key": "pave-2024-e3-q28",
+      "source": "PAVE 2024 – Etapa 3, questão 28 (UFPel)",
+      "kind": "Objective",
+      "subject": "arte",
+      "statement": "**Observe atentamente as obras de arte abaixo para responder a próxima questão.**\n\n**TEXTO I**\n\n![Pintura Os plantadores de batata, de Jean-François Millet: em um campo arado, um homem curvado abre a terra com uma enxada e, ao lado dele, uma mulher deixa cair batatas na cova; ao fundo, à sombra de uma árvore, há um burro e um cesto](img/pave/2024/etapa-3/q28-1.png)\n\nQuadro/ tela “Os plantadores de batata”, de Jean-François Millet. 1861.\n\nFonte: https://pt.m.wikipedia.org/wiki/Ficheiro:Jean-Fran%C3%A7ois_Millet_-_Potato_Planters_-_Google_Art_Project.jpg. Acesso em: 02/10/2024.\n\n**TEXTO II**\n\n![Pintura Operários, de Tarsila do Amaral: dezenas de rostos sérios de homens e mulheres de diferentes etnias, dispostos em fileiras que sobem em diagonal; ao fundo, à esquerda, chaminés e prédios de fábrica](img/pave/2024/etapa-3/q28-2.png)\n\n“Operários” da pintora brasileira Tarsila do Amaral. 1933.\n\nFonte: http://www.iea.usp.br/imagens/operarios-tarsila-do-amaral/view. Acesso em: 02/10/2024.\n\nBaseado em seus conhecimentos culturais, históricos e de língua portuguesa, analise as afirmações a seguir:\n\nI - A principal temática da obra \"Operários\" de Tarsila do Amaral está relacionada ao contexto da Revolução Industrial, à exploração e às condições de trabalho dos operários.\n\nII - A obra \"Operários\" e \"Plantadores de Batata\" retratam momentos de transição e resistência em face da mudança trazida pela Revolução Industrial. Ambas as obras, cada uma em seu contexto, revelam aspectos de subentendidos e pressupostos sobre a dignidade, a dureza e a desumanização do trabalho, seja no campo ou na fábrica.\n\nIII - O fato de Tarsila do Amaral ter escolhido retratar trabalhadores de diferentes etnias na obra, \"Operários\", implica que a luta dos operários é uma questão que atravessa fronteiras culturais.\n\nIV - Na obra \"Plantadores de Batata\", a representação dos trabalhadores rurais se destaca por sua ligação com a terra e o trabalho manual. Esse cenário sugere, implicitamente, uma visão de resistência à industrialização.\n\nReferência: FARACO, Moura; MARUXO Jr. **Língua Portuguesa – Linguagem e Interação**. 3. ed. São Paulo: Ática, 2016.\n\n**Estão corretas:**",
+      "options": [
+        {
+          "text": "I e III apenas.",
+          "explanation": "I e III estão corretas, mas a banca considerou corretas também a II e a IV, que leem nas duas telas a dureza do trabalho e a tensão com a industrialização."
+        },
+        {
+          "text": "I e IV apenas.",
+          "explanation": "Faltam II e III: a comparação entre as duas obras e a leitura da diversidade étnica dos rostos de “Operários” também foram consideradas corretas."
+        },
+        {
+          "text": "I, II, III e IV.",
+          "explanation": "Correta. A banca validou as quatro leituras: “Operários” (1933) trata da industrialização e da condição operária (I) e reúne rostos de várias etnias, sugerindo uma luta comum (III); as duas telas mostram a dignidade e a dureza do trabalho, no campo e na fábrica (II); e a cena de Millet valoriza o trabalho manual ligado à terra, em contraste com o mundo industrial (IV)."
+        },
+        {
+          "text": "I, II e III apenas.",
+          "explanation": "Deixa de fora a IV, também tida como correta: Millet representa camponeses ligados à terra e ao trabalho manual, o que pode ser lido como contraponto à industrialização."
+        },
+        {
+          "text": "II e III apenas.",
+          "explanation": "Faltam I e IV: o tema central de “Operários” é o mundo fabril e seus trabalhadores, e a tela de Millet foi lida como valorização do trabalho rural diante da industrialização."
+        }
+      ],
+      "correct": "C"
+    },
+    {
+      "key": "pave-2024-e3-q29",
+      "source": "PAVE 2024 – Etapa 3, questão 29 (UFPel)",
+      "kind": "Objective",
+      "subject": "arte",
+      "statement": "**Observe a imagem a seguir.**\n\n![Fotografia em preto e branco de uma cena teatral: um grupo de atores de torso nu, com o rosto pintado de branco, os olhos contornados de preto e faixas na cabeça, de boca muito aberta e mãos espalmadas erguidas em direção à câmera, contra um fundo escuro](img/pave/2024/etapa-3/q29-1.png)\n\nFonte: Emidio Luisi - Cena da montagem de Macunaíma (1978). Disponível em: http://issocompensa.com/teatro/macunaima. Acesso em: 17/06/2024.\n\nMacunaíma (1928), obra criada por Mário de Andrade, consiste em uma rapsódia literária que se tornou uma das obras centrais do Movimento Modernista Brasileiro. Conta as histórias do \"herói sem nenhum caráter\", seus trânsitos e experiências entre a floresta e a urbanidade, deslocando-se entre uma era primitiva e o furacão da Modernidade. Esta obra foi adaptada para o cinema e para o teatro algumas vezes. **Com base em seus conhecimentos de literatura e artes cênicas, assinale a alternativa correta:**",
+      "options": [
+        {
+          "text": "A história de Macunaíma valoriza a colonização portuguesa ao civilizar os povos primitivos que viviam no Brasil, não dando importância ou visibilidade para a cultura dos povos originários e promovendo bons costumes, progresso e desenvolvimento industrial para a região.",
+          "explanation": "É o contrário: a rapsódia é feita de mitos indígenas, lendas e falares populares de todo o país e satiriza a ideia de civilização e progresso; não há elogio à colonização."
+        },
+        {
+          "text": "A obra também foi adaptada para o teatro pela diretora Bia Lessa em 2019, construindo uma montagem que buscou ser absolutamente fiel ao texto literário original, em uma estética realista-naturalista.",
+          "explanation": "A montagem de Bia Lessa, de 2019, existiu, mas não era realista-naturalista nem pretendia fidelidade absoluta: foi uma recriação livre e musical, coerente com um texto fantástico, que não cabe no realismo."
+        },
+        {
+          "text": "Na obra literária original de Macunaíma, o protagonista perde a Muiraquitã, seu amuleto de proteção, fato que não foi abordado nas montagens teatrais, nem no cinema.",
+          "explanation": "A perda e a busca da muiraquitã movem o enredo, da ida a São Paulo ao confronto com o gigante Piaimã, e por isso estão presentes nas adaptações, como o filme de Joaquim Pedro de Andrade (1969)."
+        },
+        {
+          "text": "Macunaíma é um personagem simples e previsível, com caráter e moralidade dentro dos padrões de aceitação social, e por isso é um grande exemplo de personagem íntegro na literatura brasileira.",
+          "explanation": "Macunaíma é o “herói sem nenhum caráter”, como lembra o enunciado: contraditório, preguiçoso, esperto e imprevisível, sem moral fixa; é o oposto de um personagem íntegro e previsível."
+        },
+        {
+          "text": "A montagem cênica de Macunaíma dirigida por Antunes Filho em 1978 abriu novas perspectivas à narrativa dramática, ressignificando os elementos transgressores e críticos do original, o que resultou numa das obras mais importantes da história do teatro brasileiro.",
+          "explanation": "Correta. A montagem de Antunes Filho, de 1978 (a da fotografia), recriou a rapsódia com poucos recursos e forte trabalho de corpo e de grupo, renovou a linguagem cênica no país e é considerada um marco do teatro brasileiro."
+        }
+      ],
+      "correct": "E"
+    },
+    {
+      "key": "pave-2024-e3-q30-es",
+      "source": "PAVE 2024 – Etapa 3, questão 30, espanhol (UFPel)",
+      "kind": "Objective",
+      "subject": "espanhol",
+      "statement": "**Leia a tirinha a seguir para responder às questões.**\n\n![Tirinha de Mafalda em quatro quadrinhos, em espanhol. 1: em casa, com prédios da cidade vistos pela janela, Mafalda pergunta: Contame, mamá, ¿cómo es el lugar donde vamos a veranear? 2: a mãe responde: ¡Ah... estupendo!... ¡Con maravillosos lagos rodeados de montañas y bosques hermosísimos! 3: Mafalda: ¿Y quién hizo todo eso tan lindo? A mãe: Todo eso tan lindo lo hizo Dios. 4: Mafalda olha pela janela a cidade cheia de prédios e fumaça e diz: ¡Qué lástima que aquí le dieran la licitación a otros!](img/pave/2024/etapa-3/q30-es-1.png)\n\nReferência: Adaptado de https://www.telecinco.es/noticias/ocio/felicidades-mafalda-celebramos-vinetas-meteo_4_2251785005.html/. Acesso em: 17/06/2024.\n\n**Qual é a crítica presente na tirinha?**",
+      "options": [
+        {
+          "text": "Em relação às teorias criacionistas.",
+          "explanation": "A mãe diz que foi Deus quem fez a paisagem (“todo eso tan lindo lo hizo Dios”), mas isso apenas prepara a piada; a tirinha não discute nem critica o criacionismo."
+        },
+        {
+          "text": "Sobre a qualidade de vida nos grandes centros urbanos.",
+          "explanation": "Correta. Olhando pela janela a cidade tomada por prédios e fumaça, Mafalda lamenta: “¡Qué lástima que aquí le dieran la licitación a otros!” (que pena que aqui deram a licitação a outros). O contraste com os lagos, montanhas e bosques do lugar das férias critica o ambiente da cidade grande."
+        },
+        {
+          "text": "Acerca do processo de licitações públicas.",
+          "explanation": "A palavra “licitación” é só o recurso de humor, como se a construção da cidade tivesse sido contratada com alguém menos caprichoso que Deus; o alvo da crítica é o resultado, a cidade, e não o processo de licitação."
+        },
+        {
+          "text": "A respeito da reforma das leis trabalhistas.",
+          "explanation": "Não há nenhuma referência a trabalho ou a leis trabalhistas na conversa entre Mafalda e a mãe, que trata do lugar das férias e da cidade."
+        },
+        {
+          "text": "Nenhuma das alternativas anteriores.",
+          "explanation": "Há alternativa adequada: a tirinha contrapõe a beleza da natureza à paisagem da cidade em que Mafalda mora, criticando a vida nos grandes centros."
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "key": "pave-2024-e3-q30-en",
+      "source": "PAVE 2024 – Etapa 3, questão 30, inglês (UFPel)",
+      "kind": "Objective",
+      "subject": "ingles",
+      "statement": "**Considere a resenha sobre Memórias Póstumas de Brás Cubas, publicada no jornal britânico The Guardian, para responder à questão 30.**\n\n**The Posthumous Memoirs of Brás Cubas by Joaquim Maria Machado de Assis – review**\n\nThe Brazilian author’s digressive, rule-breaking 1881 masterpiece distils the entire human comedy to 160 brief chapters\n\nIs The Posthumous Memoirs of Brás Cubas a novel?” asked one critic after its publication in 1881. “Yes and no,” replied the author in a later edition. It is “a novel for some and not for others”. That about sums up this freewheeling firework of a book, the masterpiece of Joaquim Maria Machado de Assis, the mixed-race grandson of freed slaves and Brazil’s greatest author.\n\nThis new translation, by Flora Thomson-DeVeaux, is the perfect chance to get reacquainted with the delights of a book written with “the pen of mirth and the ink of melancholy”, or to discover it for the first time. It contains the memoirs of almost-nobleman Brás Cubas, written from beyond the grave and riddled with self-regard. To describe the plot is almost futile, being so various and so secondary to how Brás Cubas buttonholes the reader: “Behold the dexterity and skill with which I shall carry out the most important transition in the book.”\n\nBut there is lots going on, from attempts to make his fortune by inventing a plaster to “alleviate… melancholy”, to a rocky political career, and above all a love triangle. Posthumous Memoirs contains the whole human comedy in 160 very short chapters (“long chapters are better suited for ponderous readers”). Cubas keeps digressing – being dead, he’s in no hurry to complete his story – and his condition, with nobody left to impress, offers the advantage of honesty.\n\nIn his introduction, Dave Eggers calls the book “an unmitigated joy to read”, but “mitigated” might be better. The hectic digressions, ellipses and gaps frustrate the flow, so it’s hard to keep a handle on the characters that buzz in and out yet leave Cubas in solitude. But again Machado is ahead of us: “The book’s greatest flaw is you, reader… You love direct, robust narration and a smooth and regular style.” And Thomson-DeVeaux’s endnotes provide all the context you could wish for. They even, occasionally, cast doubt on her translation choices; a very Machadian quality indeed.\n\nReferência: Adaptado de https://www.theguardian.com/books/2021/aug/29/the-posthumous-memoirs-of-bras-cubas-by-joaquim-maria-machado-de-assis-review. Acesso em: 18/06/2024.\n\n**Observe as afirmações abaixo.**\n\nI - A resenha informa que, em Memórias Póstumas de Brás Cubas, o autor se vale da digressão e de capítulos curtos.\n\nII - O texto destaca que um crítico literário do século XIX questionou se Memórias Póstumas de Brás Cubas era realmente um romance.\n\nIII - Embora seja antiga, a tradução de Flora Thomson-Devaux é considerada excelente pelo autor do texto.\n\nIV - O texto informa que o defunto Brás Cubas tem pressa de concluir a história.\n\nV - São características de Memórias Póstumas ironia e interlocução com o leitor.\n\n**Estão corretas:**",
+      "options": [
+        {
+          "text": "I, II, III e V apenas.",
+          "explanation": "A III é falsa: o texto fala em “this new translation”, ou seja, uma tradução nova, e não antiga. As demais (I, II e V) estão certas."
+        },
+        {
+          "text": "I, II e V apenas.",
+          "explanation": "Correta. I: “Cubas keeps digressing” e “160 very short chapters”. II: “asked one critic after its publication in 1881”. V: o narrador interpela o leitor com ironia (“The book’s greatest flaw is you, reader”). III e IV contrariam o texto: a tradução é nova, e o defunto “is in no hurry” (não tem pressa)."
+        },
+        {
+          "text": "I, II, III, IV e V.",
+          "explanation": "III e IV são falsas: a tradução é “new” (nova), e Brás Cubas, por estar morto, “is in no hurry to complete his story”, isto é, não tem pressa de terminar a história."
+        },
+        {
+          "text": "II, III e IV apenas.",
+          "explanation": "Só a II se sustenta. A tradução é nova (III) e o narrador não tem pressa (IV); além disso, ficam de fora I e V, que são verdadeiras."
+        },
+        {
+          "text": "I, III e V apenas.",
+          "explanation": "Inclui a III, que é falsa (a tradução é nova), e deixa de fora a II, verdadeira: um crítico perguntou, em 1881, se o livro era um romance."
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "key": "pave-2024-e3-q31-es",
+      "source": "PAVE 2024 – Etapa 3, questão 31, espanhol (UFPel)",
+      "kind": "Objective",
+      "subject": "espanhol",
+      "statement": "**Leia a tirinha a seguir para responder às questões.**\n\n![Tirinha de Mafalda em quatro quadrinhos, em espanhol. 1: em casa, com prédios da cidade vistos pela janela, Mafalda pergunta: Contame, mamá, ¿cómo es el lugar donde vamos a veranear? 2: a mãe responde: ¡Ah... estupendo!... ¡Con maravillosos lagos rodeados de montañas y bosques hermosísimos! 3: Mafalda: ¿Y quién hizo todo eso tan lindo? A mãe: Todo eso tan lindo lo hizo Dios. 4: Mafalda olha pela janela a cidade cheia de prédios e fumaça e diz: ¡Qué lástima que aquí le dieran la licitación a otros!](img/pave/2024/etapa-3/q30-es-1.png)\n\nReferência: Adaptado de https://www.telecinco.es/noticias/ocio/felicidades-mafalda-celebramos-vinetas-meteo_4_2251785005.html/. Acesso em: 17/06/2024.\n\n**O termo “rodeados” no segundo quadrinho está atribuindo característica a qual palavra?**",
+      "options": [
+        {
+          "text": "Lagos.",
+          "explanation": "Correta. Em “lagos rodeados de montañas y bosques hermosísimos”, o particípio “rodeados” (masculino plural) concorda com “lagos” e o caracteriza: os lagos é que estão cercados de montanhas e bosques."
+        },
+        {
+          "text": "Montañas.",
+          "explanation": "“Montañas” é feminino; para se referir a ela, a forma seria “rodeadas”. Na frase, as montanhas são aquilo que cerca os lagos (“rodeados de montañas”)."
+        },
+        {
+          "text": "Bosques.",
+          "explanation": "“Bosques” vem depois da preposição “de”, junto com “montañas”: é um dos elementos que cercam os lagos, não o termo caracterizado por “rodeados”."
+        },
+        {
+          "text": "Maravillosos.",
+          "explanation": "“Maravillosos” é outro adjetivo que caracteriza “lagos”; “rodeados” não se refere a ele, e sim ao mesmo substantivo."
+        },
+        {
+          "text": "Hermosísimos.",
+          "explanation": "“Hermosísimos” é um adjetivo no superlativo, ligado aos elementos que cercam os lagos; não é o substantivo a que “rodeados” atribui característica."
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "key": "pave-2024-e3-q31-en",
+      "source": "PAVE 2024 – Etapa 3, questão 31, inglês (UFPel)",
+      "kind": "Objective",
+      "subject": "ingles",
+      "statement": "**Considere o texto abaixo para responder à questão 31.**\n\n**By bus, car and plane, women journey across Latin America for abortions**\n\nCristina, a 35-year-old Brazilian, travels from São Paulo, Brazil, to Buenos Aires, the Argentine capital, for an abortion.\n\nBy Marina Dias and Terrence McCoy\n\nShe’d taken an overnight bus from the countryside, then a train across the urban sprawl of São Paulo, and now she was staring out the plane window, head full of worry. There was a pink rosary in her pocket. But she didn’t see the point of praying. She feared she was a sinner, a criminal, and this trip, her first time out of Brazil, would be a secret she’d carry for the rest of her life.\n\nCristina was 35 years old. She was 11 weeks pregnant. She came from a conservative Christian family in a conservative Christian nation where abortion was largely illegal, so she’d decided to travel to a country where it was not and bring an end to the pregnancy she didn’t want.\n\nNot that long ago, such a trip would have almost certainly meant a journey out of Latin America, which historically has had some of the world’s most restrictive abortion policies. But in the last five years, several of the region’s most populous countries have either decriminalized or legalized the procedure, reconfiguring the geography of abortion in Latin America and opening a pathway for women who want to end their pregnancies but live in countries where it’s prohibited.\n\nCristina, who allowed Washington Post journalists to join her on her trip on the condition that she be identified only by her middle name out of concern about the social stigma, is one of hundreds of Latin American women — if not thousands — who in recent years have decided to take that path, according to interviews with advocates, researchers, abortion clinicians and women across the region.\n\n(...)\n\nIn 2021, Argentina legalized abortions, allowing the termination of pregnancies up to 14 weeks. Then Colombia decriminalized the procedure in 2022, permitting abortions up to 24 weeks. And last year, Mexico’s Supreme Court decriminalized abortion federally, effectively permitting the procedure at all federal health facilities nationwide.\n\n(...)\n\nIt’s impossible to say how many Brazilian women travel abroad for an abortion. Most women, advocates and researchers say, keep their trip a secret.\n\nCristina, too, had vowed to keep it quiet. But as her Argentina-bound plane rolled onto the runway that January morning, that secrecy was another reason for trepidation.\n\nAny challenge she’d encounter on this journey — where she’d undergo the most sensitive health procedure of her life in a country where she didn’t speak the language — would be hers alone to overcome.\n\nThe plane sped up and lifted off. She grasped her seat and closed her eyes.\n\n**An unknown possibility**\n\nAs soon as Cristina found out she was pregnant, at four weeks, she knew she wanted an abortion. She said the desire went against everything she’d been raised to believe as a Catholic and heard at church. But she didn’t have a job. She wasn’t married. Both of her parents were deceased. If Cristina separated from her boyfriend, she didn’t believe she could care for a child on her own.\n\nAt her home in rural São Paulo state, one of Brazil’s most conservative areas, she spent weeks researching what to do, she recalled, and came to understand the enormous legal, health and social risks assumed by Brazilians who abort their pregnancies.\n\nShe saw that clandestine abortions, which number in the hundreds of thousands every year in Brazil, was one of the leading causes of maternal mortality*, according to Brazilian public health researchers. Women pursued such procedures at underground clinics, where the threat of prosecution and arrest was unlikely, but not infeasible. Just last February, a woman who got an abortion at one such clinic in São Paulo was arrested.\n\nNext Cristina investigated using the abortion pill misoprostol, widely used in the United States but whose sale has been banned in Brazil since 1998. She discovered she could secure it on an online black market. But she balked at the price, roughly $160, and worried about what effects it would have on her body if the pill turned out to be fake or dangerous.\n\nFinally, she said, she came across an article that informed her of a possibility she hadn’t known about. “I went to Argentina to get a legal abortion and regained my will to live,” the Brazil Marie Claire headline said.\n\nThe woman in the article, whose story seemed so similar to Cristina’s, had found travel funding and assistance through an abortion rights organization called Projeto Vivas. Cristina reached out and soon heard back.\n\nThe organization would fund her entire trip from rural São Paulo state to metropolitan Buenos Aires.\n\n* Maternal Mortality: A terceira edição do Manual dos Comitês de Mortalidade Materna, produzida pelo Ministério da Saúde, define o termo como: “Morte de uma mulher durante a gestação ou até 42 dias após o término da gestação, independentemente da duração ou da localização da gravidez. É causada por qualquer fator relacionado ou agravado pela gravidez ou por medidas tomadas em relação a ela”. (https://bvsms.saude.gov.br/bvs/publicacoes/comites_mortalidade_materna_3ed.pdf )\n\nReferência: Adaptado de https://www.washingtonpost.com/world/2024/02/23/brazil-latin-america-abortion-restrictions. Acesso em: 18/06/2024.\n\n**Observe as afirmações abaixo.**\n\nI - Cristina se sentia uma pecadora e uma criminosa por realizar um aborto.\n\nII - Historicamente, os países da América Latina formularam políticas e legislações muito restritivas acerca do aborto. Contudo, nos últimos cinco anos, diversas das nações mais populosas da região têm descriminalizado ou legalizado tal procedimento.\n\nIII - É muito difícil quantificar o número de mulheres brasileiras que viajam para fazer abortos no exterior, pois as pessoas que fazem isso querem manter o motivo da viagem em segredo.\n\nIV - De acordo com pesquisadores brasileiros da área de Saúde Pública, os procedimentos clandestinos de aborto são a principal causa de mortalidade materna no Brasil.\n\nV - A pílula abortiva misoprostol foi considerada uma opção barata, mas não segura, por Cristina.\n\n**Estão corretas:**",
+      "options": [
+        {
+          "text": "I, II, III e IV apenas.",
+          "explanation": "Correta. I: “She feared she was a sinner, a criminal”. II: a região teve políticas das mais restritivas, mas “in the last five years” vários países populosos descriminalizaram ou legalizaram o aborto. III: “It’s impossible to say how many”, pois a maioria guarda segredo. A IV foi aceita pela banca, embora o texto diga “one of the leading causes” (uma das principais causas). A V é falsa: Cristina achou o preço alto."
+        },
+        {
+          "text": "I, II, III, IV e V.",
+          "explanation": "A V é falsa: Cristina recuou diante do preço do misoprostol, cerca de 160 dólares (“she balked at the price”); ou seja, não o considerou uma opção barata."
+        },
+        {
+          "text": "II, III e IV apenas.",
+          "explanation": "Deixa de fora a I, que está no primeiro parágrafo: “She feared she was a sinner, a criminal” (ela temia ser uma pecadora, uma criminosa)."
+        },
+        {
+          "text": "II e III apenas.",
+          "explanation": "II e III estão certas, mas a I também (Cristina temia ser pecadora e criminosa), e a banca considerou correta a IV, sobre os abortos clandestinos e a mortalidade materna."
+        },
+        {
+          "text": "II, III, IV e V apenas.",
+          "explanation": "Inclui a V, que é falsa (o preço do comprimido assustou Cristina, “she balked at the price”), e exclui a I, que é verdadeira."
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "key": "pave-2024-e3-q32-es",
+      "source": "PAVE 2024 – Etapa 3, questão 32, espanhol (UFPel)",
+      "kind": "Objective",
+      "subject": "espanhol",
+      "statement": "**Leia a tirinha a seguir para responder às questões.**\n\n![Tirinha de Mafalda em quatro quadrinhos, em espanhol. 1: em casa, com prédios da cidade vistos pela janela, Mafalda pergunta: Contame, mamá, ¿cómo es el lugar donde vamos a veranear? 2: a mãe responde: ¡Ah... estupendo!... ¡Con maravillosos lagos rodeados de montañas y bosques hermosísimos! 3: Mafalda: ¿Y quién hizo todo eso tan lindo? A mãe: Todo eso tan lindo lo hizo Dios. 4: Mafalda olha pela janela a cidade cheia de prédios e fumaça e diz: ¡Qué lástima que aquí le dieran la licitación a otros!](img/pave/2024/etapa-3/q30-es-1.png)\n\nReferência: Adaptado de https://www.telecinco.es/noticias/ocio/felicidades-mafalda-celebramos-vinetas-meteo_4_2251785005.html/. Acesso em: 17/06/2024.\n\n**A palavra “hizo”, presente no terceiro quadrinho, é uma conjugação de qual verbo no infinitivo?**",
+      "options": [
+        {
+          "text": "Hacer.",
+          "explanation": "Correta. “Hizo” é a terceira pessoa do singular do pretérito perfeito simples (pretérito indefinido) de “hacer”, verbo irregular: yo hice, tú hiciste, él hizo. “Lo hizo Dios” quer dizer “foi Deus quem fez”."
+        },
+        {
+          "text": "Haber.",
+          "explanation": "“Haber”, na mesma pessoa e no mesmo tempo, faz “hubo”; não gera a forma “hizo”, que vem de “hacer” (fazer)."
+        },
+        {
+          "text": "Husear.",
+          "explanation": "Um verbo terminado em -ear seguiria a conjugação regular e daria “huseó” na terceira pessoa do pretérito, não “hizo”."
+        },
+        {
+          "text": "Hisopear.",
+          "explanation": "“Hisopear” é um verbo regular em -ar e faz “hisopeó” na terceira pessoa do pretérito. “Hizo” vem de um verbo irregular, “hacer”."
+        },
+        {
+          "text": "Hechizar.",
+          "explanation": "“Hechizar” (enfeitiçar) é regular e faz “hechizó”. Lembra “hecho”, particípio de “hacer”, mas é outro verbo."
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "key": "pave-2024-e3-q32-en",
+      "source": "PAVE 2024 – Etapa 3, questão 32, inglês (UFPel)",
+      "kind": "Objective",
+      "subject": "ingles",
+      "statement": "**Observe a imagem de uma obra de Vik Muniz e leia o seguinte fragmento.**\n\n![Fotografia de uma obra de Vik Muniz: retrato de uma mulher negra de perfil, sorridente, com lenço na cabeça e brinco grande, montado sobre o chão com sucata e materiais recicláveis coloridos](img/pave/2024/etapa-3/q32-en-1.png)\n\nFonte: https://nanu.blog.br/na-nutflix-lixo-extraordinario. Acesso em: 25/011/2022.\n\nMixed-media artist Vik Muniz recreates historical artworks with unusual materials, then photographs the results. He’s previously used chocolate, sugar, trash, and toys to appropriate and reinterpret the work of artists ranging from Andy Warhol and Mark Rothko to Caravaggio and Jacques-Louis David. Muniz has exhibited in New York, London, Paris, San Francisco, and Tokyo, among other cities. His work belongs in the collections of the Art Institute of Chicago, the Los Angeles County Museum of Contemporary Art, the Metropolitan Museum of Art, the Museum of Modern Art, and the Museu de Arte Moderna de São Paulo. In addition to his mixed-media works, Muniz has also starred in Waste Land (2010) – an Oscar – nominated film about garbage pickers at a Brazilian landfill – and led a number of social justice – oriented projects that focus on education and development in his native Brazil. In 2001, the artist represented the country at the Venice Biennale.\n\nFonte: https://www.artsy.net/artist/vik-muniz. Acesso em: 25/11/2022.\n\n**Com base em seus conhecimentos de Arte e de Língua Inglesa, marque a alternativa correta:**",
+      "options": [
+        {
+          "text": "O artista contemporâneo brasileiro Vik Muniz realizou um trabalho artístico socioambiental sobre a questão dos catadores de materiais recicláveis nos lixões, utilizando o próprio lixo coletado para compor obras de bricolagem e fotografando-as em seguida. Este processo foi exibido em um documentário indicado ao Oscar.",
+          "explanation": "Correta. O texto diz que Muniz recria obras com materiais incomuns, entre eles lixo (“trash”), e depois fotografa o resultado; e que participou de “Waste Land” (2010), filme indicado ao Oscar sobre catadores (“garbage pickers”) de um aterro brasileiro. A obra da imagem, montada com materiais recicláveis, ilustra esse trabalho."
+        },
+        {
+          "text": "O artista moderno brasileiro Vik Muniz repintou obras de artistas como Andy Warhol, Mark Rothko e Caravaggio, fotografando posteriormente as pinturas e exibindo-as em museus na cidade de Nova Iorque, Londres, Paris, São Francisco e Tóquio, representando o Brasil com grande prestígio internacional.",
+          "explanation": "Muniz não “repintou” as obras: ele as recria com materiais incomuns (“recreates historical artworks with unusual materials”) e fotografa o resultado. Além disso, é um artista contemporâneo, não moderno."
+        },
+        {
+          "text": "O artista moderno brasileiro Vik Muniz inovou a arte ao utilizar-se de materiais não usuais para elaborar suas obras, como chocolate, açúcar, brinquedos e até lixo, exibindo-as em locais como o Instituto de Arte de Chicago, Museu Metropolitano de Arte de Los Angeles e no Museu de Arte Moderna de São Paulo, entre outros.",
+          "explanation": "Os materiais conferem, mas o texto cita o “Los Angeles County Museum of Contemporary Art” e o “Metropolitan Museum of Art” como instituições diferentes; a alternativa as funde em um museu que não está no texto. E Muniz é um artista contemporâneo, não moderno."
+        },
+        {
+          "text": "O artista contemporâneo brasileiro Vik Muniz é um fotógrafo reconhecido internacionalmente, que viajou para locais como Nova Iorque, Londres, Paris, São Francisco e Tóquio, registrando obras de artistas como Andy Warhol, Mark Rothko e Caravaggio e construindo obras de arte a partir da colagem das fotografias resultantes, exibindo-as em museus internacionais.",
+          "explanation": "As cidades citadas são lugares onde ele expôs (“has exhibited in”), não destinos de viagem para fotografar obras alheias; e ele não faz colagem de fotografias: monta as imagens com materiais diversos e depois as fotografa."
+        },
+        {
+          "text": "O artista moderno brasileiro Vik Muniz é conhecido por criar composições fotográficas de vários estilos, inspirado em diferentes artistas como Andy Warhol, Mark Rothko e Caravaggio. Em 2001, representou o estilo country na Bienal de Veneza. Além disso, o artista-fotógrafo defende a justiça social, a educação e o desenvolvimento do Brasil.",
+          "explanation": "“Represented the country at the Venice Biennale” significa que ele representou o país (o Brasil) na Bienal de Veneza; “country”, aqui, não é um estilo. E Muniz é um artista contemporâneo, não moderno."
+        }
+      ],
+      "correct": "A"
+    }
+  ]
+}

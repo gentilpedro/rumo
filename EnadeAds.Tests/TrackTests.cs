@@ -122,9 +122,22 @@ public class TrackTests(EnadeAdsFactory factory)
     [Fact]
     public async Task Pages_ShowTheBrandWithTheActiveTrack()
     {
-        var home = WebUtility.HtmlDecode(await EnemClient().GetStringAsync("/"));
-        var roadmap = WebUtility.HtmlDecode(await EnemClient().GetStringAsync("/roadmap"));
-        var enadeHome = WebUtility.HtmlDecode(await NewClient().GetStringAsync("/"));
+        // A faixa do semestre só existe até a prova. Para o teste não depender do dia em que roda, os dois
+        // domingos do ENEM vão para as próximas semanas e voltam para as datas da seed no fim.
+        var today = DateOnly.FromDateTime(DateTime.UtcNow);
+        await SetEnemDatesAsync(today.AddDays(7), today.AddDays(14));
+        string home, roadmap, enadeHome;
+        try
+        {
+            home = WebUtility.HtmlDecode(await EnemClient().GetStringAsync("/"));
+            roadmap = WebUtility.HtmlDecode(await EnemClient().GetStringAsync("/roadmap"));
+            enadeHome = WebUtility.HtmlDecode(await NewClient().GetStringAsync("/"));
+        }
+        finally
+        {
+            var seed = Tracks.Seed.Single(t => t.Id == Tracks.Enem);
+            await SetEnemDatesAsync(seed.ExamDate, seed.SecondExamDate);
+        }
 
         Assert.Contains(">Rumo</a>", home);
         // A faixa do semestre do ENEM mostra os dois domingos de prova, sem vazar código Razor.
@@ -136,6 +149,15 @@ public class TrackTests(EnadeAdsFactory factory)
         Assert.Contains("Redação dissertativo-argumentativa", roadmap);
         Assert.DoesNotContain("Banco de dados", roadmap);
         Assert.Matches("class=\"track-label\"[^>]*>ENADE ADS</span>", enadeHome);
+    }
+
+    private async Task SetEnemDatesAsync(DateOnly first, DateOnly? second)
+    {
+        using var scope = factory.Services.CreateScope();
+        var db = scope.ServiceProvider.GetRequiredService<ApplicationDbContext>();
+        var enem = await db.Tracks.SingleAsync(t => t.Id == Tracks.Enem);
+        (enem.ExamDate, enem.SecondExamDate) = (first, second);
+        await db.SaveChangesAsync();
     }
 
     [Fact]

@@ -17,12 +17,13 @@ public sealed class InepQuestionImporter(ApplicationDbContext db, ILogger<InepQu
 
     public static readonly JsonSerializerOptions JsonOptions = new() { PropertyNameCaseInsensitive = true, Converters = { new JsonStringEnumConverter() } };
 
-    /// <summary>Pastas lidas na subida: provas do Inep (ENADE ADS e Redes) e questões de autoria própria do ENEM.</summary>
+    /// <summary>Pastas lidas na subida: provas do Inep (ENADE ADS e Redes), questões de autoria própria do ENEM e provas do PAVE (UFPel).</summary>
     public static IReadOnlyList<string> DefaultFolders { get; } =
     [
         Path.Combine(AppContext.BaseDirectory, "Data", "Seed", "inep"),
         Path.Combine(AppContext.BaseDirectory, "Data", "Seed", "redes"),
         Path.Combine(AppContext.BaseDirectory, "Data", "Seed", "enem"),
+        Path.Combine(AppContext.BaseDirectory, "Data", "Seed", "pave"),
     ];
 
     public static string DefaultFolder => DefaultFolders[0];

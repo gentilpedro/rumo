@@ -512,6 +512,9 @@ namespace EnadeAds.Data.Migrations
                     b.Property<DateTimeOffset>("DeadlineAt")
                         .HasColumnType("timestamp with time zone");
 
+                    b.Property<int>("IgnoredCount")
+                        .HasColumnType("integer");
+
                     b.Property<int>("ObjectiveCount")
                         .HasColumnType("integer");
 
@@ -559,6 +562,9 @@ namespace EnadeAds.Data.Migrations
                     b.Property<string>("DiscursiveText")
                         .HasMaxLength(5000)
                         .HasColumnType("character varying(5000)");
+
+                    b.Property<bool>("IgnoredAnswer")
+                        .HasColumnType("boolean");
 
                     b.Property<bool>("IsGeneralEducation")
                         .HasColumnType("boolean");
@@ -5319,6 +5325,2593 @@ namespace EnadeAds.Data.Migrations
                             Summary = "Faça um simulado de 4 horas no mesmo horário da prova. Depois, revise só o caderno de erros até o dia do ENADE.",
                             Title = "Checkpoint final: simulado completo",
                             TrackId = 3
+                        },
+                        new
+                        {
+                            Id = 300100,
+                            Block = 7,
+                            Kind = 0,
+                            Order = 1,
+                            Slug = "biologia",
+                            Summary = "Da origem da vida à célula: a base de toda a Biologia do ensino médio. As questões costumam partir de uma notícia de saúde ou de meio ambiente.",
+                            Title = "Biologia",
+                            TrackId = 4
+                        },
+                        new
+                        {
+                            Id = 300101,
+                            Block = 7,
+                            Kind = 1,
+                            Order = 1,
+                            ParentId = 300100,
+                            Slug = "origem-da-vida",
+                            Summary = "Abiogênese e biogênese, e o contexto histórico de cada explicação.",
+                            Title = "Teorias de origem da vida",
+                            TrackId = 4
+                        },
+                        new
+                        {
+                            Id = 300102,
+                            Block = 7,
+                            Kind = 1,
+                            Order = 2,
+                            ParentId = 300100,
+                            Slug = "teorias-evolucao",
+                            Summary = "Lamarck e Darwin, seleção natural e a evolução humana.",
+                            Title = "Teorias da evolução",
+                            TrackId = 4
+                        },
+                        new
+                        {
+                            Id = 300103,
+                            Block = 7,
+                            Kind = 1,
+                            Order = 3,
+                            ParentId = 300100,
+                            Slug = "celula-organelas",
+                            Summary = "Procariontes e eucariontes, função de cada organela, osmose, difusão e transporte ativo.",
+                            Title = "Célula, organelas e membrana",
+                            TrackId = 4
+                        },
+                        new
+                        {
+                            Id = 300104,
+                            Block = 7,
+                            Kind = 1,
+                            Order = 4,
+                            ParentId = 300100,
+                            Slug = "metabolismo-energetico",
+                            Summary = "Fotossíntese, respiração, fermentação e quimiossíntese: etapas, produtos e quem faz cada uma.",
+                            Title = "Metabolismo energético",
+                            TrackId = 4
+                        },
+                        new
+                        {
+                            Id = 300105,
+                            Block = 7,
+                            Kind = 1,
+                            Order = 5,
+                            ParentId = 300100,
+                            Slug = "divisao-celular",
+                            Summary = "Mitose e meiose: etapas e o papel de cada uma no crescimento e na formação de gametas.",
+                            Title = "Divisão celular",
+                            TrackId = 4
+                        },
+                        new
+                        {
+                            Id = 300106,
+                            Block = 7,
+                            Kind = 1,
+                            Order = 6,
+                            ParentId = 300100,
+                            Slug = "histologia",
+                            Summary = "Tecidos epitelial, conjuntivo, muscular e nervoso: características e funções.",
+                            Title = "Histologia",
+                            TrackId = 4
+                        },
+                        new
+                        {
+                            Id = 300107,
+                            Block = 7,
+                            Kind = 1,
+                            Order = 7,
+                            ParentId = 300100,
+                            Slug = "embriologia-reproducao",
+                            Summary = "Do zigoto à gástrula; reprodução sexuada e assexuada, com vantagens e desvantagens.",
+                            Title = "Embriologia e reprodução",
+                            TrackId = 4
+                        },
+                        new
+                        {
+                            Id = 300108,
+                            Block = 7,
+                            Kind = 1,
+                            Order = 8,
+                            ParentId = 300100,
+                            Slug = "ecossistemas-impactos-e1",
+                            Summary = "Fluxo de energia, ciclos da água, do carbono e do nitrogênio, relações ecológicas, biomas brasileiros, poluição e mudanças climáticas. Tema comum às três etapas.",
+                            Title = "Ecossistemas e impactos ambientais",
+                            TrackId = 4
+                        },
+                        new
+                        {
+                            Id = 300109,
+                            Block = 7,
+                            Kind = 1,
+                            Order = 9,
+                            ParentId = 300100,
+                            Slug = "classificacao-biologica-e1",
+                            Summary = "Categorias taxonômicas, os três domínios da vida, árvores filogenéticas e evolução humana; darwinismo social, eugenia e racismo \"científico\". Tema comum às três etapas.",
+                            Title = "Diversidade e classificação biológica",
+                            TrackId = 4
+                        },
+                        new
+                        {
+                            Id = 300200,
+                            Block = 7,
+                            Kind = 0,
+                            Order = 2,
+                            Slug = "fisica",
+                            Summary = "Mecânica: como descrever o movimento e o que o causa. Vale montar o desenho das forças antes de fazer conta.",
+                            Title = "Física",
+                            TrackId = 4
+                        },
+                        new
+                        {
+                            Id = 300201,
+                            Block = 7,
+                            Kind = 1,
+                            Order = 1,
+                            ParentId = 300200,
+                            Slug = "grandezas-unidades",
+                            Summary = "Ordem de grandeza, notação científica, grandezas escalares e vetoriais e o Sistema Internacional.",
+                            Title = "Grandezas e unidades",
+                            TrackId = 4
+                        },
+                        new
+                        {
+                            Id = 300202,
+                            Block = 7,
+                            Kind = 1,
+                            Order = 2,
+                            ParentId = 300200,
+                            Slug = "cinematica",
+                            Summary = "Velocidade e aceleração, movimento uniforme e uniformemente variado, movimento circular e queda livre.",
+                            Title = "Cinemática",
+                            TrackId = 4
+                        },
+                        new
+                        {
+                            Id = 300203,
+                            Block = 7,
+                            Kind = 1,
+                            Order = 3,
+                            ParentId = 300200,
+                            Slug = "leis-de-newton",
+                            Summary = "Força resultante, peso, normal, tração, elástica, atrito e centrípeta.",
+                            Title = "Leis de Newton e forças",
+                            TrackId = 4
+                        },
+                        new
+                        {
+                            Id = 300204,
+                            Block = 7,
+                            Kind = 1,
+                            Order = 4,
+                            ParentId = 300200,
+                            Slug = "trabalho-energia",
+                            Summary = "Energia cinética e potencial, conservação da energia mecânica e forças não conservativas.",
+                            Title = "Trabalho, energia e potência",
+                            TrackId = 4
+                        },
+                        new
+                        {
+                            Id = 300205,
+                            Block = 7,
+                            Kind = 1,
+                            Order = 5,
+                            ParentId = 300200,
+                            Slug = "impulso-quantidade-movimento",
+                            Summary = "Colisões e o princípio da conservação da quantidade de movimento.",
+                            Title = "Impulso e quantidade de movimento",
+                            TrackId = 4
+                        },
+                        new
+                        {
+                            Id = 300206,
+                            Block = 7,
+                            Kind = 1,
+                            Order = 6,
+                            ParentId = 300200,
+                            Slug = "estatica",
+                            Summary = "Equilíbrio do ponto material e do corpo extenso, momento de uma força e centro de gravidade.",
+                            Title = "Estática",
+                            TrackId = 4
+                        },
+                        new
+                        {
+                            Id = 300300,
+                            Block = 7,
+                            Kind = 0,
+                            Order = 3,
+                            Slug = "quimica",
+                            Summary = "Do átomo à reação: a linguagem da Química e as contas com massa e quantidade de matéria.",
+                            Title = "Química",
+                            TrackId = 4
+                        },
+                        new
+                        {
+                            Id = 300301,
+                            Block = 7,
+                            Kind = 1,
+                            Order = 1,
+                            ParentId = 300300,
+                            Slug = "materia-misturas",
+                            Summary = "Propriedades da matéria, substâncias simples e compostas, misturas e métodos de separação.",
+                            Title = "Matéria, substâncias e misturas",
+                            TrackId = 4
+                        },
+                        new
+                        {
+                            Id = 300302,
+                            Block = 7,
+                            Kind = 1,
+                            Order = 2,
+                            ParentId = 300300,
+                            Slug = "atomistica-tabela-periodica",
+                            Summary = "Modelos atômicos, número atômico e de massa, íons, isótopos e propriedades periódicas.",
+                            Title = "Atomística e tabela periódica",
+                            TrackId = 4
+                        },
+                        new
+                        {
+                            Id = 300303,
+                            Block = 7,
+                            Kind = 1,
+                            Order = 3,
+                            ParentId = 300300,
+                            Slug = "ligacoes-quimicas",
+                            Summary = "Ligação iônica, covalente e metálica, geometria, polaridade e forças intermoleculares.",
+                            Title = "Ligações e interações",
+                            TrackId = 4
+                        },
+                        new
+                        {
+                            Id = 300304,
+                            Block = 7,
+                            Kind = 1,
+                            Order = 4,
+                            ParentId = 300300,
+                            Slug = "funcoes-inorganicas",
+                            Summary = "Ácidos, bases, sais e óxidos: nomenclatura, propriedades e reações no ar, no solo e na água.",
+                            Title = "Funções inorgânicas e reações",
+                            TrackId = 4
+                        },
+                        new
+                        {
+                            Id = 300305,
+                            Block = 7,
+                            Kind = 1,
+                            Order = 5,
+                            ParentId = 300300,
+                            Slug = "calculos-quimicos",
+                            Summary = "Conservação da massa, estequiometria, rendimento, pureza e reagente limitante.",
+                            Title = "Cálculos químicos",
+                            TrackId = 4
+                        },
+                        new
+                        {
+                            Id = 310001,
+                            Block = 7,
+                            Kind = 2,
+                            Order = 4,
+                            Slug = "checkpoint-natureza-e1",
+                            Summary = "Resolva as questões 1 a 9 de uma prova antiga da Etapa 1 com o relógio ligado: cerca de 6 minutos por questão.",
+                            Title = "Checkpoint: questões de Ciências da Natureza",
+                            TrackId = 4
+                        },
+                        new
+                        {
+                            Id = 300400,
+                            Block = 6,
+                            Kind = 0,
+                            Order = 5,
+                            Slug = "historia",
+                            Summary = "Da origem humana na África à formação do mundo moderno, sempre com fonte histórica para ler.",
+                            Title = "História",
+                            TrackId = 4
+                        },
+                        new
+                        {
+                            Id = 300401,
+                            Block = 6,
+                            Kind = 1,
+                            Order = 1,
+                            ParentId = 300400,
+                            Slug = "introducao-historia",
+                            Summary = "Fontes, tempo, periodizações e disputas pela memória.",
+                            Title = "Introdução à História",
+                            TrackId = 4
+                        },
+                        new
+                        {
+                            Id = 300402,
+                            Block = 6,
+                            Kind = 1,
+                            Order = 2,
+                            ParentId = 300400,
+                            Slug = "pre-historia",
+                            Summary = "A África e a origem humana, Paleolítico e Neolítico, primeiras cidades e metalurgia.",
+                            Title = "Pré-História",
+                            TrackId = 4
+                        },
+                        new
+                        {
+                            Id = 300403,
+                            Block = 6,
+                            Kind = 1,
+                            Order = 3,
+                            ParentId = 300400,
+                            Slug = "mundo-antigo",
+                            Summary = "Egito, Mesopotâmia, Grécia e Roma, e a crise do mundo antigo.",
+                            Title = "Mundo Antigo",
+                            TrackId = 4
+                        },
+                        new
+                        {
+                            Id = 300404,
+                            Block = 6,
+                            Kind = 1,
+                            Order = 4,
+                            ParentId = 300400,
+                            Slug = "mundo-medieval",
+                            Summary = "Impérios Bizantino e Islâmico, Idade Média ocidental e feudalismo.",
+                            Title = "Mundo Medieval",
+                            TrackId = 4
+                        },
+                        new
+                        {
+                            Id = 300405,
+                            Block = 6,
+                            Kind = 1,
+                            Order = 5,
+                            ParentId = 300400,
+                            Slug = "mundo-moderno-capitalismo",
+                            Summary = "Renascimento, Grandes Navegações, reformas religiosas, absolutismo, mercantilismo e Iluminismo.",
+                            Title = "Mundo Moderno e formação do capitalismo",
+                            TrackId = 4
+                        },
+                        new
+                        {
+                            Id = 300500,
+                            Block = 6,
+                            Kind = 0,
+                            Order = 6,
+                            Slug = "geografia",
+                            Summary = "Ler o espaço: mapas, a dinâmica da Terra e os problemas ambientais.",
+                            Title = "Geografia",
+                            TrackId = 4
+                        },
+                        new
+                        {
+                            Id = 300501,
+                            Block = 6,
+                            Kind = 1,
+                            Order = 1,
+                            ParentId = 300500,
+                            Slug = "orientacao-cartografia",
+                            Summary = "Movimentos da Terra, coordenadas, fusos horários, escalas, projeções e geotecnologias.",
+                            Title = "Orientação e cartografia",
+                            TrackId = 4
+                        },
+                        new
+                        {
+                            Id = 300502,
+                            Block = 6,
+                            Kind = 1,
+                            Order = 2,
+                            ParentId = 300500,
+                            Slug = "estrutura-relevo-solos",
+                            Summary = "Tectônica de placas, rochas, formação e degradação dos solos, agentes do relevo.",
+                            Title = "Estrutura da Terra, relevo e solos",
+                            TrackId = 4
+                        },
+                        new
+                        {
+                            Id = 300503,
+                            Block = 6,
+                            Kind = 1,
+                            Order = 3,
+                            ParentId = 300500,
+                            Slug = "clima-biomas",
+                            Summary = "Dinâmica atmosférica, tipos de clima, eventos extremos, biomas e os domínios brasileiros.",
+                            Title = "Clima, biomas e domínios morfoclimáticos",
+                            TrackId = 4
+                        },
+                        new
+                        {
+                            Id = 300504,
+                            Block = 6,
+                            Kind = 1,
+                            Order = 4,
+                            ParentId = 300500,
+                            Slug = "agua-problemas-ambientais",
+                            Summary = "A água no Brasil e no mundo e os impactos da ação humana.",
+                            Title = "Recursos hídricos e problemas ambientais",
+                            TrackId = 4
+                        },
+                        new
+                        {
+                            Id = 300600,
+                            Block = 6,
+                            Kind = 0,
+                            Order = 7,
+                            Slug = "filosofia",
+                            Summary = "O que é filosofar e as ideias dos autores que abrem a tradição ocidental.",
+                            Title = "Filosofia",
+                            TrackId = 4
+                        },
+                        new
+                        {
+                            Id = 300601,
+                            Block = 6,
+                            Kind = 1,
+                            Order = 1,
+                            ParentId = 300600,
+                            Slug = "introducao-filosofia",
+                            Summary = "Origens da filosofia, do que ela trata e o que é a reflexão filosófica.",
+                            Title = "Introdução à Filosofia",
+                            TrackId = 4
+                        },
+                        new
+                        {
+                            Id = 300602,
+                            Block = 6,
+                            Kind = 1,
+                            Order = 2,
+                            ParentId = 300600,
+                            Slug = "filosofia-antiga",
+                            Summary = "Pré-socráticos, a maiêutica de Sócrates, a alegoria da caverna de Platão e a ética e a lógica de Aristóteles.",
+                            Title = "Antiguidade clássica",
+                            TrackId = 4
+                        },
+                        new
+                        {
+                            Id = 300603,
+                            Block = 6,
+                            Kind = 1,
+                            Order = 3,
+                            ParentId = 300600,
+                            Slug = "filosofia-medieval",
+                            Summary = "Fé e razão na Europa cristã e as Confissões de Agostinho.",
+                            Title = "Filosofia medieval",
+                            TrackId = 4
+                        },
+                        new
+                        {
+                            Id = 300604,
+                            Block = 6,
+                            Kind = 1,
+                            Order = 4,
+                            ParentId = 300600,
+                            Slug = "filosofia-moderna",
+                            Summary = "O cogito de Descartes e os limites do conhecimento em Kant.",
+                            Title = "Filosofia moderna",
+                            TrackId = 4
+                        },
+                        new
+                        {
+                            Id = 300700,
+                            Block = 6,
+                            Kind = 0,
+                            Order = 8,
+                            Slug = "sociologia",
+                            Summary = "Os conceitos que explicam a vida em sociedade, com Marx, Weber e Durkheim.",
+                            Title = "Sociologia",
+                            TrackId = 4
+                        },
+                        new
+                        {
+                            Id = 300701,
+                            Block = 6,
+                            Kind = 1,
+                            Order = 1,
+                            ParentId = 300700,
+                            Slug = "classicos-sociologia",
+                            Summary = "Iluminismo e revoluções; os conceitos-chave de Marx, Weber e Durkheim.",
+                            Title = "Surgimento da Sociologia e os clássicos",
+                            TrackId = 4
+                        },
+                        new
+                        {
+                            Id = 300702,
+                            Block = 6,
+                            Kind = 1,
+                            Order = 2,
+                            ParentId = 300700,
+                            Slug = "status-papeis-sociais",
+                            Summary = "Interação, representação social, cooperação e conflito.",
+                            Title = "Status, papéis e interação social",
+                            TrackId = 4
+                        },
+                        new
+                        {
+                            Id = 300703,
+                            Block = 6,
+                            Kind = 1,
+                            Order = 3,
+                            ParentId = 300700,
+                            Slug = "estratificacao-mobilidade",
+                            Summary = "Classes sociais, desigualdades econômicas e políticas e mobilidade.",
+                            Title = "Estratificação e mobilidade social",
+                            TrackId = 4
+                        },
+                        new
+                        {
+                            Id = 300704,
+                            Block = 6,
+                            Kind = 1,
+                            Order = 4,
+                            ParentId = 300700,
+                            Slug = "cultura-identidade",
+                            Summary = "Conceito de cultura, etnocentrismo e relativismo, cultura de massa e indústria cultural.",
+                            Title = "Cultura e identidade",
+                            TrackId = 4
+                        },
+                        new
+                        {
+                            Id = 310002,
+                            Block = 6,
+                            Kind = 2,
+                            Order = 9,
+                            Slug = "checkpoint-humanas-e1",
+                            Summary = "Resolva as questões 10 a 18 de uma prova antiga da Etapa 1. Leia a pergunta antes do texto-base.",
+                            Title = "Checkpoint: questões de Ciências Humanas",
+                            TrackId = 4
+                        },
+                        new
+                        {
+                            Id = 300800,
+                            Block = 8,
+                            Kind = 0,
+                            Order = 10,
+                            Slug = "matematica",
+                            Summary = "São cinco questões: funções e progressões aparecem em quase toda prova.",
+                            Title = "Matemática",
+                            TrackId = 4
+                        },
+                        new
+                        {
+                            Id = 300801,
+                            Block = 8,
+                            Kind = 1,
+                            Order = 1,
+                            ParentId = 300800,
+                            Slug = "conjuntos-intervalos",
+                            Summary = "Operações com números reais, diagramas de Venn e operações com intervalos.",
+                            Title = "Conjuntos numéricos e intervalos",
+                            TrackId = 4
+                        },
+                        new
+                        {
+                            Id = 300802,
+                            Block = 8,
+                            Kind = 1,
+                            Order = 2,
+                            ParentId = 300800,
+                            Slug = "funcoes-conceitos",
+                            Summary = "Domínio, imagem, raízes, crescimento, função composta e inversa, leitura de gráficos e tabelas.",
+                            Title = "Funções: conceitos",
+                            TrackId = 4
+                        },
+                        new
+                        {
+                            Id = 300803,
+                            Block = 8,
+                            Kind = 1,
+                            Order = 3,
+                            ParentId = 300800,
+                            Slug = "funcoes-elementares",
+                            Summary = "Gráfico, raízes, vértice, crescimento exponencial e propriedades dos logaritmos.",
+                            Title = "Funções afim, quadrática, exponencial e logarítmica",
+                            TrackId = 4
+                        },
+                        new
+                        {
+                            Id = 300804,
+                            Block = 8,
+                            Kind = 1,
+                            Order = 4,
+                            ParentId = 300800,
+                            Slug = "progressao-aritmetica",
+                            Summary = "Termo geral e soma dos termos.",
+                            Title = "Progressão aritmética",
+                            TrackId = 4
+                        },
+                        new
+                        {
+                            Id = 300805,
+                            Block = 8,
+                            Kind = 1,
+                            Order = 5,
+                            ParentId = 300800,
+                            Slug = "progressao-geometrica",
+                            Summary = "Termo geral e soma dos termos da PG finita e da infinita.",
+                            Title = "Progressão geométrica",
+                            TrackId = 4
+                        },
+                        new
+                        {
+                            Id = 300806,
+                            Block = 8,
+                            Kind = 1,
+                            Order = 6,
+                            ParentId = 300800,
+                            Slug = "estatistica",
+                            Summary = "Gráficos, média, mediana, moda, variância e desvio padrão.",
+                            Title = "Estatística",
+                            TrackId = 4
+                        },
+                        new
+                        {
+                            Id = 310003,
+                            Block = 8,
+                            Kind = 2,
+                            Order = 11,
+                            Slug = "checkpoint-matematica-e1",
+                            Summary = "Resolva as questões 19 a 23 de uma prova antiga da Etapa 1. Na dúvida entre chutar e marcar \"Ignoro a resposta\", lembre que o erro desconta 10% de um acerto.",
+                            Title = "Checkpoint: questões de Matemática",
+                            TrackId = 4
+                        },
+                        new
+                        {
+                            Id = 300900,
+                            Block = 5,
+                            Kind = 0,
+                            Order = 12,
+                            Slug = "lingua-portuguesa",
+                            Summary = "A língua em uso: variação, sentido das palavras e as classes gramaticais dentro do texto.",
+                            Title = "Língua Portuguesa",
+                            TrackId = 4
+                        },
+                        new
+                        {
+                            Id = 300901,
+                            Block = 5,
+                            Kind = 1,
+                            Order = 1,
+                            ParentId = 300900,
+                            Slug = "linguagem-figuras",
+                            Summary = "Discurso formal e informal, denotação e conotação, figuras e vícios de linguagem.",
+                            Title = "Linguagem, sentido e figuras",
+                            TrackId = 4
+                        },
+                        new
+                        {
+                            Id = 300902,
+                            Block = 5,
+                            Kind = 1,
+                            Order = 2,
+                            ParentId = 300900,
+                            Slug = "variacao-linguistica-pave",
+                            Summary = "Sotaque, dialeto e idioleto, sem preconceito linguístico.",
+                            Title = "Variação linguística",
+                            TrackId = 4
+                        },
+                        new
+                        {
+                            Id = 300903,
+                            Block = 5,
+                            Kind = 1,
+                            Order = 3,
+                            ParentId = 300900,
+                            Slug = "formacao-palavras",
+                            Summary = "Radical, desinências, vogal temática e afixos.",
+                            Title = "Estrutura e formação das palavras",
+                            TrackId = 4
+                        },
+                        new
+                        {
+                            Id = 300904,
+                            Block = 5,
+                            Kind = 1,
+                            Order = 4,
+                            ParentId = 300900,
+                            Slug = "classes-variaveis",
+                            Summary = "Substantivo, verbo, pronome, artigo e adjetivo: flexão, concordância, regência e colocação pronominal.",
+                            Title = "Classes variáveis",
+                            TrackId = 4
+                        },
+                        new
+                        {
+                            Id = 300905,
+                            Block = 5,
+                            Kind = 1,
+                            Order = 5,
+                            ParentId = 300900,
+                            Slug = "classes-invariaveis",
+                            Summary = "Advérbio, preposição e conjunção, e os operadores argumentativos.",
+                            Title = "Classes invariáveis",
+                            TrackId = 4
+                        },
+                        new
+                        {
+                            Id = 301000,
+                            Block = 5,
+                            Kind = 0,
+                            Order = 13,
+                            Slug = "literatura",
+                            Summary = "O que é literatura e os primeiros movimentos, de Portugal medieval ao Brasil do século XVI.",
+                            Title = "Literatura",
+                            TrackId = 4
+                        },
+                        new
+                        {
+                            Id = 301001,
+                            Block = 5,
+                            Kind = 1,
+                            Order = 1,
+                            ParentId = 301000,
+                            Slug = "introducao-literatura",
+                            Summary = "Funções da literatura, gêneros lírico, narrativo e dramático, intertextualidade.",
+                            Title = "Introdução aos estudos literários",
+                            TrackId = 4
+                        },
+                        new
+                        {
+                            Id = 301002,
+                            Block = 5,
+                            Kind = 1,
+                            Order = 2,
+                            ParentId = 301000,
+                            Slug = "trovadorismo-classicismo",
+                            Summary = "As cantigas medievais, o teatro de Gil Vicente e Camões (\"Os Lusíadas\").",
+                            Title = "Trovadorismo, Humanismo e Classicismo",
+                            TrackId = 4
+                        },
+                        new
+                        {
+                            Id = 301003,
+                            Block = 5,
+                            Kind = 1,
+                            Order = 3,
+                            ParentId = 301000,
+                            Slug = "literatura-informacao",
+                            Summary = "Os textos sobre o Brasil do século XVI, como a carta de Caminha.",
+                            Title = "Literatura de Informação",
+                            TrackId = 4
+                        },
+                        new
+                        {
+                            Id = 301004,
+                            Block = 5,
+                            Kind = 1,
+                            Order = 4,
+                            ParentId = 301000,
+                            Slug = "leitura-literaria-e1",
+                            Summary = "Interpretar textos clássicos e contemporâneos e compará-los com outras linguagens.",
+                            Title = "Leitura literária",
+                            TrackId = 4
+                        },
+                        new
+                        {
+                            Id = 301100,
+                            Block = 5,
+                            Kind = 0,
+                            Order = 14,
+                            Slug = "arte",
+                            Summary = "Fundamentos das artes visuais e a relação da arte com a cultura.",
+                            Title = "Arte",
+                            TrackId = 4
+                        },
+                        new
+                        {
+                            Id = 301101,
+                            Block = 5,
+                            Kind = 1,
+                            Order = 1,
+                            ParentId = 301100,
+                            Slug = "linguagem-visual",
+                            Summary = "Ponto, linha, forma, cor, textura e volume; equilíbrio, ritmo, proporção e contraste.",
+                            Title = "Elementos e organização da linguagem visual",
+                            TrackId = 4
+                        },
+                        new
+                        {
+                            Id = 301102,
+                            Block = 5,
+                            Kind = 1,
+                            Order = 2,
+                            ParentId = 301100,
+                            Slug = "contextos-praticas-artisticas",
+                            Summary = "Função social da arte, modalidades das artes visuais e manifestações locais e regionais.",
+                            Title = "Contextos e práticas artísticas",
+                            TrackId = 4
+                        },
+                        new
+                        {
+                            Id = 301200,
+                            Block = 5,
+                            Kind = 0,
+                            Order = 15,
+                            Slug = "ingles",
+                            Summary = "As três últimas questões da prova são de língua estrangeira, e você escolhe entre espanhol e inglês. O que se cobra é leitura, não gramática decorada.",
+                            Title = "Língua inglesa",
+                            TrackId = 4
+                        },
+                        new
+                        {
+                            Id = 301201,
+                            Block = 5,
+                            Kind = 1,
+                            Order = 1,
+                            ParentId = 301200,
+                            Slug = "ingles-generos-estrutura-e1",
+                            Summary = "Reconhecer o gênero (notícia, tirinha, anúncio, artigo), as partes do texto e como elas se ligam.",
+                            Title = "Gêneros e estrutura do texto",
+                            TrackId = 4
+                        },
+                        new
+                        {
+                            Id = 301202,
+                            Block = 5,
+                            Kind = 1,
+                            Order = 2,
+                            ParentId = 301200,
+                            Slug = "ingles-vocabulario-contexto-e1",
+                            Summary = "Ideia principal e secundária, o que está explícito e implícito, cognatos e falsos cognatos.",
+                            Title = "Palavras no texto e no contexto",
+                            TrackId = 4
+                        },
+                        new
+                        {
+                            Id = 301203,
+                            Block = 5,
+                            Kind = 1,
+                            Order = 3,
+                            ParentId = 301200,
+                            Slug = "ingles-objetivos-texto-e1",
+                            Summary = "Quem escreve, para quem e para quê; pronomes e conectivos que retomam e ligam as ideias.",
+                            Title = "Objetivos do texto",
+                            TrackId = 4
+                        },
+                        new
+                        {
+                            Id = 301300,
+                            Block = 5,
+                            Kind = 0,
+                            Order = 16,
+                            Slug = "espanhol",
+                            Summary = "As três últimas questões da prova são de língua estrangeira, e você escolhe entre espanhol e inglês. O que se cobra é leitura, não gramática decorada.",
+                            Title = "Língua espanhola",
+                            TrackId = 4
+                        },
+                        new
+                        {
+                            Id = 301301,
+                            Block = 5,
+                            Kind = 1,
+                            Order = 1,
+                            ParentId = 301300,
+                            Slug = "espanhol-generos-estrutura-e1",
+                            Summary = "Reconhecer o gênero (notícia, tirinha, anúncio, artigo), as partes do texto e como elas se ligam.",
+                            Title = "Gêneros e estrutura do texto",
+                            TrackId = 4
+                        },
+                        new
+                        {
+                            Id = 301302,
+                            Block = 5,
+                            Kind = 1,
+                            Order = 2,
+                            ParentId = 301300,
+                            Slug = "espanhol-vocabulario-contexto-e1",
+                            Summary = "Ideia principal e secundária, o que está explícito e implícito, cognatos e falsos cognatos.",
+                            Title = "Palavras no texto e no contexto",
+                            TrackId = 4
+                        },
+                        new
+                        {
+                            Id = 301303,
+                            Block = 5,
+                            Kind = 1,
+                            Order = 3,
+                            ParentId = 301300,
+                            Slug = "espanhol-objetivos-texto-e1",
+                            Summary = "Quem escreve, para quem e para quê; pronomes e conectivos que retomam e ligam as ideias.",
+                            Title = "Objetivos do texto",
+                            TrackId = 4
+                        },
+                        new
+                        {
+                            Id = 310004,
+                            Block = 5,
+                            Kind = 2,
+                            Order = 17,
+                            Slug = "checkpoint-simulado-pave-1",
+                            Summary = "Faça um simulado de 32 questões em 3h30, no horário da prova (início às 13h15). Depois, revise o caderno de erros até o dia do PAVE.",
+                            Title = "Checkpoint final: simulado completo",
+                            TrackId = 4
+                        },
+                        new
+                        {
+                            Id = 400100,
+                            Block = 7,
+                            Kind = 0,
+                            Order = 1,
+                            Slug = "biologia",
+                            Summary = "Saúde e ambiente lidos por dados e indicadores, mais os dois temas comuns a todas as etapas.",
+                            Title = "Biologia",
+                            TrackId = 5
+                        },
+                        new
+                        {
+                            Id = 400101,
+                            Block = 7,
+                            Kind = 1,
+                            Order = 1,
+                            ParentId = 400100,
+                            Slug = "saude-idh",
+                            Summary = "Doenças e transtornos que afetam a população, vacinas, saúde mental e a relação entre desigualdade e vulnerabilidade.",
+                            Title = "Saúde e Índice de Desenvolvimento Humano",
+                            TrackId = 5
+                        },
+                        new
+                        {
+                            Id = 400102,
+                            Block = 7,
+                            Kind = 1,
+                            Order = 2,
+                            ParentId = 400100,
+                            Slug = "ecossistemas-impactos-e2",
+                            Summary = "Fluxo de energia, ciclos da água, do carbono e do nitrogênio, relações ecológicas, biomas brasileiros, poluição e mudanças climáticas. Tema comum às três etapas.",
+                            Title = "Ecossistemas e impactos ambientais",
+                            TrackId = 5
+                        },
+                        new
+                        {
+                            Id = 400103,
+                            Block = 7,
+                            Kind = 1,
+                            Order = 3,
+                            ParentId = 400100,
+                            Slug = "classificacao-biologica-e2",
+                            Summary = "Categorias taxonômicas, os três domínios da vida, árvores filogenéticas e evolução humana; darwinismo social, eugenia e racismo \"científico\". Tema comum às três etapas.",
+                            Title = "Diversidade e classificação biológica",
+                            TrackId = 5
+                        },
+                        new
+                        {
+                            Id = 400200,
+                            Block = 7,
+                            Kind = 0,
+                            Order = 2,
+                            Slug = "fisica",
+                            Summary = "Calor, luz e ondas: fenômenos do dia a dia explicados com poucas fórmulas.",
+                            Title = "Física",
+                            TrackId = 5
+                        },
+                        new
+                        {
+                            Id = 400201,
+                            Block = 7,
+                            Kind = 1,
+                            Order = 1,
+                            ParentId = 400200,
+                            Slug = "termometria-dilatacao",
+                            Summary = "Temperatura, escalas Celsius, Fahrenheit e Kelvin, dilatação de sólidos e líquidos e a água.",
+                            Title = "Termometria e dilatação térmica",
+                            TrackId = 5
+                        },
+                        new
+                        {
+                            Id = 400202,
+                            Block = 7,
+                            Kind = 1,
+                            Order = 2,
+                            ParentId = 400200,
+                            Slug = "calorimetria",
+                            Summary = "Calor sensível e latente, calor específico, mudanças de estado, condução, convecção e irradiação.",
+                            Title = "Calorimetria",
+                            TrackId = 5
+                        },
+                        new
+                        {
+                            Id = 400203,
+                            Block = 7,
+                            Kind = 1,
+                            Order = 3,
+                            ParentId = 400200,
+                            Slug = "optica-geometrica",
+                            Summary = "Reflexão e refração, espelhos planos e esféricos, lentes e a óptica da visão.",
+                            Title = "Óptica geométrica",
+                            TrackId = 5
+                        },
+                        new
+                        {
+                            Id = 400204,
+                            Block = 7,
+                            Kind = 1,
+                            Order = 4,
+                            ParentId = 400200,
+                            Slug = "ondulatoria",
+                            Summary = "Amplitude, frequência e comprimento de onda, fenômenos ondulatórios, som e efeito Doppler.",
+                            Title = "Ondulatória",
+                            TrackId = 5
+                        },
+                        new
+                        {
+                            Id = 400300,
+                            Block = 7,
+                            Kind = 0,
+                            Order = 3,
+                            Slug = "quimica",
+                            Summary = "A físico-química: quanto de energia, com que rapidez e até onde uma reação vai.",
+                            Title = "Química",
+                            TrackId = 5
+                        },
+                        new
+                        {
+                            Id = 400301,
+                            Block = 7,
+                            Kind = 1,
+                            Order = 1,
+                            ParentId = 400300,
+                            Slug = "solucoes",
+                            Summary = "Soluções e coloides, solubilidade, unidades de concentração e diluição.",
+                            Title = "Soluções",
+                            TrackId = 5
+                        },
+                        new
+                        {
+                            Id = 400302,
+                            Block = 7,
+                            Kind = 1,
+                            Order = 2,
+                            ParentId = 400300,
+                            Slug = "termoquimica",
+                            Summary = "Calor de reação, entalpia e Lei de Hess.",
+                            Title = "Termoquímica",
+                            TrackId = 5
+                        },
+                        new
+                        {
+                            Id = 400303,
+                            Block = 7,
+                            Kind = 1,
+                            Order = 3,
+                            ParentId = 400300,
+                            Slug = "cinetica-quimica",
+                            Summary = "Rapidez de reação, fatores que a alteram e catálise.",
+                            Title = "Cinética química",
+                            TrackId = 5
+                        },
+                        new
+                        {
+                            Id = 400304,
+                            Block = 7,
+                            Kind = 1,
+                            Order = 4,
+                            ParentId = 400300,
+                            Slug = "equilibrio-quimico",
+                            Summary = "Constante de equilíbrio, deslocamento (Le Chatelier), pH, pOH e hidrólise de sais.",
+                            Title = "Equilíbrio químico",
+                            TrackId = 5
+                        },
+                        new
+                        {
+                            Id = 400305,
+                            Block = 7,
+                            Kind = 1,
+                            Order = 5,
+                            ParentId = 400300,
+                            Slug = "eletroquimica",
+                            Summary = "Oxirredução, pilhas e baterias, eletrólise ígnea e em meio aquoso.",
+                            Title = "Eletroquímica",
+                            TrackId = 5
+                        },
+                        new
+                        {
+                            Id = 400306,
+                            Block = 7,
+                            Kind = 1,
+                            Order = 6,
+                            ParentId = 400300,
+                            Slug = "materiais-sustentabilidade",
+                            Summary = "Viabilidade dos processos químicos e a escolha de materiais pensando no impacto ambiental.",
+                            Title = "Materiais, processos e ambiente",
+                            TrackId = 5
+                        },
+                        new
+                        {
+                            Id = 410001,
+                            Block = 7,
+                            Kind = 2,
+                            Order = 4,
+                            Slug = "checkpoint-natureza-e2",
+                            Summary = "Resolva as questões 1 a 9 de uma prova antiga da Etapa 2 com o relógio ligado: cerca de 6 minutos por questão.",
+                            Title = "Checkpoint: questões de Ciências da Natureza",
+                            TrackId = 5
+                        },
+                        new
+                        {
+                            Id = 400400,
+                            Block = 6,
+                            Kind = 0,
+                            Order = 5,
+                            Slug = "historia",
+                            Summary = "Da colonização da América ao imperialismo do século XIX, com o Brasil e o Rio Grande do Sul em destaque.",
+                            Title = "História",
+                            TrackId = 5
+                        },
+                        new
+                        {
+                            Id = 400401,
+                            Block = 6,
+                            Kind = 1,
+                            Order = 1,
+                            ParentId = 400400,
+                            Slug = "america-africa-colonizacao",
+                            Summary = "Os mundos indígenas e africanos, as invasões europeias e os sistemas coloniais.",
+                            Title = "África Atlântica, povos indígenas e colonização da América",
+                            TrackId = 5
+                        },
+                        new
+                        {
+                            Id = 400402,
+                            Block = 6,
+                            Kind = 1,
+                            Order = 2,
+                            ParentId = 400400,
+                            Slug = "brasil-colonial",
+                            Summary = "Economia, escravidão, resistência africana e indígena e a crise do sistema colonial.",
+                            Title = "Brasil colonial",
+                            TrackId = 5
+                        },
+                        new
+                        {
+                            Id = 400403,
+                            Block = 6,
+                            Kind = 1,
+                            Order = 3,
+                            ParentId = 400400,
+                            Slug = "rio-grande-do-sul-colonial-imperial",
+                            Summary = "A formação do Rio Grande do Sul na colônia e no Império.",
+                            Title = "Rio Grande do Sul colonial e imperial",
+                            TrackId = 5
+                        },
+                        new
+                        {
+                            Id = 400404,
+                            Block = 6,
+                            Kind = 1,
+                            Order = 4,
+                            ParentId = 400400,
+                            Slug = "era-das-revolucoes",
+                            Summary = "Revolução Industrial, Revolução Americana e Revolução Francesa.",
+                            Title = "A era das revoluções",
+                            TrackId = 5
+                        },
+                        new
+                        {
+                            Id = 400405,
+                            Block = 6,
+                            Kind = 1,
+                            Order = 5,
+                            ParentId = 400400,
+                            Slug = "brasil-imperio-pave",
+                            Summary = "Independência, os dois reinados, a crise do escravismo e o movimento republicano.",
+                            Title = "Brasil Império",
+                            TrackId = 5
+                        },
+                        new
+                        {
+                            Id = 400406,
+                            Block = 6,
+                            Kind = 1,
+                            Order = 6,
+                            ParentId = 400400,
+                            Slug = "nacionalismos-imperialismos",
+                            Summary = "Nacionalismo e unificações na Europa e os imperialismos do século XIX.",
+                            Title = "Nacionalismos e imperialismos",
+                            TrackId = 5
+                        },
+                        new
+                        {
+                            Id = 400500,
+                            Block = 6,
+                            Kind = 0,
+                            Order = 6,
+                            Slug = "geografia",
+                            Summary = "O mundo organizado em Estados e redes, e o campo brasileiro.",
+                            Title = "Geografia",
+                            TrackId = 5
+                        },
+                        new
+                        {
+                            Id = 400501,
+                            Block = 6,
+                            Kind = 1,
+                            Order = 1,
+                            ParentId = 400500,
+                            Slug = "espaco-mundial-geopolitica",
+                            Summary = "Estado-nação, fronteiras, ONU, blocos econômicos e conflitos territoriais.",
+                            Title = "Espaço mundial e geopolítica",
+                            TrackId = 5
+                        },
+                        new
+                        {
+                            Id = 400502,
+                            Block = 6,
+                            Kind = 1,
+                            Order = 2,
+                            ParentId = 400500,
+                            Slug = "globalizacao",
+                            Summary = "Empresas globais, fluxos de dinheiro, mercadorias e informação, redes de transporte e diversidade cultural.",
+                            Title = "Globalização",
+                            TrackId = 5
+                        },
+                        new
+                        {
+                            Id = 400503,
+                            Block = 6,
+                            Kind = 1,
+                            Order = 3,
+                            ParentId = 400500,
+                            Slug = "espaco-rural",
+                            Summary = "Sistemas agrícolas, agricultura familiar, estrutura fundiária, reforma agrária e territórios indígenas e quilombolas.",
+                            Title = "Produção do espaço rural",
+                            TrackId = 5
+                        },
+                        new
+                        {
+                            Id = 400600,
+                            Block = 6,
+                            Kind = 0,
+                            Order = 7,
+                            Slug = "filosofia",
+                            Summary = "Argumentar bem, agir bem e entender o papel da linguagem.",
+                            Title = "Filosofia",
+                            TrackId = 5
+                        },
+                        new
+                        {
+                            Id = 400601,
+                            Block = 6,
+                            Kind = 1,
+                            Order = 1,
+                            ParentId = 400600,
+                            Slug = "logica",
+                            Summary = "O que é um argumento, lógica dedutiva e lógica indutiva.",
+                            Title = "Lógica",
+                            TrackId = 5
+                        },
+                        new
+                        {
+                            Id = 400602,
+                            Block = 6,
+                            Kind = 1,
+                            Order = 2,
+                            ParentId = 400600,
+                            Slug = "etica",
+                            Summary = "Ética e moral, e os dilemas éticos de hoje nas relações e nas profissões.",
+                            Title = "Ética",
+                            TrackId = 5
+                        },
+                        new
+                        {
+                            Id = 400603,
+                            Block = 6,
+                            Kind = 1,
+                            Order = 3,
+                            ParentId = 400600,
+                            Slug = "filosofia-linguagem",
+                            Summary = "O que a linguagem faz, do debate contemporâneo às redes sociais.",
+                            Title = "Filosofia da linguagem",
+                            TrackId = 5
+                        },
+                        new
+                        {
+                            Id = 400700,
+                            Block = 6,
+                            Kind = 0,
+                            Order = 8,
+                            Slug = "sociologia",
+                            Summary = "Sociedade e natureza, povos originários e a vida nas redes.",
+                            Title = "Sociologia",
+                            TrackId = 5
+                        },
+                        new
+                        {
+                            Id = 400701,
+                            Block = 6,
+                            Kind = 1,
+                            Order = 1,
+                            ParentId = 400700,
+                            Slug = "sociologia-ambiental",
+                            Summary = "Sociedade de risco, produção e consumo, justiça ambiental, sociologia rural e urbana.",
+                            Title = "Meio ambiente e sociologia ambiental",
+                            TrackId = 5
+                        },
+                        new
+                        {
+                            Id = 400702,
+                            Block = 6,
+                            Kind = 1,
+                            Order = 2,
+                            ParentId = 400700,
+                            Slug = "etnicidade-povos-originarios",
+                            Summary = "Povos indígenas e quilombolas hoje, direitos territoriais e políticas afirmativas.",
+                            Title = "Etnicidade e povos originários",
+                            TrackId = 5
+                        },
+                        new
+                        {
+                            Id = 400703,
+                            Block = 6,
+                            Kind = 1,
+                            Order = 3,
+                            ParentId = 400700,
+                            Slug = "cultura-digital",
+                            Summary = "Redes, vigilância e dados, capitalismo de plataforma, algoritmos e inteligência artificial generativa.",
+                            Title = "Cultura digital",
+                            TrackId = 5
+                        },
+                        new
+                        {
+                            Id = 410002,
+                            Block = 6,
+                            Kind = 2,
+                            Order = 9,
+                            Slug = "checkpoint-humanas-e2",
+                            Summary = "Resolva as questões 10 a 18 de uma prova antiga da Etapa 2. Leia a pergunta antes do texto-base.",
+                            Title = "Checkpoint: questões de Ciências Humanas",
+                            TrackId = 5
+                        },
+                        new
+                        {
+                            Id = 400800,
+                            Block = 8,
+                            Kind = 0,
+                            Order = 10,
+                            Slug = "matematica",
+                            Summary = "Trigonometria e geometria dominam a etapa. Desenhe a figura antes de calcular.",
+                            Title = "Matemática",
+                            TrackId = 5
+                        },
+                        new
+                        {
+                            Id = 400801,
+                            Block = 8,
+                            Kind = 1,
+                            Order = 1,
+                            ParentId = 400800,
+                            Slug = "triangulo-retangulo",
+                            Summary = "Relações métricas, Teorema de Pitágoras, seno, cosseno e tangente.",
+                            Title = "Triângulo retângulo",
+                            TrackId = 5
+                        },
+                        new
+                        {
+                            Id = 400802,
+                            Block = 8,
+                            Kind = 1,
+                            Order = 2,
+                            ParentId = 400800,
+                            Slug = "trigonometria-pave",
+                            Summary = "Arcos e ângulos, círculo trigonométrico, identidades, lei dos senos e lei dos cossenos.",
+                            Title = "Trigonometria",
+                            TrackId = 5
+                        },
+                        new
+                        {
+                            Id = 400803,
+                            Block = 8,
+                            Kind = 1,
+                            Order = 3,
+                            ParentId = 400800,
+                            Slug = "numeros-complexos",
+                            Summary = "Forma algébrica e trigonométrica, operações e o plano de Argand-Gauss.",
+                            Title = "Números complexos",
+                            TrackId = 5
+                        },
+                        new
+                        {
+                            Id = 400804,
+                            Block = 8,
+                            Kind = 1,
+                            Order = 4,
+                            ParentId = 400800,
+                            Slug = "equacoes-algebricas",
+                            Summary = "Raízes, multiplicidade e relações entre coeficientes e raízes.",
+                            Title = "Equações algébricas",
+                            TrackId = 5
+                        },
+                        new
+                        {
+                            Id = 400805,
+                            Block = 8,
+                            Kind = 1,
+                            Order = 5,
+                            ParentId = 400800,
+                            Slug = "geometria-plana-pave",
+                            Summary = "Unidades de medida, semelhança, polígonos regulares, círculo, perímetros e áreas.",
+                            Title = "Geometria plana",
+                            TrackId = 5
+                        },
+                        new
+                        {
+                            Id = 400806,
+                            Block = 8,
+                            Kind = 1,
+                            Order = 6,
+                            ParentId = 400800,
+                            Slug = "geometria-espacial-pave",
+                            Summary = "Poliedros e o teorema de Euler, prismas, pirâmides, cilindros, cones e esferas.",
+                            Title = "Geometria espacial",
+                            TrackId = 5
+                        },
+                        new
+                        {
+                            Id = 410003,
+                            Block = 8,
+                            Kind = 2,
+                            Order = 11,
+                            Slug = "checkpoint-matematica-e2",
+                            Summary = "Resolva as questões 19 a 23 de uma prova antiga da Etapa 2. Na dúvida entre chutar e marcar \"Ignoro a resposta\", lembre que o erro desconta 10% de um acerto.",
+                            Title = "Checkpoint: questões de Matemática",
+                            TrackId = 5
+                        },
+                        new
+                        {
+                            Id = 400900,
+                            Block = 5,
+                            Kind = 0,
+                            Order = 12,
+                            Slug = "lingua-portuguesa",
+                            Summary = "Sintaxe: como as orações se organizam e o que isso muda no sentido e na pontuação.",
+                            Title = "Língua Portuguesa",
+                            TrackId = 5
+                        },
+                        new
+                        {
+                            Id = 400901,
+                            Block = 5,
+                            Kind = 1,
+                            Order = 1,
+                            ParentId = 400900,
+                            Slug = "termos-da-oracao",
+                            Summary = "Termos essenciais, integrantes e acessórios; tipos de sujeito e de predicado.",
+                            Title = "Termos da oração",
+                            TrackId = 5
+                        },
+                        new
+                        {
+                            Id = 400902,
+                            Block = 5,
+                            Kind = 1,
+                            Order = 2,
+                            ParentId = 400900,
+                            Slug = "periodo-simples",
+                            Summary = "Sujeito, predicado, complementos, deslocamentos e pontuação.",
+                            Title = "Período simples",
+                            TrackId = 5
+                        },
+                        new
+                        {
+                            Id = 400903,
+                            Block = 5,
+                            Kind = 1,
+                            Order = 3,
+                            ParentId = 400900,
+                            Slug = "periodo-coordenacao",
+                            Summary = "As orações coordenadas e as relações de sentido entre elas.",
+                            Title = "Período composto por coordenação",
+                            TrackId = 5
+                        },
+                        new
+                        {
+                            Id = 400904,
+                            Block = 5,
+                            Kind = 1,
+                            Order = 4,
+                            ParentId = 400900,
+                            Slug = "periodo-subordinacao",
+                            Summary = "Orações substantivas, adjetivas (explicativas e restritivas) e adverbiais.",
+                            Title = "Período composto por subordinação",
+                            TrackId = 5
+                        },
+                        new
+                        {
+                            Id = 400905,
+                            Block = 5,
+                            Kind = 1,
+                            Order = 5,
+                            ParentId = 400900,
+                            Slug = "oracoes-reduzidas",
+                            Summary = "De infinitivo, de gerúndio e de particípio.",
+                            Title = "Orações reduzidas",
+                            TrackId = 5
+                        },
+                        new
+                        {
+                            Id = 401000,
+                            Block = 5,
+                            Kind = 0,
+                            Order = 13,
+                            Slug = "literatura",
+                            Summary = "Do Barroco ao Realismo: a literatura brasileira dos séculos XVII a XIX.",
+                            Title = "Literatura",
+                            TrackId = 5
+                        },
+                        new
+                        {
+                            Id = 401001,
+                            Block = 5,
+                            Kind = 1,
+                            Order = 1,
+                            ParentId = 401000,
+                            Slug = "barroco-arcadismo",
+                            Summary = "Gregório de Matos e os sermões de Vieira; Tomás Antônio Gonzaga e Cláudio Manuel da Costa.",
+                            Title = "Barroco e Arcadismo",
+                            TrackId = 5
+                        },
+                        new
+                        {
+                            Id = 401002,
+                            Block = 5,
+                            Kind = 1,
+                            Order = 2,
+                            ParentId = 401000,
+                            Slug = "romantismo",
+                            Summary = "Independência e identidade nacional; poesia lírica, indianista e ultrarromântica; Gonçalves Dias, Álvares de Azevedo e José de Alencar.",
+                            Title = "Romantismo",
+                            TrackId = 5
+                        },
+                        new
+                        {
+                            Id = 401003,
+                            Block = 5,
+                            Kind = 1,
+                            Order = 3,
+                            ParentId = 401000,
+                            Slug = "realismo",
+                            Summary = "Contexto e características do movimento, em oposição ao idealismo romântico.",
+                            Title = "Realismo",
+                            TrackId = 5
+                        },
+                        new
+                        {
+                            Id = 401100,
+                            Block = 5,
+                            Kind = 0,
+                            Order = 14,
+                            Slug = "arte",
+                            Summary = "História da arte e leitura crítica de obras.",
+                            Title = "Arte",
+                            TrackId = 5
+                        },
+                        new
+                        {
+                            Id = 401101,
+                            Block = 5,
+                            Kind = 1,
+                            Order = 1,
+                            ParentId = 401100,
+                            Slug = "historia-da-arte",
+                            Summary = "Da arte pré-histórica ao Renascimento e aos movimentos modernos e contemporâneos.",
+                            Title = "História da arte e movimentos artísticos",
+                            TrackId = 5
+                        },
+                        new
+                        {
+                            Id = 401102,
+                            Block = 5,
+                            Kind = 1,
+                            Order = 2,
+                            ParentId = 401100,
+                            Slug = "critica-estetica",
+                            Summary = "Como analisar uma obra e a relação entre arte, sociedade e política.",
+                            Title = "Análise crítica e estética",
+                            TrackId = 5
+                        },
+                        new
+                        {
+                            Id = 401200,
+                            Block = 5,
+                            Kind = 0,
+                            Order = 15,
+                            Slug = "ingles",
+                            Summary = "As três últimas questões da prova são de língua estrangeira, e você escolhe entre espanhol e inglês. O que se cobra é leitura, não gramática decorada.",
+                            Title = "Língua inglesa",
+                            TrackId = 5
+                        },
+                        new
+                        {
+                            Id = 401201,
+                            Block = 5,
+                            Kind = 1,
+                            Order = 1,
+                            ParentId = 401200,
+                            Slug = "ingles-generos-estrutura-e2",
+                            Summary = "Reconhecer o gênero (notícia, tirinha, anúncio, artigo), as partes do texto e como elas se ligam.",
+                            Title = "Gêneros e estrutura do texto",
+                            TrackId = 5
+                        },
+                        new
+                        {
+                            Id = 401202,
+                            Block = 5,
+                            Kind = 1,
+                            Order = 2,
+                            ParentId = 401200,
+                            Slug = "ingles-vocabulario-contexto-e2",
+                            Summary = "Ideia principal e secundária, o que está explícito e implícito, cognatos e falsos cognatos.",
+                            Title = "Palavras no texto e no contexto",
+                            TrackId = 5
+                        },
+                        new
+                        {
+                            Id = 401203,
+                            Block = 5,
+                            Kind = 1,
+                            Order = 3,
+                            ParentId = 401200,
+                            Slug = "ingles-objetivos-texto-e2",
+                            Summary = "Quem escreve, para quem e para quê; pronomes e conectivos que retomam e ligam as ideias.",
+                            Title = "Objetivos do texto",
+                            TrackId = 5
+                        },
+                        new
+                        {
+                            Id = 401300,
+                            Block = 5,
+                            Kind = 0,
+                            Order = 16,
+                            Slug = "espanhol",
+                            Summary = "As três últimas questões da prova são de língua estrangeira, e você escolhe entre espanhol e inglês. O que se cobra é leitura, não gramática decorada.",
+                            Title = "Língua espanhola",
+                            TrackId = 5
+                        },
+                        new
+                        {
+                            Id = 401301,
+                            Block = 5,
+                            Kind = 1,
+                            Order = 1,
+                            ParentId = 401300,
+                            Slug = "espanhol-generos-estrutura-e2",
+                            Summary = "Reconhecer o gênero (notícia, tirinha, anúncio, artigo), as partes do texto e como elas se ligam.",
+                            Title = "Gêneros e estrutura do texto",
+                            TrackId = 5
+                        },
+                        new
+                        {
+                            Id = 401302,
+                            Block = 5,
+                            Kind = 1,
+                            Order = 2,
+                            ParentId = 401300,
+                            Slug = "espanhol-vocabulario-contexto-e2",
+                            Summary = "Ideia principal e secundária, o que está explícito e implícito, cognatos e falsos cognatos.",
+                            Title = "Palavras no texto e no contexto",
+                            TrackId = 5
+                        },
+                        new
+                        {
+                            Id = 401303,
+                            Block = 5,
+                            Kind = 1,
+                            Order = 3,
+                            ParentId = 401300,
+                            Slug = "espanhol-objetivos-texto-e2",
+                            Summary = "Quem escreve, para quem e para quê; pronomes e conectivos que retomam e ligam as ideias.",
+                            Title = "Objetivos do texto",
+                            TrackId = 5
+                        },
+                        new
+                        {
+                            Id = 410004,
+                            Block = 5,
+                            Kind = 2,
+                            Order = 17,
+                            Slug = "checkpoint-simulado-pave-2",
+                            Summary = "Faça um simulado de 32 questões em 3h30, no horário da prova (início às 13h15). Depois, revise o caderno de erros até o dia do PAVE.",
+                            Title = "Checkpoint final: simulado completo",
+                            TrackId = 5
+                        },
+                        new
+                        {
+                            Id = 500100,
+                            Block = 7,
+                            Kind = 0,
+                            Order = 1,
+                            Slug = "biologia",
+                            Summary = "Genética e biotecnologia, mais os dois temas comuns a todas as etapas.",
+                            Title = "Biologia",
+                            TrackId = 6
+                        },
+                        new
+                        {
+                            Id = 500101,
+                            Block = 7,
+                            Kind = 1,
+                            Order = 1,
+                            ParentId = 500100,
+                            Slug = "genetica",
+                            Summary = "Leis de Mendel, cruzamentos e probabilidade, padrões de herança e variabilidade genética.",
+                            Title = "Genética",
+                            TrackId = 6
+                        },
+                        new
+                        {
+                            Id = 500102,
+                            Block = 7,
+                            Kind = 1,
+                            Order = 2,
+                            ParentId = 500100,
+                            Slug = "biotecnologia",
+                            Summary = "Clonagem, melhoramento genético, tecnologias do DNA, células-tronco, biorremediação e biossegurança.",
+                            Title = "Biotecnologia e bioética",
+                            TrackId = 6
+                        },
+                        new
+                        {
+                            Id = 500103,
+                            Block = 7,
+                            Kind = 1,
+                            Order = 3,
+                            ParentId = 500100,
+                            Slug = "ecossistemas-impactos-e3",
+                            Summary = "Fluxo de energia, ciclos da água, do carbono e do nitrogênio, relações ecológicas, biomas brasileiros, poluição e mudanças climáticas. Tema comum às três etapas.",
+                            Title = "Ecossistemas e impactos ambientais",
+                            TrackId = 6
+                        },
+                        new
+                        {
+                            Id = 500104,
+                            Block = 7,
+                            Kind = 1,
+                            Order = 4,
+                            ParentId = 500100,
+                            Slug = "classificacao-biologica-e3",
+                            Summary = "Categorias taxonômicas, os três domínios da vida, árvores filogenéticas e evolução humana; darwinismo social, eugenia e racismo \"científico\". Tema comum às três etapas.",
+                            Title = "Diversidade e classificação biológica",
+                            TrackId = 6
+                        },
+                        new
+                        {
+                            Id = 500200,
+                            Block = 7,
+                            Kind = 0,
+                            Order = 2,
+                            Slug = "fisica",
+                            Summary = "Eletricidade e magnetismo, do choque estático ao gerador de energia.",
+                            Title = "Física",
+                            TrackId = 6
+                        },
+                        new
+                        {
+                            Id = 500201,
+                            Block = 7,
+                            Kind = 1,
+                            Order = 1,
+                            ParentId = 500200,
+                            Slug = "eletrostatica",
+                            Summary = "Carga elétrica, eletrização, Lei de Coulomb, campo e potencial elétrico.",
+                            Title = "Eletrostática",
+                            TrackId = 6
+                        },
+                        new
+                        {
+                            Id = 500202,
+                            Block = 7,
+                            Kind = 1,
+                            Order = 2,
+                            ParentId = 500200,
+                            Slug = "eletrodinamica",
+                            Summary = "Corrente, resistência, Leis de Ohm, potência, associação de resistores e circuitos simples.",
+                            Title = "Eletrodinâmica",
+                            TrackId = 6
+                        },
+                        new
+                        {
+                            Id = 500203,
+                            Block = 7,
+                            Kind = 1,
+                            Order = 3,
+                            ParentId = 500200,
+                            Slug = "eletromagnetismo",
+                            Summary = "Ímãs, campo magnético de fios e solenoides, força magnética, indução (Faraday-Lenz) e espectro eletromagnético.",
+                            Title = "Eletromagnetismo",
+                            TrackId = 6
+                        },
+                        new
+                        {
+                            Id = 500300,
+                            Block = 7,
+                            Kind = 0,
+                            Order = 3,
+                            Slug = "quimica",
+                            Summary = "Química orgânica: reconhecer a função pela estrutura e ligar a molécula ao uso dela.",
+                            Title = "Química",
+                            TrackId = 6
+                        },
+                        new
+                        {
+                            Id = 500301,
+                            Block = 7,
+                            Kind = 1,
+                            Order = 1,
+                            ParentId = 500300,
+                            Slug = "compostos-organicos",
+                            Summary = "Hibridização do carbono, ligações entre carbonos e classificação das cadeias.",
+                            Title = "Compostos orgânicos e cadeias carbônicas",
+                            TrackId = 6
+                        },
+                        new
+                        {
+                            Id = 500302,
+                            Block = 7,
+                            Kind = 1,
+                            Order = 2,
+                            ParentId = 500300,
+                            Slug = "funcoes-organicas",
+                            Summary = "Hidrocarbonetos, funções oxigenadas e nitrogenadas, haletos: nomenclatura e propriedades.",
+                            Title = "Funções orgânicas",
+                            TrackId = 6
+                        },
+                        new
+                        {
+                            Id = 500303,
+                            Block = 7,
+                            Kind = 1,
+                            Order = 3,
+                            ParentId = 500300,
+                            Slug = "isomeria",
+                            Summary = "Isomeria plana e espacial, e por que ela importa em medicamentos.",
+                            Title = "Isomeria",
+                            TrackId = 6
+                        },
+                        new
+                        {
+                            Id = 500304,
+                            Block = 7,
+                            Kind = 1,
+                            Order = 4,
+                            ParentId = 500300,
+                            Slug = "bioquimica",
+                            Summary = "Glicídios, lipídios, aminoácidos, proteínas e polímeros.",
+                            Title = "Noções de bioquímica",
+                            TrackId = 6
+                        },
+                        new
+                        {
+                            Id = 500305,
+                            Block = 7,
+                            Kind = 1,
+                            Order = 5,
+                            ParentId = 500300,
+                            Slug = "quimica-organica-contextos",
+                            Summary = "Agricultura, saúde, medicamentos e as questões éticas e ambientais envolvidas.",
+                            Title = "Química orgânica em contexto",
+                            TrackId = 6
+                        },
+                        new
+                        {
+                            Id = 500306,
+                            Block = 7,
+                            Kind = 1,
+                            Order = 6,
+                            ParentId = 500300,
+                            Slug = "radioatividade",
+                            Summary = "Emissões radioativas e tempo de meia-vida.",
+                            Title = "Radioatividade",
+                            TrackId = 6
+                        },
+                        new
+                        {
+                            Id = 510001,
+                            Block = 7,
+                            Kind = 2,
+                            Order = 4,
+                            Slug = "checkpoint-natureza-e3",
+                            Summary = "Resolva as questões 1 a 9 de uma prova antiga da Etapa 3 com o relógio ligado: cerca de 6 minutos por questão.",
+                            Title = "Checkpoint: questões de Ciências da Natureza",
+                            TrackId = 6
+                        },
+                        new
+                        {
+                            Id = 500400,
+                            Block = 6,
+                            Kind = 0,
+                            Order = 5,
+                            Slug = "historia",
+                            Summary = "O século XX e o tempo presente, no mundo e no Brasil.",
+                            Title = "História",
+                            TrackId = 6
+                        },
+                        new
+                        {
+                            Id = 500401,
+                            Block = 6,
+                            Kind = 1,
+                            Order = 1,
+                            ParentId = 500400,
+                            Slug = "guerras-mundiais-entreguerras",
+                            Summary = "Primeira Guerra, Revolução Russa, crise de 1929, fascismo, nazismo e Segunda Guerra.",
+                            Title = "Guerras mundiais e entreguerras",
+                            TrackId = 6
+                        },
+                        new
+                        {
+                            Id = 500402,
+                            Block = 6,
+                            Kind = 1,
+                            Order = 2,
+                            ParentId = 500400,
+                            Slug = "guerra-fria-descolonizacao",
+                            Summary = "A disputa entre os blocos, a independência de países da África e da Ásia, o Oriente Médio e a crise do Leste Europeu.",
+                            Title = "Guerra Fria e descolonização",
+                            TrackId = 6
+                        },
+                        new
+                        {
+                            Id = 500403,
+                            Block = 6,
+                            Kind = 1,
+                            Order = 3,
+                            ParentId = 500400,
+                            Slug = "america-latina-mundo-contemporaneo",
+                            Summary = "Da América Latina do pós-guerra aos temas políticos e sociais de hoje.",
+                            Title = "América Latina e mundo contemporâneo",
+                            TrackId = 6
+                        },
+                        new
+                        {
+                            Id = 500404,
+                            Block = 6,
+                            Kind = 1,
+                            Order = 4,
+                            ParentId = 500400,
+                            Slug = "primeira-republica",
+                            Summary = "Café e industrialização, movimentos sociais, tenentismo, modernismo e o Rio Grande do Sul.",
+                            Title = "Primeira República",
+                            TrackId = 6
+                        },
+                        new
+                        {
+                            Id = 500405,
+                            Block = 6,
+                            Kind = 1,
+                            Order = 5,
+                            ParentId = 500400,
+                            Slug = "era-vargas-populismo",
+                            Summary = "Revolução de 1930, Estado Novo, movimento operário e os governos de 1945 a 1964.",
+                            Title = "Era Vargas e período democrático",
+                            TrackId = 6
+                        },
+                        new
+                        {
+                            Id = 500406,
+                            Block = 6,
+                            Kind = 1,
+                            Order = 6,
+                            ParentId = 500400,
+                            Slug = "ditadura-redemocratizacao-pave",
+                            Summary = "Golpe de 1964, repressão e resistência, e a Constituição de 1988.",
+                            Title = "Ditadura civil-militar e redemocratização",
+                            TrackId = 6
+                        },
+                        new
+                        {
+                            Id = 500407,
+                            Block = 6,
+                            Kind = 1,
+                            Order = 7,
+                            ParentId = 500400,
+                            Slug = "brasil-contemporaneo",
+                            Summary = "Democracia e desigualdades, problemas ambientais, racismo e antirracismo, culturas indígenas e afro-brasileiras.",
+                            Title = "Brasil contemporâneo",
+                            TrackId = 6
+                        },
+                        new
+                        {
+                            Id = 500500,
+                            Block = 6,
+                            Kind = 0,
+                            Order = 6,
+                            Slug = "geografia",
+                            Summary = "Indústria, cidade e população: onde as pessoas vivem e trabalham.",
+                            Title = "Geografia",
+                            TrackId = 6
+                        },
+                        new
+                        {
+                            Id = 500501,
+                            Block = 6,
+                            Kind = 1,
+                            Order = 1,
+                            ParentId = 500500,
+                            Slug = "industria-energia",
+                            Summary = "Revoluções industriais, distribuição da indústria, fontes de energia e a matriz energética brasileira.",
+                            Title = "Produção industrial e energia",
+                            TrackId = 6
+                        },
+                        new
+                        {
+                            Id = 500502,
+                            Block = 6,
+                            Kind = 1,
+                            Order = 2,
+                            ParentId = 500500,
+                            Slug = "espaco-urbano",
+                            Summary = "Redes urbanas, metropolização, urbanização brasileira, segregação e direito à cidade.",
+                            Title = "Produção do espaço urbano",
+                            TrackId = 6
+                        },
+                        new
+                        {
+                            Id = 500503,
+                            Block = 6,
+                            Kind = 1,
+                            Order = 3,
+                            ParentId = 500500,
+                            Slug = "populacao",
+                            Summary = "Indicadores e teorias demográficas, pirâmides etárias, migrações, trabalho e renda.",
+                            Title = "População e espaço geográfico",
+                            TrackId = 6
+                        },
+                        new
+                        {
+                            Id = 500600,
+                            Block = 6,
+                            Kind = 0,
+                            Order = 7,
+                            Slug = "filosofia",
+                            Summary = "Filosofia política e estética.",
+                            Title = "Filosofia",
+                            TrackId = 6
+                        },
+                        new
+                        {
+                            Id = 500601,
+                            Block = 6,
+                            Kind = 1,
+                            Order = 1,
+                            ParentId = 500600,
+                            Slug = "filosofia-politica",
+                            Summary = "A formação do Estado moderno: Maquiavel, Hobbes, Locke, o liberalismo, os socialismos e o anarquismo.",
+                            Title = "Política",
+                            TrackId = 6
+                        },
+                        new
+                        {
+                            Id = 500602,
+                            Block = 6,
+                            Kind = 1,
+                            Order = 2,
+                            ParentId = 500600,
+                            Slug = "estetica",
+                            Summary = "O belo e o feio, a questão do gosto, a atitude estética, indústria cultural e as funções da arte.",
+                            Title = "Estética",
+                            TrackId = 6
+                        },
+                        new
+                        {
+                            Id = 500700,
+                            Block = 6,
+                            Kind = 0,
+                            Order = 8,
+                            Slug = "sociologia",
+                            Summary = "Poder, raça, trabalho e gênero na sociedade brasileira.",
+                            Title = "Sociologia",
+                            TrackId = 6
+                        },
+                        new
+                        {
+                            Id = 500701,
+                            Block = 6,
+                            Kind = 1,
+                            Order = 1,
+                            ParentId = 500700,
+                            Slug = "poder-estado-democracia",
+                            Summary = "Teorias do poder, Estado e governo, cidadania, direitos humanos e movimentos sociais.",
+                            Title = "Poder, Estado e democracia",
+                            TrackId = 6
+                        },
+                        new
+                        {
+                            Id = 500702,
+                            Block = 6,
+                            Kind = 1,
+                            Order = 2,
+                            ParentId = 500700,
+                            Slug = "relacoes-etnico-raciais",
+                            Summary = "Política de branqueamento, racismo e injúria racial, e a desvalorização da cultura afro-brasileira e indígena.",
+                            Title = "Relações étnico-raciais",
+                            TrackId = 6
+                        },
+                        new
+                        {
+                            Id = 500703,
+                            Block = 6,
+                            Kind = 1,
+                            Order = 3,
+                            ParentId = 500700,
+                            Slug = "mundo-do-trabalho",
+                            Summary = "Terceirização, precarização e capitalismo de plataforma.",
+                            Title = "Mundo do trabalho",
+                            TrackId = 6
+                        },
+                        new
+                        {
+                            Id = 500704,
+                            Block = 6,
+                            Kind = 1,
+                            Order = 4,
+                            ParentId = 500700,
+                            Slug = "interseccionalidade",
+                            Summary = "Papéis sociais de gênero, desigualdade econômica e violência de gênero.",
+                            Title = "Interseccionalidade: gênero, raça e classe",
+                            TrackId = 6
+                        },
+                        new
+                        {
+                            Id = 510002,
+                            Block = 6,
+                            Kind = 2,
+                            Order = 9,
+                            Slug = "checkpoint-humanas-e3",
+                            Summary = "Resolva as questões 10 a 18 de uma prova antiga da Etapa 3. Leia a pergunta antes do texto-base.",
+                            Title = "Checkpoint: questões de Ciências Humanas",
+                            TrackId = 6
+                        },
+                        new
+                        {
+                            Id = 500800,
+                            Block = 8,
+                            Kind = 0,
+                            Order = 10,
+                            Slug = "matematica",
+                            Summary = "Contagem, probabilidade, matrizes e geometria analítica, além da matemática financeira do dia a dia.",
+                            Title = "Matemática",
+                            TrackId = 6
+                        },
+                        new
+                        {
+                            Id = 500801,
+                            Block = 8,
+                            Kind = 1,
+                            Order = 1,
+                            ParentId = 500800,
+                            Slug = "analise-combinatoria-pave",
+                            Summary = "Princípio fundamental da contagem, arranjos, permutações e combinações.",
+                            Title = "Análise combinatória",
+                            TrackId = 6
+                        },
+                        new
+                        {
+                            Id = 500802,
+                            Block = 8,
+                            Kind = 1,
+                            Order = 2,
+                            ParentId = 500800,
+                            Slug = "probabilidade-pave",
+                            Summary = "Eventos independentes, probabilidade condicional e da união de eventos.",
+                            Title = "Probabilidade",
+                            TrackId = 6
+                        },
+                        new
+                        {
+                            Id = 500803,
+                            Block = 8,
+                            Kind = 1,
+                            Order = 3,
+                            ParentId = 500800,
+                            Slug = "matrizes-determinantes",
+                            Summary = "Tipos e operações com matrizes, matriz inversa e determinantes até ordem 3.",
+                            Title = "Matrizes e determinantes",
+                            TrackId = 6
+                        },
+                        new
+                        {
+                            Id = 500804,
+                            Block = 8,
+                            Kind = 1,
+                            Order = 4,
+                            ParentId = 500800,
+                            Slug = "sistemas-lineares",
+                            Summary = "Classificação e resolução, com as matrizes associadas.",
+                            Title = "Sistemas lineares",
+                            TrackId = 6
+                        },
+                        new
+                        {
+                            Id = 500805,
+                            Block = 8,
+                            Kind = 1,
+                            Order = 5,
+                            ParentId = 500800,
+                            Slug = "geometria-analitica",
+                            Summary = "Ponto, distância, equações da reta e da circunferência e posições relativas.",
+                            Title = "Geometria analítica",
+                            TrackId = 6
+                        },
+                        new
+                        {
+                            Id = 500806,
+                            Block = 8,
+                            Kind = 1,
+                            Order = 6,
+                            ParentId = 500800,
+                            Slug = "matematica-financeira",
+                            Summary = "Regra de três, porcentagem, juros simples e compostos, descontos e educação financeira.",
+                            Title = "Matemática financeira",
+                            TrackId = 6
+                        },
+                        new
+                        {
+                            Id = 510003,
+                            Block = 8,
+                            Kind = 2,
+                            Order = 11,
+                            Slug = "checkpoint-matematica-e3",
+                            Summary = "Resolva as questões 19 a 23 de uma prova antiga da Etapa 3. Na dúvida entre chutar e marcar \"Ignoro a resposta\", lembre que o erro desconta 10% de um acerto.",
+                            Title = "Checkpoint: questões de Matemática",
+                            TrackId = 6
+                        },
+                        new
+                        {
+                            Id = 500900,
+                            Block = 5,
+                            Kind = 0,
+                            Order = 12,
+                            Slug = "lingua-portuguesa",
+                            Summary = "O texto como um todo: gêneros, construção de sentido e norma culta. É também a base da redação.",
+                            Title = "Língua Portuguesa",
+                            TrackId = 6
+                        },
+                        new
+                        {
+                            Id = 500901,
+                            Block = 5,
+                            Kind = 1,
+                            Order = 1,
+                            ParentId = 500900,
+                            Slug = "tipos-generos-textuais",
+                            Summary = "Tipos de texto, gêneros da fala, da escrita e das mídias digitais.",
+                            Title = "Tipos e gêneros textuais",
+                            TrackId = 6
+                        },
+                        new
+                        {
+                            Id = 500902,
+                            Block = 5,
+                            Kind = 1,
+                            Order = 2,
+                            ParentId = 500900,
+                            Slug = "textualidade",
+                            Summary = "Referenciação, organização de tópicos e parágrafos, discurso direto e indireto, pontuação e sentido.",
+                            Title = "Textualidade: coesão e coerência",
+                            TrackId = 6
+                        },
+                        new
+                        {
+                            Id = 500903,
+                            Block = 5,
+                            Kind = 1,
+                            Order = 3,
+                            ParentId = 500900,
+                            Slug = "compreensao-leitura",
+                            Summary = "Inferência, dito e subentendido, ambiguidade e ironia.",
+                            Title = "Compreensão da leitura",
+                            TrackId = 6
+                        },
+                        new
+                        {
+                            Id = 500904,
+                            Block = 5,
+                            Kind = 1,
+                            Order = 4,
+                            ParentId = 500900,
+                            Slug = "norma-culta",
+                            Summary = "Ler e escrever de acordo com a norma culta da língua.",
+                            Title = "Adequação à norma culta",
+                            TrackId = 6
+                        },
+                        new
+                        {
+                            Id = 501000,
+                            Block = 5,
+                            Kind = 0,
+                            Order = 13,
+                            Slug = "literatura",
+                            Summary = "Do Parnasianismo aos autores de hoje: a literatura brasileira do século XX e XXI.",
+                            Title = "Literatura",
+                            TrackId = 6
+                        },
+                        new
+                        {
+                            Id = 501001,
+                            Block = 5,
+                            Kind = 1,
+                            Order = 1,
+                            ParentId = 501000,
+                            Slug = "parnasianismo-simbolismo",
+                            Summary = "Olavo Bilac, Alberto de Oliveira e Raimundo Correia; Cruz e Sousa e Alphonsus de Guimaraens.",
+                            Title = "Parnasianismo e Simbolismo",
+                            TrackId = 6
+                        },
+                        new
+                        {
+                            Id = 501002,
+                            Block = 5,
+                            Kind = 1,
+                            Order = 2,
+                            ParentId = 501000,
+                            Slug = "pre-modernismo",
+                            Summary = "Lima Barreto, Euclides da Cunha e Monteiro Lobato.",
+                            Title = "Pré-Modernismo",
+                            TrackId = 6
+                        },
+                        new
+                        {
+                            Id = 501003,
+                            Block = 5,
+                            Kind = 1,
+                            Order = 3,
+                            ParentId = 501000,
+                            Slug = "modernismo-primeira-fase",
+                            Summary = "A Semana de Arte Moderna de 1922, Mário de Andrade, Oswald de Andrade e Manuel Bandeira.",
+                            Title = "Modernismo: 1ª fase (1922-1930)",
+                            TrackId = 6
+                        },
+                        new
+                        {
+                            Id = 501004,
+                            Block = 5,
+                            Kind = 1,
+                            Order = 4,
+                            ParentId = 501000,
+                            Slug = "modernismo-segunda-fase",
+                            Summary = "A prosa de Graciliano Ramos, Jorge Amado e José Lins do Rego; a poesia de Drummond, Cecília Meireles e Vinícius de Moraes.",
+                            Title = "Modernismo: 2ª fase (1930-1945)",
+                            TrackId = 6
+                        },
+                        new
+                        {
+                            Id = 501005,
+                            Block = 5,
+                            Kind = 1,
+                            Order = 5,
+                            ParentId = 501000,
+                            Slug = "modernismo-terceira-fase",
+                            Summary = "João Cabral de Melo Neto, Clarice Lispector, Guimarães Rosa e Lygia Fagundes Telles.",
+                            Title = "Modernismo: 3ª fase (pós-1945)",
+                            TrackId = 6
+                        },
+                        new
+                        {
+                            Id = 501006,
+                            Block = 5,
+                            Kind = 1,
+                            Order = 6,
+                            ParentId = 501000,
+                            Slug = "literatura-contemporanea-pave",
+                            Summary = "Pluralidade de vozes e linguagens híbridas: Conceição Evaristo, Itamar Vieira Junior, Sérgio Vaz, Eliane Potiguara e Djamila Ribeiro.",
+                            Title = "Literatura contemporânea",
+                            TrackId = 6
+                        },
+                        new
+                        {
+                            Id = 501100,
+                            Block = 5,
+                            Kind = 0,
+                            Order = 14,
+                            Slug = "arte",
+                            Summary = "Arte brasileira e a relação entre arte e tecnologia.",
+                            Title = "Arte",
+                            TrackId = 6
+                        },
+                        new
+                        {
+                            Id = 501101,
+                            Block = 5,
+                            Kind = 1,
+                            Order = 1,
+                            ParentId = 501100,
+                            Slug = "arte-brasileira",
+                            Summary = "Arte indígena e africana no Brasil, arte colonial e imperial, o Modernismo e a arte contemporânea.",
+                            Title = "Arte brasileira e identidades culturais",
+                            TrackId = 6
+                        },
+                        new
+                        {
+                            Id = 501102,
+                            Block = 5,
+                            Kind = 1,
+                            Order = 2,
+                            ParentId = 501100,
+                            Slug = "arte-tecnologia",
+                            Summary = "Fotografia, cinema, arte digital e as linguagens híbridas.",
+                            Title = "Arte e tecnologia",
+                            TrackId = 6
+                        },
+                        new
+                        {
+                            Id = 501200,
+                            Block = 5,
+                            Kind = 0,
+                            Order = 15,
+                            Slug = "ingles",
+                            Summary = "As três últimas questões da prova são de língua estrangeira, e você escolhe entre espanhol e inglês. O que se cobra é leitura, não gramática decorada.",
+                            Title = "Língua inglesa",
+                            TrackId = 6
+                        },
+                        new
+                        {
+                            Id = 501201,
+                            Block = 5,
+                            Kind = 1,
+                            Order = 1,
+                            ParentId = 501200,
+                            Slug = "ingles-generos-estrutura-e3",
+                            Summary = "Reconhecer o gênero (notícia, tirinha, anúncio, artigo), as partes do texto e como elas se ligam.",
+                            Title = "Gêneros e estrutura do texto",
+                            TrackId = 6
+                        },
+                        new
+                        {
+                            Id = 501202,
+                            Block = 5,
+                            Kind = 1,
+                            Order = 2,
+                            ParentId = 501200,
+                            Slug = "ingles-vocabulario-contexto-e3",
+                            Summary = "Ideia principal e secundária, o que está explícito e implícito, cognatos e falsos cognatos.",
+                            Title = "Palavras no texto e no contexto",
+                            TrackId = 6
+                        },
+                        new
+                        {
+                            Id = 501203,
+                            Block = 5,
+                            Kind = 1,
+                            Order = 3,
+                            ParentId = 501200,
+                            Slug = "ingles-objetivos-texto-e3",
+                            Summary = "Quem escreve, para quem e para quê; pronomes e conectivos que retomam e ligam as ideias.",
+                            Title = "Objetivos do texto",
+                            TrackId = 6
+                        },
+                        new
+                        {
+                            Id = 501300,
+                            Block = 5,
+                            Kind = 0,
+                            Order = 16,
+                            Slug = "espanhol",
+                            Summary = "As três últimas questões da prova são de língua estrangeira, e você escolhe entre espanhol e inglês. O que se cobra é leitura, não gramática decorada.",
+                            Title = "Língua espanhola",
+                            TrackId = 6
+                        },
+                        new
+                        {
+                            Id = 501301,
+                            Block = 5,
+                            Kind = 1,
+                            Order = 1,
+                            ParentId = 501300,
+                            Slug = "espanhol-generos-estrutura-e3",
+                            Summary = "Reconhecer o gênero (notícia, tirinha, anúncio, artigo), as partes do texto e como elas se ligam.",
+                            Title = "Gêneros e estrutura do texto",
+                            TrackId = 6
+                        },
+                        new
+                        {
+                            Id = 501302,
+                            Block = 5,
+                            Kind = 1,
+                            Order = 2,
+                            ParentId = 501300,
+                            Slug = "espanhol-vocabulario-contexto-e3",
+                            Summary = "Ideia principal e secundária, o que está explícito e implícito, cognatos e falsos cognatos.",
+                            Title = "Palavras no texto e no contexto",
+                            TrackId = 6
+                        },
+                        new
+                        {
+                            Id = 501303,
+                            Block = 5,
+                            Kind = 1,
+                            Order = 3,
+                            ParentId = 501300,
+                            Slug = "espanhol-objetivos-texto-e3",
+                            Summary = "Quem escreve, para quem e para quê; pronomes e conectivos que retomam e ligam as ideias.",
+                            Title = "Objetivos do texto",
+                            TrackId = 6
+                        },
+                        new
+                        {
+                            Id = 510004,
+                            Block = 5,
+                            Kind = 2,
+                            Order = 17,
+                            Slug = "checkpoint-linguagens-e3",
+                            Summary = "Resolva as questões 24 a 32 de uma prova antiga da Etapa 3 e deixe pelo menos 1 hora da prova para a redação.",
+                            Title = "Checkpoint: questões de Linguagens",
+                            TrackId = 6
+                        },
+                        new
+                        {
+                            Id = 501400,
+                            Block = 9,
+                            Kind = 0,
+                            Order = 18,
+                            Slug = "redacao",
+                            Summary = "Só a Etapa 3 tem redação: um texto dissertativo-argumentativo de 16 a 30 linhas, com título, que vale até 14 pontos.",
+                            Title = "Redação",
+                            TrackId = 6
+                        },
+                        new
+                        {
+                            Id = 501401,
+                            Block = 9,
+                            Kind = 1,
+                            Order = 1,
+                            ParentId = 501400,
+                            Slug = "proposta-coletanea",
+                            Summary = "Ler a proposta e os textos de apoio, sem fugir do tema e sem copiar trechos da coletânea.",
+                            Title = "Tema e coletânea",
+                            TrackId = 6
+                        },
+                        new
+                        {
+                            Id = 501402,
+                            Block = 9,
+                            Kind = 1,
+                            Order = 2,
+                            ParentId = 501400,
+                            Slug = "estrutura-dissertativa",
+                            Summary = "Título, tese, argumentos e conclusão. Menos de 16 linhas ou outro tipo de texto zera a redação.",
+                            Title = "Tipo de texto: a estrutura dissertativo-argumentativa",
+                            TrackId = 6
+                        },
+                        new
+                        {
+                            Id = 501403,
+                            Block = 9,
+                            Kind = 1,
+                            Order = 3,
+                            ParentId = 501400,
+                            Slug = "coerencia-coesao-redacao",
+                            Summary = "Ideias que progridem sem contradição, ligadas por conectivos e retomadas.",
+                            Title = "Coerência e coesão",
+                            TrackId = 6
+                        },
+                        new
+                        {
+                            Id = 501404,
+                            Block = 9,
+                            Kind = 1,
+                            Order = 4,
+                            ParentId = 501400,
+                            Slug = "modalidade-escrita-formal",
+                            Summary = "Domínio da modalidade escrita formal da língua portuguesa.",
+                            Title = "Modalidade escrita formal",
+                            TrackId = 6
+                        },
+                        new
+                        {
+                            Id = 510005,
+                            Block = 9,
+                            Kind = 2,
+                            Order = 19,
+                            Slug = "checkpoint-simulado-pave-3",
+                            Summary = "Faça um simulado de 32 questões e escreva uma redação, tudo em 4 horas, no horário da prova (início às 13h15). Depois, revise o caderno de erros até o dia do PAVE.",
+                            Title = "Checkpoint final: simulado e redação",
+                            TrackId = 6
                         });
                 });
 
@@ -5454,6 +8047,45 @@ namespace EnadeAds.Data.Migrations
                             Name = "ENADE 2026 · Redes de Computadores",
                             Order = 2,
                             Slug = "enade-redes"
+                        },
+                        new
+                        {
+                            Id = 4,
+                            Basis = "Os conteúdos do 1º ano do ensino médio na Matriz de Referência PAVE 2026 da UFPel, na ordem das áreas da prova.",
+                            ExamDate = new DateOnly(2026, 12, 5),
+                            ExamName = "PAVE",
+                            Label = "PAVE 1",
+                            Level = 1,
+                            MockExamStyle = 2,
+                            Name = "PAVE 2026 · Etapa 1",
+                            Order = 4,
+                            Slug = "pave-1"
+                        },
+                        new
+                        {
+                            Id = 5,
+                            Basis = "Os conteúdos do 2º ano do ensino médio na Matriz de Referência PAVE 2026 da UFPel, na ordem das áreas da prova.",
+                            ExamDate = new DateOnly(2026, 12, 6),
+                            ExamName = "PAVE",
+                            Label = "PAVE 2",
+                            Level = 1,
+                            MockExamStyle = 2,
+                            Name = "PAVE 2026 · Etapa 2",
+                            Order = 5,
+                            Slug = "pave-2"
+                        },
+                        new
+                        {
+                            Id = 6,
+                            Basis = "Os conteúdos do 3º ano do ensino médio e a redação na Matriz de Referência PAVE 2026 da UFPel, na ordem das áreas da prova.",
+                            ExamDate = new DateOnly(2026, 12, 6),
+                            ExamName = "PAVE",
+                            Label = "PAVE 3",
+                            Level = 1,
+                            MockExamStyle = 2,
+                            Name = "PAVE 2026 · Etapa 3",
+                            Order = 6,
+                            Slug = "pave-3"
                         });
                 });
 

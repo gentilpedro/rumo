@@ -33,6 +33,24 @@ public class StatementFormatterTests
     }
 
     [Fact]
+    public void ListWithItemsEndingInSemicolonIsStillAList()
+    {
+        // Provas reais listam itens assim; antes o ";" fazia a lista inteira sair como código.
+        var html = StatementFormatter.ToHtml("- Percorrer 99 km em 6 dias consecutivos;\n- Reduzir a distância em 5 km a cada dia.");
+
+        Assert.Equal("<ul><li>Percorrer 99 km em 6 dias consecutivos;</li><li>Reduzir a distância em 5 km a cada dia.</li></ul>", html);
+    }
+
+    [Fact]
+    public void BarInsideASentenceIsNotATable()
+    {
+        // " | " separando versos numa frase não é tabela; tabela tem mais de uma linha.
+        var blocks = StatementFormatter.Split("III. No texto II, “Poesia | Uma mulher que grita”, predomina a função emotiva.");
+
+        Assert.False(Assert.Single(blocks).IsCode);
+    }
+
+    [Fact]
     public void PlainSentenceIsParagraph()
     {
         var blocks = StatementFormatter.Split("Qual dos itens abaixo é um requisito não funcional?");

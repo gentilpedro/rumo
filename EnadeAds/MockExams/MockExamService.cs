@@ -35,6 +35,9 @@ public sealed class MockExamService(ApplicationDbContext db, TimeProvider clock,
     public MockExamStyle Style => MockExamFormat.StyleOf(db.CurrentTrackId);
 
     public const string GeneralEducationSlug = "formacao-geral";
+
+    /// <summary>PAVE: a alternativa "f" de toda questão é "Ignoro a resposta".</summary>
+    public const char IgnoredAnswerLetter = 'F';
     public const int DiscursiveMaxLength = QuestionBank.DiscursiveAnswerMaxLength;
 
     /// <summary>Tolerância para a resposta enviada no último segundo ainda chegar dentro do prazo.</summary>
@@ -66,7 +69,12 @@ public sealed class MockExamService(ApplicationDbContext db, TimeProvider clock,
             .OrderByDescending(m => m.Id)
             .ToListAsync(cancellationToken);
 
-    public async Task<StartResult> StartAsync(string userId, MockExamSize size, CancellationToken cancellationToken = default)
+    /// <param name="foreignLanguageSlug">
+    /// PAVE: a matéria de língua estrangeira que o aluno escolheu (<see cref="PaveRoadmapSeed.ForeignLanguageSlugs"/>);
+    /// sem escolha válida, inglês. As outras trilhas ignoram.
+    /// </param>
+    public async Task<StartResult> StartAsync(string userId, MockExamSize size, string? foreignLanguageSlug = null,
+        CancellationToken cancellationToken = default)
     {
         if (await OpenAsync(userId, cancellationToken) is { } open)
         {
@@ -74,17 +82,20 @@ public sealed class MockExamService(ApplicationDbContext db, TimeProvider clock,
         }
 
         var pools = await PoolsAsync(cancellationToken);
-        var plan = Plan(MockExamFormat.Of(Style, size), pools);
+        var language = PaveRoadmapSeed.ForeignLanguageSlugs.Contains(foreignLanguageSlug) ? foreignLanguageSlug! : PaveRoadmapSeed.EnglishSlug;
+        var plan = Plan(MockExamFormat.Of(Style, size), pools, language);
         if (plan.Total == 0)
         {
             return new StartResult(StartOutcome.NoQuestions, null);
         }
 
-        // Ordem da prova: formação geral, específicas e, por último, a discursiva.
-        var picked = Pick(pools.GeneralEducation, plan.GeneralEducation).Select(id => (id, general: true))
-            .Concat(Pick(pools.Specific, plan.Specific, balanced: Style == MockExamStyle.Enem).Select(id => (id, general: false)))
-            .Concat(Pick(pools.Discursive, plan.Discursive).Select(id => (id, general: false)))
-            .ToList();
+        // Ordem da prova. ENADE: formação geral, específicas e, por último, a discursiva. PAVE: as áreas, uma a uma.
+        var picked = Style == MockExamStyle.Pave
+            ? PickPave(pools.Specific, size, language).Select(id => (id, general: false)).ToList()
+            : Pick(pools.GeneralEducation, plan.GeneralEducation).Select(id => (id, general: true))
+                .Concat(Pick(pools.Specific, plan.Specific, balanced: Style == MockExamStyle.Enem).Select(id => (id, general: false)))
+                .Concat(Pick(pools.Discursive, plan.Discursive).Select(id => (id, general: false)))
+                .ToList();
 
         var now = clock.GetUtcNow();
         var exam = new MockExam
@@ -144,6 +155,7 @@ public sealed class MockExamService(ApplicationDbContext db, TimeProvider clock,
 
         var now = clock.GetUtcNow();
         var expired = now > exam.DeadlineAt + GracePeriod;
+        var acceptsIgnored = MockExamFormat.StyleOf(exam.TrackId) == MockExamStyle.Pave;
 
         // Depois do prazo, o que chega agora é ignorado: vale o que estava salvo até o fim do tempo.
         if (!expired)
@@ -153,7 +165,16 @@ public sealed class MockExamService(ApplicationDbContext db, TimeProvider clock,
                 var question = item.Question!;
                 if (question.Kind == QuestionKind.Objective && letters.TryGetValue(item.QuestionId, out var letter))
                 {
-                    item.SelectedOptionId = question.Options.FirstOrDefault(o => o.Letter == char.ToUpperInvariant(letter))?.Id ?? item.SelectedOptionId;
+                    if (acceptsIgnored && char.ToUpperInvariant(letter) == IgnoredAnswerLetter)
+                    {
+                        item.IgnoredAnswer = true;
+                        item.SelectedOptionId = null;
+                    }
+                    else if (question.Options.FirstOrDefault(o => o.Letter == char.ToUpperInvariant(letter)) is { } option)
+                    {
+                        item.SelectedOptionId = option.Id;
+                        item.IgnoredAnswer = false;
+                    }
                 }
                 else if (question.Kind == QuestionKind.Discursive && texts.TryGetValue(item.QuestionId, out var text))
                 {
@@ -190,10 +211,16 @@ public sealed class MockExamService(ApplicationDbContext db, TimeProvider clock,
     private void Grade(MockExam exam, DateTimeOffset now, bool byTimeout)
     {
         var correct = 0;
+        var ignored = 0;
         foreach (var item in exam.Questions)
         {
             var question = item.Question!;
-            if (question.Kind == QuestionKind.Objective && item.SelectedOptionId is { } optionId)
+            if (question.Kind == QuestionKind.Objective && item.IgnoredAnswer)
+            {
+                // "Ignoro a resposta" não é tentativa: não vai para o desempenho nem para o caderno de erros.
+                ignored++;
+            }
+            else if (question.Kind == QuestionKind.Objective && item.SelectedOptionId is { } optionId)
             {
                 var option = question.Options.First(o => o.Id == optionId);
                 correct += option.IsCorrect ? 1 : 0;
@@ -209,13 +236,14 @@ public sealed class MockExamService(ApplicationDbContext db, TimeProvider clock,
         }
 
         exam.CorrectCount = correct;
+        exam.IgnoredCount = ignored;
         exam.SubmittedAt = now;
         exam.SubmittedByTimeout = byTimeout;
         logger.LogInformation("Simulado {MockExamId} entregue ({Reason}): {Correct} de {Total}.",
             exam.Id, byTimeout ? "tempo esgotado" : "aluno", correct, exam.ObjectiveCount);
     }
 
-    private sealed record PoolItem(int Id, StudyBlock Block);
+    private sealed record PoolItem(int Id, StudyBlock Block, string Slug);
 
     private sealed record Pools(List<PoolItem> GeneralEducation, List<PoolItem> Specific, List<PoolItem> Discursive);
 
@@ -231,17 +259,27 @@ public sealed class MockExamService(ApplicationDbContext db, TimeProvider clock,
         bool IsGeneral(string slug) => separateGeneral && slug == GeneralEducationSlug;
 
         return new Pools(
-            questions.Where(q => q.Kind == QuestionKind.Objective && IsGeneral(q.Slug)).Select(q => new PoolItem(q.Id, q.Block)).ToList(),
-            questions.Where(q => q.Kind == QuestionKind.Objective && !IsGeneral(q.Slug)).Select(q => new PoolItem(q.Id, q.Block)).ToList(),
-            questions.Where(q => q.Kind == QuestionKind.Discursive).Select(q => new PoolItem(q.Id, q.Block)).ToList());
+            questions.Where(q => q.Kind == QuestionKind.Objective && IsGeneral(q.Slug)).Select(q => new PoolItem(q.Id, q.Block, q.Slug)).ToList(),
+            questions.Where(q => q.Kind == QuestionKind.Objective && !IsGeneral(q.Slug)).Select(q => new PoolItem(q.Id, q.Block, q.Slug)).ToList(),
+            questions.Where(q => q.Kind == QuestionKind.Discursive).Select(q => new PoolItem(q.Id, q.Block, q.Slug)).ToList());
     }
 
     /// <summary>
     /// Respeita o formato quando o banco permite. Se faltar formação geral, completa com específicas e
     /// vice-versa, para o aluno ter o simulado mais completo possível.
     /// </summary>
-    private static MockExamPlan Plan(MockExamFormat format, Pools pools)
+    private static MockExamPlan Plan(MockExamFormat format, Pools pools, string? foreignLanguageSlug = null)
     {
+        if (format.Style == MockExamStyle.Pave)
+        {
+            // Cada parte entra com o que o banco tem, até a cota: completar com outra área tiraria a proporção da prova.
+            // Antes da escolha do idioma, vale o que tiver mais questões.
+            IReadOnlyList<string> languages = foreignLanguageSlug is null ? PaveRoadmapSeed.ForeignLanguageSlugs : [foreignLanguageSlug];
+            var objectives = languages.Max(language =>
+                MockExamFormat.PaveQuotas(format.Size).Sum(quota => Math.Min(quota.Count, pools.Specific.Count(item => IsInPart(item, quota.Part, language)))));
+            return new MockExamPlan(format, 0, objectives, 0);
+        }
+
         var general = Math.Min(format.GeneralEducation, pools.GeneralEducation.Count);
         var specific = Math.Min(format.Specific, pools.Specific.Count);
 
@@ -252,6 +290,28 @@ public sealed class MockExamService(ApplicationDbContext db, TimeProvider clock,
         general += Math.Min(missing - extraSpecific, pools.GeneralEducation.Count - general);
 
         return new MockExamPlan(format, general, specific, Math.Min(format.Discursive, pools.Discursive.Count));
+    }
+
+    /// <summary>PAVE: sorteia a cota de cada parte e devolve na ordem da prova, com a língua estrangeira por último.</summary>
+    private static IEnumerable<int> PickPave(List<PoolItem> pool, MockExamSize size, string foreignLanguageSlug) =>
+        MockExamFormat.PaveQuotas(size).SelectMany(quota => pool
+            .Where(item => IsInPart(item, quota.Part, foreignLanguageSlug))
+            .OrderBy(_ => Random.Shared.Next())
+            .Take(quota.Count)
+            .Select(item => item.Id));
+
+    private static bool IsInPart(PoolItem item, PavePart part, string foreignLanguageSlug)
+    {
+        var isForeign = PaveRoadmapSeed.ForeignLanguageSlugs.Contains(item.Slug);
+        return part switch
+        {
+            PavePart.NaturalSciences => item.Block == StudyBlock.NaturalSciences,
+            PavePart.Humanities => item.Block == StudyBlock.Humanities,
+            PavePart.Mathematics => item.Block == StudyBlock.Mathematics,
+            PavePart.Languages => item.Block == StudyBlock.Languages && !isForeign,
+            PavePart.ForeignLanguage => item.Slug == foreignLanguageSlug,
+            _ => false,
+        };
     }
 
     /// <summary>
