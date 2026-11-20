@@ -1,0 +1,340 @@
+@page "/salas/{Code}"
+
+@using EnadeAds.Data
+@using EnadeAds.Rooms
+@using EnadeAds.Study
+@using Microsoft.AspNetCore.Identity
+
+@inject StudyRoomService Rooms
+@inject TrackCatalog Tracks
+@inject UserManager<ApplicationUser> Users
+@inject NavigationManager Navigation
+
+@if (room is not null)
+{
+    <PageTitle>@room.Name · Sala de estudos</PageTitle>
+
+    @* Prévia do link no WhatsApp e nas redes. Sem nomes de membros: o link circula em grupos. *@
+    <HeadContent>
+        <meta property="og:title" content="Sala de estudos no Rumo · @track?.Label" />
+        <meta property="og:description" content="Entre na sala @room.Name e estude com a turma." />
+        <meta property="og:type" content="website" />
+    </HeadContent>
+
+    <nav aria-label="Trilha">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="salas">Salas de estudo</a></li>
+            <li class="breadcrumb-item active" aria-current="page">@room.Name</li>
+        </ol>
+    </nav>
+
+    @if (message is not null)
+    {
+        <div class="alert @(messageIsError ? "alert-danger" : "alert-success")" role="status">@message</div>
+    }
+
+    @if (!isMember)
+    {
+        <section class="game-hero" aria-labelledby="room-title">
+            <p class="game-kicker">@track?.Label · sala de estudos · @MemberCount(room.Members.Count)</p>
+            <h1 id="room-title">Você foi convidado para a sala @room.Name</h1>
+            <p class="text-body-secondary">
+                Ao entrar, os outros membros veem o seu <strong>primeiro nome com a inicial do sobrenome</strong>, e mais nada da sua conta.
+                Na sala não há conversa nem busca de pessoas, e você pode sair quando quiser.
+            </p>
+
+            @if (userId is null)
+            {
+                <div class="d-flex flex-wrap gap-2">
+                    <a class="btn btn-primary" href="@LoginUrl">Entrar para participar</a>
+                    <a class="btn btn-outline-primary" href="Account/Register">Criar conta</a>
+                </div>
+            }
+            else
+            {
+                <form method="post" action="salas/@room.Code" @formname="join-room" @onsubmit="JoinAsync">
+                    <AntiforgeryToken />
+                    <button type="submit" class="btn btn-primary btn-lg">Entrar na sala</button>
+                </form>
+            }
+        </section>
+    }
+    else
+    {
+        <section class="game-hero" aria-labelledby="room-title">
+            <p class="game-kicker">@track?.Label · sala de estudos · @MemberCount(room.Members.Count)</p>
+            <h1 id="room-title">@room.Name</h1>
+            <p class="text-body-secondary mb-0">Só entra quem tem o link. Mande para a turma:</p>
+        </section>
+
+        <div class="card mb-4">
+            <div class="card-body">
+                <label for="room-link" class="form-label fw-semibold">Link de convite</label>
+                <div class="d-flex flex-wrap gap-2">
+                    <input id="room-link" class="form-control font-monospace flex-grow-1 w-auto" readonly value="@ShareUrl" />
+                    <a class="btn btn-outline-primary" href="@WhatsAppUrl" target="_blank" rel="noopener">Mandar no WhatsApp</a>
+                </div>
+            </div>
+        </div>
+
+        <section aria-labelledby="members-title" class="mb-4">
+            <h2 id="members-title" class="h5">Membros</h2>
+            <form method="post" action="salas/@room.Code" @formname="remove-member" @onsubmit="RemoveMemberAsync">
+                <AntiforgeryToken />
+                <ul class="list-group">
+                    @foreach (var member in members)
+                    {
+                        <li class="list-group-item d-flex flex-wrap align-items-center gap-2">
+                            <span class="flex-grow-1">
+                                @member.Name
+                                @if (member.IsMe)
+                                {
+                                    <span class="badge text-bg-secondary ms-1">você</span>
+                                }
+                                @if (member.IsOwner)
+                                {
+                                    <span class="badge text-bg-primary ms-1">criou a sala</span>
+                                }
+                            </span>
+                            @if (isOwner && !member.IsMe)
+                            {
+                                <button type="submit" name="MemberId" value="@member.MemberId" class="btn btn-sm btn-outline-danger">
+                                    Remover <span class="visually-hidden">@member.Name</span>
+                                </button>
+                            }
+                        </li>
+                    }
+                </ul>
+            </form>
+            @if (isOwner && members.Count > 1)
+            {
+                <p class="small text-body-secondary mt-2 mb-0">
+                    Quem foi removido ainda consegue voltar pelo link. Para impedir, gere um link novo logo abaixo.
+                </p>
+            }
+        </section>
+
+        @if (isOwner)
+        {
+            <section aria-labelledby="manage-title" class="card mb-4">
+                <div class="card-body">
+                    <h2 id="manage-title" class="h5">Administrar a sala</h2>
+
+                    <form method="post" action="salas/@room.Code" @formname="rename-room" @onsubmit="RenameAsync" class="row g-2 align-items-end mb-3">
+                        <AntiforgeryToken />
+                        <div class="col-sm">
+                            <label for="new-name" class="form-label">Nome da sala</label>
+                            <input id="new-name" name="Name" class="form-control" required value="@room.Name"
+                                   minlength="@StudyRoomService.NameMinLength" maxlength="@StudyRoomService.NameMaxLength" />
+                        </div>
+                        <div class="col-auto">
+                            <button type="submit" class="btn btn-outline-primary">Salvar o nome</button>
+                        </div>
+                    </form>
+
+                    <form method="post" action="salas/@room.Code" @formname="renew-link" @onsubmit="RenewLinkAsync" class="mb-3">
+                        <AntiforgeryToken />
+                        <button type="submit" class="btn btn-outline-secondary">Gerar link novo</button>
+                        <span class="small text-body-secondary ms-2">O link atual para de funcionar. Quem já é membro continua na sala.</span>
+                    </form>
+
+                    <form method="post" action="salas/@room.Code" @formname="delete-room" @onsubmit="DeleteAsync" class="d-flex flex-wrap align-items-center gap-3">
+                        <AntiforgeryToken />
+                        <div class="form-check mb-0">
+                            <input class="form-check-input" type="checkbox" name="ConfirmDelete" value="true" id="ConfirmDelete" />
+                            <label class="form-check-label" for="ConfirmDelete">Quero apagar a sala para todos</label>
+                        </div>
+                        <button type="submit" class="btn btn-outline-danger">Apagar a sala</button>
+                    </form>
+                </div>
+            </section>
+        }
+
+        <div class="d-flex flex-wrap align-items-start gap-3">
+            <form method="post" action="salas/@room.Code" @formname="leave-room" @onsubmit="LeaveAsync">
+                <AntiforgeryToken />
+                <button type="submit" class="btn btn-outline-secondary">Sair da sala</button>
+            </form>
+            @if (isOwner && members.Count > 1)
+            {
+                <p class="small text-body-secondary mb-0 align-self-center">Se você sair, a sala passa para o membro mais antigo.</p>
+            }
+
+            @if (!isOwner)
+            {
+                <details>
+                    <summary class="btn btn-link btn-sm text-body-secondary">Denunciar esta sala</summary>
+                    <form method="post" action="salas/@room.Code" @formname="report-room" @onsubmit="ReportAsync" class="mt-2">
+                        <AntiforgeryToken />
+                        <label for="report-reason" class="form-label small">O que há de errado com o nome da sala? (opcional)</label>
+                        <textarea id="report-reason" name="Reason" class="form-control mb-2" rows="2" maxlength="@StudyRoomService.ReasonMaxLength"></textarea>
+                        <button type="submit" class="btn btn-sm btn-outline-danger">Enviar denúncia</button>
+                        <span class="small text-body-secondary ms-2">A moderação vê o nome da sala, não quem denunciou.</span>
+                    </form>
+                </details>
+            }
+        </div>
+    }
+}
+
+@code {
+    private StudyRoom? room;
+    private Track? track;
+    private IReadOnlyList<RoomMemberView> members = [];
+    private bool isMember;
+    private bool isOwner;
+    private string? userId;
+    private string? message;
+    private bool messageIsError;
+
+    [Parameter]
+    public string Code { get; set; } = "";
+
+    [CascadingParameter]
+    private HttpContext HttpContext { get; set; } = default!;
+
+    /// <summary>Aviso depois de uma ação que recarrega a página (GET depois do POST).</summary>
+    [SupplyParameterFromQuery(Name = "aviso")]
+    private string? Notice { get; set; }
+
+    private string LoginUrl => $"Account/Login?ReturnUrl={Uri.EscapeDataString($"/salas/{room?.Code}")}";
+
+    private string ShareUrl => $"{Navigation.BaseUri}salas/{room?.Code}";
+
+    private string WhatsAppUrl => "https://wa.me/?text=" + Uri.EscapeDataString(
+        $"Entra na nossa sala de estudos no Rumo ({track?.Label}): {ShareUrl}");
+
+    protected override async Task OnInitializedAsync()
+    {
+        userId = Users.GetUserId(HttpContext.User);
+        await LoadAsync();
+
+        message = Notice switch
+        {
+            "entrou" => "Você entrou na sala.",
+            "nome" => "Nome da sala alterado.",
+            "link" => "Link novo gerado. O anterior não funciona mais.",
+            "removido" => "Membro removido.",
+            "denuncia" => "Denúncia enviada. A moderação vai olhar.",
+            _ => null,
+        };
+    }
+
+    private async Task LoadAsync()
+    {
+        room = await Rooms.FindAsync(Code);
+        if (room is null)
+        {
+            Navigation.NotFound();
+            return;
+        }
+
+        track = (await Tracks.ListAsync()).FirstOrDefault(t => t.Id == room.TrackId);
+        isMember = userId is not null && room.Members.Any(m => m.UserId == userId);
+        isOwner = isMember && room.OwnerId == userId;
+
+        // A lista de membros, com nomes, só para quem é da sala.
+        members = isMember ? await Rooms.MembersAsync(room, userId) : [];
+    }
+
+    private async Task JoinAsync()
+    {
+        if (userId is null)
+        {
+            HttpContext.Response.StatusCode = StatusCodes.Status401Unauthorized;
+            return;
+        }
+
+        await Rooms.JoinAsync(Code, userId);
+
+        // GET depois do POST: recarregar a página não tenta entrar de novo.
+        Navigation.NavigateTo($"salas/{Code}?aviso=entrou");
+    }
+
+    private async Task LeaveAsync()
+    {
+        if (userId is null || await Rooms.LeaveAsync(Code, userId) != RoomActionOutcome.Done)
+        {
+            await FailAsync("Você não é membro desta sala.");
+            return;
+        }
+
+        Navigation.NavigateTo("salas");
+    }
+
+    private async Task RenameAsync()
+    {
+        var outcome = userId is null ? RoomActionOutcome.NotAllowed : await Rooms.RenameAsync(Code, userId, HttpContext.Request.Form["Name"].ToString());
+        if (outcome != RoomActionOutcome.Done)
+        {
+            await FailAsync(outcome == RoomActionOutcome.InvalidName
+                ? $"O nome da sala precisa ter de {StudyRoomService.NameMinLength} a {StudyRoomService.NameMaxLength} caracteres."
+                : OwnerOnly);
+            return;
+        }
+
+        Navigation.NavigateTo($"salas/{Code}?aviso=nome");
+    }
+
+    private async Task RenewLinkAsync()
+    {
+        if (userId is null || await Rooms.RenewCodeAsync(Code, userId) is not { } newCode)
+        {
+            await FailAsync(OwnerOnly);
+            return;
+        }
+
+        Navigation.NavigateTo($"salas/{newCode}?aviso=link");
+    }
+
+    private async Task RemoveMemberAsync()
+    {
+        if (userId is null || !int.TryParse(HttpContext.Request.Form["MemberId"].ToString(), out var memberId)
+            || await Rooms.RemoveMemberAsync(Code, userId, memberId) != RoomActionOutcome.Done)
+        {
+            await FailAsync("Não foi possível remover: só quem criou a sala remove membros, e a pessoa pode já ter saído.");
+            return;
+        }
+
+        Navigation.NavigateTo($"salas/{Code}?aviso=removido");
+    }
+
+    private async Task DeleteAsync()
+    {
+        if (HttpContext.Request.Form["ConfirmDelete"] != "true")
+        {
+            await FailAsync("Para apagar a sala, marque \"Quero apagar a sala para todos\".");
+            return;
+        }
+
+        if (userId is null || await Rooms.DeleteAsync(Code, userId) != RoomActionOutcome.Done)
+        {
+            await FailAsync(OwnerOnly);
+            return;
+        }
+
+        Navigation.NavigateTo("salas");
+    }
+
+    private async Task ReportAsync()
+    {
+        if (userId is null || await Rooms.ReportAsync(Code, userId, HttpContext.Request.Form["Reason"].ToString()) != RoomActionOutcome.Done)
+        {
+            await FailAsync("Só membros da sala podem denunciá-la.");
+            return;
+        }
+
+        Navigation.NavigateTo($"salas/{Code}?aviso=denuncia");
+    }
+
+    private const string OwnerOnly = "Só quem criou a sala pode fazer isso.";
+
+    private async Task FailAsync(string text)
+    {
+        (message, messageIsError) = (text, true);
+        HttpContext.Response.StatusCode = StatusCodes.Status409Conflict;
+        await LoadAsync();
+    }
+
+    private static string MemberCount(int count) => count == 1 ? "1 membro" : $"{count} membros";
+}
