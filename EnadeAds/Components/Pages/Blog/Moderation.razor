@@ -5,12 +5,15 @@
 @using EnadeAds.Blog
 @using EnadeAds.Data
 @using EnadeAds.Questions
+@using EnadeAds.Rooms
 @using EnadeAds.Study
 @using Microsoft.AspNetCore.Identity
 
 @attribute [Authorize(Roles = Roles.Editors)]
 
 @inject BlogService Blog
+@inject StudyRoomService Rooms
+@inject TrackCatalog Tracks
 @inject LocalCalendar Calendar
 @inject UserManager<ApplicationUser> Users
 @inject NavigationManager Navigation
@@ -80,8 +83,60 @@
     }
 }
 
+@if (roomReports is { Count: > 0 })
+{
+    <section aria-labelledby="rooms-title" class="mt-5">
+        <h2 id="rooms-title" class="h4">Salas de estudo denunciadas</h2>
+        <p class="text-body-secondary">
+            A denúncia é sobre o <strong>nome da sala</strong>, o único texto livre dela. <strong>Trocar o nome</strong> põe
+            "@StudyRoomService.NeutralName" no lugar; <strong>Apagar</strong> acaba com a sala para todos os membros.
+        </p>
+        <form method="post" @formname="room-moderation" @onsubmit="ModerateRoomAsync">
+            <AntiforgeryToken />
+            <ol class="list-unstyled">
+                @foreach (var report in roomReports)
+                {
+                    <li class="card mb-3">
+                        <div class="card-body">
+                            <p class="small text-body-secondary mb-1">
+                                <span class="badge text-bg-danger">@(report.Count == 1 ? "1 denúncia" : $"{report.Count} denúncias")</span>
+                                Sala de @TrackLabel(report.TrackId) com @(report.Members == 1 ? "1 membro" : $"{report.Members} membros")
+                                · desde @Calendar.ToLocal(report.FirstReportedAt).ToString("dd/MM/yyyy HH:mm")
+                            </p>
+                            <blockquote class="discursive-text border-start ps-3 my-2">@report.RoomName</blockquote>
+                            @if (report.Reasons.Count > 0)
+                            {
+                                <p class="small mb-1"><strong>Motivos:</strong></p>
+                                <ul class="small">
+                                    @foreach (var reason in report.Reasons)
+                                    {
+                                        <li>@reason</li>
+                                    }
+                                </ul>
+                            }
+                            <div class="d-flex flex-wrap gap-2">
+                                <button type="submit" name="Decision" value="@($"rename:{report.RoomId}")" class="btn btn-sm btn-outline-danger">
+                                    Trocar o nome <span class="visually-hidden">da sala @report.RoomName</span>
+                                </button>
+                                <button type="submit" name="Decision" value="@($"delete:{report.RoomId}")" class="btn btn-sm btn-outline-danger">
+                                    Apagar a sala <span class="visually-hidden">@report.RoomName</span>
+                                </button>
+                                <button type="submit" name="Decision" value="@($"keep:{report.RoomId}")" class="btn btn-sm btn-outline-secondary">
+                                    Manter <span class="visually-hidden">a sala @report.RoomName</span>
+                                </button>
+                            </div>
+                        </div>
+                    </li>
+                }
+            </ol>
+        </form>
+    </section>
+}
+
 @code {
     private IReadOnlyList<ReportGroup>? reports;
+    private IReadOnlyList<RoomReportGroup>? roomReports;
+    private IReadOnlyList<Track> tracks = [];
     private string? errorMessage;
 
     [CascadingParameter]
@@ -90,7 +145,34 @@
     protected override async Task OnInitializedAsync()
     {
         reports = await Blog.OpenReportsAsync();
+        roomReports = await Rooms.OpenReportsAsync();
+        tracks = await Tracks.ListAsync();
     }
+
+    private async Task ModerateRoomAsync()
+    {
+        var parts = HttpContext.Request.Form["Decision"].ToString().Split(':');
+        RoomModeration? decision = parts[0] switch
+        {
+            "keep" => RoomModeration.Keep,
+            "rename" => RoomModeration.ResetName,
+            "delete" => RoomModeration.Delete,
+            _ => null,
+        };
+
+        if (parts.Length != 2 || decision is null || !int.TryParse(parts[1], out var roomId) || Users.GetUserId(HttpContext.User) is not { } moderatorId
+            || !await Rooms.ModerateAsync(roomId, moderatorId, decision.Value))
+        {
+            errorMessage = "Não foi possível concluir: a denúncia pode já ter sido resolvida por outra pessoa.";
+            HttpContext.Response.StatusCode = StatusCodes.Status400BadRequest;
+            roomReports = await Rooms.OpenReportsAsync();
+            return;
+        }
+
+        Navigation.NavigateTo("moderacao");
+    }
+
+    private string TrackLabel(int trackId) => tracks.FirstOrDefault(t => t.Id == trackId)?.Label ?? "";
 
     private async Task ResolveAsync()
     {

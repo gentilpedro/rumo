@@ -47,6 +47,16 @@ public sealed class PersonalDataExport(ApplicationDbContext db, UserManager<Appl
                 (p, d) => new { Duelo = d.Code, Trilha = d.TrackId, CriadoPorVoce = d.CreatorId == userId, Inicio = p.StartedAt, Envio = p.FinishedAt, Acertos = p.CorrectCount })
             .ToListAsync(cancellationToken);
 
+        var rooms = await db.StudyRoomMembers.AsNoTracking()
+            .Where(m => m.UserId == userId)
+            .Join(db.StudyRooms, m => m.RoomId, r => r.Id,
+                (m, r) => new { Sala = r.Name, Trilha = r.TrackId, CriadaPorVoce = r.OwnerId == userId, EntrouEm = m.JoinedAt })
+            .ToListAsync(cancellationToken);
+
+        var roomReports = await db.StudyRoomReports.AsNoTracking()
+            .Where(r => r.ReporterId == userId)
+            .Join(db.StudyRooms, r => r.RoomId, room => room.Id, (r, room) => new { Sala = room.Name, Motivo = r.Reason, Em = r.CreatedAt })
+            .ToListAsync(cancellationToken);
         // Dos amigos vai só o nome abreviado, como a pessoa os vê na plataforma: o arquivo é dela, não deles.
         var relations = await db.Friendships.AsNoTracking()
             .Where(f => f.RequesterId == userId || f.AddresseeId == userId)
@@ -107,6 +117,8 @@ public sealed class PersonalDataExport(ApplicationDbContext db, UserManager<Appl
             Desafios = challenges,
             Simulados = mockExams,
             Duelos = duels,
+            SalasDeEstudo = rooms,
+            DenunciasDeSalas = roomReports,
             LinkDeAmigo = friendLink,
             AmigosEPedidos = friends,
             Bloqueados = blocked,

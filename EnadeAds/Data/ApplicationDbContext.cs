@@ -7,6 +7,7 @@ using EnadeAds.Friends;
 using EnadeAds.MockExams;
 using EnadeAds.Questions;
 using EnadeAds.Reviews;
+using EnadeAds.Rooms;
 using EnadeAds.Study;
 using EnadeAds.Survival;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
@@ -46,6 +47,9 @@ public class ApplicationDbContext(DbContextOptions<ApplicationDbContext> options
     public DbSet<DuelQuestion> DuelQuestions => Set<DuelQuestion>();
     public DbSet<DuelPlayer> DuelPlayers => Set<DuelPlayer>();
     public DbSet<DuelAnswer> DuelAnswers => Set<DuelAnswer>();
+    public DbSet<StudyRoom> StudyRooms => Set<StudyRoom>();
+    public DbSet<StudyRoomMember> StudyRoomMembers => Set<StudyRoomMember>();
+    public DbSet<StudyRoomReport> StudyRoomReports => Set<StudyRoomReport>();
     public DbSet<FriendLink> FriendLinks => Set<FriendLink>();
     public DbSet<Friendship> Friendships => Set<Friendship>();
     public DbSet<FriendBlock> FriendBlocks => Set<FriendBlock>();
@@ -305,6 +309,36 @@ public class ApplicationDbContext(DbContextOptions<ApplicationDbContext> options
         {
             answer.HasKey(a => new { a.DuelId, a.UserId, a.QuestionId });
             answer.HasOne<QuestionOption>().WithMany().HasForeignKey(a => a.OptionId).OnDelete(DeleteBehavior.Cascade);
+        });
+
+        builder.Entity<StudyRoom>(room =>
+        {
+            room.Property(r => r.Code).HasMaxLength(StudyRoomService.CodeLength);
+            room.HasIndex(r => r.Code).IsUnique();
+            room.Property(r => r.Name).HasMaxLength(StudyRoomService.NameMaxLength);
+            room.HasOne<Track>().WithMany().HasForeignKey(r => r.TrackId).OnDelete(DeleteBehavior.Restrict);
+            // O dono pode excluir a conta sem apagar a sala dos colegas: ela passa para o membro mais antigo.
+            room.HasOne<ApplicationUser>().WithMany().HasForeignKey(r => r.OwnerId).OnDelete(DeleteBehavior.SetNull);
+            room.HasMany(r => r.Members).WithOne().HasForeignKey(m => m.RoomId).OnDelete(DeleteBehavior.Cascade);
+            room.HasMany<StudyRoomReport>().WithOne().HasForeignKey(r => r.RoomId).OnDelete(DeleteBehavior.Cascade);
+            // Sem filtro de trilha: a sala se abre pelo link em qualquer trilha, como o duelo.
+        });
+
+        builder.Entity<StudyRoomMember>(member =>
+        {
+            // Uma participação por pessoa em cada sala.
+            member.HasIndex(m => new { m.RoomId, m.UserId }).IsUnique();
+            member.HasIndex(m => m.UserId);
+            member.HasOne<ApplicationUser>().WithMany().HasForeignKey(m => m.UserId).OnDelete(DeleteBehavior.Cascade);
+        });
+
+        builder.Entity<StudyRoomReport>(report =>
+        {
+            report.Property(r => r.Reason).HasMaxLength(StudyRoomService.ReasonMaxLength);
+            report.HasIndex(r => new { r.RoomId, r.ResolvedAt });
+            // A denúncia fica mesmo que quem denunciou (ou quem resolveu) exclua a conta.
+            report.HasOne<ApplicationUser>().WithMany().HasForeignKey(r => r.ReporterId).OnDelete(DeleteBehavior.SetNull);
+            report.HasOne<ApplicationUser>().WithMany().HasForeignKey(r => r.ResolvedById).OnDelete(DeleteBehavior.SetNull);
         });
 
         // Amigos: tudo sai junto quando uma das contas é excluída.

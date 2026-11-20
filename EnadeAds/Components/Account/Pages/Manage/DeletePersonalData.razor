@@ -6,6 +6,7 @@
 
 @inject UserManager<ApplicationUser> UserManager
 @inject SignInManager<ApplicationUser> SignInManager
+@inject EnadeAds.Rooms.StudyRoomService Rooms
 @inject IdentityRedirectManager RedirectManager
 @inject ILogger<DeletePersonalData> Logger
 
@@ -21,7 +22,8 @@
     </p>
     <p class="mb-0">
         Serão apagados: a conta, o progresso no roadmap, as respostas às questões, os simulados, os envios de desafio,
-        as amizades, os pedidos de amizade e os bloqueios.
+        as amizades, os pedidos de amizade, os bloqueios e a sua participação nas salas de estudo.
+        Uma sala que você criou passa para o membro mais antigo, ou é apagada se só tinha você.
         Seus comentários no blog continuam, mas sem o seu nome. Se quiser guardar uma cópia, <a href="Account/Manage/PersonalData">baixe seus dados</a> antes.
     </p>
 </div>
@@ -79,6 +81,9 @@
             message = "Erro: senha incorreta.";
             return;
         }
+
+        // Antes de apagar a conta: as salas que a pessoa criou passam para outro membro, e as que ficariam vazias somem já.
+        await Rooms.LeaveAllAsync(user.Id);
 
         var result = await UserManager.DeleteAsync(user);
         if (!result.Succeeded)
