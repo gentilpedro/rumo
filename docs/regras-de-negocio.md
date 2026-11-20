@@ -69,9 +69,12 @@ Alunos também têm e-mail institucional, muitas vezes no mesmo domínio dos pro
 
 - Só **Admin** abre a tela *Contas*: busca por nome ou e-mail e filtro por perfil (alunos, professores pendentes, professores, administradores, bloqueadas).
 - O admin pode **revogar o perfil de Professor** (a pessoa continua Aluno), **remover o perfil de Admin** de outra pessoa e **bloquear ou desbloquear** uma conta. Conta bloqueada não consegue entrar.
+- O admin também pode **tornar uma conta professora** e **tornar uma conta administradora**. Tornar professor vale para qualquer conta, mesmo sem e-mail institucional e sem pedido; se havia um pedido pendente, ele é encerrado. Tornar admin pede uma confirmação a mais na tela.
+- Só recebe um perfil a conta com **e-mail confirmado** e **não bloqueada**.
 - Toda mudança vale em até 1 minuto: a sessão da pessoa é renovada e ela precisa entrar de novo.
 - Um admin **não altera a própria conta** por essa tela, para não se trancar fora nem deixar a plataforma sem admin por engano.
-- Novos admins continuam vindo só da configuração `Admin:Emails`.
+- A configuração `Admin:Emails` continua valendo para o primeiro admin de uma instalação: quem se cadastra com um e-mail da lista já entra como admin.
+- Toda mudança de perfil e todo bloqueio ficam no log, com o admin que fez e a conta alterada.
 
 ## Privacidade (LGPD)
 

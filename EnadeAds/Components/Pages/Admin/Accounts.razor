@@ -15,6 +15,7 @@
 <h1 class="h3">Contas</h1>
 <p class="text-body-secondary">
     Mudanças de perfil e bloqueios valem em até 1 minuto: a pessoa precisa entrar de novo.
+    Só contas com e-mail confirmado e não bloqueadas podem virar professor ou admin.
     Pedidos de professor ficam em <a href="admin/professores-pendentes">Professores pendentes</a>.
 </p>
 
@@ -81,13 +82,29 @@
                                 @if (!self)
                                 {
                                     <div class="d-flex flex-wrap justify-content-end gap-1">
+                                        @{ var canPromote = account.EmailConfirmed && !account.IsBlocked; }
                                         @if (account.Roles.Contains(Roles.Teacher))
                                         {
                                             <ActionButton Action="AccountAction.RevokeTeacher" UserId="@account.Id" Label="Revogar professor" Name="@account.FullName" />
                                         }
+                                        else if (canPromote)
+                                        {
+                                            <ActionButton Action="AccountAction.MakeTeacher" UserId="@account.Id" Label="Tornar professor" Name="@account.FullName" />
+                                        }
                                         @if (account.Roles.Contains(Roles.Admin))
                                         {
                                             <ActionButton Action="AccountAction.RemoveAdmin" UserId="@account.Id" Label="Remover admin" Name="@account.FullName" />
+                                        }
+                                        else if (canPromote)
+                                        {
+                                            @* Dar o perfil de admin pede dois cliques: abrir e confirmar. Funciona sem JavaScript. *@
+                                            <details class="promote-admin">
+                                                <summary class="btn btn-sm btn-outline-secondary">Tornar admin <span class="visually-hidden">@account.FullName</span></summary>
+                                                <div class="promote-admin-confirm">
+                                                    <p class="small mb-1">Um admin gerencia contas, datas de prova e todo o conteúdo.</p>
+                                                    <ActionButton Action="AccountAction.MakeAdmin" UserId="@account.Id" Label="Confirmar: tornar admin" Name="@account.FullName" Danger="true" />
+                                                </div>
+                                            </details>
                                         }
                                         @if (account.IsBlocked)
                                         {

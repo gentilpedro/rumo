@@ -20,7 +20,9 @@ public enum AccountFilter
 
 public enum AccountAction
 {
+    MakeTeacher,
     RevokeTeacher,
+    MakeAdmin,
     RemoveAdmin,
     Block,
     Unblock,
@@ -29,6 +31,9 @@ public enum AccountAction
 /// <summary>
 /// Gestão de contas pelo admin. Toda mudança renova o security stamp, então vale em até 1 minuto
 /// (revalidação da sessão definida na #3). Um admin nunca altera a própria conta por aqui.
+///
+/// Dar um perfil (professor ou admin) só vale para conta com e-mail confirmado e não bloqueada: sem a
+/// confirmação, não dá para saber se a conta é mesmo de quem diz ser.
 /// </summary>
 public sealed class AccountAdmin(ApplicationDbContext db, UserManager<ApplicationUser> users, TimeProvider clock, ILogger<AccountAdmin> logger)
 {
@@ -103,6 +108,42 @@ public sealed class AccountAdmin(ApplicationDbContext db, UserManager<Applicatio
         string message;
         switch (action)
         {
+            case AccountAction.MakeTeacher:
+                if (await users.IsInRoleAsync(user, Roles.Teacher))
+                {
+                    return EditResultMessage.Fail($"{name} já é professor.");
+                }
+
+                if (await CannotBePromotedAsync(user, name) is { } teacherProblem)
+                {
+                    return teacherProblem;
+                }
+
+                // Decisão do admin: vale sem e-mail institucional e sem pedido. Se havia pedido pendente, ele se encerra aqui.
+                if (await users.IsInRoleAsync(user, Roles.PendingTeacher))
+                {
+                    Ensure(await users.RemoveFromRoleAsync(user, Roles.PendingTeacher));
+                }
+
+                Ensure(await users.AddToRoleAsync(user, Roles.Teacher));
+                message = $"{name} agora é professor.";
+                break;
+
+            case AccountAction.MakeAdmin:
+                if (await users.IsInRoleAsync(user, Roles.Admin))
+                {
+                    return EditResultMessage.Fail($"{name} já é administrador.");
+                }
+
+                if (await CannotBePromotedAsync(user, name) is { } adminProblem)
+                {
+                    return adminProblem;
+                }
+
+                Ensure(await users.AddToRoleAsync(user, Roles.Admin));
+                message = $"{name} agora é administrador.";
+                break;
+
             case AccountAction.RevokeTeacher:
                 if (!await users.IsInRoleAsync(user, Roles.Teacher))
                 {
@@ -143,6 +184,22 @@ public sealed class AccountAdmin(ApplicationDbContext db, UserManager<Applicatio
         Ensure(await users.UpdateSecurityStampAsync(user));
         logger.LogInformation("Admin {AdminId} aplicou {Action} na conta {UserId}.", adminId, action, targetId);
         return new EditResultMessage(true, message);
+    }
+
+    /// <summary>Motivo para não dar um perfil a esta conta, ou nulo se pode.</summary>
+    private async Task<EditResultMessage?> CannotBePromotedAsync(ApplicationUser user, string? name)
+    {
+        if (!user.EmailConfirmed)
+        {
+            return EditResultMessage.Fail($"{name} ainda não confirmou o e-mail. Só contas com e-mail confirmado recebem um perfil.");
+        }
+
+        if (await users.IsLockedOutAsync(user))
+        {
+            return EditResultMessage.Fail($"{name} está com a conta bloqueada. Desbloqueie antes de dar um perfil.");
+        }
+
+        return null;
     }
 
     private static void Ensure(IdentityResult result)
