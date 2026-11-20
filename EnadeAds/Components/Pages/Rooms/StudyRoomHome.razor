@@ -1,0 +1,147 @@
+@page "/salas"
+
+@using EnadeAds.Data
+@using EnadeAds.Rooms
+@using EnadeAds.Study
+@using Microsoft.AspNetCore.Identity
+
+@inject StudyRoomService Rooms
+@inject TrackCatalog Tracks
+@inject TrackScope TrackScope
+@inject UserManager<ApplicationUser> Users
+@inject NavigationManager Navigation
+
+<PageTitle>Salas de estudo</PageTitle>
+
+<h1>Salas de estudo</h1>
+
+<p class="text-body-secondary">
+    Uma sala é o cantinho da sua turma no Rumo: você cria, manda o link no grupo e quem recebeu entra.
+    Só entra quem tem o link. Não há busca de pessoas nem conversa, e os colegas veem só o seu primeiro nome
+    com a inicial do sobrenome.
+</p>
+
+@if (errorMessage is not null)
+{
+    <div class="alert alert-danger" role="alert">@errorMessage</div>
+}
+
+@if (userId is null)
+{
+    <div class="alert alert-info" role="status">
+        <a href="Account/Login?ReturnUrl=%2Fsalas">Entre</a> ou <a href="Account/Register">crie sua conta</a> para criar uma sala.
+    </div>
+}
+else if (!TrackScope.HasChosen)
+{
+    <div class="alert alert-info" role="status">
+        <a href="/?volta=%2Fsalas">Escolha a sua prova</a> para criar uma sala para ela.
+    </div>
+}
+else
+{
+    <form method="post" action="salas" @formname="create-room" @onsubmit="CreateAsync" class="card mb-5">
+        <AntiforgeryToken />
+        <div class="card-body">
+            <p class="fw-semibold mb-2">Nova sala · @track?.Label</p>
+            <div class="row g-2 align-items-end">
+                <div class="col-sm">
+                    <label for="room-name" class="form-label">Nome da sala</label>
+                    <input id="room-name" name="Name" class="form-control" required
+                           minlength="@StudyRoomService.NameMinLength" maxlength="@StudyRoomService.NameMaxLength"
+                           value="@Name" placeholder="Turma do 3º B" aria-describedby="room-name-help" />
+                </div>
+                <div class="col-auto">
+                    <button type="submit" class="btn btn-primary">Criar sala</button>
+                </div>
+            </div>
+            <p id="room-name-help" class="small text-body-secondary mt-2 mb-0">
+                De @StudyRoomService.NameMinLength a @StudyRoomService.NameMaxLength caracteres. Todos os membros veem o nome,
+                então não ponha dados pessoais de ninguém nele.
+            </p>
+        </div>
+    </form>
+}
+
+@if (mine is { Count: > 0 })
+{
+    <section aria-labelledby="mine-title">
+        <h2 id="mine-title" class="h5">Suas salas</h2>
+        <div class="table-responsive">
+            <table class="table table-sm align-middle">
+                <thead>
+                    <tr>
+                        <th scope="col">Sala</th><th scope="col">Prova</th><th scope="col">Membros</th>
+                        <th scope="col"><span class="visually-hidden">Abrir</span></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var room in mine)
+                    {
+                        <tr>
+                            <td>
+                                @room.Name
+                                @if (room.IsOwner)
+                                {
+                                    <span class="badge text-bg-secondary ms-1">você criou</span>
+                                }
+                            </td>
+                            <td>@TrackLabel(room.TrackId)</td>
+                            <td class="font-monospace">@room.Members</td>
+                            <td><a href="salas/@room.Code">Abrir <span class="visually-hidden">@room.Name</span></a></td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </section>
+}
+
+@code {
+    private IReadOnlyList<RoomSummary>? mine;
+    private IReadOnlyList<Track> tracks = [];
+    private Track? track;
+    private string? userId;
+    private string? errorMessage;
+
+    [CascadingParameter]
+    private HttpContext HttpContext { get; set; } = default!;
+
+    [SupplyParameterFromForm(FormName = "create-room")]
+    private string? Name { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+        userId = Users.GetUserId(HttpContext.User);
+        tracks = await Tracks.ListAsync();
+        track = await Tracks.CurrentAsync();
+        if (userId is not null)
+        {
+            mine = await Rooms.MineAsync(userId);
+        }
+    }
+
+    private async Task CreateAsync()
+    {
+        // Criar sala exige login; o formulário não aparece para visitante, mas o POST pode ser forjado.
+        if (userId is null)
+        {
+            HttpContext.Response.StatusCode = StatusCodes.Status401Unauthorized;
+            return;
+        }
+
+        var result = await Rooms.CreateAsync(userId, Name);
+        if (result.Outcome != CreateRoomOutcome.Created)
+        {
+            errorMessage = result.Outcome == CreateRoomOutcome.InvalidName
+                ? $"O nome da sala precisa ter de {StudyRoomService.NameMinLength} a {StudyRoomService.NameMaxLength} caracteres."
+                : $"Você já chegou ao limite: {StudyRoomService.MaxOwned} salas criadas ou {StudyRoomService.MaxMemberships} salas ao todo. Saia de uma para criar outra.";
+            HttpContext.Response.StatusCode = StatusCodes.Status400BadRequest;
+            return;
+        }
+
+        Navigation.NavigateTo($"salas/{result.Code}");
+    }
+
+    private string TrackLabel(int trackId) => tracks.FirstOrDefault(t => t.Id == trackId)?.Label ?? "";
+}

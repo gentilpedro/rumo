@@ -47,6 +47,17 @@ public sealed class PersonalDataExport(ApplicationDbContext db, UserManager<Appl
                 (p, d) => new { Duelo = d.Code, Trilha = d.TrackId, CriadoPorVoce = d.CreatorId == userId, Inicio = p.StartedAt, Envio = p.FinishedAt, Acertos = p.CorrectCount })
             .ToListAsync(cancellationToken);
 
+        var rooms = await db.StudyRoomMembers.AsNoTracking()
+            .Where(m => m.UserId == userId)
+            .Join(db.StudyRooms, m => m.RoomId, r => r.Id,
+                (m, r) => new { Sala = r.Name, Trilha = r.TrackId, CriadaPorVoce = r.OwnerId == userId, EntrouEm = m.JoinedAt })
+            .ToListAsync(cancellationToken);
+
+        var roomReports = await db.StudyRoomReports.AsNoTracking()
+            .Where(r => r.ReporterId == userId)
+            .Join(db.StudyRooms, r => r.RoomId, room => room.Id, (r, room) => new { Sala = room.Name, Motivo = r.Reason, Em = r.CreatedAt })
+            .ToListAsync(cancellationToken);
+
         var comments = await db.PostComments.AsNoTracking()
             .Where(c => c.UserId == userId)
             .Join(db.Posts.IgnoreQueryFilters(), c => c.PostId, p => p.Id, (c, p) => new { Post = p.Title, Comentario = c.Text, Em = c.CreatedAt })
@@ -89,6 +100,8 @@ public sealed class PersonalDataExport(ApplicationDbContext db, UserManager<Appl
             Desafios = challenges,
             Simulados = mockExams,
             Duelos = duels,
+            SalasDeEstudo = rooms,
+            DenunciasDeSalas = roomReports,
             ComentariosNoBlog = comments,
             Posts = posts,
             Votos = votes,
