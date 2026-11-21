@@ -145,7 +145,7 @@ public static class AccountEmails
         html.Append($"<tr><td style=\"padding:0 28px 28px;font-family:{Font};font-size:14px;line-height:1.55;color:{Muted};\">{E(closing)}</td></tr>");
 
         // Rodapé: de quem é a plataforma e por que a pessoa recebeu o e-mail.
-        html.Append($"<tr><td style=\"padding:20px 28px;border-top:1px solid {Rule};background:#FAF7F2;font-family:{Font};font-size:13px;line-height:1.55;color:{Muted};\">")
+        html.Append($"<tr><td style=\"padding:20px 28px;border-top:1px solid {Rule};background:#FFFFFF;font-family:{Font};font-size:13px;line-height:1.55;color:{Muted};\">")
             .Append("<table role=\"presentation\" cellpadding=\"0\" cellspacing=\"0\"><tr>")
             .Append($"<td style=\"padding-right:12px;vertical-align:top;\"><img src=\"{AamoraLogo}\" width=\"36\" height=\"36\" alt=\"\" style=\"display:block;border-radius:8px;\"></td>")
             .Append($"<td style=\"font-family:{Font};font-size:13px;line-height:1.55;color:{Muted};\">")
