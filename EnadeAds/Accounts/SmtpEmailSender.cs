@@ -1,5 +1,7 @@
 using System.Net;
 using System.Net.Mail;
+using System.Net.Mime;
+using System.Text;
 using EnadeAds.Data;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.Options;
@@ -11,29 +13,29 @@ public sealed class SmtpEmailSender(IOptions<SmtpOptions> options, ILogger<SmtpE
     private readonly SmtpOptions smtp = options.Value;
 
     public Task SendConfirmationLinkAsync(ApplicationUser user, string email, string confirmationLink) =>
-        SendAsync(email, "Confirme seu cadastro no Rumo",
-            $"<p>Olá, {WebUtility.HtmlEncode(user.FullName)}!</p>" +
-            $"<p>Para ativar sua conta, <a href='{confirmationLink}'>clique aqui</a>.</p>" +
-            "<p>Se você não se cadastrou, ignore este e-mail.</p>");
+        SendAsync(email, AccountEmails.Confirmation(user.FullName, confirmationLink));
 
     public Task SendPasswordResetLinkAsync(ApplicationUser user, string email, string resetLink) =>
-        SendAsync(email, "Redefinição de senha do Rumo",
-            $"<p>Para criar uma nova senha, <a href='{resetLink}'>clique aqui</a>.</p>" +
-            "<p>Se você não pediu a redefinição, ignore este e-mail.</p>");
+        SendAsync(email, AccountEmails.PasswordReset(resetLink));
 
     public Task SendPasswordResetCodeAsync(ApplicationUser user, string email, string resetCode) =>
-        SendAsync(email, "Código de redefinição de senha do Rumo",
-            $"<p>Seu código de redefinição de senha é: <strong>{WebUtility.HtmlEncode(resetCode)}</strong></p>");
+        SendAsync(email, AccountEmails.PasswordResetCode(resetCode));
 
-    private async Task SendAsync(string to, string subject, string htmlBody)
+    private async Task SendAsync(string to, AccountEmail email)
     {
+        var subject = email.Subject;
         using var message = new MailMessage
         {
             From = new MailAddress(smtp.FromAddress, smtp.FromName),
             Subject = subject,
-            Body = htmlBody,
-            IsBodyHtml = true,
+            SubjectEncoding = Encoding.UTF8,
+            // O corpo é o texto puro, e o HTML vai como alternativa: quem não mostra HTML lê o texto, e o e-mail
+            // com as duas versões passa melhor pelos filtros de spam.
+            Body = email.Text,
+            BodyEncoding = Encoding.UTF8,
+            IsBodyHtml = false,
         };
+        message.AlternateViews.Add(AlternateView.CreateAlternateViewFromString(email.Html, Encoding.UTF8, MediaTypeNames.Text.Html));
         message.To.Add(to);
 
         using var client = new SmtpClient(smtp.Host, smtp.Port)
