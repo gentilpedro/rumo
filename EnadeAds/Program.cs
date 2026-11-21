@@ -101,6 +101,8 @@ try
     builder.Services.AddScoped<QuestionEditor>();
     builder.Services.AddScoped<InepQuestionImporter>();
     builder.Services.AddScoped<ChallengeService>();
+    builder.Services.AddScoped<WeeklyChallengePublisher>();
+    builder.Services.AddHostedService<WeeklyChallengeWorker>();
     builder.Services.AddScoped<BlogService>();
     builder.Services.AddScoped<PerformanceService>();
     builder.Services.AddScoped<MockExamService>();
