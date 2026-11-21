@@ -1,0 +1,1296 @@
+{
+  "year": 2026,
+  "track": "ufsm-3",
+  "questions": [
+    {
+      "key": "ufsm-2026-p3-q01",
+      "source": "Vestibular UFSM 2026 – Prova 3, questão 1 (UFSM)",
+      "kind": "Objective",
+      "subject": "historia",
+      "statement": "Claudio Vicentino descreve importante momento da história da seguinte forma: “o surgimento da mecanização industrial operou significativas transformações em quase todos os setores da vida humana. [...] O trabalhador perdia a posse das ferramentas e máquinas, passando a viver da única coisa que lhe pertencia: sua força de trabalho, explorada ao máximo”.\n\nFonte: VICENTINO, C. História Geral: Ensino Médio. São Paulo: Scipione, 2006. p. 292.\n\nA respeito do contexto histórico mencionado no excerto, assinale V (verdadeiro) ou F (falso) em cada afirmativa a seguir.\n\n( ) Refere-se ao sistema econômico instaurado na União das Repúblicas Socialistas Soviéticas depois da Revolução Russa de 1917.\n\n( ) Remete à chamada uberização do trabalho, fenômeno corrente nos dias atuais.\n\n( ) Refere-se à Revolução Industrial, iniciada na Inglaterra no século XVIII.\n\nA sequência correta é",
+      "options": [
+        {
+          "text": "F – V – F.",
+          "explanation": "A segunda afirmativa é falsa e a terceira é verdadeira: a uberização é um fenômeno do século XXI, ligado a plataformas digitais, enquanto o excerto trata da mecanização fabril que separou o trabalhador de suas ferramentas, isto é, da Revolução Industrial."
+        },
+        {
+          "text": "V – F – V.",
+          "explanation": "A primeira afirmativa é falsa: o trabalhador que só tem a força de trabalho para vender é a marca do capitalismo industrial, e não da economia soviética, que surgiu justamente como crítica a essa exploração."
+        },
+        {
+          "text": "F – F – V.",
+          "explanation": "Correta. O excerto descreve a Revolução Industrial inglesa do século XVIII, quando a máquina e a fábrica tiraram do trabalhador a posse dos meios de produção. Por isso só a terceira afirmativa é verdadeira: nem a economia soviética nem a uberização atual são o contexto descrito."
+        },
+        {
+          "text": "V – F – F.",
+          "explanation": "Inverte a primeira e a terceira: o contexto é a Revolução Industrial (terceira, verdadeira), e não o sistema soviético pós-1917 (primeira, falsa)."
+        },
+        {
+          "text": "V – V – F.",
+          "explanation": "Erra as três: o excerto não trata da URSS nem da uberização, e sim da mecanização industrial iniciada na Inglaterra do século XVIII."
+        }
+      ],
+      "correct": "C"
+    },
+    {
+      "key": "ufsm-2026-p3-q02",
+      "source": "Vestibular UFSM 2026 – Prova 3, questão 2 (UFSM)",
+      "kind": "Objective",
+      "subject": "matematica",
+      "statement": "O vale-transporte é um benefício garantido aos trabalhadores das mais diversas profissões que possuam vínculo empregatício formal e que utilizem transporte coletivo público para seu deslocamento entre a residência e o local de trabalho. Esse benefício tem como finalidade assegurar que o deslocamento diário não comprometa de forma significativa a remuneração do empregado.\n\nPara custear o benefício, o empregador pode descontar até 6% do salário-base do trabalhador. Caso o custo total das passagens necessárias para o deslocamento mensal ultrapasse esse percentual, a diferença deverá ser custeada integralmente pelo empregador. Se o custo total for inferior a 6%, o desconto será limitado ao valor real das passagens.\n\nSuponha a situação de dois profissionais que solicitaram o vale-transporte a uma mesma empresa:\n\n- **empregado A**: salário-base de R$ 2 700,00 e custo total do transporte de R$ 252,00;\n- **empregado B**: salário-base de R$ 3 200,00 e custo total do transporte de R$ 275,00.\n\nEm relação aos valores custeados pela empresa para o vale-transporte, referentes ao valor que ultrapassou o desconto de 6% sobre o salário-base de cada empregado, é correto afirmar que",
+      "options": [
+        {
+          "text": "o empregado A receberá R$ 30,00 a mais do que o empregado B.",
+          "explanation": "R$ 30,00 é a diferença entre os descontos de 6% (192 − 162), e ainda a favor de B. O que se pede é a parte paga pela empresa: 90 para A e 83 para B, diferença de R$ 7,00."
+        },
+        {
+          "text": "o empregado A receberá R$ 7,00 a mais do que o empregado B.",
+          "explanation": "Correta. Desconto de A: 6% de 2 700 = 162; a empresa paga 252 − 162 = 90. Desconto de B: 6% de 3 200 = 192; a empresa paga 275 − 192 = 83. Logo A recebe 90 − 83 = R$ 7,00 a mais."
+        },
+        {
+          "text": "os dois empregados receberão exatamente o mesmo valor.",
+          "explanation": "Os valores custeados são diferentes: R$ 90,00 para A (252 − 162) e R$ 83,00 para B (275 − 192)."
+        },
+        {
+          "text": "o empregado B receberá R$ 7,00 a mais do que o empregado A.",
+          "explanation": "A diferença é mesmo de R$ 7,00, mas a favor de A: a empresa paga 90 para A e 83 para B. B tem transporte mais caro, porém seu desconto de 6% também é maior."
+        },
+        {
+          "text": "o empregado B receberá R$ 30,00 a mais do que o empregado A.",
+          "explanation": "R$ 30,00 é quanto o desconto de B (192) supera o de A (162), não a parte paga pela empresa, que é de 90 para A e 83 para B."
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "key": "ufsm-2026-p3-q03",
+      "source": "Vestibular UFSM 2026 – Prova 3, questão 3 (UFSM)",
+      "kind": "Objective",
+      "subject": "geografia",
+      "statement": "O mercado de trabalho brasileiro ainda é muito desigual em termos de classe, de raça e de gênero. Há profissões muito ligadas a determinadas características sociais historicamente situadas, que acabam se perpetuando nas distintas estratificações profissionais.\n\nFonte: BRAICK, P. et al. Coleção Moderna Plus. Ciências Humanas e Sociais Aplicadas: manual do professor. 1 ed. São Paulo: Moderna, 2020. (Adaptado)\n\n![Infográfico 'Brasil: desigualdades sociais por cor ou raça - 2021'. Mercado de trabalho, taxas de desocupação em 2021: brancos 11,3%, pretos 16,5%, pardos 16,2%. Distribuição de renda, pessoas abaixo da linha da pobreza em 2021: brancos 18,6%, pretos 34,5%, pardos 38,4%. Pessoas com nível superior, rendimento médio por hora em 2021: brancos R$ 19,00, pretos R$ 10,90, pardos R$ 11,30.](img/ufsm/2026/prova-3/q03-1.png)\n\nFonte: INSTITUTO HUMANITAS UNISINOS. Racismo Estrutural: taxa de pobreza de pretos e pardos são cerca de duas vezes maiores que de brancos. 2022. Disponível em: https://www.ihu.unisinos.br/categorias/623923-racismo-estrutural-taxas-de-probreza-de-pretos-e-pardos-sao-cerca-de-duas-vezes-maiores-que-a-dos-brancos. Acesso em: 18 set. 2025. (Adaptado)\n\nA partir das informações sobre a temática das desigualdades no mercado de trabalho apresentadas na figura, assinale V (verdadeiro) ou F (falso) em cada afirmativa a seguir.\n\n( ) O perfil da distribuição de renda é uma evidência do racismo estrutural presente no Brasil.\n\n( ) As desigualdades sociais entre pessoas negras e brancas são acentuadas em profissões com exigência de ensino superior.\n\n( ) O maior número de taxa de desocupação tende a estar vinculado a pessoas brancas com profissões ligadas ao mercado formal.\n\nA sequência correta é",
+      "options": [
+        {
+          "text": "F – V – F.",
+          "explanation": "A primeira afirmativa é verdadeira: a proporção de pretos (34,5%) e pardos (38,4%) abaixo da linha da pobreza é cerca do dobro da de brancos (18,6%), diferença sistemática que caracteriza o racismo estrutural."
+        },
+        {
+          "text": "F – F – V.",
+          "explanation": "Erra as três: a pobreza e a renda por hora mostram desigualdade racial (primeira e segunda verdadeiras), e a desocupação é maior entre pretos (16,5%) e pardos (16,2%) do que entre brancos (11,3%)."
+        },
+        {
+          "text": "V – V – F.",
+          "explanation": "Correta. A pobreza atinge quase o dobro de pretos e pardos em relação a brancos (primeira, V); mesmo com nível superior, brancos ganham R$ 19,00 por hora contra R$ 10,90 e R$ 11,30 (segunda, V); e a menor taxa de desocupação é a dos brancos, 11,3% (terceira, F)."
+        },
+        {
+          "text": "V – V – V.",
+          "explanation": "A terceira afirmativa é falsa: a taxa de desocupação dos brancos (11,3%) é a menor das três; as maiores são as de pretos (16,5%) e pardos (16,2%)."
+        },
+        {
+          "text": "V – F – F.",
+          "explanation": "A segunda afirmativa é verdadeira: entre pessoas com nível superior, o rendimento por hora dos brancos (R$ 19,00) é quase o dobro do de pretos (R$ 10,90) e pardos (R$ 11,30)."
+        }
+      ],
+      "correct": "C"
+    },
+    {
+      "key": "ufsm-2026-p3-q04",
+      "source": "Vestibular UFSM 2026 – Prova 3, questão 4 (UFSM)",
+      "kind": "Objective",
+      "subject": "literatura",
+      "statement": "Morte e Vida Severina retrata a jornada do retirante Severino da caatinga para o litoral. Ao longo do percurso, ele também busca trabalho, mas vai encontrando pelo caminho mais tristezas, inclusive a morte. Leia o trecho a seguir.\n\n```\n− Desde que estou retirando\nSó a morte vejo ativa,\nsó a morte deparei\ne às vezes até festiva; [...]\n− Muito bom dia, senhora,\nque nessa janela está;\nsabe dizer se é possível\nalgum trabalho encontrar? [...]\n− Essa vida por aqui\né coisa familiar;\nmas diga-me, retirante,\nsabe benditos rezar?\nsabe cantar excelências,\ndefuntos encomendar?\nsabe tirar ladainhas,\nsabe mortos enterrar?\n− Já velei muitos defuntos,\nna serra é coisa vulgar;\nmas nunca aprendi as rezas,\nsei somente acompanhar.\n− Pois se o compadre soubesse\nrezar ou mesmo cantar,\ntrabalhávamos a meias\nque a freguesia bem dá. [...]\n− E se pela última vez\nse permite perguntar:\nnão existe outro trabalho\npara mim neste lugar?\n− Como aqui a morte é tanta,\nsó é possível trabalhar\nnessas profissões que fazem\nda morte ofício ou bazar.\nImagine que outra gente\nde profissão similar,\nfarmacêuticos, coveiros,\ndoutor de anel no anular,\nremando contra a corrente\nda gente que baixa ao mar,\nretirantes às avessas,\nsobem do mar para cá.\nSó os roçados da morte\ncompensam aqui cultivar,\ne cultivá-los é fácil:\nsimples questão de plantar;\nnão se precisa de limpa,\nde adubar, nem de regar;\nas estiagens e as pragas\nfazem-nos mais prosperar;\ne dão lucro imediato;\nnem é preciso esperar\npela colheita: recebe-se\nna hora mesma de semear.\n```\n\nFonte: MELO NETO, J. C. de. Morte e Vida Severina e outros poemas para vozes. 4. ed. Rio de Janeiro: Nova Fronteira, 2000. p. 52-58.\n\nCom relação a Morte e Vida Severina, de João Cabral de Melo Neto, assinale V (verdadeiro) ou F (falso) em cada afirmativa a seguir.\n\n( ) É um poema dramático que, apesar de não ter sido escrito na década de 1930, representa bem a vertente regionalista da literatura modernista brasileira.\n\n( ) Retrata o processo de migração do Nordeste brasileiro, tal como Raquel de Queiroz e Graciliano Ramos fizeram em O Quinze e Vidas Secas, respectivamente, embora haja diferenças no que se refere ao gênero literário.\n\n( ) O excerto, num primeiro momento, alinha o ofício da carpideira ao dos farmacêuticos, coveiros e médicos, que lidam, mais ou menos diretamente, com a morte; num segundo momento, aproxima esses profissionais do retirante, embora o percurso deles trace a direção contrária à do percurso de Severino.\n\nA sequência correta é",
+      "options": [
+        {
+          "text": "F – V – F.",
+          "explanation": "A primeira e a terceira também são verdadeiras: a obra é um auto (poema dramático) dos anos 1950 de temática regionalista, e o trecho chama farmacêuticos, coveiros e médicos de “retirantes às avessas”, que sobem do mar para o sertão."
+        },
+        {
+          "text": "V – F – V.",
+          "explanation": "A segunda afirmativa é verdadeira: como O Quinze e Vidas Secas, a obra trata do retirante nordestino expulso pela seca; a diferença está no gênero, pois aqueles são romances e este é um poema dramático."
+        },
+        {
+          "text": "V – F – F.",
+          "explanation": "A segunda e a terceira também são verdadeiras: a migração nordestina aproxima a obra dos romances de 1930, e o excerto compara a rezadeira aos profissionais que vivem da morte e que fazem o caminho inverso ao de Severino."
+        },
+        {
+          "text": "F – F – V.",
+          "explanation": "As duas primeiras também são verdadeiras: o auto de João Cabral, publicado nos anos 1950, retoma o regionalismo e o tema da migração dos romances de Rachel de Queiroz e Graciliano Ramos, em outro gênero."
+        },
+        {
+          "text": "V – V – V.",
+          "explanation": "Correta. Morte e Vida Severina é um auto de Natal pernambucano dos anos 1950, de temática regionalista (V); trata do retirante, como os romances O Quinze e Vidas Secas, mas em verso dramático (V); e o trecho junta a rezadeira aos que fazem “da morte ofício ou bazar”, chamados de “retirantes às avessas” porque sobem do mar para o sertão (V)."
+        }
+      ],
+      "correct": "E"
+    },
+    {
+      "key": "ufsm-2026-p3-q05",
+      "source": "Vestibular UFSM 2026 – Prova 3, questão 5 (UFSM)",
+      "kind": "Objective",
+      "subject": "quimica",
+      "statement": "A mortalidade por leucemia no Brasil é cerca de 1,7 vezes maior entre trabalhadores expostos ao benzeno, o que representa um risco 73% maior de morte por esse tipo de câncer do que para o restante da população trabalhadora, mostra estudo publicado em julho no periódico International Journal of Environmental Research and Public Health.\n\nNo Brasil, mais de 7 milhões de trabalhadores estão potencialmente expostos ao benzeno, composto químico que, desde 1982, é reconhecido como cancerígeno pela International Agency for Research on Cancer (IARC) e pela Organização Mundial da Saúde (OMS). Décadas após a constatação, a falta de implementação de normas de proteção para reduzir a exposição ao agente ainda contribui para muitos óbitos.\n\nFonte: SANTOS, T. Exposição ao benzeno no ambiente de trabalho aumenta risco de leucemia. Portal Fiocruz. Publicado em: 02 out. 2023. Disponível em: https://benzeno.ensp.fiocruz.br/exposicao-ao-benzeno-no-ambiente-de-trabalho-aumenta-risco-de-leucemia. Acesso em: 21 jul. 2025.\n\nO benzeno é o mais simples dos hidrocarbonetos aromáticos, muito utilizado em vários setores produtivos, como, por exemplo, na indústria de tintas, de borrachas, de explosivos, e também como aditivo na gasolina. No entanto, devido à sua alta toxicidade, quando possível, ele vem sendo substituído pelo tolueno (metil-benzeno) que apresenta polaridade e solubilidade semelhantes, mas é menos tóxico e menos volátil.\n\nA figura a seguir representa os dois compostos aromáticos.\n\n![Fórmulas em linha de dois compostos. Benzeno: anel hexagonal de seis carbonos com três ligações duplas alternadas. Tolueno: o mesmo anel com um traço (grupo metila) ligado a um dos carbonos.](img/ufsm/2026/prova-3/q05-1.png)\n\nSobre os compostos aromáticos como o benzeno e o tolueno, representados na figura, considere as afirmativas a seguir.\n\nI → O tolueno apresenta uma ligação simples a mais que o benzeno.\n\nII → O anel de benzeno, quando nomeado como um substituinte, é chamado de grupo fenila.\n\nIII → Os arenos, como o benzeno e o tolueno, por possuírem mais ligações duplas deslocalizadas, são mais reativos para adição eletrofílica do que os alcenos alifáticos.\n\nIV → Os arenos sofrem predominantemente reações de substituição, enquanto os alcenos participam comumente de reações de adição.\n\nEstá(ão) correta(s)",
+      "options": [
+        {
+          "text": "apenas III.",
+          "explanation": "A III é falsa: a deslocalização dos elétrons π estabiliza o anel aromático, que por isso resiste à adição; alcenos é que sofrem adição eletrofílica com facilidade."
+        },
+        {
+          "text": "apenas I e II.",
+          "explanation": "A I é falsa: contando os hidrogênios, o tolueno (C₇H₈) tem 12 ligações simples e o benzeno (C₆H₆) tem 9, três a mais, e não uma. Além disso, a IV é correta e ficou de fora."
+        },
+        {
+          "text": "apenas I e III.",
+          "explanation": "As duas são falsas: o tolueno tem três ligações simples a mais (troca um C–H por um C–C e ganha três C–H da metila), e os arenos são menos reativos à adição do que os alcenos."
+        },
+        {
+          "text": "apenas II e IV.",
+          "explanation": "Correta. O benzeno como substituinte (C₆H₅–) é o grupo fenila (II), e a estabilidade aromática faz os arenos reagirem por substituição, preservando o anel, enquanto os alcenos reagem por adição à ligação dupla (IV). A I falha na contagem (são três ligações simples a mais) e a III inverte a reatividade."
+        },
+        {
+          "text": "apenas II, III e IV.",
+          "explanation": "II e IV estão corretas, mas a III não: a ressonância torna o anel aromático mais estável e menos reativo à adição do que um alceno, e é por isso mesmo que a IV é verdadeira."
+        }
+      ],
+      "correct": "D"
+    },
+    {
+      "key": "ufsm-2026-p3-q06",
+      "source": "Vestibular UFSM 2026 – Prova 3, questão 6 (UFSM)",
+      "kind": "Objective",
+      "subject": "historia",
+      "statement": "As mulheres brasileiras sempre trabalharam muito. Dentro e fora de suas casas, sustentavam famílias, companheiros, agregados. Entretanto, ocorreu uma grande mudança em relação às atividades em que se envolviam no início do século XX, quando também se tornaram balconistas, enfermeiras, professoras, telefonistas, escriturárias, guarda-livros, datilógrafas, etc.\n\nFonte: DEL PRIORI, M. Histórias da gente brasileira. República. 1889-1950. v. 3. São Paulo: Companhia das Letras, 2017. (Adaptado)\n\nTendo em vista essa realidade, assinale a alternativa que apresenta corretamente os fatores que contribuíram para que a mulher pudesse exercer outras profissões no Brasil.",
+      "options": [
+        {
+          "text": "O desenvolvimento da indústria fabril, a difusão do feminismo, a legislação federal.",
+          "explanation": "Correta. No início do século XX, a industrialização e a urbanização abriram postos em fábricas, comércio e serviços; o movimento feminista defendeu a instrução e o trabalho da mulher; e a legislação passou a regular e reconhecer o trabalho feminino."
+        },
+        {
+          "text": "A medicina higienista, o enfraquecimento do feminismo, a ampliação da economia.",
+          "explanation": "O feminismo não se enfraqueceu no período: ao contrário, ganhou força nas primeiras décadas do século XX, e sua difusão foi um dos fatores da mudança."
+        },
+        {
+          "text": "A ampliação da escolaridade, a Segunda Guerra Mundial, a diminuição das taxas de natalidade.",
+          "explanation": "A Segunda Guerra (1939-1945) e a queda da natalidade no Brasil são posteriores ao início do século XX, período de que trata o texto."
+        },
+        {
+          "text": "A invenção dos métodos contraceptivos, a migração para as grandes cidades, a criminalização do machismo.",
+          "explanation": "A pílula anticoncepcional só se difundiu a partir dos anos 1960, e não houve “criminalização do machismo” no período; são fatores anacrônicos para o início do século XX."
+        },
+        {
+          "text": "O direito de voto das mulheres, a Crise da Bolsa de 1929, a difusão de ideias anarquistas.",
+          "explanation": "O voto feminino veio em 1932 e a crise é de 1929, depois da mudança descrita; não podem ser a causa da entrada das mulheres nessas profissões no início do século."
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "key": "ufsm-2026-p3-q07",
+      "source": "Vestibular UFSM 2026 – Prova 3, questão 7 (UFSM)",
+      "kind": "Objective",
+      "subject": "artes-educacao-fisica",
+      "statement": "No Brasil, a profissão de mulher artista se conecta, na História da Arte e de seu ensino, com a profissão de mulher professora e artista, pois, ao mesmo tempo em que a historiografia perpetuou a ideia de haver apenas homens artistas, ainda existiam poucas mulheres com status social que disponibilizavam financiamento para seu trabalho artístico e, por conseguinte, espaço para exposição e formação específica.\n\nEm vista disso, Corrêa (2000) e Vasconcelos (2023) destacam que muitas dessas mulheres optaram por seguir a carreira na área de Artes como arte/educadoras em espaços educativos formais ou em espaços educativos não formais, como ateliês e escolinhas de Arte.\n\nNo âmbito formal, em Santa Maria, no Rio Grande do Sul, foi aberta, em 1922, a Escola de Artes e Offícios, com viés de aprendizado de âmbito técnico, na qual predominava o público jovem e em idade de atuar no mercado de trabalho.\n\nEm termos de espaço educativo não formal, de acordo com a pesquisa de Benetti (2007), foi fundada, em 1962, a Escolinha de Artes de Santa Maria, vinculada à antiga Faculdade de Belas Artes da Universidade Federal de Santa Maria (UFSM). Essa escolinha esteve ligada ao Movimento Escolinhas de Arte (MEA), cujo foco era o ensino e aprendizado criativo de crianças e jovens. Esse movimento coexistiu na maior parte dos países da América Latina, entre os anos 1940 e 1990.\n\nA Escolinha de Artes de Santa Maria, denominada em 1978 como Laboratório de Iniciação e Criatividade em Artes (LICA), funcionando como órgão do Centro de Artes e Letras (CAL), foi reconhecida na memória e na história da cidade como a primeira com atividades abertas de ensino com o foco no desenvolvimento do potencial criador e acesso a crianças e jovens em todas as áreas das Artes (Artes Visuais, Teatro, Dança e Música), além de atividades interdisciplinares com a área de Desenho Industrial.\n\n![Fotografia em preto e branco de uma sala com painéis de desenhos nas paredes: um grupo de crianças em pé toca violino, acompanhado por adultos, enquanto outras crianças assistem sentadas no chão.](img/ufsm/2026/prova-3/q07-1.png)\n\nFonte: Acervo UFSM. Atividade da Escolinha de Artes de Santa Maria. Disponível em: https://fonte.ufsm.br/index.php/1983-245-002. Acesso em: 14 out. 2025.\n\nA partir das reflexões sobre as questões que envolvem o mercado de trabalho e o registro histórico do papel da mulher professora, artista e pesquisadora, conforme o disposto no texto e na imagem acima, assinale V (verdadeiro) ou F (falso) em cada afirmativa a seguir.\n\n( ) A mulher professora e artista se definia profissionalmente como artista, reforçando um status social em que era comum a obtenção de financiamento para exposições.\n\n( ) A Escolinha de Artes de Santa Maria conectava-se ao Movimento Escolinhas de Artes, na América Latina, com foco no desenvolvimento da capacidade criadora desde a infância.\n\n( ) O pioneirismo do LICA em Santa Maria é relacionado ao desenvolvimento do potencial criador de crianças e jovens em todas as expressões artísticas.\n\nA sequência correta é",
+      "options": [
+        {
+          "text": "V – F – F.",
+          "explanation": "Inverte os três julgamentos: o texto diz que poucas mulheres tinham status e financiamento (primeira, F) e confirma tanto a ligação da Escolinha com o MEA quanto o pioneirismo do LICA (segunda e terceira, V)."
+        },
+        {
+          "text": "F – V – V.",
+          "explanation": "Correta. Segundo o texto, eram poucas as mulheres com status social e financiamento, e por isso muitas seguiram como arte/educadoras (primeira, F). A Escolinha esteve ligada ao Movimento Escolinhas de Arte, voltado ao aprendizado criativo de crianças e jovens (V), e o LICA foi reconhecido como o primeiro com ensino aberto em todas as áreas das Artes (V)."
+        },
+        {
+          "text": "V – F – V.",
+          "explanation": "A primeira é falsa, porque o financiamento para o trabalho artístico de mulheres era raro, e a segunda é verdadeira, porque o texto liga a Escolinha ao Movimento Escolinhas de Arte, presente na América Latina."
+        },
+        {
+          "text": "F – V – F.",
+          "explanation": "A terceira afirmativa é verdadeira: o texto afirma que o LICA foi reconhecido como o primeiro com atividades voltadas ao potencial criador de crianças e jovens em Artes Visuais, Teatro, Dança e Música."
+        },
+        {
+          "text": "F – F – V.",
+          "explanation": "A segunda afirmativa é verdadeira: a Escolinha de Artes de Santa Maria esteve ligada ao Movimento Escolinhas de Arte, cujo foco era o ensino e o aprendizado criativo de crianças e jovens."
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "key": "ufsm-2026-p3-q08",
+      "source": "Vestibular UFSM 2026 – Prova 3, questão 8 (UFSM)",
+      "kind": "Objective",
+      "subject": "historia",
+      "statement": "Especialmente entre as décadas de 1950 e 1970 ocorreram mudanças muito significativas na sociedade brasileira. Foram os anos de expansão econômica, de mudança de hábitos, de consolidação da modernidade urbana. Entretanto, todos esses processos resultaram na redução da importância de vários ofícios e ocupações profissionais.\n\nConsiderando os ofícios que eram realizados por profissões em desuso e as profissões e os serviços que os substituíram, assinale V (verdadeiro) ou F (falso) em cada afirmativa a seguir.\n\n( ) Alfaiates, costureiras, sapateiros, bordadeiras foram sendo substituídos por lojas de departamentos e por centros comerciais.\n\n( ) Feirantes, peixeiros, leiteiros, padeiros foram aos poucos substituídos por supermercados.\n\n( ) Barbeiros, curandeiros, benzedores, amanuenses foram substituídos por médicos e enfermeiros.\n\nA sequência correta é",
+      "options": [
+        {
+          "text": "V – V – F.",
+          "explanation": "Correta. A roupa e o calçado feitos sob medida perderam espaço para a produção industrial vendida em lojas de departamentos (V), e o comércio de porta em porta e de rua, para os supermercados (V). A terceira mistura ofícios sem relação com a saúde: o amanuense era um escrevente, cujo trabalho não foi assumido por médicos nem enfermeiros (F)."
+        },
+        {
+          "text": "V – F – V.",
+          "explanation": "A segunda é verdadeira, pois os supermercados concentraram a venda de alimentos antes feita por feirantes, leiteiros e padeiros ambulantes; a terceira é falsa, pois amanuenses eram escreventes, sem relação com a saúde."
+        },
+        {
+          "text": "F – V – F.",
+          "explanation": "A primeira afirmativa é verdadeira: com a roupa pronta industrializada, alfaiates, costureiras e sapateiros perderam espaço para lojas de departamentos e centros comerciais."
+        },
+        {
+          "text": "F – F – V.",
+          "explanation": "Inverte os três julgamentos: as duas primeiras substituições ocorreram de fato com a urbanização e o consumo de massa, e a terceira é falsa porque nem todos os ofícios citados foram trocados por médicos e enfermeiros."
+        },
+        {
+          "text": "F – V – V.",
+          "explanation": "A primeira é verdadeira (roupa pronta em lojas de departamentos) e a terceira é falsa: o amanuense era um copista de repartição, e seu ofício não foi substituído por profissionais de saúde."
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "key": "ufsm-2026-p3-q09",
+      "source": "Vestibular UFSM 2026 – Prova 3, questão 9 (UFSM)",
+      "kind": "Objective",
+      "subject": "matematica",
+      "statement": "Uma pesquisa sobre o nível de instrução de pessoas com 14 anos ou mais que exercem alguma profissão na Região Sul do Brasil apresentou os dados a seguir.\n\nDistribuição percentual por nível de instrução de pessoas com 14 anos ou mais de idade ocupadas na semana de referência na Região Sul\n\n```\nNível de instrução                        Porcentagem\nEnsino Superior completo                  23%\nEnsino Superior incompleto ou inferior    77%\n```\n\nFonte: INSTITUTO BRASILEIRO DE GEOGRAFIA E ESTATÍSTICA. Pesquisa Nacional por Amostra de Domicílios Contínua, 2023. (Adaptado)\n\nPara representar esses dados, um dos pesquisadores decidiu utilizar um diagrama triangular, que é uma representação visual em forma de triângulo dividido em seções horizontais e que apresenta a distribuição de dados de forma proporcional. A figura gerada pelo pesquisador é composta por um triângulo isósceles ABC de base b=10 cm e altura h=15 cm, dividido pelo segmento horizontal DE paralelo à base. Na seção superior da figura, situa-se a porcentagem de profissionais com Ensino Superior completo e, na de baixo, o restante. A figura a seguir ilustra esse diagrama.\n\n![Triângulo isósceles ABC com vértice A no topo e base BC, de medida b, embaixo; a altura h está indicada ao lado. Um segmento horizontal DE, com D no lado AB e E no lado AC, divide a figura: o triângulo superior ADE, sombreado, traz o rótulo 'Profissionais com Ensino Superior completo', e o trapézio inferior DBCE, o rótulo 'Profissionais com Ensino Superior incompleto ou inferior'.](img/ufsm/2026/prova-3/q09-1.png)\n\nPara que a figura seja representativa, as áreas das suas duas seções (abaixo e acima da linha de divisão) em relação à área total devem refletir a proporção dos dados da pesquisa. Nessas condições, é correto afirmar que o comprimento do segmento DE que divide a figura nas duas seções é um número",
+      "options": [
+        {
+          "text": "menor do que 1 cm.",
+          "explanation": "Um segmento tão curto formaria um triângulo superior com menos de 1% da área total, pois a razão entre as áreas seria menor que (1/10)² = 0,01, muito abaixo dos 23% exigidos."
+        },
+        {
+          "text": "entre 1 cm e 2 cm.",
+          "explanation": "Com DE entre 1 e 2 cm, o triângulo de cima teria entre 1% e 4% da área (a razão entre as áreas é o quadrado da razão entre os lados), e não 23%."
+        },
+        {
+          "text": "entre 2 cm e 3 cm.",
+          "explanation": "É o erro de aplicar a porcentagem direto ao comprimento (23% de 10 cm = 2,3 cm). Em figuras semelhantes, a área varia com o quadrado da razão: DE = 2,3 cm daria só 5,3% da área."
+        },
+        {
+          "text": "entre 3 cm e 4 cm.",
+          "explanation": "O valor 3,45 aparece ao tomar 23% da altura (0,23 × 15), mas isso não é o comprimento de DE; com DE entre 3 e 4 cm, a área de cima ficaria entre 9% e 16% do total."
+        },
+        {
+          "text": "entre 4 cm e 5 cm.",
+          "explanation": "Correta. O triângulo ADE é semelhante a ABC, e a razão entre as áreas é o quadrado da razão de semelhança: (DE/10)² = 0,23, logo DE = 10·√0,23 ≈ 10 × 0,48 = 4,8 cm."
+        }
+      ],
+      "correct": "E"
+    },
+    {
+      "key": "ufsm-2026-p3-q10",
+      "source": "Vestibular UFSM 2026 – Prova 3, questão 10 (UFSM)",
+      "kind": "Objective",
+      "subject": "lingua-portuguesa",
+      "statement": "Para responder à questão 10, leia os quadrinhos a seguir.\n\n![Tirinha de Calvin e Haroldo em quatro quadros, na sala de aula. Quadro 1: a professora pergunta 'Você tem uma pergunta, Calvin?' e ele responde 'Sim! Que certeza eu tenho que esta educação está me preparando adequadamente para o século 21?'. Quadro 2: Calvin, em pé na carteira, de braço erguido: 'Eu estou recebendo os conhecimentos de que precisarei para competir efetivamente numa economia global? Eu quero um bom emprego. Quando eu sair daqui, eu quero oportunidades!'. Quadro 3: a professora, inclinada sobre a carteira dele: 'Nesse caso, meu jovem, eu sugiro que você comece a se esforçar mais. O que você tira da escola depende do que você põe nela.' Calvin: 'Oh.' Quadro 4: Calvin, emburrado: 'Então esqueça.'](img/ufsm/2026/prova-3/q10-1.png)\n\nFonte: WATTERSON, B. Calvin e Haroldo. In: NOVA ESCOLA. Calvin e Dona Hermengarda: Quer fazer uma pergunta? Publicado em: 20 jan. 2009. Disponível em: https://espacoprofissao.blogspot.com/p/tirinhas.html. Acesso em: 12 dez. 2025. (Adaptado)\n\nAssinale a alternativa que está formulada de acordo com a norma-padrão da língua portuguesa.",
+      "options": [
+        {
+          "text": "Eu estou recebendo os conhecimentos de que precisarei para competir efetivamente numa economia global?",
+          "explanation": "Correta. O verbo precisar rege a preposição “de” (precisar de algo), e ela deve anteceder o pronome relativo: “os conhecimentos de que precisarei”."
+        },
+        {
+          "text": "Eu quero um bom emprego, quero-lhe ardentemente.",
+          "explanation": "Querer, no sentido de desejar, é transitivo direto e pede o pronome “o”: “quero-o ardentemente”. Com “lhe”, o verbo significa estimar, ter afeto por alguém."
+        },
+        {
+          "text": "Eu sugiro que você comece a esforçar-se mais e estude mais na escola.",
+          "explanation": "É a alternativa mais discutível: pela leitura da banca, a conjunção “que” atrai o pronome, e a forma esperada seria “comece a se esforçar”, como na fala original da professora. Vale saber que muitas gramáticas aceitam o pronome depois do infinitivo nas locuções verbais."
+        },
+        {
+          "text": "Então esqueça das minhas colocações, pois vou assistir meus jogos.",
+          "explanation": "Há dois problemas de regência: o verbo é “esquecer algo” ou “esquecer-se de algo” (“esqueça as minhas colocações”), e assistir, no sentido de ver, pede a preposição “a” (“assistir a meus jogos”)."
+        },
+        {
+          "text": "Sim, que certeza eu tenho que esta educação está me preparando adequadamente para o século 21?",
+          "explanation": "O nome “certeza” rege a preposição “de”: a norma-padrão pede “que certeza eu tenho de que esta educação...”."
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "key": "ufsm-2026-p3-q11",
+      "source": "Vestibular UFSM 2026 – Prova 3, questão 11 (UFSM)",
+      "kind": "Objective",
+      "subject": "matematica",
+      "statement": "A Universidade Federal de Santa Maria (UFSM), além de formar novos profissionais todos os semestres, abriga em seu quadro de pessoal cerca de 5 mil servidores de diversas áreas do conhecimento, dos quais 2,2 mil são docentes e 2,8 mil são técnicos administrativos em educação.\n\nFonte: UNIVERSIDADE FEDERAL DE SANTA MARIA. Institucional. Disponível em: https://www.ufsm.br/institucional. Acesso em: 16 set. 2025. (Adaptado)\n\nNo sistema acadêmico da universidade, a cada semestre, os profissionais docentes devem digitar duas notas (de zero a 10), denominadas Primeira Avaliação (PA) e Segunda Avaliação (SA), para cada uma de suas disciplinas.\n\nSuponha que um professor, ao planejar sua disciplina para o 1º semestre de 2026, decidiu que realizaria três provas (P1, P2 e P3) e que o cômputo de PA e SA seria feito da seguinte forma:\n\nPA = (Nota de P1 + Nota de P2)/2\n\nSA = Nota de P3\n\nAo final do semestre, é calculada a Média Parcial (MP) da disciplina, obtida pela média aritmética simples de PA e SA. Com a composição das notas proposta pelo professor, é correto afirmar que a MP é equivalente à",
+      "options": [
+        {
+          "text": "média aritmética simples das notas das provas P1, P2 e P3.",
+          "explanation": "A média simples daria peso igual às três provas, (P1 + P2 + P3)/3. Aqui P3 vale sozinha metade da MP, enquanto P1 e P2 dividem a outra metade."
+        },
+        {
+          "text": "média aritmética ponderada das notas das provas P1, P2 e P3, com pesos iguais a 1/3, 1/3 e 1, respectivamente.",
+          "explanation": "Com esses pesos, P3 pesaria o triplo de cada uma das outras: (P1 + P2 + 3·P3)/5. Na MP, P3 pesa apenas o dobro."
+        },
+        {
+          "text": "média aritmética ponderada das notas das provas P1, P2 e P3 com pesos iguais a 1, 1 e 2, respectivamente.",
+          "explanation": "Correta. MP = (PA + SA)/2 = [(P1 + P2)/2 + P3]/2 = (P1 + P2 + 2·P3)/4, que é a média ponderada com pesos 1, 1 e 2 (soma dos pesos igual a 4)."
+        },
+        {
+          "text": "média aritmética ponderada das notas das três provas, na qual os pesos atribuídos às provas P1 e P2 são ambos maiores do que o peso atribuído à prova P3.",
+          "explanation": "É o contrário: em MP = (P1 + P2 + 2·P3)/4, a prova P3 tem peso 2, maior que o peso 1 de P1 e de P2."
+        },
+        {
+          "text": "soma das notas das três provas dividida por 4.",
+          "explanation": "O denominador é 4, mas no numerador P3 entra dobrada: MP = (P1 + P2 + 2·P3)/4. Dividir a soma simples por 4 nem sequer é uma média (três notas 10 dariam 7,5)."
+        }
+      ],
+      "correct": "C"
+    },
+    {
+      "key": "ufsm-2026-p3-q12",
+      "source": "Vestibular UFSM 2026 – Prova 3, questão 12 (UFSM)",
+      "kind": "Objective",
+      "subject": "fisica",
+      "statement": "Ao engenheiro eletricista compete projetar e executar instalações elétricas, realizar laudos, inspeções, manutenção de sistemas de energia, etc. Já ao eletricista compete instalar e fazer manutenções e reparos de sistemas elétricos, entre outras tarefas técnicas. Dentre os conhecimentos básicos desses profissionais estão as leis que governam a eletricidade e o magnetismo, entre elas a lei de Ohm. Considerando um resistor ôhmico com resistência R, submetido a uma diferença de potencial V e atravessado por uma corrente i, assinale V (verdadeiro) ou F (falso) em cada afirmativa a seguir.\n\n( ) A corrente i diminui de um valor V/R ao atravessar o resistor.\n\n( ) O valor da resistência R independe dos valores de i e de V.\n\n( ) A lei de Ohm, escrita na forma R=Vi, permite concluir que, se V aumenta, i diminui.\n\nA sequência correta é",
+      "options": [
+        {
+          "text": "V – F – F.",
+          "explanation": "Inverte as duas primeiras: a corrente que entra no resistor é a mesma que sai (o que cai é o potencial), e a resistência de um resistor ôhmico é constante, não depende de V nem de i."
+        },
+        {
+          "text": "F – V – F.",
+          "explanation": "Correta. A corrente não é consumida: é a mesma antes e depois do resistor, e quem diminui é o potencial elétrico (F). Em um resistor ôhmico, R é constante e depende do material e das dimensões (V). A lei de Ohm é V = R·i, ou R = V/i: com R constante, se V aumenta, i aumenta na mesma proporção (F)."
+        },
+        {
+          "text": "F – F – V.",
+          "explanation": "A segunda é verdadeira (R é constante no resistor ôhmico) e a terceira é falsa: a relação é R = V/i, e não R = V·i, de modo que V e i crescem juntas."
+        },
+        {
+          "text": "V – V – F.",
+          "explanation": "A primeira afirmativa é falsa: pela conservação da carga, a corrente é a mesma em toda a extensão do resistor; V/R é o valor da própria corrente, não uma redução dela."
+        },
+        {
+          "text": "V – F – V.",
+          "explanation": "Erra as três: a corrente não diminui ao atravessar o resistor, R não depende de V nem de i, e a lei de Ohm (V = R·i) mostra que i aumenta quando V aumenta."
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "key": "ufsm-2026-p3-q13",
+      "source": "Vestibular UFSM 2026 – Prova 3, questão 13 (UFSM)",
+      "kind": "Objective",
+      "subject": "fisica",
+      "statement": "Um engenheiro eletricista, planejando a construção de um chuveiro, pensou em dois resistores com resistências R₁ e R₂ iguais, ligadas a uma fonte que fornece uma diferença de potencial V e a uma chave seletora S que pode ser colocada em três posições, de modo que a água que sai do chuveiro esteja à temperatura ambiente, morna ou quente. Dentre os circuitos desenhados a seguir, aquele que representa corretamente o esquema elétrico desse chuveiro é",
+      "options": [
+        {
+          "text": "![Circuito com fonte V, chave S de três contatos e resistores R₁ e R₂ em série num mesmo ramo, com a extremidade de baixo de R₂ ligada ao outro polo da fonte. O contato de cima liga a chave ao topo de R₁; o contato do meio liga ao ponto entre R₁ e R₂; o contato de baixo liga por um fio sem resistor diretamente ao polo de retorno da fonte.](img/ufsm/2026/prova-3/q13-a.png)",
+          "explanation": "Aqui o contato de cima põe R₁ e R₂ em série e o do meio deixa só R₂, mas o contato de baixo liga a fonte direto ao fio de retorno, sem resistor: é um curto-circuito, e não a posição de água à temperatura ambiente, que exige circuito aberto."
+        },
+        {
+          "text": "![Circuito com fonte V, chave S de três contatos e resistores R₁ e R₂ em ramos verticais separados, ambos com a extremidade de baixo ligada ao polo de retorno da fonte. O contato de cima liga por um fio sem resistor diretamente ao polo de retorno; o contato do meio liga a R₂; o contato de baixo liga a R₁.](img/ufsm/2026/prova-3/q13-b.png)",
+          "explanation": "O contato de cima fecha a fonte em curto-circuito por um fio sem resistor, e os outros dois ligam um resistor de cada vez (R₂ ou R₁, que são iguais), dando a mesma potência: não há posição desligada nem diferença entre morno e quente."
+        },
+        {
+          "text": "![Circuito com fonte V, chave S de três contatos e resistores R₁ e R₂ em série num mesmo ramo, com a extremidade de baixo de R₂ ligada ao polo de retorno da fonte. O contato de cima termina num fio solto, que não se liga a nada; o contato do meio liga a chave ao topo de R₁; o contato de baixo liga ao ponto entre R₁ e R₂.](img/ufsm/2026/prova-3/q13-c.png)",
+          "explanation": "Correta. No contato de cima o circuito fica aberto e a água sai à temperatura ambiente. No do meio, a corrente passa por R₁ e R₂ em série (resistência 2R, potência V²/2R): morna. No de baixo, só por R₂ (resistência R, potência V²/R, o dobro): quente."
+        },
+        {
+          "text": "![Circuito com fonte V, chave S de três contatos e resistores R₁ e R₂ empilhados, com o polo de retorno da fonte ligado ao ponto entre os dois. O contato de cima termina num fio solto; o contato do meio e o contato de baixo estão ligados entre si por fios e chegam, ambos, ao topo de R₁ e à extremidade de baixo de R₂.](img/ufsm/2026/prova-3/q13-d.png)",
+          "explanation": "Os contatos do meio e de baixo estão ligados ao mesmo ponto, que alimenta R₁ e R₂ em paralelo (o retorno sai do ponto entre eles). As duas posições dão a mesma potência, e o chuveiro não distingue morno de quente."
+        },
+        {
+          "text": "![Circuito com fonte V, chave S de três contatos e resistores R₁ e R₂ em ramos verticais separados, ambos com a extremidade de baixo ligada ao polo de retorno da fonte. O contato de cima termina num fio solto; o contato do meio liga a R₂; o contato de baixo liga a R₁.](img/ufsm/2026/prova-3/q13-e.png)",
+          "explanation": "O contato de cima deixa o circuito aberto, mas o do meio liga apenas R₂ e o de baixo apenas R₁. Como as resistências são iguais, a potência V²/R é a mesma nas duas posições: não há diferença entre morno e quente."
+        }
+      ],
+      "correct": "C"
+    },
+    {
+      "key": "ufsm-2026-p3-q14",
+      "source": "Vestibular UFSM 2026 – Prova 3, questão 14 (UFSM)",
+      "kind": "Objective",
+      "subject": "matematica",
+      "statement": "Dentre as atribuições de um profissional da engenharia, o dimensionamento de estruturas é uma tarefa comum e importante, pois permite determinar as medidas de um produto que satisfaçam as necessidades e exigências do mercado.\n\nSuponha que um profissional da engenharia deva construir um reservatório cuja estrutura é composta pela sobreposição de um cilindro e um cone, ambos retos e com o mesmo raio da base, como ilustra a figura a seguir.\n\n![Reservatório formado por um cilindro reto em pé sobre um cone reto invertido de mesma base, com o vértice do cone apontando para baixo.](img/ufsm/2026/prova-3/q14-1.png)\n\nUm cliente solicitou que a estrutura fosse construída de tal maneira que a altura do cone fosse igual à metade da altura do cilindro e que a capacidade total do reservatório fosse de 217 m³.\n\nSupondo que todas as medidas sejam tomadas em metros, assinale a alternativa que apresenta a relação entre a altura (h) do cilindro e o raio (r) da base, para que a solicitação do cliente seja atendida. Nos cálculos, utilize o valor 3,1 como aproximação para π.",
+      "options": [
+        {
+          "text": "h = 60/r²",
+          "explanation": "Correta. Volume = πr²h + (1/3)πr²(h/2) = πr²h(1 + 1/6) = (7/6)πr²h. Igualando a 217 com π = 3,1: r²h = 217 × 6/(7 × 3,1) = 1302/21,7 = 60, logo h = 60/r²."
+        },
+        {
+          "text": "h = 120/r²",
+          "explanation": "Dá o dobro do valor correto: a soma dos volumes é (7/6)πr²h = 217, o que leva a r²h = 60, e não 120. O erro costuma vir de usar a altura do cone ou a fração 1/3 de forma errada."
+        },
+        {
+          "text": "h = r²/60",
+          "explanation": "Inverte a relação: de r²h = 60 resulta h = 60/r². Com o volume fixo, quanto maior o raio, menor deve ser a altura, e não maior."
+        },
+        {
+          "text": "h = r²/120",
+          "explanation": "Além de inverter a relação (a altura deve diminuir quando o raio aumenta, pois o volume é fixo), usa 120 no lugar de 60."
+        },
+        {
+          "text": "h = r/2",
+          "explanation": "Essa relação não usa o volume de 217 m³. A condição do cliente liga a altura do cone à do cilindro (metade), e não a altura ao raio."
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "key": "ufsm-2026-p3-q15",
+      "source": "Vestibular UFSM 2026 – Prova 3, questão 15 (UFSM)",
+      "kind": "Objective",
+      "subject": "biologia",
+      "statement": "Em reportagem, um profissional da Engenharia Florestal discute sobre a matéria intitulada Erosão genética e a luta pela agrobiodiversidade: a riqueza escondida nos biomas brasileiros. Defende que essa riqueza sustenta a alimentação mundial e a saúde dos sistemas agrícolas, abrangendo a variedade de plantas, animais e microrganismos. [...] No centro dessa diversidade estão as sementes camponesas, guardiãs do conhecimento e da genética ancestral que conferem às plantas a adaptabilidade local.\n\nFonte: 100PORCENTOAGRO. Erosão genética e a luta pela agrobiodiversidade: a riqueza escondida nos biomas brasileiros. Triângulo Mineiro, MG: 2023. Disponível em: https://100porcentoagro.com.br/combate-a-erosao-genetica-estrategias-para-a-agrobiodiversidade-e-a-sustentabilidade-da-agricultura/. Acesso em: 10 set. 2025. (Adaptado)\n\nSobre ações para proteger a diversidade genética na agricultura e garantir a segurança alimentar para as futuras gerações, considere as afirmativas a seguir.\n\nI → Preservar as variedades das plantas em seu habitat natural, a exemplo das áreas protegidas.\n\nII → Apoiar práticas agrícolas que promovam a diversidade genética, como as monoculturas.\n\nIII → Estimular o melhoramento genético para criação de variedades mais resistentes a pragas, doenças e mudanças climáticas.\n\nIV → Conservar o solo e os polinizadores, que desempenham funções importantes nos sistemas agrícolas.\n\nEstão corretas",
+      "options": [
+        {
+          "text": "apenas I e II.",
+          "explanation": "A II é falsa: a monocultura cultiva uma única espécie, em geral de poucas variedades, em grandes áreas, e é uma das principais causas da erosão genética. Faltam ainda a III e a IV."
+        },
+        {
+          "text": "apenas I e III.",
+          "explanation": "I e III estão corretas, mas a IV também: sem solo conservado e sem polinizadores, as plantas cultivadas e silvestres não se reproduzem nem se mantêm."
+        },
+        {
+          "text": "apenas II e IV.",
+          "explanation": "A II não protege a diversidade: monoculturas uniformizam geneticamente as lavouras. Além disso, I e III são ações corretas."
+        },
+        {
+          "text": "apenas I, III e IV.",
+          "explanation": "Correta. A conservação in situ em áreas protegidas (I), o melhoramento que gera variedades resistentes a partir da variabilidade existente (III) e a conservação do solo e dos polinizadores (IV) protegem a agrobiodiversidade. A II é falsa, porque a monocultura reduz a diversidade genética."
+        },
+        {
+          "text": "apenas II, III e IV.",
+          "explanation": "III e IV estão corretas, mas a II não: monoculturas diminuem a variabilidade genética e deixam a lavoura mais vulnerável a pragas e doenças. A I, correta, ficou de fora."
+        }
+      ],
+      "correct": "D"
+    },
+    {
+      "key": "ufsm-2026-p3-q16",
+      "source": "Vestibular UFSM 2026 – Prova 3, questão 16 (UFSM)",
+      "kind": "Objective",
+      "subject": "biologia",
+      "statement": "O trabalho dos agrônomos depende fortemente dos ciclos biogeoquímicos, especialmente dos ciclos do nitrogênio, fósforo e carbono, pois a dinâmica desses elementos é fundamental para o manejo da fertilidade do solo, a saúde das plantas e a sustentabilidade dos ecossistemas agrícolas.\n\nConsiderando a interferência humana sobre esses ciclos, assinale V (verdadeiro) ou F (falso) em cada afirmativa a seguir.\n\n( ) O desmatamento altera o ciclo da água e afeta o solo, aumentando a evapotranspiração, o que aumenta a formação de nuvens e, consequentemente, o volume de chuvas.\n\n( ) A queima de combustíveis fósseis altera o ciclo do carbono, uma vez que, quando armazenado nos depósitos fósseis, o carbono é retirado em uma velocidade superior à da absorção pelo ciclo.\n\n( ) O desmatamento aumenta o gás carbônico na atmosfera e reduz a quantidade de plantas que o absorvem, desequilibrando a relação CO₂ e O₂.\n\nA sequência correta é",
+      "options": [
+        {
+          "text": "V – V – V.",
+          "explanation": "A primeira afirmativa é falsa: sem a vegetação, a evapotranspiração diminui, o que reduz a umidade do ar, a formação de nuvens e as chuvas."
+        },
+        {
+          "text": "F – V – V.",
+          "explanation": "Correta. O desmatamento reduz (não aumenta) a evapotranspiração e, com ela, as chuvas (F). A queima de combustíveis fósseis libera em décadas o carbono acumulado ao longo de milhões de anos, mais rápido do que o ciclo consegue reabsorver (V). E o desmatamento libera CO₂ e elimina plantas que o fixariam pela fotossíntese (V)."
+        },
+        {
+          "text": "V – V – F.",
+          "explanation": "Inverte a primeira e a terceira: o desmatamento diminui a evapotranspiração e as chuvas (F) e, ao mesmo tempo, aumenta o CO₂ atmosférico e reduz a fotossíntese (V)."
+        },
+        {
+          "text": "V – F – F.",
+          "explanation": "Erra as três: o desmatamento reduz a evapotranspiração, a queima de combustíveis fósseis devolve carbono à atmosfera mais depressa do que ele é absorvido, e a perda de vegetação desequilibra a relação entre CO₂ e O₂."
+        },
+        {
+          "text": "F – F – V.",
+          "explanation": "A segunda afirmativa é verdadeira: o carbono dos depósitos fósseis é lançado na atmosfera em ritmo muito superior ao da sua reabsorção pela fotossíntese e pelos oceanos."
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "key": "ufsm-2026-p3-q17",
+      "source": "Vestibular UFSM 2026 – Prova 3, questão 17 (UFSM)",
+      "kind": "Objective",
+      "subject": "quimica",
+      "statement": "O Químico Forense tem um papel muito importante na investigação de crimes e acidentes, tendo como principal atribuição a análise de reações químicas para detecção de materiais que podem servir de provas e evidências. No exercício da profissão, ele utiliza e interpreta resultados de muitas reações químicas que detectam vestígios de substâncias como drogas, explosivos, tintas, fluidos biológicos como sangue, entre muitas outras.\n\nO teste de Kastle-Meyer é um exemplo por meio do qual uma reação química é utilizada para detectar a presença de sangue. A forma reduzida da fenolftaleína, que é incolor, reage com uma solução de peróxido de hidrogênio na presença de um catalisador, o qual, no caso do teste, é o ferro presente na hemoglobina do sangue. Assim, uma mudança na coloração da solução de incolor para rosa indica a presença de sangue na amostra analisada. A mudança na estrutura do indicador, no caso de teste positivo, é representada pela equação a seguir.\n\n![Equação química com seta rotulada H₂O₂ e Catalisador. Estrutura A (incolor): um carbono central ligado a dois anéis benzênicos, cada um com um grupo OH na posição oposta à do carbono central, e fazendo parte de um anel de cinco membros com um átomo de oxigênio e um grupo C=O (éster cíclico) fundido a um terceiro anel benzênico. Estrutura B (rosa): o carbono central está ligado a um anel benzênico com OH, por ligação dupla a um anel de seis carbonos que tem um grupo C=O na posição oposta, e a um anel benzênico que traz, no carbono vizinho, um grupo COOH.](img/ufsm/2026/prova-3/q17-1.png)\n\nObservando as estruturas representadas na equação química acima, é correto afirmar que",
+      "options": [
+        {
+          "text": "nenhuma das duas estruturas apresenta carbono com hibridização sp³.",
+          "explanation": "A estrutura A tem um carbono sp³: o carbono central, que faz quatro ligações simples (com três anéis e com o oxigênio do éster cíclico)."
+        },
+        {
+          "text": "as funções orgânicas presentes nas estruturas são álcool, éster e ácido carboxílico.",
+          "explanation": "Os grupos OH estão ligados diretamente a anéis aromáticos, o que caracteriza fenol, e não álcool. Há ainda éster em A e ácido carboxílico e cetona em B."
+        },
+        {
+          "text": "o grupo OH carboxílico possui caráter ácido, enquanto o grupo OH, ligado ao anel benzênico, possui caráter básico.",
+          "explanation": "O OH ligado ao anel benzênico é um fenol, que também tem caráter ácido (mais fraco que o do ácido carboxílico), e não básico."
+        },
+        {
+          "text": "a estrutura A tem dois anéis benzênicos substituídos em 1,4 e um substituído em 1,3.",
+          "explanation": "Os dois anéis com OH são de fato 1,4-dissubstituídos, mas o terceiro anel, fundido ao éster cíclico, tem os substituintes em carbonos vizinhos (1,2), e não em 1,3."
+        },
+        {
+          "text": "o número de carbonos com orientação espacial tetraédrica dos seus ligantes nas estruturas A e B são 1 e 0, respectivamente.",
+          "explanation": "Correta. Geometria tetraédrica corresponde a carbono sp³, com quatro ligações simples. Em A, só o carbono central é assim; em B, esse carbono passa a fazer uma ligação dupla (sp², trigonal plana), e todos os demais carbonos são de anéis ou de carbonilas, também sp²."
+        }
+      ],
+      "correct": "E"
+    },
+    {
+      "key": "ufsm-2026-p3-q18",
+      "source": "Vestibular UFSM 2026 – Prova 3, questão 18 (UFSM)",
+      "kind": "Objective",
+      "subject": "biologia",
+      "statement": "O geneticista é um profissional que tem como foco compreender a relação entre os genes, a hereditariedade e a saúde humana. Esse especialista identifica e interpreta alterações genéticas que podem causar doenças e síndromes, por isso tem um papel importante no diagnóstico, aconselhamento genético e acompanhamento clínico de diversas condições genéticas.\n\nFonte: HOSPITAL 9 DE JULHO. Geneticista: saiba quando procurar um especialista. Disponível em:https://www.h9j.com.br/blog/geneticista. Acesso em: 16 set. 2025. (Adaptado)\n\nEm um caso orientado por esse profissional, um casal (a mulher daltônica e o homem não daltônico) gostaria de saber as chances de ter filhos com a doença, uma vez que sabe da herança recessiva ligada ao cromossomo X.\n\nConsiderando a referida doença, assinale V (verdadeiro) ou F (falso) em cada afirmativa a seguir.\n\n( ) A probabilidade de esse casal ter filhos homens com a doença é de 100%.\n\n( ) O gene alterado para essa doença está localizado nos cromossomos autossômicos.\n\n( ) Filhas mulheres receberão um alelo normal do pai, portanto não serão daltônicas.\n\nA sequência correta é",
+      "options": [
+        {
+          "text": "V – V – V.",
+          "explanation": "A segunda afirmativa é falsa: o enunciado informa que a herança é ligada ao cromossomo X, que é um cromossomo sexual, e não um autossomo."
+        },
+        {
+          "text": "F – F – V.",
+          "explanation": "A primeira afirmativa é verdadeira: a mãe daltônica é XᵈXᵈ e só transmite Xᵈ; como os filhos homens recebem o Y do pai, todos serão XᵈY, daltônicos."
+        },
+        {
+          "text": "V – V – F.",
+          "explanation": "A segunda é falsa (o gene está no cromossomo X) e a terceira é verdadeira: toda filha recebe do pai o X com o alelo normal e será apenas portadora."
+        },
+        {
+          "text": "V – F – V.",
+          "explanation": "Correta. Mãe XᵈXᵈ e pai XᴰY: todo filho homem recebe Xᵈ da mãe e Y do pai, sendo daltônico (V). O gene está no cromossomo X, que é sexual, não autossômico (F). Toda filha recebe Xᴰ do pai e Xᵈ da mãe: é portadora, mas tem visão normal (V)."
+        },
+        {
+          "text": "F – V – F.",
+          "explanation": "Inverte os três julgamentos: todos os filhos homens serão daltônicos, o gene fica no cromossomo sexual X e as filhas, por receberem o alelo normal do pai, não serão daltônicas."
+        }
+      ],
+      "correct": "D"
+    },
+    {
+      "key": "ufsm-2026-p3-q19",
+      "source": "Vestibular UFSM 2026 – Prova 3, questão 19 (UFSM)",
+      "kind": "Objective",
+      "subject": "biologia",
+      "statement": "Os biólogos, profissionais que estudam a diversidade da vida, baseiam-se na Teoria Sintética da Evolução, que é o alicerce da biologia moderna. Essa teoria fornece a compreensão dos processos evolutivos que moldam os seres vivos.\n\nSobre os fatores evolutivos considerados nessa teoria, assinale V (verdadeiro) ou F (falso) em cada afirmativa a seguir.\n\n( ) A mutação gênica origina novos alelos na história evolutiva de cada grupo de organismos.\n\n( ) A recombinação gênica ocorre a partir da reprodução assexuada dos organismos.\n\n( ) A mutação cromossômica envolve uma nova versão gênica, mas não resulta em características diferentes nos indivíduos.\n\nA sequência correta é",
+      "options": [
+        {
+          "text": "V – V – F.",
+          "explanation": "A segunda afirmativa é falsa: a recombinação gênica depende da reprodução sexuada, com a permutação e a segregação independente na meiose e a união dos gametas na fecundação."
+        },
+        {
+          "text": "V – F – F.",
+          "explanation": "Correta. A mutação gênica altera a sequência do DNA e é a fonte de novos alelos (V). A recombinação ocorre na reprodução sexuada, pela meiose e pela fecundação, e não na assexuada (F). A mutação cromossômica altera o número ou a estrutura dos cromossomos e pode, sim, mudar características dos indivíduos (F)."
+        },
+        {
+          "text": "V – V – V.",
+          "explanation": "Só a primeira é verdadeira: a recombinação é própria da reprodução sexuada, e as mutações cromossômicas podem produzir características diferentes, como ocorre nas alterações de número de cromossomos."
+        },
+        {
+          "text": "F – F – V.",
+          "explanation": "Inverte a primeira e a terceira: a mutação gênica é a origem dos novos alelos (V), e a mutação cromossômica muda o número ou a estrutura dos cromossomos e pode alterar o fenótipo (F)."
+        },
+        {
+          "text": "F – V – F.",
+          "explanation": "Erra as duas primeiras: a mutação gênica cria novos alelos, e a recombinação gênica é resultado da reprodução sexuada, não da assexuada, que gera descendentes geneticamente iguais ao genitor."
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "key": "ufsm-2026-p3-q20",
+      "source": "Vestibular UFSM 2026 – Prova 3, questão 20 (UFSM)",
+      "kind": "Objective",
+      "subject": "quimica",
+      "statement": "Nos últimos anos, a ciência teve muitos avanços na compreensão das reações químicas envolvidas nos processos biológicos e, com isso, o método clássico de tentativa e erro acabou sendo substituído por um planejamento mais preciso das moléculas para o combate a doenças. Embora muito mais inteligente e eficiente, esse planejamento não significa que seja um trabalho fácil. Na verdade, é um processo bastante desafiador, que exige o trabalho conjunto de profissionais com formações distintas, como farmacêuticos, biólogos, biomédicos, médicos, químicos, engenheiros químicos, cientistas da computação, entre outros.\n\nUm exemplo bem atual é a semaglutida, um polipeptídeo análogo do GLP-1, um hormônio natural envolvido na regulação da saciedade. A alteração na estrutura com relação ao hormônio natural faz com que a molécula da semaglutida seja eliminada mais lentamente do organismo, o que prolonga seu efeito no controle da glicose. Graças a essa característica, a semaglutida tem sido usada no tratamento do diabetes tipo 2 e, mais recentemente, da obesidade, sendo comercializada com os nomes Ozempic e Wegovy.\n\nFonte: ABUCHAIBE, R. O monstro-de-gila, lagarto de digestão lenta que foi essencial na criação do Ozempic. BBC. Publicado em: 06 mar. 2025. Disponível em: https://www.bbc.com/portuguese/articles/cj3nl8d1z8no. Acesso em: 23 jul. 2025. (Adaptado)\n\nA figura a seguir ilustra um fragmento da molécula de semaglutida.\n\n![Fórmula em linha, entre colchetes, de uma cadeia peptídica: sete unidades de aminoácido em sequência, cada uma com um grupo N–H, um carbono com cadeia lateral e um grupo C=O, unidas por ligações C(=O)–N–H. As cadeias laterais são, da esquerda para a direita: CH₂–OH; CH₂ ligado a um anel benzênico com OH; CH₂–CH(CH₃)₂; CH₂–CH₂–COOH; apenas hidrogênio; CH₂–CH₂–C(=O)–NH₂; e CH₃.](img/ufsm/2026/prova-3/q20-1.png)\n\nCom base na figura e na química dos aminoácidos e das proteínas, assinale V (verdadeiro) ou F (falso) em cada afirmativa a seguir.\n\n( ) A ligação peptídica, formada entre aminoácidos, como ocorre no fragmento da semaglutida, corresponde a uma função orgânica do tipo amida.\n\n( ) Na formação da ligação peptídica, um grupo amina de um aminoácido reage com o grupo ácido carboxílico do outro, eliminando uma molécula de água.\n\n( ) O fragmento da molécula da semaglutida, representado na figura, possui oito aminoácidos formando ligações peptídicas.\n\nA sequência correta é",
+      "options": [
+        {
+          "text": "V – F – V.",
+          "explanation": "A segunda é verdadeira (a ligação peptídica se forma por condensação entre amina e ácido carboxílico, com saída de água) e a terceira é falsa: o fragmento tem sete resíduos de aminoácidos, não oito."
+        },
+        {
+          "text": "F – V – F.",
+          "explanation": "A primeira afirmativa é verdadeira: o grupo –CO–NH– da ligação peptídica, com nitrogênio ligado a uma carbonila, é uma amida."
+        },
+        {
+          "text": "F – V – V.",
+          "explanation": "Erra a primeira e a terceira: a ligação peptídica é uma amida, e a contagem das cadeias laterais na figura dá sete aminoácidos."
+        },
+        {
+          "text": "V – V – F.",
+          "explanation": "Correta. A ligação peptídica (–CO–NH–) é uma amida (V) e se forma quando o grupo amina de um aminoácido reage com o ácido carboxílico de outro, liberando água (V). Contando as cadeias laterais do fragmento, há sete resíduos de aminoácidos, e não oito (F)."
+        },
+        {
+          "text": "V – F – F.",
+          "explanation": "A segunda afirmativa é verdadeira: a união entre aminoácidos é uma reação de condensação entre o grupo amina de um e o grupo carboxila de outro, com eliminação de uma molécula de água."
+        }
+      ],
+      "correct": "D"
+    },
+    {
+      "key": "ufsm-2026-p3-q21",
+      "source": "Vestibular UFSM 2026 – Prova 3, questão 21 (UFSM)",
+      "kind": "Objective",
+      "subject": "quimica",
+      "statement": "As pesquisas relacionadas à alimentação demandam um trabalho interdisciplinar, envolvendo profissionais de áreas que vão desde a saúde até a tecnologia, como, por exemplo, nutricionistas, médicos, farmacêuticos, químicos, engenheiros de alimentos, entre outros. Um assunto que frequentemente está em pauta é a presença das gorduras hidrogenadas e das gorduras trans nos alimentos processados, bem como os riscos do seu consumo.\n\nA hidrogenação dos triglicerídeos de óleos e gorduras proporciona mudanças nas características que são interessantes para a indústria, como o aumento dos pontos de fusão, o que possibilita alterações nas consistências dos produtos, e a melhoria da estabilidade frente à oxidação. Porém, apesar dessas vantagens, há por trás um risco alto associado ao consumo dessas gorduras, como aumento dos níveis de colesterol e obesidade.\n\nAs ligações duplas existentes nos triglicerídeos podem ser hidrogenadas, utilizando-se gás hidrogênio a alta pressão e temperatura, sob ação de catalisadores, o que se observa na figura a seguir.\n\n![Equação química. Reagente: um triglicerídeo (glicerol ligado por três grupos éster a três cadeias carbônicas longas, R₁, R₂ e R₃), em que cada cadeia tem uma ligação dupla entre carbonos; em R₁ e R₃ a dupla tem a cadeia dobrada (cis) e em R₂ a cadeia segue estendida (trans). Sobre a seta: + H₂, catalisador, alta pressão e temperatura. Produto: o mesmo triglicerídeo com as três cadeias saturadas, lineares, sem ligações duplas entre carbonos.](img/ufsm/2026/prova-3/q21-1.png)\n\nCom relação à reação de hidrogenação abordada no texto e representada na figura, considere as afirmativas a seguir.\n\nI → O aumento do ponto de fusão após a hidrogenação deve-se ao fato de que a saturação das ligações duplas torna a estrutura mais linear, o que facilita o empacotamento e as interações intermoleculares.\n\nII → A hidrogenação é uma reação de adição à ligação dupla, em que há um rompimento da ligação π (pi), que é mais fraca que a ligação σ (sigma).\n\nIII → A hidrogenação completa de um mol do triglicerídeo, na figura, necessita de 6 mols de hidrogênio gasoso (H₂).\n\nIV → Os resíduos de ácidos graxos, identificados na figura como R₂ e R₃, representam dois isômeros de função.\n\nEstão corretas",
+      "options": [
+        {
+          "text": "apenas I e II.",
+          "explanation": "Correta. Cadeias saturadas são lineares, encaixam-se melhor e interagem mais, o que eleva o ponto de fusão (I). A hidrogenação é uma adição em que se rompe a ligação π, mais fraca que a σ (II). A III erra a proporção (três ligações duplas pedem 3 mol de H₂) e a IV erra o tipo de isomeria."
+        },
+        {
+          "text": "apenas I e III.",
+          "explanation": "A III é falsa: o triglicerídeo da figura tem três ligações duplas C=C, e cada uma consome um mol de H₂, num total de 3 mol, e não 6."
+        },
+        {
+          "text": "apenas II e IV.",
+          "explanation": "A IV é falsa: R₂ e R₃ têm o mesmo grupo funcional; o que os diferencia é o arranjo em torno da ligação dupla (trans e cis), não a função. Além disso, a I é correta e ficou de fora."
+        },
+        {
+          "text": "apenas III e IV.",
+          "explanation": "As duas são falsas: são necessários 3 mol de H₂ (um para cada C=C), e R₂ e R₃ não são isômeros de função, pois ambos são cadeias insaturadas ligadas por éster."
+        },
+        {
+          "text": "apenas I, II e IV.",
+          "explanation": "I e II estão corretas, mas a IV não: isômeros de função têm grupos funcionais diferentes, e R₂ e R₃ diferem apenas na geometria da ligação dupla."
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "key": "ufsm-2026-p3-q22",
+      "source": "Vestibular UFSM 2026 – Prova 3, questão 22 (UFSM)",
+      "kind": "Objective",
+      "subject": "geografia",
+      "statement": "O Guia Brasileiro de Ocupações (GBO) é uma iniciativa da Organização Internacional do Trabalho (OIT), cujo objetivo é facilitar o acesso ao público geral das informações sobre as ocupações existentes no mercado de trabalho brasileiro, seus componentes e principais indicadores.\n\nFonte: MINISTÉRIO DO TRABALHO E DO EMPREGO. Guia das ocupações brasileiras: ocupações e mercado de trabalho (assalariado formal), s.p., 2025. Disponível em: hptt://app.powerbi.com/view. Acesso em: 05 ago. 2025.\n\nEntre os dados apresentados no GBO, existe a opção “médico clínico”, como exemplifica a imagem a seguir, referente ao ano de 2021.\n\n![Painel 'As ocupações e o mercado de trabalho (assalariado formal)', com a ocupação '225125 - Médico Clínico' selecionada e a aba 'Distribuição Geográfica' ativa. Um mapa do Brasil por estados, em tons de cinza conforme a concentração de vínculos, mostra o estado de São Paulo com o tom mais escuro, seguido por Minas Gerais e Rio de Janeiro. Tabela por região (vínculos e remuneração): Norte 9.336, R$ 11.771,02; Nordeste 36.669, R$ 10.052,72; Sudeste 80.635, R$ 10.288,01; Sul 18.401, R$ 13.671,11; Centro-Oeste 21.142, R$ 14.172,89; Total 166.183, R$ 11.192,45.](img/ufsm/2026/prova-3/q22-1.png)\n\nFonte: MINISTÉRIO DO TRABALHO E DO EMPREGO. Guia das ocupações brasileiras: ocupações e mercado de trabalho (assalariado formal). Disponível em: hptt://app.powerbi.com/view. Acesso em: 05 ago. 2025. (Adaptado)\n\nA partir dos dados apresentados na figura sobre as profissões no mercado de trabalho brasileiro, é correto afirmar que",
+      "options": [
+        {
+          "text": "a maior concentração de profissionais da área − medicina − está em um estado da região Sul do Brasil.",
+          "explanation": "O estado mais escuro do mapa é São Paulo, que fica no Sudeste. A região Sul tem 18.401 vínculos, contra 80.635 do Sudeste."
+        },
+        {
+          "text": "o perfil da distribuição geográfica da profissão médico demonstra a redução das desigualdades e das disparidades regionais no Brasil.",
+          "explanation": "A figura mostra o oposto: o Sudeste concentra quase metade dos vínculos (80.635 de 166.183), enquanto o Norte tem 9.336, o que evidencia as disparidades regionais."
+        },
+        {
+          "text": "o trabalho médico formal no Brasil, apresentado no GBO, desconsidera a existência de registros de vínculo empregatício com carteira assinada e direitos trabalhistas.",
+          "explanation": "O painel trata justamente do mercado assalariado formal e conta “vínculos”, isto é, registros de emprego formal."
+        },
+        {
+          "text": "a distribuição geográfica dos médicos está associada à hierarquia urbana e se concentra no estado onde está localizada a capital financeira brasileira.",
+          "explanation": "Correta. O estado com maior concentração no mapa é São Paulo, cuja capital é a principal metrópole e o centro financeiro do país; serviços especializados, como os médicos, concentram-se nos níveis mais altos da hierarquia urbana."
+        },
+        {
+          "text": "o perfil da classe médica do Brasil representa uma ampliação do capital cultural desses trabalhadores, por se vincular a um estado que possui uma grande metrópole regional.",
+          "explanation": "A figura traz apenas vínculos e remuneração, sem nada sobre capital cultural; além disso, São Paulo não é metrópole regional, mas a grande metrópole nacional."
+        }
+      ],
+      "correct": "D"
+    },
+    {
+      "key": "ufsm-2026-p3-q23",
+      "source": "Vestibular UFSM 2026 – Prova 3, questão 23 (UFSM)",
+      "kind": "Objective",
+      "subject": "fisica",
+      "statement": "O oftalmologista trabalha diagnosticando e tratando doenças oculares. Uma de suas tarefas é prescrever o tipo adequado de lente para as pessoas que delas necessitam. O fenômeno óptico, básico para o entendimento de como “funciona” uma lente, é a",
+      "options": [
+        {
+          "text": "refração.",
+          "explanation": "Correta. A lente desvia os raios de luz porque a velocidade da luz muda ao passar do ar para o vidro (ou plástico) e de volta ao ar; esse desvio na mudança de meio é a refração, que faz os raios convergirem ou divergirem."
+        },
+        {
+          "text": "reflexão.",
+          "explanation": "A reflexão é o retorno da luz ao meio de origem e explica os espelhos; na lente, a luz atravessa o material e é desviada."
+        },
+        {
+          "text": "dispersão.",
+          "explanation": "A dispersão é a separação da luz branca em cores, como no prisma. Ela ocorre em lentes como efeito secundário (aberração cromática), mas não é o princípio de funcionamento."
+        },
+        {
+          "text": "difração.",
+          "explanation": "A difração é o espalhamento da onda ao contornar obstáculos ou passar por fendas estreitas; não é o que faz a lente formar imagens."
+        },
+        {
+          "text": "interferência.",
+          "explanation": "A interferência é a superposição de ondas, usada por exemplo em películas antirreflexo, mas não explica o desvio dos raios que caracteriza a lente."
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "key": "ufsm-2026-p3-q24",
+      "source": "Vestibular UFSM 2026 – Prova 3, questão 24 (UFSM)",
+      "kind": "Objective",
+      "subject": "fisica",
+      "statement": "A medicina nuclear é uma especialidade médica que, utilizando métodos seguros, praticamente indolores e não invasivos, emprega materiais radioativos com finalidade diagnóstica e terapêutica. Usa quantidades mínimas de substâncias radioativas (radiofármacos) como ferramenta para acessar o funcionamento dos órgãos e tecidos vivos, realizando imagens, diagnósticos e também tratamentos.\n\nFonte: SOCIEDADE BRASILEIRA DE MEDICINA NUCLEAR E IMAGEM MOLECULAR. Conheça medicina nuclear. Disponível em: https://sbmn.org.br/comunicacao/conheca-a-medicina-nuclear-1/. Acesso em: 28 ago. 2025. (Adaptado)\n\nUm radiofármaco muito usado no Brasil para exames da tireoide é o tecnécio-99, cuja meia-vida é de cerca de 6 horas. Se uma amostra de 24 microgramas é produzida num certo laboratório e demora 18 horas para chegar ao local em que será utilizada em um procedimento médico, a massa (em microgramas) ainda radioativamente ativa desse radiofármaco é",
+      "options": [
+        {
+          "text": "1.",
+          "explanation": "Para restar cerca de 1 micrograma seriam necessárias mais de quatro meias-vidas (24 → 12 → 6 → 3 → 1,5), ou seja, mais de 24 horas."
+        },
+        {
+          "text": "3.",
+          "explanation": "Correta. Em 18 horas passam 18/6 = 3 meias-vidas, e a massa ativa cai pela metade a cada uma: 24 → 12 → 6 → 3 microgramas (24/2³ = 3)."
+        },
+        {
+          "text": "6.",
+          "explanation": "É o que resta depois de duas meias-vidas (12 horas): 24 → 12 → 6. Em 18 horas há ainda uma terceira redução à metade."
+        },
+        {
+          "text": "12.",
+          "explanation": "É o que resta depois de uma única meia-vida (6 horas). Em 18 horas são três meias-vidas."
+        },
+        {
+          "text": "18.",
+          "explanation": "O decaimento não é uma subtração: 18 é o tempo em horas (ou 24 − 6). A cada 6 horas a massa cai pela metade, e não 6 unidades."
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "key": "ufsm-2026-p3-q25",
+      "source": "Vestibular UFSM 2026 – Prova 3, questão 25 (UFSM)",
+      "kind": "Objective",
+      "subject": "matematica",
+      "statement": "O número de médicos em atividade no Brasil é um importante indicador da disponibilidade de profissionais para atender a população. O infográfico a seguir apresenta a quantidade de médicos no Brasil por região e a média de médicos por mil habitantes, em 2022.\n\n![Infográfico 'Quantidade de médicos por região - Sudeste é a região com maior número de profissionais', com mapa do Brasil dividido por regiões. Norte: 25.328 médicos, 1,34 médicos/mil hab. Nordeste: 101.035 médicos, 1,75 médicos/mil hab. Centro-Oeste: 45.776 médicos, 2,74 médicos/mil hab. Sudeste: 288.499 médicos, 3,22 médicos/mil hab. Sul: 85.859 médicos, 2,82 médicos/mil hab.](img/ufsm/2026/prova-3/q25-1.png)\n\nFonte: G1. Brasil tem 545,5 mil médicos. Adaptado de: Demografia médica, 2022. Disponível em: https://g1.globo.com/saude/noticia/2023/02/06/brasil-tem-5454-mil-medicos-mais-da-metade-esta-concentrada-somente-nas-capitais.ghtml. Acesso em: 17 set. 2025.\n\nSe a média m̄ de médicos por mil habitantes no Brasil aumentar linearmente, a partir de 2022, em 0,21 a cada ano, então em que ano m̄ será igual a 3,634?",
+      "options": [
+        {
+          "text": "2026",
+          "explanation": "Em 2026 teriam passado 4 anos: 2,374 + 4 × 0,21 = 3,214, abaixo de 3,634."
+        },
+        {
+          "text": "2027",
+          "explanation": "Em 2027 teriam passado 5 anos: 2,374 + 5 × 0,21 = 3,424, ainda abaixo de 3,634."
+        },
+        {
+          "text": "2028",
+          "explanation": "Correta. O infográfico não traz a média nacional; ela é obtida pela média das cinco regiões: (1,34 + 1,75 + 2,74 + 3,22 + 2,82)/5 = 11,87/5 = 2,374. Então 2,374 + 0,21·t = 3,634 dá t = 1,26/0,21 = 6 anos, isto é, 2022 + 6 = 2028."
+        },
+        {
+          "text": "2029",
+          "explanation": "Em 2029 teriam passado 7 anos: 2,374 + 7 × 0,21 = 3,844, acima de 3,634. O erro típico é contar 2022 como o primeiro ano de aumento."
+        },
+        {
+          "text": "2030",
+          "explanation": "Em 2030 teriam passado 8 anos: 2,374 + 8 × 0,21 = 4,054, bem acima do valor pedido."
+        }
+      ],
+      "correct": "C"
+    },
+    {
+      "key": "ufsm-2026-p3-q26",
+      "source": "Vestibular UFSM 2026 – Prova 3, questão 26 (UFSM)",
+      "kind": "Objective",
+      "subject": "lingua-portuguesa",
+      "statement": "As redes sociais têm sido de grande ajuda para a divulgação de perfis, quando se quer entrar no mercado de trabalho. Entretanto, para que a pessoa não fique exposta a críticas, algumas ações e alguns cuidados são necessários, como os abordados no texto a seguir.\n\n**E como posso usar as redes sociais para divulgar o meu perfil?**\n\nCom a chegada das redes sociais, ficou cada vez mais fácil e prático criar interações, mostrando seu cotidiano ou até mesmo seu trabalho. Essas redes de contatos, que podem ser internacionais, fizeram surgir uma nova tendência: a divulgação do currículo e da vida profissional, a fim de chamar a atenção das empresas. O crescimento desse tipo de conteúdo tornou-se tão grande, que hoje em dia é possível criar perfis profissionais. E isso auxilia tanto empresas quanto recrutadores e candidatos, criando pontes virtuais.\n\nVeja a seguir dicas para ressaltar o seu “eu profissional” na internet e divulgar o seu perfil de maneira certa.\n\n- Crie diferentes perfis nas redes.\n- Adicione profissionais e siga as empresas.\n- Não exponha seus documentos pessoais.\n- Não minta em suas postagens.\n- Amplie seus contatos qualificadamente.\n- Valorize suas conquistas profissionais.\n- Pense antes de curtir uma publicação ou página.\n- Evite situações não profissionais.\n\nTodos estão expostos a avaliações, e certamente isso contará no seu dia a dia profissional.\n\nFonte: ZOUBAREF, F. Saiba como as redes sociais influenciam na carreira profissional. Carreira & Sucesso. Publicado em: 19 set. 2024. Disponível em: https://www.catho.com.br/carreira-sucesso/redes-sociais-carreira/#E_como_posso_usar_as_redes_sociais_para_divulgar_o_meu_perfil. Acesso em: 12 dez. 2025. (Adaptado)\n\nAs orientações dadas, no texto, empregam a terceira pessoa do singular no modo imperativo. Assinale a alternativa em que todas as orientações estão coerentes com o texto e em que todos os verbos e pronomes empregam a segunda pessoa do singular nesse mesmo modo verbal.",
+      "options": [
+        {
+          "text": "Não mostra teu cotidiano; não mente em tuas postagens.",
+          "explanation": "O imperativo negativo usa as formas do presente do subjuntivo: “não mostres”, “não mintas”. Além disso, o texto não orienta a esconder o cotidiano."
+        },
+        {
+          "text": "Adiciona profissionais e evite seguir outras empresas.",
+          "explanation": "“Adiciona” está na segunda pessoa, mas “evite” é forma de terceira pessoa (você); e a orientação contraria o texto, que recomenda seguir as empresas."
+        },
+        {
+          "text": "Cria diferentes perfis nas redes; não exponhas teus documentos pessoais.",
+          "explanation": "Correta. “Cria” é o imperativo afirmativo de tu (presente do indicativo sem o -s), “não exponhas” é o imperativo negativo de tu (presente do subjuntivo) e “teus” é o possessivo de segunda pessoa; as duas orientações repetem dicas do texto."
+        },
+        {
+          "text": "Pensa antes de curtir uma publicação ou página; evite situações não profissionais.",
+          "explanation": "“Pensa” está na segunda pessoa do singular, mas “evite” é a forma de terceira pessoa; na segunda seria “evita”."
+        },
+        {
+          "text": "Amplia teus contatos qualificadamente; valoriza suas conquistas profissionais.",
+          "explanation": "Os verbos estão na segunda pessoa, mas o possessivo “suas” é de terceira pessoa; a uniformidade de tratamento exige “tuas conquistas”."
+        }
+      ],
+      "correct": "C"
+    },
+    {
+      "key": "ufsm-2026-p3-q27",
+      "source": "Vestibular UFSM 2026 – Prova 3, questão 27 (UFSM)",
+      "kind": "Objective",
+      "subject": "historia",
+      "statement": "Inúmeras profissões que conhecemos podem ser extintas ou modificadas substancialmente devido ao avanço da tecnologia e das novas formas de consumo. Isso não é algo novo e é uma característica verificável que acompanha o surgimento de novas formas de viver das sociedades e as muitas invenções que produzimos. Um exemplo disso é o trabalho de operadores de caixas de supermercados, que tem sido bastante transformado desde a década de 1990 e talvez possa deixar de existir em algum momento.\n\nAo considerar as razões dessas transformações, assinale a alternativa correta.",
+      "options": [
+        {
+          "text": "A invenção do código de barras e dos leitores de preços não impacta a manutenção das profissões.",
+          "explanation": "O código de barras e os leitores ópticos mudaram justamente o trabalho dos caixas, acelerando o registro das compras e abrindo caminho para o autoatendimento."
+        },
+        {
+          "text": "A ampliação do consumo, por meio da internet, ocasiona o fim do comércio físico.",
+          "explanation": "O comércio eletrônico transformou e reduziu parte do comércio físico, mas não o extinguiu; a afirmação é uma generalização indevida."
+        },
+        {
+          "text": "A invenção dos cartões de crédito e do Pix gera a substituição do trabalho humano no comércio.",
+          "explanation": "Cartões e Pix são meios de pagamento: mudam a forma de pagar, mas por si sós não substituem o trabalho humano no comércio."
+        },
+        {
+          "text": "A mecanização das atividades diminui a necessidade de mão de obra de trabalhadores.",
+          "explanation": "Correta. Desde a Revolução Industrial, quando máquinas e sistemas automáticos passam a executar tarefas antes feitas por pessoas, cai a demanda por trabalhadores naquelas funções, como ocorre com os caixas diante do autoatendimento."
+        },
+        {
+          "text": "O ludismo é um movimento da atualidade em favor da destruição das máquinas.",
+          "explanation": "O ludismo foi um movimento de operários ingleses do início do século XIX, que quebravam máquinas em protesto contra o desemprego e as condições de trabalho; não é um movimento atual."
+        }
+      ],
+      "correct": "D"
+    },
+    {
+      "key": "ufsm-2026-p3-q28",
+      "source": "Vestibular UFSM 2026 – Prova 3, questão 28 (UFSM)",
+      "kind": "Objective",
+      "subject": "geografia",
+      "statement": "O envelhecimento populacional já é uma realidade muito presente na dinâmica populacional brasileira. Os Censos Demográficos têm trazido, de forma evidente, essas transformações, o que implica a necessidade de surgirem novas profissões que atendam às demandas da população idosa. Por isso, profissões ligadas à saúde, ao lazer e ao envelhecimento saudável tendem a se tornar cada vez mais necessárias.\n\nOs dados a respeito do envelhecimento, que implicam um novo perfil de profissões, podem ser observados nas pirâmides etárias de 1970, 2000 e 2022.\n\n![Três pirâmides etárias do Brasil (percentual de homens à esquerda e de mulheres à direita, por faixas de idade de 0-4 até 80 ou mais, com eixo de 0 a 8%). 1970: forma triangular, base muito larga (cerca de 7,5% em cada sexo na faixa de 0-4 anos) e topo muito estreito. 2000: base mais estreita (cerca de 5%), com as maiores barras entre 10 e 24 anos, e topo um pouco mais largo. 2022: base ainda mais estreita (cerca de 3%), maiores barras entre 20 e 44 anos (perto de 4%) e topo bem mais largo, com idosos em proporção visivelmente maior.](img/ufsm/2026/prova-3/q28-1.png)\n\nFonte: INSTITUTO BRASILEIRO DE GEOGRAFIA E ESTATÍSTICA. Pirâmide etária | Brasil. Disponível em: http://atlasescolar.ibge.gov.br/brasil/3051-caracteristicas-demograficas/idade/21898-piramide-etaria-1970-2022.html. Acesso em: 05 ago. 2025.\n\nCom relação ao envelhecimento populacional no Brasil e com o auxílio da análise das pirâmides etárias, considere as afirmativas a seguir.\n\nI → O envelhecimento populacional no Brasil está diretamente associado à Transição Demográfica, resultante, entre outros fatores, da melhora nas condições de saúde e de higiene da população.\n\nII → Uma mudança no perfil da população com a ampliação no número de jovens e adultos e a manutenção no número de idosos é percebida ao se comparar a pirâmide etária de 1970 com a de 2022.\n\nIII → As mudanças no perfil da população brasileira têm influência na organização do mercado de trabalho formal devido ao impacto do envelhecimento da população.\n\nIV → As profissões demandadas pelo perfil populacional de 1970, de 2000 e de 2022 são as mesmas, pois a população jovem da primeira década é aquela que envelhece na contemporaneidade.\n\nEstão corretas",
+      "options": [
+        {
+          "text": "apenas I e II.",
+          "explanation": "A II é falsa: de 1970 a 2022 a base da pirâmide (jovens) se estreita e o topo (idosos) se alarga; a proporção de idosos aumenta, não se mantém. Falta também a III."
+        },
+        {
+          "text": "apenas I e III.",
+          "explanation": "Correta. A queda da mortalidade e, depois, da natalidade (transição demográfica) envelhece a população (I), e isso reorganiza o mercado de trabalho, com menos jovens entrando e mais demanda por serviços para idosos (III). A II contraria as pirâmides e a IV ignora que as demandas mudam com a estrutura etária."
+        },
+        {
+          "text": "apenas II e IV.",
+          "explanation": "As duas são falsas: a participação dos jovens diminuiu e a dos idosos cresceu, e uma população mais velha demanda profissões diferentes das de uma população jovem, como afirma o próprio enunciado."
+        },
+        {
+          "text": "apenas I, III e IV.",
+          "explanation": "I e III estão corretas, mas a IV não: em 1970 predominavam crianças e jovens (demanda por escolas, por exemplo), e em 2022 cresce a demanda por saúde e cuidado de idosos."
+        },
+        {
+          "text": "apenas II, III e IV.",
+          "explanation": "Só a III é correta nesse conjunto: as pirâmides mostram redução relativa de jovens e aumento de idosos (II falsa), e as profissões demandadas mudam com o perfil etário (IV falsa)."
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "key": "ufsm-2026-p3-q29",
+      "source": "Vestibular UFSM 2026 – Prova 3, questão 29 (UFSM)",
+      "kind": "Objective",
+      "subject": "geografia",
+      "statement": "Profissões ligadas à música, ao entretenimento e às mídias sociais ganham espaço entre a população jovem no Brasil. Esse interesse acaba sendo influenciado por ícones da cultura global, como debate Lotermann (2024). Um exemplo é o BTS, grupo sul-coreano de KPOP que, ao anunciar seu retorno após o serviço militar obrigatório, criou grande expectativa pelo acontecimento de um fanmeeting (encontro com fãs) e shows no Brasil, gerando grande movimentação nas redes sociais.\n\nAs cidades que atraem tais grupos, geralmente, são aquelas mais dinâmicas economicamente, com alta densidade de infraestruturas que potencializam os fluxos de capital, de informações e de pessoas. Essas redes dinâmicas e interativas, já discutidas por Milton Santos (1996) em A natureza do espaço: técnica e tempo, razão e emoção, colocam o Brasil no foco das grandes companhias de entretenimento, que passam a trazer suas atrações ao país, mobilizando o interesse por profissões ligadas à cultura, à música e ao entretenimento.\n\nSobre a relação apresentada no texto e as dimensões do espaço geográfico, assinale V (verdadeiro) ou F (falso) em cada afirmativa a seguir.\n\n( ) Os fluxos de informação sobre cultura e música e as influências digitais repercutem na dinâmica financeira do país e mostram novas formas de interagir com o espaço.\n\n( ) As formas culturais emergentes, associadas às novas profissões, promovem distintas interações espaciais, trazendo a realidade do ciberespaço para o espaço real e articulando os fluxos informacionais, culturais e financeiros.\n\n( ) Os grandes shows tendem a acontecer em cidades com maior densidade de infraestruturas que possibilitam variados fluxos de pessoas, de informações e de recursos.\n\nA sequência correta é",
+      "options": [
+        {
+          "text": "F – V – F.",
+          "explanation": "A primeira e a terceira também são verdadeiras: a mobilização nas redes atrai investimentos das companhias de entretenimento, e o texto afirma que os grupos vão às cidades com alta densidade de infraestruturas."
+        },
+        {
+          "text": "F – F – V.",
+          "explanation": "As duas primeiras também são verdadeiras: a movimentação digital em torno de artistas tem efeitos econômicos e se materializa em eventos presenciais, ligando o ciberespaço ao espaço real."
+        },
+        {
+          "text": "V – F – F.",
+          "explanation": "A segunda e a terceira também são verdadeiras: o encontro com fãs e os shows são a passagem do virtual ao espaço real, e ocorrem nas cidades mais equipadas para os fluxos de pessoas, informações e capital."
+        },
+        {
+          "text": "V – V – F.",
+          "explanation": "A terceira afirmativa é verdadeira e retoma quase literalmente o texto: as cidades que atraem esses grupos são as mais dinâmicas, com alta densidade de infraestruturas."
+        },
+        {
+          "text": "V – V – V.",
+          "explanation": "Correta. O texto mostra que os fluxos de informação e a mobilização nas redes atraem as companhias de entretenimento e movimentam capital (V), que essa cultura digital se concretiza em eventos no espaço real, articulando fluxos informacionais, culturais e financeiros (V), e que os shows se concentram nas cidades com maior densidade de infraestruturas (V)."
+        }
+      ],
+      "correct": "E"
+    },
+    {
+      "key": "ufsm-2026-p3-q30",
+      "source": "Vestibular UFSM 2026 – Prova 3, questão 30 (UFSM)",
+      "kind": "Objective",
+      "subject": "lingua-portuguesa",
+      "statement": "Muitas vezes o aspirante a uma profissão não tem certeza de que caminho escolher. Por causa disso, foi criado um serviço denominado “mentoria do trabalho”, que tem por finalidade orientar e auxiliar o mentorado a fazer escolhas mais adequadas. O texto a seguir aborda esse tema.\n\n```\n01     Diante dos desafios e percalços do mundo do\n    trabalho, é normal que em algum momento haja\n    questionamentos sobre o futuro profissional. Em\n    um cenário onde 60% dos profissionais estão in-\n05  satisfeitos com seus empregos atuais, segundo um\n    levantamento do LinkedIn, é provável que muitos\n    deles já tenham desejado um direcionamento sobre\n    como mudar o rumo de suas carreiras.\n       Nesse caso, uma mentoria de carreira pode ser a\n10  solução. Descubra como funciona, todos os benefí-\n    cios e como esse tipo de orientação pode transformar\n    a sua vida profissional e até mesmo pessoal.\n```\n\nFonte: FACULDADE EXAME. Mentoria de carreira: o que é, quais os benefícios e como ela pode alavancar a sua vida profissional. Disponível em: https://exame.com/hub-faculdade-exame/mentoria-de-carreira-o-que-e-quais-os-beneficios-e-como-ela-pode-alavancar-a-sua-vida-profissional/. Acesso em: 30 ago. 2025. (Adaptado)\n\nTendo em vista a função de orações empregadas no texto, considere as afirmativas a seguir.\n\nI → A oração “que em algum momento haja questionamento sobre o futuro profissional” (ℓ. 02-03) indica o complemento verbal de “é normal” (ℓ. 02).\n\nII → A oração “onde 60% dos profissionais estão insatisfeitos com seus empregos atuais” (ℓ. 04-05) tem a função de especificar “cenário” (ℓ. 04).\n\nIII → A oração “que muitos deles já tenham desejado um direcionamento” (ℓ. 06-07) é um adjunto da oração “é provável” (ℓ. 06).\n\nIV → A oração “como funciona” (ℓ. 10) constitui um complemento da oração “Descubra” (ℓ. 10).\n\nEstão corretas",
+      "options": [
+        {
+          "text": "apenas I e II.",
+          "explanation": "A I é falsa: a oração iniciada por “que” é o sujeito de “é normal” (oração subordinada substantiva subjetiva), e não complemento; “é normal” tem verbo de ligação e predicativo, sem objeto."
+        },
+        {
+          "text": "apenas I e III.",
+          "explanation": "As duas são falsas pelo mesmo motivo: em “é normal que...” e “é provável que...”, as orações com “que” funcionam como sujeito, e não como complemento verbal nem como adjunto."
+        },
+        {
+          "text": "apenas II e III.",
+          "explanation": "A II está correta, mas a III não: “que muitos deles já tenham desejado um direcionamento” é o sujeito de “é provável”, termo essencial, e não um adjunto."
+        },
+        {
+          "text": "apenas II e IV.",
+          "explanation": "Correta. A oração com “onde” é adjetiva restritiva e especifica o substantivo “cenário” (II); “como funciona” é oração substantiva objetiva direta, complemento do verbo “Descubra” (IV). Em I e III, as orações com “que” são sujeito de “é normal” e de “é provável”."
+        },
+        {
+          "text": "apenas III e IV.",
+          "explanation": "A IV está correta, mas a III não: a oração “que muitos deles já tenham desejado um direcionamento” exerce a função de sujeito de “é provável” (substantiva subjetiva), não de adjunto."
+        }
+      ],
+      "correct": "D"
+    },
+    {
+      "key": "ufsm-2026-p3-q31",
+      "source": "Vestibular UFSM 2026 – Prova 3, questão 31 (UFSM)",
+      "kind": "Objective",
+      "subject": "artes-educacao-fisica",
+      "statement": "Todo mundo agora é coach ou mentor, e tudo agora é performance. Destaca Han (2015) que, na contemporaneidade, a sociedade do desempenho, a autocobrança pelo sucesso e o cansaço generalizado entre fragmentação e aceleração do tempo fazem com que as pessoas busquem consumo rápido e soluções imediatas. Seria o movimento de “coachização” ou mentorização de conteúdos o indício de uma nova profissão que substituiria a de professor, de psicólogo, de artista e de educador físico?\n\nEm termos históricos, na era medieval, o cocheiro era aquele que conduzia as carroças e carruagens. No começo do século XX, o termo passou a se referir à tutoria de estudos e treinamento físico, aproximando-se da denominação de treinador, que pode ser orientador, motivador e professor de novas técnicas para que o orientando coachee atinja o melhor resultado, a melhor performance.\n\nA mentoria, por outro lado, é um termo que apareceu mais fortemente após a pandemia de COVID-19, quando milhões de pessoas ficaram encerradas em suas casas, conectando-se massivamente por meio de aparelhos digitais.\n\nEnquanto o primeiro termo se aproxima de funções que o professor e o educador físico exercem de modo específico, o segundo incorpora relações que os artistas e psicólogos articulam, tais como processos de criação e revisão de si e do mundo.\n\nTanto o coach quanto o mentor não são profissões regulamentadas, são papéis exercidos cuja formação merece atenção, pois muitos deles receitam milagre e acompanhamento obsessivo diante de uma realidade complexa e de expectativas utópicas.\n\nCom base no texto, assinale V (verdadeiro) ou F (falso) em cada afirmativa a seguir.\n\n( ) A sociedade contemporânea com foco em pertencimento promove alterações de funções, de modo que até religiosos assumem papéis de coaches ou mentores para facilitar e ampliar a publicidade da fé.\n\n( ) Coaches e mentores são caminhos profissionais regulamentados para o papel do educador físico e do professor.\n\n( ) As profissões na sociedade atual devem incorporar alguns dos papéis de coach e mentor por meio da contextualização de processos de criação e revisão de si e do mundo.\n\nA sequência correta é",
+      "options": [
+        {
+          "text": "F – V – V.",
+          "explanation": "A segunda afirmativa é falsa: o texto diz expressamente que coach e mentor “não são profissões regulamentadas”, mas papéis exercidos."
+        },
+        {
+          "text": "V – F – F.",
+          "explanation": "Inverte a primeira e a terceira: o texto fala em sociedade do desempenho, não em pertencimento, e não cita religiosos (F); já a incorporação de processos de criação e revisão de si e do mundo vem do próprio texto (V)."
+        },
+        {
+          "text": "F – F – V.",
+          "explanation": "Correta. O texto trata da sociedade do desempenho, e não do pertencimento, e não menciona religiosos (F); afirma que coach e mentor não são profissões regulamentadas (F); e associa esses papéis a funções de professores, educadores físicos, artistas e psicólogos, como os processos de criação e revisão de si e do mundo, leitura que a banca dá por verdadeira (V)."
+        },
+        {
+          "text": "V – F – V.",
+          "explanation": "A primeira afirmativa é falsa: nada no texto fala de pertencimento, de religiosos ou de publicidade da fé; o foco apontado é o desempenho e a busca por soluções imediatas."
+        },
+        {
+          "text": "F – V – F.",
+          "explanation": "Erra a segunda e a terceira: coach e mentor não são profissões regulamentadas, e a terceira retoma a ideia do texto de que esses papéis se articulam a processos de criação e revisão de si e do mundo."
+        }
+      ],
+      "correct": "C"
+    },
+    {
+      "key": "ufsm-2026-p3-q32",
+      "source": "Vestibular UFSM 2026 – Prova 3, questão 32 (UFSM)",
+      "kind": "Objective",
+      "subject": "filosofia-sociologia",
+      "statement": "![Charge intitulada 'Os empreendedores.': dois entregadores pedalam bicicletas levando grandes mochilas térmicas nas costas. Um pergunta: 'Você não dorme melhor sabendo que é seu próprio patrão?'. O outro responde: 'Eu não durmo.'](img/ufsm/2026/prova-3/q32-1.png)\n\nFonte: D'AGOSTINHO, T. Os empreendedores. Disponível em: https://www.acaricatura.com.br. Acesso em: 01 out. 2025.\n\nUma modalidade recente de trabalho que tem se disseminado em razão dos avanços da tecnologia, em especial na internet e nos aplicativos para celulares, é o serviço prestado sob demanda por meio de plataformas digitais. Resultam de novos modelos de negócio que têm sido classificados como economia de compartilhamento, apesar do equívoco a que essa expressão pode induzir.\n\nMuitos profissionais se cadastram nessas plataformas, disponibilizando-se para realizar o trabalho apenas quando existir alguém disposto a utilizar seu serviço. Entretanto, apesar de cobrarem um percentual dos prestadores de serviço para cada trabalho que realizam, as plataformas não lhes dão garantias ou proteção social, pois a relação estabelecida não é de patrão-empregado, e não há contratação formal do trabalhador. Essas empresas alegam que cobram um percentual pelo uso do recurso tecnológico que desenvolveram e que mantêm.\n\nPara o trabalhador, esse tipo de prestação de serviço é vendido como uma parceria, como se ele fosse um empreendedor autônomo, um empresário que trabalha quando quer e pode, já que é um trabalho intermitente e flexível. Mas, na prática, é um pouco diferente. As plataformas digitais criam mecanismos para “estimular” a prontidão do prestador de serviços, oferecendo gratificações quando atinge metas diárias ou deixando de acioná-lo, caso ele se recuse a aceitar as demandas que lhe são ofertadas. Observa-se que a relação é desigual: o trabalhador só tem a opção de aceitar ou não o trabalho, e não de negociar remuneração, horários, bonificações, férias, etc.\n\nFonte: VICENTINO, C.; CAMPOS, E.; SENE, E. de. Diálogos em Ciências Humanas: importância do trabalho. São Paulo: Ática, 2020, p. 137.\n\nAssinale a alternativa que representa corretamente a modalidade de trabalho contextualizada na charge e no texto.",
+      "options": [
+        {
+          "text": "A relação entre o empregador e o empregado, que se estabelece a partir da economia de compartilhamento, torna-se mais duradoura, pois as plataformas dependem dos prestadores.",
+          "explanation": "O texto diz que não há relação de patrão-empregado nem contratação formal: o vínculo é intermitente e frágil, e a plataforma pode simplesmente deixar de acionar o trabalhador."
+        },
+        {
+          "text": "Essa nova modalidade de trabalho permite ao trabalhador mais autonomia, pois quanto mais eficiente for, mais ganhos terá e, dessa forma, poderá reduzir a desigualdade existente entre o trabalhador e a plataforma.",
+          "explanation": "A autonomia é o discurso com que o serviço é “vendido”; na prática, o trabalhador só pode aceitar ou recusar a demanda, sem negociar remuneração ou horários, e a relação continua desigual."
+        },
+        {
+          "text": "A “flexibilização”, para os críticos dessa nova modalidade de trabalho, é um eufemismo para a perda de direitos e da estabilidade do trabalhador, pois esse arranjo é conveniente apenas para um lado do sistema produtivo e negativa para quem depende da venda da sua força de trabalho.",
+          "explanation": "Correta. Texto e charge mostram a uberização: o trabalhador é chamado de empreendedor, mas não tem garantias nem proteção social e trabalha sem descanso (“Eu não durmo”), enquanto a plataforma fica com um percentual sem assumir obrigações trabalhistas."
+        },
+        {
+          "text": "A autonomia experimentada por trabalhadores em relação ao seu tempo de trabalho, a partir do avanço do desenvolvimento tecnológico, impacta os contratos de trabalho e os vínculos empregatícios que estabelecem com tais plataformas.",
+          "explanation": "Segundo o texto, não há contrato formal nem vínculo empregatício com as plataformas, e a autonomia sobre o tempo é ilusória, pois metas e punições induzem a prontidão permanente."
+        },
+        {
+          "text": "Essa modalidade de trabalho, mesmo com algumas desvantagens para a população trabalhadora, não deixa de ser uma conquista de trabalhadoras e trabalhadores que há muito tempo lutam por novos espaços de atuação, ampliação de direitos e autonomia.",
+          "explanation": "Não se trata de conquista dos trabalhadores, mas de um modelo de negócio criado pelas empresas, que reduz direitos em vez de ampliá-los, como ironiza a charge."
+        }
+      ],
+      "correct": "C"
+    },
+    {
+      "key": "ufsm-2026-p3-q33",
+      "source": "Vestibular UFSM 2026 – Prova 3, questão 33 (UFSM)",
+      "kind": "Objective",
+      "subject": "filosofia-sociologia",
+      "statement": "A teoria da justiça como equidade, do filósofo norte-americano John Rawls, propõe um método para encontrar princípios de justiça para as principais instituições da sociedade. Rawls convida a um exercício de pensamento: a \"posição original\". Nesse estado hipotético, indivíduos racionais e razoáveis, cobertos por um \"véu de ignorância\", escolheriam os princípios de justiça sem ter conhecimento de suas próprias posições e condições sociais, talentos, raça, gênero ou concepções de bem. Desse modo, as escolhas não seriam enviesadas por interesses particulares.\n\nRawls argumenta que, nessa situação, dois princípios fundamentais seriam escolhidos: o primeiro, o \"princípio da liberdade\", garantiria a cada pessoa o maior grau de liberdades básicas compatíveis com a liberdade dos outros. O segundo, que se dividiria em dois, estabeleceria que as desigualdades sociais e econômicas seriam aceitáveis apenas se: (a) estiverem vinculadas a cargos ou posições abertos a todos em condições de igualdade equitativa de oportunidades (princípio da igualdade de oportunidades); e (b) beneficiarem ao máximo os membros menos favorecidos da sociedade (princípio da diferença).\n\nAo aplicar essa teoria às profissões e ao mundo do trabalho contemporâneo, marcados por uma crescente automação e persistentes desigualdades salariais, a teoria de Rawls oferece uma lente crítica. Uma distribuição meritocrática poderia ser injusta, mesmo que houvesse igualdade equitativa de oportunidades, o que violaria o princípio da diferença. Portanto, a meritocracia seria considerada injusta na medida em que não houvesse igualdade real de oportunidades, não apenas formal, o que exigiria um massivo investimento em bens fundamentais como saúde e educação desde a infância para todos. Além disso, a precarização das profissões e das relações de trabalho, como exemplificada pela ausência de direitos trabalhistas para motoristas de aplicativo ou entregadores, dificilmente passaria pelo crivo do princípio da diferença, pois não parece ser a melhor forma de organizar a sociedade para beneficio dos menos favorecidos. A teoria de Rawls força a questionar se as estruturas atuais do mundo do trabalho − e suas profissões − são realmente justas ou se apenas perpetuam desigualdades arbitrárias.\n\nCom relação à teoria de John Rawls, assinale V (verdadeiro) ou F (falso) em cada afirmativa a seguir.\n\n( ) O \"véu da ignorância\" é um conceito que descreve a alienação do trabalhador e de sua relação profissional no sistema capitalista, que o impede de compreender sua real condição de explorado.\n\n( ) Uma sociedade que oferece vagas de trabalho abertas para todos, mas não investe na qualidade da educação básica para os mais pobres, não pode ser considerada justa, pois fere o princípio da igualdade equitativa de oportunidades.\n\n( ) O fenômeno da \"uberização\" do trabalho, a partir da teoria da justiça como equidade, que ocorre em certas profissões, por gerar novas oportunidades de renda, seria visto sempre como justo, independentemente da ausência de direitos trabalhistas.\n\nA sequência correta é",
+      "options": [
+        {
+          "text": "F – V – F.",
+          "explanation": "Correta. O véu de ignorância é um recurso hipotético para escolher princípios de justiça sem saber a própria posição social; alienação é conceito de Marx (F). Vagas abertas a todos sem educação de qualidade dão igualdade apenas formal, e Rawls exige igualdade equitativa, real, de oportunidades (V). A uberização sem direitos dificilmente beneficia ao máximo os menos favorecidos, como pede o princípio da diferença (F)."
+        },
+        {
+          "text": "V – F – V.",
+          "explanation": "Inverte os três julgamentos: o véu de ignorância não descreve a alienação do trabalhador, a falta de investimento em educação fere a igualdade equitativa de oportunidades e a uberização sem direitos não passa pelo princípio da diferença."
+        },
+        {
+          "text": "F – F – V.",
+          "explanation": "A segunda é verdadeira (igualdade apenas formal de oportunidades não basta para Rawls) e a terceira é falsa: o texto afirma que a precarização dificilmente passaria pelo crivo do princípio da diferença."
+        },
+        {
+          "text": "V – V – V.",
+          "explanation": "Só a segunda é verdadeira: o véu de ignorância é um experimento mental, não a alienação descrita por Marx, e a ausência de direitos trabalhistas torna a uberização questionável pelo princípio da diferença."
+        },
+        {
+          "text": "V – F – F.",
+          "explanation": "Erra as duas primeiras: o véu de ignorância é a condição imaginária de quem escolhe os princípios de justiça na posição original, e a segunda afirmativa aplica corretamente o princípio da igualdade equitativa de oportunidades."
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "key": "ufsm-2026-p3-q34",
+      "source": "Vestibular UFSM 2026 – Prova 3, questão 34 (UFSM)",
+      "kind": "Objective",
+      "subject": "artes-educacao-fisica",
+      "statement": "O mercado de arte constitui um fenômeno complexo que extrapola a simples comercialização de objetos artísticos, configurando-se como um campo social onde convivem duas lógicas aparentemente contraditórias: a lógica da arte e a lógica do mercado capitalista. Esse campo é estruturado por redes de instituições − museus, casas de leilão, galerias − e atores sociais − artistas, galeristas, curadores, colecionadores, críticos e investidores − que estabelecem relações de poder e influência mútua na determinação do valor cultural e econômico das obras de arte.\n\nA mercantilização da arte revela como os objetos artísticos se transformam em bens econômicos sujeitos às dinâmicas globais de oferta e demanda, ao mesmo tempo em que mantêm sua dimensão simbólica e cultural. Esse processo é mediado por redes sociais que operam por meio de estratégias de manipulação e acumulação de capital cultural e econômico. Nessas redes, diferentes atores disputam o poder de consagrar objetos e pessoas, atribuindo-lhes valores artísticos e econômicos.\n\nParalelamente, emerge uma reflexão crítica sobre a relação entre arte e trabalho, especialmente na perspectiva decolonial, que questiona como artistas, professores e pesquisadores lidam com a arte como produção profissional e fonte de sustento, muitas vezes reproduzindo inconscientemente as mesmas lógicas dos sistemas hegemônicos que dizem contestar. Essa tensão entre a arte como expressão cultural autônoma e como atividade econômica necessária para a subsistência revela contradições fundamentais no campo do profissional da área de artes na contemporaneidade.\n\nSobre o mercado de arte contemporânea e suas relações com os sistemas globais, culturais e políticos, assinale V (verdadeiro) ou F (falso) em cada afirmativa a seguir.\n\n( ) O valor econômico das obras ocorre por meio da lei da oferta e demanda, similar aos mercados financeiros tradicionais. Sendo assim, os preços refletem fatores econômicos mensuráveis como custos de produção, raridade material e antiguidade do objeto, sem necessidade de validação por especialistas, instituições culturais ou consideração de aspectos subjetivos, como prestígio institucional e reconhecimento crítico.\n\n( ) A profissionalização da arte no contexto contemporâneo envolve a necessidade de os artistas desenvolverem competências que transcendam a criação artística, incluindo gestão de carreira, produção cultural, marketing pessoal, participação em redes profissionais e domínio de linguagens digitais. Essa transformação impõe aos artistas a dupla função de criadores e empresários de si mesmos, adaptando-se às demandas do mercado cultural globalizado enquanto mantêm sua autonomia criativa.\n\n( ) A relação entre arte e trabalho, na perspectiva decolonial, revela contradições quando artistas, professores e pesquisadores defendem uma arte crítica aos sistemas hegemônicos, mas simultaneamente dependem desses mesmos sistemas (editais estatais, mercado, instituições) para sua subsistência profissional, reproduzindo inconscientemente as lógicas coloniais de controle decorrentes da subordinação por meio da dependência econômica.\n\nA sequência correta é",
+      "options": [
+        {
+          "text": "F – V – F.",
+          "explanation": "A terceira afirmativa é verdadeira: retoma o último parágrafo do texto, segundo o qual artistas, professores e pesquisadores muitas vezes reproduzem as lógicas dos sistemas hegemônicos que dizem contestar."
+        },
+        {
+          "text": "F – F – V.",
+          "explanation": "A segunda afirmativa é verdadeira: no mercado de arte atual, o artista precisa também gerir a carreira, divulgar-se e atuar em redes profissionais, conciliando criação e subsistência."
+        },
+        {
+          "text": "V – V – F.",
+          "explanation": "Inverte a primeira e a terceira: o valor das obras depende da consagração por instituições e especialistas (primeira, F), e a contradição apontada pela perspectiva decolonial está no texto (terceira, V)."
+        },
+        {
+          "text": "V – F – V.",
+          "explanation": "A primeira afirmativa é falsa: segundo o texto, o valor cultural e econômico das obras é determinado por redes de museus, galerias, críticos e curadores, que disputam o poder de consagrar objetos e pessoas."
+        },
+        {
+          "text": "F – V – V.",
+          "explanation": "Correta. O valor das obras não decorre só de fatores mensuráveis: depende da validação de instituições e atores que consagram objetos e artistas (F). A profissionalização exige do artista competências de gestão e divulgação além da criação (V). E a perspectiva decolonial aponta a contradição de criticar sistemas hegemônicos dependendo deles para o sustento (V)."
+        }
+      ],
+      "correct": "E"
+    },
+    {
+      "key": "ufsm-2026-p3-q35",
+      "source": "Vestibular UFSM 2026 – Prova 3, questão 35 (UFSM)",
+      "kind": "Objective",
+      "subject": "lingua-portuguesa",
+      "statement": "O advento das novas tecnologias tem mostrado alguns desafios ao mercado de trabalho. Profissões consideradas importantes em épocas recentes estão cedendo lugar para outras de grande potencial, alterando o cenário das atividades laborais no Brasil e no exterior. Assim, novas habilidades são necessárias e, para isso, é importante a requalificação dos trabalhadores.\n\nCom base nesse cenário, leia o texto a seguir para responder às questões 35 e 36.\n\n**As profissões do futuro, segundo estudo do Fórum Econômico Mundial**\n\n```\n01     Na quinta edição do relatório “Futuro do Trabalho”,\n    realizado pelo Fórum Econômico Mundial (FEM) e\n    pela Fundação Dom Cabral (FDC), são reveladas\n    tendências que moldarão o mercado de trabalho entre\n05  2025 e 2030. A pesquisa, realizada em 55 países e\n    baseada em respostas de mais de mil empregadores,\n    destaca o impacto da Inteligência Artificial (IA) e\n    outras inovações tecnológicas nos empregos, nas\n    habilidades e nas estratégias empresariais.\n10     Com a previsão de criação de 170 milhões de\n    novos postos de trabalho até 2030, as empresas\n    têm o desafio de equilibrar a adoção tecnológica\n    com a valorização e capacitação de suas equipes,\n    pavimentando um caminho para um mercado mais\n15  dinâmico, inovador e inclusivo.\n       Segundo o estudo, 15 profissões apresentam\n    grande potencial de crescimento nos próximos anos,\n    impulsionadas pela digitalização e pela transição\n    para uma economia mais verde. Destacam-se\n20  áreas como Big Data, cibersegurança, IA e machine\n    learning. Especialistas nessas tecnologias estão\n    entre os mais procurados, refletindo a crescente\n    demanda por profissionais qualificados em setores\n    como tecnologia, energia e agricultura. [...]\n25     As profissões em ascensão confirmam a\n    necessidade de mais pessoas com formação em\n    STEM (profissionais da área de ciência, tecnologia,\n    engenharia e matemática), algo que no Brasil é\n    um grande desafio, afirma Hugo Tadeu, diretor do\n30  Núcleo de Inovação da FDC.\n       “Se compararmos o Brasil com China, Estados\n    Unidos e Dinamarca, conseguiremos enxergar, por\n    exemplo, que não formamos tantos engenheiros no\n    Brasil. Precisamos de um plano de governo, junto\n35  com as empresas, para formar mais profissionais na\n    área de STEM”, afirma o professor da FDC.\n       Além disso, os profissionais querem ser\n    qualificados! Esse é outro alerta do estudo do\n    Fórum Econômico Mundial, ao revelar que 78% dos\n40  trabalhadores buscam oportunidades de qualificação\n    fornecidas por seus empregadores, em contraste\n    com o cenário anterior em que o funcionário era\n    o principal responsável por seu desenvolvimento.\n       “Todas as tecnologias começarão com gente e\n45  terminarão com gente. Precisamos, no mínimo,\n    estar preparados para essa onda, e para isso as\n    empresas precisam investir mais na qualificação de\n    seus profissionais”, afirma Tadeu.\n       No Brasil, 53% dos empregadores indicam que\n50  habilidades tecnológicas serão uma das áreas\n    prioritárias de requalificação nos próximos cinco\n    anos, refletindo a necessidade de preparar a força de\n    trabalho para as inovações tecnológicas emergentes.\n```\n\nFonte: SERRANO, L. Essas são as 15 profissões do futuro, segundo estudo do Fórum Econômico Mundial. Exame. Publicado em: 11 jan. 2025. Disponível em: https://exame.com/carreira/essas-sao-as-15-profissoes-do-futuro-segundo-estudo-do-forum-economico-mundial/. Acesso em: 11 dez. 2025. (Adaptado)\n\nSobre as informações apresentadas no texto, assinale a alternativa correta.",
+      "options": [
+        {
+          "text": "A IA será responsável pelas inovações tecnológicas tanto na seleção de funcionários quanto nas decisões dos empresários.",
+          "explanation": "O texto cita o impacto da IA e de outras inovações nos empregos, nas habilidades e nas estratégias empresariais, mas não diz que a IA selecionará funcionários ou tomará decisões pelos empresários."
+        },
+        {
+          "text": "A “economia mais verde” (ℓ. 19) corresponde a tecnologias como Big Data, cibersegurança, IA e machine learning.",
+          "explanation": "Digitalização e transição para uma economia mais verde são dois impulsos distintos; Big Data, cibersegurança, IA e machine learning são áreas da digitalização, não da economia verde."
+        },
+        {
+          "text": "A busca de qualificação por parte dos trabalhadores será uma atribuição individual, de modo que sejam aproveitadas as oportunidades oferecidas pelo mercado de trabalho.",
+          "explanation": "É o inverso: 78% dos trabalhadores buscam qualificação fornecida pelos empregadores, em contraste com o cenário anterior, em que o funcionário era o principal responsável."
+        },
+        {
+          "text": "A área de STEM é deficiente no Brasil e depende de políticas governamentais e empresariais para se desenvolver.",
+          "explanation": "Correta. O texto afirma que formar pessoas em STEM é “um grande desafio” no Brasil, que não forma tantos engenheiros, e cita a necessidade de “um plano de governo, junto com as empresas, para formar mais profissionais na área”."
+        },
+        {
+          "text": "A preparação da força de trabalho, no Brasil, precisa de cinco anos para atender às necessidades emergentes do país.",
+          "explanation": "Os “próximos cinco anos” são o período em que 53% dos empregadores dizem que as habilidades tecnológicas serão prioridade de requalificação, e não o tempo necessário para preparar os trabalhadores."
+        }
+      ],
+      "correct": "D"
+    },
+    {
+      "key": "ufsm-2026-p3-q36",
+      "source": "Vestibular UFSM 2026 – Prova 3, questão 36 (UFSM)",
+      "kind": "Objective",
+      "subject": "lingua-portuguesa",
+      "statement": "O advento das novas tecnologias tem mostrado alguns desafios ao mercado de trabalho. Profissões consideradas importantes em épocas recentes estão cedendo lugar para outras de grande potencial, alterando o cenário das atividades laborais no Brasil e no exterior. Assim, novas habilidades são necessárias e, para isso, é importante a requalificação dos trabalhadores.\n\nCom base nesse cenário, leia o texto a seguir para responder às questões 35 e 36.\n\n**As profissões do futuro, segundo estudo do Fórum Econômico Mundial**\n\n```\n01     Na quinta edição do relatório “Futuro do Trabalho”,\n    realizado pelo Fórum Econômico Mundial (FEM) e\n    pela Fundação Dom Cabral (FDC), são reveladas\n    tendências que moldarão o mercado de trabalho entre\n05  2025 e 2030. A pesquisa, realizada em 55 países e\n    baseada em respostas de mais de mil empregadores,\n    destaca o impacto da Inteligência Artificial (IA) e\n    outras inovações tecnológicas nos empregos, nas\n    habilidades e nas estratégias empresariais.\n10     Com a previsão de criação de 170 milhões de\n    novos postos de trabalho até 2030, as empresas\n    têm o desafio de equilibrar a adoção tecnológica\n    com a valorização e capacitação de suas equipes,\n    pavimentando um caminho para um mercado mais\n15  dinâmico, inovador e inclusivo.\n       Segundo o estudo, 15 profissões apresentam\n    grande potencial de crescimento nos próximos anos,\n    impulsionadas pela digitalização e pela transição\n    para uma economia mais verde. Destacam-se\n20  áreas como Big Data, cibersegurança, IA e machine\n    learning. Especialistas nessas tecnologias estão\n    entre os mais procurados, refletindo a crescente\n    demanda por profissionais qualificados em setores\n    como tecnologia, energia e agricultura. [...]\n25     As profissões em ascensão confirmam a\n    necessidade de mais pessoas com formação em\n    STEM (profissionais da área de ciência, tecnologia,\n    engenharia e matemática), algo que no Brasil é\n    um grande desafio, afirma Hugo Tadeu, diretor do\n30  Núcleo de Inovação da FDC.\n       “Se compararmos o Brasil com China, Estados\n    Unidos e Dinamarca, conseguiremos enxergar, por\n    exemplo, que não formamos tantos engenheiros no\n    Brasil. Precisamos de um plano de governo, junto\n35  com as empresas, para formar mais profissionais na\n    área de STEM”, afirma o professor da FDC.\n       Além disso, os profissionais querem ser\n    qualificados! Esse é outro alerta do estudo do\n    Fórum Econômico Mundial, ao revelar que 78% dos\n40  trabalhadores buscam oportunidades de qualificação\n    fornecidas por seus empregadores, em contraste\n    com o cenário anterior em que o funcionário era\n    o principal responsável por seu desenvolvimento.\n       “Todas as tecnologias começarão com gente e\n45  terminarão com gente. Precisamos, no mínimo,\n    estar preparados para essa onda, e para isso as\n    empresas precisam investir mais na qualificação de\n    seus profissionais”, afirma Tadeu.\n       No Brasil, 53% dos empregadores indicam que\n50  habilidades tecnológicas serão uma das áreas\n    prioritárias de requalificação nos próximos cinco\n    anos, refletindo a necessidade de preparar a força de\n    trabalho para as inovações tecnológicas emergentes.\n```\n\nFonte: SERRANO, L. Essas são as 15 profissões do futuro, segundo estudo do Fórum Econômico Mundial. Exame. Publicado em: 11 jan. 2025. Disponível em: https://exame.com/carreira/essas-sao-as-15-profissoes-do-futuro-segundo-estudo-do-forum-economico-mundial/. Acesso em: 11 dez. 2025. (Adaptado)\n\nSobre o emprego da vírgula no texto, de acordo com a norma-padrão, considere as afirmativas a seguir.\n\nI → Em “A pesquisa, realizada em 55 países e baseada em respostas de mais de mil empregadores, destaca o impacto da Inteligência Artificial (IA) e outras inovações tecnológicas” (ℓ. 05-08), a retirada das vírgulas ocasionará mudança de significado na oração.\n\nII → Em “algo que no Brasil é um grande desafio, afirma Hugo Tadeu, diretor do Núcleo de Inovação da FDC” (ℓ. 28-30), uma das vírgulas sinaliza duas situações diferentes.\n\nIII → Em “Se compararmos o Brasil com China, Estados Unidos e Dinamarca, conseguiremos enxergar, por exemplo, que não formamos tantos engenheiros no Brasil” (ℓ. 31-34), a vírgula após “Dinamarca” não pode ser retirada.\n\nIV → Em “Precisamos, no mínimo, estar preparados para essa onda, e para isso as empresas precisam investir mais na qualificação de seus profissionais” (ℓ. 45-48), a vírgula antes do conector “e” não é obrigatória.\n\nEstá(ão) correta(s)",
+      "options": [
+        {
+          "text": "apenas IV.",
+          "explanation": "A banca considera a IV falsa: o “e” liga orações com sujeitos diferentes (“nós” e “as empresas”), caso em que a vírgula é indicada para evitar leitura truncada. Além disso, I, II e III estão corretas."
+        },
+        {
+          "text": "apenas I e III.",
+          "explanation": "I e III estão corretas, mas a II também: a vírgula depois de “Hugo Tadeu” encerra a oração intercalada com o verbo “afirma” e, ao mesmo tempo, abre o aposto “diretor do Núcleo de Inovação da FDC”."
+        },
+        {
+          "text": "apenas II e III.",
+          "explanation": "II e III estão corretas, mas a I também: entre vírgulas, o trecho é explicativo (fala de toda a pesquisa); sem elas, passa a restringir, como se houvesse outras pesquisas."
+        },
+        {
+          "text": "apenas II e IV.",
+          "explanation": "A IV é dada como falsa, porque a vírgula antes do “e” separa orações de sujeitos diferentes; e ficam de fora a I e a III, ambas corretas."
+        },
+        {
+          "text": "apenas I, II e III.",
+          "explanation": "Correta. Sem as vírgulas, o trecho explicativo sobre a pesquisa viraria restritivo, mudando o sentido (I); a vírgula após “Hugo Tadeu” fecha a oração com o verbo de dizer e introduz o aposto (II); e a vírgula após “Dinamarca” separa a oração condicional anteposta à principal, uso obrigatório (III). A IV é falsa para a banca, pois o “e” une orações com sujeitos diferentes."
+        }
+      ],
+      "correct": "E"
+    },
+    {
+      "key": "ufsm-2026-p3-q37",
+      "source": "Vestibular UFSM 2026 – Prova 3, questão 37 (UFSM)",
+      "kind": "Objective",
+      "subject": "literatura",
+      "statement": "A poesia de Paulo Leminski é marcada pela linguagem informal e pelo humor, como no poema a seguir.\n\n```\nparar de escrever\nbilhetes de felicitações\ncomo se eu fosse camões\ne as ilíadas dos meus dias\nfossem lusíadas,\nrosas, vieiras, sermões\n```\n\nFonte: LEMINSKI, P. Toda poesia. São Paulo: Companhia das Letras, 2013.\n\nA respeito do poema de Leminski, considere as afirmativas a seguir.\n\nI → A estrofe única do poema é formada por um conjunto de redondilhas maiores e menores, afirmando outro elemento do caráter popular da obra do poeta.\n\nII → Grande parte da seleção lexical realizada pelo poeta forma um campo semântico literário, pois estão presentes no poema renomados títulos de obras e autores.\n\nIII → A escrita à Camões e o vocabulário selecionado sugerem que o sujeito lírico é (ou deseja ser) poeta.\n\nIV → A expressão “as ilíadas dos meus dias”, no verso 4, pode ser compreendida como as batalhas e dificuldades da vida do sujeito lírico, já que evoca a lendária Guerra de Troia.\n\nEstá(ão) correta(s)",
+      "options": [
+        {
+          "text": "apenas IV.",
+          "explanation": "A IV está correta, mas não sozinha: o poema reúne nomes de autores e obras (II) e sugere um sujeito lírico que escreve como se fosse Camões (III)."
+        },
+        {
+          "text": "apenas I e III.",
+          "explanation": "A I é falsa: os versos têm medidas irregulares (por exemplo, “bilhetes de felicitações” tem oito sílabas poéticas), e não se organizam em redondilhas de cinco e sete sílabas."
+        },
+        {
+          "text": "apenas II e IV.",
+          "explanation": "II e IV estão corretas, mas a III também: quem escreve “como se eu fosse camões” se apresenta como alguém que faz, ou quer fazer, literatura."
+        },
+        {
+          "text": "apenas I, II e III.",
+          "explanation": "A I é falsa, pois o poema é em versos livres, sem a métrica das redondilhas, e a IV, correta, ficou de fora."
+        },
+        {
+          "text": "apenas II, III e IV.",
+          "explanation": "Correta. Camões, Ilíada, Lusíadas, Rosa, Vieira e Sermões formam um campo semântico literário (II); escrever “como se eu fosse camões” sugere um sujeito lírico poeta ou aspirante a poeta (III); e “ilíadas”, que evoca a Guerra de Troia, figura as lutas do dia a dia (IV). A I falha porque os versos são livres, não redondilhas."
+        }
+      ],
+      "correct": "E"
+    },
+    {
+      "key": "ufsm-2026-p3-q38-es",
+      "source": "Vestibular UFSM 2026 – Prova 3, questão 38, espanhol (UFSM)",
+      "kind": "Objective",
+      "subject": "espanhol",
+      "statement": "Para responder às questões 38 e 39, leia o texto a seguir.\n\n**5 sectores laborales que tendrán una elevada demanda en el futuro (y las habilidades necesarias para tener éxito en ellos)**\n\n```\n01      El mercado laboral está cambiando más rápido\n     que nunca [...]. Según un estudio reciente del Foro\n     Económico Mundial, hay tres factores principales que\n     están cambiando las cosas: la aparición de nuevas\n05   tecnologías, la automatización y el movimiento\n     hacia la economía verde y la sostenibilidad [...].\n     Habilidades principales\n        La alfabetización técnica es una de las principales\n     habilidades que se deben adquirir para poder tener\n10   una posición competitiva en el nuevo mercado laboral.\n        Esto no significa que todos deban conocer\n     lenguajes de programación o comprender los\n     entresijos del aprendizaje automático.\n        Pero, en el futuro, se cree que los empleos STEM\n15   serán aún más demandados. STEM es un acrónimo\n     en inglés que se utiliza para agrupar las disciplinas\n     técnicas distintas pero relacionadas de la ciencia, la\n     tecnología, la ingeniería y las matemáticas.\n        Por lo tanto, si te preguntas en qué materias\n20   debería centrarse tu hijo en la escuela, aquí está\n     la respuesta: matemáticas, informática y ciencias\n     naturales.\n        La siguiente habilidad a tener en cuenta es el\n     pensamiento analítico. Para mejorarlo, es necesario\n25   pulir las capacidades cognitivas, es decir, la mente\n     y la capacidad de notar patrones, conectar hechos\n     y sacar conclusiones que no estén nubladas por las\n     emociones o las preferencias personales.\n        Para poder hacer esto, es necesario entrenar la\n30   atención y la concentración, porque los aparatos,\n     las redes sociales, los juegos en línea y los anuncios\n     compiten constantemente por nuestra atención y\n     provocan el miedo a perderse algo.\n        Las habilidades analíticas también incluyen la\n35   curiosidad y la autoeducación continua, y para\n     mejorar y aprender constantemente, es necesario\n     poder concentrarse en un objetivo.\n        Aprender inglés a un alto nivel también es una\n     habilidad muy valiosa que se debe adquirir.\n40      Además, la creatividad: en ciencia, ingeniería,\n     diseño o arte, el buscado ascenso se otorgará a\n     la persona que logre combinar la alfabetización\n     técnica con la creatividad.\n        La comunicación y la empatía serán dos\n45   habilidades muy valoradas, especialmente en la era\n     de la inteligencia artificial.\n        No importa cuán rápido se desarrollen las\n     máquinas, las personas siempre necesitarán a\n     otras personas, y la atención humana, el trabajo\n50   en equipo, la capacidad de escuchar, contar una\n     historia, apoyar y simpatizar serán aún más\n     valorados.\n        Según un informe publicado en 2020 en LinkedIn,\n     una plataforma de redes sociales para profesionales,\n55   la comunicación ya se ha convertido en la habilidad\n     más demandada en el mercado laboral actual.\n     1. Nuevas tecnologías\n        No es de extrañar que las tecnologías de la\n     información y las nuevas tecnologías se encuentren\n60   también entre los sectores más prometedores en el\n     futuro próximo.\n        El desarrollo de la inteligencia artificial\n     y el aprendizaje automático traerá consigo\n     oportunidades muy interesantes.\n65      Una de las profesiones con más futuro en este\n     campo es la de ingeniería rápida o de instrucciones\n     (prompt engineering, en inglés), un especialista en\n     la comunicación con modelos de inteligencia artificial\n     que ayuda a formular correctamente las solicitudes\n70   y actua como una especie de intermediario entre la\n     inteligencia artificial y las personas.\n        Otros posibles empleos relacionados con la IA\n     son los especialistas en ética, los ingenieros de\n     seguridad y los desarrolladores de interfaces fáciles\n75   de usar para la interacción hombre-máquina.\n        En general, en el caso de la inteligencia artificial,\n     se recomienda a las personas de diversas profesiones\n     que no la vean como un competidor, sino como un\n     socio, y que sepan cómo cooperar con ella.\n80      Otro campo de posibilidades es el análisis de\n     Big Data [...]. Tambiém serán fundamentales\n     los especialistas en ciberseguridad [...], los\n     especialistas en tecnologías financieras y los\n     analistas de negocios [...].\n85   2. Trabajos “verdes”\n        Según el Informe sobre el futuro del empleo\n     2023 del Foro Económico Mundial, la demanda de\n     empleos “verdes” está creciendo rápidamente en\n     todos los sectores e industrias.\n90      Estos empleos pueden estar relacionados con los\n     negocios, la ciencia, la política o directamente con el\n     medio ambiente, dentro de sectores que trabajan en\n     el desarrollo de energías renovables o nuevas fuentes\n     de energía y baterías, la preservación de especies en\n95   peligro de extinción, la consultoría empresarial o,\n     por ejemplo, la práctica jurídica y los cambios en las\n     leyes de protección del medio ambiente.\n        También habrá una necesidad de urbanistas,\n     arquitectos, diseñadores y constructores de casas\n100  inteligentes.\n     3. Profesionales de la salud\n        La población mundial está envejeciendo y la\n     esperanza de vida está aumentando. La atención\n     y el tratamiento de personas mayores serán cada\n105  vez más necesarios.\n        Por tanto, en el futuro próximo, seguirá habiendo\n     una gran demanda de profesionales sanitarios.\n        Especialmente valiosos serán los profesionales\n     sanitarios que no sólo proporcionan a los pacientes\n110  medicamentos, sino también apoyo moral.\n        Los médicos y los especialistas sanitarios\n     tendrán que aprender constantemente y adaptarse\n     a nuevos métodos de diagnóstico y tratamiento. La\n     inteligencia artificial también será de ayuda.\n115     También habrá trabajo para psicoterapeutas\n     y diversos mentores de desarrollo personal o\n     instructores de prácticas espirituales.\n     4. Trabajo manual\n        En los próximos años seguirán siendo necesarios\n120  profesionales en trabajos manuales como mecánicos,\n     reparadores, electricistas o constructores.\n        También se espera que crezca la demanda de\n     nuevas profesiones en la agricultura.\n        En el caso de que sea necesario realizar tareas\n125  pequeñas y precisas en diferentes circunstancias, el\n     ser humano seguirá siendo insustituible.\n        Pero para mantenerse a flote y ser solicitados,\n     estos especialistas también deberán mejorar\n     constantemente sus conocimientos técnicos y\n130  dominar nuevas herramientas inteligentes.\n        También se espera que aumente la demanda de\n     nuevas profesiones en la agricultura. La población\n     del planeta está creciendo y todo el mundo necesita\n     comer. Pero, una vez más, la demanda será más de\n135  ingenieros hábiles que de agricultores [...].\n     5. Narración de historias\n        Otra profesión, que rara vez se menciona, pero\n     que sin duda seguirá siendo necesaria en el futuro,\n     es la de narradores de historias.\n140     Tal como era necesario hace miles de años,\n     cualquier trabajo creativo relacionado con la\n     transmisión de la experiencia humana seguirá\n     siendo esencial.\n        Seguiremos necesitando escritores, poetas,\n145  directores, actores, comediantes, artistas y músicos,\n     incluso si la inteligencia artificial plantea nuevos\n     desafíos en estos sectores.\n```\n\nKARPYAK. O. 5 sectores laborales que tendrán una elevada demanda en el futuro. BBC News. Publicado em: 20 ago. 2024. Disponivel em: https://www.bbc.com/mundo/articles/cj621r34rryo. Acesso em: 13 ago. 2025. (Adaptado)\n\nA partir das indicações e das posteriores conclusões sobre as principais habilidades de que o ser humano necessitaria desenvolver para melhor exercer uma profissão na contemporaneidade, assinale V (verdadeiro) ou F (falso) em cada afirmativa a seguir.\n\n( ) As habilidades hards skills (competências técnicas e mensuráveis) são importantes, porém o centro das atenções se encontra nas habilidades soft skills (competências intrapessoais e interpessoais que implicam interações consigo mesmo e com os demais).\n\n( ) A valorização do perfil profissional adequado incluirá um profissional generalista em determinadas áreas técnicas, mas também especialista em relações humanas.\n\n( ) As características das sociedades contemporâneas favorecem o desenvolvimento do pensamento analítico e, por isso, tal aspecto é muito demandado.\n\nA sequência correta é",
+      "options": [
+        {
+          "text": "V – F – F.",
+          "explanation": "A segunda afirmativa também é verdadeira: o texto diz que nem todos precisam dominar programação (basta a alfabetização técnica), mas que comunicação e empatia serão muito valorizadas."
+        },
+        {
+          "text": "V – V – F.",
+          "explanation": "Correta. A alfabetização técnica importa, mas o texto dá mais espaço a pensamento analítico, criatividade, comunicação e empatia, e diz que a comunicação já é a habilidade mais demandada (V). Não é preciso que todos conheçam linguagens de programação, mas o trabalho em equipe e a capacidade de escutar serão ainda mais valorizados (V). Já a sociedade atual dificulta o pensamento analítico: aparelhos, redes sociais e anúncios “compiten constantemente por nuestra atención” (F)."
+        },
+        {
+          "text": "F – V – F.",
+          "explanation": "A primeira afirmativa é verdadeira: além da técnica, o texto destaca habilidades pessoais e interpessoais, e informa que a comunicação se tornou “la habilidad más demandada en el mercado laboral actual”."
+        },
+        {
+          "text": "V – F – V.",
+          "explanation": "Inverte a segunda e a terceira: o perfil valorizado combina base técnica geral com habilidades humanas (V), e o mundo atual, cheio de distrações, atrapalha a concentração exigida pelo pensamento analítico (F)."
+        },
+        {
+          "text": "F – V – V.",
+          "explanation": "Erra a primeira e a terceira: as soft skills estão no centro do texto, e este afirma que é preciso treinar a atenção justamente porque aparelhos e redes sociais disputam a nossa atenção."
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "key": "ufsm-2026-p3-q39-es",
+      "source": "Vestibular UFSM 2026 – Prova 3, questão 39, espanhol (UFSM)",
+      "kind": "Objective",
+      "subject": "espanhol",
+      "statement": "Para responder às questões 38 e 39, leia o texto a seguir.\n\n**5 sectores laborales que tendrán una elevada demanda en el futuro (y las habilidades necesarias para tener éxito en ellos)**\n\n```\n01      El mercado laboral está cambiando más rápido\n     que nunca [...]. Según un estudio reciente del Foro\n     Económico Mundial, hay tres factores principales que\n     están cambiando las cosas: la aparición de nuevas\n05   tecnologías, la automatización y el movimiento\n     hacia la economía verde y la sostenibilidad [...].\n     Habilidades principales\n        La alfabetización técnica es una de las principales\n     habilidades que se deben adquirir para poder tener\n10   una posición competitiva en el nuevo mercado laboral.\n        Esto no significa que todos deban conocer\n     lenguajes de programación o comprender los\n     entresijos del aprendizaje automático.\n        Pero, en el futuro, se cree que los empleos STEM\n15   serán aún más demandados. STEM es un acrónimo\n     en inglés que se utiliza para agrupar las disciplinas\n     técnicas distintas pero relacionadas de la ciencia, la\n     tecnología, la ingeniería y las matemáticas.\n        Por lo tanto, si te preguntas en qué materias\n20   debería centrarse tu hijo en la escuela, aquí está\n     la respuesta: matemáticas, informática y ciencias\n     naturales.\n        La siguiente habilidad a tener en cuenta es el\n     pensamiento analítico. Para mejorarlo, es necesario\n25   pulir las capacidades cognitivas, es decir, la mente\n     y la capacidad de notar patrones, conectar hechos\n     y sacar conclusiones que no estén nubladas por las\n     emociones o las preferencias personales.\n        Para poder hacer esto, es necesario entrenar la\n30   atención y la concentración, porque los aparatos,\n     las redes sociales, los juegos en línea y los anuncios\n     compiten constantemente por nuestra atención y\n     provocan el miedo a perderse algo.\n        Las habilidades analíticas también incluyen la\n35   curiosidad y la autoeducación continua, y para\n     mejorar y aprender constantemente, es necesario\n     poder concentrarse en un objetivo.\n        Aprender inglés a un alto nivel también es una\n     habilidad muy valiosa que se debe adquirir.\n40      Además, la creatividad: en ciencia, ingeniería,\n     diseño o arte, el buscado ascenso se otorgará a\n     la persona que logre combinar la alfabetización\n     técnica con la creatividad.\n        La comunicación y la empatía serán dos\n45   habilidades muy valoradas, especialmente en la era\n     de la inteligencia artificial.\n        No importa cuán rápido se desarrollen las\n     máquinas, las personas siempre necesitarán a\n     otras personas, y la atención humana, el trabajo\n50   en equipo, la capacidad de escuchar, contar una\n     historia, apoyar y simpatizar serán aún más\n     valorados.\n        Según un informe publicado en 2020 en LinkedIn,\n     una plataforma de redes sociales para profesionales,\n55   la comunicación ya se ha convertido en la habilidad\n     más demandada en el mercado laboral actual.\n     1. Nuevas tecnologías\n        No es de extrañar que las tecnologías de la\n     información y las nuevas tecnologías se encuentren\n60   también entre los sectores más prometedores en el\n     futuro próximo.\n        El desarrollo de la inteligencia artificial\n     y el aprendizaje automático traerá consigo\n     oportunidades muy interesantes.\n65      Una de las profesiones con más futuro en este\n     campo es la de ingeniería rápida o de instrucciones\n     (prompt engineering, en inglés), un especialista en\n     la comunicación con modelos de inteligencia artificial\n     que ayuda a formular correctamente las solicitudes\n70   y actua como una especie de intermediario entre la\n     inteligencia artificial y las personas.\n        Otros posibles empleos relacionados con la IA\n     son los especialistas en ética, los ingenieros de\n     seguridad y los desarrolladores de interfaces fáciles\n75   de usar para la interacción hombre-máquina.\n        En general, en el caso de la inteligencia artificial,\n     se recomienda a las personas de diversas profesiones\n     que no la vean como un competidor, sino como un\n     socio, y que sepan cómo cooperar con ella.\n80      Otro campo de posibilidades es el análisis de\n     Big Data [...]. Tambiém serán fundamentales\n     los especialistas en ciberseguridad [...], los\n     especialistas en tecnologías financieras y los\n     analistas de negocios [...].\n85   2. Trabajos “verdes”\n        Según el Informe sobre el futuro del empleo\n     2023 del Foro Económico Mundial, la demanda de\n     empleos “verdes” está creciendo rápidamente en\n     todos los sectores e industrias.\n90      Estos empleos pueden estar relacionados con los\n     negocios, la ciencia, la política o directamente con el\n     medio ambiente, dentro de sectores que trabajan en\n     el desarrollo de energías renovables o nuevas fuentes\n     de energía y baterías, la preservación de especies en\n95   peligro de extinción, la consultoría empresarial o,\n     por ejemplo, la práctica jurídica y los cambios en las\n     leyes de protección del medio ambiente.\n        También habrá una necesidad de urbanistas,\n     arquitectos, diseñadores y constructores de casas\n100  inteligentes.\n     3. Profesionales de la salud\n        La población mundial está envejeciendo y la\n     esperanza de vida está aumentando. La atención\n     y el tratamiento de personas mayores serán cada\n105  vez más necesarios.\n        Por tanto, en el futuro próximo, seguirá habiendo\n     una gran demanda de profesionales sanitarios.\n        Especialmente valiosos serán los profesionales\n     sanitarios que no sólo proporcionan a los pacientes\n110  medicamentos, sino también apoyo moral.\n        Los médicos y los especialistas sanitarios\n     tendrán que aprender constantemente y adaptarse\n     a nuevos métodos de diagnóstico y tratamiento. La\n     inteligencia artificial también será de ayuda.\n115     También habrá trabajo para psicoterapeutas\n     y diversos mentores de desarrollo personal o\n     instructores de prácticas espirituales.\n     4. Trabajo manual\n        En los próximos años seguirán siendo necesarios\n120  profesionales en trabajos manuales como mecánicos,\n     reparadores, electricistas o constructores.\n        También se espera que crezca la demanda de\n     nuevas profesiones en la agricultura.\n        En el caso de que sea necesario realizar tareas\n125  pequeñas y precisas en diferentes circunstancias, el\n     ser humano seguirá siendo insustituible.\n        Pero para mantenerse a flote y ser solicitados,\n     estos especialistas también deberán mejorar\n     constantemente sus conocimientos técnicos y\n130  dominar nuevas herramientas inteligentes.\n        También se espera que aumente la demanda de\n     nuevas profesiones en la agricultura. La población\n     del planeta está creciendo y todo el mundo necesita\n     comer. Pero, una vez más, la demanda será más de\n135  ingenieros hábiles que de agricultores [...].\n     5. Narración de historias\n        Otra profesión, que rara vez se menciona, pero\n     que sin duda seguirá siendo necesaria en el futuro,\n     es la de narradores de historias.\n140     Tal como era necesario hace miles de años,\n     cualquier trabajo creativo relacionado con la\n     transmisión de la experiencia humana seguirá\n     siendo esencial.\n        Seguiremos necesitando escritores, poetas,\n145  directores, actores, comediantes, artistas y músicos,\n     incluso si la inteligencia artificial plantea nuevos\n     desafíos en estos sectores.\n```\n\nKARPYAK. O. 5 sectores laborales que tendrán una elevada demanda en el futuro. BBC News. Publicado em: 20 ago. 2024. Disponivel em: https://www.bbc.com/mundo/articles/cj621r34rryo. Acesso em: 13 ago. 2025. (Adaptado)\n\nNa atualidade, são inúmeros os questionamentos e as previsões sobre quais profissões ou características profissionais serão imprescindíveis nos cenários em que se destacam o advento de avanços tecnológicos constantes combinados e a essencialidade de preservação das singularidades humanas. A partir dessa premissa e das discussões apresentadas no texto, considere as afirmativas a seguir.\n\nI → O setor da sustentabilidade emerge como um dos principais aspectos na formação e transformação de profissões de diferentes áreas, o que aumenta a empregabilidade dos diferentes profissionais com esse conhecimento interdisciplinar.\n\nII → O fator humano nas profissões ainda será algo insubstituível, pelo menos a médio e a longo prazo, no que se refere às profissões vinculadas necessariamente à saúde física.\n\nIII → O modelo ideal de articulação entre avanços tecnológicos e singularidade humana possivelmente surgirá nos novos profissionais da agricultura, uma vez que combinarão habilidades manuais, conhecimentos técnicos e tecnológicos em um panorama de demandas crescentes.\n\nIV → As características referentes à transmissão e à discussão das experiências humanas terão constante influência da Inteligência Artificial, o que as coloca em risco de descaracterização ou até de desaparecimento.\n\nEstá(ão) correta(s)",
+      "options": [
+        {
+          "text": "apenas II.",
+          "explanation": "A II é falsa: o texto chama o ser humano de “insustituible” ao falar do trabalho manual, de tarefas pequenas e precisas, e não apenas das profissões de saúde física; na saúde, valoriza também o apoio moral e os psicoterapeutas."
+        },
+        {
+          "text": "apenas III.",
+          "explanation": "A III está correta, mas a I também: segundo o texto, a demanda por empregos “verdes” cresce rapidamente “en todos los sectores e industrias”."
+        },
+        {
+          "text": "apenas I e III.",
+          "explanation": "Correta. Os empregos verdes crescem em todos os setores, dos negócios ao direito e à ciência (I), e a agricultura, tratada dentro do trabalho manual, terá demanda crescente por profissionais que dominem técnica e novas ferramentas, “más de ingenieros hábiles que de agricultores” (III). A II restringe indevidamente o fator humano à saúde física, e a IV contraria o texto, para o qual a narração de histórias “seguirá siendo esencial”."
+        },
+        {
+          "text": "apenas III e IV.",
+          "explanation": "A IV é falsa: o texto afirma que continuaremos precisando de escritores, atores e músicos, “incluso si la inteligencia artificial plantea nuevos desafíos”; não fala em risco de desaparecimento."
+        },
+        {
+          "text": "apenas I, II e IV.",
+          "explanation": "Só a I é correta nesse conjunto: a II limita o fator humano à saúde física, o que o texto não faz, e a IV atribui à IA uma ameaça de desaparecimento que o texto nega."
+        }
+      ],
+      "correct": "C"
+    },
+    {
+      "key": "ufsm-2026-p3-q40-es",
+      "source": "Vestibular UFSM 2026 – Prova 3, questão 40, espanhol (UFSM)",
+      "kind": "Objective",
+      "subject": "espanhol",
+      "statement": "Observe, a seguir, os trabalhos gráficos de, respectivamente, Sergio Duce e René Merino, em seus perfis numa rede social, sobre a relação entre o indivíduo e o trabalho (entendido neste contexto como semelhante à profissão).\n\nTEXTO 01\n\n![Desenho em três cenas, cada uma com uma palavra ao lado. 'Obligación': um homem curvado arrasta com esforço, por uma corda no ombro, uma caixa em que se lê 'Trabajo'. 'Vocación': um homem caminha ereto puxando a caixa 'Trabajo' sobre um carrinho com rodas. 'Pasión': o homem vai sentado sobre a caixa 'Trabajo', que tem rodas e guidão e corre em velocidade. Assinatura: Yo_Runner.](img/ufsm/2026/prova-3/q40-es-1.png)\n\nFonte: Y0-RUNNER. Trabajo. Publicado em: 11 mar. 2025. Instagram: @yo-runner. Disponível em: https://www.instagram.com/p/DHDJ0WPtw34/?img_index=1. Acesso em: 27 ago. 2025.\n\nTEXTO 02\n\n![Cartum de René Merino: em uma cozinha, um adulto de terno e óculos e uma criança tomam o café da manhã à mesa. O adulto diz: 'No te tomes el desayuno tan rápido o te hará daño'. A criança responde: 'Daño te hace perder al ser amado o fingir que estás bien en un trabajo que odias'.](img/ufsm/2026/prova-3/q40-es-2.png)\n\nFonte: RENE_ESTAMAL. No te tomes el desayuno tan rápico o te hará daño. Publicado em: 19 mar. 2025. Instagram: @rene_estamal. Disponível em: https://www.instagram.com/p/CbSlUjyKNzm/?img_index=1. Acesso em: 27 ago. 2025.\n\nTendo em vista as informações e os recursos linguísticos e multimodais apresentados nos dois textos, é correto afirmar que",
+      "options": [
+        {
+          "text": "as duas publicações realizam uma crítica contundente ao associar o trabalho à obrigação em um contexto de relação interpessoal.",
+          "explanation": "Só o Texto 01 usa a palavra “obligación”, e apenas como uma das três formas de se relacionar com o trabalho, ao lado de vocação e paixão; ali não há relação interpessoal, pois o personagem aparece sozinho."
+        },
+        {
+          "text": "as duas publicações alcançam o efeito de sentido crítico por meio do emprego dos recursos linguísticos e imagéticos de causa-efeito previstos.",
+          "explanation": "No Texto 02 o efeito vem da quebra de expectativa: à advertência banal do adulto, a criança responde com uma reflexão inesperada sobre o que realmente faz mal. Não se trata de causa e efeito previstos."
+        },
+        {
+          "text": "somente uma publicação apresenta a ideia de melhor viabilidade de exercício de uma profissão condicionada a questões vinculadas às preferências e habilidades pessoais.",
+          "explanation": "As duas tocam nessa ideia: o Texto 01 mostra o trabalho ficando leve com a vocação e a paixão, e o Texto 02 aponta o dano de fingir estar bem “en un trabajo que odias”."
+        },
+        {
+          "text": "somente uma das publicações apresenta uma articulação totalmente positiva entre trabalho e indivíduo, independentemente dos fatores situacionais.",
+          "explanation": "Nenhuma delas é totalmente positiva: o Texto 01 inclui o trabalho como obrigação, um peso arrastado, e o Texto 02 fala de um trabalho odiado."
+        },
+        {
+          "text": "as duas publicações constroem a reflexão sobre o vínculo trabalho e indivíduo, aludindo aos mecanismos e ao simbolismo das construções de outros gêneros textuais, em que o Texto 01 está para “poesia visual” assim como o Texto 02 está para “crônica”.",
+          "explanation": "Correta. O Texto 01 condensa a ideia em três palavras e três imagens simbólicas (a caixa arrastada, puxada sobre rodas e, por fim, guiada), como na poesia visual; o Texto 02 parte de uma cena cotidiana, o café da manhã, para chegar a uma reflexão sobre a vida, como faz a crônica."
+        }
+      ],
+      "correct": "E"
+    },
+    {
+      "key": "ufsm-2026-p3-q38-en",
+      "source": "Vestibular UFSM 2026 – Prova 3, questão 38, inglês (UFSM)",
+      "kind": "Objective",
+      "subject": "ingles",
+      "statement": "Para responder às questões 38 e 39, leia o texto a seguir.\n\n**Future of Jobs Report 2025: the jobs of the future**\n\n```\n01     About 170 million new jobs will be created by\n    global macro trends this decade. That’s according\n    to a new report from the World Economic Forum\n    that delves into the future of work over the next\n05  five years.\n       The Future of Jobs Report 2025 finds that, driven\n    by technological development, the green transition,\n    economic and demographic shifts, the global labour\n    market is being reshaped.\n10     The jobs created are equivalent to 14% of\n    today’s employment. Alongside, 92 million roles will\n    be displaced by these same trends. This means\n    there will be a net employment increase of 78\n    million jobs.\n15     To find out, the report surveyed more than\n    1,000 of the largest employers around the world,\n    representing 22 industry clusters and more than\n    14 million workers.\n    Five jobs of the future\n20     Some jobs are growing fast – in percentage\n    terms, demand for roles driven by technological\n    advancements such as artificial intelligence (AI)\n    is quickly increasing. These jobs include big data\n    specialists, fintech engineers and AI and machine\n25  learning specialists.\n       But what about absolute numbers? Combining\n    estimates from surveyed companies with\n    International Labour Organization employment\n    data, the report lists the 15 professions that will\n30  see the largest net growth and decline.\n       The largest growing jobs are dominated by roles\n    core to many economies.\n       Farmworkers top the list. Green transition\n    trends, including efforts to reduce carbon emissions\n35  and adapt to the climate crisis, will drive growth\n    that will create 34 million additional jobs by 2030,\n    adding to the 200 million farmworkers today.\n    Widening digital access and the rising cost of living\n    are also contributing to the profession’s growth.\n40     Delivery drivers, software developers, building\n    construction workers and shop salespersons\n    complete the top five.\n       Food processing workers also feature among\n    the largest growing jobs, while care jobs –\n45  including nursing professionals, social workers and\n    counselling professionals – are projected to grow\n    significantly over the next five years. This can be\n    explained by demographic trends, especially ageing\n    working-age populations, the report says.\n```\n\nFonte: WORLD ECONOMIC FORUM. Future of Jobs Report 2025: jobs of the future and the skills you need to get them. Publicado em: 08 jan. 2025. Disponível em: https://www.weforum.org/stories/2025/01/future-of-jobs-report-2025-jobs-of-the-future-and-the-skills-you-need-to-get-them/. Acesso em: 20 ago. 2025. (Adaptado)\n\nDe acordo com o relatório do Fórum Econômico Mundial mencionado no texto, considere as afirmativas a seguir.\n\nI → Cerca de 170 milhões de novos empregos serão criados por macrotendências globais nesta década.\n\nII → O desenvolvimento tecnológico, a transição verde e as mudanças econômicas e demográficas estão remodelando o mercado de trabalho global.\n\nIII → Os novos empregos a serem criados serão equivalentes a um aumento de 14% da taxa de empregabilidade atual.\n\nIV → A substituição de 78 milhões de postos de trabalho está relacionada às macrotendências globais apontadas no relatório.\n\nEstá(ão) correta(s)",
+      "options": [
+        {
+          "text": "apenas I.",
+          "explanation": "A I está correta, mas a II também: o texto diz que o mercado global “is being reshaped”, impulsionado por desenvolvimento tecnológico, transição verde e mudanças econômicas e demográficas."
+        },
+        {
+          "text": "apenas I e II.",
+          "explanation": "Correta. A I traduz a primeira frase (“About 170 million new jobs will be created by global macro trends this decade”) e a II, o segundo parágrafo. A III distorce o dado: os empregos criados equivalem a 14% do emprego atual, não a um aumento de 14% na taxa de empregabilidade. A IV troca os números: serão substituídos 92 milhões de postos, e 78 milhões é o saldo líquido."
+        },
+        {
+          "text": "apenas II e III.",
+          "explanation": "A III é falsa: “equivalent to 14% of today’s employment” compara o número de vagas criadas com o total de empregos de hoje, e não descreve aumento de uma taxa de empregabilidade. Falta ainda a I."
+        },
+        {
+          "text": "apenas II e IV.",
+          "explanation": "A IV é falsa: os postos eliminados são 92 milhões (“92 million roles will be displaced”); 78 milhões é o aumento líquido (170 − 92)."
+        },
+        {
+          "text": "apenas I, III e IV.",
+          "explanation": "Só a I é correta nesse conjunto: a III interpreta mal os 14% e a IV confunde o saldo líquido de 78 milhões com os 92 milhões de postos substituídos."
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "key": "ufsm-2026-p3-q39-en",
+      "source": "Vestibular UFSM 2026 – Prova 3, questão 39, inglês (UFSM)",
+      "kind": "Objective",
+      "subject": "ingles",
+      "statement": "Para responder às questões 38 e 39, leia o texto a seguir.\n\n**Future of Jobs Report 2025: the jobs of the future**\n\n```\n01     About 170 million new jobs will be created by\n    global macro trends this decade. That’s according\n    to a new report from the World Economic Forum\n    that delves into the future of work over the next\n05  five years.\n       The Future of Jobs Report 2025 finds that, driven\n    by technological development, the green transition,\n    economic and demographic shifts, the global labour\n    market is being reshaped.\n10     The jobs created are equivalent to 14% of\n    today’s employment. Alongside, 92 million roles will\n    be displaced by these same trends. This means\n    there will be a net employment increase of 78\n    million jobs.\n15     To find out, the report surveyed more than\n    1,000 of the largest employers around the world,\n    representing 22 industry clusters and more than\n    14 million workers.\n    Five jobs of the future\n20     Some jobs are growing fast – in percentage\n    terms, demand for roles driven by technological\n    advancements such as artificial intelligence (AI)\n    is quickly increasing. These jobs include big data\n    specialists, fintech engineers and AI and machine\n25  learning specialists.\n       But what about absolute numbers? Combining\n    estimates from surveyed companies with\n    International Labour Organization employment\n    data, the report lists the 15 professions that will\n30  see the largest net growth and decline.\n       The largest growing jobs are dominated by roles\n    core to many economies.\n       Farmworkers top the list. Green transition\n    trends, including efforts to reduce carbon emissions\n35  and adapt to the climate crisis, will drive growth\n    that will create 34 million additional jobs by 2030,\n    adding to the 200 million farmworkers today.\n    Widening digital access and the rising cost of living\n    are also contributing to the profession’s growth.\n40     Delivery drivers, software developers, building\n    construction workers and shop salespersons\n    complete the top five.\n       Food processing workers also feature among\n    the largest growing jobs, while care jobs –\n45  including nursing professionals, social workers and\n    counselling professionals – are projected to grow\n    significantly over the next five years. This can be\n    explained by demographic trends, especially ageing\n    working-age populations, the report says.\n```\n\nFonte: WORLD ECONOMIC FORUM. Future of Jobs Report 2025: jobs of the future and the skills you need to get them. Publicado em: 08 jan. 2025. Disponível em: https://www.weforum.org/stories/2025/01/future-of-jobs-report-2025-jobs-of-the-future-and-the-skills-you-need-to-get-them/. Acesso em: 20 ago. 2025. (Adaptado)\n\nNo texto, o sufixo “ing” está presente nas palavras “growing“ (ℓ. 20), “increasing” (ℓ. 23), “learning” (ℓ. 25) e “building” (ℓ. 40). Com relação ao acréscimo do sufixo “ing” nas palavras apresentadas, assinale V (verdadeiro) ou F (falso) em cada afirmativa a seguir.\n\n( ) Em “growing” (ℓ. 20) e “increasing” (ℓ. 23), o “ing” formou verbos no tempo verbal presente contínuo.\n\n( ) Em “learning” (ℓ. 25), o “ing” formou um verbo no presente contínuo que caracteriza o processo de aprendizagem de máquina por especialistas.\n\n( ) Em “building” (ℓ. 40), o “ing” formou um substantivo que é caracterizado pelo adjetivo “workers” (ℓ. 41).\n\nA sequência correta é",
+      "options": [
+        {
+          "text": "F – V – F.",
+          "explanation": "Inverte as duas primeiras: “are growing” e “is quickly increasing” são presente contínuo (V), e “learning”, em “machine learning specialists”, é substantivo, não verbo (F)."
+        },
+        {
+          "text": "V – V – F.",
+          "explanation": "A segunda afirmativa é falsa: em “AI and machine learning specialists”, “learning” é um substantivo (aprendizado de máquina) que qualifica “specialists”, sem verbo auxiliar “to be” que formasse o presente contínuo."
+        },
+        {
+          "text": "F – F – V.",
+          "explanation": "A primeira é verdadeira (verbo to be + verbo com -ing) e a terceira é falsa: “workers” é o substantivo principal de “building construction workers”, e não um adjetivo."
+        },
+        {
+          "text": "V – F – F.",
+          "explanation": "Correta. “Some jobs are growing” e “demand... is quickly increasing” trazem o verbo to be + -ing, presente contínuo (V). “Learning”, em “machine learning specialists”, é substantivo (F). Em “building construction workers”, “building” é substantivo, mas “workers” é o núcleo da expressão (trabalhadores da construção de edifícios), não um adjetivo (F)."
+        },
+        {
+          "text": "F – V – V.",
+          "explanation": "Erra as três: “growing” e “increasing” estão no presente contínuo, “learning” é substantivo e “workers” é substantivo, modificado por “building construction”."
+        }
+      ],
+      "correct": "D"
+    },
+    {
+      "key": "ufsm-2026-p3-q40-en",
+      "source": "Vestibular UFSM 2026 – Prova 3, questão 40, inglês (UFSM)",
+      "kind": "Objective",
+      "subject": "ingles",
+      "statement": "O Fórum Econômico Mundial publica, anualmente, um relatório que explora como empregos e habilidades de trabalho se modificam ao longo dos anos. O relatório sobre o futuro dos empregos no mundo apresenta o gráfico a seguir.\n\n![Gráfico de barras horizontais 'Skill assessment mechanisms, 2025−2030', com o subtítulo 'Share of employers surveyed which will prioritize the following ways to assess skills when hiring'. Eixo: Share of employers surveyed (%), de 0 a 100. Barras, de cima para baixo: Evaluation of work experience 81%; Pre-employment tests 48%; Completion of a university degree 43%; Psychometric profiling 34%; Completion of apprenticeships 17%; Completion of short courses and online certificates 14%; Outsourcing to staffing of recruitment firms 12%; We do not assess skills 4%.](img/ufsm/2026/prova-3/q40-en-1.png)\n\nFonte: WORLD ECONOMIC FORUM, Future of Jobs Survey, 2024. Disponível em: https://www.weforum.org/publications/the-future-of-jobs-reporte-2025/in-full/4-workforce-strategies/. Acesso em: 25 set. 2025.\n\nAssinale a alternativa que apresenta uma leitura adequada das informações apresentadas no gráfico.",
+      "options": [
+        {
+          "text": "Diferentes mecanismos de autoavaliação são usados pelos empregadores ao contratar novos funcionários.",
+          "explanation": "O gráfico mostra mecanismos usados pelos empregadores para avaliar as habilidades dos candidatos (“ways to assess skills when hiring”), e não de autoavaliação."
+        },
+        {
+          "text": "A avaliação da experiência no trabalho é a habilidade menos priorizada pelos empregadores ao contratar novos funcionários.",
+          "explanation": "É o contrário: “Evaluation of work experience” é o mecanismo mais priorizado, citado por 81% dos empregadores."
+        },
+        {
+          "text": "A formação universitária equivale a 48% das habilidades mensuradas pelos empregadores ao contratar novos funcionários.",
+          "explanation": "A conclusão de curso universitário aparece com 43%; os 48% são dos testes pré-admissionais. Além disso, os percentuais são de empregadores, não de habilidades."
+        },
+        {
+          "text": "A conclusão de estágios é a quinta habilidade mais mensurada em avaliações pelos empregadores ao contratar novos funcionários.",
+          "explanation": "Correta. “Completion of apprenticeships”, com 17%, é a quinta barra em ordem decrescente, depois de experiência de trabalho (81%), testes pré-admissionais (48%), diploma universitário (43%) e perfil psicométrico (34%)."
+        },
+        {
+          "text": "A taxa de 12% de empregadores não avalia as habilidades de seus contratados.",
+          "explanation": "Os 12% correspondem à terceirização para empresas de recrutamento; quem declara não avaliar habilidades (“We do not assess skills”) são 4%."
+        }
+      ],
+      "correct": "D"
+    }
+  ]
+}

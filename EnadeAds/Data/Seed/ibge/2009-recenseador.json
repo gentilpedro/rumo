@@ -1,0 +1,606 @@
+{
+  "year": 2009,
+  "track": "ibge-recenseador",
+  "questions": [
+    {
+      "key": "ibge-2009-rec-q01",
+      "source": "IBGE 2009 – Recenseador, questão 1 (Cesgranrio)",
+      "kind": "Objective",
+      "subject": "lingua-portuguesa",
+      "statement": "```\n        Os aviões, estou convencida, são as melhores\n    salas de leitura da modernidade — até me pergunto se\n    têm me dado mais prazer como viajante ou como leitora.\n    Ali ninguém nos interrompe, cessam as solicitações\n 5  doméstico/profissionais, o telefone não toca e, na maior\n    parte do tempo, não há sequer um panorama capaz de\n    nos distrair. Além disso, a consciência está tranquila,\n    porque só o fato de estarmos no avião já representa o\n    cumprimento de um dever. Enfim, no avião a leitura\n10  recupera seu status de direito sagrado.\n        Pois bem, estava eu recentemente acima das\n    nuvens, em pleno usufruto desse direito. Lia uma peque-\n    na antologia de literatura fantástica. Cinco contos sobre\n    casas mal-assombradas. E me encontrava bem no meio\n15  de um conto [...] quando o avião aterrissou. Resisti o quan-\n    to pude, fui a última a levantar, mas não houve jeito, tive\n    que fechar o livro e deixar a personagem trancada num\n    quarto enquanto o terrível fantasma esmurrava a porta.\n        Era uma viagem de trabalho, a minha. Tinha\n20  compromisso. Mas atravessei o saguão do aeroporto\n    ainda com aquela angústia gerada pelo conto, olhei o\n    relógio, fiz o cálculo e vi que sim, era possível. Então\n    sentei em uma das tantas poltronas, e bastou-me abrir\n    o livro onde o tinha deixado para, em meio à gente toda\n25  que ia e vinha, em meio ao burburinho e aos chamados\n    do alto-falante, voltar ao escuro silêncio do quarto\n    assombrado, em que atrás da porta um fantasma\n    esmurrava e esmurrava.\n        Quando acabei a leitura e emergi outra vez no\n30  aeroporto, estava duplamente feliz. Feliz por ter acabado\n    a história, por ruminar essa sensação de coisa feita\n    que a leitura nos dá — não de coisa feita por outro e\n    meramente partilhada, mas realizada, como se nós\n    mesmos tivéssemos desenhado de um só traço um ovo\n35  ou um círculo. E feliz porque confirmava que, apesar\n    do olhar profissional crítico, analítico, quase frio com que\n    hoje em dia me aproximo de um texto, apesar de ter\n    marcado aquele conto com várias observações técnicas,\n    eu conservava intacto o verdadeiro prazer da leitura.\n```\n\nCOLASANTI, Marina. **Fragatas para terras distantes.** (com adaptações).\n\nPara Marina Colasanti os aviões “são as melhores salas de leitura da modernidade” (l. 1-2) porque",
+      "options": [
+        {
+          "text": "são confortáveis.",
+          "explanation": "O texto não fala de conforto. O motivo apresentado é a ausência de interrupções e de distrações."
+        },
+        {
+          "text": "oferecem revistas e livros aos passageiros.",
+          "explanation": "A autora lê o livro que levou consigo; o texto não diz que o avião oferece leitura aos passageiros."
+        },
+        {
+          "text": "preservam o leitor dos problemas e incômodos do cotidiano.",
+          "explanation": "Correta. No avião, ninguém interrompe, cessam as solicitações domésticas e profissionais e o telefone não toca: o leitor fica protegido dos incômodos do dia a dia."
+        },
+        {
+          "text": "propiciam silêncio e também belas paisagens.",
+          "explanation": "O texto diz o contrário sobre a paisagem: na maior parte do tempo não há sequer um panorama capaz de distrair."
+        },
+        {
+          "text": "garantem tranquilidade, pois proíbem o uso de celulares durante a viagem.",
+          "explanation": "O texto diz apenas que o telefone não toca; não fala em proibição, e esse é só um dos motivos citados."
+        }
+      ],
+      "correct": "C"
+    },
+    {
+      "key": "ibge-2009-rec-q02",
+      "source": "IBGE 2009 – Recenseador, questão 2 (Cesgranrio)",
+      "kind": "Objective",
+      "subject": "lingua-portuguesa",
+      "statement": "```\n        Os aviões, estou convencida, são as melhores\n    salas de leitura da modernidade — até me pergunto se\n    têm me dado mais prazer como viajante ou como leitora.\n    Ali ninguém nos interrompe, cessam as solicitações\n 5  doméstico/profissionais, o telefone não toca e, na maior\n    parte do tempo, não há sequer um panorama capaz de\n    nos distrair. Além disso, a consciência está tranquila,\n    porque só o fato de estarmos no avião já representa o\n    cumprimento de um dever. Enfim, no avião a leitura\n10  recupera seu status de direito sagrado.\n        Pois bem, estava eu recentemente acima das\n    nuvens, em pleno usufruto desse direito. Lia uma peque-\n    na antologia de literatura fantástica. Cinco contos sobre\n    casas mal-assombradas. E me encontrava bem no meio\n15  de um conto [...] quando o avião aterrissou. Resisti o quan-\n    to pude, fui a última a levantar, mas não houve jeito, tive\n    que fechar o livro e deixar a personagem trancada num\n    quarto enquanto o terrível fantasma esmurrava a porta.\n        Era uma viagem de trabalho, a minha. Tinha\n20  compromisso. Mas atravessei o saguão do aeroporto\n    ainda com aquela angústia gerada pelo conto, olhei o\n    relógio, fiz o cálculo e vi que sim, era possível. Então\n    sentei em uma das tantas poltronas, e bastou-me abrir\n    o livro onde o tinha deixado para, em meio à gente toda\n25  que ia e vinha, em meio ao burburinho e aos chamados\n    do alto-falante, voltar ao escuro silêncio do quarto\n    assombrado, em que atrás da porta um fantasma\n    esmurrava e esmurrava.\n        Quando acabei a leitura e emergi outra vez no\n30  aeroporto, estava duplamente feliz. Feliz por ter acabado\n    a história, por ruminar essa sensação de coisa feita\n    que a leitura nos dá — não de coisa feita por outro e\n    meramente partilhada, mas realizada, como se nós\n    mesmos tivéssemos desenhado de um só traço um ovo\n35  ou um círculo. E feliz porque confirmava que, apesar\n    do olhar profissional crítico, analítico, quase frio com que\n    hoje em dia me aproximo de um texto, apesar de ter\n    marcado aquele conto com várias observações técnicas,\n    eu conservava intacto o verdadeiro prazer da leitura.\n```\n\nCOLASANTI, Marina. **Fragatas para terras distantes.** (com adaptações).\n\nNa frase “...vi que sim, era possível.” (ℓ. 22), a autora viu que era possível",
+      "options": [
+        {
+          "text": "ler todo o conto antes de descer do avião.",
+          "explanation": "Ela já tinha descido do avião: resistiu, foi a última a se levantar e teve de fechar o livro."
+        },
+        {
+          "text": "concluir a leitura do conto sem atrasar seu compromissso de trabalho.",
+          "explanation": "Correta. Ela tinha compromisso, olhou o relógio, fez o cálculo e viu que dava tempo; então sentou no saguão e terminou o conto."
+        },
+        {
+          "text": "achar um lugar tranquilo no saguão do aeroporto.",
+          "explanation": "O saguão não era tranquilo: ela leu em meio à gente que ia e vinha, ao burburinho e aos chamados do alto-falante."
+        },
+        {
+          "text": "cancelar ou adiar seu compromisso de trabalho.",
+          "explanation": "Ela não cancela nem adia nada; olha o relógio justamente para saber se o tempo dá para ler antes do compromisso."
+        },
+        {
+          "text": "dominar sua ansiedade e concluir mais tarde a leitura do conto.",
+          "explanation": "Ela não deixa para depois: senta em uma poltrona do aeroporto e termina a leitura ali mesmo."
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "key": "ibge-2009-rec-q03",
+      "source": "IBGE 2009 – Recenseador, questão 3 (Cesgranrio)",
+      "kind": "Objective",
+      "subject": "lingua-portuguesa",
+      "statement": "```\n        Os aviões, estou convencida, são as melhores\n    salas de leitura da modernidade — até me pergunto se\n    têm me dado mais prazer como viajante ou como leitora.\n    Ali ninguém nos interrompe, cessam as solicitações\n 5  doméstico/profissionais, o telefone não toca e, na maior\n    parte do tempo, não há sequer um panorama capaz de\n    nos distrair. Além disso, a consciência está tranquila,\n    porque só o fato de estarmos no avião já representa o\n    cumprimento de um dever. Enfim, no avião a leitura\n10  recupera seu status de direito sagrado.\n        Pois bem, estava eu recentemente acima das\n    nuvens, em pleno usufruto desse direito. Lia uma peque-\n    na antologia de literatura fantástica. Cinco contos sobre\n    casas mal-assombradas. E me encontrava bem no meio\n15  de um conto [...] quando o avião aterrissou. Resisti o quan-\n    to pude, fui a última a levantar, mas não houve jeito, tive\n    que fechar o livro e deixar a personagem trancada num\n    quarto enquanto o terrível fantasma esmurrava a porta.\n        Era uma viagem de trabalho, a minha. Tinha\n20  compromisso. Mas atravessei o saguão do aeroporto\n    ainda com aquela angústia gerada pelo conto, olhei o\n    relógio, fiz o cálculo e vi que sim, era possível. Então\n    sentei em uma das tantas poltronas, e bastou-me abrir\n    o livro onde o tinha deixado para, em meio à gente toda\n25  que ia e vinha, em meio ao burburinho e aos chamados\n    do alto-falante, voltar ao escuro silêncio do quarto\n    assombrado, em que atrás da porta um fantasma\n    esmurrava e esmurrava.\n        Quando acabei a leitura e emergi outra vez no\n30  aeroporto, estava duplamente feliz. Feliz por ter acabado\n    a história, por ruminar essa sensação de coisa feita\n    que a leitura nos dá — não de coisa feita por outro e\n    meramente partilhada, mas realizada, como se nós\n    mesmos tivéssemos desenhado de um só traço um ovo\n35  ou um círculo. E feliz porque confirmava que, apesar\n    do olhar profissional crítico, analítico, quase frio com que\n    hoje em dia me aproximo de um texto, apesar de ter\n    marcado aquele conto com várias observações técnicas,\n    eu conservava intacto o verdadeiro prazer da leitura.\n```\n\nCOLASANTI, Marina. **Fragatas para terras distantes.** (com adaptações).\n\nA repetição e o emprego do pretérito imperfeito do indicativo em “...atrás da porta um fantasma **esmurrava e esmurrava**.” (ℓ. 27-28) dão ideia de ação",
+      "options": [
+        {
+          "text": "concluída.",
+          "explanation": "Ação concluída se expressa com o pretérito perfeito (esmurrou). O imperfeito mostra a ação em andamento."
+        },
+        {
+          "text": "prestes a terminar.",
+          "explanation": "Nada na frase indica que a ação está acabando; a repetição do verbo sugere que ela continua."
+        },
+        {
+          "text": "contínua, insistente.",
+          "explanation": "Correta. O pretérito imperfeito (esmurrava) indica ação que se prolonga no passado, e repetir o verbo reforça a insistência: o fantasma não parava de esmurrar."
+        },
+        {
+          "text": "intermitente, interrompida.",
+          "explanation": "A repetição não mostra pausas; ao contrário, mostra que a ação seguia sem parar."
+        },
+        {
+          "text": "de curta duração.",
+          "explanation": "O imperfeito e a repetição do verbo alongam a ação, dando ideia de longa duração."
+        }
+      ],
+      "correct": "C"
+    },
+    {
+      "key": "ibge-2009-rec-q04",
+      "source": "IBGE 2009 – Recenseador, questão 4 (Cesgranrio)",
+      "kind": "Objective",
+      "subject": "lingua-portuguesa",
+      "statement": "```\n        Os aviões, estou convencida, são as melhores\n    salas de leitura da modernidade — até me pergunto se\n    têm me dado mais prazer como viajante ou como leitora.\n    Ali ninguém nos interrompe, cessam as solicitações\n 5  doméstico/profissionais, o telefone não toca e, na maior\n    parte do tempo, não há sequer um panorama capaz de\n    nos distrair. Além disso, a consciência está tranquila,\n    porque só o fato de estarmos no avião já representa o\n    cumprimento de um dever. Enfim, no avião a leitura\n10  recupera seu status de direito sagrado.\n        Pois bem, estava eu recentemente acima das\n    nuvens, em pleno usufruto desse direito. Lia uma peque-\n    na antologia de literatura fantástica. Cinco contos sobre\n    casas mal-assombradas. E me encontrava bem no meio\n15  de um conto [...] quando o avião aterrissou. Resisti o quan-\n    to pude, fui a última a levantar, mas não houve jeito, tive\n    que fechar o livro e deixar a personagem trancada num\n    quarto enquanto o terrível fantasma esmurrava a porta.\n        Era uma viagem de trabalho, a minha. Tinha\n20  compromisso. Mas atravessei o saguão do aeroporto\n    ainda com aquela angústia gerada pelo conto, olhei o\n    relógio, fiz o cálculo e vi que sim, era possível. Então\n    sentei em uma das tantas poltronas, e bastou-me abrir\n    o livro onde o tinha deixado para, em meio à gente toda\n25  que ia e vinha, em meio ao burburinho e aos chamados\n    do alto-falante, voltar ao escuro silêncio do quarto\n    assombrado, em que atrás da porta um fantasma\n    esmurrava e esmurrava.\n        Quando acabei a leitura e emergi outra vez no\n30  aeroporto, estava duplamente feliz. Feliz por ter acabado\n    a história, por ruminar essa sensação de coisa feita\n    que a leitura nos dá — não de coisa feita por outro e\n    meramente partilhada, mas realizada, como se nós\n    mesmos tivéssemos desenhado de um só traço um ovo\n35  ou um círculo. E feliz porque confirmava que, apesar\n    do olhar profissional crítico, analítico, quase frio com que\n    hoje em dia me aproximo de um texto, apesar de ter\n    marcado aquele conto com várias observações técnicas,\n    eu conservava intacto o verdadeiro prazer da leitura.\n```\n\nCOLASANTI, Marina. **Fragatas para terras distantes.** (com adaptações).\n\nMergulhada na leitura de um livro de contos, durante uma viagem de trabalho, a autora transita entre o mundo da realidade e o mundo da imaginação. A passagem em que ela faz referência ao seu retorno ao mundo da realidade é",
+      "options": [
+        {
+          "text": "“Ali ninguém nos interrompe,” (ℓ. 4)",
+          "explanation": "Esse trecho explica por que o avião é bom para ler; não fala de voltar à realidade."
+        },
+        {
+          "text": "“Era uma viagem de trabalho,” (ℓ. 19)",
+          "explanation": "O trecho apenas informa o motivo da viagem; não marca a passagem da imaginação para a realidade."
+        },
+        {
+          "text": "“voltar ao escuro silêncio do quarto assombrado,” (ℓ. 26-27)",
+          "explanation": "Aqui acontece o contrário: ela volta ao mundo da imaginação, ao quarto do conto."
+        },
+        {
+          "text": "“...atrás da porta um fantasma esmurrava e esmurrava.” (ℓ. 27-28)",
+          "explanation": "Esse trecho ainda pertence à história que ela lê, isto é, ao mundo da imaginação."
+        },
+        {
+          "text": "“...e emergi outra vez no aeroporto,” (ℓ. 29-30)",
+          "explanation": "Correta. Emergir é vir à tona: ao acabar a leitura, ela sai do mundo do conto e volta ao aeroporto, o mundo real."
+        }
+      ],
+      "correct": "E"
+    },
+    {
+      "key": "ibge-2009-rec-q05",
+      "source": "IBGE 2009 – Recenseador, questão 5 (Cesgranrio)",
+      "kind": "Objective",
+      "subject": "lingua-portuguesa",
+      "statement": "```\n        Os aviões, estou convencida, são as melhores\n    salas de leitura da modernidade — até me pergunto se\n    têm me dado mais prazer como viajante ou como leitora.\n    Ali ninguém nos interrompe, cessam as solicitações\n 5  doméstico/profissionais, o telefone não toca e, na maior\n    parte do tempo, não há sequer um panorama capaz de\n    nos distrair. Além disso, a consciência está tranquila,\n    porque só o fato de estarmos no avião já representa o\n    cumprimento de um dever. Enfim, no avião a leitura\n10  recupera seu status de direito sagrado.\n        Pois bem, estava eu recentemente acima das\n    nuvens, em pleno usufruto desse direito. Lia uma peque-\n    na antologia de literatura fantástica. Cinco contos sobre\n    casas mal-assombradas. E me encontrava bem no meio\n15  de um conto [...] quando o avião aterrissou. Resisti o quan-\n    to pude, fui a última a levantar, mas não houve jeito, tive\n    que fechar o livro e deixar a personagem trancada num\n    quarto enquanto o terrível fantasma esmurrava a porta.\n        Era uma viagem de trabalho, a minha. Tinha\n20  compromisso. Mas atravessei o saguão do aeroporto\n    ainda com aquela angústia gerada pelo conto, olhei o\n    relógio, fiz o cálculo e vi que sim, era possível. Então\n    sentei em uma das tantas poltronas, e bastou-me abrir\n    o livro onde o tinha deixado para, em meio à gente toda\n25  que ia e vinha, em meio ao burburinho e aos chamados\n    do alto-falante, voltar ao escuro silêncio do quarto\n    assombrado, em que atrás da porta um fantasma\n    esmurrava e esmurrava.\n        Quando acabei a leitura e emergi outra vez no\n30  aeroporto, estava duplamente feliz. Feliz por ter acabado\n    a história, por ruminar essa sensação de coisa feita\n    que a leitura nos dá — não de coisa feita por outro e\n    meramente partilhada, mas realizada, como se nós\n    mesmos tivéssemos desenhado de um só traço um ovo\n35  ou um círculo. E feliz porque confirmava que, apesar\n    do olhar profissional crítico, analítico, quase frio com que\n    hoje em dia me aproximo de um texto, apesar de ter\n    marcado aquele conto com várias observações técnicas,\n    eu conservava intacto o verdadeiro prazer da leitura.\n```\n\nCOLASANTI, Marina. **Fragatas para terras distantes.** (com adaptações).\n\nNo último parágrafo do texto, Marina Colasanti",
+      "options": [
+        {
+          "text": "reflete sobre as suas emoções de leitora.",
+          "explanation": "Correta. Ela conta que estava duplamente feliz: por ter acabado a história e por confirmar que conservava o verdadeiro prazer da leitura."
+        },
+        {
+          "text": "faz críticas ao desfecho da história.",
+          "explanation": "Ela não comenta o final do conto; fala da felicidade de ter terminado a leitura."
+        },
+        {
+          "text": "procura estimular o gosto pela leitura.",
+          "explanation": "Ela relata o que sentiu; não se dirige ao leitor para aconselhar ou incentivar."
+        },
+        {
+          "text": "confessa-se apreciadora de histórias fantásticas.",
+          "explanation": "O último parágrafo fala do prazer da leitura em geral, e não de preferência por histórias fantásticas."
+        },
+        {
+          "text": "faz restrições a esse tipo de literatura.",
+          "explanation": "Não há restrição alguma; o tom é de felicidade com a leitura."
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "key": "ibge-2009-rec-q06",
+      "source": "IBGE 2009 – Recenseador, questão 6 (Cesgranrio)",
+      "kind": "Objective",
+      "subject": "lingua-portuguesa",
+      "statement": "```\n        Os aviões, estou convencida, são as melhores\n    salas de leitura da modernidade — até me pergunto se\n    têm me dado mais prazer como viajante ou como leitora.\n    Ali ninguém nos interrompe, cessam as solicitações\n 5  doméstico/profissionais, o telefone não toca e, na maior\n    parte do tempo, não há sequer um panorama capaz de\n    nos distrair. Além disso, a consciência está tranquila,\n    porque só o fato de estarmos no avião já representa o\n    cumprimento de um dever. Enfim, no avião a leitura\n10  recupera seu status de direito sagrado.\n        Pois bem, estava eu recentemente acima das\n    nuvens, em pleno usufruto desse direito. Lia uma peque-\n    na antologia de literatura fantástica. Cinco contos sobre\n    casas mal-assombradas. E me encontrava bem no meio\n15  de um conto [...] quando o avião aterrissou. Resisti o quan-\n    to pude, fui a última a levantar, mas não houve jeito, tive\n    que fechar o livro e deixar a personagem trancada num\n    quarto enquanto o terrível fantasma esmurrava a porta.\n        Era uma viagem de trabalho, a minha. Tinha\n20  compromisso. Mas atravessei o saguão do aeroporto\n    ainda com aquela angústia gerada pelo conto, olhei o\n    relógio, fiz o cálculo e vi que sim, era possível. Então\n    sentei em uma das tantas poltronas, e bastou-me abrir\n    o livro onde o tinha deixado para, em meio à gente toda\n25  que ia e vinha, em meio ao burburinho e aos chamados\n    do alto-falante, voltar ao escuro silêncio do quarto\n    assombrado, em que atrás da porta um fantasma\n    esmurrava e esmurrava.\n        Quando acabei a leitura e emergi outra vez no\n30  aeroporto, estava duplamente feliz. Feliz por ter acabado\n    a história, por ruminar essa sensação de coisa feita\n    que a leitura nos dá — não de coisa feita por outro e\n    meramente partilhada, mas realizada, como se nós\n    mesmos tivéssemos desenhado de um só traço um ovo\n35  ou um círculo. E feliz porque confirmava que, apesar\n    do olhar profissional crítico, analítico, quase frio com que\n    hoje em dia me aproximo de um texto, apesar de ter\n    marcado aquele conto com várias observações técnicas,\n    eu conservava intacto o verdadeiro prazer da leitura.\n```\n\nCOLASANTI, Marina. **Fragatas para terras distantes.** (com adaptações).\n\nObserve a frase e a ilustração.\n\n“eu conservava **intacto** o verdadeiro prazer da leitura.” (ℓ. 39)\n\n![Charge: uma pessoa de braços abertos diante de montanhas, rio, árvores e pássaros diz, em um balão: “Esta paisagem continua intacta.”](img/ibge/2009/q06-1.png)\n\nAo comparar o significado das palavras **intacto** (l. 39) e **intacta**, na frase do texto e na frase da ilustração, identifica-se que possuem os sentidos de",
+      "options": [
+        {
+          "text": "na frase: incólume; na ilustração: inconsistente",
+          "explanation": "Incólume (ileso, inteiro) até serve para a frase, mas inconsistente quer dizer sem firmeza, o que não é o sentido de intacta."
+        },
+        {
+          "text": "na frase: desprezado; na ilustração: pura",
+          "explanation": "Desprezado é o oposto do que a autora diz: ela conservou o prazer da leitura, não o abandonou."
+        },
+        {
+          "text": "na frase: incauto; na ilustração: inatingível",
+          "explanation": "Incauto é quem não tem cautela, e inatingível é o que não se pode alcançar. Nenhum dos dois equivale a intacto."
+        },
+        {
+          "text": "na frase: intocado; na ilustração: preservada",
+          "explanation": "Correta. Intacto é aquilo em que não se tocou, que ficou inteiro. O prazer da leitura continuou intocado, e a paisagem continua preservada, sem alteração."
+        },
+        {
+          "text": "na frase: inatingido; na ilustração: congelada",
+          "explanation": "Inatingido até se aproxima do sentido da frase, mas congelada não tem relação com intacta: a paisagem está conservada, e não gelada."
+        }
+      ],
+      "correct": "D"
+    },
+    {
+      "key": "ibge-2009-rec-q07",
+      "source": "IBGE 2009 – Recenseador, questão 7 (Cesgranrio)",
+      "kind": "Objective",
+      "subject": "lingua-portuguesa",
+      "statement": "Das palavras abaixo, a única que se grafa com **s** é",
+      "options": [
+        {
+          "text": "profissionali ___ ar.",
+          "explanation": "Profissionalizar se escreve com z: verbo formado de profissional mais o sufixo -izar."
+        },
+        {
+          "text": "pompo ___ o.",
+          "explanation": "Correta. Pomposo se escreve com s: o sufixo -oso, que forma adjetivos (gostoso, famoso, pomposo), é sempre com s."
+        },
+        {
+          "text": "profeti ___ ar.",
+          "explanation": "Profetizar se escreve com z: verbo formado de profeta mais o sufixo -izar."
+        },
+        {
+          "text": "profunde ___ a.",
+          "explanation": "Profundeza se escreve com z: substantivo formado do adjetivo profundo mais o sufixo -eza, como beleza e tristeza."
+        },
+        {
+          "text": "proe ___ a.",
+          "explanation": "Proeza se escreve com z, como os substantivos terminados em -eza."
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "key": "ibge-2009-rec-q08",
+      "source": "IBGE 2009 – Recenseador, questão 8 (Cesgranrio)",
+      "kind": "Objective",
+      "subject": "lingua-portuguesa",
+      "statement": "A concordância verbal segue a norma culta da língua em:",
+      "options": [
+        {
+          "text": "Restava-lhe poucos minutos para a leitura.",
+          "explanation": "O sujeito é “poucos minutos”, no plural; o verbo deve concordar: Restavam-lhe poucos minutos."
+        },
+        {
+          "text": "Já era onze horas quando o avião deixou a cidade.",
+          "explanation": "Na indicação de horas, o verbo ser concorda com o número: Já eram onze horas."
+        },
+        {
+          "text": "Haviam observações técnicas anotadas no livro.",
+          "explanation": "O verbo haver com sentido de existir é impessoal e fica no singular: Havia observações técnicas."
+        },
+        {
+          "text": "Atravessara o saguão alguns turistas e a escritora.",
+          "explanation": "O sujeito é “alguns turistas e a escritora”, no plural; o verbo deve ir para o plural: Atravessaram o saguão."
+        },
+        {
+          "text": "Fazia três anos que não viajava a trabalho.",
+          "explanation": "Correta. O verbo fazer indicando tempo decorrido é impessoal (não tem sujeito) e fica sempre no singular: fazia três anos."
+        }
+      ],
+      "correct": "E"
+    },
+    {
+      "key": "ibge-2009-rec-q09",
+      "source": "IBGE 2009 – Recenseador, questão 9 (Cesgranrio)",
+      "kind": "Objective",
+      "subject": "lingua-portuguesa",
+      "statement": "```\n        Os aviões, estou convencida, são as melhores\n    salas de leitura da modernidade — até me pergunto se\n    têm me dado mais prazer como viajante ou como leitora.\n    Ali ninguém nos interrompe, cessam as solicitações\n 5  doméstico/profissionais, o telefone não toca e, na maior\n    parte do tempo, não há sequer um panorama capaz de\n    nos distrair. Além disso, a consciência está tranquila,\n    porque só o fato de estarmos no avião já representa o\n    cumprimento de um dever. Enfim, no avião a leitura\n10  recupera seu status de direito sagrado.\n        Pois bem, estava eu recentemente acima das\n    nuvens, em pleno usufruto desse direito. Lia uma peque-\n    na antologia de literatura fantástica. Cinco contos sobre\n    casas mal-assombradas. E me encontrava bem no meio\n15  de um conto [...] quando o avião aterrissou. Resisti o quan-\n    to pude, fui a última a levantar, mas não houve jeito, tive\n    que fechar o livro e deixar a personagem trancada num\n    quarto enquanto o terrível fantasma esmurrava a porta.\n        Era uma viagem de trabalho, a minha. Tinha\n20  compromisso. Mas atravessei o saguão do aeroporto\n    ainda com aquela angústia gerada pelo conto, olhei o\n    relógio, fiz o cálculo e vi que sim, era possível. Então\n    sentei em uma das tantas poltronas, e bastou-me abrir\n    o livro onde o tinha deixado para, em meio à gente toda\n25  que ia e vinha, em meio ao burburinho e aos chamados\n    do alto-falante, voltar ao escuro silêncio do quarto\n    assombrado, em que atrás da porta um fantasma\n    esmurrava e esmurrava.\n        Quando acabei a leitura e emergi outra vez no\n30  aeroporto, estava duplamente feliz. Feliz por ter acabado\n    a história, por ruminar essa sensação de coisa feita\n    que a leitura nos dá — não de coisa feita por outro e\n    meramente partilhada, mas realizada, como se nós\n    mesmos tivéssemos desenhado de um só traço um ovo\n35  ou um círculo. E feliz porque confirmava que, apesar\n    do olhar profissional crítico, analítico, quase frio com que\n    hoje em dia me aproximo de um texto, apesar de ter\n    marcado aquele conto com várias observações técnicas,\n    eu conservava intacto o verdadeiro prazer da leitura.\n```\n\nCOLASANTI, Marina. **Fragatas para terras distantes.** (com adaptações).\n\nAs palavras em destaque em “... que, apesar do **olhar** profissional **crítico**, analítico,” (l. 35-36) são classificadas, respectivamente, como:",
+      "options": [
+        {
+          "text": "substantivo  e adjetivo.",
+          "explanation": "Correta. “Olhar” vem com artigo (do = de + o) e nomeia algo: é substantivo. “Crítico” dá uma característica a esse olhar: é adjetivo."
+        },
+        {
+          "text": "substantivo e substantivo.",
+          "explanation": "“Olhar” é substantivo, mas “crítico” aqui caracteriza o olhar, portanto é adjetivo."
+        },
+        {
+          "text": "adjetivo e substantivo.",
+          "explanation": "É o inverso: “olhar” é o nome (substantivo) e “crítico” é a característica (adjetivo)."
+        },
+        {
+          "text": "verbo e adjetivo.",
+          "explanation": "“Olhar” costuma ser verbo, mas aqui vem depois do artigo (“do olhar”) e funciona como substantivo."
+        },
+        {
+          "text": "verbo e substantivo.",
+          "explanation": "“Olhar” está substantivado pelo artigo, e “crítico” caracteriza o olhar, portanto é adjetivo."
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "key": "ibge-2009-rec-q10",
+      "source": "IBGE 2009 – Recenseador, questão 10 (Cesgranrio)",
+      "kind": "Objective",
+      "subject": "lingua-portuguesa",
+      "statement": "No saguão de uma área de embarque, uma passageira se deparou com o seguinte aviso:\n\n![Aviso com um espaço em branco no lugar de uma palavra: “ÁREA PARA (espaço em branco) REVISTAS E JORNAIS”](img/ibge/2009/q10-1.png)\n\nA passageira ficou confusa quanto à correção da forma verbal que completaria a frase.\n\nApós muito raciocinar, concluiu que a forma correta é",
+      "options": [
+        {
+          "text": "foliar.",
+          "explanation": "Foliar existe, mas com outros sentidos (relativo a folhas, ou brincar na folia). Virar as folhas de uma revista é folhear."
+        },
+        {
+          "text": "folear.",
+          "explanation": "Essa grafia não existe: o verbo vem de folha, com lh."
+        },
+        {
+          "text": "folhiar.",
+          "explanation": "O verbo termina em -ear, e não em -iar: folhear, como passear."
+        },
+        {
+          "text": "folhear.",
+          "explanation": "Correta. Folhear vem de folha mais a terminação -ear e significa virar as folhas de livros, revistas e jornais."
+        },
+        {
+          "text": "folheiar.",
+          "explanation": "Não há i no infinitivo. O i só aparece em formas como folheio e folheia."
+        }
+      ],
+      "correct": "D"
+    },
+    {
+      "key": "ibge-2009-rec-q11",
+      "source": "IBGE 2009 – Recenseador, questão 11 (Cesgranrio)",
+      "kind": "Objective",
+      "subject": "matematica",
+      "statement": "“A fundação da cidade de Rio Claro ocorreu em 10 de junho de 1827 e, em 1845, a cidade tornou-se município. (...) Localizada a leste do Estado de São Paulo, a cidade está distante da capital 157 km em linha reta.”\n\nDisponível em: http://www.nossosaopaulo.com.br/Reg_09/Reg09_RioClaro.htm\n\nSe, viajando-se pelas rodovias Bandeirantes, Anhanguera e Washington Luiz percorre-se 173 km para se chegar de Rio Claro à capital, qual é, em km, a diferença entre esta distância rodoviária e a distância em linha reta?",
+      "options": [
+        {
+          "text": "14",
+          "explanation": "Conferindo pela soma: 157 + 14 = 171, e a distância pelas rodovias é 173 km."
+        },
+        {
+          "text": "16",
+          "explanation": "Correta. 173 − 157 = 16 km. Conferindo: 157 + 16 = 173."
+        },
+        {
+          "text": "20",
+          "explanation": "Conferindo pela soma: 157 + 20 = 177, que passa de 173."
+        },
+        {
+          "text": "24",
+          "explanation": "Conferindo pela soma: 157 + 24 = 181, que passa de 173."
+        },
+        {
+          "text": "26",
+          "explanation": "Conferindo pela soma: 157 + 26 = 183. É o erro de esquecer o “empresta um” na subtração."
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "key": "ibge-2009-rec-q12",
+      "source": "IBGE 2009 – Recenseador, questão 12 (Cesgranrio)",
+      "kind": "Objective",
+      "subject": "matematica",
+      "statement": "“Espanha já perdeu 90% das suas geleiras.\n\nAs montanhas dos Pirineus perderam 90% de suas geleiras ao longo do último século, com consequências para o abastecimento de água na Espanha. (...) Há cem anos, as geleiras cobriam 3.300 hectares dos Pirineus.”\n\n**Jornal O Globo**, 25 fev. 2009.\n\nDe acordo com as informações da reportagem acima, qual é, em hectares, a área atual de geleiras nas montanhas dos Pirineus?",
+      "options": [
+        {
+          "text": "330",
+          "explanation": "Correta. Se 90% se perderam, restam 10%. 10% de 3.300 = 3.300 ÷ 10 = 330 hectares."
+        },
+        {
+          "text": "660",
+          "explanation": "Esse valor é 20% de 3.300. Restaram 10% (100% − 90%), isto é, 330 hectares."
+        },
+        {
+          "text": "970",
+          "explanation": "Restaram 10% de 3.300, que são 330 hectares; 970 não corresponde a essa conta."
+        },
+        {
+          "text": "1.250",
+          "explanation": "Restaram apenas 10% da área de cem anos atrás: 3.300 ÷ 10 = 330 hectares."
+        },
+        {
+          "text": "2.970",
+          "explanation": "Essa é a área perdida (90% de 3.300), e não a que restou. A área atual é 3.300 − 2.970 = 330."
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "key": "ibge-2009-rec-q13",
+      "source": "IBGE 2009 – Recenseador, questão 13 (Cesgranrio)",
+      "kind": "Objective",
+      "subject": "matematica",
+      "statement": "Certo nadador levou 150 segundos para completar uma prova de natação. Esse tempo corresponde a",
+      "options": [
+        {
+          "text": "um minuto e meio.",
+          "explanation": "Um minuto e meio são 60 + 30 = 90 segundos, e não 150. É o erro de ler 150 como 1,50 minuto."
+        },
+        {
+          "text": "dois minutos.",
+          "explanation": "Dois minutos são 2 × 60 = 120 segundos; ainda faltam 30 segundos para 150."
+        },
+        {
+          "text": "dois minutos e meio.",
+          "explanation": "Correta. Cada minuto tem 60 segundos. 150 ÷ 60 = 2 e sobram 30 segundos. Trinta segundos são meio minuto: dois minutos e meio."
+        },
+        {
+          "text": "três minutos.",
+          "explanation": "Três minutos são 3 × 60 = 180 segundos, mais que 150."
+        },
+        {
+          "text": "três minutos e meio.",
+          "explanation": "Três minutos e meio são 180 + 30 = 210 segundos, mais que 150."
+        }
+      ],
+      "correct": "C"
+    },
+    {
+      "key": "ibge-2009-rec-q14",
+      "source": "IBGE 2009 – Recenseador, questão 14 (Cesgranrio)",
+      "kind": "Objective",
+      "subject": "matematica",
+      "statement": "A cidade de Rio Claro tem, aproximadamente, 190 mil habitantes. Nessa cidade, um em cada cinco habitantes tem, no máximo, 10 anos de idade. Quantos são os habitantes de Rio Claro que têm mais de 10 anos de idade?",
+      "options": [
+        {
+          "text": "19 mil",
+          "explanation": "Esse valor é um décimo de 190 mil. A parte até 10 anos é um quinto (38 mil), e a pergunta é sobre os demais."
+        },
+        {
+          "text": "38 mil",
+          "explanation": "Esse é o número dos que têm até 10 anos (190 ÷ 5 = 38). A pergunta é sobre os que têm mais de 10 anos."
+        },
+        {
+          "text": "72 mil",
+          "explanation": "Os que têm mais de 10 anos são 4 em cada 5: 190 − 38 = 152 mil."
+        },
+        {
+          "text": "144 mil",
+          "explanation": "Um quinto de 190 mil é 38 mil; os demais são 190 − 38 = 152 mil, e não 144 mil."
+        },
+        {
+          "text": "152 mil",
+          "explanation": "Correta. Um em cada cinco tem até 10 anos: 190 ÷ 5 = 38 mil. Os outros têm mais de 10 anos: 190 − 38 = 152 mil."
+        }
+      ],
+      "correct": "E"
+    },
+    {
+      "key": "ibge-2009-rec-q15",
+      "source": "IBGE 2009 – Recenseador, questão 15 (Cesgranrio)",
+      "kind": "Objective",
+      "subject": "matematica",
+      "statement": "O médico de Dona Maria lhe disse para tomar, diariamente, 2,5 ml de xarope para tosse. Ela foi à farmácia e comprou um frasco contendo 60 ml de xarope. O conteúdo desse frasco será suficiente para quantos dias?",
+      "options": [
+        {
+          "text": "4",
+          "explanation": "Em 4 dias ela toma só 4 × 2,5 = 10 ml; ainda sobraria muito xarope."
+        },
+        {
+          "text": "15",
+          "explanation": "Em 15 dias ela toma 15 × 2,5 = 37,5 ml; ainda sobraria xarope."
+        },
+        {
+          "text": "24",
+          "explanation": "Correta. 60 ÷ 2,5 = 24 dias. Conferindo: 24 × 2,5 = 60 ml."
+        },
+        {
+          "text": "32",
+          "explanation": "Para 32 dias seriam necessários 32 × 2,5 = 80 ml, mais do que os 60 ml do frasco."
+        },
+        {
+          "text": "40",
+          "explanation": "Para 40 dias seriam necessários 40 × 2,5 = 100 ml, mais do que os 60 ml do frasco."
+        }
+      ],
+      "correct": "C"
+    },
+    {
+      "key": "ibge-2009-rec-q16",
+      "source": "IBGE 2009 – Recenseador, questão 16 (Cesgranrio)",
+      "kind": "Objective",
+      "subject": "matematica",
+      "statement": "A tabela abaixo apresenta a previsão do tempo para a cidade de Rio Claro, de 25 de fevereiro a 2 de março de 2009.\n\n![Tabela de previsão do tempo com temperaturas máxima e mínima. Qua 25 Fev: trovoada esparsa, máx 27°C, mín 17°C. Qui 26 Fev: trovoada esparsa, máx 29°C, mín 16°C. Sex 27 Fev: encoberto, máx 29°C, mín 17°C. Sáb 28 Fev: pancadas esparsas, máx 29°C, mín 17°C. Dom 1 Mar: trovoada esparsa, máx 28°C, mín 17°C. Seg 2 Mar: pancadas esparsas, máx 28°C, mín 16°C.](img/ibge/2009/q16-1.png)\n\nA maior diferença entre as temperaturas máxima e mínima é observada no dia",
+      "options": [
+        {
+          "text": "26/02",
+          "explanation": "Correta. Diferenças: 25/02, 27 − 17 = 10; 26/02, 29 − 16 = 13; 27/02 e 28/02, 29 − 17 = 12; 01/03, 28 − 17 = 11; 02/03, 28 − 16 = 12. A maior é 13 °C, em 26/02."
+        },
+        {
+          "text": "27/02",
+          "explanation": "Em 27/02 a diferença é 29 − 17 = 12 °C, menor que os 13 °C de 26/02."
+        },
+        {
+          "text": "28/02",
+          "explanation": "Em 28/02 a diferença é 29 − 17 = 12 °C, menor que os 13 °C de 26/02."
+        },
+        {
+          "text": "01/03",
+          "explanation": "Em 01/03 a diferença é 28 − 17 = 11 °C, menor que os 13 °C de 26/02."
+        },
+        {
+          "text": "02/03",
+          "explanation": "Em 02/03 a diferença é 28 − 16 = 12 °C, menor que os 13 °C de 26/02."
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "key": "ibge-2009-rec-q17",
+      "source": "IBGE 2009 – Recenseador, questão 17 (Cesgranrio)",
+      "kind": "Objective",
+      "subject": "matematica",
+      "statement": "A tabela abaixo apresenta os fusos horários de algumas cidades do mundo, em relação a Brasília, em fevereiro deste ano.\n\n```\nCidade              Hora em relação a Brasília\nAmsterdã                       +4\nBogotá                         −2\nCidade do México               −3\nDubai                          +7\nJohannesburgo                  +5\nLisboa                         +3\nMadri                          +4\nMoscou                         +6\nNova York                      −2\n```\n\nQuando forem 16h em Dubai, que horas serão em Nova York?",
+      "options": [
+        {
+          "text": "5",
+          "explanation": "A diferença entre Dubai (+7) e Nova York (−2) é de 9 horas, e 16 − 9 = 7, não 5."
+        },
+        {
+          "text": "7",
+          "explanation": "Correta. Dubai está 7 horas à frente de Brasília: 16 − 7 = 9h em Brasília. Nova York está 2 horas atrás: 9 − 2 = 7h."
+        },
+        {
+          "text": "9",
+          "explanation": "Essa é a hora em Brasília (16 − 7 = 9). Ainda falta tirar as 2 horas de Nova York."
+        },
+        {
+          "text": "14",
+          "explanation": "Aqui só foram tiradas as 2 horas de Nova York (16 − 2). Antes é preciso tirar as 7 horas que Dubai tem a mais que Brasília."
+        },
+        {
+          "text": "23",
+          "explanation": "Aqui as 7 horas foram somadas (16 + 7). Como Dubai está à frente de Brasília, é preciso subtrair."
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "key": "ibge-2009-rec-q18",
+      "source": "IBGE 2009 – Recenseador, questão 18 (Cesgranrio)",
+      "kind": "Objective",
+      "subject": "matematica",
+      "statement": "Leia o anúncio abaixo, publicado em certo jornal, para responder às questões 18 e 19.\n\n![Anúncio de jornal: Empréstimos. Para autônomos, pensionistas, funcionários públicos, assalariados etc. Liberação no mesmo dia - 1ª parcela para 60 dias. Sem consulta ao SPC e Serasa. Documento registrado em cartório. Ex.: R$ 10 mil - 60 x R$ 220,00; R$ 15 mil - 60 x R$ 330,00; R$ 20 mil - 240 x R$ 170,00. Fone: (11) 27xx-xxxx](img/ibge/2009/q18-1.png)\n\nUma pessoa resolve pegar um empréstimo de R$15.000,00 para pagar como informado no anúncio. Quanto essa pessoa pagará de juros, em reais?",
+      "options": [
+        {
+          "text": "1.600,00",
+          "explanation": "O total pago é 60 × 330 = 19.800, e os juros são 19.800 − 15.000 = 4.800."
+        },
+        {
+          "text": "2.600,00",
+          "explanation": "O total pago é 60 × 330 = 19.800, e os juros são 19.800 − 15.000 = 4.800."
+        },
+        {
+          "text": "3.200,00",
+          "explanation": "Esses são os juros do empréstimo de R$ 10 mil: 60 × 220 = 13.200, e 13.200 − 10.000 = 3.200."
+        },
+        {
+          "text": "4.800,00",
+          "explanation": "Correta. Para R$ 15 mil, o anúncio cobra 60 parcelas de R$ 330,00: 60 × 330 = 19.800. Juros: 19.800 − 15.000 = 4.800."
+        },
+        {
+          "text": "5.200,00",
+          "explanation": "O total pago é 60 × 330 = 19.800; tirando os 15.000 emprestados, sobram 4.800 de juros."
+        }
+      ],
+      "correct": "D"
+    },
+    {
+      "key": "ibge-2009-rec-q19",
+      "source": "IBGE 2009 – Recenseador, questão 19 (Cesgranrio)",
+      "kind": "Objective",
+      "subject": "matematica",
+      "statement": "Leia o anúncio abaixo, publicado em certo jornal, para responder às questões 18 e 19.\n\n![Anúncio de jornal: Empréstimos. Para autônomos, pensionistas, funcionários públicos, assalariados etc. Liberação no mesmo dia - 1ª parcela para 60 dias. Sem consulta ao SPC e Serasa. Documento registrado em cartório. Ex.: R$ 10 mil - 60 x R$ 220,00; R$ 15 mil - 60 x R$ 330,00; R$ 20 mil - 240 x R$ 170,00. Fone: (11) 27xx-xxxx](img/ibge/2009/q19-1.png)\n\nA pessoa que tomar o empréstimo de R$20.0000,00 nas condições indicadas no anúncio pagará de juros, em relação à quantia solicitada, um valor correspondente a",
+      "options": [
+        {
+          "text": "4%",
+          "explanation": "Os juros são de R$ 20.800 sobre R$ 20.000, mais do que o próprio valor emprestado; 4% seriam só R$ 800."
+        },
+        {
+          "text": "44%",
+          "explanation": "Seriam R$ 8.800 de juros. O total pago é 240 × 170 = 40.800, e os juros são 20.800."
+        },
+        {
+          "text": "84%",
+          "explanation": "Seriam R$ 16.800 de juros. O total pago é 240 × 170 = 40.800, e os juros são 20.800."
+        },
+        {
+          "text": "104%",
+          "explanation": "Correta. Para R$ 20 mil são 240 parcelas de R$ 170,00: 240 × 170 = 40.800. Juros: 40.800 − 20.000 = 20.800. Em relação aos 20.000: 20.800 ÷ 20.000 = 1,04 = 104%."
+        },
+        {
+          "text": "204%",
+          "explanation": "Esse é o total pago em relação ao valor emprestado (40.800 ÷ 20.000 = 2,04). Os juros são só a parte que passa dos 20.000: 104%."
+        }
+      ],
+      "correct": "D"
+    },
+    {
+      "key": "ibge-2009-rec-q20",
+      "source": "IBGE 2009 – Recenseador, questão 20 (Cesgranrio)",
+      "kind": "Objective",
+      "subject": "matematica",
+      "statement": "Certa loja ofereceu, de 1 a 10 de fevereiro, 20% de desconto em todas as mercadorias, em relação ao preço cobrado em janeiro. Pensando em vender mais, o dono da loja resolveu aumentar o desconto e, de 11 a 20 de fevereiro, este passou a ser de 30% em relação ao preço de janeiro. Uma pessoa pagou, no dia 9 de fevereiro, R$72,00 por certa mercadoria. Quanto ela pagaria, em reais, pela mesma mercadoria se a compra fosse feita em 12 de fevereiro?",
+      "options": [
+        {
+          "text": "27,00",
+          "explanation": "Esse é o valor do desconto de 30% sobre o preço de janeiro (30% de 90 = 27), e não o preço a pagar."
+        },
+        {
+          "text": "56,00",
+          "explanation": "O preço de janeiro era 72 ÷ 0,80 = 90; com 30% de desconto, paga-se 0,70 × 90 = 63."
+        },
+        {
+          "text": "61,20",
+          "explanation": "O desconto de 30% é sobre o preço de janeiro (R$ 90,00), o que dá 63,00, e não sobre os R$ 72,00 já pagos."
+        },
+        {
+          "text": "63,00",
+          "explanation": "Correta. Com 20% de desconto, paga-se 80% do preço de janeiro: 72 ÷ 0,80 = 90. Com 30% de desconto, paga-se 70%: 0,70 × 90 = 63,00."
+        },
+        {
+          "text": "64,80",
+          "explanation": "Aqui foram tirados mais 10% dos R$ 72,00 (72 − 7,20). Mas os 30% são sobre o preço de janeiro, que era R$ 90,00."
+        }
+      ],
+      "correct": "D"
+    }
+  ]
+}

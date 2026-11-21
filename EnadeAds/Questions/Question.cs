@@ -4,7 +4,7 @@ namespace EnadeAds.Questions;
 
 public enum QuestionKind
 {
-    /// <summary>Cinco alternativas, uma correta.</summary>
+    /// <summary>Quatro ou cinco alternativas, uma correta.</summary>
     Objective = 0,
 
     /// <summary>Resposta escrita, comparada com um padrão de resposta.</summary>
@@ -12,7 +12,7 @@ public enum QuestionKind
 }
 
 /// <summary>
-/// Questão objetiva (cinco alternativas, como no ENADE e no ENEM) ou discursiva (padrão de resposta). A trilha é a da matéria.
+/// Questão objetiva (cinco alternativas, como no ENADE e no ENEM, ou quatro, como na OAB) ou discursiva (padrão de resposta). A trilha é a da matéria.
 /// No PAVE, a sexta alternativa ("Ignoro a resposta") não é guardada: é uma opção do simulado.
 /// </summary>
 public class Question

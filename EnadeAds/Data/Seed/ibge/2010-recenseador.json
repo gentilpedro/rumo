@@ -1,0 +1,526 @@
+{
+  "year": 2010,
+  "track": "ibge-recenseador",
+  "questions": [
+    {
+      "key": "ibge-2010-rec-q01",
+      "source": "IBGE 2010 – Recenseador, questão 1 (Cesgranrio)",
+      "kind": "Objective",
+      "subject": "lingua-portuguesa",
+      "statement": "**Banhos de mar**\n\n```\n        Meu pai acreditava que todos os anos se devia\n    fazer uma cura de banhos de mar. E nunca fui tão feliz\n    quanto naquelas temporadas de banhos em Olinda,\n    Recife.\n 5      Meu pai também acreditava que o banho de mar\n    salutar era o tomado antes de o sol nascer. Como ex-\n    plicar o que eu sentia de presente inaudito em sair de\n    casa de madrugada e pegar o bonde vazio que nos\n    levaria para Olinda ainda na escuridão?\n10      De noite eu ia dormir, mas o coração se mantinha\n    acordado, em expectativa. E de puro alvoroço, eu acor-\n    dava às quatro e pouco da madrugada e despertava o\n    resto da família. Vestíamos depressa e saíamos em\n    jejum. Porque meu pai acreditava que assim devia ser:\n15  em jejum.\n        Saíamos por uma rua toda escura, recebendo a\n    brisa da pré-madrugada. E esperávamos o bonde. Até\n    que lá de longe ouvíamos o seu barulho se aproxi-\n    mando. Eu me sentava bem na ponta do banco: e mi-\n20  nha felicidade começava. Atravessar a cidade escura\n    me dava algo que jamais tive de novo. No bonde mes-\n    mo o tempo começava a clarear e uma luz trêmula de\n    sol escondido nos banhava e banhava o mundo.\n        Eu olhava tudo: as poucas pessoas na rua, a pas-\n25  sagem pelo campo com os bichos-de-pé: “Olhe um\n    porco de verdade!” gritei uma vez, e a frase de des-\n    lumbramento ficou sendo uma das brincadeiras de\n    minha família, que de vez em quando me dizia rindo:\n    “Olhe um porco de verdade.”\n30      Passávamos por cavalos belos que esperavam\n    de pé pelo amanhecer.\n        Eu não sei da infância alheia. Mas essa viagem\n    diária me tornava uma criança completa de alegria. E\n    me serviu como promessa de felicidade para o futuro.\n35  Minha capacidade de ser feliz se revelava. Eu me agar-\n    rava, dentro de uma infância muito infeliz, a essa ilha\n    encantada que era a viagem diária.\n        No bonde mesmo começava a amanhecer. Meu\n    coração batia forte ao nos aproximarmos de Olinda.\n40  Finalmente saltávamos e íamos andando para as ca-\n    binas pisando em terreno já de areia misturada com\n    plantas. Mudávamos de roupa nas cabinas. E nunca\n    um corpo desabrochou como o meu quando eu saía\n    da cabina e sabia o que me esperava.\n45      O mar de Olinda era muito perigoso. Davam-se\n    alguns passos em um fundo raso e de repente caía-se\n    num fundo de dois metros, calculo.\n        O cheiro do mar me invadia e me embriagava. As\n    algas boiavam. Oh, bem sei que não estou transmitin-\n50  do o que significavam como vida pura esses banhos\n    em jejum, com o sol se levantando pálido ainda no\n    horizonte. Bem sei que estou tão emocionada que não\n    consigo escrever. O mar de Olinda era muito iodado e\n    salgado. E eu fazia o que no futuro sempre iria fazer:\n55  com as mãos em concha, eu as mergulhava nas águas,\n    e trazia um pouco do mar até minha boca: eu bebia\n    diariamente o mar, de tal modo queria me unir a ele.\n        Não demorávamos muito. O sol já se levantara\n    todo, e meu pai tinha que trabalhar cedo. Mudávamos\n60  de roupa, e a roupa ficava impregnada de sal. Meus\n    cabelos salgados me colavam na cabeça.\n```\n\nLISPECTOR, Clarice. **Aprendendo a Viver**. Rocco, 2004.\n\nAs viagens a Olinda para o banho de mar eram, para a menina,",
+      "options": [
+        {
+          "text": "simplesmente rotineiras.",
+          "explanation": "As viagens eram diárias, mas nada tinham de simples rotina: a menina ficava em expectativa e acordava de puro alvoroço."
+        },
+        {
+          "text": "extremamente prazerosas.",
+          "explanation": "Correta. A narradora diz que nunca foi tão feliz quanto naquelas temporadas e que a viagem diária a tornava uma criança completa de alegria."
+        },
+        {
+          "text": "bastante cansativas, mas agradáveis.",
+          "explanation": "O texto não fala em cansaço, mesmo com a menina acordando de madrugada; só há alegria e expectativa."
+        },
+        {
+          "text": "monótonas, apesar de divertidas.",
+          "explanation": "Não há monotonia: a menina olhava tudo com deslumbramento, e o coração batia forte ao se aproximar de Olinda."
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "key": "ibge-2010-rec-q02",
+      "source": "IBGE 2010 – Recenseador, questão 2 (Cesgranrio)",
+      "kind": "Objective",
+      "subject": "lingua-portuguesa",
+      "statement": "**Banhos de mar**\n\n```\n        Meu pai acreditava que todos os anos se devia\n    fazer uma cura de banhos de mar. E nunca fui tão feliz\n    quanto naquelas temporadas de banhos em Olinda,\n    Recife.\n 5      Meu pai também acreditava que o banho de mar\n    salutar era o tomado antes de o sol nascer. Como ex-\n    plicar o que eu sentia de presente inaudito em sair de\n    casa de madrugada e pegar o bonde vazio que nos\n    levaria para Olinda ainda na escuridão?\n10      De noite eu ia dormir, mas o coração se mantinha\n    acordado, em expectativa. E de puro alvoroço, eu acor-\n    dava às quatro e pouco da madrugada e despertava o\n    resto da família. Vestíamos depressa e saíamos em\n    jejum. Porque meu pai acreditava que assim devia ser:\n15  em jejum.\n        Saíamos por uma rua toda escura, recebendo a\n    brisa da pré-madrugada. E esperávamos o bonde. Até\n    que lá de longe ouvíamos o seu barulho se aproxi-\n    mando. Eu me sentava bem na ponta do banco: e mi-\n20  nha felicidade começava. Atravessar a cidade escura\n    me dava algo que jamais tive de novo. No bonde mes-\n    mo o tempo começava a clarear e uma luz trêmula de\n    sol escondido nos banhava e banhava o mundo.\n        Eu olhava tudo: as poucas pessoas na rua, a pas-\n25  sagem pelo campo com os bichos-de-pé: “Olhe um\n    porco de verdade!” gritei uma vez, e a frase de des-\n    lumbramento ficou sendo uma das brincadeiras de\n    minha família, que de vez em quando me dizia rindo:\n    “Olhe um porco de verdade.”\n30      Passávamos por cavalos belos que esperavam\n    de pé pelo amanhecer.\n        Eu não sei da infância alheia. Mas essa viagem\n    diária me tornava uma criança completa de alegria. E\n    me serviu como promessa de felicidade para o futuro.\n35  Minha capacidade de ser feliz se revelava. Eu me agar-\n    rava, dentro de uma infância muito infeliz, a essa ilha\n    encantada que era a viagem diária.\n        No bonde mesmo começava a amanhecer. Meu\n    coração batia forte ao nos aproximarmos de Olinda.\n40  Finalmente saltávamos e íamos andando para as ca-\n    binas pisando em terreno já de areia misturada com\n    plantas. Mudávamos de roupa nas cabinas. E nunca\n    um corpo desabrochou como o meu quando eu saía\n    da cabina e sabia o que me esperava.\n45      O mar de Olinda era muito perigoso. Davam-se\n    alguns passos em um fundo raso e de repente caía-se\n    num fundo de dois metros, calculo.\n        O cheiro do mar me invadia e me embriagava. As\n    algas boiavam. Oh, bem sei que não estou transmitin-\n50  do o que significavam como vida pura esses banhos\n    em jejum, com o sol se levantando pálido ainda no\n    horizonte. Bem sei que estou tão emocionada que não\n    consigo escrever. O mar de Olinda era muito iodado e\n    salgado. E eu fazia o que no futuro sempre iria fazer:\n55  com as mãos em concha, eu as mergulhava nas águas,\n    e trazia um pouco do mar até minha boca: eu bebia\n    diariamente o mar, de tal modo queria me unir a ele.\n        Não demorávamos muito. O sol já se levantara\n    todo, e meu pai tinha que trabalhar cedo. Mudávamos\n60  de roupa, e a roupa ficava impregnada de sal. Meus\n    cabelos salgados me colavam na cabeça.\n```\n\nLISPECTOR, Clarice. **Aprendendo a Viver**. Rocco, 2004.\n\nA caminho da praia a família passava por uma área que lembrava um ambiente rural, como se constata pelos parágrafos",
+      "options": [
+        {
+          "text": "segundo e terceiro.",
+          "explanation": "Esses parágrafos falam do banho antes de o sol nascer, da expectativa da menina e da saída em jejum, e não do caminho pelo campo."
+        },
+        {
+          "text": "terceiro e quarto.",
+          "explanation": "Esses parágrafos falam do despertar da família, da rua escura e da espera do bonde, ainda na cidade."
+        },
+        {
+          "text": "quarto e quinto.",
+          "explanation": "O quinto parágrafo cita o campo e o porco, mas o quarto ainda trata da rua escura e da travessia da cidade."
+        },
+        {
+          "text": "quinto e sexto.",
+          "explanation": "Correta. No quinto parágrafo aparecem a passagem pelo campo e o porco de verdade; no sexto, os cavalos que esperavam pelo amanhecer. Campo, porco e cavalos lembram o meio rural."
+        }
+      ],
+      "correct": "D"
+    },
+    {
+      "key": "ibge-2010-rec-q03",
+      "source": "IBGE 2010 – Recenseador, questão 3 (Cesgranrio)",
+      "kind": "Objective",
+      "subject": "lingua-portuguesa",
+      "statement": "**Banhos de mar**\n\n```\n        Meu pai acreditava que todos os anos se devia\n    fazer uma cura de banhos de mar. E nunca fui tão feliz\n    quanto naquelas temporadas de banhos em Olinda,\n    Recife.\n 5      Meu pai também acreditava que o banho de mar\n    salutar era o tomado antes de o sol nascer. Como ex-\n    plicar o que eu sentia de presente inaudito em sair de\n    casa de madrugada e pegar o bonde vazio que nos\n    levaria para Olinda ainda na escuridão?\n10      De noite eu ia dormir, mas o coração se mantinha\n    acordado, em expectativa. E de puro alvoroço, eu acor-\n    dava às quatro e pouco da madrugada e despertava o\n    resto da família. Vestíamos depressa e saíamos em\n    jejum. Porque meu pai acreditava que assim devia ser:\n15  em jejum.\n        Saíamos por uma rua toda escura, recebendo a\n    brisa da pré-madrugada. E esperávamos o bonde. Até\n    que lá de longe ouvíamos o seu barulho se aproxi-\n    mando. Eu me sentava bem na ponta do banco: e mi-\n20  nha felicidade começava. Atravessar a cidade escura\n    me dava algo que jamais tive de novo. No bonde mes-\n    mo o tempo começava a clarear e uma luz trêmula de\n    sol escondido nos banhava e banhava o mundo.\n        Eu olhava tudo: as poucas pessoas na rua, a pas-\n25  sagem pelo campo com os bichos-de-pé: “Olhe um\n    porco de verdade!” gritei uma vez, e a frase de des-\n    lumbramento ficou sendo uma das brincadeiras de\n    minha família, que de vez em quando me dizia rindo:\n    “Olhe um porco de verdade.”\n30      Passávamos por cavalos belos que esperavam\n    de pé pelo amanhecer.\n        Eu não sei da infância alheia. Mas essa viagem\n    diária me tornava uma criança completa de alegria. E\n    me serviu como promessa de felicidade para o futuro.\n35  Minha capacidade de ser feliz se revelava. Eu me agar-\n    rava, dentro de uma infância muito infeliz, a essa ilha\n    encantada que era a viagem diária.\n        No bonde mesmo começava a amanhecer. Meu\n    coração batia forte ao nos aproximarmos de Olinda.\n40  Finalmente saltávamos e íamos andando para as ca-\n    binas pisando em terreno já de areia misturada com\n    plantas. Mudávamos de roupa nas cabinas. E nunca\n    um corpo desabrochou como o meu quando eu saía\n    da cabina e sabia o que me esperava.\n45      O mar de Olinda era muito perigoso. Davam-se\n    alguns passos em um fundo raso e de repente caía-se\n    num fundo de dois metros, calculo.\n        O cheiro do mar me invadia e me embriagava. As\n    algas boiavam. Oh, bem sei que não estou transmitin-\n50  do o que significavam como vida pura esses banhos\n    em jejum, com o sol se levantando pálido ainda no\n    horizonte. Bem sei que estou tão emocionada que não\n    consigo escrever. O mar de Olinda era muito iodado e\n    salgado. E eu fazia o que no futuro sempre iria fazer:\n55  com as mãos em concha, eu as mergulhava nas águas,\n    e trazia um pouco do mar até minha boca: eu bebia\n    diariamente o mar, de tal modo queria me unir a ele.\n        Não demorávamos muito. O sol já se levantara\n    todo, e meu pai tinha que trabalhar cedo. Mudávamos\n60  de roupa, e a roupa ficava impregnada de sal. Meus\n    cabelos salgados me colavam na cabeça.\n```\n\nLISPECTOR, Clarice. **Aprendendo a Viver**. Rocco, 2004.\n\nDe acordo com o texto, para o pai, a temporada de banhos de mar **NÃO** era um(a)",
+      "options": [
+        {
+          "text": "pretexto para um passeio com a família.",
+          "explanation": "Correta. Para o pai, os banhos eram uma cura, coisa séria e de saúde, com regras; em nenhum momento o texto os trata como desculpa para passear."
+        },
+        {
+          "text": "período destinado a cuidar da saúde da família.",
+          "explanation": "Era, sim: o pai acreditava que se devia fazer uma cura de banhos de mar, e a família toda ia."
+        },
+        {
+          "text": "hábito salutar a ser repetido anualmente.",
+          "explanation": "Era, sim: o pai acreditava que todos os anos se devia fazer a cura de banhos de mar."
+        },
+        {
+          "text": "prática saudável e que deveria seguir um certo ritual.",
+          "explanation": "Era, sim: o banho tinha de ser antes de o sol nascer e em jejum, como um ritual."
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "key": "ibge-2010-rec-q04",
+      "source": "IBGE 2010 – Recenseador, questão 4 (Cesgranrio)",
+      "kind": "Objective",
+      "subject": "lingua-portuguesa",
+      "statement": "**Banhos de mar**\n\n```\n        Meu pai acreditava que todos os anos se devia\n    fazer uma cura de banhos de mar. E nunca fui tão feliz\n    quanto naquelas temporadas de banhos em Olinda,\n    Recife.\n 5      Meu pai também acreditava que o banho de mar\n    salutar era o tomado antes de o sol nascer. Como ex-\n    plicar o que eu sentia de presente inaudito em sair de\n    casa de madrugada e pegar o bonde vazio que nos\n    levaria para Olinda ainda na escuridão?\n10      De noite eu ia dormir, mas o coração se mantinha\n    acordado, em expectativa. E de puro alvoroço, eu acor-\n    dava às quatro e pouco da madrugada e despertava o\n    resto da família. Vestíamos depressa e saíamos em\n    jejum. Porque meu pai acreditava que assim devia ser:\n15  em jejum.\n        Saíamos por uma rua toda escura, recebendo a\n    brisa da pré-madrugada. E esperávamos o bonde. Até\n    que lá de longe ouvíamos o seu barulho se aproxi-\n    mando. Eu me sentava bem na ponta do banco: e mi-\n20  nha felicidade começava. Atravessar a cidade escura\n    me dava algo que jamais tive de novo. No bonde mes-\n    mo o tempo começava a clarear e uma luz trêmula de\n    sol escondido nos banhava e banhava o mundo.\n        Eu olhava tudo: as poucas pessoas na rua, a pas-\n25  sagem pelo campo com os bichos-de-pé: “Olhe um\n    porco de verdade!” gritei uma vez, e a frase de des-\n    lumbramento ficou sendo uma das brincadeiras de\n    minha família, que de vez em quando me dizia rindo:\n    “Olhe um porco de verdade.”\n30      Passávamos por cavalos belos que esperavam\n    de pé pelo amanhecer.\n        Eu não sei da infância alheia. Mas essa viagem\n    diária me tornava uma criança completa de alegria. E\n    me serviu como promessa de felicidade para o futuro.\n35  Minha capacidade de ser feliz se revelava. Eu me agar-\n    rava, dentro de uma infância muito infeliz, a essa ilha\n    encantada que era a viagem diária.\n        No bonde mesmo começava a amanhecer. Meu\n    coração batia forte ao nos aproximarmos de Olinda.\n40  Finalmente saltávamos e íamos andando para as ca-\n    binas pisando em terreno já de areia misturada com\n    plantas. Mudávamos de roupa nas cabinas. E nunca\n    um corpo desabrochou como o meu quando eu saía\n    da cabina e sabia o que me esperava.\n45      O mar de Olinda era muito perigoso. Davam-se\n    alguns passos em um fundo raso e de repente caía-se\n    num fundo de dois metros, calculo.\n        O cheiro do mar me invadia e me embriagava. As\n    algas boiavam. Oh, bem sei que não estou transmitin-\n50  do o que significavam como vida pura esses banhos\n    em jejum, com o sol se levantando pálido ainda no\n    horizonte. Bem sei que estou tão emocionada que não\n    consigo escrever. O mar de Olinda era muito iodado e\n    salgado. E eu fazia o que no futuro sempre iria fazer:\n55  com as mãos em concha, eu as mergulhava nas águas,\n    e trazia um pouco do mar até minha boca: eu bebia\n    diariamente o mar, de tal modo queria me unir a ele.\n        Não demorávamos muito. O sol já se levantara\n    todo, e meu pai tinha que trabalhar cedo. Mudávamos\n60  de roupa, e a roupa ficava impregnada de sal. Meus\n    cabelos salgados me colavam na cabeça.\n```\n\nLISPECTOR, Clarice. **Aprendendo a Viver**. Rocco, 2004.\n\n“Minha capacidade de ser feliz se revelava.”(ℓ. 35)\n\nPela leitura do sétimo parágrafo do texto, conclui-se que essa capacidade de ser feliz resulta",
+      "options": [
+        {
+          "text": "da inexistência de problemas em sua infância.",
+          "explanation": "A narradora diz o contrário: fala em uma infância muito infeliz."
+        },
+        {
+          "text": "de sua cega confiança no futuro.",
+          "explanation": "A viagem serviu como promessa de felicidade para o futuro, mas a felicidade vinha da própria viagem, e não de uma confiança cega."
+        },
+        {
+          "text": "de poder viver intensas alegrias com os pequenos presentes da vida.",
+          "explanation": "Correta. Mesmo em uma infância muito infeliz, ela se agarrava à viagem diária, sua ilha encantada, que a tornava uma criança completa de alegria."
+        },
+        {
+          "text": "do desejo de viver em constante euforia.",
+          "explanation": "O parágrafo não fala em desejo de euforia permanente, e sim da alegria que uma coisa simples, a viagem, lhe dava."
+        }
+      ],
+      "correct": "C"
+    },
+    {
+      "key": "ibge-2010-rec-q05",
+      "source": "IBGE 2010 – Recenseador, questão 5 (Cesgranrio)",
+      "kind": "Objective",
+      "subject": "lingua-portuguesa",
+      "statement": "**Banhos de mar**\n\n```\n        Meu pai acreditava que todos os anos se devia\n    fazer uma cura de banhos de mar. E nunca fui tão feliz\n    quanto naquelas temporadas de banhos em Olinda,\n    Recife.\n 5      Meu pai também acreditava que o banho de mar\n    salutar era o tomado antes de o sol nascer. Como ex-\n    plicar o que eu sentia de presente inaudito em sair de\n    casa de madrugada e pegar o bonde vazio que nos\n    levaria para Olinda ainda na escuridão?\n10      De noite eu ia dormir, mas o coração se mantinha\n    acordado, em expectativa. E de puro alvoroço, eu acor-\n    dava às quatro e pouco da madrugada e despertava o\n    resto da família. Vestíamos depressa e saíamos em\n    jejum. Porque meu pai acreditava que assim devia ser:\n15  em jejum.\n        Saíamos por uma rua toda escura, recebendo a\n    brisa da pré-madrugada. E esperávamos o bonde. Até\n    que lá de longe ouvíamos o seu barulho se aproxi-\n    mando. Eu me sentava bem na ponta do banco: e mi-\n20  nha felicidade começava. Atravessar a cidade escura\n    me dava algo que jamais tive de novo. No bonde mes-\n    mo o tempo começava a clarear e uma luz trêmula de\n    sol escondido nos banhava e banhava o mundo.\n        Eu olhava tudo: as poucas pessoas na rua, a pas-\n25  sagem pelo campo com os bichos-de-pé: “Olhe um\n    porco de verdade!” gritei uma vez, e a frase de des-\n    lumbramento ficou sendo uma das brincadeiras de\n    minha família, que de vez em quando me dizia rindo:\n    “Olhe um porco de verdade.”\n30      Passávamos por cavalos belos que esperavam\n    de pé pelo amanhecer.\n        Eu não sei da infância alheia. Mas essa viagem\n    diária me tornava uma criança completa de alegria. E\n    me serviu como promessa de felicidade para o futuro.\n35  Minha capacidade de ser feliz se revelava. Eu me agar-\n    rava, dentro de uma infância muito infeliz, a essa ilha\n    encantada que era a viagem diária.\n        No bonde mesmo começava a amanhecer. Meu\n    coração batia forte ao nos aproximarmos de Olinda.\n40  Finalmente saltávamos e íamos andando para as ca-\n    binas pisando em terreno já de areia misturada com\n    plantas. Mudávamos de roupa nas cabinas. E nunca\n    um corpo desabrochou como o meu quando eu saía\n    da cabina e sabia o que me esperava.\n45      O mar de Olinda era muito perigoso. Davam-se\n    alguns passos em um fundo raso e de repente caía-se\n    num fundo de dois metros, calculo.\n        O cheiro do mar me invadia e me embriagava. As\n    algas boiavam. Oh, bem sei que não estou transmitin-\n50  do o que significavam como vida pura esses banhos\n    em jejum, com o sol se levantando pálido ainda no\n    horizonte. Bem sei que estou tão emocionada que não\n    consigo escrever. O mar de Olinda era muito iodado e\n    salgado. E eu fazia o que no futuro sempre iria fazer:\n55  com as mãos em concha, eu as mergulhava nas águas,\n    e trazia um pouco do mar até minha boca: eu bebia\n    diariamente o mar, de tal modo queria me unir a ele.\n        Não demorávamos muito. O sol já se levantara\n    todo, e meu pai tinha que trabalhar cedo. Mudávamos\n60  de roupa, e a roupa ficava impregnada de sal. Meus\n    cabelos salgados me colavam na cabeça.\n```\n\nLISPECTOR, Clarice. **Aprendendo a Viver**. Rocco, 2004.\n\n“De noite eu ia dormir, **mas** o coração se mantinha acordado, em expectativa.” (ℓ. 10-11)\n\nA palavra que pode substituir **mas** no texto, por ter sentido equivalente, é",
+      "options": [
+        {
+          "text": "pois.",
+          "explanation": "Pois indica explicação ou causa. O mas indica oposição entre ir dormir e o coração ficar acordado."
+        },
+        {
+          "text": "portanto.",
+          "explanation": "Portanto indica conclusão, e a frase não conclui nada: ela opõe duas ideias."
+        },
+        {
+          "text": "porém.",
+          "explanation": "Correta. Mas e porém são conjunções adversativas: as duas indicam oposição entre o que vem antes e o que vem depois."
+        },
+        {
+          "text": "porque.",
+          "explanation": "Porque indica causa. O coração acordado não é a causa de ela ir dormir."
+        }
+      ],
+      "correct": "C"
+    },
+    {
+      "key": "ibge-2010-rec-q06",
+      "source": "IBGE 2010 – Recenseador, questão 6 (Cesgranrio)",
+      "kind": "Objective",
+      "subject": "lingua-portuguesa",
+      "statement": "O pronome destacado **NÃO** indica posse na seguinte frase:",
+      "options": [
+        {
+          "text": "A brisa da madrugada tocava-**lhe** o corpo.",
+          "explanation": "Aqui o lhe indica posse: tocava-lhe o corpo é o mesmo que tocava o seu corpo."
+        },
+        {
+          "text": "A expectativa mantinha-**lhe** o coração acordado.",
+          "explanation": "Aqui o lhe indica posse: mantinha-lhe o coração é o mesmo que mantinha o seu coração."
+        },
+        {
+          "text": "Faltava-**lhe** vontade de voltar para casa.",
+          "explanation": "Correta. Aqui o lhe equivale a “a ela”: a vontade faltava a ela. Não dá para trocar por seu ou sua, então não há ideia de posse."
+        },
+        {
+          "text": "O sal impregnava-**lhe** as roupas.",
+          "explanation": "Aqui o lhe indica posse: impregnava-lhe as roupas é o mesmo que impregnava as suas roupas."
+        }
+      ],
+      "correct": "C"
+    },
+    {
+      "key": "ibge-2010-rec-q07",
+      "source": "IBGE 2010 – Recenseador, questão 7 (Cesgranrio)",
+      "kind": "Objective",
+      "subject": "lingua-portuguesa",
+      "statement": "**Banhos de mar**\n\n```\n        Meu pai acreditava que todos os anos se devia\n    fazer uma cura de banhos de mar. E nunca fui tão feliz\n    quanto naquelas temporadas de banhos em Olinda,\n    Recife.\n 5      Meu pai também acreditava que o banho de mar\n    salutar era o tomado antes de o sol nascer. Como ex-\n    plicar o que eu sentia de presente inaudito em sair de\n    casa de madrugada e pegar o bonde vazio que nos\n    levaria para Olinda ainda na escuridão?\n10      De noite eu ia dormir, mas o coração se mantinha\n    acordado, em expectativa. E de puro alvoroço, eu acor-\n    dava às quatro e pouco da madrugada e despertava o\n    resto da família. Vestíamos depressa e saíamos em\n    jejum. Porque meu pai acreditava que assim devia ser:\n15  em jejum.\n        Saíamos por uma rua toda escura, recebendo a\n    brisa da pré-madrugada. E esperávamos o bonde. Até\n    que lá de longe ouvíamos o seu barulho se aproxi-\n    mando. Eu me sentava bem na ponta do banco: e mi-\n20  nha felicidade começava. Atravessar a cidade escura\n    me dava algo que jamais tive de novo. No bonde mes-\n    mo o tempo começava a clarear e uma luz trêmula de\n    sol escondido nos banhava e banhava o mundo.\n        Eu olhava tudo: as poucas pessoas na rua, a pas-\n25  sagem pelo campo com os bichos-de-pé: “Olhe um\n    porco de verdade!” gritei uma vez, e a frase de des-\n    lumbramento ficou sendo uma das brincadeiras de\n    minha família, que de vez em quando me dizia rindo:\n    “Olhe um porco de verdade.”\n30      Passávamos por cavalos belos que esperavam\n    de pé pelo amanhecer.\n        Eu não sei da infância alheia. Mas essa viagem\n    diária me tornava uma criança completa de alegria. E\n    me serviu como promessa de felicidade para o futuro.\n35  Minha capacidade de ser feliz se revelava. Eu me agar-\n    rava, dentro de uma infância muito infeliz, a essa ilha\n    encantada que era a viagem diária.\n        No bonde mesmo começava a amanhecer. Meu\n    coração batia forte ao nos aproximarmos de Olinda.\n40  Finalmente saltávamos e íamos andando para as ca-\n    binas pisando em terreno já de areia misturada com\n    plantas. Mudávamos de roupa nas cabinas. E nunca\n    um corpo desabrochou como o meu quando eu saía\n    da cabina e sabia o que me esperava.\n45      O mar de Olinda era muito perigoso. Davam-se\n    alguns passos em um fundo raso e de repente caía-se\n    num fundo de dois metros, calculo.\n        O cheiro do mar me invadia e me embriagava. As\n    algas boiavam. Oh, bem sei que não estou transmitin-\n50  do o que significavam como vida pura esses banhos\n    em jejum, com o sol se levantando pálido ainda no\n    horizonte. Bem sei que estou tão emocionada que não\n    consigo escrever. O mar de Olinda era muito iodado e\n    salgado. E eu fazia o que no futuro sempre iria fazer:\n55  com as mãos em concha, eu as mergulhava nas águas,\n    e trazia um pouco do mar até minha boca: eu bebia\n    diariamente o mar, de tal modo queria me unir a ele.\n        Não demorávamos muito. O sol já se levantara\n    todo, e meu pai tinha que trabalhar cedo. Mudávamos\n60  de roupa, e a roupa ficava impregnada de sal. Meus\n    cabelos salgados me colavam na cabeça.\n```\n\nLISPECTOR, Clarice. **Aprendendo a Viver**. Rocco, 2004.\n\nA palavra destacada **NÃO** corresponde a uma preposição em",
+      "options": [
+        {
+          "text": "“...sair de casa **de** madrugada...” (ℓ. 7-8)",
+          "explanation": "De é preposição: liga sair a madrugada e indica o tempo."
+        },
+        {
+          "text": "“...que nos levaria **para** Olinda...” (ℓ. 8-9)",
+          "explanation": "Para é preposição: liga levaria a Olinda e indica o destino."
+        },
+        {
+          "text": "“...saíamos **em** jejum.” (ℓ. 13-14)",
+          "explanation": "Em é preposição: liga saíamos a jejum e indica o modo."
+        },
+        {
+          "text": "“Saíamos por uma rua **toda** escura,” (ℓ. 16)",
+          "explanation": "Correta. Toda não liga palavras: reforça o adjetivo escura, com o sentido de inteiramente. Nessa frase, a preposição é por."
+        }
+      ],
+      "correct": "D"
+    },
+    {
+      "key": "ibge-2010-rec-q08",
+      "source": "IBGE 2010 – Recenseador, questão 8 (Cesgranrio)",
+      "kind": "Objective",
+      "subject": "lingua-portuguesa",
+      "statement": "A forma do verbo clarear está **INCORRETA** em",
+      "options": [
+        {
+          "text": "O sol **clareia** o mundo.",
+          "explanation": "Forma certa: os verbos terminados em -ear ganham i quando a sílaba forte cai no e (clareio, clareia, clareiam)."
+        },
+        {
+          "text": "A irmã **clareou** os cabelos.",
+          "explanation": "Forma certa: no pretérito perfeito não há i (clareei, clareou, clarearam)."
+        },
+        {
+          "text": "Abra as janelas para que o dia **clareie** a sala.",
+          "explanation": "Forma certa: no presente do subjuntivo o i aparece quando a sílaba forte cai no e (que ele clareie)."
+        },
+        {
+          "text": "**Clariamos** a roupa ao sol.",
+          "explanation": "Correta. A forma está errada: o certo é clareamos, com e. Com nós, a sílaba forte é “a” (cla-re-a-mos), por isso o i não aparece."
+        }
+      ],
+      "correct": "D"
+    },
+    {
+      "key": "ibge-2010-rec-q09",
+      "source": "IBGE 2010 – Recenseador, questão 9 (Cesgranrio)",
+      "kind": "Objective",
+      "subject": "lingua-portuguesa",
+      "statement": "Segundo o padrão culto da língua, qual das frases abaixo apresenta pontuação correta?",
+      "options": [
+        {
+          "text": "Quem quer viajar e conhecer outros lugares?",
+          "explanation": "Correta. É uma pergunta direta, terminada com ponto de interrogação, e não há vírgula separando termos que devem ficar juntos."
+        },
+        {
+          "text": "A menina usava, colete e saia, vistosos.",
+          "explanation": "Não se separa por vírgula o verbo do seu complemento (usava colete e saia) nem o substantivo do adjetivo que o acompanha."
+        },
+        {
+          "text": "A cidade, clareava aos poucos.",
+          "explanation": "Não se usa vírgula entre o sujeito (A cidade) e o verbo (clareava)."
+        },
+        {
+          "text": "Ela mesma despertou a família; gritando!",
+          "explanation": "O ponto e vírgula separa indevidamente gritando do resto da oração; o certo seria sem pontuação ou, no máximo, com vírgula."
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "key": "ibge-2010-rec-q10",
+      "source": "IBGE 2010 – Recenseador, questão 10 (Cesgranrio)",
+      "kind": "Objective",
+      "subject": "lingua-portuguesa",
+      "statement": "A frase que se completa corretamente com a palavra **mau** é",
+      "options": [
+        {
+          "text": "Sabia mergulhar mas nadava _____.",
+          "explanation": "Aqui cabe mal, com l: é advérbio, o contrário de bem (nadava bem, nadava mal)."
+        },
+        {
+          "text": "Escolheu um _____ momento para brincar.",
+          "explanation": "Correta. Mau, com u, é adjetivo e o contrário de bom: um bom momento, um mau momento."
+        },
+        {
+          "text": "_____ conseguia respirar de tanta alegria.",
+          "explanation": "Aqui cabe mal, com l, no sentido de quase não: mal conseguia respirar."
+        },
+        {
+          "text": "Não havia _____ que resistisse a uma temporada de banhos de mar.",
+          "explanation": "Aqui cabe mal, com l: é substantivo, com o sentido de doença ou problema."
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "key": "ibge-2010-rec-q11",
+      "source": "IBGE 2010 – Recenseador, questão 11 (Cesgranrio)",
+      "kind": "Objective",
+      "subject": "matematica",
+      "statement": "Na loja virtual do IBGE (www.ibge.gov.br/lojavirtual), é possível adquirir diversos produtos cartográficos. A tabela abaixo apresenta os atlas disponíveis para compra.\n\n```\nArtigo                                                              Preço (em R$)\nAtlas das representações literárias de regiões\nbrasileiras - v.2 - Sertões Brasileiros I                               45,00\nAtlas de saneamento (multimídia)                                        10,00\nAtlas geográfico escolar - 5ª edição                                    40,00\nAtlas geográfico escolar multimídia - 2ª edição                         15,00\nMeu 1º Atlas - encartado com mapa do Brasil e\nUnidades da Federação - 3ª edição                                       32,00\n```\n\nSe a diretora de uma escola decidir comprar um Atlas das representações literárias de regiões brasileiras, quatro exemplares do Atlas geográfico escolar - 5ª edição e dois do Atlas geográfico escolar multimídia - 2ª edição para a biblioteca da escola, quanto vai gastar, em reais?",
+      "options": [
+        {
+          "text": "135,00",
+          "explanation": "A conta certa é 45 + 4 × 40 + 2 × 15 = 45 + 160 + 30 = 235; faltaram 100 reais."
+        },
+        {
+          "text": "142,00",
+          "explanation": "A conta certa é 45 + 160 + 30 = 235. O atlas de R$ 32,00 (Meu 1º Atlas) não faz parte da compra."
+        },
+        {
+          "text": "212,00",
+          "explanation": "A conta certa é 45 + 4 × 40 + 2 × 15 = 235; os preços a usar são 45,00, 40,00 e 15,00."
+        },
+        {
+          "text": "235,00",
+          "explanation": "Correta. Um atlas de 45,00; quatro de 40,00: 4 × 40 = 160,00; dois de 15,00: 2 × 15 = 30,00. Total: 45 + 160 + 30 = 235,00."
+        }
+      ],
+      "correct": "D"
+    },
+    {
+      "key": "ibge-2010-rec-q12",
+      "source": "IBGE 2010 – Recenseador, questão 12 (Cesgranrio)",
+      "kind": "Objective",
+      "subject": "matematica",
+      "statement": "Em Floresta, no interior de Pernambuco, um tonel de 200 litros de água custa R$4,00. Na região central do Brasil, a água que abastece residências custam 1/4 desse valor. Qual é, em reais, o preço de 100 litros da água que abastece residências na região central do Brasil?",
+      "options": [
+        {
+          "text": "0,50",
+          "explanation": "Correta. Um quarto de 4,00 é 4,00 ÷ 4 = 1,00: esse é o preço de 200 litros na região central. Cem litros são a metade: 1,00 ÷ 2 = 0,50."
+        },
+        {
+          "text": "1,00",
+          "explanation": "Esse é o preço de 200 litros na região central (1/4 de 4,00). A pergunta é sobre 100 litros, a metade."
+        },
+        {
+          "text": "1,50",
+          "explanation": "Um quarto de 4,00 é 1,00 (por 200 litros), e a metade disso, para 100 litros, é 0,50."
+        },
+        {
+          "text": "2,00",
+          "explanation": "Esse é o preço de 100 litros em Floresta (4,00 ÷ 2), sem aplicar a fração 1/4 da região central."
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "key": "ibge-2010-rec-q13",
+      "source": "IBGE 2010 – Recenseador, questão 13 (Cesgranrio)",
+      "kind": "Objective",
+      "subject": "matematica",
+      "statement": "No final do verão, uma loja de roupas ofereceu 20% de desconto em todas as peças. Uma pessoa, ao comprar uma camisa de R$36,00, recebeu, em reais, um desconto de",
+      "options": [
+        {
+          "text": "3,60",
+          "explanation": "Esse valor é 10% de 36,00. O desconto foi de 20%, o dobro."
+        },
+        {
+          "text": "6,20",
+          "explanation": "10% de 36,00 são 3,60; 20% são o dobro: 7,20, e não 6,20."
+        },
+        {
+          "text": "7,20",
+          "explanation": "Correta. 10% de 36,00 = 3,60. Então 20% = 2 × 3,60 = 7,20. Outra forma: 0,20 × 36 = 7,20."
+        },
+        {
+          "text": "8,60",
+          "explanation": "20% de 36,00 = 0,20 × 36 = 7,20, e não 8,60."
+        }
+      ],
+      "correct": "C"
+    },
+    {
+      "key": "ibge-2010-rec-q14",
+      "source": "IBGE 2010 – Recenseador, questão 14 (Cesgranrio)",
+      "kind": "Objective",
+      "subject": "matematica",
+      "statement": "O primeiro censo brasileiro foi realizado em 1872. Na época, o Brasil era uma monarquia e ainda existia escravidão. Foram contadas 9.930.480 pessoas, das quais 1.510.806 foram declaradas escravas. Em 1872, quantas pessoas foram declaradas não escravas no Brasil?",
+      "options": [
+        {
+          "text": "8.419.674",
+          "explanation": "Correta. 9.930.480 − 1.510.806 = 8.419.674. Conferindo: 8.419.674 + 1.510.806 = 9.930.480."
+        },
+        {
+          "text": "8.420.486",
+          "explanation": "Conferindo pela soma: 8.420.486 + 1.510.806 = 9.931.292, que não é 9.930.480."
+        },
+        {
+          "text": "8.422.514",
+          "explanation": "Conferindo pela soma: 8.422.514 + 1.510.806 = 9.933.320, que não é 9.930.480."
+        },
+        {
+          "text": "8.502.176",
+          "explanation": "Conferindo pela soma: 8.502.176 + 1.510.806 = 10.012.982, que passa do total de pessoas contadas."
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "key": "ibge-2010-rec-q15",
+      "source": "IBGE 2010 – Recenseador, questão 15 (Cesgranrio)",
+      "kind": "Objective",
+      "subject": "matematica",
+      "statement": "Ao pagar três cafezinhos e um sorvete com uma nota de R$10,00, João recebeu R$1,20 de troco. Se o sorvete custa R$1,60 a mais que cada cafezinho, qual é, em reais, o preço de um cafezinho?",
+      "options": [
+        {
+          "text": "1,60",
+          "explanation": "Com café a 1,60, o sorvete custaria 3,20 e a conta daria 3 × 1,60 + 3,20 = 8,00; mas João gastou 8,80."
+        },
+        {
+          "text": "1,80",
+          "explanation": "Correta. Gasto: 10,00 − 1,20 = 8,80. Tirando o 1,60 que o sorvete tem a mais, sobram 4 valores iguais ao do café: 8,80 − 1,60 = 7,20, e 7,20 ÷ 4 = 1,80."
+        },
+        {
+          "text": "2,00",
+          "explanation": "Com café a 2,00, o sorvete custaria 3,60 e a conta daria 6,00 + 3,60 = 9,60; mas João gastou 8,80."
+        },
+        {
+          "text": "2,20",
+          "explanation": "Esse valor é 8,80 ÷ 4, como se os quatro itens custassem o mesmo. O sorvete custa 1,60 a mais que o café."
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "key": "ibge-2010-rec-q16",
+      "source": "IBGE 2010 – Recenseador, questão 16 (Cesgranrio)",
+      "kind": "Objective",
+      "subject": "matematica",
+      "statement": "O resultado de uma pesquisa feita pela Confederação Nacional de Agricultura (CNA) sobre a produtividade de mil famílias em assentamentos é apresentado no gráfico abaixo.\n\n![Gráfico de setores: 25% produzem apenas o suficiente para o consumo da família; 27% produzem o suficiente para o consumo da família e vendem o excedente; 11% não produzem o suficiente nem para a própria família; 37% nada produzem.](img/ibge/2010/q16-1.png)\n\nIBOPE/CNA\n\nQuantas, dentre as famílias pesquisadas, produzem, pelo menos, o suficiente para o seu consumo?",
+      "options": [
+        {
+          "text": "250",
+          "explanation": "Essas são só as famílias que produzem apenas o suficiente (25%). Faltam as que produzem o suficiente e ainda vendem o excedente (27%)."
+        },
+        {
+          "text": "370",
+          "explanation": "Essas são as famílias que nada produzem (37% de 1.000)."
+        },
+        {
+          "text": "420",
+          "explanation": "Entram os grupos de 25% e de 27%, que somam 52%: 520 famílias, e não 420."
+        },
+        {
+          "text": "520",
+          "explanation": "Correta. “Pelo menos o suficiente” inclui quem produz apenas o suficiente (25%) e quem produz o suficiente e vende o excedente (27%). 25% + 27% = 52%, e 52% de 1.000 = 520 famílias."
+        }
+      ],
+      "correct": "D"
+    },
+    {
+      "key": "ibge-2010-rec-q17",
+      "source": "IBGE 2010 – Recenseador, questão 17 (Cesgranrio)",
+      "kind": "Objective",
+      "subject": "matematica",
+      "statement": "O Brasil começou o ano com um forte ritmo de contratações com carteira assinada. O gráfico abaixo apresenta o número de empregos com carteira assinada criados em alguns setores da economia, em janeiro de 2010.\n\n![Gráfico de barras horizontais com os empregos criados: Indústria de transformação, 68.920; Serviços, 57.889; Construção Civil, 54.330; Agropecuária, 4.143; Serviços de água, luz e gás, 2.538; Indústria extrativa, 1.192.](img/ibge/2010/q17-1.png)\n\nMinistério do Trabalho e Emprego\n\nQuantas vagas com carteira assinada a construção civil ofereceu a mais do que o setor agropecuário, em janeiro de 2010?",
+      "options": [
+        {
+          "text": "49.953",
+          "explanation": "Conferindo pela soma: 49.953 + 4.143 = 54.096, que não é 54.330."
+        },
+        {
+          "text": "50.187",
+          "explanation": "Correta. Construção civil: 54.330. Agropecuária: 4.143. 54.330 − 4.143 = 50.187. Conferindo: 50.187 + 4.143 = 54.330."
+        },
+        {
+          "text": "51.213",
+          "explanation": "Conferindo pela soma: 51.213 + 4.143 = 55.356, que não é 54.330."
+        },
+        {
+          "text": "53.746",
+          "explanation": "Essa é a diferença entre Serviços e Agropecuária (57.889 − 4.143). A pergunta é sobre a Construção Civil, com 54.330."
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "key": "ibge-2010-rec-q18",
+      "source": "IBGE 2010 – Recenseador, questão 18 (Cesgranrio)",
+      "kind": "Objective",
+      "subject": "matematica",
+      "statement": "No primeiro trimestre do ano passado, o vertedouro (canal de segurança que controla o nível de água) de um lago localizado no Parque da Aclamação, na capital paulista, se rompeu. Em 50 minutos, 780.000 litros de água escoaram, deixando o lago praticamente seco. Em média, quantos litros de água escoaram do lago a cada segundo?",
+      "options": [
+        {
+          "text": "156",
+          "explanation": "Com 156 litros por segundo, em 3.000 segundos escoariam 468.000 litros, menos que os 780.000."
+        },
+        {
+          "text": "180",
+          "explanation": "Com 180 litros por segundo, em 3.000 segundos escoariam 540.000 litros, menos que os 780.000."
+        },
+        {
+          "text": "260",
+          "explanation": "Correta. 50 minutos = 50 × 60 = 3.000 segundos. 780.000 ÷ 3.000 = 260 litros por segundo."
+        },
+        {
+          "text": "348",
+          "explanation": "Com 348 litros por segundo, em 3.000 segundos escoariam 1.044.000 litros, mais que os 780.000."
+        }
+      ],
+      "correct": "C"
+    },
+    {
+      "key": "ibge-2010-rec-q19",
+      "source": "IBGE 2010 – Recenseador, questão 19 (Cesgranrio)",
+      "kind": "Objective",
+      "subject": "matematica",
+      "statement": "Considere dois grupos de agentes censitários, um deles com 66 agentes e o outro, com 72. Os dois grupos serão divididos em equipes de trabalho. Essas equipes deverão ter o mesmo número de agentes, sendo que todos os agentes de cada equipe devem ser originários do mesmo grupo. Desse modo, o número máximo de agentes por equipe será",
+      "options": [
+        {
+          "text": "3",
+          "explanation": "O número 3 divide 66 e 72, mas não é o maior possível: 6 também divide os dois."
+        },
+        {
+          "text": "4",
+          "explanation": "O número 4 divide 72, mas não divide 66 (66 ÷ 4 = 16 e sobram 2)."
+        },
+        {
+          "text": "5",
+          "explanation": "O número 5 não divide nem 66 nem 72; sobrariam agentes sem equipe."
+        },
+        {
+          "text": "6",
+          "explanation": "Correta. O tamanho da equipe tem de dividir 66 e 72 sem sobra, e o maior número que faz isso é o máximo divisor comum: 6 (66 ÷ 6 = 11 equipes e 72 ÷ 6 = 12 equipes)."
+        }
+      ],
+      "correct": "D"
+    },
+    {
+      "key": "ibge-2010-rec-q20",
+      "source": "IBGE 2010 – Recenseador, questão 20 (Cesgranrio)",
+      "kind": "Objective",
+      "subject": "matematica",
+      "statement": "Ao caminhar 100 m, uma mulher dá, em média, 120 passos. Quantos passos uma mulher dará, em média, ao caminhar 750 m?",
+      "options": [
+        {
+          "text": "225",
+          "explanation": "A conta certa é 7,5 × 120 = 900. O valor 225 é um quarto disso."
+        },
+        {
+          "text": "450",
+          "explanation": "Esse valor é a metade do certo: em 750 m cabem 7,5 trechos de 100 m, e 7,5 × 120 = 900."
+        },
+        {
+          "text": "750",
+          "explanation": "Seria 1 passo por metro, mas ela dá 120 passos em 100 m, isto é, 1,2 passo por metro."
+        },
+        {
+          "text": "900",
+          "explanation": "Correta. 750 m são 7,5 vezes 100 m (750 ÷ 100 = 7,5). Então ela dá 7,5 × 120 = 900 passos."
+        }
+      ],
+      "correct": "D"
+    }
+  ]
+}
