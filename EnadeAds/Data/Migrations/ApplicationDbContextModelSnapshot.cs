@@ -781,8 +781,8 @@ namespace EnadeAds.Data.Migrations
 
                     b.Property<string>("Statement")
                         .IsRequired()
-                        .HasMaxLength(8000)
-                        .HasColumnType("character varying(8000)");
+                        .HasMaxLength(12000)
+                        .HasColumnType("character varying(12000)");
 
                     b.Property<int>("SubjectId")
                         .HasColumnType("integer");
