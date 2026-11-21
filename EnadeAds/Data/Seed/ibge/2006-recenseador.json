@@ -1,0 +1,606 @@
+{
+  "year": 2006,
+  "track": "ibge-recenseador",
+  "questions": [
+    {
+      "key": "ibge-2006-rec-q01",
+      "source": "IBGE 2006 – Recenseador, questão 1 (Cesgranrio)",
+      "kind": "Objective",
+      "subject": "lingua-portuguesa",
+      "statement": "TEXTO I\n\n**A importância do censo**\n\nO censo ajuda cada um de nós a conhecer melhor os estados e, principalmente, nossos municípios. Os resultados do censo refletem a realidade brasileira, fornecendo o retrato do Brasil num determinado período de tempo. Seus dados são utilizados em programas e projetos que contribuem para estudar o crescimento e a evolução da população ao longo do tempo, identificar regiões que precisam de investimentos em saúde, habitação, transportes, energia, programas de assistência à velhice.\n\nSeus efeitos podem ser vistos, também, na agropecuária. Conhecendo melhor a situação deste setor, o governo pode criar novos incentivos na produção da agricultura familiar, por exemplo, em produtos que alimentam os brasileiros, como arroz, feijão, milho, mandioca, hortaliças, além da criação de caprinos, ovinos e gado de leite.\n\nA sociedade também pode fazer uso destes resultados. Eles podem indicar locais propícios para instalação de fábricas, supermercados, shopping centers, escolas, creches, cinemas, restaurantes, lojas. Além disso, podem servir de base para que os cidadãos possam reivindicar maior atenção do governo para problemas específicos, como a expansão da rede de água e esgoto, expansão de rede telefônica, instalação de postos de saúde, etc.\n\nDisponível em www.ibge.gov.br/censo/motivos.shtm (adaptado)\n\nOs resultados do censo são importantes para que o cidadão possa:",
+      "options": [
+        {
+          "text": "reclamar melhores condições de vida.",
+          "explanation": "Correta. O texto diz que os resultados servem de base para os cidadãos reivindicarem maior atenção do governo para problemas como água, esgoto e postos de saúde. Reivindicar é reclamar, exigir melhorias."
+        },
+        {
+          "text": "conviver melhor com seus vizinhos.",
+          "explanation": "O texto não fala de convivência entre vizinhos; fala do uso dos dados pelo governo, pelas empresas e pelos cidadãos."
+        },
+        {
+          "text": "escolher muitos lugares para viajar.",
+          "explanation": "Viagens não aparecem no texto. Os locais citados são os propícios para instalar fábricas, escolas, lojas etc."
+        },
+        {
+          "text": "saber contar os habitantes do seu bairro.",
+          "explanation": "Quem conta a população é o censo, não o cidadão. O cidadão usa os resultados para cobrar o governo."
+        },
+        {
+          "text": "viver com mais tranqüilidade.",
+          "explanation": "Tranquilidade não é citada no texto. O que ele afirma é que o cidadão pode reivindicar atenção do governo para problemas específicos."
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "key": "ibge-2006-rec-q02",
+      "source": "IBGE 2006 – Recenseador, questão 2 (Cesgranrio)",
+      "kind": "Objective",
+      "subject": "lingua-portuguesa",
+      "statement": "TEXTO I\n\n**A importância do censo**\n\nO censo ajuda cada um de nós a conhecer melhor os estados e, principalmente, nossos municípios. Os resultados do censo refletem a realidade brasileira, fornecendo o retrato do Brasil num determinado período de tempo. Seus dados são utilizados em programas e projetos que contribuem para estudar o crescimento e a evolução da população ao longo do tempo, identificar regiões que precisam de investimentos em saúde, habitação, transportes, energia, programas de assistência à velhice.\n\nSeus efeitos podem ser vistos, também, na agropecuária. Conhecendo melhor a situação deste setor, o governo pode criar novos incentivos na produção da agricultura familiar, por exemplo, em produtos que alimentam os brasileiros, como arroz, feijão, milho, mandioca, hortaliças, além da criação de caprinos, ovinos e gado de leite.\n\nA sociedade também pode fazer uso destes resultados. Eles podem indicar locais propícios para instalação de fábricas, supermercados, shopping centers, escolas, creches, cinemas, restaurantes, lojas. Além disso, podem servir de base para que os cidadãos possam reivindicar maior atenção do governo para problemas específicos, como a expansão da rede de água e esgoto, expansão de rede telefônica, instalação de postos de saúde, etc.\n\nDisponível em www.ibge.gov.br/censo/motivos.shtm (adaptado)\n\nSegundo o Texto I, com a realização do censo:",
+      "options": [
+        {
+          "text": "as escolas do país são reformadas.",
+          "explanation": "O censo pode indicar bons locais para instalar escolas, mas o texto não diz que ele reforma escolas."
+        },
+        {
+          "text": "os fatos do passado, no país, são revelados.",
+          "explanation": "O censo mostra o retrato do Brasil em um determinado período, isto é, a situação da época da pesquisa, e não fatos do passado."
+        },
+        {
+          "text": "os governantes podem ser eleitos pelo povo.",
+          "explanation": "Eleição não tem relação com o censo e não é mencionada no texto."
+        },
+        {
+          "text": "os habitantes conhecem outros municípios.",
+          "explanation": "O texto diz que o censo ajuda a conhecer melhor os estados e, principalmente, os nossos municípios, e não outros municípios."
+        },
+        {
+          "text": "o número de habitantes do país é conhecido.",
+          "explanation": "Correta. O censo fornece o retrato do Brasil e seus dados permitem estudar o crescimento e a evolução da população, o que supõe saber quantos são os habitantes."
+        }
+      ],
+      "correct": "E"
+    },
+    {
+      "key": "ibge-2006-rec-q03",
+      "source": "IBGE 2006 – Recenseador, questão 3 (Cesgranrio)",
+      "kind": "Objective",
+      "subject": "lingua-portuguesa",
+      "statement": "Os resultados do censo podem indicar locais **propícios** para instalação de fábricas. O **CONTRÁRIO** da palavra destacada na frase é:",
+      "options": [
+        {
+          "text": "adequados.",
+          "explanation": "Adequados tem o mesmo sentido de propícios (é sinônimo), e a questão pede o contrário."
+        },
+        {
+          "text": "inadequados.",
+          "explanation": "Correta. Propício quer dizer favorável, apropriado, adequado. O contrário é inadequado, ou seja, que não serve para aquele fim."
+        },
+        {
+          "text": "distantes.",
+          "explanation": "Distante é o contrário de próximo. Um local pode ser distante e, ainda assim, propício."
+        },
+        {
+          "text": "espaçosos.",
+          "explanation": "Espaçoso fala do tamanho do local, e não de ele ser ou não favorável. Não é o contrário de propício."
+        },
+        {
+          "text": "profundos.",
+          "explanation": "Profundo é o contrário de raso e não tem relação com o sentido de propício."
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "key": "ibge-2006-rec-q04",
+      "source": "IBGE 2006 – Recenseador, questão 4 (Cesgranrio)",
+      "kind": "Objective",
+      "subject": "lingua-portuguesa",
+      "statement": "Assinale a opção em que todas as palavras estão escritas de forma correta.",
+      "options": [
+        {
+          "text": "Máquina  -  bíblia  - familia  -  nó.",
+          "explanation": "Falta o acento em família, paroxítona terminada em ditongo (fa-mí-lia)."
+        },
+        {
+          "text": "Árvore  -  fôlha  -  táxi  -  flor.",
+          "explanation": "Folha não leva acento: é paroxítona terminada em a, e essas palavras não são acentuadas."
+        },
+        {
+          "text": "Pé  -  fábrica  -  cafe  -  pão.",
+          "explanation": "Falta o acento em café, oxítona terminada em e."
+        },
+        {
+          "text": "Baú  -  viúva  -  órfão  -  caju.",
+          "explanation": "Correta. Baú e viúva têm u tônico em hiato; órfão é paroxítona terminada em ão; caju é oxítona terminada em u e, por isso, fica sem acento."
+        },
+        {
+          "text": "Fenômeno  - gaúcho  -  tabú  -  técnico.",
+          "explanation": "Tabu não leva acento: oxítonas terminadas em u, como caju e urubu, não são acentuadas."
+        }
+      ],
+      "correct": "D"
+    },
+    {
+      "key": "ibge-2006-rec-q05",
+      "source": "IBGE 2006 – Recenseador, questão 5 (Cesgranrio)",
+      "kind": "Objective",
+      "subject": "lingua-portuguesa",
+      "statement": "![Texto com quatro quadrinhos vazios no lugar dos sinais de pontuação: – O que o governo pode fazer com os resultados do censo (quadrinho 1) – Pode fazer o seguinte (quadrinho 2) melhorar o saneamento (quadrinho 3) melhorar postos de saúde e construir casas populares (quadrinho 4)](img/ibge/2006/q05-1.png)\n\nAssinale a pontuação correta para o texto.",
+      "options": [
+        {
+          "text": "!  ,  ,  :",
+          "explanation": "A primeira frase é uma pergunta e pede interrogação, não exclamação. Além disso, o texto não pode terminar com dois-pontos."
+        },
+        {
+          "text": "?  :  !  .",
+          "explanation": "Começa bem (interrogação e dois-pontos), mas os itens de uma enumeração são separados por vírgula, e não por ponto de exclamação."
+        },
+        {
+          "text": "?  :  ,  .",
+          "explanation": "Correta. A primeira frase é uma pergunta (?); depois de “o seguinte” vêm dois-pontos, que anunciam a enumeração; os itens são separados por vírgula; e a frase termina com ponto final."
+        },
+        {
+          "text": ".  ,  ?  !",
+          "explanation": "A primeira frase é uma pergunta direta e precisa de interrogação, não de ponto final. A interrogação no meio da enumeração também não cabe."
+        },
+        {
+          "text": ",  ?  !  .",
+          "explanation": "A pergunta termina em “censo”, onde deve ficar a interrogação, e não a vírgula. Depois de “o seguinte” usam-se dois-pontos."
+        }
+      ],
+      "correct": "C"
+    },
+    {
+      "key": "ibge-2006-rec-q06",
+      "source": "IBGE 2006 – Recenseador, questão 6 (Cesgranrio)",
+      "kind": "Objective",
+      "subject": "lingua-portuguesa",
+      "statement": "TEXTO II\n\n**O problema ecológico**\n\n```\n        Se uma nave extraterrestre invadisse o espaço aéreo\n    da Terra, com certeza seus tripulantes diriam que neste\n    planeta não habita uma civilização inteligente, tamanho\n    é o grau de destruição dos recursos naturais. Essas são\n 5  palavras de um renomado cientista americano. Apesar\n    dos avanços obtidos, a humanidade ainda não descobriu\n    os valores fundamentais da existência.\n        O que chamamos orgulhosamente de civilização\n    nada mais é do que uma agressão às coisas naturais. A\n10  grosso modo, a tal civilização significa a devastação das\n    florestas, a poluição dos rios, o envenenamento das terras\n    e a deterioração da qualidade do ar. O que chamamos de\n    progresso não passa de uma degradação deliberada e\n    sistemática que o homem vem promovendo há muito\n15  tempo, uma autêntica guerra contra a natureza.\n```\n\nAfrânio Primo. Jornal **Madhva** (adaptado).\n\nDisponível em http:www.syntonia.com/textos/textoseecologia/problemaecológico.htm\n\nSegundo o Texto II, o cientista americano está preocupado com:",
+      "options": [
+        {
+          "text": "a vida neste planeta.",
+          "explanation": "Correta. O cientista chama a atenção para o grau de destruição dos recursos naturais da Terra, isto é, para o que ameaça a vida no planeta."
+        },
+        {
+          "text": "a qualidade do espaço aéreo.",
+          "explanation": "O espaço aéreo aparece só na situação imaginada da nave que chega à Terra. A preocupação é com a destruição dos recursos naturais."
+        },
+        {
+          "text": "o que pensam os extraterrestres.",
+          "explanation": "Os extraterrestres são apenas uma suposição usada para mostrar como a destruição é grande. A opinião deles não é o assunto."
+        },
+        {
+          "text": "o seu prestígio no mundo.",
+          "explanation": "O texto diz que o cientista é renomado, mas não que ele se preocupe com a própria fama."
+        },
+        {
+          "text": "os seres de outro planeta.",
+          "explanation": "Os seres de outro planeta são só um recurso para dar força à crítica. A preocupação é com a Terra."
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "key": "ibge-2006-rec-q07",
+      "source": "IBGE 2006 – Recenseador, questão 7 (Cesgranrio)",
+      "kind": "Objective",
+      "subject": "lingua-portuguesa",
+      "statement": "TEXTO II\n\n**O problema ecológico**\n\n```\n        Se uma nave extraterrestre invadisse o espaço aéreo\n    da Terra, com certeza seus tripulantes diriam que neste\n    planeta não habita uma civilização inteligente, tamanho\n    é o grau de destruição dos recursos naturais. Essas são\n 5  palavras de um renomado cientista americano. Apesar\n    dos avanços obtidos, a humanidade ainda não descobriu\n    os valores fundamentais da existência.\n        O que chamamos orgulhosamente de civilização\n    nada mais é do que uma agressão às coisas naturais. A\n10  grosso modo, a tal civilização significa a devastação das\n    florestas, a poluição dos rios, o envenenamento das terras\n    e a deterioração da qualidade do ar. O que chamamos de\n    progresso não passa de uma degradação deliberada e\n    sistemática que o homem vem promovendo há muito\n15  tempo, uma autêntica guerra contra a natureza.\n```\n\nAfrânio Primo. Jornal **Madhva** (adaptado).\n\nDisponível em http:www.syntonia.com/textos/textoseecologia/problemaecológico.htm\n\nPara o autor, a humanidade:",
+      "options": [
+        {
+          "text": "demonstra ser muito inteligente.",
+          "explanation": "É o contrário: visitantes de fora diriam que aqui não habita uma civilização inteligente, tamanho o grau de destruição."
+        },
+        {
+          "text": "ouve as palavras do cientista.",
+          "explanation": "O texto não diz que a humanidade escuta o cientista; a degradação continua acontecendo."
+        },
+        {
+          "text": "age contra sua própria existência.",
+          "explanation": "Correta. Para o autor, a humanidade ainda não descobriu os valores fundamentais da existência e faz uma guerra contra a natureza, da qual depende para viver."
+        },
+        {
+          "text": "preserva os recursos naturais.",
+          "explanation": "O texto afirma o oposto: há devastação das florestas, poluição dos rios, envenenamento das terras e piora do ar."
+        },
+        {
+          "text": "valoriza a existência sadia.",
+          "explanation": "Segundo o autor, a humanidade ainda não descobriu os valores fundamentais da existência."
+        }
+      ],
+      "correct": "C"
+    },
+    {
+      "key": "ibge-2006-rec-q08",
+      "source": "IBGE 2006 – Recenseador, questão 8 (Cesgranrio)",
+      "kind": "Objective",
+      "subject": "lingua-portuguesa",
+      "statement": "TEXTO II\n\n**O problema ecológico**\n\n```\n        Se uma nave extraterrestre invadisse o espaço aéreo\n    da Terra, com certeza seus tripulantes diriam que neste\n    planeta não habita uma civilização inteligente, tamanho\n    é o grau de destruição dos recursos naturais. Essas são\n 5  palavras de um renomado cientista americano. Apesar\n    dos avanços obtidos, a humanidade ainda não descobriu\n    os valores fundamentais da existência.\n        O que chamamos orgulhosamente de civilização\n    nada mais é do que uma agressão às coisas naturais. A\n10  grosso modo, a tal civilização significa a devastação das\n    florestas, a poluição dos rios, o envenenamento das terras\n    e a deterioração da qualidade do ar. O que chamamos de\n    progresso não passa de uma degradação deliberada e\n    sistemática que o homem vem promovendo há muito\n15  tempo, uma autêntica guerra contra a natureza.\n```\n\nAfrânio Primo. Jornal **Madhva** (adaptado).\n\nDisponível em http:www.syntonia.com/textos/textoseecologia/problemaecológico.htm\n\nDa maneira como o assunto é tratado no Texto II, é correto afirmar que o meio ambiente está degradado porque:",
+      "options": [
+        {
+          "text": "a destruição é inevitável.",
+          "explanation": "O texto fala em degradação deliberada, ou seja, feita de propósito pelo homem. Não diz que ela é inevitável."
+        },
+        {
+          "text": "a civilização o está destruindo.",
+          "explanation": "Correta. O autor afirma que a chamada civilização nada mais é do que uma agressão às coisas naturais: devastação das florestas, poluição dos rios, envenenamento das terras."
+        },
+        {
+          "text": "a humanidade preserva sua existência.",
+          "explanation": "A humanidade faz o contrário: promove uma guerra contra a natureza."
+        },
+        {
+          "text": "as guerras são o principal agente da destruição.",
+          "explanation": "A palavra guerra é usada em sentido figurado (guerra contra a natureza). O texto não trata de guerras entre povos."
+        },
+        {
+          "text": "os recursos para mantê-lo não são suficientes.",
+          "explanation": "O texto não fala em falta de recursos para manter o meio ambiente; a causa apontada é a ação do homem."
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "key": "ibge-2006-rec-q09",
+      "source": "IBGE 2006 – Recenseador, questão 9 (Cesgranrio)",
+      "kind": "Objective",
+      "subject": "lingua-portuguesa",
+      "statement": "TEXTO II\n\n**O problema ecológico**\n\n```\n        Se uma nave extraterrestre invadisse o espaço aéreo\n    da Terra, com certeza seus tripulantes diriam que neste\n    planeta não habita uma civilização inteligente, tamanho\n    é o grau de destruição dos recursos naturais. Essas são\n 5  palavras de um renomado cientista americano. Apesar\n    dos avanços obtidos, a humanidade ainda não descobriu\n    os valores fundamentais da existência.\n        O que chamamos orgulhosamente de civilização\n    nada mais é do que uma agressão às coisas naturais. A\n10  grosso modo, a tal civilização significa a devastação das\n    florestas, a poluição dos rios, o envenenamento das terras\n    e a deterioração da qualidade do ar. O que chamamos de\n    progresso não passa de uma degradação deliberada e\n    sistemática que o homem vem promovendo há muito\n15  tempo, uma autêntica guerra contra a natureza.\n```\n\nAfrânio Primo. Jornal **Madhva** (adaptado).\n\nDisponível em http:www.syntonia.com/textos/textoseecologia/problemaecológico.htm\n\nA afirmação: “Essas são palavras de um **renomado** cientista americano.” (l. 4 - 5) quer dizer que o cientista é:",
+      "options": [
+        {
+          "text": "inimigo.",
+          "explanation": "Renomado não tem relação com inimizade. A palavra vem de renome, que significa fama."
+        },
+        {
+          "text": "velho.",
+          "explanation": "Renomado não indica idade. Um cientista pode ser renomado sendo jovem."
+        },
+        {
+          "text": "estranho.",
+          "explanation": "Renomado é quem tem bom nome e é reconhecido, e não alguém estranho."
+        },
+        {
+          "text": "famoso.",
+          "explanation": "Correta. Renomado é quem tem renome, isto é, fama e reconhecimento. É sinônimo de famoso, célebre."
+        },
+        {
+          "text": "desconhecido.",
+          "explanation": "Desconhecido é o contrário de renomado, que quer dizer conhecido, famoso."
+        }
+      ],
+      "correct": "D"
+    },
+    {
+      "key": "ibge-2006-rec-q10",
+      "source": "IBGE 2006 – Recenseador, questão 10 (Cesgranrio)",
+      "kind": "Objective",
+      "subject": "lingua-portuguesa",
+      "statement": "Se o homem cuidasse da natureza **teria** mais saúde.\n\nSe o homem cuidar da natureza _______ mais saúde.\n\nA forma verbal que completa corretamente a lacuna é:",
+      "options": [
+        {
+          "text": "teve.",
+          "explanation": "Teve é passado (pretérito perfeito). A condição “se cuidar” aponta para o futuro."
+        },
+        {
+          "text": "tivera.",
+          "explanation": "Tivera é um tempo do passado (pretérito mais-que-perfeito) e não combina com “se cuidar”, que fala do futuro."
+        },
+        {
+          "text": "têm.",
+          "explanation": "Têm, com acento circunflexo, é plural (eles têm). O sujeito “o homem” está no singular, e a frase pede futuro."
+        },
+        {
+          "text": "tinha.",
+          "explanation": "Tinha é passado (pretérito imperfeito). Com “se cuidar”, o resultado só pode acontecer no futuro."
+        },
+        {
+          "text": "terá.",
+          "explanation": "Correta. “Se cuidar” está no futuro do subjuntivo, que combina com o futuro do presente: se cuidar, terá. Na primeira frase, “se cuidasse” combina com “teria”."
+        }
+      ],
+      "correct": "E"
+    },
+    {
+      "key": "ibge-2006-rec-q11",
+      "source": "IBGE 2006 – Recenseador, questão 11 (Cesgranrio)",
+      "kind": "Objective",
+      "subject": "matematica",
+      "statement": "Utilize as informações abaixo para responder às questões de nᵒˢ 11 e 12.\n\nO gráfico abaixo apresenta as alturas, em metros, dos jogadores de uma equipe de vôlei.\n\n![Gráfico de barras com a altura, em metros, de cada jogador: Pedro 1,96; Maurício 1,98; Carlão 1,84; Heitor 1,92; João 1,95; Marcelo 1,84; Augusto 1,91; Vinícius 1,95; Antônio 2,03; Amauri 2,05; Gilberto 1,92; Samuel 2,01.](img/ibge/2006/q11-1.png)\n\nQual é a diferença, em cm, entre as alturas de Antônio e de João?",
+      "options": [
+        {
+          "text": "8",
+          "explanation": "Correta. Antônio mede 2,03 m e João mede 1,95 m. 2,03 − 1,95 = 0,08 m. Como 1 m = 100 cm, 0,08 m = 8 cm."
+        },
+        {
+          "text": "12",
+          "explanation": "Esse seria o resultado com a altura de Augusto (1,91 m) no lugar da de João: 2,03 − 1,91 = 0,12 m = 12 cm."
+        },
+        {
+          "text": "16",
+          "explanation": "A conta certa é 2,03 − 1,95 = 0,08 m, que dá 8 cm. Dezesseis é o dobro disso."
+        },
+        {
+          "text": "19",
+          "explanation": "Esse valor aparece ao usar a barra vizinha, de Marcelo (1,84 m): 2,03 − 1,84 = 0,19 m = 19 cm. João mede 1,95 m."
+        },
+        {
+          "text": "21",
+          "explanation": "Essa é a diferença entre o mais alto (Amauri, 2,05 m) e o mais baixo (1,84 m), e não entre Antônio e João."
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "key": "ibge-2006-rec-q12",
+      "source": "IBGE 2006 – Recenseador, questão 12 (Cesgranrio)",
+      "kind": "Objective",
+      "subject": "matematica",
+      "statement": "Utilize as informações abaixo para responder às questões de nᵒˢ 11 e 12.\n\nO gráfico abaixo apresenta as alturas, em metros, dos jogadores de uma equipe de vôlei.\n\n![Gráfico de barras com a altura, em metros, de cada jogador: Pedro 1,96; Maurício 1,98; Carlão 1,84; Heitor 1,92; João 1,95; Marcelo 1,84; Augusto 1,91; Vinícius 1,95; Antônio 2,03; Amauri 2,05; Gilberto 1,92; Samuel 2,01.](img/ibge/2006/q12-1.png)\n\nO técnico dessa equipe de vôlei vai completar o quadro abaixo com o nome e a altura de cada jogador de sua equipe.\n\n![Quadro vazio com as colunas Nome e Altura (m) e doze linhas numeradas de 1º a 12º.](img/ibge/2006/q12-2.png)\n\nSe as alturas forem organizadas em ordem crescente, qual será o nome do jogador que ocupará a 9ª posição desse quadro?",
+      "options": [
+        {
+          "text": "Amauri.",
+          "explanation": "Amauri é o mais alto (2,05 m) e fica na 12ª posição, a última."
+        },
+        {
+          "text": "Antônio.",
+          "explanation": "Antônio (2,03 m) é o segundo mais alto e fica na 11ª posição."
+        },
+        {
+          "text": "Maurício.",
+          "explanation": "Correta. Em ordem crescente: 1,84; 1,84; 1,91; 1,92; 1,92; 1,95; 1,95; 1,96; 1,98; 2,01; 2,03; 2,05. A 9ª altura é 1,98 m, de Maurício."
+        },
+        {
+          "text": "Pedro.",
+          "explanation": "Pedro (1,96 m) fica na 8ª posição, logo antes de Maurício."
+        },
+        {
+          "text": "Samuel.",
+          "explanation": "Samuel (2,01 m) fica na 10ª posição, logo depois de Maurício."
+        }
+      ],
+      "correct": "C"
+    },
+    {
+      "key": "ibge-2006-rec-q13",
+      "source": "IBGE 2006 – Recenseador, questão 13 (Cesgranrio)",
+      "kind": "Objective",
+      "subject": "matematica",
+      "statement": "A “terra” é uma moeda social criada em Vila Velha, comunidade da Região Metropolitana de Vitória. Essa moeda só circula na comunidade, e um real vale o mesmo que um “terra”. Mas quem compra com “terra” paga mais barato. O preço do pãozinho é R$0,15, ou 0,10 “terra” e um refrigerante, que custa R$1,50, é vendido por 1,00 “terra”. Comparado ao real, qual será o desconto para quem comprar 4 pãezinhos e 2 refrigerantes, pagando com “terra”?",
+      "options": [
+        {
+          "text": "0,80",
+          "explanation": "O desconto é a diferença entre os dois totais: 3,60 − 2,40 = 1,20, e não 0,80."
+        },
+        {
+          "text": "1,20",
+          "explanation": "Correta. Em reais: 4 × 0,15 + 2 × 1,50 = 0,60 + 3,00 = 3,60. Em “terra”: 4 × 0,10 + 2 × 1,00 = 0,40 + 2,00 = 2,40. Desconto: 3,60 − 2,40 = 1,20."
+        },
+        {
+          "text": "1,80",
+          "explanation": "Os totais são 3,60 (em reais) e 2,40 (em “terra”); a diferença entre eles é 1,20, e não 1,80."
+        },
+        {
+          "text": "2,40",
+          "explanation": "Esse é o total pago em “terra” (0,40 + 2,00), e não o desconto."
+        },
+        {
+          "text": "3,60",
+          "explanation": "Esse é o total da compra em reais (0,60 + 3,00), e não o desconto."
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "key": "ibge-2006-rec-q14",
+      "source": "IBGE 2006 – Recenseador, questão 14 (Cesgranrio)",
+      "kind": "Objective",
+      "subject": "matematica",
+      "statement": "Em um estado onde três candidatos concorreram ao cargo de governador, as pesquisas realizadas antes do primeiro turno das eleições apresentaram os resultados abaixo.\n\n![Gráfico de linhas “Intenção de voto - primeiro turno”, com as pesquisas de 1/AGO, 17/AGO, 31/AGO, 7/SET, 21/SET e 29/SET. Candidato A: 32%, 34%, 38%, 36%, 35% e 35%. Candidato B: 24%, 22%, 25%, 25%, 26% e 22%. Candidato C: 14%, 19%, 21%, 22%, 26% e 27%. Em branco / nulos: 11%. Indecisos: 5%.](img/ibge/2006/q14-1.png)\n\nConsiderando-se que, na pesquisa de 29/set, foram entrevistadas 2.000 pessoas, quantas disseram que pretendiam votar no candidato B?",
+      "options": [
+        {
+          "text": "700",
+          "explanation": "Esse é o número de pessoas do candidato A, que tinha 35% em 29/set: 35% de 2.000 = 700."
+        },
+        {
+          "text": "660",
+          "explanation": "Seriam 33% de 2.000, e nenhum candidato tinha 33% em 29/set. O candidato B tinha 22%."
+        },
+        {
+          "text": "540",
+          "explanation": "Esse é o número de pessoas do candidato C, que tinha 27% em 29/set: 27% de 2.000 = 540."
+        },
+        {
+          "text": "440",
+          "explanation": "Correta. Em 29/set, o candidato B tinha 22%. 22% de 2.000 = 0,22 × 2.000 = 440 pessoas."
+        },
+        {
+          "text": "350",
+          "explanation": "Aqui o 35% do candidato A foi tomado sobre 1.000 pessoas. O candidato B tinha 22%, e 22% de 2.000 = 440."
+        }
+      ],
+      "correct": "D"
+    },
+    {
+      "key": "ibge-2006-rec-q15",
+      "source": "IBGE 2006 – Recenseador, questão 15 (Cesgranrio)",
+      "kind": "Objective",
+      "subject": "matematica",
+      "statement": "O Município de Juriti, no Pará, tem 35 mil habitantes. A razão entre o número de habitantes que moram na cidade e os que vivem nas diversas comunidades ao seu redor é igual a 2/5. Quantos são os habitantes do Município de Juriti que moram na cidade?",
+      "options": [
+        {
+          "text": "5.000",
+          "explanation": "Esse é o valor de cada parte (35.000 ÷ 7). A cidade fica com 2 partes: 2 × 5.000 = 10.000."
+        },
+        {
+          "text": "10.000",
+          "explanation": "Correta. A razão 2/5 significa 2 partes na cidade para 5 nas comunidades, 7 partes no total. 35.000 ÷ 7 = 5.000 por parte. Cidade: 2 × 5.000 = 10.000."
+        },
+        {
+          "text": "14.000",
+          "explanation": "Esse valor é 2/5 de 35.000. Mas 2/5 é a razão entre cidade e comunidades, e não a fração do total; do total, a cidade tem 2/7."
+        },
+        {
+          "text": "20.000",
+          "explanation": "Com 20.000 na cidade, sobrariam 15.000 nas comunidades, e a razão seria 20/15 = 4/3, e não 2/5."
+        },
+        {
+          "text": "25.000",
+          "explanation": "Esse é o número de habitantes das comunidades (5 partes de 5.000), e não da cidade."
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "key": "ibge-2006-rec-q16",
+      "source": "IBGE 2006 – Recenseador, questão 16 (Cesgranrio)",
+      "kind": "Objective",
+      "subject": "matematica",
+      "statement": "Segundo dados do IBGE (http://www.ibge.gov.br), os dois picos mais altos do Brasil estão na Serra Imeri, no Amazonas. O Pico da Neblina tem 3.014,1 m de altura, e o 31 de março, 2.992,4 m. A diferença, em metros, entre as alturas dos dois picos é:",
+      "options": [
+        {
+          "text": "21,7",
+          "explanation": "Correta. 3.014,1 − 2.992,4 = 21,7. Para conferir: 2.992,4 + 21,7 = 3.014,1."
+        },
+        {
+          "text": "42,7",
+          "explanation": "Conferindo pela soma: 2.992,4 + 42,7 = 3.035,1, que passa de 3.014,1."
+        },
+        {
+          "text": "82,3",
+          "explanation": "Conferindo pela soma: 2.992,4 + 82,3 = 3.074,7, que passa de 3.014,1."
+        },
+        {
+          "text": "122,3",
+          "explanation": "Conferindo pela soma: 2.992,4 + 122,3 = 3.114,7, bem acima de 3.014,1."
+        },
+        {
+          "text": "182,3",
+          "explanation": "Conferindo pela soma: 2.992,4 + 182,3 = 3.174,7, bem acima de 3.014,1."
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "key": "ibge-2006-rec-q17",
+      "source": "IBGE 2006 – Recenseador, questão 17 (Cesgranrio)",
+      "kind": "Objective",
+      "subject": "matematica",
+      "statement": "Venda de automóveis subiu 10%\n\nSÃO PAULO. As vendas de carros novos (automóveis de passeio e comerciais leves) mantêm-se aquecidas no país. Levantamento da Federação Nacional de Distribuição de Veículos Automotores mostra que, em setembro, foram licenciados no país 151.162 veículos, um número 10% maior que o do mesmo mês de 2005.\n\n**Jornal O Globo**, 04 out. 2006 (adaptado)\n\nDe acordo com as informações do texto acima, quantos veículos foram licenciados no Brasil em setembro de 2005?",
+      "options": [
+        {
+          "text": "135.134",
+          "explanation": "Conferindo: 135.134 × 1,10 = 148.647,4, que não chega a 151.162."
+        },
+        {
+          "text": "135.880",
+          "explanation": "Conferindo: 135.880 × 1,10 = 149.468, que não chega a 151.162."
+        },
+        {
+          "text": "136.033",
+          "explanation": "Conferindo: 136.033 × 1,10 = 149.636,3. Valor próximo aparece quando se tira 10% de 151.162, mas os 10% são sobre o número de 2005, e não sobre o de 2006."
+        },
+        {
+          "text": "136.854",
+          "explanation": "Conferindo: 136.854 × 1,10 = 150.539,4, que não chega a 151.162."
+        },
+        {
+          "text": "137.420",
+          "explanation": "Correta. O número de 2006 é o de 2005 mais 10%, isto é, 1,10 vez o de 2005. Então 2005 = 151.162 ÷ 1,10 = 137.420. Conferindo: 137.420 + 13.742 = 151.162."
+        }
+      ],
+      "correct": "E"
+    },
+    {
+      "key": "ibge-2006-rec-q18",
+      "source": "IBGE 2006 – Recenseador, questão 18 (Cesgranrio)",
+      "kind": "Objective",
+      "subject": "matematica",
+      "statement": "Um pipoqueiro vende pipocas em sacos de dois tamanhos: o pequeno custa R$0,60 e o grande, R$1,00. Quanto ele recebeu, em reais, no último fim de semana, se vendeu 32 sacos grandes e 24 pequenos?",
+      "options": [
+        {
+          "text": "43,20",
+          "explanation": "Aqui as quantidades foram trocadas: 32 × 0,60 + 24 × 1,00 = 19,20 + 24,00 = 43,20. Os 32 sacos são os grandes."
+        },
+        {
+          "text": "44,40",
+          "explanation": "A conta certa é 32 × 1,00 + 24 × 0,60 = 32,00 + 14,40 = 46,40."
+        },
+        {
+          "text": "46,40",
+          "explanation": "Correta. Grandes: 32 × 1,00 = 32,00. Pequenos: 24 × 0,60 = 14,40. Total: 32,00 + 14,40 = 46,40."
+        },
+        {
+          "text": "48,20",
+          "explanation": "A conta certa é 32,00 + 14,40 = 46,40; os 24 sacos pequenos rendem 14,40."
+        },
+        {
+          "text": "54,40",
+          "explanation": "Há 10 reais a mais: os sacos grandes rendem 32,00 e os pequenos, 14,40, o que soma 46,40."
+        }
+      ],
+      "correct": "C"
+    },
+    {
+      "key": "ibge-2006-rec-q19",
+      "source": "IBGE 2006 – Recenseador, questão 19 (Cesgranrio)",
+      "kind": "Objective",
+      "subject": "matematica",
+      "statement": "Da rodoviária de uma cidade partem três linhas de ônibus. Os horários de cada linha são apresentados na tabela abaixo.\n\n```\nLinha   1º horário   Saídas a cada\n  1     6h           12min\n  2     6h 30min     15min\n  3     7h           10min\n```\n\nObservando-se as informações da tabela, é correto concluir que ônibus das três linhas partirão juntos do terminal às:",
+      "options": [
+        {
+          "text": "7h 30min",
+          "explanation": "A linha 1 sai às 7h24 e às 7h36 (de 12 em 12 minutos desde as 6h), e não às 7h30."
+        },
+        {
+          "text": "8h",
+          "explanation": "Correta. Linha 1: das 6h às 8h são 120 min, e 120 ÷ 12 = 10 saídas exatas. Linha 2: das 6h30 às 8h são 90 min, e 90 ÷ 15 = 6. Linha 3: das 7h às 8h são 60 min, e 60 ÷ 10 = 6. As três saem às 8h."
+        },
+        {
+          "text": "9h 36min",
+          "explanation": "A linha 1 sai às 9h36, mas a linha 2 só sai nos minutos 00, 15, 30 e 45, e a linha 3, nos minutos terminados em 0."
+        },
+        {
+          "text": "10h 45min",
+          "explanation": "A linha 2 sai às 10h45, mas a linha 3 só sai em minutos terminados em 0, e a linha 1 sai às 10h36 e às 10h48."
+        },
+        {
+          "text": "11h 30min",
+          "explanation": "As linhas 2 e 3 saem às 11h30, mas a linha 1 não: das 6h às 11h30 são 330 min, e 330 não é divisível por 12 (ela sai às 11h24 e às 11h36)."
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "key": "ibge-2006-rec-q20",
+      "source": "IBGE 2006 – Recenseador, questão 20 (Cesgranrio)",
+      "kind": "Objective",
+      "subject": "matematica",
+      "statement": "Para nos mantermos saudáveis, é preciso fazer exercícios regularmente. O gráfico abaixo apresenta a quantidade de calorias queimadas em uma hora de exercícios, dependendo da atividade realizada.\n\n![Gráfico de barras horizontais com as calorias queimadas em uma hora: Corrida, 576; Bicicleta, 420; Caminhada, 360.](img/ibge/2006/q20-1.png)\n\nTodos os dias, Marcelo corre durante 20 minutos. Quantas calorias ele queima diariamente?",
+      "options": [
+        {
+          "text": "120",
+          "explanation": "Esse seria o gasto em 20 minutos de caminhada (360 ÷ 3). Marcelo corre."
+        },
+        {
+          "text": "140",
+          "explanation": "Esse seria o gasto em 20 minutos de bicicleta (420 ÷ 3). Marcelo corre."
+        },
+        {
+          "text": "158",
+          "explanation": "A corrida queima 576 calorias por hora; em 20 minutos, a terça parte: 576 ÷ 3 = 192."
+        },
+        {
+          "text": "192",
+          "explanation": "Correta. Vinte minutos são 1/3 de uma hora (60 ÷ 20 = 3). A corrida queima 576 calorias por hora, então 576 ÷ 3 = 192 calorias."
+        },
+        {
+          "text": "288",
+          "explanation": "Esse é o gasto em meia hora de corrida (576 ÷ 2). Vinte minutos são um terço da hora, e não a metade."
+        }
+      ],
+      "correct": "D"
+    }
+  ]
+}

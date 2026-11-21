@@ -24,6 +24,8 @@ public sealed class InepQuestionImporter(ApplicationDbContext db, ILogger<InepQu
         Path.Combine(AppContext.BaseDirectory, "Data", "Seed", "redes"),
         Path.Combine(AppContext.BaseDirectory, "Data", "Seed", "enem"),
         Path.Combine(AppContext.BaseDirectory, "Data", "Seed", "pave"),
+        Path.Combine(AppContext.BaseDirectory, "Data", "Seed", "ibge"),
+        Path.Combine(AppContext.BaseDirectory, "Data", "Seed", "ufsm"),
     ];
 
     public static string DefaultFolder => DefaultFolders[0];
@@ -147,8 +149,8 @@ public sealed class InepQuestionImporter(ApplicationDbContext db, ILogger<InepQu
 
         return seed.Kind switch
         {
-            QuestionKind.Objective when seed.Options is not { Count: QuestionDraft.OptionCount } => "a objetiva precisa de 5 alternativas",
-            QuestionKind.Objective when seed.Correct is not { Length: 1 } || seed.Correct[0] is < 'A' or > 'E' => "alternativa correta inválida",
+            QuestionKind.Objective when seed.Options is not { Count: >= QuestionDraft.MinOptionCount and <= QuestionDraft.OptionCount } => "a objetiva precisa de 4 ou 5 alternativas",
+            QuestionKind.Objective when seed.Correct is not { Length: 1 } || seed.Correct[0] < 'A' || seed.Correct[0] >= 'A' + seed.Options!.Count => "alternativa correta inválida",
             QuestionKind.Objective when seed.Options!.Any(o => string.IsNullOrWhiteSpace(o.Text) || string.IsNullOrWhiteSpace(o.Explanation)
                 || o.Text.Length > QuestionEditor.OptionMaxLength || o.Explanation.Length > QuestionEditor.OptionMaxLength) => "alternativa sem texto ou comentário",
             QuestionKind.Discursive when string.IsNullOrWhiteSpace(seed.ExpectedAnswer) || seed.ExpectedAnswer.Length > QuestionEditor.ExpectedAnswerMaxLength

@@ -6,6 +6,7 @@
 @using Microsoft.AspNetCore.Identity
 
 @inject MockExamService MockExams
+@inject TrackScope TrackScope
 @inject LocalCalendar Calendar
 @inject UserManager<ApplicationUser> Users
 @inject NavigationManager Navigation
@@ -25,6 +26,10 @@
             Treine com tempo e com a regra do PAVE: toda questão tem a opção "Ignoro a resposta", que não soma nem desconta,
             e cada erro ou questão em branco desconta 10% do valor de um acerto.
         </text>
+    }
+    else if (subjectExam is not null)
+    {
+        <text>Treine com tempo, no formato da prova: as questões de cada matéria na quantidade do edital, no tempo proporcional ao da prova.</text>
     }
     else
     {
@@ -80,6 +85,10 @@ else if (plans is not null)
                                     {
                                         <text>@PaveParts(plan.Format.Size)</text>
                                     }
+                                    else if (subjectExam is not null)
+                                    {
+                                        <text>@subjectExam.Describe(plan.Format.Size)</text>
+                                    }
                                     else
                                     {
                                         <text>@plan.GeneralEducation de formação geral, @plan.Specific específicas e @plan.Discursive discursiva.</text>
@@ -97,7 +106,7 @@ else if (plans is not null)
                 }
             </div>
         </fieldset>
-        @if (MockExams.Style == MockExamStyle.Pave)
+        @if (MockExams.Style == MockExamStyle.Pave || subjectExam is { HasLanguageChoice: true })
         {
             <fieldset class="mb-3">
                 <legend class="h5">Língua estrangeira</legend>
@@ -153,6 +162,9 @@ else if (plans is not null)
 
 @code {
     private IReadOnlyList<MockExamPlan>? plans;
+
+    /// <summary>Cota por matéria da trilha ativa, nas provas que têm uma (concursos e vestibulares).</summary>
+    private SubjectExam? subjectExam => SubjectExam.Of(TrackScope.Id);
     private IReadOnlyList<MockExam>? history;
     private MockExam? open;
     private string? userId;

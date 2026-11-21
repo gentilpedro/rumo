@@ -200,6 +200,8 @@
     /// <summary>Parte da prova da questão: no ENADE, formação geral ou componente específico; no ENEM e no PAVE, a área.</summary>
     private string PartName(MockExamQuestion item, Question question) =>
         question.Kind == QuestionKind.Discursive ? "Discursiva"
+        // Nas provas por cota de matéria, a parte é a própria matéria do edital ("Conhecimentos Técnicos").
+        : exam is not null && MockExamFormat.StyleOf(exam.TrackId) == MockExamStyle.Subjects ? question.Subject?.Title ?? ""
         : exam is not null && MockExamFormat.StyleOf(exam.TrackId) != MockExamStyle.Enade ? question.Subject?.Block.Name() ?? ""
         : item.IsGeneralEducation ? "Formação geral" : "Componente específico";
     private string? message;

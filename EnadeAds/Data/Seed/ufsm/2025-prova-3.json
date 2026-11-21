@@ -1,0 +1,1266 @@
+{
+  "year": 2025,
+  "track": "ufsm-3",
+  "questions": [
+    {
+      "key": "ufsm-2025-p3-q01",
+      "source": "Vestibular UFSM 2025 – Prova 3, questão 1 (UFSM)",
+      "kind": "Objective",
+      "subject": "geografia",
+      "statement": "Leia os textos a seguir para responder à questão 01.\n\n![Infográfico Chaves repaginado: como seria a vida dos personagens do seriado mexicano se eles tivessem acesso às tecnologias de hoje?, por Juliano Barreto. Chaves: gadget, celular pré-pago com vários chips; app preferido, SMS, para participar de promoções com viagens para Acapulco; site, Peixe Urbano, para comprar sanduíche de presunto com desconto. Kiko: gadget, o novo iPad, só para se mostrar; app preferido, Photoshop Touch, para se mostrar de novo; site, Pinterest, para não se misturar com a gentalha. Chiquinha: gadget, Nike+ Fuelband, como não para quieta, usa o app para registrar os exercícios; app preferido, Endomondo, para ver o exercício dos outros; site, Twitter, para reclamar do pai e da vida. Seu Madruga: gadget, SmartTV, para fugir da vontade de trabalhar; app preferido, Foursquare, para ajudar a fugir do Sr. Barriga; site, ParPerfeito, para fugir da Bruxa do 71. Sr. Barriga: gadget, BlackBerry, para responder a todos os e-mails; app preferido, BlackBerry Protect, para não perder o telefone; site, LinkedIn, para só ter amigos do trabalho. Dona Florinda: gadget, prancha de cerâmica, para chapinha, é o fim dos bobs!; app preferido, WhatsApp, para falar com o Girafales; site, não dá tempo de navegar! Precisa cuidar da casa.](img/ufsm/2025/prova-3/q01-1.png)\n\nFonte: BARRETO, J. Chaves repaginado... Revista Exame Info. Publicado em: jul. 2012. p. 26. (Adaptado).\n\n**Um dia em 2112**\n\nCheco meus e-mails. Logo na primeira mensagem, meu chefe se materializa na cadeira do escritório e grita: “Quando você entrega esse texto?”. Na realidade, não tem ninguém na cadeira. Se eu o vejo, é porque está dentro do meu olho. Calma. Parece estranho, mas é só tecnologia. Eu uso uma lente de contato eletrônico com acesso à internet. E a imagem do meu chefe está projetada nela. Ela tem a mesma resolução que a minha retina e simula um espaço 3D tão bem quanto meu olho. É ela que traduz instantaneamente para a minha língua o que os colegas indianos e chineses falam em nossas teleconferências. E que traz meus amigos virtualmente ao bar quando saio sozinho.\n\nFonte: REZENDE, R. Um dia em 2112. Revista Superinteressante. Publicado em: ago. 2012, p. 58.\n\nCom relação às tecnologias abordadas nos textos, considere as afirmativas a seguir.\n\nI → São criadas para personalizar ambientes virtuais e otimizar a realização de tarefas rotineiras por meio do uso de diferentes aplicativos, como pode ser observado na reconfiguração dos personagens do seriado Chaves.\n\nII → Estão relacionadas ao campo da Inteligência Artificial e são classificadas de acordo com sua funcionalidade e sua capacidade, aproximando profissionais de diferentes partes do mundo.\n\nIII → Buscam desenvolver complexos sistemas tecnológicos e digitais, priorizando a territorialização dos sistemas produtivos e dos trabalhadores.\n\nIV → Têm revolucionado a maneira como a sociedade se relaciona com a tecnologia, estando cada vez mais presentes na rotina e no trabalho das pessoas.\n\nEstá(ão) correta(s)",
+      "options": [
+        {
+          "text": "apenas I.",
+          "explanation": "A afirmativa I é verdadeira, mas não é a única: II e IV também se sustentam nos textos, que mostram a tradução automática aproximando colegas de vários países e a tecnologia presente no cotidiano e no trabalho."
+        },
+        {
+          "text": "apenas I e III.",
+          "explanation": "A III está errada: as tecnologias digitais favorecem a desterritorialização da produção e do trabalho (teleconferências, trabalho a distância), e não a fixação de sistemas produtivos e trabalhadores a um território."
+        },
+        {
+          "text": "apenas II e III.",
+          "explanation": "A II é verdadeira, mas a III não: nada nos textos indica prioridade à territorialização; a lente que traduz colegas indianos e chineses em teleconferência mostra justamente o contrário."
+        },
+        {
+          "text": "apenas I, II e IV.",
+          "explanation": "Correta. Os aplicativos do infográfico personalizam e facilitam tarefas do dia a dia (I), a lente que traduz em tempo real é aplicação de Inteligência Artificial que aproxima profissionais de vários países (II) e os dois textos mostram a tecnologia cada vez mais presente na rotina e no trabalho (IV). Só a III falha, porque essas tecnologias desterritorializam a produção e o trabalho."
+        },
+        {
+          "text": "apenas II, III e IV.",
+          "explanation": "Inclui a III, que é falsa (as tecnologias digitais reduzem a dependência do território, não a priorizam), e deixa de fora a I, que o infográfico dos personagens de Chaves ilustra."
+        }
+      ],
+      "correct": "D"
+    },
+    {
+      "key": "ufsm-2025-p3-q02",
+      "source": "Vestibular UFSM 2025 – Prova 3, questão 2 (UFSM)",
+      "kind": "Objective",
+      "subject": "matematica",
+      "statement": "Um dos algoritmos clássicos de Inteligência Artificial (IA), utilizado pelas principais ferramentas atuais de IA generativa, é a rede neural artificial, cujo desenvolvimento data da década de 1950, e consiste em reproduzir a maneira como os neurônios do nosso cérebro se constituem. A figura a seguir mostra uma arquitetura clássica de uma rede neural artificial, onde os círculos representam os nós e estão organizados em camadas, e as flechas, as conexões entre os nós.\n\n![Retângulo cinza com 11 círculos pretos (nós) dispostos em cinco camadas verticais, da esquerda para a direita, com 2, 3, 3, 2 e 1 nós, ligados por flechas entre camadas vizinhas. Os nós da primeira camada tocam a borda esquerda do retângulo e o nó da última camada toca a borda direita. Nas camadas de 3 nós, o nó de cima toca a borda superior e o de baixo toca a borda inferior, com vãos verticais entre os nós aproximadamente iguais ao diâmetro de um nó.](img/ufsm/2025/prova-3/q02-1.png)\n\nEsses algoritmos utilizam diversas operações matemáticas para fazer uma previsão de resultado ou uma classificação, a exemplo de como identificar se um animal, em uma foto, é um cachorro ou um gato, ou de prever o clima para uma semana futura.\n\nDada a arquitetura de rede neural da figura, considerando que o espaçamento horizontal entre todas as camadas é de 1,5 cm e que o diâmetro de todos os nós é de 1 cm, é correto afirmar que a área na cor cinza (desconsiderando que as flechas tenham área e usando π= 3,14), em cm², é",
+      "options": [
+        {
+          "text": "45,580",
+          "explanation": "Esse valor é 55 − 12 × 0,785: desconta 12 círculos, mas a rede tem 11 nós (2 + 3 + 3 + 2 + 1)."
+        },
+        {
+          "text": "46,365",
+          "explanation": "Correta. Largura do retângulo: 5 nós de 1 cm mais 4 espaços de 1,5 cm = 11 cm. Altura, lida na figura: 3 nós de 1 cm e 2 vãos de 1 cm = 5 cm. Área do retângulo: 55 cm². Os 11 nós ocupam 11 × 3,14 × 0,5² = 8,635 cm². Área cinza: 55 − 8,635 = 46,365 cm²."
+        },
+        {
+          "text": "46,750",
+          "explanation": "Sai de 55 − 11 × 0,75, isto é, usando π = 3 em vez de 3,14 na área dos círculos."
+        },
+        {
+          "text": "47,150",
+          "explanation": "Equivale a 55 − 10 × 0,785: desconta só 10 dos 11 nós da rede."
+        },
+        {
+          "text": "54,215",
+          "explanation": "Equivale a 55 − 0,785: desconta a área de um único nó, quando é preciso retirar os 11 círculos do retângulo."
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "key": "ufsm-2025-p3-q03",
+      "source": "Vestibular UFSM 2025 – Prova 3, questão 3 (UFSM)",
+      "kind": "Objective",
+      "subject": "fisica",
+      "statement": "Um grupo de pessoas que estuda programas de Inteligência Artificial estabeleceu como objetivo do seu trabalho reproduzir o funcionamento do cérebro humano usando supercomputadores. Para simular as atividades cerebrais, o grupo passou a desenvolver um modelo que tem como base um único e extenso circuito elétrico. O desenho do circuito e o desenvolvimento do programa ainda estão em curso, mas algumas regras já foram estabelecidas.\n\nNesse contexto, considerando o que a Física já determinou sobre circuitos elétricos, assinale V (verdadeiro) ou F (falso) em cada afirmativa a seguir.\n\n(  ) A soma das diferenças de potencial ao longo de qualquer malha fechada é zero.\n\n(  ) Em qualquer ponto do circuito em que se unem vários fios condutores, a corrente elétrica que chega por um fio qualquer é igual à corrente elétrica que sai por outro fio.\n\n(  ) Sempre que houver um resistor em algum ramo do circuito, a corrente que sai do resistor é menos intensa que a corrente que entra, por conta de sua resistência.\n\nA sequência correta é",
+      "options": [
+        {
+          "text": "V – F – F.",
+          "explanation": "Correta. A primeira é a lei das malhas de Kirchhoff (conservação da energia). A segunda é falsa: em um nó, a soma das correntes que chegam é igual à soma das que saem, sem igualdade fio a fio. A terceira é falsa: a carga se conserva, então a corrente que entra no resistor é a mesma que sai; o que cai ao longo dele é o potencial."
+        },
+        {
+          "text": "F – F – V.",
+          "explanation": "A primeira afirmativa é verdadeira (lei das malhas), e a terceira é falsa: o resistor dissipa energia e reduz o potencial, mas a corrente que sai dele é igual à que entra."
+        },
+        {
+          "text": "F – V – V.",
+          "explanation": "Erra as três: a lei das malhas vale (V), a lei dos nós iguala somas de correntes e não correntes de fios isolados (F), e a corrente não diminui ao atravessar um resistor (F)."
+        },
+        {
+          "text": "F – V – F.",
+          "explanation": "A lei das malhas é verdadeira, e a segunda afirmativa é falsa: a lei dos nós diz que a soma das correntes que entram é igual à soma das que saem, não que cada fio de entrada tenha a mesma corrente de um fio de saída."
+        },
+        {
+          "text": "V – V – V.",
+          "explanation": "Só a primeira é verdadeira. A segunda distorce a lei dos nós e a terceira ignora a conservação da carga: a corrente é a mesma antes e depois do resistor."
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "key": "ufsm-2025-p3-q04",
+      "source": "Vestibular UFSM 2025 – Prova 3, questão 4 (UFSM)",
+      "kind": "Objective",
+      "subject": "biologia",
+      "statement": "Na pesquisa biológica, uma das possibilidades de uso da Inteligência Artificial (IA) é na compreensão da evolução das espécies. Esse é o caso de um estudo publicado na revista Communications Biology em julho de 2024. Nesse estudo, a IA foi capaz de detectar mudanças evolutivas inéditas em borboletas fêmeas. Os resultados do estudo auxiliaram na melhor compreensão do papel da seleção natural e da seleção sexual no processo evolutivo.\n\nSobre seleção natural e seleção sexual, considere as afirmativas a seguir.\n\nI → A seleção natural é classificada em: seleção estabilizadora, que confere vantagens aos indivíduos de fenótipos médios; seleção direcional, que favorece os indivíduos de um fenótipo específico em detrimento de outros fenótipos; seleção disruptiva, que favorece simultaneamente indivíduos de fenótipos extremos e divergentes.\n\nII → A seleção natural decorre das restrições que o meio impõe à sobrevivência ou à reprodução dos organismos, tais como disponibilidade de alimentos, doenças, ações de predadores, dentre outras.\n\nIII → A seleção estabilizadora, por favorecer os fenótipos médios, é capaz de promover a diversificação de uma população.\n\nIV → Na seleção sexual, os indivíduos de um sexo, geralmente as fêmeas, preferem se acasalar com parceiros portadores de determinadas características.\n\nEstá(ão) correta(s)",
+      "options": [
+        {
+          "text": "apenas I.",
+          "explanation": "A classificação da afirmativa I está certa, mas II (pressões do ambiente sobre sobrevivência e reprodução) e IV (escolha de parceiros, em geral pelas fêmeas) também estão."
+        },
+        {
+          "text": "apenas II e III.",
+          "explanation": "A III é falsa: a seleção estabilizadora elimina os extremos e reduz a variação da população; quem tende a diversificar é a seleção disruptiva."
+        },
+        {
+          "text": "apenas III e IV.",
+          "explanation": "A IV é verdadeira, mas a III não: favorecer os fenótipos médios diminui a variabilidade, não promove diversificação."
+        },
+        {
+          "text": "apenas I, II e IV.",
+          "explanation": "Correta. Os três tipos de seleção natural estão bem definidos (I), a seleção resulta das pressões do meio sobre sobrevivência e reprodução (II) e a seleção sexual envolve a preferência de um sexo, geralmente as fêmeas, por certas características dos parceiros (IV). A III é falsa: a seleção estabilizadora reduz a variação."
+        },
+        {
+          "text": "I, II, III e IV.",
+          "explanation": "Inclui a III, que é falsa: ao favorecer os fenótipos médios, a seleção estabilizadora torna a população mais homogênea, em vez de diversificá-la."
+        }
+      ],
+      "correct": "D"
+    },
+    {
+      "key": "ufsm-2025-p3-q05",
+      "source": "Vestibular UFSM 2025 – Prova 3, questão 5 (UFSM)",
+      "kind": "Objective",
+      "subject": "quimica",
+      "statement": "O chip da empresa Neuralink – oficialmente considerado uma Interface Cérebro-Computador (ICC) – é uma pequena sonda contendo mais de 3.000 eletrodos ligados a fios flexíveis mais finos que um fio de cabelo humano. A tecnologia trabalha por meio de um software instalado no chip, o que melhora a comunicação entre as células cerebrais. Os neurotransmissores são os mensageiros químicos do cérebro e são os responsáveis por passarem informações entre um neurônio e outro.\n\n![Três fórmulas estruturais. Adrenalina: anel benzênico com dois grupos OH em carbonos vizinhos e, em outra posição do anel, uma cadeia CH(OH)–CH2–NH–CH3. Ácido glutâmico ou glutamato: HOOC–CH2–CH2–CH(NH2)–COOH. Ácido gama-aminobutírico, GABA: H2N–CH2–CH2–CH2–COOH.](img/ufsm/2025/prova-3/q05-1.png)\n\nFonte: SCHWALLER, F. Neuralink: o que podem fazer os chips cerebrais... G1 Inovação. Publicado em: 20 set. 2023. Disponível em: <https://g1.globo.com/inovacao/noticia/2023/09/20/neuralink-o-que-podem-fazer-os-chips-cerebrais-da-empresa-de-elon-musk.ghtml>. Acesso em: 23 jul. 2024. (Adaptado).\n\nA partir das estruturas químicas dos neurotransmissores representados na figura, assinale a alternativa correta.",
+      "options": [
+        {
+          "text": "Nas três estruturas há as funções amina e ácido carboxílico.",
+          "explanation": "A adrenalina tem amina, mas não tem carboxila (–COOH): seus grupos oxigenados são hidroxilas de álcool e de fenol. Só o glutamato e o GABA são aminoácidos."
+        },
+        {
+          "text": "No GABA há uma ligação dupla e doze ligações sigma.",
+          "explanation": "O GABA (C₄H₉NO₂) tem mesmo uma única dupla, a C=O da carboxila, mas, com 16 átomos em cadeia aberta, tem 15 ligações sigma, e não doze."
+        },
+        {
+          "text": "No glutamato há duas ligações pi e doze ligações sigma.",
+          "explanation": "As duas ligações pi estão certas (uma em cada C=O das carboxilas), mas o glutamato (C₅H₉NO₄) tem 19 átomos em cadeia aberta e, portanto, 18 ligações sigma."
+        },
+        {
+          "text": "Na adrenalina há três ligações pi e as funções orgânicas amina, álcool e fenol.",
+          "explanation": "Correta. As únicas ligações pi da adrenalina são as três do anel aromático. As duas hidroxilas ligadas ao anel são de fenol, a hidroxila do carbono da cadeia lateral é de álcool e o grupo –NH–CH₃ é uma amina secundária."
+        },
+        {
+          "text": "Nas três estruturas há ligações químicas entre átomos de carbono envolvendo os orbitais sp³, sp² ou sp.",
+          "explanation": "Nenhuma das três moléculas tem carbono sp, que exigiria ligação tripla ou duas duplas no mesmo carbono: os carbonos são apenas sp³ (saturados) e sp² (do anel e das carboxilas)."
+        }
+      ],
+      "correct": "D"
+    },
+    {
+      "key": "ufsm-2025-p3-q06",
+      "source": "Vestibular UFSM 2025 – Prova 3, questão 6 (UFSM)",
+      "kind": "Objective",
+      "subject": "quimica",
+      "statement": "Claudiney Tinoco, em seu mestrado no Programa de Pós-Graduação em Computação, da Faculdade de Computação (Facom) da Universidade Federal de Uberlândia (UFU), desenvolveu, por meio da Inteligência Artificial, um método que utiliza feromônios, os quais são capazes de controlar as ações de um conjunto de robôs. Os feromônios são substâncias químicas que transmitem informações depositadas no ambiente por diferentes animais da mesma espécie.\n\nFonte: JUSTINO, L. Doutorando da UFU utiliza feromônios para controlar robôs. Comunica.ufu.br. Publicado em: 12 nov. 2021. Atualizado em: 22 ago. 2023. Disponível em: <https://comunica.ufu.br/noticias/2021/11/doutorando-da-ufu-utiliza-feromonios-para-controlar-robos>. Acesso em: 23 jul. 2024. (Adaptado).\n\nHá insetos que utilizam o ácido 3,5-tetradecadienoico como feromônio sexual. As fêmeas da espécie Attagenus megatoma (besouro preto do tapete) produzem e emitem o isômero A, ao passo que as fêmeas da espécie Attagenus elongatulus produzem e emitem o isômero B.\n\n![Duas fórmulas em linha de ácidos carboxílicos de 14 carbonos com duplas ligações nos carbonos 3 e 5, contados a partir da carboxila. Estrutura A: a dupla do carbono 3, mais próxima da carboxila, tem os substituintes em lados opostos (trans) e a dupla do carbono 5 tem os substituintes do mesmo lado (cis). Estrutura B: as duas duplas têm os substituintes do mesmo lado (cis).](img/ufsm/2025/prova-3/q06-1.png)\n\nFonte: MOREIRA, M. A. B.; ZARBIN, P. H. G.; CORACINI, M. D. A. Feromônios Associados aos Coleópteros-Praga de Produtos Armazenados. Química Nova, v. 28, n. 3, 2005, p. 472-477. Disponível em: <https://www.scielo.br/j/qn/a/FYR8DBm7DsCp3YbTsxjP4sx/?format=pdf&lang=pt>. Acesso em: 23 jul. 2024. (Adaptado).\n\nTendo em vista os isômeros representados nas estruturas A e B da figura, considere as afirmativas a seguir.\n\nI → A estrutura A e a estrutura B são isômeros geométricos e apresentam propriedades físicas e químicas diferentes.\n\nII → O ácido 3,5-tetradecadienoico é um composto saturado com fórmula molecular C₁₄H₂₄O₂.\n\nIII → A nomenclatura da estrutura A é ácido (3E,5Z)-3,5-tetradecadienoico.\n\nIV → A nomenclatura da estrutura B é ácido (3Z,5E)-3,5-tetradecadienoico.\n\nEstá(ão) correta(s)",
+      "options": [
+        {
+          "text": "apenas I.",
+          "explanation": "A I é verdadeira, mas a III também: na estrutura A, a dupla do carbono 3 é trans (E) e a do carbono 5 é cis (Z)."
+        },
+        {
+          "text": "apenas I e III.",
+          "explanation": "Correta. A e B diferem só na disposição espacial em torno das duplas, logo são isômeros geométricos, com propriedades diferentes (tanto que cada espécie reconhece apenas o seu). Em A, a dupla em C3 é E e a dupla em C5 é Z. A II falha porque o composto é insaturado (a fórmula C₁₄H₂₄O₂ está certa), e a IV porque, em B, as duas duplas são Z."
+        },
+        {
+          "text": "apenas II e IV.",
+          "explanation": "A II chama de saturado um composto com duas duplas C=C, e a IV descreve a estrutura B como 3Z,5E, quando as duas duplas de B são cis (3Z,5Z)."
+        },
+        {
+          "text": "apenas III e IV.",
+          "explanation": "A III está certa, mas a IV não: na estrutura B, as duas duplas têm os grupos do mesmo lado, o que dá (3Z,5Z), e não (3Z,5E)."
+        },
+        {
+          "text": "apenas I, II e III.",
+          "explanation": "I e III são verdadeiras, mas a II é falsa: um dieno é insaturado por definição, ainda que a fórmula molecular C₁₄H₂₄O₂ esteja correta."
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "key": "ufsm-2025-p3-q07",
+      "source": "Vestibular UFSM 2025 – Prova 3, questão 7 (UFSM)",
+      "kind": "Objective",
+      "subject": "fisica",
+      "statement": "Para responder às questões 07 e 08, considere a figura e o texto a seguir.\n\n![Sistema de eixos com x horizontal para a direita, y vertical para cima e z saindo do plano em direção ao observador. Um ímã em forma de C tem o polo S acima e o polo N abaixo da origem, alinhados ao longo do eixo y. À esquerda, uma partícula de carga negativa tem velocidade V apontando para a direita, no sentido positivo do eixo x, em direção à região entre os polos.](img/ufsm/2025/prova-3/q07-1.png)\n\nA fusão nuclear é uma reação em que dois núcleos atômicos se fundem em um núcleo maior. Esse tipo de reação pode ser induzido em um reator nuclear, no qual um plasma é mantido em temperaturas de dezenas de milhões de graus. Esse plasma é confinado por um conjunto de campos magnéticos. A ideia básica do confinamento é que uma partícula com carga elétrica não nula, ao se deslocar numa região em que existe um campo magnético, fique sujeita a uma força magnética. Contudo, o plasma é formado por partículas com carga elétrica não nula em movimento a altas velocidades que criam, elas próprias, campos magnéticos que desestabilizam o confinamento. Agora, uma ferramenta de Inteligência Artificial foi criada para permitir reconfigurar os campos magnéticos de confinamento em frações de segundo, tornando o tempo de confinamento do plasma significativamente maior.\n\nConsidere, então, um elétron que se desloca ao longo do eixo x do referencial representado na figura e que se aproxima de uma região entre os polos de um ímã alinhados ao longo do eixo y, conforme se vê na figura. No momento em que entra nessa região, aparece, sobre o elétron, uma força magnética cuja direção e cujo sentido são, respectivamente,",
+      "options": [
+        {
+          "text": "paralela ao eixo x e contrário ao sentido desse eixo.",
+          "explanation": "A força magnética é sempre perpendicular à velocidade; como o elétron se move ao longo de x, a força não pode ter a direção de x."
+        },
+        {
+          "text": "paralela ao eixo z e o mesmo que o sentido desse eixo.",
+          "explanation": "Esse seria o resultado para uma carga positiva: v (+x) × B (+y) aponta para +z. Como o elétron tem carga negativa, a força se inverte."
+        },
+        {
+          "text": "paralela ao eixo z e contrário ao sentido desse eixo.",
+          "explanation": "Correta. Entre os polos, o campo vai do N (embaixo) para o S (em cima), ou seja, aponta no sentido +y. Com a velocidade em +x, o produto v × B aponta para +z; como F = q v × B e a carga do elétron é negativa, a força aponta para −z."
+        },
+        {
+          "text": "paralela ao eixo y e o mesmo que o sentido desse eixo.",
+          "explanation": "A força magnética é perpendicular ao campo, que tem a direção de y (do polo N para o S); logo, não pode ser paralela ao eixo y."
+        },
+        {
+          "text": "paralela ao eixo y e contrário ao sentido desse eixo.",
+          "explanation": "O campo magnético entre os polos tem a direção do eixo y, e a força magnética é perpendicular ao campo e à velocidade: só pode estar ao longo de z."
+        }
+      ],
+      "correct": "C"
+    },
+    {
+      "key": "ufsm-2025-p3-q09",
+      "source": "Vestibular UFSM 2025 – Prova 3, questão 9 (UFSM)",
+      "kind": "Objective",
+      "subject": "biologia",
+      "statement": "Um estudo publicado em fevereiro de 2021 no periódico Plos Genetics mostrou que é possível construir genomas artificiais, inclusive o humano, utilizando a Inteligência Artificial. Estudos como esse podem auxiliar em novas descobertas no tratamento de doenças genéticas.\n\nSobre genoma humano, assinale V (verdadeiro) ou F (falso) em cada afirmativa a seguir.\n\n(  ) É o conjunto completo de informações hereditárias de qualquer indivíduo.\n\n(  ) Resulta do desenvolvimento de um genótipo em um ambiente específico.\n\n(  ) É constituído de ácido desoxirribonucleico, o DNA.\n\nA sequência correta é",
+      "options": [
+        {
+          "text": "V – V – V.",
+          "explanation": "A segunda afirmativa é falsa: o que resulta da interação entre genótipo e ambiente é o fenótipo, não o genoma."
+        },
+        {
+          "text": "V – V – F.",
+          "explanation": "A segunda descreve o fenótipo (F) e a terceira é verdadeira: o genoma humano é formado por DNA."
+        },
+        {
+          "text": "V – F – V.",
+          "explanation": "Correta. O genoma é o conjunto completo da informação hereditária do indivíduo (V) e é feito de DNA (V). A segunda afirmativa é falsa, porque define o fenótipo: genótipo expresso em um dado ambiente."
+        },
+        {
+          "text": "F – F – V.",
+          "explanation": "A primeira afirmativa é verdadeira: genoma é justamente o conjunto completo das informações hereditárias de um organismo."
+        },
+        {
+          "text": "F – V – F.",
+          "explanation": "Inverte as três: o genoma é o conjunto das informações hereditárias (V), não é produto da interação genótipo-ambiente (F) e é constituído de DNA (V)."
+        }
+      ],
+      "correct": "C"
+    },
+    {
+      "key": "ufsm-2025-p3-q10",
+      "source": "Vestibular UFSM 2025 – Prova 3, questão 10 (UFSM)",
+      "kind": "Objective",
+      "subject": "biologia",
+      "statement": "A hemofilia é uma doença hereditária, em que há uma falha no sistema de coagulação do sangue. Nessa doença, o gene situa-se no cromossomo X, e o alelo recessivo é o responsável pela hemofilia.\n\nEm um estudo publicado em 2023, os autores utilizaram Inteligência Artificial para predição do desenvolvimento de inibidores da ação do fator VIII em crianças com hemofilia A grave. Esses inibidores são anticorpos da classe IgG (aloanticorpos) produzidos pela criança em resposta à administração intravenosa do fator VIII exógeno.\n\nSobre a hemofilia, é correto afirmar que",
+      "options": [
+        {
+          "text": "homens não desenvolvem hemofilia A.",
+          "explanation": "É o contrário: como têm um único cromossomo X, basta aos homens um alelo recessivo (XʰY) para manifestar a doença, e por isso são os mais afetados."
+        },
+        {
+          "text": "mulheres com o genótipo XᴴXʰ são hemofílicas.",
+          "explanation": "A mulher XᴴXʰ é heterozigota: o alelo dominante garante a coagulação normal, e ela é apenas portadora. Para ser hemofílica, precisaria ser XʰXʰ."
+        },
+        {
+          "text": "mulheres com o genótipo XᴴXʰ têm 50% de chance de terem filhas mulheres hemofílicas, independentemente do genótipo do pai.",
+          "explanation": "O genótipo do pai é decisivo: uma filha só é hemofílica (XʰXʰ) se receber Xʰ também do pai. Com pai normal (XᴴY), nenhuma filha é hemofílica."
+        },
+        {
+          "text": "homem com genótipo XʰY é normal portador, portanto, não é hemofílico.",
+          "explanation": "Homens não podem ser portadores sãos de herança ligada ao X: com um só cromossomo X, o genótipo XʰY manifesta a hemofilia."
+        },
+        {
+          "text": "mulheres hemofílicas sempre terão filhos homens também hemofílicos, independentemente do genótipo do pai.",
+          "explanation": "Correta. A mulher hemofílica é XʰXʰ e só pode transmitir Xʰ. O filho homem recebe o X da mãe e o Y do pai; logo, todo filho será XʰY, hemofílico, qualquer que seja o genótipo do pai."
+        }
+      ],
+      "correct": "E"
+    },
+    {
+      "key": "ufsm-2025-p3-q11",
+      "source": "Vestibular UFSM 2025 – Prova 3, questão 11 (UFSM)",
+      "kind": "Objective",
+      "subject": "quimica",
+      "statement": "Com o uso estratégico da Inteligência Artificial, é possível projetar materiais mais eficientes, reduzir o impacto ambiental e melhorar a segurança dos produtos químicos. Um exemplo disso é a atividade que explora a transformação da celulose (polímero natural encontrado em abundância no papel, que, por suas características estruturais e físico-químicas, não apresenta propriedade plástica) em seu éster derivado (acetato de celulose). O acetato de celulose é um plástico biodegradável utilizado industrialmente para produção de filmes fotográficos, embalagens, armações e lentes oftálmicas.\n\n![Esquema de reação. À esquerda, a unidade repetitiva da celulose entre colchetes, com índice n: anel de glicose com seis membros (cinco carbonos e um oxigênio), com dois grupos OH ligados ao anel e um grupo CH2OH, unido às unidades vizinhas por pontes de oxigênio. Sobre a seta: 1) Ácido acético/H2SO4; 2) anidrido acético, H3C–CO–O–CO–CH3. À direita, a unidade do triacetato de celulose, com índice n: o mesmo anel, em que os três grupos OH foram trocados por grupos O–CO–CH3.](img/ufsm/2025/prova-3/q11-1.png)\n\nFonte: ALVES, H. S. et al. Produção de lentes para óculos 3D a partir de papel usado: uma proposta de atividade experimental alternativa à reciclagem. Latin American Journal of Science Education. v. 1, n. 1211, 2015. (Adaptado).\n\nCom relação à reação de esterificação abordada no texto e na figura, considere as afirmativas a seguir.\n\nI → Devido à disponibilidade de grupos hidroxila, as moléculas de celulose tendem a formar ligações de hidrogênio, as quais são extremamente importantes para suas características químicas e físicas.\n\nII → A estrutura química do triacetato de celulose possui quatro carbonos assimétricos.\n\nIII → Para a síntese do acetato de celulose, é necessária uma reação de adição na celulose envolvendo ácido acético, ácido sulfúrico como catalisador e anidrido acético como agente acetilante.\n\nIV → O acetato de celulose é formado pela substituição dos átomos de hidrogênio dos grupos hidroxila das unidades de glicose por grupos acetila.\n\nEstão corretas",
+      "options": [
+        {
+          "text": "apenas I e II.",
+          "explanation": "A I é verdadeira, mas a II não: cada unidade do triacetato tem cinco carbonos assimétricos, os cinco carbonos do anel (C1 a C5), e não quatro."
+        },
+        {
+          "text": "apenas I e IV.",
+          "explanation": "Correta. As hidroxilas da celulose formam ligações de hidrogênio entre as cadeias, o que explica sua rigidez e insolubilidade (I), e a acetilação troca o H de cada hidroxila por um grupo acetila, formando éster (IV). A II falha porque são cinco os carbonos assimétricos por unidade, e a III porque a esterificação é uma reação de substituição, não de adição."
+        },
+        {
+          "text": "apenas II e III.",
+          "explanation": "As duas são falsas: há cinco carbonos assimétricos em cada unidade, e a acetilação é uma substituição (o H da hidroxila dá lugar ao grupo acetila), não uma adição."
+        },
+        {
+          "text": "apenas I, III e IV.",
+          "explanation": "A III erra o tipo de reação: os reagentes citados estão certos, mas a esterificação das hidroxilas é uma substituição, não uma adição à celulose."
+        },
+        {
+          "text": "apenas II, III e IV.",
+          "explanation": "Só a IV é verdadeira. A II erra a contagem de carbonos assimétricos (são cinco por unidade) e a III classifica como adição uma reação de substituição."
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "key": "ufsm-2025-p3-q12",
+      "source": "Vestibular UFSM 2025 – Prova 3, questão 12 (UFSM)",
+      "kind": "Objective",
+      "subject": "quimica",
+      "statement": "A Inteligência Artificial vem sendo utilizada há muito tempo em diversas áreas da saúde, e na Reprodução Assistida não é diferente.\n\nFonte: ASSOCIAÇÃO BRASILEIRA DE REPRODUÇÃO ASSISTIDA – SBRA. A influência da Inteligência Artificial na reprodução assistida. Publicado em: 21 jul. 2023. Disponível em: <https://sbra.com.br/noticias/a-influencia-da-inteligencia-artificial-na-reproducao-assistida/>. Acesso em: 23 jul. 2024. (Adaptado).\n\nNesse processo podem entrar as dosagens hormonais, como as que ocorrem logo após o nascimento do bebê, quando a mulher experimenta um período de euforia e bem-estar, o que é atribuído à liberação hormonal de ocitocina endógena e endorfinas.\n\n![Fórmula estrutural de um fragmento de peptídeo entre colchetes, precedido de reticências, com sete resíduos unidos por ligações peptídicas –CO–NH–. Da esquerda para a direita, os carbonos alfa têm as cadeias laterais: CH2–CO–NH2; CH3; CH2 ligado a um anel benzênico com OH na posição oposta; (CH2)4–NH2; (CH2)4–NH2; nenhuma cadeia lateral (CH2 na cadeia principal); CH2–CH2–COOH, este último com um grupo COOH terminal. Seis dos sete carbonos alfa aparecem com ligação em cunha, cheia ou tracejada; o carbono alfa sem cadeia lateral não.](img/ufsm/2025/prova-3/q12-1.png)\n\nFonte: PIETROSKI, S. A química do parto humano: uma abordagem temática para o ensino de química. 2022. 75 p. Dissertação (Mestrado em Química) – PROFQUI, Universidade Federal do Rio Grande do Sul, Porto Alegre, RS, 2022. p. 24-25. Disponível em: <https://repositorioceme.ufrgs.br/bitstream/handle/10183/238436/001140032.pdf?sequence=1&isAllowed=y>. Acesso em: 23 jul. 2024. (Adaptado).\n\nDe acordo com a estrutura química de um fragmento da beta-endorfina, apresentada na figura, considere as afirmativas a seguir.\n\nI → As funções orgânicas presentes na estrutura são: amida, amina, fenol e ácido carboxílico.\n\nII → Na estrutura há a presença de seis carbonos assimétricos, e o número possível de isômeros ópticos é de 64 estereoisômeros.\n\nIII → A estrutura apresenta a isomeria geométrica, o que ocorre quando dois compostos com funções diferentes estão na mesma solução em equilíbrio dinâmico.\n\nIV → Os estereoisômeros encontrados na estrutura podem ser subdivididos em duas categorias: e os enantiômeros, cujas moléculas são imagens especulares e não superponíveis, e os diasteroisômeros, cujas moléculas não são imagens especulares uma da outra.\n\nEstá(ão) correta(s)",
+      "options": [
+        {
+          "text": "apenas I.",
+          "explanation": "A I está certa, mas II e IV também: há seis carbonos assimétricos (2⁶ = 64 estereoisômeros), e estereoisômeros se dividem em enantiômeros e diastereoisômeros."
+        },
+        {
+          "text": "apenas I e IV.",
+          "explanation": "Falta a II: dos sete carbonos alfa, só o que não tem cadeia lateral (CH₂) não é assimétrico; com seis centros quirais, o máximo é 2⁶ = 64 isômeros ópticos."
+        },
+        {
+          "text": "apenas II e III.",
+          "explanation": "A III é falsa: a definição dada (compostos de funções diferentes em equilíbrio dinâmico) é a de tautomeria, não a de isomeria geométrica, e a estrutura não tem dupla C=C nem anel que permitam isomeria cis-trans."
+        },
+        {
+          "text": "apenas I, II e IV.",
+          "explanation": "Correta. A estrutura tem amidas (ligações peptídicas e –CONH₂), aminas (–NH₂ das cadeias laterais), fenol (OH no anel aromático) e ácidos carboxílicos (I). Há seis carbonos assimétricos, o que dá 2⁶ = 64 estereoisômeros (II), classificados em enantiômeros e diastereoisômeros (IV). A III descreve tautomeria, não isomeria geométrica."
+        },
+        {
+          "text": "apenas II, III e IV.",
+          "explanation": "Inclui a III, que confunde isomeria geométrica com tautomeria, e deixa de fora a I, que lista corretamente as funções amida, amina, fenol e ácido carboxílico."
+        }
+      ],
+      "correct": "D"
+    },
+    {
+      "key": "ufsm-2025-p3-q13",
+      "source": "Vestibular UFSM 2025 – Prova 3, questão 13 (UFSM)",
+      "kind": "Objective",
+      "subject": "fisica",
+      "statement": "Os recursos de Inteligência Artificial são surpreendentes. Veja o exemplo do ChatGPT: elabora textos, currículos e responde a questões de muitas áreas de conhecimento. No entanto, ainda estão longe de serem perfeitos. Em uma pesquisa sobre campo elétrico, uma plataforma de IA entregou três afirmativas. Assinale V (verdadeiro) ou F (falso) em cada uma a seguir.\n\n(  ) Existe um campo elétrico associado a toda partícula elementar.\n\n(  ) Se uma partícula tem um campo elétrico associado a ela, a intensidade desse campo diminui com o inverso da distância entre ela e o ponto do espaço considerado.\n\n(  ) Se uma partícula com carga elétrica não nula é colocada numa região em que já existe um campo elétrico, uma força atua sobre ela.\n\nA sequência correta é",
+      "options": [
+        {
+          "text": "V – F – F.",
+          "explanation": "A primeira é falsa, porque só partículas com carga elétrica criam campo elétrico (o neutrino, por exemplo, é neutro), e a terceira é verdadeira: carga em campo elétrico sofre força F = qE."
+        },
+        {
+          "text": "F – F – V.",
+          "explanation": "Correta. Nem toda partícula elementar tem carga elétrica, e sem carga não há campo elétrico associado (F). O campo de uma carga puntiforme cai com o inverso do quadrado da distância, E = kq/r², e não com o inverso da distância (F). Uma carga não nula em um campo elétrico sofre a força F = qE (V)."
+        },
+        {
+          "text": "F – V – V.",
+          "explanation": "A segunda é falsa: a intensidade do campo de uma carga puntiforme é E = kq/r², proporcional ao inverso do quadrado da distância."
+        },
+        {
+          "text": "V – V – F.",
+          "explanation": "Erra as três: partículas neutras não têm campo elétrico associado (F), o campo cai com 1/r² e não com 1/r (F), e toda carga em um campo elétrico sofre força (V)."
+        },
+        {
+          "text": "V – V – V.",
+          "explanation": "Só a terceira é verdadeira. A primeira ignora as partículas sem carga e a segunda troca a dependência com 1/r² por 1/r."
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "key": "ufsm-2025-p3-q14",
+      "source": "Vestibular UFSM 2025 – Prova 3, questão 14 (UFSM)",
+      "kind": "Objective",
+      "subject": "biologia",
+      "statement": "O Sistema de Cariotipagem Interativa – Neon é um software que possibilita a transferência de imagens de cromossomos do microscópio para um computador, em um processamento que analisa uma quantidade de células muito maior do que a quantidade em um trabalho feito manualmente. Os resultados dessa pré-cariotipagem devem ser verificados por um citogeneticista que, com base nos dados fornecidos pelo sistema, irá interpretá-los.\n\nSobre cromossomos de eucariontes, assinale V (verdadeiro) ou F (falso) em cada afirmativa a seguir.\n\n(  ) Os cromossomos homólogos são aqueles que, em organismos diploides, apresentam-se em pares e possuem o mesmo tamanho e forma.\n\n(  ) Os cromossomos apresentam uma região chamada de telômero, por meio da qual as cromátides-irmãs se mantêm unidas, desde a duplicação cromossômica até sua separação para as células-filhas.\n\n(  ) O número cromossômico, no núcleo das células eucarióticas, varia de espécie para espécie.\n\nA sequência correta é",
+      "options": [
+        {
+          "text": "V – F – V.",
+          "explanation": "Correta. Homólogos formam pares de mesmo tamanho e forma nas células diploides (V), e o número de cromossomos é característico de cada espécie (V). A segunda é falsa: quem mantém as cromátides-irmãs unidas é o centrômero; telômeros são as extremidades dos cromossomos."
+        },
+        {
+          "text": "V – V – F.",
+          "explanation": "A segunda é falsa (a região que une as cromátides-irmãs é o centrômero, não o telômero), e a terceira é verdadeira: o número cromossômico varia entre as espécies."
+        },
+        {
+          "text": "F – F – V.",
+          "explanation": "A primeira afirmativa é verdadeira: cromossomos homólogos ocorrem aos pares nos diploides e têm mesmo tamanho, forma e sequência de genes."
+        },
+        {
+          "text": "F – V – F.",
+          "explanation": "Inverte as três: homólogos formam pares semelhantes (V), o telômero é a ponta do cromossomo e não o ponto de união das cromátides (F), e o número de cromossomos varia entre espécies (V)."
+        },
+        {
+          "text": "V – V – V.",
+          "explanation": "A segunda afirmativa é falsa: as cromátides-irmãs ficam unidas pelo centrômero; os telômeros protegem as extremidades dos cromossomos."
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "key": "ufsm-2025-p3-q15",
+      "source": "Vestibular UFSM 2025 – Prova 3, questão 15 (UFSM)",
+      "kind": "Objective",
+      "subject": "artes-educacao-fisica",
+      "statement": "A Inteligência Artificial (IA) é uma área de conhecimento interdisciplinar da ciência da computação que vem revolucionando a maneira como nos relacionamos com a cultura digital. Com base em informações como idade, peso, altura, histórico de exercícios, a IA tem potencial de impactar a Educação Física, pois permite\n\nI → criar e personalizar planilhas de treinamento.\n\nII → avaliar o movimento corporal.\n\nIII → garantir a segurança e a eficácia dos exercícios.\n\nIV → prescindir da orientação de um profissional qualificado.\n\nEstá(ão) correta(s)",
+      "options": [
+        {
+          "text": "apenas I.",
+          "explanation": "A I é verdadeira, mas a II também: sistemas de IA analisam imagens e dados de sensores para avaliar o movimento corporal."
+        },
+        {
+          "text": "apenas I e II.",
+          "explanation": "Correta. Com dados como idade, peso, altura e histórico, a IA consegue montar e ajustar planilhas de treino (I) e analisar o movimento do praticante (II). Ela não garante segurança e eficácia (III), que dependem da execução e do acompanhamento, nem dispensa o profissional qualificado (IV)."
+        },
+        {
+          "text": "apenas II e III.",
+          "explanation": "A III exagera: a IA pode auxiliar, mas não garante a segurança nem a eficácia dos exercícios, que dependem da execução, das condições de saúde e do acompanhamento."
+        },
+        {
+          "text": "apenas III e IV.",
+          "explanation": "As duas são falsas: a IA não garante segurança e eficácia, e seu uso não torna dispensável a orientação de um profissional de Educação Física."
+        },
+        {
+          "text": "apenas I, II e IV.",
+          "explanation": "A IV é falsa: prescindir é dispensar, e a IA é ferramenta de apoio que não substitui a orientação de um profissional qualificado."
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "key": "ufsm-2025-p3-q16",
+      "source": "Vestibular UFSM 2025 – Prova 3, questão 16 (UFSM)",
+      "kind": "Objective",
+      "subject": "lingua-portuguesa",
+      "statement": "A figura a seguir apresenta parte de uma pesquisa online realizada pela empresa alemã Bosch, em dezembro de 2023, com pessoas de sete países (Índia, China, Brasil, França, Estados Unidos da América, Reino Unido e Alemanha). Uma das questões perguntava sobre o uso da Inteligência Artificial nas relações interpessoais. A conclusão em porcentagens, apresentada por país, consta na figura a seguir, juntamente com a frase “**Eu usaria a IA para escrever cartas de amor personalizadas para expressar minhas emoções**”.\n\n![Quadro com a frase Eu usaria a IA para escrever cartas de amor personalizadas para expressar minhas emoções e a legenda Respostas em %. Ao lado, a lista por país: IN 59, CH 58, BR 35, FR 27, EUA 24, RU 23, AL 16.](img/ufsm/2025/prova-3/q16-1.png)\n\nFonte: BOSCH. A IA terá impacto duradouro na forma como vivemos? O que as pessoas em todo o mundo pensam sobre as novas tecnologias. Bosch Tech Compass 2024. Publicado em: 05 mar. 2024. Disponível em: <https://www.bosch.com.br/noticias-e-historias/aiot/bosch-tech-compass-2024/>. Acesso em: 20 ago. 2024. (Adaptado).\n\nConsiderando o emprego dos recursos linguísticos e as conclusões autorizadas pelos dados numéricos, assinale V (verdadeiro) ou F (falso) em cada afirmativa a seguir.\n\n(  ) Os indianos pesquisados informaram que direcionariam 59% do uso da IA para a escrita de cartas personalizadas, expressando emoções próprias.\n\n(  ) O emprego do futuro do pretérito é um recurso para afirmar o uso da IA na escrita de cartas de amor como uma realidade, um fato a ser ratificado com dados de pesquisa.\n\n(  ) Os dados numéricos relativos aos países asiáticos levam à conclusão de que é provável ocorrer uma espécie de terceirização da expressividade e da emotividade.\n\nA sequência correta é",
+      "options": [
+        {
+          "text": "F – V – V.",
+          "explanation": "A segunda é falsa: o futuro do pretérito (“usaria”) exprime hipótese, possibilidade, e não um fato dado como real."
+        },
+        {
+          "text": "V – V – F.",
+          "explanation": "Erra as três: 59% é a parcela dos indianos que concordam com a frase, não a parcela do uso da IA (F); “usaria” indica hipótese (F); e os índices de Índia e China, perto de 60%, autorizam falar em provável terceirização da expressão das emoções (V)."
+        },
+        {
+          "text": "V – F – V.",
+          "explanation": "A primeira é falsa: o dado diz que 59% dos indianos entrevistados usariam a IA para escrever cartas de amor, e não que destinariam 59% do uso da IA a essa finalidade."
+        },
+        {
+          "text": "F – F – V.",
+          "explanation": "Correta. O número 59 é a porcentagem de entrevistados indianos que concordam com a frase, não uma fração do uso da IA (F). O futuro do pretérito “usaria” marca hipótese, não fato (F). Como Índia (59%) e China (58%) têm maioria favorável, é plausível concluir que ali a expressão das emoções tende a ser delegada à máquina (V)."
+        },
+        {
+          "text": "V – F – F.",
+          "explanation": "A primeira confunde porcentagem de pessoas com porcentagem de uso (F), e a terceira é verdadeira: com 59% e 58%, os dois países asiáticos indicam provável terceirização da expressividade."
+        }
+      ],
+      "correct": "D"
+    },
+    {
+      "key": "ufsm-2025-p3-q17",
+      "source": "Vestibular UFSM 2025 – Prova 3, questão 17 (UFSM)",
+      "kind": "Objective",
+      "subject": "lingua-portuguesa",
+      "statement": "Para responder à questão 17, considere o texto a seguir.\n\nA Inteligência Artificial já está a serviço das autoridades de trânsito de forma preventiva. **Agora, será possível analisar os dados disponíveis sobre uma região e prever locais e horários com maior risco de ocorrerem colisões e outros desastres automobilísticos**. Trata-se do Antecipa – Tráfego Inteligente, ferramenta lançada pela Secretaria Nacional de Trânsito (Senatran).\n\nFonte: BRASIL. Ministério dos Transportes. Senatran lança ferramenta para ajudar na prevenção e redução de acidentes de trânsito. Publicado em: 22 nov. 2023. Disponível em: <https://agenciagov.ebc.com/noticias/202311/senatran-lanca-antecipa-ferramenta-para-ajudar-na-prevencao-e-reducao-de-acidentes-de-transito>. Acesso em: 15 ago. 2024. (Adaptado).\n\nAssinale a alternativa em que a paráfrase da frase sublinhada apresenta correspondência de sentido com o trecho original e está escrita em norma-padrão.",
+      "options": [
+        {
+          "text": "Analisar-se os dados disponíveis sobre uma região e prever-se locais e horários com maior risco de que ocorra colisões e outros desastres automobilísticos sobre uma região é agora uma possibilidade.",
+          "explanation": "Há falhas de concordância: “que ocorra colisões” deveria ser “que ocorram”, e os infinitivos com “se” apassivador deveriam concordar com os sujeitos plurais (“analisarem-se os dados”, “preverem-se locais”). Além disso, a repetição de “sobre uma região” altera o sentido."
+        },
+        {
+          "text": "Agora, há a possibilidade de se analisarem os dados disponíveis sobre uma região e de se preverem locais e horários com maior risco de ocorrerem colisões e outros desastres automobilísticos.",
+          "explanation": "Correta. Mantém o sentido de possibilidade e respeita a concordância: na voz passiva sintética, “se analisarem os dados” e “se preverem locais e horários” concordam com os sujeitos no plural, assim como “ocorrerem colisões”."
+        },
+        {
+          "text": "Agora, a análise dos dados disponíveis sobre uma região e a previsão de locais e horários com maior risco de ocorrer colisões e outros desastres automobilísticos é possível.",
+          "explanation": "O sujeito é composto (“a análise... e a previsão...”), o que pede “são possíveis”; além disso, “ocorrer colisões” deixa o infinitivo sem concordar com seu sujeito plural."
+        },
+        {
+          "text": "É possível que agora se analise os dados disponíveis sobre uma região e que se faça a previsão dos locais e horários com maior risco de ocorrerem colisões e outros desastres automobilísticos.",
+          "explanation": "Em “se analise os dados”, o “se” é partícula apassivadora e o sujeito “os dados” está no plural: a norma-padrão exige “se analisem os dados”."
+        },
+        {
+          "text": "É possível agora que os dados disponíveis sobre uma região sejam analisados e que seja feita a previsão dos locais e horários com maior risco de ocorrer colisões e outros desastres automobilísticos.",
+          "explanation": "As passivas analíticas estão corretas, mas “risco de ocorrer colisões e outros desastres” deixa o infinitivo no singular com sujeito próprio no plural; o original traz “ocorrerem”."
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "key": "ufsm-2025-p3-q18",
+      "source": "Vestibular UFSM 2025 – Prova 3, questão 18 (UFSM)",
+      "kind": "Objective",
+      "subject": "matematica",
+      "statement": "A Inteligência Artificial tem como objetivo facilitar a vida dos seres humanos, por meio da automatização de diversos processos repetitivos para que as pessoas se concentrem em atividades que dependem do poder de sensibilidade e razoabilidade que apenas os seres humanos têm, tanto no âmbito pessoal quanto no profissional.\n\nUma máquina automatizada produz caixas para presentes a partir de uma folha de cartolina retangular medindo 70 cm de comprimento e 50 cm de largura. Basta fornecer a altura que se deseja da caixa, e a máquina irá criá-la. Caso se queira uma caixa cuja altura seja 8 cm, qual será, em cm³, o volume dessa caixa?",
+      "options": [
+        {
+          "text": "28 000",
+          "explanation": "É 70 × 50 × 8: usa a folha inteira como base, sem descontar os quadrados de 8 cm retirados dos cantos para dobrar as laterais."
+        },
+        {
+          "text": "21 600",
+          "explanation": "É 54 × 50 × 8: desconta os 16 cm só do comprimento e esquece de descontar da largura."
+        },
+        {
+          "text": "19 040",
+          "explanation": "É 70 × 34 × 8: desconta os 16 cm só da largura e mantém o comprimento inteiro."
+        },
+        {
+          "text": "14 688",
+          "explanation": "Correta. Para a caixa (sem tampa) ter 8 cm de altura, retira-se um quadrado de 8 cm de cada canto e dobram-se as abas. A base fica com 70 − 16 = 54 cm por 50 − 16 = 34 cm, e o volume é 54 × 34 × 8 = 14 688 cm³."
+        },
+        {
+          "text": "10 416",
+          "explanation": "Corresponde a 62 × 42 × 4: desconta apenas 8 cm de cada dimensão (em vez de 16 cm, 8 de cada lado) e ainda usa metade da altura."
+        }
+      ],
+      "correct": "D"
+    },
+    {
+      "key": "ufsm-2025-p3-q19",
+      "source": "Vestibular UFSM 2025 – Prova 3, questão 19 (UFSM)",
+      "kind": "Objective",
+      "subject": "geografia",
+      "statement": "O termo Sistemas de Informações Geográficas (SIG) é aplicado para sistemas que realizam o tratamento computacional de dados geográficos. Possui uma ampla gama de aplicações, que inclui temas como agricultura, floresta, cartografia, cadastro urbano e redes de concessionárias (água, energia, telefonia).\n\nFonte: TAMDJIAN, J. O. Geografia Geral e do Brasil – estudos para a compreensão do espaço. Ensino Médio. São Paulo: FTD, 2005. (Adaptado).\n\nSobre os Sistemas de Informações Geográficas, considere as afirmativas a seguir.\n\nI → Servem como banco de dados geográficos de armazenamento e recuperação de informação espacial.\n\nII → Permitem desenvolvimento de aplicativos para a localização de pontos com precisão no planeta, facilitando atividades cotidianas das pessoas.\n\nIII → Permitem o monitoramento dos focos de incêndios devido à precisão das imagens captadas pelos satélites.\n\nIV → Contribuem com a produção agrícola, a partir da aplicação de tecnologia de alta precisão, monitoramento e seleção de sementes.\n\nEstá(ão) correta(s)",
+      "options": [
+        {
+          "text": "apenas I.",
+          "explanation": "O SIG é, de fato, um banco de dados espaciais, mas também sustenta aplicativos de localização, o monitoramento de queimadas por satélite e a agricultura de precisão."
+        },
+        {
+          "text": "apenas I e IV.",
+          "explanation": "Faltam II e III: aplicativos de mapas e navegação e o monitoramento de focos de incêndio por imagens de satélite são aplicações típicas de SIG."
+        },
+        {
+          "text": "apenas II e III.",
+          "explanation": "As duas são verdadeiras, mas I (armazenar e recuperar informação espacial) e IV (agricultura de precisão) também descrevem usos dos SIG."
+        },
+        {
+          "text": "apenas III e IV.",
+          "explanation": "Deixa de fora a I, que é a própria definição de SIG como banco de dados geográficos, e a II, sobre aplicativos de localização."
+        },
+        {
+          "text": "I, II, III e IV.",
+          "explanation": "Correta. Um SIG armazena, recupera e analisa dados espaciais (I); integrado ao posicionamento por satélite, sustenta aplicativos de localização (II); combinado ao sensoriamento remoto, permite monitorar focos de incêndio (III); e é a base da agricultura de precisão (IV)."
+        }
+      ],
+      "correct": "E"
+    },
+    {
+      "key": "ufsm-2025-p3-q20",
+      "source": "Vestibular UFSM 2025 – Prova 3, questão 20 (UFSM)",
+      "kind": "Objective",
+      "subject": "historia",
+      "statement": "O desenvolvimento da área de Inteligência Artificial (IA), ao longo da História, em investimentos, pesquisas e inventos, apresenta oscilações, conforme pode ser observado no gráfico a seguir, que informa datas aproximadas de aumento ou de diminuição.\n\n![Gráfico de linha Avanços e recuos da área de Inteligência Artificial ao longo da História, com eixo vertical de 0 a 1. A curva ondulada parte de 0 em 1950, sobe até 1 em 1972, cai a 0 em 1979, sobe até 1 em 1986, cai a 0 em 1993 e sobe até 1 em 2024.](img/ufsm/2025/prova-3/q20-1.png)\n\nFonte: COZMAN, F.; PLONSKY, G.; NERI, H. (Org.). Inteligência Artificial: avanços e tendências. São Paulo: Instituto de Estudos Avançados, 2021. (Adaptado).\n\nAo considerar os dados do gráfico, assinale V (verdadeiro) ou F (falso) em cada afirmativa a seguir.\n\n(  ) Na segunda metade da década de 1980 e início dos anos 1990, no Brasil, a economia encontrava-se em crise, destacando-se os altos índices inflacionários, contidos somente no governo de Fernando Collor, o que explica a curva descendente da área de IA no período.\n\n(  ) Entre 1973 e 1979, houve uma expansão da área de IA, pois ocorreram as crises internacionais do petróleo, nas quais países árabes exportadores declararam embargos petrolíferos, especialmente contra nações vistas como apoiadoras de Israel.\n\n(  ) O descréscimo da área de IA na década de 1970 coaduna-se, no Brasil, com o período da Ditadura Civil-Militar, com os governos de Médici e Geisel, nos quais ocorreram o Milagre Econômico e o início da distensão política, respectivamente.\n\nA sequência correta é",
+      "options": [
+        {
+          "text": "V – V – F.",
+          "explanation": "Erra as três: a inflação não foi contida por Collor, e sim pelo Plano Real, em 1994 (F); entre 1972 e 1979 a curva desce, não há expansão (F); e a queda dos anos 1970 coincide com os governos Médici e Geisel (V)."
+        },
+        {
+          "text": "V – F – F.",
+          "explanation": "A primeira é falsa: os planos de Collor fracassaram, e a inflação só foi controlada com o Plano Real (1994), no governo Itamar Franco; além disso, a crise brasileira não explica uma tendência mundial da área."
+        },
+        {
+          "text": "F – V – F.",
+          "explanation": "A segunda é falsa: o gráfico mostra queda de 1972 a 1979, e não expansão, embora os choques do petróleo de 1973 e 1979 tenham de fato ocorrido."
+        },
+        {
+          "text": "V – F – V.",
+          "explanation": "A terceira está certa, mas a primeira não: a hiperinflação não foi contida no governo Collor."
+        },
+        {
+          "text": "F – F – V.",
+          "explanation": "Correta. A inflação só foi contida com o Plano Real, em 1994, e não por Collor (F). De 1972 a 1979 o gráfico mostra recuo, não expansão da área (F). Esse recuo coincide, no Brasil, com a ditadura, nos governos Médici (1969-1974), do Milagre Econômico, e Geisel (1974-1979), do início da distensão (V)."
+        }
+      ],
+      "correct": "E"
+    },
+    {
+      "key": "ufsm-2025-p3-q21",
+      "source": "Vestibular UFSM 2025 – Prova 3, questão 21 (UFSM)",
+      "kind": "Objective",
+      "subject": "matematica",
+      "statement": "O investimento corporativo em Inteligência Artificial no mundo em 2022 teve uma queda em relação a 2021, o que pode ser visualizado no gráfico a seguir.\n\n![Gráfico de barras Investimento corporativo global em Inteligência Artificial (IA), com eixo vertical Investimento total (em bilhões de dólares), de 0 a 300. Valores por ano: 2013, 15; 2014, 19; 2015, 25; 2016, 34; 2017, 54; 2018, 80; 2019, 96; 2020, 146; 2021, 276; 2022, 190.](img/ufsm/2025/prova-3/q21-1.png)\n\nFonte: NONASTERIOS, E. Standardizing all project accounting business success. Publicado em: 30 nov. 2023. Disponível em: <http://www.linkedin.com/pulse/standardizing-ai-project-accounting-business-success-monasterios-qnnne>. Acesso em: 17 dez. 2024. (Traduzido).\n\nEm relação aos investimentos em IA, é correto afirmar que",
+      "options": [
+        {
+          "text": "a média dos últimos três anos em investimentos equivale a 204 bilhões.",
+          "explanation": "Correta. Os três últimos anos são 2020, 2021 e 2022: (146 + 276 + 190)/3 = 612/3 = 204 bilhões de dólares."
+        },
+        {
+          "text": "a mediana dos investimentos equivale à do ano de 2017, ou seja, 54 bilhões de dólares.",
+          "explanation": "Com dez valores, a mediana é a média dos dois centrais em ordem crescente (54 e 80): (54 + 80)/2 = 67 bilhões, e não 54."
+        },
+        {
+          "text": "a amplitude dos investimentos é de 175 bilhões de dólares.",
+          "explanation": "A amplitude é a diferença entre o maior e o menor valor: 276 − 15 = 261 bilhões. O valor 175 é 190 − 15, usando o último ano em vez do máximo."
+        },
+        {
+          "text": "houve em 2021 o dobro de investimentos em relação a 2020.",
+          "explanation": "O dobro de 146 seria 292, e o investimento de 2021 foi de 276 bilhões: quase o dobro, mas não o dobro."
+        },
+        {
+          "text": "houve em 2016 investimentos equivalentes aos acumulados nos anos de 2014 e 2015.",
+          "explanation": "A soma de 2014 e 2015 é 19 + 25 = 44 bilhões, e o investimento de 2016 foi de 34 bilhões."
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "key": "ufsm-2025-p3-q22",
+      "source": "Vestibular UFSM 2025 – Prova 3, questão 22 (UFSM)",
+      "kind": "Objective",
+      "subject": "matematica",
+      "statement": "Uma empresa de tecnologia precisa comprar um supercomputador de alto processamento para poder utilizar seus algoritmos de Inteligência Artificial. O valor da máquina é R$ 8 500,00, mas só poderá ser entregue pela fornecedora em 7 meses, com o pagamento sendo feito no momento da entrega. Sendo assim, a empresa optou por investir o valor do supercomputador em uma aplicação cuja taxa de juros simples é de 12% ao ano, enquanto espera o prazo dado pela fornecedora. Passado esse tempo, ao realizar o resgate do investimento, foi necessário o pagamento de imposto de 5% sobre o montante total da operação por parte da empresa.\n\nAssinale a alternativa que indica o montante final que a empresa obteve após a dedução do imposto.",
+      "options": [
+        {
+          "text": "R$ 454,75",
+          "explanation": "Esse é o valor do imposto (5% de R$ 9 095,00), e não o montante que sobrou depois de pagá-lo."
+        },
+        {
+          "text": "R$ 595,00",
+          "explanation": "São apenas os juros do período: 8 500 × 0,01 × 7 = 595. A pergunta é sobre o montante final, já com o capital e descontado o imposto."
+        },
+        {
+          "text": "R$ 8 640,25",
+          "explanation": "Correta. Em juros simples, 12% ao ano equivalem a 1% ao mês; em 7 meses, os juros são 8 500 × 0,07 = 595, e o montante é R$ 9 095,00. O imposto é 5% de 9 095 = 454,75, restando 9 095 − 454,75 = R$ 8 640,25."
+        },
+        {
+          "text": "R$ 8 954,75",
+          "explanation": "É 8 500 + 454,75: soma o valor do imposto ao capital, em vez de subtraí-lo do montante de R$ 9 095,00."
+        },
+        {
+          "text": "R$ 9 095,00",
+          "explanation": "É o montante bruto (8 500 + 595), antes da dedução do imposto de 5%."
+        }
+      ],
+      "correct": "C"
+    },
+    {
+      "key": "ufsm-2025-p3-q23",
+      "source": "Vestibular UFSM 2025 – Prova 3, questão 23 (UFSM)",
+      "kind": "Objective",
+      "subject": "geografia",
+      "statement": "Leia os excertos de uma reportagem sobre empresas de tecnologia.\n\n“Big Techs lucraram US$ 327 bilhões em 2023. As receitas das big techs somadas bateram recorde em 2023, de US$ 1.59 trilhão”.\n\n“Empresas de tecnologia demitiram 248 mil em 2023. As big techs dos EUA – Appel, Amazon, Alphabet, Meta e Microsoft – demitiram mais de 85 mil funcionários”.\n\nFonte: MARCOLINO, A.; NÓBREGA, I. “Big techs” batem recorde em 2023 com lucro de US$ 327 bilhões. Publicado em: 03 fev. 2024. Disponível em: <http://www.poder360.com.br>. Acesso em: 02 ago. 2024.\n\nEsses excertos representam uma importante contradição entre lucratividade das grandes empresas de tecnologia e demissões de trabalhadores. Em relação à organização do trabalho e da produção, ao longo do capitalismo tecnológico e financeiro, assinale V (verdadeiro) ou F (falso) em cada afirmativa a seguir.\n\n(  ) As big techs configuram uma organização de trabalho flexível em um processo de produção just in time, em que as relações de trabalho se modificam.\n\n(  ) O processo de produção das big techs se acelerou com a automação da produção, baseada na utilização de computadores, braços mecânicos e Inteligência Artificial.\n\n(  ) A organização do trabalho e da produção das big techs volta-se para uma produção padrão, com a execução de tarefas repetitivas e especializadas e com o emprego de trabalhadores permanentes.\n\nA sequência correta é",
+      "options": [
+        {
+          "text": "V – V – F.",
+          "explanation": "Correta. As big techs operam no modelo flexível, com produção sob demanda e novas relações de trabalho (V), acelerado pela automação com computadores, robôs e IA (V). A terceira descreve o modelo fordista-taylorista, de produção padronizada, tarefas repetitivas e emprego estável, que é o oposto (F)."
+        },
+        {
+          "text": "V – F – V.",
+          "explanation": "A segunda é verdadeira (a automação acelerou a produção), e a terceira é falsa: produção padrão, tarefas repetitivas e trabalhadores permanentes são marcas do fordismo, não das big techs."
+        },
+        {
+          "text": "V – V – V.",
+          "explanation": "A terceira afirmativa é falsa: ela descreve o fordismo-taylorismo, enquanto as big techs seguem a acumulação flexível, com vínculos instáveis, como mostram as demissões em massa."
+        },
+        {
+          "text": "F – F – V.",
+          "explanation": "Inverte as três: a organização flexível e just in time (V) e a automação (V) caracterizam as big techs, e a produção padronizada com emprego permanente, não (F)."
+        },
+        {
+          "text": "F – V – F.",
+          "explanation": "A primeira é verdadeira: a flexibilidade da produção e das relações de trabalho é traço central do capitalismo tecnológico e financeiro."
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "key": "ufsm-2025-p3-q24",
+      "source": "Vestibular UFSM 2025 – Prova 3, questão 24 (UFSM)",
+      "kind": "Objective",
+      "subject": "historia",
+      "statement": "Alan Turing foi um matemático inglês pioneiro na computação e é considerado o pai da Ciência dos Computadores. Ficou conhecido por ter decifrado o principal código NAZI durante a Segunda Guerra Mundial e foi também um inventor na área dos computadores. Criou a denominada “Máquina de Turing”, capaz de fazer qualquer coisa para a qual fosse programada. Devido à decifração dos códigos das mensagens de comunicação dos nazis, salvou milhares de pessoas, porque os comboios navais aliados que navegavam pelo Atlântico Norte eram avisados antecipadamente da posição dos submarinos alemães, e ao mesmo tempo permitia a interceptação pela marinha e força aérea das terríveis forças navais nazis. Desenvolveu trabalhos nas áreas de matemática, lógica, computação, biologia e filosofia e foi o primeiro a abordar de forma estruturada a Inteligência Artificial.\n\nFonte: BRANDÃO, P. R. Alan Turing: da necessidade do cálculo, a máquina de Turing até à computação. Revista de Ciências da Computação. Portugal: Universidade Aberta, v. 12, 2017, p. 79. (Adaptado).\n\nNo contexto histórico da II Guerra Mundial, a decodificação dos códigos nazistas por Alan Turing",
+      "options": [
+        {
+          "text": "foi decisiva para as vitórias militares dos aliados diante do avanço territorial alemão nas regiões dos Países Baixos e da Bélgica durante a segunda fase da guerra.",
+          "explanation": "Os Países Baixos e a Bélgica foram ocupados rapidamente pela Alemanha em 1940, ainda na fase de expansão do Eixo: ali houve derrota dos Aliados, não vitórias."
+        },
+        {
+          "text": "não foi suficiente para impedir as vitórias alemãs nas batalhas de Dunquerque e da Inglaterra durante a primeira fase da guerra.",
+          "explanation": "A Batalha da Inglaterra (1940) não foi uma vitória alemã: a força aérea britânica resistiu, e Hitler desistiu de invadir a ilha."
+        },
+        {
+          "text": "viabilizou a chegada de suprimentos e armamentos aos aliados pelas rotas marítimas setentrionais, além de contribuir para derrotas dos países do Eixo na segunda fase da guerra.",
+          "explanation": "Correta. Como diz o texto, saber antes a posição dos submarinos alemães protegeu os comboios do Atlântico Norte, garantindo o abastecimento dos Aliados, e permitiu interceptar as forças navais nazistas, o que contribuiu para a virada da guerra contra o Eixo."
+        },
+        {
+          "text": "teve repercussões intensificadas durante a segunda fase da guerra, contribuindo para a vitória soviética em Stalingrado e para o sucesso estadunidense em Pearl Harbour.",
+          "explanation": "Pearl Harbor (1941) foi um ataque japonês de surpresa à base dos Estados Unidos, que saíram derrotados do episódio: não houve sucesso estadunidense ali."
+        },
+        {
+          "text": "foi insuficiente em termos humanitários, ocasionando a condenação do cientista no Tribunal de Nuremberg após a guerra.",
+          "explanation": "O Tribunal de Nuremberg julgou líderes nazistas; Turing nunca foi réu ali, e o texto destaca que seu trabalho salvou milhares de vidas."
+        }
+      ],
+      "correct": "C"
+    },
+    {
+      "key": "ufsm-2025-p3-q25",
+      "source": "Vestibular UFSM 2025 – Prova 3, questão 25 (UFSM)",
+      "kind": "Objective",
+      "subject": "lingua-portuguesa",
+      "statement": "Leia o texto a seguir para responder às questões 25, 26 e 27.\n\n**Breve introdução à história da Inteligência Artificial**\n\n```\n01    O desejo de construir autômatos capazes de agir de\n    forma inteligente (simulando a inteligência humana)\n    existe desde a antiguidade e está representado em\n    diversas narrativas mitológicas, com o mito grego de\n05  Prometeu e o mito hebraico de Golem. No cerne des-\n    sas narrativas, está o desejo de criação, de domínio da\n    natureza e da conservação e ampliação do potencial\n    humano – inevitavelmente finito, posto que mortal.\n      Na atualidade, os embates entre transumanistas,\n10  pós-humanistas e bioconservadores reportam-se a\n    esse mesmo problema, estando, no cerne de suas\n    discussões, o potencial e os parâmetros éticos ati-\n    nentes à Inteligência Artificial (IA) e à biotecnologia\n    (dentre outros elementos).\n15    De acordo com Nilsson (2009), IA é o conjunto\n    de técnicas para a construção de máquinas inteli-\n    gentes, capazes de resolver problemas que reque-\n    rem inteligência humana.\n      A IA é um campo do conhecimento atualmente\n20  bastante explorado pelo cinema e pela literatura,\n    mas ainda pouco conhecido no que se refere à sua\n    gênese. Ele se vincula à Ciência da Computação\n    e associa-se a questões como: linguagem, inteli-\n    gência, raciocínio, aprendizagem e resolução de\n25  problemas, que, por sua vez, perpassam os vários\n    domínios das ciências, desde a linguística e a psi-\n    cologia até a filosofia e a epistemologia.\n      O objetivo da IA é entender e construir sistemas\n    inteligentes, o que representa um elevado impac-\n30  to em nossa cultura ocidental, uma vez que nela\n    há crenças humanistas e especistas que nos levam\n    a pensar que somos seres superiores e que inteli-\n    gência e pensamento são dádivas exclusivas à nos-\n    sa espécie – o que nos diferenciaria e nos tornaria\n35  superiores às demais criaturas. Nesse sentido, sis-\n    temas inteligentes, capazes de desenvolver ações\n    complexas e resolver problemas “raciocinando” ou\n    simulando tal ação colocariam em xeque, desse\n    modo, toda a base antropocêntrica da nossa cul-\n40  tura. Para Harari, se as expectativas em torno da\n    IA se confirmarem nos próximos anos, teremos um\n    deslocamento radical do centro do poder: “As novas\n    tecnologias do século XXI podem, assim, reverter a\n    revolução humanista, destituindo humanos de sua\n45  autoridade e passando o poder a algoritmos não hu-\n    manos” (HARARI, 2016, p. 347).\n```\n\nFonte: BARBOSA, X. de C.; BEZERRA, R. T. Breve introdução à história da Inteligência Artificial. Jamaxi, v. 4, n. 2, 2020. Disponível em: <https://periodicos.ufac.br/index.php/jamaxi/article/view/4730/2695>. Acesso em: 09 ago. 2024. (Adaptado).\n\nA propósito das informações apresentadas no texto, é correto afirmar que",
+      "options": [
+        {
+          "text": "o impacto da IA na cultura ocidental tem levado alguns humanos a discutirem a supremacia do homem sobre as outras espécies.",
+          "explanation": "Correta. O quinto parágrafo afirma que sistemas inteligentes colocam em xeque a base antropocêntrica da cultura ocidental, isto é, a crença humanista e especista de que somos superiores às demais criaturas."
+        },
+        {
+          "text": "a IA e a biotecnologia têm propiciado debates sobre o potencial ético da criação e do domínio da humanidade.",
+          "explanation": "O texto fala em discussões sobre “o potencial e os parâmetros éticos” da IA e da biotecnologia; a alternativa embaralha os termos e cria um “potencial ético da criação e do domínio da humanidade” que não está no texto."
+        },
+        {
+          "text": "os mitos de Prometeu e de Golem são narrativas sobre o desejo de o ser humano encontrar em si próprio meios de superar suas limitações.",
+          "explanation": "Segundo o texto, esses mitos expressam o desejo de criação (construir autômatos), de domínio da natureza e de ampliação do potencial humano, e não a busca de meios dentro do próprio ser humano."
+        },
+        {
+          "text": "os sistemas inteligentes têm, como consequência, a insegurança humana sobre sua cultura.",
+          "explanation": "O texto diz que tais sistemas colocariam em xeque a base antropocêntrica da cultura, o que é um questionamento de crenças; “insegurança humana sobre sua cultura” é uma extrapolação."
+        },
+        {
+          "text": "os avanços da IA levarão à crença na superioridade dos algoritmos sobre a inteligência humana.",
+          "explanation": "Harari é citado de forma condicional (“se as expectativas se confirmarem”, “podem”) e trata de deslocamento de poder e autoridade, não de uma crença futura e certa na superioridade dos algoritmos."
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "key": "ufsm-2025-p3-q26",
+      "source": "Vestibular UFSM 2025 – Prova 3, questão 26 (UFSM)",
+      "kind": "Objective",
+      "subject": "lingua-portuguesa",
+      "statement": "Leia o texto a seguir para responder às questões 25, 26 e 27.\n\n**Breve introdução à história da Inteligência Artificial**\n\n```\n01    O desejo de construir autômatos capazes de agir de\n    forma inteligente (simulando a inteligência humana)\n    existe desde a antiguidade e está representado em\n    diversas narrativas mitológicas, com o mito grego de\n05  Prometeu e o mito hebraico de Golem. No cerne des-\n    sas narrativas, está o desejo de criação, de domínio da\n    natureza e da conservação e ampliação do potencial\n    humano – inevitavelmente finito, posto que mortal.\n      Na atualidade, os embates entre transumanistas,\n10  pós-humanistas e bioconservadores reportam-se a\n    esse mesmo problema, estando, no cerne de suas\n    discussões, o potencial e os parâmetros éticos ati-\n    nentes à Inteligência Artificial (IA) e à biotecnologia\n    (dentre outros elementos).\n15    De acordo com Nilsson (2009), IA é o conjunto\n    de técnicas para a construção de máquinas inteli-\n    gentes, capazes de resolver problemas que reque-\n    rem inteligência humana.\n      A IA é um campo do conhecimento atualmente\n20  bastante explorado pelo cinema e pela literatura,\n    mas ainda pouco conhecido no que se refere à sua\n    gênese. Ele se vincula à Ciência da Computação\n    e associa-se a questões como: linguagem, inteli-\n    gência, raciocínio, aprendizagem e resolução de\n25  problemas, que, por sua vez, perpassam os vários\n    domínios das ciências, desde a linguística e a psi-\n    cologia até a filosofia e a epistemologia.\n      O objetivo da IA é entender e construir sistemas\n    inteligentes, o que representa um elevado impac-\n30  to em nossa cultura ocidental, uma vez que nela\n    há crenças humanistas e especistas que nos levam\n    a pensar que somos seres superiores e que inteli-\n    gência e pensamento são dádivas exclusivas à nos-\n    sa espécie – o que nos diferenciaria e nos tornaria\n35  superiores às demais criaturas. Nesse sentido, sis-\n    temas inteligentes, capazes de desenvolver ações\n    complexas e resolver problemas “raciocinando” ou\n    simulando tal ação colocariam em xeque, desse\n    modo, toda a base antropocêntrica da nossa cul-\n40  tura. Para Harari, se as expectativas em torno da\n    IA se confirmarem nos próximos anos, teremos um\n    deslocamento radical do centro do poder: “As novas\n    tecnologias do século XXI podem, assim, reverter a\n    revolução humanista, destituindo humanos de sua\n45  autoridade e passando o poder a algoritmos não hu-\n    manos” (HARARI, 2016, p. 347).\n```\n\nFonte: BARBOSA, X. de C.; BEZERRA, R. T. Breve introdução à história da Inteligência Artificial. Jamaxi, v. 4, n. 2, 2020. Disponível em: <https://periodicos.ufac.br/index.php/jamaxi/article/view/4730/2695>. Acesso em: 09 ago. 2024. (Adaptado).\n\nAssinale a alternativa em que todos os trechos exercem a mesma função sintática em suas orações no texto.",
+      "options": [
+        {
+          "text": "“de agir de forma inteligente” (ℓ. 01-02), “de suas discussões” (ℓ. 11-12), “do século XXI” (ℓ. 43).",
+          "explanation": "O primeiro trecho completa o adjetivo “capazes” (complemento nominal), mas “de suas discussões” e “do século XXI” apenas especificam os substantivos “cerne” e “tecnologias” (adjuntos adnominais)."
+        },
+        {
+          "text": "“de Prometeu” (ℓ. 04-05), “de técnicas” (ℓ. 16), “de problemas” (ℓ. 24-25).",
+          "explanation": "“de Prometeu” e “de técnicas” são adjuntos adnominais de “mito” e “conjunto”, mas “de problemas” é alvo da ação expressa em “resolução” (resolver problemas), ou seja, complemento nominal."
+        },
+        {
+          "text": "“de construir autômatos” (ℓ. 01), “da natureza” (ℓ. 06-07), “às demais criaturas” (ℓ. 35).",
+          "explanation": "Correta. Os três são complementos nominais: completam o sentido de “desejo” (desejar construir), de “domínio” (dominar a natureza, valor passivo) e do adjetivo “superiores”, todos nomes que exigem complemento preposicionado."
+        },
+        {
+          "text": "“do potencial humano” (ℓ. 07-08), “de resolver problemas” (ℓ. 17), “da nossa cultura” (ℓ. 39-40).",
+          "explanation": "Os dois primeiros são complementos nominais (de “ampliação” e de “capazes”), mas “da nossa cultura” é adjunto adnominal de “base”, com valor de posse."
+        },
+        {
+          "text": "“de máquinas inteligentes” (ℓ. 16-17), “do conhecimento” (ℓ. 19), “das ciências” (ℓ. 26).",
+          "explanation": "“de máquinas inteligentes” é complemento nominal de “construção” (construir máquinas), enquanto “do conhecimento” e “das ciências” são adjuntos adnominais de “campo” e “domínios”."
+        }
+      ],
+      "correct": "C"
+    },
+    {
+      "key": "ufsm-2025-p3-q27",
+      "source": "Vestibular UFSM 2025 – Prova 3, questão 27 (UFSM)",
+      "kind": "Objective",
+      "subject": "lingua-portuguesa",
+      "statement": "Leia o texto a seguir para responder às questões 25, 26 e 27.\n\n**Breve introdução à história da Inteligência Artificial**\n\n```\n01    O desejo de construir autômatos capazes de agir de\n    forma inteligente (simulando a inteligência humana)\n    existe desde a antiguidade e está representado em\n    diversas narrativas mitológicas, com o mito grego de\n05  Prometeu e o mito hebraico de Golem. No cerne des-\n    sas narrativas, está o desejo de criação, de domínio da\n    natureza e da conservação e ampliação do potencial\n    humano – inevitavelmente finito, posto que mortal.\n      Na atualidade, os embates entre transumanistas,\n10  pós-humanistas e bioconservadores reportam-se a\n    esse mesmo problema, estando, no cerne de suas\n    discussões, o potencial e os parâmetros éticos ati-\n    nentes à Inteligência Artificial (IA) e à biotecnologia\n    (dentre outros elementos).\n15    De acordo com Nilsson (2009), IA é o conjunto\n    de técnicas para a construção de máquinas inteli-\n    gentes, capazes de resolver problemas que reque-\n    rem inteligência humana.\n      A IA é um campo do conhecimento atualmente\n20  bastante explorado pelo cinema e pela literatura,\n    mas ainda pouco conhecido no que se refere à sua\n    gênese. Ele se vincula à Ciência da Computação\n    e associa-se a questões como: linguagem, inteli-\n    gência, raciocínio, aprendizagem e resolução de\n25  problemas, que, por sua vez, perpassam os vários\n    domínios das ciências, desde a linguística e a psi-\n    cologia até a filosofia e a epistemologia.\n      O objetivo da IA é entender e construir sistemas\n    inteligentes, o que representa um elevado impac-\n30  to em nossa cultura ocidental, uma vez que nela\n    há crenças humanistas e especistas que nos levam\n    a pensar que somos seres superiores e que inteli-\n    gência e pensamento são dádivas exclusivas à nos-\n    sa espécie – o que nos diferenciaria e nos tornaria\n35  superiores às demais criaturas. Nesse sentido, sis-\n    temas inteligentes, capazes de desenvolver ações\n    complexas e resolver problemas “raciocinando” ou\n    simulando tal ação colocariam em xeque, desse\n    modo, toda a base antropocêntrica da nossa cul-\n40  tura. Para Harari, se as expectativas em torno da\n    IA se confirmarem nos próximos anos, teremos um\n    deslocamento radical do centro do poder: “As novas\n    tecnologias do século XXI podem, assim, reverter a\n    revolução humanista, destituindo humanos de sua\n45  autoridade e passando o poder a algoritmos não hu-\n    manos” (HARARI, 2016, p. 347).\n```\n\nFonte: BARBOSA, X. de C.; BEZERRA, R. T. Breve introdução à história da Inteligência Artificial. Jamaxi, v. 4, n. 2, 2020. Disponível em: <https://periodicos.ufac.br/index.php/jamaxi/article/view/4730/2695>. Acesso em: 09 ago. 2024. (Adaptado).\n\nTendo em vista as relações lógico-semânticas entre termos e orações, assinale V (verdadeiro) ou F (falso) em cada afirmativa a seguir.\n\n(  ) A oração “posto que mortal” (ℓ. 08) estabelece uma relação de causa com o trecho anterior.\n\n(  ) A oração “mas ainda pouco conhecido” (ℓ. 21) estabelece uma relação de contraexpectativa com a oração anterior.\n\n(  ) A oração “destituindo humanos de sua autoridade” (ℓ. 44-45) acrescenta uma condição à oração anterior.\n\nA sequência correta é",
+      "options": [
+        {
+          "text": "F – F – V.",
+          "explanation": "Inverte as três: “posto que mortal” explica por que o potencial humano é finito (V), o “mas” quebra a expectativa criada por “bastante explorado” (V), e o gerúndio “destituindo” não exprime condição (F)."
+        },
+        {
+          "text": "F – V – V.",
+          "explanation": "A primeira é verdadeira no texto (“finito, posto que mortal” = finito porque mortal), e a terceira é falsa: “destituindo” indica o modo ou a consequência de reverter a revolução humanista, não uma condição."
+        },
+        {
+          "text": "V – V – V.",
+          "explanation": "A terceira é falsa: a oração de gerúndio “destituindo humanos de sua autoridade” mostra como, ou com que resultado, a revolução humanista seria revertida; não há ideia de condição."
+        },
+        {
+          "text": "V – V – F.",
+          "explanation": "Correta. No texto, “posto que mortal” justifica o “inevitavelmente finito”, com valor causal (V). O “mas” opõe “bastante explorado” a “pouco conhecido”, contrariando a expectativa (V). A oração reduzida de gerúndio “destituindo...” exprime modo ou consequência, não condição (F)."
+        },
+        {
+          "text": "V – F – F.",
+          "explanation": "A segunda é verdadeira: a conjunção adversativa “mas” introduz uma informação que contraria o que se esperaria de um campo “bastante explorado pelo cinema e pela literatura”."
+        }
+      ],
+      "correct": "D"
+    },
+    {
+      "key": "ufsm-2025-p3-q28",
+      "source": "Vestibular UFSM 2025 – Prova 3, questão 28 (UFSM)",
+      "kind": "Objective",
+      "subject": "literatura",
+      "statement": "Na era da Inteligência Artificial, a máquina-robô pode conversar com os humanos. Em um contexto diferente, no Sertão Nordestino, o ambiente seco, a brutalidade, a opressão e a miséria interferem negativamente na linguagem de Fabiano, personagem de Vidas Secas, de Graciliano Ramos. Ele, Sinhá Vitória, o filho mais novo e o filho mais velho, além de um papagaio e da cachorra Baleia, fogem da seca na esperança de uma vida mais digna. O poeta e crítico Affonso Romano de Sant’Anna, em uma leitura do romance, demonstrou esquematicamente a dinâmica entre suas personagens, conforme a imagem a seguir.\n\n![Esquema: uma linha horizontal separa FABIANO / VITÓRIA, escritos acima, de Baleia / Papagaio, escritos abaixo. À esquerda, no alto, a indicação + Homem, com uma seta que desce em direção à linha. À direita, embaixo, a indicação − 1 Animal, com uma seta que sobe em direção à linha.](img/ufsm/2025/prova-3/q28-1.png)\n\nFonte: SANT’ANNA, A. R. de. Análise estrutural de romances brasileiros. Petrópolis: Vozes, 1973. p. 154-155.\n\nCom base na imagem, Sant’Anna argumenta que as adversidades pelas quais passa a família acarretam um processo de animalização (zoomorfismo) das personagens humanas e uma humanização (antropomorfismo) das personagens animais, aproximando-as.\n\nAssinale a alternativa que evidencia corretamente o zoomorfismo na obra Vidas Secas.",
+      "options": [
+        {
+          "text": "Sinhá Vitória, embalando as crianças, enjoou-se da cadela achacada, gargarejou muxoxos e nomes feios. Bicho nojento, babão. Inconveniência deixar cachorro doido solto em casa. Mas compreendia que estava sendo severa demais, achava difícil Baleia endoidecer e lamentava que o marido não houvesse esperado mais um dia para ver se realmente a execução era indispensável.",
+          "explanation": "O trecho mostra Sinhá Vitória dividida diante do sacrifício de Baleia; os termos “bicho nojento, babão” referem-se à cadela, que é animal de fato. Nenhum ser humano é animalizado."
+        },
+        {
+          "text": "Fabiano tinha ido à feira da cidade comprar mantimentos. Precisava sal, farinha, feijão e rapaduras. Sinhá Vitória pedira além disso uma garrafa de querosene e um corte de chita vermelha. Mas o querosene de seu Inácio estava misturado com água, e a chita da amostra era cara demais.",
+          "explanation": "A passagem narra as compras na cidade e a exploração do sertanejo pelo comerciante, sem aproximar nenhuma personagem humana de um animal."
+        },
+        {
+          "text": "Sinhá Vitória mandou os meninos para o barreiro, sentou-se na cozinha, concentrou-se, distribuiu no chão sementes de várias espécies, realizou somas e diminuições. No dia seguinte Fabiano voltou à cidade, mas ao fechar o negócio notou que as operações de Sinhá Vitória, como de costume, diferiam das do patrão.",
+          "explanation": "Aqui Sinhá Vitória faz contas com sementes, capacidade de raciocínio tipicamente humana; o tema é o logro nas contas do patrão, não a animalização."
+        },
+        {
+          "text": "Sinhá Vitória remexeu no baú, os meninos foram quebrar uma haste de alecrim para fazer um espeto. Baleia, o ouvido atento, o traseiro em repouso e as pernas da frente erguidas, vigiava, aguardando a parte que lhe iria tocar, provavelmente os ossos do bicho e talvez o couro.",
+          "explanation": "O destaque é para Baleia, que espera e calcula sua parte na refeição: é o movimento contrário, de humanização do animal (antropomorfismo)."
+        },
+        {
+          "text": "Agora Fabiano era vaqueiro, e ninguém o tiraria dali. Aparecera como um bicho, entocara-se como um bicho, mas criara raízes, estava plantado. Olhou as quipás, os mandacarus e os xiquexiques. Era mais forte que tudo isso, era como as catingueiras e as baraúnas. Ele, Sinhá Vitória, os dois filhos e a cachorra Baleia estavam agarrados à terra.",
+          "explanation": "Correta. Fabiano é comparado diretamente a um animal: “aparecera como um bicho, entocara-se como um bicho”. O verbo “entocar-se” e a comparação reduzem o homem à condição animal, que é o zoomorfismo descrito por Sant’Anna."
+        }
+      ],
+      "correct": "E"
+    },
+    {
+      "key": "ufsm-2025-p3-q29",
+      "source": "Vestibular UFSM 2025 – Prova 3, questão 29 (UFSM)",
+      "kind": "Objective",
+      "subject": "filosofia-sociologia",
+      "statement": "Um estudo do Fundo Monetário Internacional (FMI), apresentado em janeiro de 2024, concluiu que a Inteligência Artificial (IA) afetará quase 40% dos empregos no mundo. Segundo a diretora do FMI, Kristalina Georgieva, em muitos cenários é provável que seja agravada a desigualdade social. Nesse sentido, a IA tem suscitado discussões sobre seus riscos e benefícios, sendo necessário lidar com seus efeitos ambivalentes. De um lado, a IA pode otimizar processos e aumentar a eficiência; de outro, pode aprofundar a disparidade social ao tornar obsoletas determinadas funções ou extinguir postos de trabalho que, por vezes, são ocupados por trabalhadores menos qualificados, geralmente provenientes da população de baixa e média renda.\n\nFonte: TOH, M. Como a Inteligência Artificial impacta empregos no mundo e no Brasil, segundo o FMI. BBC Brasil.com. Publicado em: 15 jan. 2024. Disponível em: <https://www.bbc.com/portuguese/articles/cgekv170k0eo>. Acesso em: 06 ago. 2024. (Adaptado).\n\n![Charge de CartoonStock.com. Em um escritório, um entrevistador sentado atrás de uma mesa, com uma folha de papel na mão, fala a um candidato de terno sentado em uma poltrona à sua frente. Legenda: Estamos procurando alguém exatamente com as suas qualificações, mas em uma versão mecânica.](img/ufsm/2025/prova-3/q29-1.png)\n\nFonte: GIDDENS, A.; SUTTON, P. W. Sociologia. Porto Alegre: Grupo A, 2023. p. 710. Disponível em: https:<//integrada.minhabiblioteca.com.br/#/books/9786559760237/>. Acesso em: 05 ago. 2024. (Adaptado).\n\nTendo em vista o teor do texto e da imagem, considere as afirmativas a seguir, relacionadas a ideias preponderantes dos pensadores clássicos da Sociologia.\n\nI → A IA pode exacerbar a alienação e a exploração dos trabalhadores ao aumentar a produtividade e os lucros para os capitalistas, enquanto torna obsoletos muitos postos de trabalho, ocasionando o desemprego. Esse processo intensifica a exploração e alienação, conforme argumentado na teoria de Karl Marx.\n\nII → A IA pode acelerar o processo de concentração de capital ao beneficiar as grandes organizações que têm recursos para investir em tecnologias avançadas, aumentando ainda mais a concentração de riqueza e poder. Esse processo é associado aos argumentos de Friedrich Engels.\n\nIII → A IA está criando novas formas de estratificação social, uma vez que aqueles com habilidades tecnológicas avançadas têm mais status e poder em comparação com aqueles cujas habilidades se tornaram obsoletas. Esse processo é associado ao argumento de Max Weber, para o qual a desigualdade se materializa na luta de classes.\n\nIV → A rápida ascensão da IA pode conduzir a um estado de desordem, no qual trabalhadores se sentem desamparados à medida que suas habilidades e seus empregos se tornam obsoletos e novas normas e estruturas sociais ainda não estão estabelecidas. Esse pensamento está associado ao de Émile Durkheim, para quem as normas sociais se rompem devido às rápidas mudanças.\n\nEstá(ão) correta(s)",
+      "options": [
+        {
+          "text": "apenas II.",
+          "explanation": "A II é verdadeira, mas a I (alienação e exploração, em Marx) e a IV (anomia, em Durkheim) também estão corretamente atribuídas."
+        },
+        {
+          "text": "apenas I e IV.",
+          "explanation": "Falta a II: a concentração e a centralização do capital nas grandes empresas são teses do materialismo histórico, desenvolvidas por Marx e Engels."
+        },
+        {
+          "text": "apenas II e III.",
+          "explanation": "A III é falsa: a luta de classes é o conceito central de Marx. Weber explica a estratificação por três dimensões (classe, status e partido), sem reduzi-la à luta de classes."
+        },
+        {
+          "text": "apenas III e IV.",
+          "explanation": "A IV está certa, mas a III atribui a Weber a ideia de que a desigualdade se materializa na luta de classes, que é de Marx."
+        },
+        {
+          "text": "apenas I, II e IV.",
+          "explanation": "Correta. Alienação e exploração do trabalho pelo capital são categorias de Marx (I); a concentração de capital nas grandes organizações é argumento do marxismo de Engels (II); e o desamparo diante de normas que se desfazem com mudanças rápidas é a anomia de Durkheim (IV). A III erra ao atribuir a luta de classes a Weber."
+        }
+      ],
+      "correct": "E"
+    },
+    {
+      "key": "ufsm-2025-p3-q30",
+      "source": "Vestibular UFSM 2025 – Prova 3, questão 30 (UFSM)",
+      "kind": "Objective",
+      "subject": "geografia",
+      "statement": "Na era dos aplicativos elaborados para facilitar a vida das pessoas, a oferta de serviços de transportes pelos motoboys, por exemplo, tornou-se uma realidade. No entanto, esse processo se revela contraditório em relação aos direitos trabalhistas, pois, a partir da ideia de autonomia do trabalhador em relação às atividades laborais, o processo resulta em rompimento dos direitos básicos do trabalhador, a exemplo de jornadas exaustivas.\n\nFonte: FERNANDES, A. C. et al. Identidade em ação. São Paulo: Moderna, 2020. (Adaptado).\n\nO fenômeno descrito tem como uma das suas consequências a",
+      "options": [
+        {
+          "text": "saturação dos setores formais da economia.",
+          "explanation": "O trabalho por aplicativo se dá fora do emprego formal: o fenômeno amplia a informalidade, em vez de saturar os setores formais."
+        },
+        {
+          "text": "estabilização dos direitos trabalhistas.",
+          "explanation": "O texto afirma o contrário: há “rompimento dos direitos básicos do trabalhador”, como o limite de jornada."
+        },
+        {
+          "text": "precarização da força de trabalho.",
+          "explanation": "Correta. Sob o discurso da autonomia, o trabalhador de aplicativo fica sem vínculo, sem direitos básicos e sujeito a jornadas exaustivas: é a chamada uberização, forma atual de precarização do trabalho."
+        },
+        {
+          "text": "terceirização do processo produtivo.",
+          "explanation": "Terceirizar é uma empresa contratar outra para executar parte de suas atividades; o texto trata de trabalhadores sem vínculo que perdem direitos, e não da transferência de etapas da produção a outra empresa."
+        },
+        {
+          "text": "multipolarização da economia.",
+          "explanation": "Multipolaridade é conceito da geopolítica, sobre a distribuição do poder mundial entre vários centros; não descreve mudanças nas relações de trabalho."
+        }
+      ],
+      "correct": "C"
+    },
+    {
+      "key": "ufsm-2025-p3-q31",
+      "source": "Vestibular UFSM 2025 – Prova 3, questão 31 (UFSM)",
+      "kind": "Objective",
+      "subject": "historia",
+      "statement": "O desenvolvimento de novas tecnologias impacta as sociedades desde o surgimento da humanidade. A esse respeito, em relação ao período contemporâneo, Yuval Harari afirma: “No século XX, os países em desenvolvimento normalmente poderiam fazer progresso econômico vendendo a mão de obra barata de seus trabalhadores não qualificados. Mas se a automação reduzir a demanda de mão de obra não qualificada, e se os países em desenvolvimento não tiverem os recursos para requalificar a força de trabalho, o que farão no século XXI?”.\n\nFonte: HARARI, Y. N. Governo e IA. Coletânea ENAP. São Paulo: ENAP, 2022. p. 14.\n\nSobre os impactos do desenvolvimento tecnológico contemporâneo, assinale V (verdadeiro) ou F (falso) em cada afirmativa a seguir.\n\n(  ) O desenvolvimento tecnológico do final do século XX provocou mudanças no processo produtivo que resultaram no aumento do desemprego estrutural, aspecto que preocupa em relação aos avanços atuais da área de Inteligência Artificial.\n\n(  ) As inovações tecnológicas do final do século XX viabilizaram uma internacionalização produtiva que desterritorializou as etapas de produção, construindo relações de poder desiguais entre os países, fato que poderá ser potencializado pela Inteligência Artificial.\n\n(  ) As inovações tecnológicas das décadas finais do século XX, aplicadas na produção de mercadorias por meio de políticas neoliberais, ocasionaram o aumento das desigualdades e dos problemas sociais, caraterísticas que preocupam pesquisadores diante da Inteligência Artificial.\n\nA sequência correta é",
+      "options": [
+        {
+          "text": "V – F – V.",
+          "explanation": "A segunda também é verdadeira: a Terceira Revolução Industrial permitiu espalhar as etapas da produção por vários países, em uma divisão internacional do trabalho desigual."
+        },
+        {
+          "text": "V – F – F.",
+          "explanation": "A segunda e a terceira são verdadeiras: a produção se internacionalizou e se desterritorializou, e a reestruturação produtiva sob políticas neoliberais ampliou as desigualdades."
+        },
+        {
+          "text": "F – V – V.",
+          "explanation": "A primeira é verdadeira: a automação e a informatização do fim do século XX eliminaram postos de trabalho de forma permanente, gerando desemprego estrutural."
+        },
+        {
+          "text": "F – V – F.",
+          "explanation": "A primeira e a terceira também são verdadeiras: houve aumento do desemprego estrutural e das desigualdades sociais com a reestruturação produtiva e o neoliberalismo."
+        },
+        {
+          "text": "V – V – V.",
+          "explanation": "Correta. A Terceira Revolução Industrial trouxe desemprego estrutural pela automação, a dispersão mundial das etapas produtivas com relações desiguais entre países e, sob políticas neoliberais, o aumento das desigualdades. São os mesmos riscos que Harari aponta diante da IA."
+        }
+      ],
+      "correct": "E"
+    },
+    {
+      "key": "ufsm-2025-p3-q32",
+      "source": "Vestibular UFSM 2025 – Prova 3, questão 32 (UFSM)",
+      "kind": "Objective",
+      "subject": "filosofia-sociologia",
+      "statement": "A responsabilidade ética dos gestores frente a vieses algorítmicos em processos de decisão é um tema crucial na era digital. À medida que as empresas, cada vez mais, adotam algoritmos de Inteligência Artificial (IA) para auxiliar na tomada de decisões, os gestores devem estar atentos aos potenciais vieses embutidos nesses sistemas. Esses vieses podem surgir de várias formas, incluindo preconceitos implícitos dos desenvolvedores (como etarismo, sexismo e racismo) ou mesmo falhas no design do algoritmo.\n\nConsiderando os princípios éticos elencados, assinale V (verdadeiro) ou F (falso) em cada afirmativa a seguir.\n\n(  ) Tendo em vista o princípio de justiça como equidade, os gestores devem garantir que os algoritmos sejam desenhados e testados para evitar discriminação. Isso implica realizar auditorias regulares para identificar e corrigir vieses que possam prejudicar certos grupos de indivíduos.\n\n(  ) De acordo com o princípio da beneficência, é crucial que os gestores promovam a transparência nas decisões algorítmicas, informando as partes afetadas sobre como e por que determinadas decisões foram tomadas. Isso permite que as pessoas compreendam e questionem essas decisões.\n\n(  ) É imprescindível que os gestores estejam preparados para assumir a responsabilidade pelos vieses algorítmicos e implementar medidas para corrigi-los. Isso inclui a criação de políticas e práticas para monitorar continuamente e mitigar os vieses, o que está alinhado com o princípio da não maleficência.\n\nA sequência correta é",
+      "options": [
+        {
+          "text": "F – V – F.",
+          "explanation": "Inverte as três: evitar discriminação é exigência da justiça como equidade (V), informar e permitir contestação liga-se à autonomia e à transparência, não à beneficência (F), e mitigar vieses para não causar dano é não maleficência (V)."
+        },
+        {
+          "text": "V – F – F.",
+          "explanation": "A terceira é verdadeira: monitorar e corrigir vieses é uma forma de evitar danos às pessoas, justamente o que pede o princípio da não maleficência."
+        },
+        {
+          "text": "F – F – V.",
+          "explanation": "A primeira é verdadeira: justiça como equidade significa tratar os grupos sem discriminação, o que exige testar e auditar os algoritmos."
+        },
+        {
+          "text": "V – F – V.",
+          "explanation": "Correta. Auditar algoritmos para que não discriminem grupos realiza a justiça como equidade (V). Informar os afetados para que compreendam e questionem as decisões corresponde aos princípios da transparência e do respeito à autonomia; beneficência é o dever de promover o bem (F). Assumir a responsabilidade e mitigar vieses para não causar dano é não maleficência (V)."
+        },
+        {
+          "text": "F – V – V.",
+          "explanation": "A primeira é verdadeira e a segunda é falsa: dar transparência para que as pessoas questionem as decisões é próprio do respeito à autonomia, não da beneficência."
+        }
+      ],
+      "correct": "D"
+    },
+    {
+      "key": "ufsm-2025-p3-q33",
+      "source": "Vestibular UFSM 2025 – Prova 3, questão 33 (UFSM)",
+      "kind": "Objective",
+      "subject": "matematica",
+      "statement": "A Inteligência Artificial tem potencial de revolucionar o dia a dia das pessoas, impactando inclusive a relação social entre elas. Entretanto, a tecnologia vem sendo utilizada para geração de fotos, vídeos, textos e notícias falsas, o que pode influenciar o entendimento das pessoas em situações cotidianas. Uma pesquisa realizada com 800 pessoas apresentou duas notícias, A e B, sendo uma verdadeira e outra falsa. O objetivo era saber quantas pessoas acreditavam ou não nas notícias. Foi evidenciado que 200 pessoas consideraram apenas a notícia A verdadeira, 250 consideraram apenas a notícia B verdadeira, e 50 consideraram as duas verdadeiras. Das pessoas entrevistadas, qual a probabilidade de sortear, ao acaso, uma pessoa que considerou a notícia A ou a notícia B verdadeira?",
+      "options": [
+        {
+          "text": "25,00%",
+          "explanation": "É 200/800: conta só quem considerou apenas a notícia A verdadeira."
+        },
+        {
+          "text": "31,25%",
+          "explanation": "É 250/800: conta só quem considerou apenas a notícia B verdadeira."
+        },
+        {
+          "text": "37,50%",
+          "explanation": "É 300/800, a probabilidade do evento complementar: as 300 pessoas que não consideraram nenhuma das duas notícias verdadeira."
+        },
+        {
+          "text": "62,50%",
+          "explanation": "Correta. “A ou B” reúne quem acreditou só em A, só em B e nas duas: 200 + 250 + 50 = 500 pessoas. A probabilidade é 500/800 = 0,625 = 62,5%."
+        },
+        {
+          "text": "68,75%",
+          "explanation": "É 550/800: soma o total de A (250) com o total de B (300) sem descontar as 50 pessoas da interseção, que acabam contadas duas vezes."
+        }
+      ],
+      "correct": "D"
+    },
+    {
+      "key": "ufsm-2025-p3-q34",
+      "source": "Vestibular UFSM 2025 – Prova 3, questão 34 (UFSM)",
+      "kind": "Objective",
+      "subject": "historia",
+      "statement": "![Fotografia em preto e branco: um homem de barba e um menino sorriem lado a lado, diante de um computador antigo com monitor de tubo. Cada um segura uma caixa do jogo Tetris, com o título escrito em alfabeto cirílico e o desenho de uma catedral russa de cúpulas em forma de bulbo.](img/ufsm/2025/prova-3/q34-1.png)\n\nDe acordo com reportagem de 2023, de Fernanda Ezabella e Bruno Garattoni, em 1984 o soviético Alexey Pajitnov, engenheiro de computação com incipientes pesquisas de reconhecimento de voz e Inteligência Artificial, do Centro de Computadores da Academia Russa de Ciências, em Moscou, criou o jogo para computador Tetris. No final da década de 1980, ainda segundo a reportagem, Tetris era comercializado no mundo todo, alcançando mais de 500 milhões de cópias vendidas em cerca de 40 anos.\n\nFonte: EZABELLA, F.; GARATTONI, B. A verdadeira história do Tetris. Superinteressante. São Paulo: Abril, 2023. Disponível em: <https://super.abril.com.br/cultura/a-verdadeira-historia-do-tetris/>. Acesso em: 02 ago. 2024.\n\nTendo em vista os avanços na área de Inteligência Artificial nos últimos anos, salienta-se a técnica deepfake, a qual permite a manipulação de imagens e vídeos que altera – positiva ou negativamente – a realidade fatual. Em geral, a técnica tem sido utilizada com fins perniciosos, aproximando-a das notícias falsas, as fakenews.\n\nO conhecimento histórico sobre a Guerra Fria, em especial da década de 1980, auxilia a perceber",
+      "options": [
+        {
+          "text": "a veracidade das datas e a falsidade da imagem, pois a década de 1980 caracterizou-se pela rivalidade entre as superpotências e a consolidação da Cortina de Ferro, o que invibiliziaria a comercialização de um jogo soviético no mundo capitalista.",
+          "explanation": "A segunda metade dos anos 1980 não foi de consolidação da Cortina de Ferro, e sim de seu desmonte: com Gorbatchev, a URSS se abriu ao comércio com o Ocidente, o que torna a imagem plausível."
+        },
+        {
+          "text": "a veracidade da imagem e a falsidade das datas, visto que o mundo vivenciava o auge da Guerra Fria e, portanto, a comercialização de um produto de origem soviética no mundo capitalista somente poderia ter ocorrido em datas anteriores à década de 1980.",
+          "explanation": "O fim dos anos 1980 não foi o auge da Guerra Fria, mas sua fase final, de distensão e abertura; as datas da reportagem são coerentes com esse contexto."
+        },
+        {
+          "text": "a veracidade das datas e da imagem, pois, na segunda metade da década de 1980, o socialismo entrava em crise e, na União das Repúblicas Socialistas Soviéticas, Gorbatchev promovia a abertura econômica e a transparência política.",
+          "explanation": "Correta. A partir de 1985, Gorbatchev implantou a perestroika (reestruturação e abertura econômica) e a glasnost (transparência política), em meio à crise do socialismo. Esse contexto torna plausível um jogo soviético criado em 1984 ser vendido no mundo todo no fim da década."
+        },
+        {
+          "text": "a plausibilidade do conteúdo informativo das fontes citadas, uma vez que se notavam as relações amistosas entre as superpotências, embasadas no ideal de Coexistência Pacífica.",
+          "explanation": "A Coexistência Pacífica é política dos anos 1950 e 1960, do período Kruschev. O que explica a circulação do Tetris no fim dos anos 1980 são as reformas de Gorbatchev."
+        },
+        {
+          "text": "a falsidade do conjunto informativo das fontes citadas, pois os valores e costumes do mundo socialista não permitiam o entretenimento, quanto mais em jogo de computador.",
+          "explanation": "O mundo socialista tinha cinema, esporte, literatura e jogos; não havia proibição do entretenimento, e o Tetris é de fato uma criação soviética."
+        }
+      ],
+      "correct": "C"
+    },
+    {
+      "key": "ufsm-2025-p3-q35",
+      "source": "Vestibular UFSM 2025 – Prova 3, questão 35 (UFSM)",
+      "kind": "Objective",
+      "subject": "artes-educacao-fisica",
+      "statement": "Nos últimos anos, a Inteligência Artificial (IA) tem se tornado uma ferramenta poderosa, provocando um grande impacto nas áreas que envolvem a criatividade, como as Artes Visuais, o Design, a Comunicação, entre outras. No entanto, essa inovação tecnológica suscita questionamentos importantes sobre a natureza da criatividade e a originalidade das obras. Há também implicações éticas e legais da propriedade intelectual, por se tratarem de criações geradas por algoritmos capazes de identificarem e combinarem padrões em dados previamente produzidos por humanos.\n\nCom base nas informações sobre o uso da IA na arte, assinale V (verdadeiro) ou F (falso) em cada afirmativa a seguir.\n\n(  ) A originalidade e a intenção do autor são elementos fundamentais da criação artística. Contudo, quando uma ferramenta de IA gera uma imagem, está reutilizando e combinando outras imagens já existentes. Esse processo de produção levanta questões sobre a originalidade dessas obras, pois a IA não tem limitação em sua criatividade devido a sua capacidade de processamento de dados.\n\n(  ) O uso da IA pode proporcionar o surgimento de novas formas de arte e atuar como uma ferramenta com a capacidade de democratizar o processo de criação artística. Ao mesmo tempo, pode levar a uma desvalorização da mão de obra humana devido à substituição de processos da criação artística tradicional.\n\n(  ) No processo de criação artística, é comum a ocorrência de apropriação, referência e transformação de obras existentes, o que pode suscitar discussões que envolvem a ética. Neste contexto, ao considerar o modo como acontece a apropriação e o processamento de dados a partir da IA, levantam-se novas preocupações, como o respeito à privacidade dos indivíduos e o seu direito de saber o que acontece com os seus dados.\n\nA sequência correta é",
+      "options": [
+        {
+          "text": "F – V – V.",
+          "explanation": "Correta. A primeira se contradiz: se a IA apenas combina padrões de imagens produzidas por humanos, sua criatividade é limitada por esses dados, e não ilimitada (F). A segunda aponta um benefício e um risco reais (V), e a terceira relaciona a apropriação, comum na arte, às novas questões de privacidade e uso de dados (V)."
+        },
+        {
+          "text": "F – F – V.",
+          "explanation": "A segunda é verdadeira: a IA pode ampliar o acesso à criação e gerar novas formas de arte e, ao mesmo tempo, desvalorizar o trabalho humano."
+        },
+        {
+          "text": "V – V – F.",
+          "explanation": "A primeira é falsa (a criatividade da IA depende dos dados com que foi treinada) e a terceira é verdadeira (o uso de dados por IA traz preocupações com privacidade)."
+        },
+        {
+          "text": "V – F – V.",
+          "explanation": "A primeira é falsa, pois afirma que a IA não tem limitação criativa logo depois de dizer que ela só recombina imagens existentes; e a segunda é verdadeira."
+        },
+        {
+          "text": "F – V – F.",
+          "explanation": "A terceira é verdadeira: o texto-base fala de implicações éticas e legais, e o processamento de dados por IA levanta questões de privacidade e de direito à informação."
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "key": "ufsm-2025-p3-q36",
+      "source": "Vestibular UFSM 2025 – Prova 3, questão 36 (UFSM)",
+      "kind": "Objective",
+      "subject": "artes-educacao-fisica",
+      "statement": "A arte apresenta uma relação estreita com a tecnologia, esta que costuma proporcionar a expansão de processos técnicos e criativos para os artistas. Contudo, os novos adventos tecnológicos também podem despertar temores e rejeições por diversos motivos no meio artístico. O pintor francês Paul Delaroche (1797-1856), reconhecido pelas influências do ______________, devido ao apelo emocional explorado nas telas, e do neoclassicismo, pela execução de pinturas com um realismo pragmático, é autor da frase “A partir de hoje, a pintura está morta!”. A frase de Delaroche, datada de 1839, surgiu na demonstração do daguerreótipo, equipamento precursor da criação ______________, que teve impactos profundos nas décadas seguintes, em diversos movimentos da Arte Moderna.\n\nHoje, vê-se a Inteligência Artificial também promovendo amplas discussões que envolvem a criação artística, como nos sistemas de geração de imagem baseados em comandos textuais, tais como o DALL-E ou Leonardo.ai. Em relação à primeira ferramenta, o nome resulta da junção dos nomes do personagem robótico da Pixar chamado Wall-E com o do artista Salvador Dalí, um dos principais representantes do ______________. Na imagem a seguir, gerada no sistema Leonardo.ai, um robô está realizando uma pintura no estilo de Pablo Picasso, artista que, junto com Georges Braque, é responsável pelo ______________.\n\n![Imagem em tons de cinza gerada por IA: um robô de aparência humana, sentado em um banco de ateliê, pinta com um pincel uma tela apoiada em cavalete. A pintura mostra um rosto decomposto em planos geométricos, visto de frente e de perfil ao mesmo tempo, no estilo de Pablo Picasso.](img/ufsm/2025/prova-3/q36-1.png)\n\nFonte: Imagem gerada em: <www.app.leonardo.ai/image-generation> com o prompt “a robot painting in the style of Pablo Picasso art”. Acesso em: 11 set. 2024.\n\nAssinale a alternativa que completa adequadamente as lacunas.",
+      "options": [
+        {
+          "text": "realismo – fotográfica – simbolismo – cubismo",
+          "explanation": "O apelo emocional é marca do romantismo, não do realismo (que o próprio texto já associa, como “realismo pragmático”, ao neoclassicismo), e Dalí é surrealista, não simbolista."
+        },
+        {
+          "text": "romantismo – cinematográfica – surrealismo – dadaísmo",
+          "explanation": "O daguerreótipo (1839) fixava imagens estáticas e é precursor da fotografia; o cinema só surge em 1895. Além disso, Picasso e Braque criaram o cubismo, não o dadaísmo."
+        },
+        {
+          "text": "realismo – cinematográfica – cubismo – simbolismo",
+          "explanation": "Erra as quatro lacunas: o apelo emocional é romântico, o daguerreótipo antecede a fotografia, Dalí é surrealista e Picasso e Braque fundaram o cubismo."
+        },
+        {
+          "text": "romantismo – fotográfica – simbolismo – dadaísmo",
+          "explanation": "As duas primeiras lacunas estão certas, mas Dalí é um dos principais nomes do surrealismo, e Picasso e Braque são os criadores do cubismo."
+        },
+        {
+          "text": "romantismo – fotográfica – surrealismo – cubismo",
+          "explanation": "Correta. O apelo emocional é característica do romantismo; o daguerreótipo é o precursor da fotografia; Salvador Dalí é um dos principais representantes do surrealismo; e Picasso e Braque criaram o cubismo."
+        }
+      ],
+      "correct": "E"
+    },
+    {
+      "key": "ufsm-2025-p3-q37",
+      "source": "Vestibular UFSM 2025 – Prova 3, questão 37 (UFSM)",
+      "kind": "Objective",
+      "subject": "literatura",
+      "statement": "Na década de 1960, o homem pisou na lua, a internet começou a se desenvolver e a medicina avançou com o primeiro transplante de coração. O processo de elaboração artística também evoluiu, estabelecendo conexões entre diferentes áreas do conhecimento, como a literatura, as artes plásticas e a música. Nesse contexto, no Brasil, surgiu o movimento cultural da Tropicália. Leia a composição Batmacumba, de Gilberto Gil e Caetano Veloso.\n\n```\nBatmacumbayêyê batmacumbaobá\nBatmacumbayêyê batmacumbao\nBatmacumbayêyê batmacumba\nBatmacumbayêyê batmacum\nBatmacumbayêyê batman\nBatmacumbayêyê bat\nBatmacumbayêyê ba\nBatmacumbayêyê\nBatmacumbayê\nBatmacumba\nBatmacum\nBatman\nBat\nBa\nBat\nBatman\nBatmacum\nBatmacumba\nBatmacumbayê\nBatmacumbayêyê\nBatmacumbayêyê ba\nBatmacumbayêyê bat\nBatmacumbayêyê batman\nBatmacumbayêyê batmacum\nBatmacumbayêyê batmacumbao\nBatmacumbayêyê batmacumbaobá\n```\n\nFonte: FAVARETTO, C. F. Tropicália, alegoria, alegria. São Paulo: Ateliê Editorial, 2000. p. 163.\n\nA partir de Batmacumba, considere as afirmativas a seguir.\n\nI → O poema remete, pela possível formação de palavras, a significados de extrações culturais diversas: “batman” e “macumba”.\n\nII → A composição forma a letra “K” e sugere uma parte da bandeira do Brasil; essa conjunção verbo-visual pode ser lida como uma herança estética concretista, oriunda dos anos 1950.\n\nIII → A criatividade da canção reflete um distanciamento da arte de vanguarda em busca de um elitismo social e artístico do grupo tropicalista, haja vista a sofisticação dos pressupostos formais contidos no texto.\n\nIV → A riqueza do texto está associada a uma visão estritamente clássica da poesia lírica, pois resgata motivos recorrentes abordados por artistas ao longo do tempo.\n\nEstá(ão) correta(s)",
+      "options": [
+        {
+          "text": "apenas I.",
+          "explanation": "A I é verdadeira, mas a II também: a disposição dos versos, que encolhem e voltam a crescer, desenha uma figura na página, recurso verbo-visual herdado da poesia concreta dos anos 1950."
+        },
+        {
+          "text": "apenas I e II.",
+          "explanation": "Correta. A palavra-montagem funde “Batman” (cultura de massa estadunidense), “macumba” (religiosidade afro-brasileira) e ainda “iê-iê-iê” e “obá” (I). O desenho formado pelos versos, que lembra um K e parte da bandeira, explora a visualidade à maneira do concretismo (II). III e IV falham: a Tropicália dialoga com a vanguarda e com a cultura popular, sem elitismo nem classicismo."
+        },
+        {
+          "text": "apenas II e III.",
+          "explanation": "A III é falsa: o tropicalismo se aproxima das vanguardas (como a poesia concreta) e mistura o erudito ao popular e à cultura de massa, o oposto de um elitismo."
+        },
+        {
+          "text": "apenas III e IV.",
+          "explanation": "As duas são falsas: a canção é experimental e ligada à vanguarda, não elitista, e sua forma fragmentada e visual rompe com a concepção clássica da poesia lírica."
+        },
+        {
+          "text": "I, II, III e IV.",
+          "explanation": "III e IV contradizem I e II: uma composição que funde referências populares e de massa em forma visual de vanguarda não é elitista nem “estritamente clássica”."
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "key": "ufsm-2025-p3-q38-es",
+      "source": "Vestibular UFSM 2025 – Prova 3, questão 38, espanhol (UFSM)",
+      "kind": "Objective",
+      "subject": "espanhol",
+      "statement": "Leia o texto a seguir para responder às questões 38 e 39.\n\n**Una inteligencia artificial adivina el futuro mejor que los humanos**\n\nEl sistema, basado en ChatGPT, pregunta a Google hasta seis veces y consulta 20 artículos para conseguir la información y prever posibles escenarios\n\n```\n01    El resultado de combinar una comunidad de pre-\n    dicción como Metaculus y un modelo de lenguaje\n    como ChatGPT 4 es el futuro. Y ve el futuro. Un nue-\n    vo sistema de inteligencia artificial (IA), desarrolla-\n05  do por investigadores de la Universidad de Berkeley,\n    es capaz de predecir eventos futuros con mayor\n    precisión que los humanos. Para poder hacerlo, la\n    inteligencia artificial busca información en internet,\n    selecciona los artículos periodísticos que considera\n10  relevantes, los resume y los introduce en un siste-\n    ma de razonamiento. “La previsión requiere que un\n    humano se siente y reúna un montón de fuentes,\n    averiguando en cuáles confiar y cómo sopesarlas.\n    Un modelo lingüístico puede hacerlo muy rápida-\n15  mente”, explica Danny Halawi, uno de los autores\n    del estudio, publicado en la revista New Scientist.\n      [...] Halawi y su equipo han entrenado a ChatGPT-4\n    a través de un proceso llamado “ajuste fino”: este\n    método utiliza miles de pronósticos de mercados de\n20  predicción, como Metaculus o Polymarket, y junto a\n    la recuperación de noticias, obtiene un mejor razo-\n    namiento. “Para que sea bueno en pronósticos, en-\n    trenamos al modelo con buenos ejemplos”, añade\n    Halawi. Por cada predicción, el sistema repregunta a\n25  Google hasta seis veces – como si acudiera a seis\n    personas distintas – y consulta hasta 20 artículos. Son\n    seis preguntas y no más, porque cuesta mucho dine-\n    ro a pesar de que lo ideal sería hacerlo “100 veces”,\n    confiesa Halawi [...].\n30    El pronosticador funciona como si alguien bus-\n    ca algo en internet: cuanto más concreta sea la\n    pregunta, mejor. Pero ¿es fiable? Halawi confía en\n    el sistema: “Si quieres predecir con precisión, la\n    mejor estrategia consiste en ser imparcial, intentar\n35  obtener las fuentes más precisas de información y\n    hacer una predicción razonable y sensata que se\n    base puramente en la evidencia”, argumenta [...].\n      Para Ángel Delgado, ingeniero de Inteligencia\n    Artificial en Paradigma Digital, la clave del modelo\n40  predictivo es que al combinar “los modelos de fore-\n    casting tradicionales con los modelos de lenguaje”\n    el sistema sea capaz de “procesar la información\n    numérica y la textual”. De esa manera, “al tener en\n    cuenta más información, pueden llegar a ser más\n45  precisos que los humanos”, explica.\n    La sabiduría de la multitud\n      Los investigadores han copiado la idea de la\n    “sabiduría de la multitud” para su desarrollo, es\n    decir, el efecto de que un conjunto de soluciones\n50  propuestas por un grupo funciona mejor que las\n    soluciones particulares [...].\n      “Las personas individuales tienen acceso limita-\n    do a información y tienen sus propios prejuicios. Si\n    tomamos distintas predicciones y luego hacemos\n55  un promedio, se reúne indirectamente más infor-\n    mación”, explica Halawi.\n      Pero, ¿qué efectos prácticos puede tener esta\n    aplicación? Difícilmente preguntaremos a nuestro\n    ordenador por la posibilidad de encontrar el amor\n60  o un nuevo trabajo. Las respuestas que nos puede\n    dar esta bola de cristal tecnológica son mucho más\n    prácticas. Para Richard Saldanha, profesor de apren-\n    dizaje automático en la Universidad Queen Mary de\n    Londres, la predicción puede ser útil para la toma\n65  de decisiones de analistas económicos y políticos,\n    aunque el mercado financiero “no se base necesaria-\n    mente” en la sabiduría de la multitud [...].\n      Delgado coincide en que es bueno para estimar\n    el impacto de factores políticos y sociales en la eco-\n70  nomía y predice que, a largo plazo, el sistema cam-\n    biará cómo se entienden los mercados. “Uno de\n    los factores que más afectan al mercado es la in-\n    certidumbre y según nos vayamos acostumbrando\n    a este tipo de herramientas, se reducirá”, explica.\n75  Más probable lo incierto\n      Una peculiariedad del desarrollo es que funciona\n    mejor con preguntas “inciertas”, eso es que tengan\n    mayor posibilidad de respuesta. Se debe a que el sis-\n    tema utiliza ChatGPT-4 como una de sus fuentes y esta\n80  prefiere proteger sus respuestas por razones de seguri-\n    dad: “ChatGPT está entrenado para no dar consejos a\n    la gente que puedan dañar o afectar a sus vidas” [...].\n      La incertidumbre también fomenta la minimiza-\n    ción de los sesgos, según Luis Herrera, arquitecto\n85  de soluciones en Databricks España: “Aunque no\n    están completamente libres de sesgos, los modelos\n    de IA pueden diseñarse para minimizar sesgos co-\n    munes, como el exceso de confianza o la confirma-\n    ción. Los modelos de IA tienden a ser imprecisos\n90  debido a su preferencia por respuestas conserva-\n    doras”. Además, coincide en que el modelo supera\n    a los humanos por su modus operandi: “Pueden\n    integrar nueva información y actualizar sus pre-\n    dicciones en tiempo real, esencial para situaciones\n95  que cambian rápidamente” [...].\n      El sistema de Halawi y sus colegas basado en\n    predicciones colectivas ha demostrado ser mejor\n    que los humanos. Sin embargo, Herrera plantea la\n    posibilidad de probarlo con los superpronosticado-\n100 res, aquellas personas capaces de predecir eventos\n    futuros con un nivel de precisión que supera al pú-\n    blico general y a expertos. Utilizan también metodo-\n    logías analíticas y estadísticas para eliminar sesgos\n    y ajustan sus predicciones constantemente basán-\n105 dose en nueva información ¿Superará también a\n    ellos el nuevo sistema?\n```\n\nFonte: PONJOAN, N. Una inteligencia artificial adivina el futuro mejor que los humanos. El País, Madri. Publicado em: 08 jul. 2024. Tecnologia. Disponível em: <https://elpais.com/tecnologia/2024-07-08/una-inteligencia-artificial-adivina-el-futuro-mejor-que-los-humanos.html>. Acesso em: 19 jul. 2024. (Adaptado).\n\nConforme o texto, a Inteligência Artificial (IA) pode se transformar em uma ferramenta eficiente para alcançar previsões mais adequadas do que fariam os seres humanos, mesmo os especializados no tema, porque\n\nI → é capaz de combinar vários programas especialistas, como os de previsão com base de dados e os de processamento de material linguístico e numérico.\n\nII → permite integrar informações de vários tipos de forma instantânea.\n\nIII → pode processar uma grande quantidade de informações de modo eficaz, independentemente da qualidade do material processado.\n\nIV → é treinada a partir de metodologias analíticas e estatísticas específicas, integrando informações novas, próprias da lógica de raciocínio de pessoas superdotadas na área de previsões.\n\nEstão corretas",
+      "options": [
+        {
+          "text": "apenas I e II.",
+          "explanation": "Correta. Para Ángel Delgado, a chave é combinar os modelos tradicionais de previsão com os modelos de linguagem, processando “la información numérica y la textual” (I). Para Luis Herrera, os modelos podem “integrar nueva información y actualizar sus predicciones en tiempo real” (II). III e IV não têm apoio no texto."
+        },
+        {
+          "text": "apenas I e III.",
+          "explanation": "A III contraria o texto: o sistema seleciona os artigos que considera relevantes, e Halawi defende buscar “las fuentes más precisas de información”; a qualidade do material importa."
+        },
+        {
+          "text": "apenas II e III.",
+          "explanation": "A II está certa, mas a III não: o sistema não processa qualquer material indistintamente, e sim escolhe as fontes relevantes e mais precisas."
+        },
+        {
+          "text": "apenas II e IV.",
+          "explanation": "A IV distorce o final do texto: metodologias analíticas e estatísticas são usadas pelos superpronosticadores, pessoas com quem Herrera sugere comparar o sistema; o modelo foi treinado com prognósticos de mercados de previsão."
+        },
+        {
+          "text": "apenas I, III e IV.",
+          "explanation": "Só a I é verdadeira. A III ignora a seleção de fontes precisas, e a IV atribui à IA um treinamento baseado no raciocínio de superpronosticadores, o que o texto não diz."
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "key": "ufsm-2025-p3-q39-es",
+      "source": "Vestibular UFSM 2025 – Prova 3, questão 39, espanhol (UFSM)",
+      "kind": "Objective",
+      "subject": "espanhol",
+      "statement": "Leia o texto a seguir para responder às questões 38 e 39.\n\n**Una inteligencia artificial adivina el futuro mejor que los humanos**\n\nEl sistema, basado en ChatGPT, pregunta a Google hasta seis veces y consulta 20 artículos para conseguir la información y prever posibles escenarios\n\n```\n01    El resultado de combinar una comunidad de pre-\n    dicción como Metaculus y un modelo de lenguaje\n    como ChatGPT 4 es el futuro. Y ve el futuro. Un nue-\n    vo sistema de inteligencia artificial (IA), desarrolla-\n05  do por investigadores de la Universidad de Berkeley,\n    es capaz de predecir eventos futuros con mayor\n    precisión que los humanos. Para poder hacerlo, la\n    inteligencia artificial busca información en internet,\n    selecciona los artículos periodísticos que considera\n10  relevantes, los resume y los introduce en un siste-\n    ma de razonamiento. “La previsión requiere que un\n    humano se siente y reúna un montón de fuentes,\n    averiguando en cuáles confiar y cómo sopesarlas.\n    Un modelo lingüístico puede hacerlo muy rápida-\n15  mente”, explica Danny Halawi, uno de los autores\n    del estudio, publicado en la revista New Scientist.\n      [...] Halawi y su equipo han entrenado a ChatGPT-4\n    a través de un proceso llamado “ajuste fino”: este\n    método utiliza miles de pronósticos de mercados de\n20  predicción, como Metaculus o Polymarket, y junto a\n    la recuperación de noticias, obtiene un mejor razo-\n    namiento. “Para que sea bueno en pronósticos, en-\n    trenamos al modelo con buenos ejemplos”, añade\n    Halawi. Por cada predicción, el sistema repregunta a\n25  Google hasta seis veces – como si acudiera a seis\n    personas distintas – y consulta hasta 20 artículos. Son\n    seis preguntas y no más, porque cuesta mucho dine-\n    ro a pesar de que lo ideal sería hacerlo “100 veces”,\n    confiesa Halawi [...].\n30    El pronosticador funciona como si alguien bus-\n    ca algo en internet: cuanto más concreta sea la\n    pregunta, mejor. Pero ¿es fiable? Halawi confía en\n    el sistema: “Si quieres predecir con precisión, la\n    mejor estrategia consiste en ser imparcial, intentar\n35  obtener las fuentes más precisas de información y\n    hacer una predicción razonable y sensata que se\n    base puramente en la evidencia”, argumenta [...].\n      Para Ángel Delgado, ingeniero de Inteligencia\n    Artificial en Paradigma Digital, la clave del modelo\n40  predictivo es que al combinar “los modelos de fore-\n    casting tradicionales con los modelos de lenguaje”\n    el sistema sea capaz de “procesar la información\n    numérica y la textual”. De esa manera, “al tener en\n    cuenta más información, pueden llegar a ser más\n45  precisos que los humanos”, explica.\n    La sabiduría de la multitud\n      Los investigadores han copiado la idea de la\n    “sabiduría de la multitud” para su desarrollo, es\n    decir, el efecto de que un conjunto de soluciones\n50  propuestas por un grupo funciona mejor que las\n    soluciones particulares [...].\n      “Las personas individuales tienen acceso limita-\n    do a información y tienen sus propios prejuicios. Si\n    tomamos distintas predicciones y luego hacemos\n55  un promedio, se reúne indirectamente más infor-\n    mación”, explica Halawi.\n      Pero, ¿qué efectos prácticos puede tener esta\n    aplicación? Difícilmente preguntaremos a nuestro\n    ordenador por la posibilidad de encontrar el amor\n60  o un nuevo trabajo. Las respuestas que nos puede\n    dar esta bola de cristal tecnológica son mucho más\n    prácticas. Para Richard Saldanha, profesor de apren-\n    dizaje automático en la Universidad Queen Mary de\n    Londres, la predicción puede ser útil para la toma\n65  de decisiones de analistas económicos y políticos,\n    aunque el mercado financiero “no se base necesaria-\n    mente” en la sabiduría de la multitud [...].\n      Delgado coincide en que es bueno para estimar\n    el impacto de factores políticos y sociales en la eco-\n70  nomía y predice que, a largo plazo, el sistema cam-\n    biará cómo se entienden los mercados. “Uno de\n    los factores que más afectan al mercado es la in-\n    certidumbre y según nos vayamos acostumbrando\n    a este tipo de herramientas, se reducirá”, explica.\n75  Más probable lo incierto\n      Una peculiariedad del desarrollo es que funciona\n    mejor con preguntas “inciertas”, eso es que tengan\n    mayor posibilidad de respuesta. Se debe a que el sis-\n    tema utiliza ChatGPT-4 como una de sus fuentes y esta\n80  prefiere proteger sus respuestas por razones de seguri-\n    dad: “ChatGPT está entrenado para no dar consejos a\n    la gente que puedan dañar o afectar a sus vidas” [...].\n      La incertidumbre también fomenta la minimiza-\n    ción de los sesgos, según Luis Herrera, arquitecto\n85  de soluciones en Databricks España: “Aunque no\n    están completamente libres de sesgos, los modelos\n    de IA pueden diseñarse para minimizar sesgos co-\n    munes, como el exceso de confianza o la confirma-\n    ción. Los modelos de IA tienden a ser imprecisos\n90  debido a su preferencia por respuestas conserva-\n    doras”. Además, coincide en que el modelo supera\n    a los humanos por su modus operandi: “Pueden\n    integrar nueva información y actualizar sus pre-\n    dicciones en tiempo real, esencial para situaciones\n95  que cambian rápidamente” [...].\n      El sistema de Halawi y sus colegas basado en\n    predicciones colectivas ha demostrado ser mejor\n    que los humanos. Sin embargo, Herrera plantea la\n    posibilidad de probarlo con los superpronosticado-\n100 res, aquellas personas capaces de predecir eventos\n    futuros con un nivel de precisión que supera al pú-\n    blico general y a expertos. Utilizan también metodo-\n    logías analíticas y estadísticas para eliminar sesgos\n    y ajustan sus predicciones constantemente basán-\n105 dose en nueva información ¿Superará también a\n    ellos el nuevo sistema?\n```\n\nFonte: PONJOAN, N. Una inteligencia artificial adivina el futuro mejor que los humanos. El País, Madri. Publicado em: 08 jul. 2024. Tecnologia. Disponível em: <https://elpais.com/tecnologia/2024-07-08/una-inteligencia-artificial-adivina-el-futuro-mejor-que-los-humanos.html>. Acesso em: 19 jul. 2024. (Adaptado).\n\nNa discussão sobre os avanços para realizar previsões, indica-se que a Inteligência Artificial pode ser desenhada para diminuir um dos seus maiores problemas, ao utilizar massivamente a internet como fonte de dados. Tal prudência está indicada no fragmento: “La incertidumbre también fomenta la minimización de los sesgos [...]. ‘Aunque no están completamente libre de sesgos, los modelos de IA pueden diseñarse para minimizar sesgos comunes, como el exceso de confianza o la confirmación’ [...]” (ℓ. 83-89).\n\nA alternativa que substitui o substantivo “sesgos”, sem prejuízo do sentido original nesse contexto específico, é",
+      "options": [
+        {
+          "text": "prejuicios.",
+          "explanation": "“Prejuicios” são preconceitos, opiniões formadas de antemão. Pelo gabarito oficial, não equivale a “sesgos”, que no fragmento nomeia desvios de julgamento como o excesso de confiança e a confirmação. É a alternativa mais próxima da correta, já que o próprio texto usa “prejuicios” ao falar das limitações das pessoas (ℓ. 53), e a distinção é sutil."
+        },
+        {
+          "text": "enviajados.",
+          "explanation": "Lembra o português “enviesados”, mas não é um substantivo espanhol com esse sentido: em espanhol, “enviajado” é adjetivo técnico da arquitetura (oblíquo). É um falso amigo."
+        },
+        {
+          "text": "oblicuidades.",
+          "explanation": "Correta. É a resposta do gabarito oficial. “Sesgo” significa, em sentido próprio, obliquidade, torcimento, desvio em relação à linha reta; no fragmento, os “sesgos” são os desvios (vieses) das previsões, e “oblicuidades” é o sinônimo que conserva essa ideia de inclinação."
+        },
+        {
+          "text": "posibilidades.",
+          "explanation": "“Posibilidades” não tem relação com “sesgos”: o fragmento fala em minimizar distorções das previsões, como o excesso de confiança, e não em reduzir possibilidades."
+        },
+        {
+          "text": "nesgas.",
+          "explanation": "“Nesga” é uma peça triangular de tecido que se acrescenta a uma roupa; a semelhança com “sesgo” é só de som e de origem na ideia de corte enviesado, sem o sentido de desvio de julgamento."
+        }
+      ],
+      "correct": "C"
+    },
+    {
+      "key": "ufsm-2025-p3-q40-es",
+      "source": "Vestibular UFSM 2025 – Prova 3, questão 40, espanhol (UFSM)",
+      "kind": "Objective",
+      "subject": "espanhol",
+      "statement": "Leia o texto a seguir para responder à questão 40.\n\nDisponer cada vez más información ¿hará que las cosas mejoren? ¿O hará que empeoren? Pronto lo descubriremos. Numerosas empresas y gobiernos se hallan inmersos en una carrera por desarrollar la tecnología de la información más poderosas de la historia, la inteligencia artificial. Empresarios destacados como el inversor estadounidense Marc Andreessen creen que la IA acabará por resolver todos los problemas de la humanidad [...]. Otros son más escépticos. No solo filósofos y científicos sociales, sino también conocidos expertos en IA y empresários como Yoshua Bengio, Geoffrey Hinton [...] han advertido al público sobré cómo la IA puede destruir nuestra civilización [...]. Al emplear términos tan apocalípticos, los expertos y los gobiernos no pretenden conjurar una escena hollywoodiense de robots rebeldes que corren por las calles y disparan contra la población. Este es un supuesto poco probable, y no hace más que desviar el foco de los peligros reales. Los expertos, en cambio, alertan sobre otras dos posibilidades.\n\nEn primer lugar, el poder de la IA podría sobrecargar los conflictos humanos ya existentes y dividir a la humanidad en una lucha contra sí misma. Así como en el siglo XX el Telón de Acero dividió a las potencias rivales durante la Guerra Fría, en el siglo XXI el Telón de Silicio – constituido por chips de silicio y códigos informáticos en lugar de por alambre de espino – podría llegar a dividir a las potencias rivales en un nuevo conflicto global. Debido a que la carrera armamentística de la IA producirá armas cada vez más destructivas, incluso una pequeña chispa podría causar un incendio cataclísmico.\n\nEn segundo lugar, el Telón de Silicio podría no generar una división entre dos grupos de humanos, sino más bien entre los humanos y sus nuevos jefes supremos de IA. Con independencia de dónde vivamos, podríamos vernos envueltos por una red de algoritmos incomprensibles cuya función sería gestionar nuestras vidas, remodelar nuestras políticas y nuestras culturas, e incluso rediseñar nuestro cuerpo y nuestra mente; al mismo tiempo, nos resultaría imposible entender las fuerzas que nos controlan, no hablemos ya de detenerlas. Si una red totalitaria del siglo XXI consigue conquistar el mundo, puede que no se encuentre gobernada por un dictador de carne y hueso, sino por una inteligencia no humana. Aquellos que señalan a China, a Rusia o a unos Estados Unidos posdemocráticos como fuente principal de pesadillas totalitarias malinterpretan el peligro. De hecho, chinos, rusos, estadounidenses y el resto del mundo nos hallamos amenazados conjuntamente por el potencial totalitario de la inteligencia no humana.\n\nDada la magnitud del peligro, la IA debería ser un tema de interés para todos los seres humanos. Aunque no todos podemos ser expertos en IA, sí hemos de tener presente que es la primera tecnología de la historia que puede tomar decisiones y generar nuevas ideas por sí misma. Todo invento humano previo ha servido para conferir poder a los humanos, porque, con independencia del alcance que tuviera la nueva herramienta, las decisiones acerca de su uso se han mantenido en nuestras manos. Los cuchillos y las bombas no deciden por sí mismos a quien matar. Son instrumentos sin criterios que carecen de la inteligencia necesaria para procesar información y tomar decisiones independientes. En cambio, la IA puede procesar información por sí sola y, por lo tanto, sustituir a los humanos en la toma de decisiones. La IA no es una herramienta, es un agente [...].\n\nFonte: HARARI, Y. N. Nexus: una breve historia de las redes de información, de la Idade de la Piedra a la Inteligencia Artificial. Madri: Debate, 2024. E-book.\n\nAo considerar as ideias presentes no texto, pressupõem-se algumas noções sobre a influência da Inteligência Artificial (IA) na capacidade de decisão humana. Ao considerar tal premissa, assinale V (verdadeiro) ou F (falso) em cada afirmativa a seguir.\n\n(  ) O panorama distópico apresentado na cinematografia americana relacionada ao tema alerta para os perigos reais do uso da IA, apontados na avaliação de empresários mais céticos, ao discutirem as possibilidades futuras de emprego dessa tecnologia.\n\n(  ) Um dos grandes perigos vinculados ao uso da IA se refere ao fato de um governo totalitário dominar uma ferramente de IA, o que significa que um indivíduo ou um pequeno grupo terá o controle total e inequívoco sobre as ações dessas tecnologias, usando-as como ferramenta de destruição tal como uma bomba nuclear.\n\n(  ) A advertência harariana sobre a IA se direciona ao possível grau de autonomia dessa tecnologia no que se refere às ações deliberativas e às mais variadas concepções futuras.\n\nA sequência correta é",
+      "options": [
+        {
+          "text": "V – F – V.",
+          "explanation": "A primeira é falsa: o texto diz que a cena hollywoodiana de robôs rebeldes é “un supuesto poco probable” que só serve para “desviar el foco de los peligros reales”."
+        },
+        {
+          "text": "F – V – F.",
+          "explanation": "A segunda é falsa e a terceira é verdadeira: para Harari, o perigo não é um ditador de carne e osso controlando uma ferramenta, mas uma inteligência não humana que decide por si mesma."
+        },
+        {
+          "text": "V – V – F.",
+          "explanation": "Inverte as três: o cenário de Hollywood desvia dos perigos reais (F); a IA “no es una herramienta, es un agente”, diferente de facas e bombas (F); e o alerta recai sobre sua autonomia para decidir e criar ideias (V)."
+        },
+        {
+          "text": "F – F – V.",
+          "explanation": "Correta. A cena hollywoodiana é dita pouco provável e desvia o foco dos perigos reais (F). O risco totalitário não é um ditador com controle total de uma ferramenta: o mundo poderia ser governado por uma inteligência não humana, e a IA, ao contrário das bombas, não é ferramenta, mas agente (F). O alerta de Harari é que ela é a primeira tecnologia capaz de tomar decisões e gerar ideias por si mesma (V)."
+        },
+        {
+          "text": "V – F – F.",
+          "explanation": "A primeira é falsa (os especialistas não pretendem evocar o cenário de Hollywood) e a terceira é verdadeira (a IA pode “tomar decisiones y generar nuevas ideas por sí misma”)."
+        }
+      ],
+      "correct": "D"
+    },
+    {
+      "key": "ufsm-2025-p3-q38-en",
+      "source": "Vestibular UFSM 2025 – Prova 3, questão 38, inglês (UFSM)",
+      "kind": "Objective",
+      "subject": "ingles",
+      "statement": "Leia o texto a seguir para responder às questões 38, 39 e 40.\n\n**9 ways AI is helping tackle climate change**\n\n```\n01    The use of artificial intelligence (AI) can\n    contribute to the fight against climate change.\n      Almost 4 billion people already live in areas\n    highly vulnerable to climate change, according to\n05  the World Health Organization.\n      Here are nine ways AI is already helping to\n    tackle climate change.\n    1. Icebergs are melting – AI knows where and\n    how fast\n10    AI has been trained to measure changes in\n    icebergs 10,000 times faster than a human could\n    do it.\n      This will help scientists understand how much\n    meltwater icebergs release into the ocean – a\n15  process accelerating as climate change warms\n    the atmosphere.\n      Scientists at the University of Leeds in the United\n    Kingdom say their AI can map large Antarctic\n    icebergs in satellite images in just one-hundredth\n20  of a second, reports the European Space Agency.\n    2. Mapping deforestation with AI\n      AI, satellite images and ecology expertise are\n    also being used to map the impact of deforestation\n    on the climate crisis.\n25    Space Intelligence, a company based in\n    Edinburgh, Scotland, says it is working in more than\n    30 countries and has mapped more than 1 million\n    hectares of land from space using satellite data.\n      The company’s technology remotely measures\n30  metrics, such as deforestation rates and how much\n    carbon is stored in a forest.\n    3. AI is helping communities facing climate\n    risks in Africa\n      In Africa, AI is being used in a United Nations\n35  project to help communities vulnerable to climate\n    change in Burundi, Chad and Sudan.\n      The IKI Project uses AI technology to help predict\n    weather patterns, so communities and authorities\n    can better plan how to adapt to climate change and\n40  mitigate its impact.\n      This includes improving access to clean energy,\n    implementing proper waste management systems\n    and encouraging reforestation.\n    4. Using AI to recycle more waste\n45    Another AI system is helping to tackle climate\n    change by making waste management more efficient.\n      Waste is a big producer of methane and is\n    responsible for 16% of global greenhouse gas\n    (GHG) emissions, according to the United States\n50  Environmental Protection Agency.\n      Greyparrot, a software startup based in London,\n    United Kingdom, has developed an AI system that\n    analyzes waste processing and recycling facilities to\n    help them recover and recycle more waste material.\n55    The company tracked 32 billion waste items\n    across 67 waste categories in 2022, and says it\n    identifies 86 tonnes of material on average that\n    could be recovered but is being sent to landfill.\n    5. AI is cleaning up the ocean\n60    In the Netherlands, an environmental\n    organization called The Ocean Cleanup is using AI\n    and other technologies to help clear plastic pollution\n    from the ocean.\n      AI that detects objects is helping the organization\n65  create detailed maps of ocean litter in remote\n    locations. The ocean waste can then be gathered\n    and removed, which is more efficient than previous\n    cleanup methods using trawlers and aeroplanes.\n      Plastic pollution contributes to climate change by\n70  emitting GHGs and harming nature.\n    6. AI helps predict climate disasters\n      In São Paulo, Brazil, a company called Sipremo is\n    using AI to predict where and when climate disasters\n    will occur, and what type of climate disasters they\n75  will be.\n      The aim is to help businesses and governments\n    better prepare for climate change and the growing\n    challenges for communities that come with it.\n      The company works in industries including\n80  insurance, energy, logistics and sport, where its\n    analysis of disaster conditions and factors such as\n    air quality can inform decisions on whether to delay\n    or suspend events.\n    7. A wish list of AI climate tools\n85    Google DeepMind, Google’s AI research laboratory,\n    says it is applying AI to help fight climate change in\n    a number of areas.\n      This includes building a complete wish list of\n    datasets that would advance global AI solutions for\n90  climate change. Google DeepMind is working on this\n    with Climate Change AI, a non-profit organization\n    set up by volunteers from academia and industry\n    who see a key role for machine learning in\n    combating climate change.\n95    Other Google AI tools are focused on improving\n    weather forecasting and increasing the value of\n    wind energy by better predicting the output from\n    a wind farm.\n    8. How AI can help industry decarbonize\n100   AI is being used to help companies in the metal\n    and mining, oil, and gas industries to decarbonize\n    their operations.\n      Eugenie.ai, based in California, United States,\n    has developed an emissions-tracking platform that\n105 combines satellite imagery with data from machines\n    and processes.\n      AI then analyzes this data to help companies\n    track, trace and reduce their emissions by 20-30%.\n      Industrial sectors generate around 30% of\n110 greenhouse gas emissions globally.\n    9. Reforesting hills in Brazil using drones\n      AI-powered computers are pairing up with\n    drones in Brazil to reforest the hills around the\n    coastal city of Rio de Janeiro, Reuters reports. The\n115 computers define the targets and number of seeds\n    to be dropped.\n      The initiative, which launched in January 2024, is a\n    partnership between Rio’s city hall and start-up Morfo,\n    and aims to grow seeds in hard-to-reach areas.\n120   A single drone can disperse 180 seed capsules\n    per minute, which is 100 times faster than using\n    human hands for traditional reforestation, according\n    to the local government.\n    The potential of AI in the future\n125   In the future, generative AI could be used in\n    contexts such as drug design, architecture and\n    engineering, the Forum says.\n      AI can also be used to improve agriculture and\n    reduce its environmental impact by processing data\n130 from sensors placed on crops.\n      The technologies listed in the report can be used\n    to help tackle global challenges like the climate\n    crisis – but more innovation is needed, the authors\n    point out.\n```\n\nFonte: MASTERSON, V. 9 ways AI is helping tackle climate change. World Economic Forum, Emerging Technologies. 12 fev., 2024. Disponível em: <https://www.weforum.org/agenda/2024/02/ai-combat-climate-change/>. Acesso em: 20 ago. 2024. (Adaptado).\n\nCom base nas informações do texto, considere as afirmativas a seguir.\n\nI → As nove tecnologias de Inteligência Artificial descritas no texto foram propostas por setores privados e/ou públicos, tais como universidades, empresas, organizações e prefeituras.\n\nII → O degelo acelerado de icebergs, a reciclagem ineficiente de resíduos, a poluição dos oceanos, o reflorestamento e a previsão mais precisa do tempo são problemas climáticos que a Inteligência Artificial está ajudando a combater.\n\nIII → O texto traz informações sobre os objetivos de cada inovação reportada e os respectivos resultados já alcançados.\n\nIV → As tecnologias de Inteligência Artificial descritas no texto são insuficientes para solucionar a crise climática.\n\nEstão corretas",
+      "options": [
+        {
+          "text": "apenas I e III.",
+          "explanation": "A III é falsa: o texto apresenta os objetivos das iniciativas, mas nem todas trazem resultados já alcançados (o projeto na África e a lista do Google DeepMind, por exemplo, só descrevem o que se pretende)."
+        },
+        {
+          "text": "apenas I e IV.",
+          "explanation": "Correta. As iniciativas vêm de uma universidade (Leeds), de empresas (Space Intelligence, Greyparrot, Sipremo, Eugenie.ai, Google), de organizações (Nações Unidas, The Ocean Cleanup) e de uma prefeitura (Rio de Janeiro) (I). O texto termina dizendo que essas tecnologias ajudam, “but more innovation is needed” (IV). A II chama de problemas o reflorestamento e a previsão do tempo, que são soluções, e a III generaliza os resultados."
+        },
+        {
+          "text": "apenas II e IV.",
+          "explanation": "A II mistura problemas e soluções: reflorestamento e previsão mais precisa do tempo são formas de combate apoiadas pela IA, não problemas climáticos."
+        },
+        {
+          "text": "apenas I, II e III.",
+          "explanation": "II e III são falsas, e falta a IV, confirmada pelo último parágrafo: “more innovation is needed”, ou seja, o que existe ainda não basta."
+        },
+        {
+          "text": "apenas II, III e IV.",
+          "explanation": "Só a IV é verdadeira aqui. A II trata reflorestamento e previsão do tempo como problemas, e a III afirma que todas as inovações têm resultados relatados, o que o texto não faz."
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "key": "ufsm-2025-p3-q39-en",
+      "source": "Vestibular UFSM 2025 – Prova 3, questão 39, inglês (UFSM)",
+      "kind": "Objective",
+      "subject": "ingles",
+      "statement": "Leia o texto a seguir para responder às questões 38, 39 e 40.\n\n**9 ways AI is helping tackle climate change**\n\n```\n01    The use of artificial intelligence (AI) can\n    contribute to the fight against climate change.\n      Almost 4 billion people already live in areas\n    highly vulnerable to climate change, according to\n05  the World Health Organization.\n      Here are nine ways AI is already helping to\n    tackle climate change.\n    1. Icebergs are melting – AI knows where and\n    how fast\n10    AI has been trained to measure changes in\n    icebergs 10,000 times faster than a human could\n    do it.\n      This will help scientists understand how much\n    meltwater icebergs release into the ocean – a\n15  process accelerating as climate change warms\n    the atmosphere.\n      Scientists at the University of Leeds in the United\n    Kingdom say their AI can map large Antarctic\n    icebergs in satellite images in just one-hundredth\n20  of a second, reports the European Space Agency.\n    2. Mapping deforestation with AI\n      AI, satellite images and ecology expertise are\n    also being used to map the impact of deforestation\n    on the climate crisis.\n25    Space Intelligence, a company based in\n    Edinburgh, Scotland, says it is working in more than\n    30 countries and has mapped more than 1 million\n    hectares of land from space using satellite data.\n      The company’s technology remotely measures\n30  metrics, such as deforestation rates and how much\n    carbon is stored in a forest.\n    3. AI is helping communities facing climate\n    risks in Africa\n      In Africa, AI is being used in a United Nations\n35  project to help communities vulnerable to climate\n    change in Burundi, Chad and Sudan.\n      The IKI Project uses AI technology to help predict\n    weather patterns, so communities and authorities\n    can better plan how to adapt to climate change and\n40  mitigate its impact.\n      This includes improving access to clean energy,\n    implementing proper waste management systems\n    and encouraging reforestation.\n    4. Using AI to recycle more waste\n45    Another AI system is helping to tackle climate\n    change by making waste management more efficient.\n      Waste is a big producer of methane and is\n    responsible for 16% of global greenhouse gas\n    (GHG) emissions, according to the United States\n50  Environmental Protection Agency.\n      Greyparrot, a software startup based in London,\n    United Kingdom, has developed an AI system that\n    analyzes waste processing and recycling facilities to\n    help them recover and recycle more waste material.\n55    The company tracked 32 billion waste items\n    across 67 waste categories in 2022, and says it\n    identifies 86 tonnes of material on average that\n    could be recovered but is being sent to landfill.\n    5. AI is cleaning up the ocean\n60    In the Netherlands, an environmental\n    organization called The Ocean Cleanup is using AI\n    and other technologies to help clear plastic pollution\n    from the ocean.\n      AI that detects objects is helping the organization\n65  create detailed maps of ocean litter in remote\n    locations. The ocean waste can then be gathered\n    and removed, which is more efficient than previous\n    cleanup methods using trawlers and aeroplanes.\n      Plastic pollution contributes to climate change by\n70  emitting GHGs and harming nature.\n    6. AI helps predict climate disasters\n      In São Paulo, Brazil, a company called Sipremo is\n    using AI to predict where and when climate disasters\n    will occur, and what type of climate disasters they\n75  will be.\n      The aim is to help businesses and governments\n    better prepare for climate change and the growing\n    challenges for communities that come with it.\n      The company works in industries including\n80  insurance, energy, logistics and sport, where its\n    analysis of disaster conditions and factors such as\n    air quality can inform decisions on whether to delay\n    or suspend events.\n    7. A wish list of AI climate tools\n85    Google DeepMind, Google’s AI research laboratory,\n    says it is applying AI to help fight climate change in\n    a number of areas.\n      This includes building a complete wish list of\n    datasets that would advance global AI solutions for\n90  climate change. Google DeepMind is working on this\n    with Climate Change AI, a non-profit organization\n    set up by volunteers from academia and industry\n    who see a key role for machine learning in\n    combating climate change.\n95    Other Google AI tools are focused on improving\n    weather forecasting and increasing the value of\n    wind energy by better predicting the output from\n    a wind farm.\n    8. How AI can help industry decarbonize\n100   AI is being used to help companies in the metal\n    and mining, oil, and gas industries to decarbonize\n    their operations.\n      Eugenie.ai, based in California, United States,\n    has developed an emissions-tracking platform that\n105 combines satellite imagery with data from machines\n    and processes.\n      AI then analyzes this data to help companies\n    track, trace and reduce their emissions by 20-30%.\n      Industrial sectors generate around 30% of\n110 greenhouse gas emissions globally.\n    9. Reforesting hills in Brazil using drones\n      AI-powered computers are pairing up with\n    drones in Brazil to reforest the hills around the\n    coastal city of Rio de Janeiro, Reuters reports. The\n115 computers define the targets and number of seeds\n    to be dropped.\n      The initiative, which launched in January 2024, is a\n    partnership between Rio’s city hall and start-up Morfo,\n    and aims to grow seeds in hard-to-reach areas.\n120   A single drone can disperse 180 seed capsules\n    per minute, which is 100 times faster than using\n    human hands for traditional reforestation, according\n    to the local government.\n    The potential of AI in the future\n125   In the future, generative AI could be used in\n    contexts such as drug design, architecture and\n    engineering, the Forum says.\n      AI can also be used to improve agriculture and\n    reduce its environmental impact by processing data\n130 from sensors placed on crops.\n      The technologies listed in the report can be used\n    to help tackle global challenges like the climate\n    crisis – but more innovation is needed, the authors\n    point out.\n```\n\nFonte: MASTERSON, V. 9 ways AI is helping tackle climate change. World Economic Forum, Emerging Technologies. 12 fev., 2024. Disponível em: <https://www.weforum.org/agenda/2024/02/ai-combat-climate-change/>. Acesso em: 20 ago. 2024. (Adaptado).\n\nSobre as iniciativas de uso de Inteligência Artificial no Brasil, assinale V (verdadeiro) ou F (falso) em cada afirmativa a seguir.\n\n(  ) A Inteligência Artificial usada em São Paulo pela Sipremo tem o objetivo de prever onde, quando e quais tipos de desastres climáticos ocorrerão.\n\n(  ) A meta, no Rio de Janeiro, é combinar o uso de drones com Inteligência Artificial para reflorestar com alta rapidez áreas de difícil acesso.\n\n(  ) As iniciativas de Inteligência Artificial das duas regiões brasileiras mencionadas no texto resultam da participação dos governos locais.\n\nA sequência correta é",
+      "options": [
+        {
+          "text": "V – F – F.",
+          "explanation": "A segunda é verdadeira: no Rio, computadores com IA se unem a drones para semear “hard-to-reach areas”, e um drone lança 180 cápsulas por minuto, 100 vezes mais rápido que o plantio manual."
+        },
+        {
+          "text": "F – V – F.",
+          "explanation": "A primeira é verdadeira: a Sipremo usa IA “to predict where and when climate disasters will occur, and what type of climate disasters they will be”."
+        },
+        {
+          "text": "V – V – F.",
+          "explanation": "Correta. A Sipremo prevê onde, quando e que tipo de desastre climático ocorrerá (V). No Rio, IA e drones reflorestam áreas de difícil acesso 100 vezes mais rápido que o trabalho manual (V). Só a iniciativa do Rio é parceria com a prefeitura (“Rio’s city hall”); a de São Paulo é de uma empresa (F)."
+        },
+        {
+          "text": "F – F – V.",
+          "explanation": "Inverte as três: as duas primeiras estão no texto, e a terceira é falsa, pois apenas no Rio de Janeiro há participação do governo local."
+        },
+        {
+          "text": "V – V – V.",
+          "explanation": "A terceira é falsa: o texto apresenta a Sipremo apenas como “a company”, sem participação de governo local; a parceria com a prefeitura existe só no Rio."
+        }
+      ],
+      "correct": "C"
+    },
+    {
+      "key": "ufsm-2025-p3-q40-en",
+      "source": "Vestibular UFSM 2025 – Prova 3, questão 40, inglês (UFSM)",
+      "kind": "Objective",
+      "subject": "ingles",
+      "statement": "Leia o texto a seguir para responder às questões 38, 39 e 40.\n\n**9 ways AI is helping tackle climate change**\n\n```\n01    The use of artificial intelligence (AI) can\n    contribute to the fight against climate change.\n      Almost 4 billion people already live in areas\n    highly vulnerable to climate change, according to\n05  the World Health Organization.\n      Here are nine ways AI is already helping to\n    tackle climate change.\n    1. Icebergs are melting – AI knows where and\n    how fast\n10    AI has been trained to measure changes in\n    icebergs 10,000 times faster than a human could\n    do it.\n      This will help scientists understand how much\n    meltwater icebergs release into the ocean – a\n15  process accelerating as climate change warms\n    the atmosphere.\n      Scientists at the University of Leeds in the United\n    Kingdom say their AI can map large Antarctic\n    icebergs in satellite images in just one-hundredth\n20  of a second, reports the European Space Agency.\n    2. Mapping deforestation with AI\n      AI, satellite images and ecology expertise are\n    also being used to map the impact of deforestation\n    on the climate crisis.\n25    Space Intelligence, a company based in\n    Edinburgh, Scotland, says it is working in more than\n    30 countries and has mapped more than 1 million\n    hectares of land from space using satellite data.\n      The company’s technology remotely measures\n30  metrics, such as deforestation rates and how much\n    carbon is stored in a forest.\n    3. AI is helping communities facing climate\n    risks in Africa\n      In Africa, AI is being used in a United Nations\n35  project to help communities vulnerable to climate\n    change in Burundi, Chad and Sudan.\n      The IKI Project uses AI technology to help predict\n    weather patterns, so communities and authorities\n    can better plan how to adapt to climate change and\n40  mitigate its impact.\n      This includes improving access to clean energy,\n    implementing proper waste management systems\n    and encouraging reforestation.\n    4. Using AI to recycle more waste\n45    Another AI system is helping to tackle climate\n    change by making waste management more efficient.\n      Waste is a big producer of methane and is\n    responsible for 16% of global greenhouse gas\n    (GHG) emissions, according to the United States\n50  Environmental Protection Agency.\n      Greyparrot, a software startup based in London,\n    United Kingdom, has developed an AI system that\n    analyzes waste processing and recycling facilities to\n    help them recover and recycle more waste material.\n55    The company tracked 32 billion waste items\n    across 67 waste categories in 2022, and says it\n    identifies 86 tonnes of material on average that\n    could be recovered but is being sent to landfill.\n    5. AI is cleaning up the ocean\n60    In the Netherlands, an environmental\n    organization called The Ocean Cleanup is using AI\n    and other technologies to help clear plastic pollution\n    from the ocean.\n      AI that detects objects is helping the organization\n65  create detailed maps of ocean litter in remote\n    locations. The ocean waste can then be gathered\n    and removed, which is more efficient than previous\n    cleanup methods using trawlers and aeroplanes.\n      Plastic pollution contributes to climate change by\n70  emitting GHGs and harming nature.\n    6. AI helps predict climate disasters\n      In São Paulo, Brazil, a company called Sipremo is\n    using AI to predict where and when climate disasters\n    will occur, and what type of climate disasters they\n75  will be.\n      The aim is to help businesses and governments\n    better prepare for climate change and the growing\n    challenges for communities that come with it.\n      The company works in industries including\n80  insurance, energy, logistics and sport, where its\n    analysis of disaster conditions and factors such as\n    air quality can inform decisions on whether to delay\n    or suspend events.\n    7. A wish list of AI climate tools\n85    Google DeepMind, Google’s AI research laboratory,\n    says it is applying AI to help fight climate change in\n    a number of areas.\n      This includes building a complete wish list of\n    datasets that would advance global AI solutions for\n90  climate change. Google DeepMind is working on this\n    with Climate Change AI, a non-profit organization\n    set up by volunteers from academia and industry\n    who see a key role for machine learning in\n    combating climate change.\n95    Other Google AI tools are focused on improving\n    weather forecasting and increasing the value of\n    wind energy by better predicting the output from\n    a wind farm.\n    8. How AI can help industry decarbonize\n100   AI is being used to help companies in the metal\n    and mining, oil, and gas industries to decarbonize\n    their operations.\n      Eugenie.ai, based in California, United States,\n    has developed an emissions-tracking platform that\n105 combines satellite imagery with data from machines\n    and processes.\n      AI then analyzes this data to help companies\n    track, trace and reduce their emissions by 20-30%.\n      Industrial sectors generate around 30% of\n110 greenhouse gas emissions globally.\n    9. Reforesting hills in Brazil using drones\n      AI-powered computers are pairing up with\n    drones in Brazil to reforest the hills around the\n    coastal city of Rio de Janeiro, Reuters reports. The\n115 computers define the targets and number of seeds\n    to be dropped.\n      The initiative, which launched in January 2024, is a\n    partnership between Rio’s city hall and start-up Morfo,\n    and aims to grow seeds in hard-to-reach areas.\n120   A single drone can disperse 180 seed capsules\n    per minute, which is 100 times faster than using\n    human hands for traditional reforestation, according\n    to the local government.\n    The potential of AI in the future\n125   In the future, generative AI could be used in\n    contexts such as drug design, architecture and\n    engineering, the Forum says.\n      AI can also be used to improve agriculture and\n    reduce its environmental impact by processing data\n130 from sensors placed on crops.\n      The technologies listed in the report can be used\n    to help tackle global challenges like the climate\n    crisis – but more innovation is needed, the authors\n    point out.\n```\n\nFonte: MASTERSON, V. 9 ways AI is helping tackle climate change. World Economic Forum, Emerging Technologies. 12 fev., 2024. Disponível em: <https://www.weforum.org/agenda/2024/02/ai-combat-climate-change/>. Acesso em: 20 ago. 2024. (Adaptado).\n\nCom base nos recursos linguísticos usados para estabelecer relações entre partes do texto, considere as seguintes afirmativas:\n\nI → “according to” (ℓ. 04) está sendo usado para atribuir autoria.\n\nII → “such as” (ℓ. 30) é empregado para introduzir exemplos.\n\nIII → “so” (ℓ. 38) está sendo empregado para indicar uma finalidade.\n\nIV → “more efficient than” (ℓ. 67) tem por objetivo indicar comparação.\n\nEstá(ão) correta(s)",
+      "options": [
+        {
+          "text": "apenas I.",
+          "explanation": "A I está certa (“according to” = de acordo com, atribuindo o dado à Organização Mundial da Saúde), mas as outras três afirmativas também estão."
+        },
+        {
+          "text": "apenas III.",
+          "explanation": "A III é verdadeira (“so” = para que as comunidades possam se planejar), mas I, II e IV também descrevem corretamente as expressões."
+        },
+        {
+          "text": "apenas I e II.",
+          "explanation": "Faltam III e IV: “so” introduz a finalidade de prever os padrões do tempo, e “more efficient than” é um comparativo de superioridade."
+        },
+        {
+          "text": "apenas III e IV.",
+          "explanation": "Faltam I e II: “according to” indica a fonte da informação, e “such as” introduz exemplos de métricas (taxas de desmatamento e carbono armazenado)."
+        },
+        {
+          "text": "I, II, III e IV.",
+          "explanation": "Correta. “According to” atribui a informação à Organização Mundial da Saúde; “such as” introduz exemplos de métricas; “so” (equivalente a “so that”) indica a finalidade de prever o tempo, para que comunidades e autoridades se planejem; e “more efficient than” compara o novo método de limpeza com os anteriores."
+        }
+      ],
+      "correct": "E"
+    }
+  ]
+}

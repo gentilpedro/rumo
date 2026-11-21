@@ -7,6 +7,9 @@ public enum TrackLevel
     ElementarySchool = 0,
     HighSchool = 1,
     HigherEducation = 2,
+
+    /// <summary>Concursos públicos: o nível de escolaridade exigido vem no nome da trilha.</summary>
+    PublicExam = 3,
 }
 
 /// <summary>Como o simulado da trilha é montado (ver <see cref="MockExams.MockExamFormat"/>).</summary>
@@ -23,6 +26,9 @@ public enum MockExamStyle
     /// (Edital CRA/UFPel nº 16/2026, itens 12 e 13).
     /// </summary>
     Pave = 2,
+
+    /// <summary>Cota de questões por matéria fixada no edital (concursos e vestibulares), em <see cref="MockExams.SubjectExam"/>.</summary>
+    Subjects = 3,
 }
 
 /// <summary>
@@ -72,6 +78,10 @@ public static class Tracks
     public const int Pave1 = 4;
     public const int Pave2 = 5;
     public const int Pave3 = 6;
+    public const int IbgeRecenseador = 7;
+    public const int Ufsm1 = 8;
+    public const int Ufsm2 = 9;
+    public const int Ufsm3 = 10;
 
     /// <summary>Trilha de quem ainda não escolheu nenhuma: a primeira que a plataforma teve.</summary>
     public const int Default = EnadeAds;
@@ -124,6 +134,36 @@ public static class Tracks
             Level = TrackLevel.HighSchool, MockExamStyle = MockExamStyle.Pave,
             ExamDate = new(2026, 12, 6), Order = 6,
         },
+        // Edital IBGE nº 03/2026 (Cesgranrio), itens 3, 10.1 e 10.6: 27.279 vagas de nível fundamental, prova em 31/01/2027.
+        new()
+        {
+            Id = IbgeRecenseador, Slug = "ibge-recenseador", Name = "IBGE 2027 · Recenseador", ExamName = "IBGE", Label = "IBGE Recenseador",
+            Basis = "O conteúdo do Edital IBGE nº 03/2026 para Recenseador do 12º Censo Agro: Português, Matemática e a apostila oficial de Conhecimentos Técnicos.",
+            Level = TrackLevel.PublicExam, MockExamStyle = MockExamStyle.Subjects,
+            ExamDate = new(2027, 1, 31), Order = 7,
+        },
+        // UFSM: vestibular e Processo Seletivo Seriado usam as mesmas provas (manual do candidato 2027, itens 2.1 e 9.4.1).
+        new()
+        {
+            Id = Ufsm1, Slug = "ufsm-1", Name = "UFSM 2027 · Prova 1 (PSS1)", ExamName = "UFSM", Label = "UFSM Prova 1",
+            Basis = "As habilidades do 1º ano do ensino médio no Caderno de Habilidades da UFSM, que valem para a Prova 1 do vestibular e para o PSS1.",
+            Level = TrackLevel.HighSchool, MockExamStyle = MockExamStyle.Subjects,
+            ExamDate = new(2027, 1, 9), Order = 8,
+        },
+        new()
+        {
+            Id = Ufsm2, Slug = "ufsm-2", Name = "UFSM 2027 · Prova 2 (PSS2)", ExamName = "UFSM", Label = "UFSM Prova 2",
+            Basis = "As habilidades do 2º ano do ensino médio no Caderno de Habilidades da UFSM, que valem para a Prova 2 do vestibular e para o PSS2.",
+            Level = TrackLevel.HighSchool, MockExamStyle = MockExamStyle.Subjects,
+            ExamDate = new(2027, 1, 10), Order = 9,
+        },
+        new()
+        {
+            Id = Ufsm3, Slug = "ufsm-3", Name = "UFSM 2027 · Prova 3 (PSS3)", ExamName = "UFSM", Label = "UFSM Prova 3",
+            Basis = "As habilidades do 3º ano do ensino médio e a redação no Caderno de Habilidades da UFSM, que valem para a Prova 3 do vestibular e para o PSS3.",
+            Level = TrackLevel.HighSchool, MockExamStyle = MockExamStyle.Subjects,
+            ExamDate = new(2027, 1, 10), Order = 10,
+        },
     ];
 
     public static int? IdOf(string? slug) => Seed.FirstOrDefault(t => t.Slug == slug)?.Id;
@@ -133,6 +173,7 @@ public static class Tracks
         TrackLevel.ElementarySchool => "Ensino fundamental",
         TrackLevel.HighSchool => "Ensino médio",
         TrackLevel.HigherEducation => "Ensino superior",
+        TrackLevel.PublicExam => "Concurso público",
         _ => level.ToString(),
     };
 }

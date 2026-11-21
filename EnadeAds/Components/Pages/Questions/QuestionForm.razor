@@ -59,7 +59,7 @@
                 <InputRadioGroup @bind-Value="Input.Kind" Name="Input.Kind">
                     <div class="form-check form-check-inline">
                         <InputRadio Value="QuestionKind.Objective" id="kind-objective" class="form-check-input" />
-                        <label class="form-check-label" for="kind-objective">Objetiva (5 alternativas)</label>
+                        <label class="form-check-label" for="kind-objective">Objetiva (4 ou 5 alternativas)</label>
                     </div>
                     <div class="form-check form-check-inline">
                         <InputRadio Value="QuestionKind.Discursive" id="kind-discursive" class="form-check-input" />
@@ -123,6 +123,7 @@
 
         <fieldset class="objective-fields mb-3">
             <legend class="h6">Alternativas</legend>
+            <p class="small text-body-secondary">A prova tem quatro alternativas? Deixe a E em branco, texto e comentário.</p>
             <InputRadioGroup @bind-Value="Input.CorrectLetter" Name="Input.CorrectLetter">
                 @for (var index = 0; index < QuestionDraft.OptionCount; index++)
                 {

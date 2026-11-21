@@ -82,10 +82,28 @@ public sealed record MockExamFormat(MockExamStyle Style, MockExamSize Size, stri
 
     public static IReadOnlyList<MockExamFormat> For(MockExamStyle style) => All.Where(f => f.Style == style).ToList();
 
+    /// <summary>Os tamanhos de simulado de uma trilha. Nas provas por cota de matéria, o total sai do edital da trilha.</summary>
+    public static IReadOnlyList<MockExamFormat> ForTrack(int trackId) => SubjectExam.Of(trackId) is { } exam
+        ? [Subjects(exam, MockExamSize.Short, "Curto"), Subjects(exam, MockExamSize.Medium, "Médio"), Subjects(exam, MockExamSize.Full, "Completo, como a prova")]
+        : For(StyleOf(trackId));
+
+    public static MockExamFormat Of(int trackId, MockExamSize size) => ForTrack(trackId).Single(f => f.Size == size);
+
+    private static MockExamFormat Subjects(SubjectExam exam, MockExamSize size, string name) =>
+        new(MockExamStyle.Subjects, size, name, 0, exam.CountFor(size), 0) { TrackId = exam.TrackId };
+
+    /// <summary>Trilha do formato, só nas provas por cota de matéria (o formato delas depende da trilha).</summary>
+    public int? TrackId { get; init; }
+
+    /// <summary>Tempo do simulado com <paramref name="questionCount"/> questões, proporcional ao da prova.</summary>
+    public int MinutesFor(int questionCount) => TrackId is { } trackId && SubjectExam.Of(trackId) is { } exam
+        ? exam.MinutesFor(questionCount)
+        : MinutesFor(Style, questionCount);
+
     public static MockExamFormat Of(MockExamStyle style, MockExamSize size) => All.Single(f => f.Style == style && f.Size == size);
 
     /// <summary>Formato de um simulado já feito, pela trilha dele.</summary>
-    public static MockExamFormat Of(MockExam exam) => Of(StyleOf(exam.TrackId), exam.Size);
+    public static MockExamFormat Of(MockExam exam) => Of(exam.TrackId, exam.Size);
 
     public static MockExamStyle StyleOf(int trackId) =>
         Tracks.Seed.FirstOrDefault(t => t.Id == trackId)?.MockExamStyle ?? MockExamStyle.Enade;

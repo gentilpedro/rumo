@@ -14,7 +14,11 @@ public sealed class OptionDraft
 
 public sealed class QuestionDraft
 {
+    /// <summary>Máximo de alternativas, e quantos campos a tela mostra. ENADE, ENEM e PAVE usam cinco.</summary>
     public const int OptionCount = 5;
+
+    /// <summary>Algumas provas têm quatro alternativas (OAB, IFSul): a quinta fica em branco e não é gravada.</summary>
+    public const int MinOptionCount = 4;
 
     public QuestionKind Kind { get; set; }
     public int SubjectId { get; set; }
@@ -70,7 +74,7 @@ public sealed record EditResult(int? Id, IReadOnlyList<string> Errors)
 
 public sealed class QuestionEditor(ApplicationDbContext db, ReviewQueue reviews, TimeProvider clock, ILogger<QuestionEditor> logger)
 {
-    public const int StatementMaxLength = 8000;
+    public const int StatementMaxLength = 12000;
     public const int SourceMaxLength = 200;
     public const int OptionMaxLength = 2000;
     public const int ExpectedAnswerMaxLength = 5000;
@@ -138,6 +142,12 @@ public sealed class QuestionEditor(ApplicationDbContext db, ReviewQueue reviews,
         if (errors.Count > 0)
         {
             return new EditResult(questionId, errors);
+        }
+
+        // As tentativas dos alunos apontam para as alternativas: dá para mudar o texto, não a quantidade.
+        if (question.Kind == QuestionKind.Objective && draft.Options.Count != question.Options.Count)
+        {
+            return EditResult.Fail($"Esta questão tem {question.Options.Count} alternativas, e o número não muda depois de publicada.");
         }
 
         if (editor.NeedsReview)
@@ -225,9 +235,16 @@ public sealed class QuestionEditor(ApplicationDbContext db, ReviewQueue reviews,
             return errors;
         }
 
-        if (draft.Options.Count != QuestionDraft.OptionCount)
+        // Questão de quatro alternativas: a quinta veio em branco da tela e sai daqui.
+        if (draft.Options.Count == QuestionDraft.OptionCount && string.IsNullOrWhiteSpace(draft.Options[^1].Text)
+            && string.IsNullOrWhiteSpace(draft.Options[^1].Explanation))
         {
-            errors.Add($"A questão precisa de exatamente {QuestionDraft.OptionCount} alternativas.");
+            draft.Options = draft.Options.Take(QuestionDraft.MinOptionCount).ToList();
+        }
+
+        if (draft.Options.Count is < QuestionDraft.MinOptionCount or > QuestionDraft.OptionCount)
+        {
+            errors.Add($"A questão precisa de {QuestionDraft.MinOptionCount} ou {QuestionDraft.OptionCount} alternativas.");
             return errors;
         }
 
@@ -238,7 +255,7 @@ public sealed class QuestionEditor(ApplicationDbContext db, ReviewQueue reviews,
             Require(draft.Options[index].Explanation, $"o comentário da alternativa {letter}", OptionMaxLength, errors);
         }
 
-        if (draft.CorrectLetter is < 'A' or > 'E')
+        if (draft.CorrectLetter < 'A' || draft.CorrectLetter >= 'A' + draft.Options.Count)
         {
             errors.Add("Marque qual alternativa é a correta.");
         }

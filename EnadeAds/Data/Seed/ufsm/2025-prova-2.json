@@ -1,0 +1,1296 @@
+{
+  "year": 2025,
+  "track": "ufsm-2",
+  "questions": [
+    {
+      "key": "ufsm-2025-p2-q01",
+      "source": "Vestibular UFSM 2025 – Prova 2, questão 1 (UFSM)",
+      "kind": "Objective",
+      "subject": "lingua-portuguesa",
+      "statement": "Leia dois fragmentos de textos que abordam uma questão linguística no contexto da sustentabilidade.\n\nFragmento A\n\n```\n01A A sustentabilidade talvez seja o conceito mais im-\n    portante da atualidade. Com uma nova dinâmica de\n    mercado que tende a punir indústrias ambiental-\n    mente nocivas, o adjetivo “verde” é cada vez mais\n05A usado em diversos processos e produtos. “Energia\n    verde”, “Indústria verde”, “Tecnologias verdes”, o\n    termo passou a ser uma espécie de identificador da\n    sustentabilidade aplicada a processos e novos bens.\n```\n\nFonte: SQ QUÍMICA. A Química Verde e a Sustentabilidade. Publicado em: 19 mar. 2019. Disponível em: <https://sqquimica.com/quimica-verde-e-sustentabilidade/>. Acesso em: 07 ago. 2024.\n\nFragmento B\n\n```\n01B Há três tipos de cidades quanto ao que se refere à\n    maneira como elas podem ser estruturadas: a cidade\n    verde, a sustentável e a inteligente. “Trata-se de\n    exemplos de adjetivos dados às cidades em um es-\n05B forço de marca urbana para criar sua própria identi-\n    dade, de forma a atrair pessoas, empresas, recursos\n    e projetos”, explica Gabriel Mazzola Poli de Figuei-\n    redo, engenheiro em sistemas eletrônicos, mestre e\n    doutorando em planejamento urbano, pesquisador\n10B e consultor em projetos de Políticas Públicas, Cidades\n    Inteligentes, Tecnologia e Inovação.\n```\n\nFonte: NATIONAL GEOGRAPHIC BRASIL. Cidades inteligentes, sustentáveis e verdes: o que significam e quais suas diferenças? Publicado em: 28 out. 2022. Disponível em: <https://www.nationalgeographicbrasil.com/meio-ambiente/2022/10/cidades-inteligentes-sustentaveis-e-verdes-o-que-significam-e-quais-suas-diferencas>. Acesso em: 09 ago. 2024.\n\nComparando-se os dois fragmentos, infere-se corretamente que a palavra “verde”,",
+      "options": [
+        {
+          "text": "em A e em B, está inserida em um contexto de marketing, agregando valor positivo a produtos, processos, novos bens ou cidades.",
+          "explanation": "Correta. Em A, “verde” identifica produtos e processos num mercado que pune indústrias nocivas; em B, é um adjetivo usado num “esforço de marca urbana” para atrair pessoas e recursos. Nos dois casos, a palavra agrega valor positivo ao que qualifica, como recurso de marketing."
+        },
+        {
+          "text": "apenas em A, faz parte de uma categorização, classificando novos bens ou processos com base no modo como se estruturam.",
+          "explanation": "A classificação pelo modo como algo se estrutura aparece no fragmento B (os três tipos de cidade), não no A; em A, “verde” é um identificador de sustentabilidade, e a palavra tem função semelhante nos dois textos."
+        },
+        {
+          "text": "apenas em B, funciona como uma espécie de selo, certificando o compromisso das cidades com a sustentabilidade.",
+          "explanation": "O fragmento B fala em “esforço de marca urbana”, isto é, em construção de imagem, e não em certificação; além disso, é o fragmento A que trata o termo como “identificador” da sustentabilidade."
+        },
+        {
+          "text": "em A, tem inicialmente sentido depreciativo ao ser associada a “punir indústrias” (ℓ. 03A) e, em B, tem um viés elogioso ao ser associada a “atrair pessoas, empresas, recursos e projetos” (ℓ. 06B e 07B).",
+          "explanation": "Em A, quem é punido são as indústrias ambientalmente nocivas; o adjetivo “verde” aparece justamente como a qualidade valorizada pelo mercado, sem nenhum sentido depreciativo."
+        },
+        {
+          "text": "em A e em B, é sinônimo de sustentável, de modo que “a cidade verde” (ℓ. 02B-03B) poderia estar listada entre os exemplos apresentados em A.",
+          "explanation": "O fragmento B separa a cidade verde da cidade sustentável como tipos diferentes, de modo que os termos não são tratados como sinônimos; e A lista processos e bens, não cidades."
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "key": "ufsm-2025-p2-q02",
+      "source": "Vestibular UFSM 2025 – Prova 2, questão 2 (UFSM)",
+      "kind": "Objective",
+      "subject": "quimica",
+      "statement": "Promover o uso de latas de alumínio é um passo simples, porém poderoso para fomentar práticas ambientalmente sustentáveis, essenciais para a preservação dos recursos naturais, como a bauxita. A bauxita é uma rocha de coloração avermelhada, rica em alumínio, com mais de 40% de alumina (Al₂O₃). O processo de obtenção do alumínio passa pela reação não balanceada a seguir.\n\nAl₂O₃(s) + C(s) → Al(s) + CO₂(g)\n\nEm relação à equação, considere as afirmativas a seguir.\n\nI → O coeficiente que ajusta a equação para o carbono é 3.\n\nII → O carbono passa de um número de oxidação (Nox) de zero para +4.\n\nIII → Para cada 2 mols de Al₂O₃ são produzidos 3 mols de CO₂.\n\nIV → Se, nesse processo, forem usados 2 mols de Al₂O₃, ao reagirem com o carbono, serão produzidos 8 mols de Al.\n\nEstá(ão) correta(s)",
+      "options": [
+        {
+          "text": "apenas I.",
+          "explanation": "I está certa, mas não é a única: balanceada, a equação fica 2 Al₂O₃ + 3 C → 4 Al + 3 CO₂, o que também confirma II (carbono de 0 a +4) e III (2 mol de Al₂O₃ para 3 mol de CO₂)."
+        },
+        {
+          "text": "apenas I e III.",
+          "explanation": "I e III estão certas, mas falta II: o carbono é substância simples no reagente (Nox 0) e, no CO₂, tem Nox +4, pois cada oxigênio vale −2."
+        },
+        {
+          "text": "apenas II e IV.",
+          "explanation": "II está certa, mas IV não: pela equação balanceada (2 Al₂O₃ + 3 C → 4 Al + 3 CO₂), 2 mol de Al₂O₃ produzem 4 mol de Al, e não 8."
+        },
+        {
+          "text": "apenas I, II e III.",
+          "explanation": "Correta. O balanceamento dá 2 Al₂O₃ + 3 C → 4 Al + 3 CO₂: o coeficiente do carbono é 3 (I), o carbono passa de Nox 0 para +4 no CO₂ (II) e 2 mol de Al₂O₃ geram 3 mol de CO₂ (III). IV falha porque 2 mol de Al₂O₃ fornecem 4 mol de Al."
+        },
+        {
+          "text": "apenas II, III e IV.",
+          "explanation": "II e III estão certas, mas IV é falsa (2 mol de Al₂O₃ produzem 4 mol de Al, não 8) e a alternativa deixa de fora a I, que é verdadeira: o coeficiente do carbono é 3."
+        }
+      ],
+      "correct": "D"
+    },
+    {
+      "key": "ufsm-2025-p2-q03",
+      "source": "Vestibular UFSM 2025 – Prova 2, questão 3 (UFSM)",
+      "kind": "Objective",
+      "subject": "quimica",
+      "statement": "Uma máquina de lavar foi inventada de forma que deixa as roupas limpas sem necessidade de usar produtos alvejantes, eliminando praticamente todas as bactérias presentes nos tecidos. O segredo do equipamento é a injeção de íons de prata durante a operação de lavagem. Ao se optar por esse processo de limpeza, está se fazendo uma escolha sustentável, porque as roupas podem ser usadas por mais tempo entre as lavagens, reduzindo, assim, o consumo de água e a energia necessária para mantê-las limpas.\n\nCom relação ao processo envolvido na lavagem com íons prata, considere as afirmativas a seguir.\n\nI → Se a prata formar um coloide, poderá ser separada por um destes processos: diálise, ultrafiltração ou ultracentrifugação.\n\nII → Se, durante o processo, formar-se uma solução verdadeira, haverá uma mistura homogênea, formada por partículas de tamanho menor que 1 nm, sem que ocorra a sedimentação, como se pode observar também no álcool etílico hidratado e na água com sal de cozinha.\n\nIII → Se, durante o processo, formar-se uma suspensão, haverá uma mistura heterogênea formada por partículas de tamanho maior que 1 000 nm, as quais, dispersas em uma suspensão, podem ser vistas ou a olho nu ou por um simples microscópio, como, por exemplo, no granito e na água com areia.\n\nIV → Se a prata formar um coloide, este não sedimentará nem poderá ser filtrado por filtração comum, como, por exemplo, na maionese, na fumaça e nas gelatinas.\n\nEstá(ão) correta(s)",
+      "options": [
+        {
+          "text": "apenas I.",
+          "explanation": "I está certa (coloides são separados por diálise, ultrafiltração ou ultracentrifugação), mas as demais afirmativas também descrevem corretamente soluções, suspensões e coloides."
+        },
+        {
+          "text": "apenas I e II.",
+          "explanation": "I e II estão certas, mas III e IV também: suspensões têm partículas maiores que 1 000 nm, visíveis e sedimentáveis, e coloides não sedimentam espontaneamente nem ficam retidos em filtro comum."
+        },
+        {
+          "text": "apenas III e IV.",
+          "explanation": "III e IV estão certas, mas I e II também: o coloide pode ser separado por diálise, ultrafiltração ou ultracentrifugação, e a solução verdadeira é homogênea, com partículas menores que 1 nm."
+        },
+        {
+          "text": "apenas II, III e IV.",
+          "explanation": "II, III e IV estão certas, mas a I também: como as partículas coloidais (entre 1 e 1 000 nm) passam pelo filtro comum, usam-se diálise, ultrafiltração ou ultracentrifugação para separá-las."
+        },
+        {
+          "text": "I, II, III e IV.",
+          "explanation": "Correta. As quatro afirmativas seguem a classificação das dispersões pelo tamanho das partículas: solução verdadeira (menor que 1 nm, homogênea, não sedimenta), coloide (entre 1 e 1 000 nm, não sedimenta nem é retido por filtro comum, separável por diálise, ultrafiltração ou ultracentrifugação) e suspensão (maior que 1 000 nm, heterogênea e visível)."
+        }
+      ],
+      "correct": "E"
+    },
+    {
+      "key": "ufsm-2025-p2-q04",
+      "source": "Vestibular UFSM 2025 – Prova 2, questão 4 (UFSM)",
+      "kind": "Objective",
+      "subject": "geografia",
+      "statement": "Nos últimos anos, houve um crescimento significativo do uso de fontes de energias renováveis e limpas, em substituição a combustíveis obtidos de fontes não renováveis. São exemplos de fontes renováveis de energias:",
+      "options": [
+        {
+          "text": "eólica e geotérmica.",
+          "explanation": "A energia eólica é renovável e a geotérmica também costuma ser classificada assim, pois o calor interno da Terra não se esgota na escala humana; o gabarito oficial, porém, aceita apenas o par eólica e solar, as fontes renováveis e limpas mais típicas."
+        },
+        {
+          "text": "solar e nuclear.",
+          "explanation": "A solar é renovável, mas a nuclear não: depende do urânio, um minério de reservas finitas, além de gerar rejeitos radioativos."
+        },
+        {
+          "text": "eólica e solar.",
+          "explanation": "Correta. Vento e radiação solar são recursos que se renovam continuamente e geram eletricidade sem queima de combustível, por isso são os exemplos mais típicos de fontes renováveis e limpas. É o par indicado pelo gabarito oficial."
+        },
+        {
+          "text": "geotérmica e hídrica.",
+          "explanation": "A hídrica é renovável e a geotérmica também costuma ser classificada como renovável; o gabarito oficial, porém, aceita apenas o par eólica e solar. Vale lembrar que as hidrelétricas causam impactos ambientais relevantes pelo alagamento de grandes áreas."
+        },
+        {
+          "text": "nuclear e hídrica.",
+          "explanation": "A hídrica é renovável, mas a nuclear não: o urânio usado como combustível é um recurso mineral finito."
+        }
+      ],
+      "correct": "C"
+    },
+    {
+      "key": "ufsm-2025-p2-q05",
+      "source": "Vestibular UFSM 2025 – Prova 2, questão 5 (UFSM)",
+      "kind": "Objective",
+      "subject": "fisica",
+      "statement": "A obtenção de energia a partir da combustão do carvão e do petróleo resulta na emissão de gases que contribuem para o aquecimento global. Para reduzir essas emissões, o uso de fontes renováveis de energia tem crescido nas últimas décadas. Entretanto, nenhuma delas é isenta de impactos ambientais. Uma usina hidrelétrica, por exemplo, pode causar alterações locais no clima, na flora e na fauna, além de atividades sísmicas geradas pela pressão da água sobre o substrato rochoso do reservatório. No caso da usina de Itaipu, a profundidade do reservatório tem, em média, cerca de 20 m, embora, em certos locais, possa chegar a 170 m. A área ao redor do reservatório é monitorada, mas nenhum abalo sísmico foi detectado até agora. Dado que 1 atm ≈ 10⁵ N/m², a pressão sobre o leito do reservatório devida apenas ao peso da água nas regiões de maior profundidade é (em atm) de aproximadamente",
+      "options": [
+        {
+          "text": "2.",
+          "explanation": "É a pressão da água na profundidade média (20 m): 1 000 × 10 × 20 = 2 × 10⁵ N/m² = 2 atm. A pergunta se refere às regiões de maior profundidade, 170 m."
+        },
+        {
+          "text": "15.",
+          "explanation": "Viria de usar 150 m (170 m − 20 m) de coluna de água, mas a pressão no ponto mais fundo depende da profundidade total, 170 m."
+        },
+        {
+          "text": "17.",
+          "explanation": "Correta. A pressão da coluna de água é p = d·g·h = 1 000 kg/m³ × 10 m/s² × 170 m = 1,7 × 10⁶ N/m². Como 1 atm ≈ 10⁵ N/m², isso equivale a cerca de 17 atm (cada 10 m de água acrescentam cerca de 1 atm)."
+        },
+        {
+          "text": "20.",
+          "explanation": "Confunde os 20 m de profundidade média com o valor da pressão em atm; a 20 m a água exerce cerca de 2 atm, e a pergunta é sobre os 170 m."
+        },
+        {
+          "text": "170.",
+          "explanation": "Supõe 1 atm para cada metro de água, mas são necessários cerca de 10 m de coluna de água para 1 atm; em 170 m, a pressão é de aproximadamente 17 atm."
+        }
+      ],
+      "correct": "C"
+    },
+    {
+      "key": "ufsm-2025-p2-q06",
+      "source": "Vestibular UFSM 2025 – Prova 2, questão 6 (UFSM)",
+      "kind": "Objective",
+      "subject": "fisica",
+      "statement": "Uma usina geotérmica aproveita a energia interna da Terra, transformando-a em energia mecânica, e esta, por sua vez, em energia elétrica. Como tem baixa emissão de poluentes, esse tipo de geração de energia contribui para um desenvolvimento sustentável, por reduzir drasticamente a liberação de produtos químicos nocivos aos ecossistemas. Em certo tipo de usina geotérmica, aproveita-se o vapor d’água de reservatórios subterrâneos que armazenam água a alta temperatura, conduzindo-o, em alta pressão, por tubos até as turbinas acopladas aos geradores.\n\nConsidere uma dessas usinas que utilizam vapor d’água a 127 ºC como fonte de energia. Tal usina está localizada numa área cuja temperatura ambiente é de 27 ºC. Se operasse como uma máquina térmica reversível entre essas duas temperaturas, o rendimento máximo da usina em % seria",
+      "options": [
+        {
+          "text": "100.",
+          "explanation": "Rendimento de 100% exigiria uma fonte fria a 0 K, o que a segunda lei da Termodinâmica proíbe; nenhuma máquina térmica converte todo o calor em trabalho."
+        },
+        {
+          "text": "79.",
+          "explanation": "Sai da fórmula de Carnot aplicada com as temperaturas em graus Celsius (1 − 27/127 ≈ 0,79); as temperaturas precisam estar em kelvin."
+        },
+        {
+          "text": "75.",
+          "explanation": "É a razão entre as temperaturas em kelvin (300/400 = 0,75), ou seja, a fração do calor rejeitada à fonte fria; o rendimento é o complemento disso, 25%."
+        },
+        {
+          "text": "25.",
+          "explanation": "Correta. O rendimento máximo é o de Carnot, com temperaturas em kelvin: η = 1 − Tfria/Tquente = 1 − 300/400 = 0,25, ou seja, 25% (127 ºC = 400 K e 27 ºC = 300 K)."
+        },
+        {
+          "text": "21.",
+          "explanation": "Vem da razão 27/127 ≈ 0,21, calculada em graus Celsius e sem subtrair de 1; o correto é 1 − 300/400, com as temperaturas em kelvin."
+        }
+      ],
+      "correct": "D"
+    },
+    {
+      "key": "ufsm-2025-p2-q07",
+      "source": "Vestibular UFSM 2025 – Prova 2, questão 7 (UFSM)",
+      "kind": "Objective",
+      "subject": "quimica",
+      "statement": "A energia nuclear, apesar da baixa emissão de carbono, apresenta riscos de acidentes e pode ser tóxica devido ao descarte irregular de lixo radioativo. Todavia, “a necessidade de encontrar novas fontes energéticas limpas e sustentáveis atraiu a atenção internacional para o uso da energia nuclear. O urânio é o principal elemento para a produção desse tipo de energia” (BRASIL, 2023).\n\nFonte: BRASIL. Ministério de Minas e Energia. Serviço Geológico. Urânio é o principal elemento... Publicado em: 09 ago. 2023. Disponível em: <https://www.sgb.gov.br/w/uranio-e-o-principal-elemento-para-a-producao-de-novas-fontes-energeticas-limpas-e-sustentaveis-no-mundo>. Acesso em: 10 ago. 2024.\n\nNa obtenção de urânio, para a produção de combustível nuclear, o trióxido de urânio é transformado no hexafluoreto de urânio, representado nas equações químicas:\n\n01. UO₃(s) + H₂(g) → UO₂(s) + H₂O(g)\n\n02. UO₂(s) + 4HF(g) → UF₄(s) + 2H₂O(g)\n\n03. UF₄(s) + F₂(g) → UF₆(g)\n\nUtilizando-se 2,86 quilogramas de trióxido de urânio, considerando as Condições Normais de Temperatura e Pressão (CNTP) e um rendimento final de todo o processo da transformação de 10%, qual a quantidade de hexafluoreto de urânio que será produzida?",
+      "options": [
+        {
+          "text": "22,4 litros",
+          "explanation": "Correta. A massa molar do UO₃ é 238 + 3 × 16 = 286 g/mol, então 2 860 g são 10 mol. Somando as etapas, 1 mol de UO₃ gera 1 mol de UF₆; com rendimento de 10%, forma-se 1 mol de UF₆, que é gás e ocupa 22,4 L nas CNTP (em massa, seriam 352 g)."
+        },
+        {
+          "text": "286 gramas",
+          "explanation": "286 g é 10% da massa do UO₃ de partida (ou a massa de 1 mol de UO₃), não a do produto: 1 mol de UF₆ pesa 238 + 6 × 19 = 352 g."
+        },
+        {
+          "text": "352 litros",
+          "explanation": "352 é a massa, em gramas, de 1 mol de UF₆; em volume, 1 mol de gás nas CNTP ocupa 22,4 L. A alternativa troca a unidade."
+        },
+        {
+          "text": "2 860 litros",
+          "explanation": "2 860 é a massa de UO₃ em gramas, que não se converte diretamente em litros de produto; o cálculo passa pela quantidade de matéria (10 mol) e pelo rendimento de 10%."
+        },
+        {
+          "text": "3 520 gramas",
+          "explanation": "3 520 g seria a massa de UF₆ com rendimento de 100% (10 mol × 352 g/mol); com 10% de rendimento, forma-se apenas 1 mol, isto é, 352 g ou 22,4 L."
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "key": "ufsm-2025-p2-q08",
+      "source": "Vestibular UFSM 2025 – Prova 2, questão 8 (UFSM)",
+      "kind": "Objective",
+      "subject": "lingua-portuguesa",
+      "statement": "Para responder às questões 08 e 09, considere uma postagem em mídia digital e um cartaz nela inserido. Ambos os textos abordam a sustentabilidade a partir de uma perspectiva de diálogo com a cultura.\n\n![Postagem de rede social do perfil amocachoeirinha. À esquerda, um cartaz com os logotipos AMO Cachoeirinha e CineSolar e o título 'Cachoeirinha terá sessões de cinema ao ar livre e gratuitas' sobre a fotografia de uma plateia, formada principalmente por crianças sentadas em cadeiras ao ar livre, diante de um telão com o logotipo CineSolar, ao lado de uma van decorada; no rodapé, 'Siga o Amo Cachoeirinha'. À direita, a legenda da postagem, com linhas numeradas de 01 a 16, transcrita a seguir, e as informações '182 curtidas' e '26 de abril'.](img/ufsm/2025/prova-2/q08-1.png)\n\n```\n   amocachoeirinha CINESOLAR |\n01 Cachoeirinha terá sessões de cinema\n   ao ar livre e gratuitas\n\n   No dia 7 de maio, Cachoeirinha será\n   palco de uma experiência única de\n05 cinema ao ar livre, onde a magia do\n   entretenimento se une à\n   sustentabilidade e à tecnologia.\n\n   O CineSolar, o primeiro cinema\n   itinerante movido a energia solar do\n10 Brasil, traz uma noite repleta de\n   diversão em família, com entrada\n   gratuita e uma programação que\n   encanta todas as idades.\n\n   Localizado na EMEB Portugal*, o evento\n15 promete uma série de atividades para\n   além da exibição de filmes.\n```\n\n* Escola Municipal de Ensino Básico Portugal\n\nFonte: AMOCACHOEIRINHA. CineSolar. Publicado em: 26 abr. 2024. Instagram: @amoacachoeirinha @amogravatai. Disponível em: <https://www.instagram.com/amocachoeirinha/p/C6OiSsaun5B/>. Acesso em: 22 jul. 2024. (Adaptado).\n\nA denominação CineSolar mostra que o principal referente textual da postagem é uma iniciativa que une cultura e sustentabilidade. No texto, o segmento “o primeiro cinema itinerante movido a energia solar do Brasil” (ℓ. 08 a 10) aparece sob a forma de aposto explicativo, o que possibilita a apresentação de várias informações sobre esse referente. Com relação ao segmento, considere estas afirmativas:\n\nI → “o primeiro” agrega a ideia de pioneirismo ao conjunto de informações sobre o CineSolar.\n\nII → “cinema itinerante” expressa a ideia de o CineSolar ser um cinema em constante deslocamento.\n\nIII → “movido a energia solar” generaliza a ideia de o CineSolar ser um entretenimento sustentável e tecnológico.\n\nIV → “do Brasil” evidencia a ideia de que, frente ao cenário mundial, o CineSolar é uma iniciativa exclusiva do país.\n\nEstão corretas",
+      "options": [
+        {
+          "text": "apenas I e II.",
+          "explanation": "Correta. “O primeiro” acrescenta a ideia de pioneirismo (I) e “itinerante” significa que o cinema se desloca de um lugar a outro (II). Já “movido a energia solar” especifica, e não generaliza, o caráter sustentável (III), e “do Brasil” delimita onde ele é o primeiro, sem dizer que a iniciativa é exclusiva do país (IV)."
+        },
+        {
+          "text": "apenas I e III.",
+          "explanation": "I está certa, mas III não: “movido a energia solar” é uma informação específica, que particulariza de que modo o CineSolar é sustentável e tecnológico, em vez de generalizar; e fica de fora a II, que é verdadeira."
+        },
+        {
+          "text": "apenas III e IV.",
+          "explanation": "III erra ao falar em generalização (a expressão especifica a fonte de energia) e IV extrapola: “do Brasil” indica que o CineSolar é o primeiro no país, não que seja uma iniciativa exclusiva do Brasil no mundo."
+        },
+        {
+          "text": "apenas I, II e IV.",
+          "explanation": "I e II estão certas, mas IV não: “do Brasil” restringe o alcance do pioneirismo ao território nacional e nada afirma sobre exclusividade diante do cenário mundial."
+        },
+        {
+          "text": "apenas II, III e IV.",
+          "explanation": "II está certa, mas III e IV não: “movido a energia solar” especifica em vez de generalizar, e “do Brasil” não indica exclusividade mundial; além disso, falta a I, que é verdadeira."
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "key": "ufsm-2025-p2-q09",
+      "source": "Vestibular UFSM 2025 – Prova 2, questão 9 (UFSM)",
+      "kind": "Objective",
+      "subject": "lingua-portuguesa",
+      "statement": "Para responder às questões 08 e 09, considere uma postagem em mídia digital e um cartaz nela inserido. Ambos os textos abordam a sustentabilidade a partir de uma perspectiva de diálogo com a cultura.\n\n![Postagem de rede social do perfil amocachoeirinha. À esquerda, um cartaz com os logotipos AMO Cachoeirinha e CineSolar e o título 'Cachoeirinha terá sessões de cinema ao ar livre e gratuitas' sobre a fotografia de uma plateia, formada principalmente por crianças sentadas em cadeiras ao ar livre, diante de um telão com o logotipo CineSolar, ao lado de uma van decorada; no rodapé, 'Siga o Amo Cachoeirinha'. À direita, a legenda da postagem, com linhas numeradas de 01 a 16, transcrita a seguir, e as informações '182 curtidas' e '26 de abril'.](img/ufsm/2025/prova-2/q09-1.png)\n\n```\n   amocachoeirinha CINESOLAR |\n01 Cachoeirinha terá sessões de cinema\n   ao ar livre e gratuitas\n\n   No dia 7 de maio, Cachoeirinha será\n   palco de uma experiência única de\n05 cinema ao ar livre, onde a magia do\n   entretenimento se une à\n   sustentabilidade e à tecnologia.\n\n   O CineSolar, o primeiro cinema\n   itinerante movido a energia solar do\n10 Brasil, traz uma noite repleta de\n   diversão em família, com entrada\n   gratuita e uma programação que\n   encanta todas as idades.\n\n   Localizado na EMEB Portugal*, o evento\n15 promete uma série de atividades para\n   além da exibição de filmes.\n```\n\n* Escola Municipal de Ensino Básico Portugal\n\nFonte: AMOCACHOEIRINHA. CineSolar. Publicado em: 26 abr. 2024. Instagram: @amoacachoeirinha @amogravatai. Disponível em: <https://www.instagram.com/amocachoeirinha/p/C6OiSsaun5B/>. Acesso em: 22 jul. 2024. (Adaptado).\n\nO cartaz e a postagem são dois suportes usados na divulgação do evento em torno do CineSolar. A adesão do público a esse evento é uma construção que explora recursos visuais e verbais. Considerando as contribuições do verbal e do não verbal, assinale a alternativa correta.",
+      "options": [
+        {
+          "text": "A realização de dois processos de ação atribuídos a “Cachoeirinha” cria a imagem da cidade como parceira do CineSolar.",
+          "explanation": "Os verbos ligados a “Cachoeirinha” (“terá sessões”, “será palco”) não expressam ações praticadas pela cidade: indicam posse e estado. A cidade aparece como local que recebe o evento, não como agente parceiro."
+        },
+        {
+          "text": "O emprego da linguagem informal é uma estratégia para ampliar a divulgação do evento.",
+          "explanation": "A legenda usa registro formal e cuidado (“onde a magia do entretenimento se une à sustentabilidade”), sem gírias nem marcas de informalidade."
+        },
+        {
+          "text": "O público representado na imagem fotográfica do cartaz é ampliado na postagem, com a expressão metonímica “todas as idades” (ℓ. 13).",
+          "explanation": "Correta. A fotografia do cartaz mostra uma plateia formada sobretudo por crianças; a legenda amplia esse público ao prometer “diversão em família” e uma programação que “encanta todas as idades”, expressão em que as idades representam as pessoas dessas idades (metonímia)."
+        },
+        {
+          "text": "Os verbos “traz” (ℓ. 10) e “promete” (ℓ. 15) associados a um ente não humano contrastam com o protagonismo do CineSolar, já representado na imagem fotográfica.",
+          "explanation": "“Traz” e “promete” têm como sujeitos “o CineSolar” e “o evento”; atribuir ações a esses entes não humanos reforça o protagonismo do CineSolar, em vez de contrastar com ele."
+        },
+        {
+          "text": "O conteúdo verbal permite a dedução correta de que um agente público patrocina as sessões de cinema “com entrada gratuita” (ℓ. 11 e 12).",
+          "explanation": "O texto informa que a entrada é gratuita e que o evento ocorre numa escola municipal, mas não diz quem paga as sessões; concluir que há patrocínio de um agente público é ir além do que está escrito."
+        }
+      ],
+      "correct": "C"
+    },
+    {
+      "key": "ufsm-2025-p2-q10",
+      "source": "Vestibular UFSM 2025 – Prova 2, questão 10 (UFSM)",
+      "kind": "Objective",
+      "subject": "fisica",
+      "statement": "Na Física, a discussão sobre as máquinas térmicas se dá no contexto da teoria chamada Termodinâmica. Essa teoria é, formalmente, estruturada por quatro leis: a lei zero, a primeira lei, a segunda lei e a terceira lei. A lei zero está associada ao conceito de temperatura. A primeira lei está associada ao conceito de energia e pode ser expressa, matematicamente, pela relação ΔU=Q–W, em que U representa a energia interna do sistema, e Q e W representam as energias trocadas com a vizinhança, como calor e trabalho, respectivamente. A segunda lei está associada ao conceito de entropia. A terceira lei, por sua vez, tem caráter quântico.\n\nConsiderando essa teoria, assinale V (verdadeiro) ou F (falso) em cada afirmativa a seguir.\n\n( ) De acordo com a lei zero, dois sistemas em equilíbrio térmico um com o outro têm energias internas iguais e, portanto, temperaturas iguais.\n\n( ) Se uma amostra de gás ideal é comprimida, então W<0.\n\n( ) Se uma amostra de gás ideal isolada é submetida a um processo termodinâmico irreversível, seu estado final tem maior entropia do que seu estado inicial.\n\nA sequência correta é",
+      "options": [
+        {
+          "text": "F – F – V.",
+          "explanation": "A segunda afirmativa é verdadeira, não falsa: na convenção ΔU = Q − W, W é o trabalho realizado pelo gás, que é negativo quando o gás é comprimido (o volume diminui)."
+        },
+        {
+          "text": "F – V – F.",
+          "explanation": "A terceira afirmativa é verdadeira: num sistema isolado, todo processo irreversível aumenta a entropia (segunda lei)."
+        },
+        {
+          "text": "F – V – V.",
+          "explanation": "Correta. Equilíbrio térmico significa temperaturas iguais, não energias internas iguais, que dependem também da quantidade e do tipo de matéria (F). Na compressão, o gás recebe trabalho, logo W < 0 na convenção ΔU = Q − W (V). Em sistema isolado, processo irreversível aumenta a entropia (V)."
+        },
+        {
+          "text": "V – V – F.",
+          "explanation": "A primeira afirmativa é falsa: a lei zero garante temperaturas iguais no equilíbrio térmico, mas um copo de água e uma piscina à mesma temperatura têm energias internas muito diferentes. E a terceira é verdadeira."
+        },
+        {
+          "text": "V – F – V.",
+          "explanation": "A primeira afirmativa é falsa (equilíbrio térmico iguala temperaturas, não energias internas) e a segunda é verdadeira (gás comprimido realiza trabalho negativo)."
+        }
+      ],
+      "correct": "C"
+    },
+    {
+      "key": "ufsm-2025-p2-q11",
+      "source": "Vestibular UFSM 2025 – Prova 2, questão 11 (UFSM)",
+      "kind": "Objective",
+      "subject": "quimica",
+      "statement": "A energia de biomassa é um assunto cada vez mais comum por ser um meio sustentável de produção. A biodigestão de resíduos é um processo fermentativo parecido com a compostagem, mas totalmente anaeróbio (sem presença de oxigênio), e tem como subprodutos o biogás e o biofertilizante, que podem ser aproveitados. Os ácidos voláteis produzidos durante a biodigestão tendem a reduzir o pH do meio reacional. Essa redução é normalmente combatida pela atividade dos microrganismos fermentativos, que também produzem compostos alcalinos. O pH do sistema é controlado pela concentração de dióxido de carbono na fase gasosa e HCO₃⁻ alcalino na fase líquida. Durante a biodigestão, o CO₂ é continuamente liberado como gás.\n\n![Gráfico 'Equilíbrio químico entre dióxido de carbono – íon bicarbonato – íon carbonato': porcentagem (0 a 100%) de cada espécie em função do pH (de 4 a 14). A curva do CO₂ fica perto de 100% em pH 4, cai, cruza a do HCO₃⁻ em cerca de 50% perto de pH 6,3 (ponto marcado por uma linha tracejada vertical) e chega a quase zero perto de pH 8. A curva do HCO₃⁻ parte de quase zero em pH 4, atinge o máximo, perto de 100%, por volta de pH 8 a 9, e cai até quase zero em pH 13 a 14. A curva do CO₃²⁻ sobe a partir de pH 9, cruza a do HCO₃⁻ perto de pH 11,5 e se aproxima de 100% acima de pH 13.](img/ufsm/2025/prova-2/q11-1.png)\n\nFonte: KUNZ, A.; STEINMETZ, R. L. R.; AMARAL, A. C. do (ed.). Fundamentos da digestão anaeróbia, purificação do biogás, uso e tratamento do digestato. Concórdia, SC: Sbera, Embrapa, 2019. p. 21-22. Disponível em: <https://www.alice.cnptia.embrapa.br/alice/bitstream/doc/1108617/1/LivroBiogas.pdf>. Acesso em: 10 ago. 2024. (Adaptado).\n\nEm relação ao pH do sistema abordado no texto e na figura, considere as afirmativas a seguir.\n\nI → Se o pH do sistema diminuir excessivamente, uma maior quantidade de CO₂ permanecerá dissolvida no meio reacional.\n\nII → Se o pH do sistema aumentar, o CO₂ dissolvido formará ácido carbônico, assim íons de hidrogênio serão liberados.\n\nIII → Em pH 4, quase todo CO₂ estará na forma de molécula livre; já em pH 13, quase todo CO₂ estará dissolvido na forma de carbonato no substrato.\n\nIV → O ponto de equilíbrio químico entre as formas gasosa e solúvel no sistema ocorrerá entre pH 6 e 7.\n\nEstá(ão) correta(s)",
+      "options": [
+        {
+          "text": "apenas II.",
+          "explanation": "II está certa (com menos H⁺ no meio, o equilíbrio CO₂ + H₂O ⇌ H₂CO₃ ⇌ H⁺ + HCO₃⁻ se desloca no sentido de liberar H⁺), mas as outras afirmativas também são confirmadas pelo gráfico."
+        },
+        {
+          "text": "apenas I e II.",
+          "explanation": "I e II estão certas, mas III e IV também: o gráfico mostra quase 100% de CO₂ em pH 4, quase 100% de carbonato em pH 13 e o cruzamento das curvas de CO₂ e HCO₃⁻ entre pH 6 e 7."
+        },
+        {
+          "text": "apenas III e IV.",
+          "explanation": "III e IV estão certas, mas I e II também: em pH baixo predomina a forma CO₂, e o aumento do pH desloca o equilíbrio para a formação de ácido carbônico e sua ionização."
+        },
+        {
+          "text": "apenas I, III e IV.",
+          "explanation": "I, III e IV estão certas, mas II também: quando o pH sobe, o CO₂ dissolvido reage com a água formando H₂CO₃, que se ioniza liberando H⁺ e bicarbonato."
+        },
+        {
+          "text": "I, II, III e IV.",
+          "explanation": "Correta. Pelo gráfico, em pH baixo a espécie predominante é o CO₂ (I e III), em pH 13 quase tudo está como carbonato (III) e as curvas de CO₂ e HCO₃⁻ se cruzam perto de pH 6,3, entre 6 e 7 (IV). Com o aumento do pH, o equilíbrio CO₂ + H₂O ⇌ H₂CO₃ ⇌ H⁺ + HCO₃⁻ desloca-se para a direita, liberando H⁺ (II)."
+        }
+      ],
+      "correct": "E"
+    },
+    {
+      "key": "ufsm-2025-p2-q12",
+      "source": "Vestibular UFSM 2025 – Prova 2, questão 12 (UFSM)",
+      "kind": "Objective",
+      "subject": "matematica",
+      "statement": "O aquecimento global e as mudanças climáticas decorrentes dele têm como causa principal o acúmulo de gases de efeito estufa na atmosfera. Um dos gases que mais contribui para esse efeito é o metano. A pecuária é a grande responsável pela emissão de gás metano.\n\nFonte: MERLINO, T. Aquecimento global: o Brasil está disposto a frear o aumento do rebanho de bois? Publicado em: 06 nov. 2024. Disponível em: <http://ojoioeotrigo.com.br/2024/11/aquecimento-global-o-brasil-esta-dispoto-a-frear-o-aumento-do-rebanho-de-bois/>. Acesso em: 27 dez. 2024. (Adaptado).\n\nO setor pecuário tem organizado exposições de rebanhos. Uma cabanha da raça Nelore está preparando seu plantel de animais para uma exposição agropecuária. O rebanho é composto por 400 animais, distribuídos em 240 vacas, 100 bezerros e 60 touros. Durante a exposição, um único animal será escolhido para representar a morfologia do rebanho da cabanha.\n\nA probabilidade de o animal escolhido\n\nI → não ser um bezerro é de 3/4.\n\nII → ser um bezerro ou um touro é de 1/5.\n\nIII → ser uma vaca ou um touro é de 3/4.\n\nIV → não ser um touro é de 17/20.\n\nEstá(ão) correta(s)",
+      "options": [
+        {
+          "text": "apenas I.",
+          "explanation": "I está certa (300 dos 400 animais não são bezerros: 300/400 = 3/4), mas III e IV também estão."
+        },
+        {
+          "text": "apenas II.",
+          "explanation": "II é falsa: bezerros e touros somam 100 + 60 = 160 animais, e 160/400 = 2/5, não 1/5."
+        },
+        {
+          "text": "apenas III e IV.",
+          "explanation": "III (300/400 = 3/4) e IV (340/400 = 17/20) estão certas, mas falta a I: não ser bezerro também tem probabilidade 300/400 = 3/4."
+        },
+        {
+          "text": "apenas I, III e IV.",
+          "explanation": "Correta. Em 400 animais: não ser bezerro = 300/400 = 3/4 (I); vaca ou touro = (240 + 60)/400 = 3/4 (III); não ser touro = 340/400 = 17/20 (IV). Já bezerro ou touro = 160/400 = 2/5, e não 1/5 (II é falsa)."
+        },
+        {
+          "text": "I, II, III, IV.",
+          "explanation": "A afirmativa II é falsa: a probabilidade de ser bezerro ou touro é (100 + 60)/400 = 2/5, o dobro do valor indicado."
+        }
+      ],
+      "correct": "D"
+    },
+    {
+      "key": "ufsm-2025-p2-q13",
+      "source": "Vestibular UFSM 2025 – Prova 2, questão 13 (UFSM)",
+      "kind": "Objective",
+      "subject": "historia",
+      "statement": "A partir de 1650, as áreas anteriormente marginais e negligenciadas do Caribe desenvolveram-se como colônias de grande lavoura escravista e, ao longo dos duzentos anos seguintes, tornaram-se grandes centros escravocratas. Em todas as colônias europeias emergentes, utilizou-se o modelo português da grande lavoura de exportação movida pelo braço africano cativo.\n\nFonte: LUNA, F. V.; KLEIN, H. Escravismo no Brasil. São Paulo: EdUSP, 2010. p. 35. (Adaptado).\n\nConsiderando a América durante o período colonial, assinale V (verdadeiro) ou F (falso) em cada afirmativa a seguir.\n\n( ) A produção agrícola voltada ao mercado internacional incentivou a criação e a manutenção de lavouras de monocultura, diminuindo a biodiversidade vegetal.\n\n( ) O comércio de escravos da África para a América foi uma migração humana forçada e incidiu na disseminação de bactérias e vírus causadores de doenças, as quais reduziram consideravelmente as populações indígenas.\n\n( ) O trabalho escravo africano foi utilizado para povoar regiões desabitadas, dando origem às principais cidades americanas, o que produziu a redução de biomas naturais.\n\nA sequência correta é",
+      "options": [
+        {
+          "text": "F – V – F.",
+          "explanation": "A primeira afirmativa é verdadeira: a grande lavoura de exportação (plantation) baseava-se na monocultura, como a da cana-de-açúcar, que substituiu a vegetação nativa e reduziu a biodiversidade."
+        },
+        {
+          "text": "V – V – F.",
+          "explanation": "Correta. A plantation exportadora era monocultora e reduziu a diversidade vegetal (V); a circulação forçada de pessoas pelo Atlântico ajudou a espalhar doenças contra as quais os indígenas não tinham defesas (V); os escravizados foram levados para trabalhar em lavouras e minas de regiões já habitadas por povos indígenas, não para povoar áreas desabitadas (F)."
+        },
+        {
+          "text": "V – F – F.",
+          "explanation": "A segunda afirmativa é verdadeira: o tráfico atlântico foi uma migração forçada e contribuiu para disseminar doenças que dizimaram populações indígenas."
+        },
+        {
+          "text": "F – V – V.",
+          "explanation": "A primeira é verdadeira (monocultura de exportação) e a terceira é falsa: a mão de obra escravizada destinava-se à produção, e as regiões colonizadas não eram desabitadas."
+        },
+        {
+          "text": "V – F – V.",
+          "explanation": "A segunda é verdadeira e a terceira é falsa: o trabalho escravo africano servia à grande lavoura e à mineração, em terras já ocupadas por povos indígenas, e não a um projeto de povoamento de áreas vazias."
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "key": "ufsm-2025-p2-q14",
+      "source": "Vestibular UFSM 2025 – Prova 2, questão 14 (UFSM)",
+      "kind": "Objective",
+      "subject": "biologia",
+      "statement": "Na agricultura, há uma preocupação com rendimento, como kg/ha, por exemplo. No entanto, quando se trata de produção, o maior rendimento pode não ser sustentável. Para mais rendimentos, muitas vezes, são necessários mais insumos, e isso pode comprometer a dimensão ambiental da sustentabilidade.\n\nPara reduzir o uso de nitrogênio nas lavouras, muitos agricultores realizam a adubação verde, buscando aumentar a quantidade de compostos nitrogenados disponíveis no solo.\n\nSobre os efeitos da adubação verde, considere as afirmativas a seguir.\n\nI → Melhora as características químicas e físicas do solo.\n\nII → Aumenta a diversidade biológica do solo.\n\nIII → Adiciona nitrogênio ao solo.\n\nIV → Reduz a matéria orgânica do solo.\n\nEstão corretas",
+      "options": [
+        {
+          "text": "apenas I e IV.",
+          "explanation": "I está certa, mas IV não: a adubação verde incorpora ao solo a biomassa das plantas cultivadas, aumentando a matéria orgânica, e não reduzindo."
+        },
+        {
+          "text": "apenas II e III.",
+          "explanation": "II e III estão certas, mas falta a I: a palhada e as raízes melhoram a estrutura, a retenção de água e a fertilidade do solo."
+        },
+        {
+          "text": "apenas III e IV.",
+          "explanation": "III está certa, mas IV é falsa: a decomposição das plantas usadas como adubo verde acrescenta matéria orgânica ao solo."
+        },
+        {
+          "text": "apenas I, II e III.",
+          "explanation": "Correta. Na adubação verde cultivam-se plantas, em geral leguminosas associadas a bactérias fixadoras de nitrogênio, que depois são incorporadas ao solo: isso adiciona nitrogênio (III), melhora as características químicas e físicas (I) e favorece a vida do solo (II). A matéria orgânica aumenta, por isso IV é falsa."
+        },
+        {
+          "text": "apenas I, II e IV.",
+          "explanation": "I e II estão certas, mas IV é falsa (a matéria orgânica aumenta) e falta a III: a fixação biológica de nitrogênio é justamente o principal objetivo da prática."
+        }
+      ],
+      "correct": "D"
+    },
+    {
+      "key": "ufsm-2025-p2-q15",
+      "source": "Vestibular UFSM 2025 – Prova 2, questão 15 (UFSM)",
+      "kind": "Objective",
+      "subject": "biologia",
+      "statement": "A nutrição adequada das plantas é uma das maneiras de melhorar a produtividade das culturas agrícolas. Na agricultura orgânica, opta-se pelo uso de adubos orgânicos constituídos de partes de animais ou de plantas. À medida que são decompostos pelos microrganismos do solo, os adubos orgânicos liberam elementos essenciais ao crescimento e desenvolvimento das plantas.\n\nAlguns elementos essenciais são necessários em quantidades relativamente grandes, os macronutrientes. Outros são necessários em quantidades pequenas, os micronutrientes.\n\nSobre os elementos essenciais na nutrição mineral das plantas, considere as afirmativas a seguir.\n\nI → As plantas produzem, durante a fotossíntese, os micronutrientes para o crescimento e desenvolvimento delas.\n\nII → Nitrogênio, hidrogênio e carbono são exemplos de macronutrientes.\n\nIII → Fósforo, cloro e ferro são exemplos de micronutrientes.\n\nIV → A falta de algum elemento essencial na planta causa sintomas específicos, a exemplo da falta de magnésio, que torna as folhas amareladas devido à diminuição da produção de clorofila.\n\nEstá(ão) correta(s)",
+      "options": [
+        {
+          "text": "apenas II.",
+          "explanation": "II está certa, mas IV também: o magnésio faz parte da molécula de clorofila, e sua falta deixa as folhas amareladas (clorose)."
+        },
+        {
+          "text": "apenas I e III.",
+          "explanation": "I é falsa, porque a fotossíntese produz compostos orgânicos, enquanto os nutrientes minerais são absorvidos do ambiente; III também é falsa, pois o fósforo é macronutriente."
+        },
+        {
+          "text": "apenas II e IV.",
+          "explanation": "Correta. Carbono, hidrogênio e nitrogênio são exigidos em grande quantidade, portanto são macronutrientes (II), e a falta de magnésio, componente da clorofila, causa o amarelecimento das folhas (IV). As plantas não fabricam nutrientes minerais (I é falsa) e o fósforo é macronutriente (III é falsa)."
+        },
+        {
+          "text": "apenas I, III e IV.",
+          "explanation": "IV está certa, mas I e III não: micronutrientes são absorvidos do solo, não produzidos na fotossíntese, e o fósforo é um macronutriente (cloro e ferro, sim, são micronutrientes)."
+        },
+        {
+          "text": "I, II, III e IV.",
+          "explanation": "I e III são falsas: a planta não produz elementos químicos, apenas os absorve, e o fósforo é exigido em grande quantidade, sendo macronutriente."
+        }
+      ],
+      "correct": "C"
+    },
+    {
+      "key": "ufsm-2025-p2-q16",
+      "source": "Vestibular UFSM 2025 – Prova 2, questão 16 (UFSM)",
+      "kind": "Objective",
+      "subject": "matematica",
+      "statement": "Observe a figura a seguir.\n\n![Região retangular com a indicação 'Área Residencial' no centro e a legenda 'L é medido em m; T é medido em m²'. Uma linha pontilhada horizontal atravessa o retângulo. No canto inferior direito, abaixo da linha pontilhada, há um triângulo retângulo cinza marcado com T: seus catetos (um sobre a base do retângulo, outro sobre o lado direito) têm marcas de mesma medida dos catetos do triângulo da esquerda, o ângulo junto ao vértice superior é de 45º e a hipotenusa mede L. No canto inferior esquerdo, há outro triângulo retângulo cinza, com catetos sobre o lado esquerdo e a base do retângulo, ângulo de 45º na base e hipotenusa L. Apoiado sobre essa hipotenusa, há um terceiro triângulo cinza cujos outros dois lados também medem L (triângulo equilátero de lado L), que ultrapassa a linha pontilhada.](img/ufsm/2025/prova-2/q16-1.png)\n\nHortas comunitárias em grandes centros urbanos, adubadas com material orgânico proveniente das sobras residenciais que antes iriam para algum aterro sanitário, são uma boa forma de sustentabilidade. Considere uma comunidade estabelecida em uma região retangular como na figura, cuja produção mensal de hortaliças, consideradas as condições de clima e de solo, é de 3 kg/m². Na figura, a área cultivada T produziu, em um mês, 30 kg de hortaliças. Considerando aproximadamente (1,7)²=3 e desprezando, no final de todas as contas, todas as casas decimais (após a vírgula), qual seria a produção total desse mesmo mês, em kg, se a comunidade tivesse usado toda a área livre que se encontra em cinza na figura?",
+      "options": [
+        {
+          "text": "90",
+          "explanation": "Corresponde a 30 m² de área cinza, isto é, a tratar os três triângulos como iguais a T (3 × 10 m²); o triângulo equilátero de lado L é maior: tem 17 m²."
+        },
+        {
+          "text": "99",
+          "explanation": "Equivale a 33 m² de área cinza, valor que não sai da figura: os dois triângulos retângulos têm 10 m² cada e o equilátero, 17 m², num total de 37 m²."
+        },
+        {
+          "text": "102",
+          "explanation": "Equivale a 34 m² (duas vezes 17 m²), o que não corresponde à figura: há dois triângulos retângulos de 10 m² e um equilátero de 17 m², somando 37 m²."
+        },
+        {
+          "text": "111",
+          "explanation": "Correta. T = 30 kg ÷ 3 kg/m² = 10 m². T é triângulo retângulo isósceles de hipotenusa L, com área L²/4, logo L² = 40. O outro triângulo retângulo é igual (10 m²) e o equilátero de lado L tem área L²√3/4 = 40 × 1,7/4 = 17 m². Total: 37 m² × 3 kg/m² = 111 kg."
+        },
+        {
+          "text": "120",
+          "explanation": "Corresponde a 40 m², que é o valor de L² (área de um quadrado de lado L), e não a soma das áreas cinza, que é 10 + 10 + 17 = 37 m²."
+        }
+      ],
+      "correct": "D"
+    },
+    {
+      "key": "ufsm-2025-p2-q17",
+      "source": "Vestibular UFSM 2025 – Prova 2, questão 17 (UFSM)",
+      "kind": "Objective",
+      "subject": "lingua-portuguesa",
+      "statement": "Para responder às questões 17 e 18, leia a tira a seguir.\n\n![Tira do Armandinho em três quadros. Quadro 01: uma floresta com árvores, palmeiras e plantas variadas e a legenda 'AS AGROFLORESTAS PRODUZEM VARIEDADE E QUANTIDADE DE ALIMENTOS, O ANO TODO...'. Quadro 02: Armandinho observa uma borboleta junto de uma planta, com um sapo ao lado, e os textos '...ENQUANTO PROTEGEM O SOLO, A ÁGUA E A BIODIVERSIDADE!' e 'PARA MUITOS, É NOVIDADE...'. Quadro 03: Armandinho e uma menina, de mochila, ouvem um menino indígena, de cabelos longos e com um adorno de penas, que diz: '...MAS ELAS EXISTEM HÁ MUITAS E MUITAS GERAÇÕES!'.](img/ufsm/2025/prova-2/q17-1.png)\n\nFonte: BECK, A. Armandinho. Publicado em: 27 maio 2024. Disponível em: <https://www.facebook.com/tirasarmandinho>. Acesso em: 13 jul. 2024.\n\nO quadrinista compõe uma tira para apresentar um sistema de produção agrícola num cenário de práticas sustentáveis. Em três quadros, foram distribuídas informações visuais e verbais agregando ideias ou relações relevantes ao tema da agrofloresta. Tendo essa dinâmica em mente, considere as afirmativas a seguir.\n\nI → O primeiro quadro mostra que a opção por um sistema agroflorestal vai de encontro à ideia de que, para produzir, é preciso desmatar.\n\nII → Os dois quadros iniciais apresentam a ideia de que, em um sistema agroflorestal, os processos de produção e proteção se alternam.\n\nIII → A denominação “agroflorestas” mostra o emprego da linguagem figurada na referência a um conjunto amplo (agricultura) de que faz parte um subconjunto (florestas).\n\nIV → Os quadros se articulam em torno da ideia de que o sistema agroflorestal é viável e sustentável em razão da associação entre aspectos econômicos, ambientais e culturais.\n\nEstá(ão) correta(s)",
+      "options": [
+        {
+          "text": "apenas III.",
+          "explanation": "III é falsa: “agroflorestas” é uma palavra composta (agro + florestas) que nomeia literalmente um sistema que une agricultura e floresta; não há linguagem figurada nem relação de conjunto e subconjunto."
+        },
+        {
+          "text": "apenas IV.",
+          "explanation": "IV está certa, mas a I também: “ir de encontro a” significa opor-se, e a agrofloresta, que produz dentro da floresta, contraria a ideia de que é preciso desmatar para produzir."
+        },
+        {
+          "text": "apenas I e II.",
+          "explanation": "I está certa, mas II não: o conector “enquanto” indica que produção e proteção acontecem ao mesmo tempo, e não de forma alternada."
+        },
+        {
+          "text": "apenas I e IV.",
+          "explanation": "Correta. A agrofloresta do primeiro quadro produz alimentos com a floresta em pé, opondo-se (“vai de encontro”) à ideia de que produzir exige desmatar (I). Os três quadros somam o aspecto econômico (produção de alimentos), o ambiental (proteção do solo, da água e da biodiversidade) e o cultural (prática de muitas gerações) (IV)."
+        },
+        {
+          "text": "apenas II e III.",
+          "explanation": "II e III são falsas: “enquanto” expressa simultaneidade entre produzir e proteger, não alternância, e “agroflorestas” é um termo composto de sentido literal, não figurado."
+        }
+      ],
+      "correct": "D"
+    },
+    {
+      "key": "ufsm-2025-p2-q18",
+      "source": "Vestibular UFSM 2025 – Prova 2, questão 18 (UFSM)",
+      "kind": "Objective",
+      "subject": "lingua-portuguesa",
+      "statement": "Para responder às questões 17 e 18, leia a tira a seguir.\n\n![Tira do Armandinho em três quadros. Quadro 01: uma floresta com árvores, palmeiras e plantas variadas e a legenda 'AS AGROFLORESTAS PRODUZEM VARIEDADE E QUANTIDADE DE ALIMENTOS, O ANO TODO...'. Quadro 02: Armandinho observa uma borboleta junto de uma planta, com um sapo ao lado, e os textos '...ENQUANTO PROTEGEM O SOLO, A ÁGUA E A BIODIVERSIDADE!' e 'PARA MUITOS, É NOVIDADE...'. Quadro 03: Armandinho e uma menina, de mochila, ouvem um menino indígena, de cabelos longos e com um adorno de penas, que diz: '...MAS ELAS EXISTEM HÁ MUITAS E MUITAS GERAÇÕES!'.](img/ufsm/2025/prova-2/q18-1.png)\n\nFonte: BECK, A. Armandinho. Publicado em: 27 maio 2024. Disponível em: <https://www.facebook.com/tirasarmandinho>. Acesso em: 13 jul. 2024.\n\nSendo a tira um texto curto, a caracterização dos personagens revela significações importantes para o leitor atribuir sentido ao que lê. Assim, considerar tanto a fala quanto a indumentária do personagem no terceiro quadro auxilia a se completar corretamente o raciocínio a seguir.\n\nSe existem há muitas e muitas gerações, então as agroflorestas têm um caráter",
+      "options": [
+        {
+          "text": "etário.",
+          "explanation": "“Etário” refere-se à idade de pessoas ou grupos; o raciocínio destaca a transmissão de uma prática ao longo do tempo, não uma faixa de idade."
+        },
+        {
+          "text": "intrageracional.",
+          "explanation": "“Intrageracional” é o que ocorre dentro de uma mesma geração; a fala menciona “muitas e muitas gerações”, ou seja, uma relação entre gerações sucessivas."
+        },
+        {
+          "text": "regional.",
+          "explanation": "A tira não vincula as agroflorestas a uma região específica; a fala e a caracterização do personagem indígena destacam a antiguidade da prática."
+        },
+        {
+          "text": "inovador.",
+          "explanation": "É o contrário do que a tira afirma: “para muitos, é novidade”, mas as agroflorestas existem há muitas gerações."
+        },
+        {
+          "text": "tradicional.",
+          "explanation": "Correta. O que se pratica e se transmite “há muitas e muitas gerações” é tradicional; a indumentária indígena do personagem reforça que se trata de um saber dos povos originários, passado de geração em geração."
+        }
+      ],
+      "correct": "E"
+    },
+    {
+      "key": "ufsm-2025-p2-q19",
+      "source": "Vestibular UFSM 2025 – Prova 2, questão 19 (UFSM)",
+      "kind": "Objective",
+      "subject": "matematica",
+      "statement": "O cultivo em meio à floresta ganha força em diversos estados do Brasil. Considere uma certa região, cuja área de plantio Aₙ em km² cresce numa progressão aritmética em função do tempo dada por Aₙ=50+nr, em que n é dado em anos, e r é um número real positivo. Se em um ano N obtêm-se 80 km² de área plantada e em h anos após N obtêm-se 120 km² de plantio, é correto afirmar que",
+      "options": [
+        {
+          "text": "N≤h<(5/4)N",
+          "explanation": "O valor de h é (4/3)N ≈ 1,33N, que é maior que (5/4)N = 1,25N, portanto fica fora desse intervalo."
+        },
+        {
+          "text": "(5/4)N≤h<(3/2)N",
+          "explanation": "Correta. No ano N: 50 + Nr = 80, logo Nr = 30. Em N + h: 50 + (N + h)r = 120, logo hr = 40. Dividindo, h/N = 40/30, isto é, h = (4/3)N ≈ 1,33N, valor entre (5/4)N = 1,25N e (3/2)N = 1,5N."
+        },
+        {
+          "text": "(3/2)N≤h<(7/4)N",
+          "explanation": "Como Nr = 30 e hr = 40, tem-se h = (4/3)N ≈ 1,33N, abaixo de (3/2)N = 1,5N."
+        },
+        {
+          "text": "(7/4)N≤h<2N",
+          "explanation": "Esse intervalo começa em 1,75N, mas h = (4/3)N ≈ 1,33N; o erro típico é comparar as áreas totais (120 e 80) em vez dos acréscimos sobre os 50 km² iniciais."
+        },
+        {
+          "text": "2N≤h<(9/4)N",
+          "explanation": "Exigiria h de pelo menos o dobro de N; porém o acréscimo de 40 km² em h anos é apenas 4/3 do acréscimo de 30 km² obtido em N anos, logo h = (4/3)N."
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "key": "ufsm-2025-p2-q20",
+      "source": "Vestibular UFSM 2025 – Prova 2, questão 20 (UFSM)",
+      "kind": "Objective",
+      "subject": "matematica",
+      "statement": "As agroflorestas, além de serem rentáveis aos agricultores, são uma forma inteligente de manter uma floresta longe de erosão e desmatamento. Suponha que um agricultor aderiu à agrofloresta e pretende ofertar ao mercado 6 tipos de produtos distintos, podendo escolher dentre 10 culturas que são mais adaptáveis a sua região: açaí, milho, feijão, banana, acerola, cupuaçu, café, cevada, soja ou graviola. Quantas ofertas de 6 produtos ele poderá apresentar ao mercado?",
+      "options": [
+        {
+          "text": "60",
+          "explanation": "60 é apenas o produto 10 × 6; a contagem pede o número de grupos de 6 culturas escolhidas entre 10, que é uma combinação."
+        },
+        {
+          "text": "210",
+          "explanation": "Correta. A ordem dos produtos não importa, então é uma combinação: C(10, 6) = 10!/(6! × 4!) = (10 × 9 × 8 × 7)/(4 × 3 × 2 × 1) = 210."
+        },
+        {
+          "text": "720",
+          "explanation": "720 = 6! é o número de maneiras de ordenar 6 produtos já escolhidos, não o número de escolhas possíveis entre 10 culturas."
+        },
+        {
+          "text": "5 040",
+          "explanation": "5 040 = 10 × 9 × 8 × 7 conta sequências ordenadas (arranjo); como a ordem não importa, falta dividir por 4! = 24, o que dá 210."
+        },
+        {
+          "text": "1 000 000",
+          "explanation": "1 000 000 = 10⁶ admitiria repetir culturas e levar em conta a ordem; os 6 produtos devem ser distintos e a ordem não importa."
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "key": "ufsm-2025-p2-q21",
+      "source": "Vestibular UFSM 2025 – Prova 2, questão 21 (UFSM)",
+      "kind": "Objective",
+      "subject": "biologia",
+      "statement": "A biorremediação é a utilização de microrganismos, principalmente bactérias, na limpeza de áreas ambientais contaminadas. Esse procedimento é mais simples, mais barato e menos prejudicial ao ambiente, quando comparado aos processos não biológicos, como a coleta e o transporte dos poluentes para outros locais.\n\nSobre bactérias, assinale V (verdadeiro) ou F (falso) em cada afirmativa a seguir.\n\n( ) São organismos procariontes e multicelulares.\n\n( ) Quanto à forma de nutrição, podem ser autotróficas ou heterotróficas.\n\n( ) Apresentam reprodução assexuada.\n\nA sequência correta é",
+      "options": [
+        {
+          "text": "V – F – F.",
+          "explanation": "A primeira é falsa, pois bactérias são procariontes, mas unicelulares; e as outras duas são verdadeiras."
+        },
+        {
+          "text": "V – V – F.",
+          "explanation": "A primeira é falsa (bactérias são unicelulares) e a terceira é verdadeira (elas se reproduzem assexuadamente, por bipartição)."
+        },
+        {
+          "text": "F – V – V.",
+          "explanation": "Correta. Bactérias são procariontes unicelulares (F); há espécies autotróficas, como as fotossintetizantes e as quimiossintetizantes, e heterotróficas, como as decompositoras (V); a reprodução é assexuada, por bipartição (V)."
+        },
+        {
+          "text": "V – F – V.",
+          "explanation": "A primeira é falsa (não são multicelulares) e a segunda é verdadeira: existem bactérias autotróficas e heterotróficas."
+        },
+        {
+          "text": "F – F – V.",
+          "explanation": "A segunda afirmativa é verdadeira: além das heterotróficas, há bactérias autotróficas, como as cianobactérias, que fazem fotossíntese."
+        }
+      ],
+      "correct": "C"
+    },
+    {
+      "key": "ufsm-2025-p2-q22",
+      "source": "Vestibular UFSM 2025 – Prova 2, questão 22 (UFSM)",
+      "kind": "Objective",
+      "subject": "filosofia-sociologia",
+      "statement": "![Fotografia de um grupo de catadoras e catadores de materiais recicláveis trabalhando juntos em volta de uma grande pilha de sacos e resíduos, que separam com as mãos protegidas por luvas; todos vestem camisetas brancas iguais, com a estampa de uma mão aberta e os dizeres 'Dê a mão para o futuro'.](img/ufsm/2025/prova-2/q22-1.png)\n\nFonte: ASSOCIAÇÃO NACIONAL DE CATADORES E CATADORAS DE MATERIAIS RECICLÁVEIS. Publicado em: 22 jul. 2024. Disponível em: <https://abihpec.org.br/associacao-nacional-de-catadores-e-catadoras-de-materiais-reciclaveis-e-a-pragma-solucoes-sustentaveis-lancam-o-anuario-da-reciclagem-2020/>. Acesso em: 22 jul. 2024.\n\nO trabalho de reciclagem do lixo responde a, pelo menos, dois vetores de conteúdo social: sustentabilidade ambiental e garantia de trabalho e renda para grupos em situação de vulnerabilidade social.\n\nO ____________ é fator determinante do trabalho dos recicladores e das recicladoras, o que sugere ____________ combinada com interesse. Os elementos que levam à situação desses grupos estão diretamente vinculados a limitações educacionais e sociais, além da imposição de exigências crescentes ao alcance do mercado de trabalho ____________. Em países como o Brasil, o ____________ e o ____________ apresentam insuficiências no que diz respeito, respectivamente, à incorporação e à proteção dos grupos sociais mais vulneráveis.\n\nAssinale a alternativa que preenche corretamente as lacunas.",
+      "options": [
+        {
+          "text": "associativismo – cooperação – formal – Mercado – Estado",
+          "explanation": "Correta. Os recicladores organizam-se em associações e cooperativas (associativismo), unindo cooperação e interesse econômico; estão à margem do mercado de trabalho formal, cujas exigências crescem; e, na ordem do “respectivamente”, o Mercado falha em incorporar esses grupos e o Estado, em protegê-los."
+        },
+        {
+          "text": "individualismo – competição – informal – Mercado – Estado",
+          "explanation": "A imagem e o texto tratam de um trabalho coletivo, organizado em associação, e não de individualismo e competição; e as exigências crescentes são as do mercado de trabalho formal, do qual esses grupos ficam excluídos."
+        },
+        {
+          "text": "associativismo – cooperação – formal – Estado – Mercado",
+          "explanation": "As três primeiras lacunas estão certas, mas a ordem final se inverte: a incorporação (emprego e renda) cabe ao Mercado e a proteção social cabe ao Estado."
+        },
+        {
+          "text": "individualismo – cooperação – informal – Estado – Mercado",
+          "explanation": "“Individualismo” não combina com a organização coletiva dos catadores, o mercado informal não impõe exigências crescentes de qualificação, e a ordem Estado/Mercado inverte os papéis de proteção e incorporação."
+        },
+        {
+          "text": "associativismo – competição – formal – Mercado – Estado",
+          "explanation": "“Associativismo” sugere cooperação, não competição, entre os trabalhadores: eles se unem para obter trabalho e renda em conjunto."
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "key": "ufsm-2025-p2-q23",
+      "source": "Vestibular UFSM 2025 – Prova 2, questão 23 (UFSM)",
+      "kind": "Objective",
+      "subject": "matematica",
+      "statement": "Reciclar é preciso. Em certa cidade, por levantamentos feitos entre os anos de 1990 e 2020, percebeu-se que a quantidade de material reciclável, medida em toneladas, variou muito conforme a quantidade de propaganda maciça, permanente, feita junto à população. Naturalmente, quanto maior foi a quantidade de material reciclado, mais benefícios teve a cidade. O modelo matemático que expressa a quantidade T de material reciclado no ano x é dado por T = 15+10cos(π(x/20 –99)).\n\nTendo por base as informações apresentadas, considere as afirmativas a seguir.\n\nI → Houve anos melhores que 1990.\n\nII → O ano 2000 foi um dos piores anos.\n\nIII → Houve anos piores que 2010.\n\nIV → Houve anos melhores que 2020.\n\nEstá(ão) correta(s)",
+      "options": [
+        {
+          "text": "apenas I.",
+          "explanation": "I está certa (em 1990, T = 15, e houve anos com até 25 toneladas), mas II e III também são verdadeiras."
+        },
+        {
+          "text": "apenas II.",
+          "explanation": "II está certa (em 2000, o cosseno vale −1 e T = 5, o mínimo), mas I e III também são verdadeiras."
+        },
+        {
+          "text": "apenas III e IV.",
+          "explanation": "III está certa, mas IV é falsa: em 2020, π(2020/20 − 99) = 2π, cos 2π = 1 e T = 25 toneladas, o máximo possível; nenhum ano foi melhor."
+        },
+        {
+          "text": "apenas I, II e III.",
+          "explanation": "Correta. Como o cosseno varia de −1 a 1, T varia de 5 a 25. Em 1990: cos(π/2) = 0, T = 15; em 2000: cos π = −1, T = 5 (mínimo); em 2010: cos(3π/2) = 0, T = 15; em 2020: cos 2π = 1, T = 25 (máximo). Logo houve anos melhores que 1990 (I), 2000 foi um dos piores (II), houve anos piores que 2010 (III) e nenhum melhor que 2020 (IV falsa)."
+        },
+        {
+          "text": "I, II, III, IV.",
+          "explanation": "IV é falsa: 2020 corresponde ao valor máximo do modelo (T = 15 + 10 × 1 = 25 toneladas), então não houve ano melhor que ele."
+        }
+      ],
+      "correct": "D"
+    },
+    {
+      "key": "ufsm-2025-p2-q24",
+      "source": "Vestibular UFSM 2025 – Prova 2, questão 24 (UFSM)",
+      "kind": "Objective",
+      "subject": "historia",
+      "statement": "Uma das características mais desafiadoras do estudo da História é compreender as contradições apresentadas pelas sociedades. O historiador Boris Fausto defende que o Brasil, no intervalo de tempo entre 1945 e 1964, apresentou ampliação das práticas democráticas, aceleração industrial e modernização da agricultura. O crescimento econômico da época beneficiou milhares de pessoas, cuja atuação política recebeu garantias inexistentes em períodos anteriores, e a população urbana cresceu de modo intenso. Por outro lado, vários biomas foram atingidos, e a tensão política e social foi constante, pois a concentração de renda manteve-se restrita.\n\nSobre o período de 1945 a 1964 no Brasil, assinale a alternativa correta.",
+      "options": [
+        {
+          "text": "Ocorreu a multiplicação de partidos políticos, ainda que seus planos e projetos demonstrassem concordância sobre a política econômica e sobre a preservação de biomas no país.",
+          "explanation": "Houve multiplicação de partidos (PSD, PTB, UDN e outros), mas eles divergiam fortemente sobre a política econômica, como no debate entre nacionalismo e abertura ao capital estrangeiro; e a preservação de biomas não era pauta de consenso."
+        },
+        {
+          "text": "A criação da Petrobras foi incentivada pela ampliação da rede de estradas ferroviárias e pela adoção de locomotivas a diesel, um combustível derivado de petróleo cuja queima degrada a atmosfera.",
+          "explanation": "A Petrobras foi criada em 1953, no contexto da campanha nacionalista “O petróleo é nosso”; além disso, o período priorizou as rodovias e a indústria automobilística, não a expansão das ferrovias."
+        },
+        {
+          "text": "A baixa competitividade da agricultura brasileira contribuiu para o aumento da dívida externa e teve por resposta um amplo projeto de reforma agrária, de reforço da produção familiar e de demarcação de terras indígenas.",
+          "explanation": "Não houve amplo projeto de reforma agrária implementado no período: a reforma agrária era uma das Reformas de Base propostas no governo João Goulart e foi um dos focos de tensão que antecederam o golpe de 1964."
+        },
+        {
+          "text": "As grandes obras públicas e a abertura de novas fronteiras agrícolas multiplicaram os empregos e atenderam as aspirações dos grupos populares, que se ausentaram das manifestações políticas públicas.",
+          "explanation": "Os grupos populares não se ausentaram da política: o período foi de intensa mobilização, com greves, sindicatos, ligas camponesas e comícios, e o próprio enunciado fala em tensão política e social constante."
+        },
+        {
+          "text": "A experiência política foi apresentada como uma ferramenta para a diminuição da desigualdade social e foi marcada por eleições, comícios, campanhas de difamação, manobras institucionais e conspirações.",
+          "explanation": "Correta. A experiência democrática de 1945 a 1964 ampliou a participação política, com eleições regulares e comícios, e foi vista como caminho para reduzir desigualdades; ao mesmo tempo, foi marcada por instabilidade: campanhas de difamação, manobras institucionais e conspirações, como as que cercaram o suicídio de Vargas, a posse de JK e de Jango e o golpe de 1964."
+        }
+      ],
+      "correct": "E"
+    },
+    {
+      "key": "ufsm-2025-p2-q25",
+      "source": "Vestibular UFSM 2025 – Prova 2, questão 25 (UFSM)",
+      "kind": "Objective",
+      "subject": "historia",
+      "statement": "A Revolução Industrial teve início na metade do século XVIII, causando modificações econômicas, sociais e ambientais praticamente imediatas. As transformações no ambiente natural foram percebidas poucas décadas após o início do processo, pois as mudanças nas cidades industriais e nos seus entornos eram bastante nítidas. Contudo, sucessivas gerações humanas foram ensinadas a considerar que os recursos naturais eram abundantes e que os limites para sua exploração estavam longe de ser atingidos.\n\nSobre a Revolução Industrial, considere as afirmativas a seguir.\n\nI → Aumentaram significativamente a mineração e a queima de combustível fóssil sob a forma de carvão mineral.\n\nII → A oferta de trabalho assalariado nas fábricas promoveu o desenvolvimento social.\n\nIII → Foi estimulada a concentração populacional urbana sem serem considerados os efeitos ambientais.\n\nIV → A capacidade de produção industrial tornou a vida humana independente dos recursos naturais.\n\nEstá(ão) correta(s)",
+      "options": [
+        {
+          "text": "apenas I.",
+          "explanation": "I está certa (o carvão mineral movia as máquinas a vapor), mas III também: as cidades industriais cresceram sem preocupação com poluição e saneamento."
+        },
+        {
+          "text": "apenas I e III.",
+          "explanation": "Correta. A máquina a vapor fez crescer a mineração e a queima de carvão mineral (I), e as fábricas concentraram população nas cidades sem atenção aos efeitos ambientais (III). O trabalho fabril, com jornadas extensas, baixos salários e trabalho infantil, não significou desenvolvimento social (II), e a indústria aumentou a dependência de recursos naturais (IV)."
+        },
+        {
+          "text": "apenas II e III.",
+          "explanation": "III está certa, mas II não: o trabalho assalariado nas fábricas se deu em condições precárias, com longas jornadas, baixos salários e exploração de mulheres e crianças."
+        },
+        {
+          "text": "apenas III e IV.",
+          "explanation": "III está certa, mas IV é falsa: a produção industrial depende de matérias-primas e de energia retiradas da natureza, e em escala cada vez maior."
+        },
+        {
+          "text": "apenas I, II e IV.",
+          "explanation": "I está certa, mas II e IV não: as condições de vida e de trabalho dos operários eram precárias, e a indústria intensificou, em vez de eliminar, a dependência dos recursos naturais."
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "key": "ufsm-2025-p2-q26",
+      "source": "Vestibular UFSM 2025 – Prova 2, questão 26 (UFSM)",
+      "kind": "Objective",
+      "subject": "geografia",
+      "statement": "O processo de industrialização moderno, iniciado na Inglaterra em meados do século XVIII e, posteriormente, propagado para outros países, deu início a uma, cada vez maior, intervenção humana na natureza, que se prolonga até os dias atuais [...]. A industrialização, acompanhada da urbanização, causou grandes impactos ambientais.\n\nFonte: ADAS, M.; ADAS, S. Panorama geográfico do Brasil. 4. ed. São Paulo: Moderna, 1998. p. 100.\n\nA queima de combustíveis fósseis e a presença crescente de gases poluentes na atmosfera ocasionam o agravamento do efeito estufa, que, nesse caso, é definido como",
+      "options": [
+        {
+          "text": "gases presentes em excesso na atmosfera, principalmente dióxido de carbono, que bloqueiam a irradiação de calor da Terra.",
+          "explanation": "Correta. O agravamento do efeito estufa decorre do excesso de gases como o dióxido de carbono, liberado na queima de combustíveis fósseis: eles retêm parte do calor irradiado pela superfície terrestre, elevando a temperatura."
+        },
+        {
+          "text": "precipitação carregada de ácido nítrico e sulfúrico, resultantes principalmente de reações químicas que ocorrem na atmosfera.",
+          "explanation": "Essa é a definição de chuva ácida, formada quando óxidos de nitrogênio e de enxofre reagem com a água na atmosfera."
+        },
+        {
+          "text": "camada protetora de ozônio contra os raios ultravioletas emitidos pelo Sol, evitando que esses atinjam diretamente a Terra.",
+          "explanation": "Descreve a camada de ozônio, que filtra a radiação ultravioleta; é um fenômeno diferente da retenção de calor pelos gases de efeito estufa."
+        },
+        {
+          "text": "grandes porções de ar que costumam se originar em áreas extensas e homogêneas, como as planícies, os oceanos e os desertos.",
+          "explanation": "É a definição de massas de ar, conceito da dinâmica atmosférica que não tem relação direta com a poluição."
+        },
+        {
+          "text": "ar atmosférico em movimento, em decorrência das diferenças de temperatura e pressão do ar entre os diversos locais da Terra.",
+          "explanation": "Define o vento, isto é, o ar em movimento por diferenças de pressão e temperatura."
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "key": "ufsm-2025-p2-q27",
+      "source": "Vestibular UFSM 2025 – Prova 2, questão 27 (UFSM)",
+      "kind": "Objective",
+      "subject": "fisica",
+      "statement": "A busca do equilíbrio entre desenvolvimento econômico e preservação ambiental está pautada pelo conceito de sustentabilidade. Nesse contexto, uma das questões mais importantes é a mudança climática produzida, em grande parte, pelas emissões antrópicas de gases responsáveis pelo aumento do efeito estufa.\n\nO mecanismo do efeito estufa está descrito sinteticamente a seguir. O Sol emite radiações eletromagnéticas (RE), principalmente na faixa visível do espectro eletromagnético, com comprimentos de onda próximos de 5 × 10⁻⁷ m. Uma parcela importante das RE que chegam à Terra atravessa a atmosfera e é absorvida pelos oceanos e pelo solo, aquecendo-os. A Terra, então, emite RE com comprimentos de onda próximos de 1 x 10⁻⁵ m, na faixa do infravermelho. Uma molécula de CO₂, por exemplo, só pode vibrar em certas frequências, chamadas de frequências próprias. Dessa forma, as RE que incidem nessa molécula só serão absorvidas por ela se tiverem frequências iguais a uma dessas frequências próprias. Por esse mecanismo, as moléculas dos gases do efeito estufa absorvem RE emitidas pela Terra e as reemitem em todas as direções.\n\nConsiderando a emissão e absorção de RE, assinale V (verdadeiro) ou F (falso) em cada afirmativa a seguir.\n\n( ) O Sol emite, principalmente, RE de frequências menores do que as frequências das RE emitidas pela Terra.\n\n( ) O processo de absorção de RE pelas moléculas do efeito estufa é chamado de ressonância.\n\n( ) Frequência, comprimento de onda e amplitude são propriedades de qualquer onda, seja uma onda mecânica, seja uma onda eletromagnética.\n\nA sequência correta é",
+      "options": [
+        {
+          "text": "F – F – V.",
+          "explanation": "A segunda afirmativa é verdadeira: a absorção ocorre quando a frequência da radiação coincide com uma frequência própria da molécula, o que caracteriza a ressonância."
+        },
+        {
+          "text": "F – V – V.",
+          "explanation": "Correta. Como f = c/λ, o menor comprimento de onda corresponde à maior frequência: a radiação solar (5 × 10⁻⁷ m, cerca de 6 × 10¹⁴ Hz) tem frequência maior que a emitida pela Terra (1 × 10⁻⁵ m, cerca de 3 × 10¹³ Hz) (F). A absorção na frequência própria é ressonância (V), e frequência, comprimento de onda e amplitude caracterizam qualquer onda (V)."
+        },
+        {
+          "text": "V – V – V.",
+          "explanation": "A primeira afirmativa é falsa: comprimento de onda menor significa frequência maior, e a radiação solar tem comprimento de onda menor que a emitida pela Terra."
+        },
+        {
+          "text": "V – V – F.",
+          "explanation": "A primeira é falsa (o Sol emite em frequências maiores, pois f = c/λ) e a terceira é verdadeira (são grandezas comuns a ondas mecânicas e eletromagnéticas)."
+        },
+        {
+          "text": "V – F – F.",
+          "explanation": "A primeira é falsa e as outras duas são verdadeiras: o Sol emite em frequências maiores que as da Terra, a absorção descrita é ressonância e toda onda tem frequência, comprimento de onda e amplitude."
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "key": "ufsm-2025-p2-q28",
+      "source": "Vestibular UFSM 2025 – Prova 2, questão 28 (UFSM)",
+      "kind": "Objective",
+      "subject": "geografia",
+      "statement": "A crescente frequência e intensidade dos eventos climáticos trouxe para o debate a necessidade de se considerar outro tipo de refugiado, aquele que é forçado a se deslocar em decorrência de situações de emergência climática. Nesse sentido, “a Agência da ONU para Refugiados (ACNUR) lançou, em 2024, o Fundo de Resiliência Climática da ACNUR, buscando impulsionar a proteção de pessoas refugiadas e comunidades deslocadas à força que estão mais ameaçadas pelas mudanças climáticas”.\n\nFonte: ACNUR BRASIL. ACNUR lança fundo para proteger refugiados e outras pessoas deslocadas forçadas dos impactos climáticos. Publicado em: 24 abr. 2024. Disponível em: <https://www.acnur.org.br>. Acesso em: 15 jul. 2024.\n\nÉ(São) motivação(ões) para a criação do Fundo de Resiliência Climática pela ACNUR:\n\nI → necessidade de atuar com medidas que colaborem para reduzir a vulnerabilidade das pessoas aos riscos ambientais provocados pelas mudanças climáticas.\n\nII → necessidade de atuar de forma a capacitar as comunidades suscetíveis a deslocamentos forçados pelos impactos climáticos para a preparação, resistência e recuperação no enfrentamento das crises climáticas.\n\nIII → necessidade de atuar urgentemente nas ações internacionais para proteger pessoas forçadas a deixarem as suas casas, em virtude das crescentes ocorrências de eventos climáticos extremos.\n\nIV → necessidade de atuar na resolução de conflitos aduaneiros para entrada, registro e regularização de refugiados nos mais diversos países do globo.\n\nEstá(ão) correta(s)",
+      "options": [
+        {
+          "text": "apenas I.",
+          "explanation": "I está certa, mas II e III também decorrem do objetivo do fundo: preparar comunidades suscetíveis e proteger quem é forçado a se deslocar por eventos climáticos."
+        },
+        {
+          "text": "apenas II.",
+          "explanation": "II está certa, mas I e III também: o fundo busca reduzir a vulnerabilidade aos riscos climáticos e proteger pessoas deslocadas à força."
+        },
+        {
+          "text": "apenas III e IV.",
+          "explanation": "III está certa, mas IV não: o texto fala em proteger pessoas ameaçadas pelas mudanças climáticas, não em resolver conflitos aduaneiros ou regularizar a entrada de refugiados."
+        },
+        {
+          "text": "apenas I, II e III.",
+          "explanation": "Correta. O fundo foi criado para proteger refugiados e comunidades deslocadas mais ameaçados pelas mudanças climáticas: isso envolve reduzir a vulnerabilidade (I), fortalecer a capacidade de preparação e recuperação das comunidades (II) e agir diante dos deslocamentos causados por eventos extremos (III). Questões aduaneiras (IV) não são sua finalidade."
+        },
+        {
+          "text": "I, II, III e IV.",
+          "explanation": "IV não é motivação do fundo: trata de trâmites de fronteira e regularização migratória, tema alheio à resiliência climática descrita no texto."
+        }
+      ],
+      "correct": "D"
+    },
+    {
+      "key": "ufsm-2025-p2-q29",
+      "source": "Vestibular UFSM 2025 – Prova 2, questão 29 (UFSM)",
+      "kind": "Objective",
+      "subject": "filosofia-sociologia",
+      "statement": "As mudanças climáticas constituem um dos desafios mais urgentes e complexos da atualidade, não apenas pela sua magnitude ambiental, mas pelas suas repercussões políticas, econômicas e ambientais. O aumento da temperatura global, o derretimento das calotas polares e a intensificação de eventos climáticos extremos revelam um cenário preocupante que requer respostas e ações coordenadas em diversos níveis. No entanto, a implementação de políticas e ações de sustentabilidade para enfrentar a crise climática possui obstáculos significativos, especialmente em países em desenvolvimento onde os setores econômicos mais vulneráveis, como a agricultura e a produção industrial, dependem fortemente de práticas que contribuem significativamente para a emissão de gases de efeito estufa. Dessa forma, a busca por soluções efetivas exige um equilíbrio delicado entre o desenvolvimento econômico e a necessidade urgente de mitigação das mudanças climáticas.\n\nAs mudanças climáticas afetam as diferentes regiões do planeta de maneiras diversas, o que provoca uma desigualdade na distribuição dos impactos e coloca em questão a justiça ambiental. Regiões mais pobres e menos responsáveis pelas emissões globais tendem a sofrer de maneira mais aguda, enquanto países ricos, historicamente mais responsáveis pelas emissões, possuem maiores e melhores condições de mitigação e adaptação. Assim, a resposta à crise climática requer não apenas avanços e inovações tecnológicas, mas também importantes transformações políticas e socioculturais que considerem a dinâmica de poder e as desigualdades globais.\n\nAo mesmo tempo, a crise climática traz à tona questões filosóficas profundas como a responsabilidade moral intergeracional. Gerações presentes são desafiadas a agir em nome das gerações futuras, mesmo que isso represente às gerações presentes certos sacrifícios nos âmbitos econômico e prático. Nesse sentido, a ética ambiental questiona o direito das sociedades atuais de darem prioridade ao crescimento econômico imediato em detrimento da sustentabilidade e preservação ambiental a longo prazo, argumentando que as ações de hoje têm implicações diretas sobre as condições de vida das gerações futuras.\n\nO texto nos convida a refletir sobre aspectos filosóficos importantes, como, por exemplo, questões de cunho moral. A partir das informações apresentadas no texto, assinale V (verdadeiro) ou F (falso) em cada afirmativa a seguir.\n\n( ) A adoção de políticas climáticas duras, como a redução imediata na emissão de gases que contribuem para o efeito estufa, é dificultada em muitas regiões e países em desenvolvimento devido aos seus impactos econômicos diretos sobre setores fundamentais, como a agricultura, a pecuária e a produção industrial. Isso sugere que ações no âmbito climático devem ser adaptadas às diferentes situações econômicas e sociais.\n\n( ) As mudanças climáticas não afetam todas as regiões do planeta de maneira uniforme, o que torna o fenômeno um problema de ordem técnico-científica a ser solucionado pela adoção de novas tecnologias e pelo desenvolvimento da Engenharia Ambiental, em detrimento de abordagens sociais, políticas e culturais.\n\n( ) A resposta global às mudanças climáticas pode ser vista como uma questão de responsabilidade moral intergeracional, na qual as ações das gerações atuais são justificadas pela necessidade de proteger as gerações futuras, mesmo que isso signifique importantes restrições econômicas e do modo de vida a curto prazo.\n\nA sequência correta é",
+      "options": [
+        {
+          "text": "V – V – F.",
+          "explanation": "A segunda afirmativa é falsa: o texto diz que a resposta à crise exige também transformações políticas e socioculturais; e a terceira é verdadeira."
+        },
+        {
+          "text": "V – F – V.",
+          "explanation": "Correta. O primeiro parágrafo aponta os obstáculos econômicos nos países em desenvolvimento (V); o segundo afirma que a resposta requer “não apenas” tecnologia, “mas também” transformações políticas e socioculturais, o que desmente a segunda afirmativa (F); o terceiro trata da responsabilidade moral intergeracional, mesmo com sacrifícios presentes (V)."
+        },
+        {
+          "text": "F – V – F.",
+          "explanation": "A primeira é verdadeira (o texto cita a dependência econômica de práticas emissoras nos países em desenvolvimento) e a segunda é falsa, pois o texto não reduz o problema à técnica."
+        },
+        {
+          "text": "F – F – V.",
+          "explanation": "A primeira afirmativa é verdadeira: o texto reconhece que setores como agricultura e indústria dificultam políticas climáticas nos países em desenvolvimento e pede equilíbrio entre desenvolvimento e mitigação."
+        },
+        {
+          "text": "F – V – V.",
+          "explanation": "A primeira é verdadeira e a segunda é falsa: o impacto desigual das mudanças climáticas é apresentado como questão de justiça ambiental, que pede respostas políticas e socioculturais, e não só tecnológicas."
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "key": "ufsm-2025-p2-q30",
+      "source": "Vestibular UFSM 2025 – Prova 2, questão 30 (UFSM)",
+      "kind": "Objective",
+      "subject": "historia",
+      "statement": "No ano 2000, calculava-se que a melhoria da qualidade de vida de toda a população da Terra aos mesmos níveis que a média norte-americana exigiria recursos naturais equivalentes a outros dois planetas com características semelhantes. Considerando os níveis de consumo e de desperdício nos modos de vida da maior parte da população mundial, a diminuição da desigualdade social provocaria um choque ambiental capaz de liquidar a vida humana. O desenvolvimento sustentável enfrenta o desafio de solucionar o abismo social sem acelerar a degradação ambiental.\n\nFonte: ALVES, A.; OLIVEIRA, L. F. de. Conexões com a História. v. 3. São Paulo: Moderna, 2010. p. 308-309. (Adaptado).\n\nConsiderando as implicações relativas à sustentabilidade, assinale a alternativa correta.",
+      "options": [
+        {
+          "text": "As sociedades tradicionais demonstram relações harmoniosas com o meio ambiente que podem ser observadas no modo de vida dos povos originários americanos, mas estes enfrentam opressões de setores ligados à exploração desenfreada de recursos naturais.",
+          "explanation": "Correta. Sociedades tradicionais, como os povos originários americanos, mantêm modos de vida de baixo impacto ambiental e, ao mesmo tempo, sofrem pressões de setores como o garimpo, a extração de madeira e a expansão agropecuária sobre seus territórios."
+        },
+        {
+          "text": "A hipótese de aquecimento global ou de catástrofe climática alcançou o consenso da população e dos governos, provocando reação imediata e respeito a tratados internacionais capazes de beneficiar o planeta como um todo.",
+          "explanation": "Não há consenso nem reação imediata: governos e setores econômicos resistem a metas de redução de emissões, e acordos internacionais são frequentemente descumpridos."
+        },
+        {
+          "text": "Os partidários do desenvolvimento sustentável afirmam que a urbanização foi um erro e sustentam a retomada de padrões de vida rurais anteriores à Revolução Industrial.",
+          "explanation": "O desenvolvimento sustentável não propõe abandonar as cidades nem voltar ao passado pré-industrial; busca conciliar crescimento econômico, justiça social e preservação ambiental."
+        },
+        {
+          "text": "O alto nível de desperdício de recursos indica que as necessidades básicas da população mundial estão atendidas, um objetivo que justifica a degradação ambiental.",
+          "explanation": "Desperdício elevado convive com fome e pobreza; ele revela desigualdade no consumo, e não o atendimento das necessidades básicas de todos, nem justifica a degradação."
+        },
+        {
+          "text": "Os países com as economias mais desenvolvidas do mundo são mais atuantes na busca por desenvolvimento sustentável, pois adquiriram riqueza suficiente para garantir a igualdade nas condições de vida de suas populações.",
+          "explanation": "Os países mais ricos são os maiores consumidores de recursos e emissores históricos, e também apresentam desigualdades internas; riqueza não garante igualdade nem compromisso ambiental."
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "key": "ufsm-2025-p2-q31",
+      "source": "Vestibular UFSM 2025 – Prova 2, questão 31 (UFSM)",
+      "kind": "Objective",
+      "subject": "geografia",
+      "statement": "Até o final do século XVIII, nem o número de pessoas nem a tecnologia disponível tinham força suficiente para modificar os sistemas da Terra (ar, água, seres vivos). Foi somente nos últimos 200 anos, sobretudo com a Revolução Industrial e o grande aumento populacional, que a atividade humana começou a afetar o meio ambiente de forma significativa, assumindo proporções assustadoras nos últimos 50 anos.\n\nFonte: TERRA, L.; COELHO, M. A. Geografia Geral – o espaço natural e socioeconômico. São Paulo: Moderna, 2005. p. 140.\n\nConsiderando que, a partir da segunda metade do século XX, surgiram movimentos ecologistas que têm buscado trazer ao debate alternativas para a relação entre a sociedade e a natureza, assinale V (verdadeiro) ou F (falso) em cada afirmativa a seguir.\n\n( ) O preservacionismo visa manter praticamente intocáveis os ecossistemas naturais.\n\n( ) A corrente conservacionista propõe o uso mais racional possível dos recursos do planeta.\n\n( ) O desenvolvimento socioambiental, para aliar o crescimento econômico à proteção do meio ambiente, visa à adoção, em escala global, de um novo padrão de crescimento e desenvolvimento.\n\nA sequência correta é",
+      "options": [
+        {
+          "text": "V – V – F.",
+          "explanation": "A terceira afirmativa também é verdadeira: conciliar crescimento econômico e proteção ambiental exige um novo padrão de desenvolvimento em escala global."
+        },
+        {
+          "text": "V – F – V.",
+          "explanation": "A segunda afirmativa é verdadeira: o conservacionismo admite o uso dos recursos naturais, desde que de modo racional e planejado."
+        },
+        {
+          "text": "F – V – F.",
+          "explanation": "A primeira é verdadeira (o preservacionismo defende a natureza praticamente intocada) e a terceira também."
+        },
+        {
+          "text": "V – V – V.",
+          "explanation": "Correta. O preservacionismo defende manter os ecossistemas praticamente intocados (V); o conservacionismo aceita o uso dos recursos, desde que racional (V); e conciliar crescimento econômico com proteção ambiental pressupõe um novo padrão de desenvolvimento em escala global (V)."
+        },
+        {
+          "text": "F – F – V.",
+          "explanation": "As duas primeiras afirmativas são verdadeiras: elas descrevem corretamente a diferença entre preservar (não tocar) e conservar (usar racionalmente)."
+        }
+      ],
+      "correct": "D"
+    },
+    {
+      "key": "ufsm-2025-p2-q32",
+      "source": "Vestibular UFSM 2025 – Prova 2, questão 32 (UFSM)",
+      "kind": "Objective",
+      "subject": "artes-educacao-fisica",
+      "statement": "A Arte Contemporânea atenta para um papel de diálogo por meio de contextualizações culturais, sociais e históricas em um processo revisional das narrativas que elegem e definem a obra de arte. Interpreta-se que esse processo seleciona e legitima algumas obras de arte como patrimônio cultural. Por essas razões e observando os desafios da crise climática e a necessidade de conscientização ecológica, torna-se estratégico o papel da Arte Contemporânea nos espaços expositivos, de modo a potencializar a criatividade e ampliar o olhar crítico da população em geral, de maneira ética, estética e política.\n\nAs imagens a seguir exemplificam ações críticas em relação a obras de arte.\n\n![Recorte de jornal em espanhol com a manchete 'EL «GUERNICA», DE PICASSO, OBJETO DE UN ABSURDO ATENTADO' e o subtítulo 'Un «artista» pintarrajeó el cuadro con tinta roja*'. Abaixo, fotografia em preto e branco do quadro Guernica com rabiscos de tinta sobre a pintura e dois homens agachados diante dela.](img/ufsm/2025/prova-2/q32-1.png)\n\n* Tradução: “Guernica”, de Picasso, objeto de um ataque absurdo. Um “artista” pichou o quadro com tinta vermelha.\n\nFonte: PRYOR, R. Slash and burn: does artistic sabotage always pay off? The Art Newspaper. Publicado em: 08 jun. 2021. Disponível em: <https://www.theartnewspaper.com/2021/06/08/slash-and-burn-does-artistic-sabotage-always-pay-off>. Acesso em: 30 out. 2024.\n\n![Duas imagens lado a lado. À esquerda, fotografia de duas ativistas ajoelhadas no chão de um museu, com camisetas onde se lê 'JUST STOP OIL', diante de um quadro emoldurado de girassóis manchado; uma delas segura uma lata. À direita, a pintura Girassóis, de Van Gogh: um vaso com um buquê de girassóis.](img/ufsm/2025/prova-2/q32-2.png)\n\nFonte: DAS ARTES. Ativistas que jogaram sopa em quadro de Van Gogh terão que pagar multa e devem ser presas. Publicado em: 06 ago. 2024. Disponível em: <https://dasartes.com.br/de-arte-a-z/ativistas-que-jogaram-sopa-em-quadro-de-van-gogh-terao-que-pagar-multa-e-devem-ser-presas/>. Acesso em: 30 out. 2024.\n\nA partir das informações e das imagens, assinale a alternativa correta.",
+      "options": [
+        {
+          "text": "O artista modernista Pablo Picasso teve a pintura Guernica pichada por ativistas climáticos nos anos 1970. A ação dos ativistas foi contra o mercado da arte e a situação das queimadas espanholas na guerra do Vietnã.",
+          "explanation": "A manchete atribui a pichação a um “artista”, não a ativistas climáticos, e a justificativa apresentada (mercado da arte e “queimadas espanholas na guerra do Vietnã”) não tem sentido histórico."
+        },
+        {
+          "text": "A obra Guernica retrata uma face do mercado de arte corrompido. É uma performance que ecoa o grito de guerra do artista diante dos movimentos humanitários e das lutas mundiais, buscando democracia nos espaços expositivos.",
+          "explanation": "Guernica é uma pintura, não uma performance, e retrata o bombardeio da cidade basca de Guernica, em 1937, durante a Guerra Civil Espanhola; não trata do mercado de arte."
+        },
+        {
+          "text": "As imagens são obras de Arte Contemporânea. São trabalhos de ativismo ambiental contra a crise climática, a guerra na Espanha e a exploração de óleo de oliva e de sopa de tomate.",
+          "explanation": "As imagens são registros jornalísticos de ataques a obras, não obras de Arte Contemporânea; e os alvos dos protestos não são o azeite nem a sopa, usada apenas como material lançado no quadro."
+        },
+        {
+          "text": "O quadro Girassóis, de Van Gogh, foi recentemente atingido pela ação de ativistas ambientais que realizavam um protesto. O ato de jogar tintas e alimentos em obras de arte é resultado da evolução das vanguardas e da preservação do patrimônio cultural.",
+          "explanation": "É verdade que Girassóis foi atingido por ativistas ambientais, mas lançar tinta ou alimentos em obras não é fruto da evolução das vanguardas e, menos ainda, da preservação do patrimônio cultural, que esses atos colocam em risco."
+        },
+        {
+          "text": "As ações de ativistas ambientais nos quadros de Picasso e Van Gogh são performances. Apesar de ambas as manifestações possuírem forte viés crítico e de impacto, não são ações que devem ser consideradas obras de Arte Contemporânea.",
+          "explanation": "Correta. É a alternativa indicada pelo gabarito: as intervenções sobre os quadros são ações de protesto, de caráter performático e de forte impacto crítico, mas que agridem obras alheias e o patrimônio cultural, por isso não são legitimadas como obras de Arte Contemporânea. Observe que a manchete atribui a pichação de Guernica a um “artista”; ainda assim, as demais alternativas trazem erros evidentes."
+        }
+      ],
+      "correct": "E"
+    },
+    {
+      "key": "ufsm-2025-p2-q33",
+      "source": "Vestibular UFSM 2025 – Prova 2, questão 33 (UFSM)",
+      "kind": "Objective",
+      "subject": "literatura",
+      "statement": "A sustentabilidade envolve, entre diferentes ações, a preservação da natureza. Durante o Romantismo, a valorização da fauna e da flora brasileira, aliada ao projeto de criação de uma identidade nacional, tornou-se um tema importante tanto na poesia quanto na prosa desse período literário. A partir do contexto histórico e das características do Romantismo, assinale a alternativa que contempla os ideais românticos da primeira geração.",
+      "options": [
+        {
+          "text": "```\nPálida, à luz da lâmpada sombria,\nSobre o leito de flores reclinada,\nComo a lua por noite embalsamada,\nEntre as nuvens do amor ela dormia!\n```",
+          "explanation": "Versos de Álvares de Azevedo, da segunda geração (ultrarromântica): a mulher idealizada, pálida e adormecida, num ambiente noturno, sem exaltação da pátria ou da natureza brasileira."
+        },
+        {
+          "text": "```\nEra um sonho dantesco... o tombadilho\nQue das luzernas avermelha o brilho.\nEm sangue a se banhar.\nTinir de ferros... estalar de açoite...\nLegiões de homens negros como a noite,\nHorrendos a dançar...\n```",
+          "explanation": "Trecho de “O navio negreiro”, de Castro Alves, da terceira geração (condoreira), voltada à denúncia social e à crítica da escravidão."
+        },
+        {
+          "text": "```\nNosso céu tem mais estrelas,\nNossas várzeas têm mais flores,\nNossos bosques têm mais vida,\nNossa vida mais amores.\n```",
+          "explanation": "Correta. Versos da “Canção do exílio”, de Gonçalves Dias: a exaltação do céu, das várzeas e dos bosques da pátria expressa o nacionalismo e a valorização da natureza brasileira, marcas da primeira geração romântica."
+        },
+        {
+          "text": "```\nQuando eu te fujo e me desvio cauto\nDa luz de fogo que te cerca, oh! bela,\nContigo dizes, suspirando amores:\n“– Meu Deus! que gelo, que frieza aquela!”\n```",
+          "explanation": "Versos de “Amor e medo”, de Casimiro de Abreu, da segunda geração: tratam do amor idealizado e do receio da realização amorosa, não da natureza nem da identidade nacional."
+        },
+        {
+          "text": "```\nEras na vida a pomba predileta\nQue sobre um mar de angústias conduzia\nO ramo da esperança. – Eras a estrela\nQue entre as névoas do inverno cintilava\nApontando o caminho ao pegureiro.\n```",
+          "explanation": "Versos do “Cântico do Calvário”, de Fagundes Varela, elegia pela morte do filho: o tom é de dor e subjetivismo, típico da segunda geração, sem o projeto nacionalista."
+        }
+      ],
+      "correct": "C"
+    },
+    {
+      "key": "ufsm-2025-p2-q34",
+      "source": "Vestibular UFSM 2025 – Prova 2, questão 34 (UFSM)",
+      "kind": "Objective",
+      "subject": "artes-educacao-fisica",
+      "statement": "O contato com a natureza melhora todos os marcos importantes de uma infância saudável – imunidade, memória, sono, capacidade de aprendizado, sociabilidade, capacidade física – e contribui, significativamente, para o bem-estar integral das crianças e dos jovens. As evidências apontam que os benefícios são mútuos, pois, assim como as crianças e os adolescentes precisam da natureza, a natureza precisa das crianças e dos jovens.\n\nFonte: SOCIEDADE BRASILEIRA DE PEDIATRIA. Programa Criança e Natureza. 2019. Disponível em: <https://criancaenatureza.org.br/pt/para-que-existimos/os-beneficios-de-brincar-ao-ar-livre/>. Acesso em: 05 nov. 2024. (Adaptado).\n\nTendo em vista a prática de atividades físicas ao ar livre, assinale V (verdadeiro) ou F (falso) em cada afirmativa a seguir.\n\n( ) A prática de atividade física ao ar livre causa deficit ecológico.\n\n( ) O processo de habitar o espaço em ambientes abertos e arborizados promove a consciência ambiental.\n\n( ) A prática de exercícios físicos ao ar livre, como trilha, caminhada, arvorismo, contribui para a melhoria da aptidão física e redução dos riscos de doenças crônicas.\n\nA sequência correta é",
+      "options": [
+        {
+          "text": "F – V – V.",
+          "explanation": "Correta. Praticar atividade física ao ar livre não causa déficit ecológico; ao contrário, aproxima as pessoas da natureza (F). Conviver com ambientes abertos e arborizados favorece a consciência ambiental (V), e exercícios como trilha, caminhada e arvorismo melhoram a aptidão física e reduzem o risco de doenças crônicas (V)."
+        },
+        {
+          "text": "V – F – V.",
+          "explanation": "A primeira afirmativa é falsa, pois a atividade ao ar livre não gera déficit ecológico, e a segunda é verdadeira, já que o contato com a natureza estimula o cuidado com ela."
+        },
+        {
+          "text": "F – V – F.",
+          "explanation": "A terceira afirmativa é verdadeira: a prática regular de exercícios melhora a aptidão física e ajuda a prevenir doenças crônicas, como hipertensão e diabetes."
+        },
+        {
+          "text": "F – F – V.",
+          "explanation": "A segunda afirmativa é verdadeira: o texto indica benefícios mútuos, e habitar espaços abertos e arborizados desperta a consciência ambiental."
+        },
+        {
+          "text": "V – V – F.",
+          "explanation": "A primeira é falsa (não há déficit ecológico causado pela atividade ao ar livre) e a terceira é verdadeira (exercícios melhoram a aptidão física e reduzem riscos de doenças crônicas)."
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "key": "ufsm-2025-p2-q35",
+      "source": "Vestibular UFSM 2025 – Prova 2, questão 35 (UFSM)",
+      "kind": "Objective",
+      "subject": "biologia",
+      "statement": "Medidas sustentáveis no cotidiano, como o uso de energias renováveis, reduzem a poluição do ar, que pode trazer inúmeros prejuízos à saúde humana, principalmente problemas respiratórios. Dentre as doenças respiratórias mais comuns, pode-se destacar sinusite, asma, bronquite, enfisema e câncer de pulmão.\n\nSobre o sistema respiratório humano, assinale V (verdadeiro) ou F (falso) em cada afirmativa a seguir.\n\n( ) É composto por cavidades nasais, boca, faringe, laringe, traqueia, brônquios, bronquíolos e alvéolos; os três últimos constituem os pulmões.\n\n( ) Os pulmões humanos são revestidos por uma membrana chamada diafragma.\n\n( ) A traqueia, os brônquios e os bronquíolos são revestidos pela pleura.\n\nA sequência correta é",
+      "options": [
+        {
+          "text": "V – F – V.",
+          "explanation": "A terceira afirmativa é falsa: a pleura é a membrana que reveste os pulmões, não a traqueia, os brônquios e os bronquíolos."
+        },
+        {
+          "text": "V – V – F.",
+          "explanation": "A segunda afirmativa é falsa: o diafragma é um músculo situado abaixo dos pulmões, responsável pelos movimentos respiratórios; a membrana que reveste os pulmões é a pleura."
+        },
+        {
+          "text": "V – F – F.",
+          "explanation": "Correta. A primeira descreve corretamente as vias respiratórias e a constituição dos pulmões (V). O diafragma é um músculo, e não uma membrana de revestimento (F). A pleura reveste os pulmões, enquanto traqueia, brônquios e bronquíolos são revestidos internamente por mucosa (F)."
+        },
+        {
+          "text": "F – V – V.",
+          "explanation": "A primeira afirmativa é verdadeira e as outras duas são falsas: as afirmativas trocam os papéis do diafragma (músculo) e da pleura (membrana dos pulmões)."
+        },
+        {
+          "text": "F – F – V.",
+          "explanation": "A primeira é verdadeira e a terceira é falsa: a pleura envolve os pulmões; as vias aéreas são revestidas internamente por mucosa com cílios e muco."
+        }
+      ],
+      "correct": "C"
+    },
+    {
+      "key": "ufsm-2025-p2-q36",
+      "source": "Vestibular UFSM 2025 – Prova 2, questão 36 (UFSM)",
+      "kind": "Objective",
+      "subject": "literatura",
+      "statement": "As ideias por um mundo mais sustentável objetivam o bem-estar da população e podem ser motivadas por diversas razões. No romance Memórias Póstumas de Brás Cubas, de Machado de Assis, o narrador trata sobre a ideia de elaborar um emplasto, ou seja, uma forma de medicação, conforme o trecho a seguir.\n\nEssa ideia era nada menos que a invenção de um medicamento sublime, um emplasto anti-hipocondríaco, destinado a aliviar a nossa melancólica humanidade. Na petição de privilégio que então redigi, chamei a atenção do governo para esse resultado, verdadeiramente cristão. Todavia, não neguei aos amigos as vantagens pecuniárias que deviam resultar da distribuição de um produto de tamanhos e tão profundos efeitos. Agora, porém, que estou cá do outro lado da vida, posso confessar tudo: o que me influiu principalmente foi o gosto de ver impressas nos jornais, mostradores, folhetos, esquinas, e enfim nas caixinhas do remédio, estas três palavras: Emplasto Brás Cubas. Para que negá-lo? Eu tinha a paixão do arruído, do cartaz, do foguete de lágrimas. Talvez os modestos me arguam esse defeito; fio, porém, que esse talento me hão de reconhecer os hábeis. Assim, a minha ideia trazia duas faces, como as medalhas, uma virada para o público, outra para mim. De um lado, filantropia e lucro; de outro lado, sede de nomeada. Digamos: – amor da glória.\n\nFonte: MACHADO DE ASSIS, J. M. Memórias Póstumas de Brás Cubas. São Paulo: Abril, 2010. p. 24.\n\nDe acordo com o excerto, a criação do emplasto por Brás Cubas foi motivada pela",
+      "options": [
+        {
+          "text": "tentativa de salvá-lo de uma doença praticamente incurável que o levou à morte pouco tempo depois.",
+          "explanation": "O excerto não fala em doença do narrador nem em tentativa de cura própria; o emplasto se destinaria a “aliviar a nossa melancólica humanidade”."
+        },
+        {
+          "text": "vaidade de ter o seu nome gravado e difundido publicamente.",
+          "explanation": "Correta. O narrador confessa que o que mais o moveu foi “o gosto de ver impressas” nos jornais e nas caixinhas as palavras “Emplasto Brás Cubas”: a “sede de nomeada”, o “amor da glória”, isto é, a vaidade."
+        },
+        {
+          "text": "filantropia, pois, ao redigir a petição, pretendia a distribuição do medicamento.",
+          "explanation": "A filantropia é a face “virada para o público”, alegada na petição; o narrador admite que o motivo principal era outro, a vontade de ver o próprio nome divulgado."
+        },
+        {
+          "text": "dificuldade em aceitar sozinho a glória, já que a ideia original era de outra pessoa.",
+          "explanation": "Nada no trecho indica que a ideia fosse de outra pessoa; Brás Cubas a apresenta como sua e deseja a glória para si."
+        },
+        {
+          "text": "necessidade de deixar algum legado aos seus descendentes.",
+          "explanation": "O texto não menciona descendentes nem legado; a motivação declarada é a fama pessoal."
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "key": "ufsm-2025-p2-q37",
+      "source": "Vestibular UFSM 2025 – Prova 2, questão 37 (UFSM)",
+      "kind": "Objective",
+      "subject": "artes-educacao-fisica",
+      "statement": "O Musical (ou Teatro Musical) é uma forma de espetáculo que combina música, canções, dança e diálogos falados. Todos estão envoltos por cenário, iluminação e indumentárias específicos. É necessária a criação por poeta(s)-escritor(es) de um texto, o qual deve ser musicado por um compositor com suas estruturas melódicas, harmônicas e tímbricas. Muitas vezes, os musicais são inspirados em produções literárias ou cinematográficas anteriores.\n\nÉ o caso de Shrek: o Musical (2008), que foi adaptado do filme Shrek, produzido em 2001, que, por sua vez, baseou-se no livro Shrek!, de William Steig (1907-2003), publicado em 1990. A obra pode ser considerada um recurso pedagógico potente para a compreensão de temas como sustentabilidade, respeito à diversidade e ética.\n\nEm Shrek: o Musical, a partitura, depois de composta, é distribuída para os intérpretes vocais e para a orquestra que acompanhará as canções e intervenções dos personagens em cena. Considerando essas observações e assumindo que os intérpretes devem ter um preparo físico notável (com destaque para a saúde física e mental) e um desempenho artístico elevado, esperam-se deles qualidades excepcionais para atingir uma atuação de excelência.\n\nA partir das informações do texto, assinale V (verdadeiro) ou F (falso) em cada afirmativa a seguir.\n\n( ) Os intérpretes, além de outros atributos, devem apresentar um bom trabalho de interpretação teatral para um apropriado desempenho artístico.\n\n( ) Uma boa voz declamada, que seja grande, é suficiente para a performance no Teatro Musical.\n\n( ) A habilidade de saber cantar afinado bastaria para uma boa atuação, porque se trata de um Teatro Musical.\n\nA sequência correta é",
+      "options": [
+        {
+          "text": "V – F – V.",
+          "explanation": "A terceira afirmativa é falsa: cantar afinado não basta, pois o Teatro Musical exige também interpretação teatral, dança e preparo físico."
+        },
+        {
+          "text": "F – V – F.",
+          "explanation": "A primeira é verdadeira (a interpretação teatral é indispensável) e a segunda é falsa (só a voz falada não é suficiente num espetáculo que reúne canto, dança e atuação)."
+        },
+        {
+          "text": "F – F – V.",
+          "explanation": "A primeira afirmativa é verdadeira e a terceira é falsa: o musical combina várias linguagens, então nenhuma habilidade isolada basta."
+        },
+        {
+          "text": "V – V – F.",
+          "explanation": "A segunda afirmativa é falsa: uma boa voz declamada é apenas um dos recursos; o intérprete também precisa cantar, dançar e atuar."
+        },
+        {
+          "text": "V – F – F.",
+          "explanation": "Correta. O Teatro Musical combina música, canto, dança e diálogos, de modo que o intérprete precisa de boa interpretação teatral, entre outros atributos (V); por isso, nem uma boa voz declamada (F) nem apenas cantar afinado (F) são suficientes para uma atuação de excelência."
+        }
+      ],
+      "correct": "E"
+    },
+    {
+      "key": "ufsm-2025-p2-q38-es",
+      "source": "Vestibular UFSM 2025 – Prova 2, questão 38, espanhol (UFSM)",
+      "kind": "Objective",
+      "subject": "espanhol",
+      "statement": "Leia o texto a seguir para responder às questões 38 e 39.\n\n**Cinco lecciones desde Latinoamérica para transformar nuestras ciudades**\n\nUrbes en Argentina, México y Brasil son ejemplos de innovación, resiliencia y autorganización. Sus soluciones prácticas contra la emergencia climática promueven modelos de equidad y sostenibilidad.\n\nLas prácticas europeas y estadounidenses, aunque efectivas en muchos aspectos, no siempre están preparadas para enfrentar los desafíos de las ciudades contemporáneas, especialmente en contextos de alta desigualdad, recursos limitados y cambio climático. América Latina ofrece lecciones valiosas debido a su experiencia en adaptarse a condiciones urbanas complejas y su capacidad para innovar con soluciones de base. Su tradición de comunidad y cooperación es clave en un mundo con creciente desconfianza en las instituciones. Un ejemplo exitoso son los laboratorios de innovación urbana del proyecto Coaliciones Urbanas Transformadoras (TUC, por sus siglas en inglés), liderado por la Universidad de las Naciones Unidas [...].\n\nA través de experiencias en distintas localidades de Argentina, México y Brasil, dichos laboratorios urbanos han acumulado al menos cinco lecciones que podrían orientar los esfuerzos de transformación urbana en todo el mundo:\n\n**1. Fomentar espacios seguros y de confianza para la participación ciudadana**\n\nLa participación ciudadana activa es esencial para impulsar la transformación en las ciudades. Es fundamental establecer un espacio neutral para el diálogo y la colaboración entre diversos sectores y partes interesadas. [...] El Laboratorio Urbano de Naucalpan, municipio más industrializado del Estado de México, ha servido como un espacio de encuentro para funcionarios gubernamentales y la sociedad civil, sectores que antes no habían trabajado juntos. Han colaborado en la definición de una visión compartida y un plan de acción para solucionar desafíos locales, codiseñando e implementando proyectos piloto y actividades de sensibilización sobre infraestructura verde, entornos peatonales seguros, manejo de residuos sólidos y transporte público.\n\n**2. Localizar la agenda climática y cocrear soluciones contextualizadas**\n\nEl cambio climático rara vez se percibe como un problema urgente por los habitantes de las zonas urbanas más pobres, pero les afecta enormemente. Es imperativo concienciar y trabajar sobre las interrelaciones entre los impactos del cambio climático, el desarrollo urbano y los problemas de inequidad en estas comunidades. El Laboratorio Urbano de Buenos Aires, en Argentina, ha integrado la acción climática en estructuras y procesos preexistentes en Barrio 20, un asentamiento informal dentro de la ciudad de Buenos Aires en proceso de reurbanización. Esta integración ha permitido aprovechar el respaldo político y la participación comunitaria para avanzar en soluciones basadas en la naturaleza. El caso de Barrio 20 ha demostrado que al localizar la agenda climática y cocrear respuestas adaptadas a las necesidades locales, se pueden superar las barreras mentales y políticas para generar una mayor consciencia y compromiso, tanto gubernamental como comunitario, con la acción climática.\n\n**3. Potenciar las capacidades locales y empoderar nuevos liderazgos**\n\nCapacitar a las comunidades para ser agentes de cambio es esencial para empoderarlas para que lideren iniciativas transformadoras tanto a corto como a largo plazo. Desde el Laboratorio Urbano de Recife, en Brasil, en la Comunidade do Pilar, aprendemos la importancia de promover el liderazgo comunitario y la participación femenina en la transformación a través del desarrollo de capacidades. La cooperativa local Artesãs do Pilar surgió como resultado de la capacitación de más de 20 mujeres en el trabajo con materiales reciclados, fabricando productos artesanales. La iniciativa ha reducido la acumulación de residuos en la calle y se ha convertido en una fuente de ingresos, fomentando un sentido de comunidad, prácticas sostenibles y habilidades diversas en comunicación, organización y gestión financiera.\n\n**4. Aprovechar oportunidades para generar impacto sistémico**\n\nPara que las iniciativas transformadoras perduren, es fundamental asegurar recursos financieros y buscar oportunidades para ampliar su impacto. El Laboratorio Urbano de Teresina, en Brasil, ha abordado desafíos del programa nacional de vivienda social Minha Casa, Minha Vida en el Residencial Edgar Gayoso, tales como la falta de participación de la comunidad, la segregación social y económica, problemas de infraestructura y preocupaciones ambientales. El modelo de gobernanza participativa del laboratorio, ahora también adoptado por el programa nacional Periferia Viva, no solo ha fomentado una comunidad más interconectada y comprometida con la transformación hacia la sostenibilidad en Teresina, sino que también ha contribuido a transformar el diseño de políticas públicas. Este modelo asegura la participación continua e informada de las comunidades en la toma de decisiones urbanas, promoviendo un enfoque más inclusivo y sostenible en el desarrollo urbano.\n\n**5. Compartir ampliamente experiencias y aprendizajes**\n\nCompartir los éxitos y aprendizajes de los laboratorios no solo implica transmitir conocimiento, sino también construir puentes hacia un cambio global. La comunicación transformadora y enfoques más creativos potencian estos esfuerzos. En el Laboratorio Urbano de León, en México, al igual que en los demás laboratorios, compartir aprendizajes se ha convertido en una herramienta vital. Las habilidades de comunicación han permitido documentar las preocupaciones de la comunidad de diversas maneras, incluyendo fotografías e imágenes de drones [...].\n\nEstas cinco lecciones ofrecen una hoja de ruta valiosa para hacer nuestras ciudades más resilientes, inclusivas y sostenibles. Al integrar la acción climática con procesos participativos y capacitar a las comunidades para ser agentes de transformación, las urbes pueden abordar de manera integral y efectiva las crisis ecológica, económica y social.\n\nFonte: GUERRA, F. Cinco lecciones desde Latinoamérica para transformar nuestras ciudades. El País, Madri, Publicado em: 19 jul. 2024. Blog Planeta Futuro. Disponível em: <https://elpais.com/planeta-futuro/seres-urbanos/2024-07-19/cinco-lecciones-desde-latinoamerica-para-transformar-nuestras-ciudades.html>. Acesso em: 19 jul. 2024. (Adaptado).\n\nEm julho de 2024, no blog “Planeta Futuro”, a pesquisadora Flávia Guerra defendeu que iniciativas provenientes da América Latina podem ser modelos que conjugam sustentabilidade e empoderamento de diversos grupos sociais. Ao considerar os argumentos que baseiam essa perspectiva, assinale V (verdadeiro) ou F (falso) em cada afirmativa a seguir.\n\n( ) Os exemplos de propostas desenvolvidas se localizam em determinados grupos urbanos que articulam três concepções-chave: 1) socialização de vivências e conhecimentos internalizados; 2) criação de possibilidades contextualizadas que incentivem o desenvolvimento de competências como liderança e trabalho cooperativo para a coelaboração de soluções e 3) enfoque nas questões climáticas, nas implicações sistêmicas e nas particularidades locais no momento de conceber soluções.\n\n( ) Todas as propostas dos Laboratórios de Inovação Urbana centram-se, explicitamente, em determinado grupo urbano minoritário, como no caso do Laboratório Urbano de Recife.\n\n( ) Os diferentes programas elaborados provam que é possível enfrentar a problemática social, econômica e ecológica por meio do protagonismo dinâmico e participativo dos grupos sociais, quando se deparam com questões climáticas.\n\nA sequência correta é",
+      "options": [
+        {
+          "text": "V – F – F.",
+          "explanation": "A terceira afirmativa é verdadeira: o texto conclui que, com ação climática integrada a processos participativos, as cidades podem enfrentar “las crisis ecológica, económica y social”."
+        },
+        {
+          "text": "F – V – V.",
+          "explanation": "A primeira é verdadeira, pois resume as lições do texto (compartilhar experiências, capacitar lideranças e cocriar soluções contextualizadas), e a segunda é falsa."
+        },
+        {
+          "text": "V – V – F.",
+          "explanation": "A segunda afirmativa é falsa: nem todos os laboratórios se centram num grupo minoritário; o de Naucalpan, por exemplo, reúne funcionários do governo e sociedade civil."
+        },
+        {
+          "text": "F – V – F.",
+          "explanation": "A primeira e a terceira são verdadeiras, e a segunda é falsa: o foco explícito em um grupo, como as mulheres da Comunidade do Pilar, em Recife, não se repete em todos os laboratórios."
+        },
+        {
+          "text": "V – F – V.",
+          "explanation": "Correta. A primeira sintetiza as lições: compartilhar experiências e aprendizados, capacitar comunidades e novas lideranças e cocriar soluções adaptadas ao contexto local e à agenda climática (V). Nem todas as propostas se centram num grupo minoritário (F). O último parágrafo afirma que as cidades podem abordar de forma integral as crises ecológica, econômica e social com comunidades que atuam como agentes de transformação (V)."
+        }
+      ],
+      "correct": "E"
+    },
+    {
+      "key": "ufsm-2025-p2-q39-es",
+      "source": "Vestibular UFSM 2025 – Prova 2, questão 39, espanhol (UFSM)",
+      "kind": "Objective",
+      "subject": "espanhol",
+      "statement": "Leia o texto a seguir para responder às questões 38 e 39.\n\n**Cinco lecciones desde Latinoamérica para transformar nuestras ciudades**\n\nUrbes en Argentina, México y Brasil son ejemplos de innovación, resiliencia y autorganización. Sus soluciones prácticas contra la emergencia climática promueven modelos de equidad y sostenibilidad.\n\nLas prácticas europeas y estadounidenses, aunque efectivas en muchos aspectos, no siempre están preparadas para enfrentar los desafíos de las ciudades contemporáneas, especialmente en contextos de alta desigualdad, recursos limitados y cambio climático. América Latina ofrece lecciones valiosas debido a su experiencia en adaptarse a condiciones urbanas complejas y su capacidad para innovar con soluciones de base. Su tradición de comunidad y cooperación es clave en un mundo con creciente desconfianza en las instituciones. Un ejemplo exitoso son los laboratorios de innovación urbana del proyecto Coaliciones Urbanas Transformadoras (TUC, por sus siglas en inglés), liderado por la Universidad de las Naciones Unidas [...].\n\nA través de experiencias en distintas localidades de Argentina, México y Brasil, dichos laboratorios urbanos han acumulado al menos cinco lecciones que podrían orientar los esfuerzos de transformación urbana en todo el mundo:\n\n**1. Fomentar espacios seguros y de confianza para la participación ciudadana**\n\nLa participación ciudadana activa es esencial para impulsar la transformación en las ciudades. Es fundamental establecer un espacio neutral para el diálogo y la colaboración entre diversos sectores y partes interesadas. [...] El Laboratorio Urbano de Naucalpan, municipio más industrializado del Estado de México, ha servido como un espacio de encuentro para funcionarios gubernamentales y la sociedad civil, sectores que antes no habían trabajado juntos. Han colaborado en la definición de una visión compartida y un plan de acción para solucionar desafíos locales, codiseñando e implementando proyectos piloto y actividades de sensibilización sobre infraestructura verde, entornos peatonales seguros, manejo de residuos sólidos y transporte público.\n\n**2. Localizar la agenda climática y cocrear soluciones contextualizadas**\n\nEl cambio climático rara vez se percibe como un problema urgente por los habitantes de las zonas urbanas más pobres, pero les afecta enormemente. Es imperativo concienciar y trabajar sobre las interrelaciones entre los impactos del cambio climático, el desarrollo urbano y los problemas de inequidad en estas comunidades. El Laboratorio Urbano de Buenos Aires, en Argentina, ha integrado la acción climática en estructuras y procesos preexistentes en Barrio 20, un asentamiento informal dentro de la ciudad de Buenos Aires en proceso de reurbanización. Esta integración ha permitido aprovechar el respaldo político y la participación comunitaria para avanzar en soluciones basadas en la naturaleza. El caso de Barrio 20 ha demostrado que al localizar la agenda climática y cocrear respuestas adaptadas a las necesidades locales, se pueden superar las barreras mentales y políticas para generar una mayor consciencia y compromiso, tanto gubernamental como comunitario, con la acción climática.\n\n**3. Potenciar las capacidades locales y empoderar nuevos liderazgos**\n\nCapacitar a las comunidades para ser agentes de cambio es esencial para empoderarlas para que lideren iniciativas transformadoras tanto a corto como a largo plazo. Desde el Laboratorio Urbano de Recife, en Brasil, en la Comunidade do Pilar, aprendemos la importancia de promover el liderazgo comunitario y la participación femenina en la transformación a través del desarrollo de capacidades. La cooperativa local Artesãs do Pilar surgió como resultado de la capacitación de más de 20 mujeres en el trabajo con materiales reciclados, fabricando productos artesanales. La iniciativa ha reducido la acumulación de residuos en la calle y se ha convertido en una fuente de ingresos, fomentando un sentido de comunidad, prácticas sostenibles y habilidades diversas en comunicación, organización y gestión financiera.\n\n**4. Aprovechar oportunidades para generar impacto sistémico**\n\nPara que las iniciativas transformadoras perduren, es fundamental asegurar recursos financieros y buscar oportunidades para ampliar su impacto. El Laboratorio Urbano de Teresina, en Brasil, ha abordado desafíos del programa nacional de vivienda social Minha Casa, Minha Vida en el Residencial Edgar Gayoso, tales como la falta de participación de la comunidad, la segregación social y económica, problemas de infraestructura y preocupaciones ambientales. El modelo de gobernanza participativa del laboratorio, ahora también adoptado por el programa nacional Periferia Viva, no solo ha fomentado una comunidad más interconectada y comprometida con la transformación hacia la sostenibilidad en Teresina, sino que también ha contribuido a transformar el diseño de políticas públicas. Este modelo asegura la participación continua e informada de las comunidades en la toma de decisiones urbanas, promoviendo un enfoque más inclusivo y sostenible en el desarrollo urbano.\n\n**5. Compartir ampliamente experiencias y aprendizajes**\n\nCompartir los éxitos y aprendizajes de los laboratorios no solo implica transmitir conocimiento, sino también construir puentes hacia un cambio global. La comunicación transformadora y enfoques más creativos potencian estos esfuerzos. En el Laboratorio Urbano de León, en México, al igual que en los demás laboratorios, compartir aprendizajes se ha convertido en una herramienta vital. Las habilidades de comunicación han permitido documentar las preocupaciones de la comunidad de diversas maneras, incluyendo fotografías e imágenes de drones [...].\n\nEstas cinco lecciones ofrecen una hoja de ruta valiosa para hacer nuestras ciudades más resilientes, inclusivas y sostenibles. Al integrar la acción climática con procesos participativos y capacitar a las comunidades para ser agentes de transformación, las urbes pueden abordar de manera integral y efectiva las crisis ecológica, económica y social.\n\nFonte: GUERRA, F. Cinco lecciones desde Latinoamérica para transformar nuestras ciudades. El País, Madri, Publicado em: 19 jul. 2024. Blog Planeta Futuro. Disponível em: <https://elpais.com/planeta-futuro/seres-urbanos/2024-07-19/cinco-lecciones-desde-latinoamerica-para-transformar-nuestras-ciudades.html>. Acesso em: 19 jul. 2024. (Adaptado).\n\nA partir da tese defendida no texto, a qual se refere às vivências nos laboratórios urbanos, é coerente afirmar que as noções centrais que unem os laboratórios urbanos como modelos idôneos de enfrentamento de desafios contemporâneos são",
+      "options": [
+        {
+          "text": "adaptação e inovação.",
+          "explanation": "Correta. O texto afirma que a América Latina oferece lições valiosas por sua “experiencia en adaptarse a condiciones urbanas complejas y su capacidad para innovar con soluciones de base”: adaptar-se e inovar são as noções que unem os laboratórios."
+        },
+        {
+          "text": "desafio e resiliência.",
+          "explanation": "Os desafios são o problema a ser enfrentado, não uma noção que une os laboratórios como modelos; a resiliência aparece como resultado desejado para as cidades."
+        },
+        {
+          "text": "sustentabilidade e política.",
+          "explanation": "Sustentabilidade e política são temas tratados, mas o texto justifica o valor dos laboratórios pela capacidade de se adaptar a contextos complexos e de inovar com soluções de base."
+        },
+        {
+          "text": "minorias e inclusão.",
+          "explanation": "Nem todos os laboratórios se voltam a minorias; a inclusão é um dos efeitos buscados, não o eixo que define todos eles."
+        },
+        {
+          "text": "transformação e cidades.",
+          "explanation": "Transformar as cidades é o objetivo geral anunciado no título, não as noções que explicam por que os laboratórios são modelos adequados."
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "key": "ufsm-2025-p2-q40-es",
+      "source": "Vestibular UFSM 2025 – Prova 2, questão 40, espanhol (UFSM)",
+      "kind": "Objective",
+      "subject": "espanhol",
+      "statement": "Leia o texto a seguir para responder às questões 38 e 39.\n\n**Cinco lecciones desde Latinoamérica para transformar nuestras ciudades**\n\nUrbes en Argentina, México y Brasil son ejemplos de innovación, resiliencia y autorganización. Sus soluciones prácticas contra la emergencia climática promueven modelos de equidad y sostenibilidad.\n\nLas prácticas europeas y estadounidenses, aunque efectivas en muchos aspectos, no siempre están preparadas para enfrentar los desafíos de las ciudades contemporáneas, especialmente en contextos de alta desigualdad, recursos limitados y cambio climático. América Latina ofrece lecciones valiosas debido a su experiencia en adaptarse a condiciones urbanas complejas y su capacidad para innovar con soluciones de base. Su tradición de comunidad y cooperación es clave en un mundo con creciente desconfianza en las instituciones. Un ejemplo exitoso son los laboratorios de innovación urbana del proyecto Coaliciones Urbanas Transformadoras (TUC, por sus siglas en inglés), liderado por la Universidad de las Naciones Unidas [...].\n\nA través de experiencias en distintas localidades de Argentina, México y Brasil, dichos laboratorios urbanos han acumulado al menos cinco lecciones que podrían orientar los esfuerzos de transformación urbana en todo el mundo:\n\n**1. Fomentar espacios seguros y de confianza para la participación ciudadana**\n\nLa participación ciudadana activa es esencial para impulsar la transformación en las ciudades. Es fundamental establecer un espacio neutral para el diálogo y la colaboración entre diversos sectores y partes interesadas. [...] El Laboratorio Urbano de Naucalpan, municipio más industrializado del Estado de México, ha servido como un espacio de encuentro para funcionarios gubernamentales y la sociedad civil, sectores que antes no habían trabajado juntos. Han colaborado en la definición de una visión compartida y un plan de acción para solucionar desafíos locales, codiseñando e implementando proyectos piloto y actividades de sensibilización sobre infraestructura verde, entornos peatonales seguros, manejo de residuos sólidos y transporte público.\n\n**2. Localizar la agenda climática y cocrear soluciones contextualizadas**\n\nEl cambio climático rara vez se percibe como un problema urgente por los habitantes de las zonas urbanas más pobres, pero les afecta enormemente. Es imperativo concienciar y trabajar sobre las interrelaciones entre los impactos del cambio climático, el desarrollo urbano y los problemas de inequidad en estas comunidades. El Laboratorio Urbano de Buenos Aires, en Argentina, ha integrado la acción climática en estructuras y procesos preexistentes en Barrio 20, un asentamiento informal dentro de la ciudad de Buenos Aires en proceso de reurbanización. Esta integración ha permitido aprovechar el respaldo político y la participación comunitaria para avanzar en soluciones basadas en la naturaleza. El caso de Barrio 20 ha demostrado que al localizar la agenda climática y cocrear respuestas adaptadas a las necesidades locales, se pueden superar las barreras mentales y políticas para generar una mayor consciencia y compromiso, tanto gubernamental como comunitario, con la acción climática.\n\n**3. Potenciar las capacidades locales y empoderar nuevos liderazgos**\n\nCapacitar a las comunidades para ser agentes de cambio es esencial para empoderarlas para que lideren iniciativas transformadoras tanto a corto como a largo plazo. Desde el Laboratorio Urbano de Recife, en Brasil, en la Comunidade do Pilar, aprendemos la importancia de promover el liderazgo comunitario y la participación femenina en la transformación a través del desarrollo de capacidades. La cooperativa local Artesãs do Pilar surgió como resultado de la capacitación de más de 20 mujeres en el trabajo con materiales reciclados, fabricando productos artesanales. La iniciativa ha reducido la acumulación de residuos en la calle y se ha convertido en una fuente de ingresos, fomentando un sentido de comunidad, prácticas sostenibles y habilidades diversas en comunicación, organización y gestión financiera.\n\n**4. Aprovechar oportunidades para generar impacto sistémico**\n\nPara que las iniciativas transformadoras perduren, es fundamental asegurar recursos financieros y buscar oportunidades para ampliar su impacto. El Laboratorio Urbano de Teresina, en Brasil, ha abordado desafíos del programa nacional de vivienda social Minha Casa, Minha Vida en el Residencial Edgar Gayoso, tales como la falta de participación de la comunidad, la segregación social y económica, problemas de infraestructura y preocupaciones ambientales. El modelo de gobernanza participativa del laboratorio, ahora también adoptado por el programa nacional Periferia Viva, no solo ha fomentado una comunidad más interconectada y comprometida con la transformación hacia la sostenibilidad en Teresina, sino que también ha contribuido a transformar el diseño de políticas públicas. Este modelo asegura la participación continua e informada de las comunidades en la toma de decisiones urbanas, promoviendo un enfoque más inclusivo y sostenible en el desarrollo urbano.\n\n**5. Compartir ampliamente experiencias y aprendizajes**\n\nCompartir los éxitos y aprendizajes de los laboratorios no solo implica transmitir conocimiento, sino también construir puentes hacia un cambio global. La comunicación transformadora y enfoques más creativos potencian estos esfuerzos. En el Laboratorio Urbano de León, en México, al igual que en los demás laboratorios, compartir aprendizajes se ha convertido en una herramienta vital. Las habilidades de comunicación han permitido documentar las preocupaciones de la comunidad de diversas maneras, incluyendo fotografías e imágenes de drones [...].\n\nEstas cinco lecciones ofrecen una hoja de ruta valiosa para hacer nuestras ciudades más resilientes, inclusivas y sostenibles. Al integrar la acción climática con procesos participativos y capacitar a las comunidades para ser agentes de transformación, las urbes pueden abordar de manera integral y efectiva las crisis ecológica, económica y social.\n\nFonte: GUERRA, F. Cinco lecciones desde Latinoamérica para transformar nuestras ciudades. El País, Madri, Publicado em: 19 jul. 2024. Blog Planeta Futuro. Disponível em: <https://elpais.com/planeta-futuro/seres-urbanos/2024-07-19/cinco-lecciones-desde-latinoamerica-para-transformar-nuestras-ciudades.html>. Acesso em: 19 jul. 2024. (Adaptado).\n\n![Ilustração com as frases 'EN LA ERA DEL CONSUMO' (no alto) e 'REPARAR ES UN ACTO DE REBELDÍA.' (embaixo); no centro, uma máquina de costura antiga entre linhas, tesoura, martelo e um sapato.](img/ufsm/2025/prova-2/q40-es-1.png)\n\nFonte: GARCÍA B, Á. Verdad verdadera. Publicado em: 04 jun. 2024. Instagram: @culturainquieta. Disponível em: <https://www.instagram.com/p/C7x9GtcKcQA/>. Acesso em: 14 ago. 2024.\n\nA arte gráfica do ilustrador colombiano Álex García B, publicada numa rede social, poderia vincular-se a algumas propostas do texto Cinco lecciones desde Latinoamérica para transformar nuestras ciudades (GUERRA, 2024) a partir dos princípios dos “3Rs da sustentabilidade” (Reduzir, Reutilizar, Reciclar).\n\nTendo em vista essa relação, a ilustração de Álex García poderia representar as ações do\n\nI → Laboratório Urbano de Naucalpan, uma vez que o ato de restaurar sensibiliza a população para a questão sobre o destino de resíduos sólidos, o que implica “reduzir” o consumo.\n\nII → Laboratório de Recife, posto que o trabalho com produtos artesanais e recicláveis supõe alternativas de restaurar e transformar, o que implica “reutilizar” e “reciclar” objetos e, consequentemente, combater o hiperconsumo.\n\nIII → Laboratório Urbano de León, já que o ato de restauração pressupõe a existência de espaços e vivências de aprendizagem em contextos coletivos, em que a interação e a expressão são aspectos primordiais, inclusive para divulgar as ações de sustentabilidade.\n\nIV → Laboratório Urbano de Buenos Aires, pois a questão da reciclagem é o problema central no Bairro 20, o que é um exemplo de como as propostas comunitárias devem se basear em soluções condizentes com as necessidades locais em prol da natureza.\n\nEstão corretas",
+      "options": [
+        {
+          "text": "apenas I e II.",
+          "explanation": "II está certa, mas I não: o laboratório de Naucalpan é descrito como espaço de encontro entre governo e sociedade civil para definir uma visão comum e projetos piloto; o texto não o associa ao ato de restaurar nem à redução do consumo."
+        },
+        {
+          "text": "apenas I e III.",
+          "explanation": "III está certa, mas I não: em Naucalpan, a sensibilização sobre resíduos é apenas um dos temas dos projetos, sem relação com consertar objetos."
+        },
+        {
+          "text": "apenas II e III.",
+          "explanation": "Correta. Em Recife, a cooperativa Artesãs do Pilar fabrica artesanato com materiais reciclados, o que significa reutilizar e reciclar (II). Em León, compartilhar aprendizados e comunicar as preocupações da comunidade é “ferramenta vital”, o que combina com aprendizagem coletiva e divulgação (III). Naucalpan (I) e Buenos Aires (IV) têm outros focos."
+        },
+        {
+          "text": "apenas II e IV.",
+          "explanation": "II está certa, mas IV não: no Barrio 20, o centro da ação é integrar a agenda climática ao processo de reurbanização, com soluções baseadas na natureza; a reciclagem não é apontada como problema central."
+        },
+        {
+          "text": "apenas I, III e IV.",
+          "explanation": "III está certa, mas I e IV não: o texto não liga Naucalpan ao ato de restaurar nem aponta a reciclagem como problema central do Barrio 20."
+        }
+      ],
+      "correct": "C"
+    },
+    {
+      "key": "ufsm-2025-p2-q38-en",
+      "source": "Vestibular UFSM 2025 – Prova 2, questão 38, inglês (UFSM)",
+      "kind": "Objective",
+      "subject": "ingles",
+      "statement": "Leia o texto a seguir para responder às questões 38, 39 e 40.\n\n**Made in Latin America – innovations for sustainable living that could change the world**\n\n```\n01 A treasure inside avocados\n   Scott Munguía produces bioplastics from avocado seeds. This young Mexican chemical engineer discove-\n   red in 2011 that the avocado seed contains a biopolymer similar to the one present in corn, which is used\n   to produce bioplastic. In 2014, he founded Biofase, a company based in Monterrey that commercializes\n05 bioplastic products, made of 60 per cent avocado biopolymer and 40 per cent synthetic organic compounds.\n   The straws and cutlery made from avocado seeds degrade in only 240 days, and there is no need\n   for incineration.\n   Biofase’s products have a great manufacturing potential. According to Munguía, 300 000 tonnes of avo-\n   cado seeds are discarded annually in Mexico, an estimated 20 per cent of the global demand for bioplastics.\n10 Unlike other types of bioplastics, this alternative does not use crops suitable for human consumption –\n   such as corn or cassava.\n   “Bioplastics must be sustainable. How can you make bioplastic from food? There are so many people\n   starving and there is so much trouble around the cost of corn […], we should not take food away from\n   people,” Munguía said.\n15 Water-soluble bags\n   One million plastic bags are consumed every minute worldwide. Most of them end up in landfills or in the\n   oceans. The one-piece polyethylene shopping bag, created in the 1960s, takes up to 500 years to degrade.\n   So when Roberto Astete and Cristian Olivares, founders of Chilean start-up Solubag, presented a plastic\n   bag which dissolves in water in just a few minutes, they raised many eyebrows.\n20 “The bag completely dissolves in water, with no harm. You can even drink the water, as it has no\n   chemicals,” said Cristian Olivares, the company’s commercial manager.\n   The secret? According to Olivares, Solubags uses limestone instead of oil by-products. That is why they\n   have zero environmental impact compared to other alternatives like oxo-biodegradable bags, which are still\n   made of polyethylene and break into small pieces of toxic plastic.\n25 Their innovation is expected to be widely accepted in Chile, where a ban on plastic bags in large businesses\n   came into force in February 2019.\n   A home for a sustainable lifestyle\n   Our energy consumption depends directly on the conditions of ventilation, temperature and light in our homes.\n   In the coming years, the construction sector must embrace these variables in order to increase energy\n30 efficiency and accelerate climate action. Currently, the buildings sector accounts for a significant 39 per cent\n   of total energy-related CO₂ emissions, according to The 2018 Global Status Report.\n   With this challenge in mind, a group of students, graduates and professors from the ORT University\n   Uruguay created La Casa Uruguaya (The Uruguayan House), a sustainable and intelligent housing project\n   inspired from bioclimatic architecture and equipped with technology that can reduce energy consumption\n35 while offering a sustainable and accessible lifestyle.\n   The living unit consists of a house inside a box, according to the ORT University Uruguay. The insulation\n   prevents heat and cold from entering. It has two ceilings – one on top of the other – and, between the two,\n   moving parts that can be remotely opened or closed in order to regulate indoor temperature. Windows are\n   strategically located to improve lighting.\n40 The house is self-supplied with solar energy, notifies inhabitants of energy misuses, has a water reuse\n   system, and sensors that help to regulate temperature, humidity or lighting. The unit can be installed in only\n   15 days and costs between US$ 50 000 and US$ 90 000.\n```\n\nFonte: UNITED NATIONS ENVIRONMENT. Made in Latin America – four innovations for sustainable living that could change the world. Publicado em: 09 mar. 2019. Disponível em: <https://www.unep.org/news-and-stories/story/made-latin-america-four-innovations-sustainable-living-could-change-world>. Acesso em: 06 ago. 2024. (Adaptado).\n\nConsidere os seguintes segmentos do texto:\n\nI → “The straws and cutlery made from avocado seeds degrade in only 240 days” (ℓ. 06).\n\nII → “One million plastic bags are consumed every minute worldwide” (ℓ. 16).\n\nIII → “The one-piece polyethylene shopping bag, created in the 1960s, takes up to 500 years to degrade” (ℓ. 17).\n\nIV → “(...) the buildings sector accounts for a significant 39 per cent of total energy-related CO₂ emissions” (ℓ. 30-31).\n\nA(s) afirmativa(s) que traz(em) dado(s) numérico(s) sobre problema(s) a ser(em) enfrentado(s) para um mundo mais sustentável é(são)",
+      "options": [
+        {
+          "text": "apenas II.",
+          "explanation": "II traz um problema (um milhão de sacolas plásticas consumidas por minuto), mas III e IV também: 500 anos para a sacola se degradar e 39% das emissões de CO₂ ligadas à energia."
+        },
+        {
+          "text": "apenas I e III.",
+          "explanation": "III aponta um problema, mas I não: os 240 dias em que canudos e talheres de semente de abacate se degradam são um dado da solução, não do problema."
+        },
+        {
+          "text": "apenas I e IV.",
+          "explanation": "IV aponta um problema, mas I descreve uma vantagem do bioplástico de abacate (degradar-se em “only 240 days”), ou seja, um dado da solução."
+        },
+        {
+          "text": "apenas II, III e IV.",
+          "explanation": "Correta. II (um milhão de sacolas por minuto), III (até 500 anos para se degradar) e IV (39% das emissões de CO₂ relacionadas à energia vêm das edificações) quantificam problemas ambientais. I traz um número sobre a solução: os produtos de semente de abacate se degradam em apenas 240 dias."
+        },
+        {
+          "text": "I, II, III e IV.",
+          "explanation": "I não trata de um problema: “degrade in only 240 days” destaca uma qualidade do produto sustentável, em contraste com os dados negativos de II, III e IV."
+        }
+      ],
+      "correct": "D"
+    },
+    {
+      "key": "ufsm-2025-p2-q39-en",
+      "source": "Vestibular UFSM 2025 – Prova 2, questão 39, inglês (UFSM)",
+      "kind": "Objective",
+      "subject": "ingles",
+      "statement": "Leia o texto a seguir para responder às questões 38, 39 e 40.\n\n**Made in Latin America – innovations for sustainable living that could change the world**\n\n```\n01 A treasure inside avocados\n   Scott Munguía produces bioplastics from avocado seeds. This young Mexican chemical engineer discove-\n   red in 2011 that the avocado seed contains a biopolymer similar to the one present in corn, which is used\n   to produce bioplastic. In 2014, he founded Biofase, a company based in Monterrey that commercializes\n05 bioplastic products, made of 60 per cent avocado biopolymer and 40 per cent synthetic organic compounds.\n   The straws and cutlery made from avocado seeds degrade in only 240 days, and there is no need\n   for incineration.\n   Biofase’s products have a great manufacturing potential. According to Munguía, 300 000 tonnes of avo-\n   cado seeds are discarded annually in Mexico, an estimated 20 per cent of the global demand for bioplastics.\n10 Unlike other types of bioplastics, this alternative does not use crops suitable for human consumption –\n   such as corn or cassava.\n   “Bioplastics must be sustainable. How can you make bioplastic from food? There are so many people\n   starving and there is so much trouble around the cost of corn […], we should not take food away from\n   people,” Munguía said.\n15 Water-soluble bags\n   One million plastic bags are consumed every minute worldwide. Most of them end up in landfills or in the\n   oceans. The one-piece polyethylene shopping bag, created in the 1960s, takes up to 500 years to degrade.\n   So when Roberto Astete and Cristian Olivares, founders of Chilean start-up Solubag, presented a plastic\n   bag which dissolves in water in just a few minutes, they raised many eyebrows.\n20 “The bag completely dissolves in water, with no harm. You can even drink the water, as it has no\n   chemicals,” said Cristian Olivares, the company’s commercial manager.\n   The secret? According to Olivares, Solubags uses limestone instead of oil by-products. That is why they\n   have zero environmental impact compared to other alternatives like oxo-biodegradable bags, which are still\n   made of polyethylene and break into small pieces of toxic plastic.\n25 Their innovation is expected to be widely accepted in Chile, where a ban on plastic bags in large businesses\n   came into force in February 2019.\n   A home for a sustainable lifestyle\n   Our energy consumption depends directly on the conditions of ventilation, temperature and light in our homes.\n   In the coming years, the construction sector must embrace these variables in order to increase energy\n30 efficiency and accelerate climate action. Currently, the buildings sector accounts for a significant 39 per cent\n   of total energy-related CO₂ emissions, according to The 2018 Global Status Report.\n   With this challenge in mind, a group of students, graduates and professors from the ORT University\n   Uruguay created La Casa Uruguaya (The Uruguayan House), a sustainable and intelligent housing project\n   inspired from bioclimatic architecture and equipped with technology that can reduce energy consumption\n35 while offering a sustainable and accessible lifestyle.\n   The living unit consists of a house inside a box, according to the ORT University Uruguay. The insulation\n   prevents heat and cold from entering. It has two ceilings – one on top of the other – and, between the two,\n   moving parts that can be remotely opened or closed in order to regulate indoor temperature. Windows are\n   strategically located to improve lighting.\n40 The house is self-supplied with solar energy, notifies inhabitants of energy misuses, has a water reuse\n   system, and sensors that help to regulate temperature, humidity or lighting. The unit can be installed in only\n   15 days and costs between US$ 50 000 and US$ 90 000.\n```\n\nFonte: UNITED NATIONS ENVIRONMENT. Made in Latin America – four innovations for sustainable living that could change the world. Publicado em: 09 mar. 2019. Disponível em: <https://www.unep.org/news-and-stories/story/made-latin-america-four-innovations-sustainable-living-could-change-world>. Acesso em: 06 ago. 2024. (Adaptado).\n\nSobre as inovações para a sustentabilidade “made in Latin America” apresentadas no texto, assinale V (verdadeiro) ou F (falso) em cada afirmativa a seguir.\n\n( ) O bioplástico de sementes de abacate é mais sustentável que outros bioplásticos, porque não é produzido a partir de alimentos como milho e mandioca.\n\n( ) A sacola solúvel em água é produzida a partir de óleo reciclado e por isso tem impacto ambiental zero.\n\n( ) A “La casa Uruguaya” é uma casa inteligente que avisa os moradores sobre o desperdício de energia.\n\nA sequência correta é",
+      "options": [
+        {
+          "text": "V – F – F.",
+          "explanation": "A terceira afirmativa é verdadeira: a casa “notifies inhabitants of energy misuses”, isto é, avisa os moradores sobre o mau uso da energia."
+        },
+        {
+          "text": "V – F – V.",
+          "explanation": "Correta. O bioplástico de abacate “does not use crops suitable for human consumption – such as corn or cassava” (V). A sacola usa calcário no lugar de derivados de petróleo (“limestone instead of oil by-products”), e não óleo reciclado (F). A casa avisa os moradores sobre desperdício de energia (V)."
+        },
+        {
+          "text": "F – F – V.",
+          "explanation": "A primeira afirmativa é verdadeira: Munguía defende que o bioplástico seja sustentável justamente por não tirar alimento das pessoas, ao contrário dos feitos de milho ou mandioca."
+        },
+        {
+          "text": "F – V – F.",
+          "explanation": "A primeira e a terceira são verdadeiras, e a segunda é falsa: “oil by-products” são derivados de petróleo, que a Solubag substitui por calcário."
+        },
+        {
+          "text": "V – V – V.",
+          "explanation": "A segunda afirmativa é falsa: o texto não fala em óleo reciclado; a sacola é feita com calcário (“limestone”) em vez de derivados de petróleo."
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "key": "ufsm-2025-p2-q40-en",
+      "source": "Vestibular UFSM 2025 – Prova 2, questão 40, inglês (UFSM)",
+      "kind": "Objective",
+      "subject": "ingles",
+      "statement": "Leia o texto a seguir para responder às questões 38, 39 e 40.\n\n**Made in Latin America – innovations for sustainable living that could change the world**\n\n```\n01 A treasure inside avocados\n   Scott Munguía produces bioplastics from avocado seeds. This young Mexican chemical engineer discove-\n   red in 2011 that the avocado seed contains a biopolymer similar to the one present in corn, which is used\n   to produce bioplastic. In 2014, he founded Biofase, a company based in Monterrey that commercializes\n05 bioplastic products, made of 60 per cent avocado biopolymer and 40 per cent synthetic organic compounds.\n   The straws and cutlery made from avocado seeds degrade in only 240 days, and there is no need\n   for incineration.\n   Biofase’s products have a great manufacturing potential. According to Munguía, 300 000 tonnes of avo-\n   cado seeds are discarded annually in Mexico, an estimated 20 per cent of the global demand for bioplastics.\n10 Unlike other types of bioplastics, this alternative does not use crops suitable for human consumption –\n   such as corn or cassava.\n   “Bioplastics must be sustainable. How can you make bioplastic from food? There are so many people\n   starving and there is so much trouble around the cost of corn […], we should not take food away from\n   people,” Munguía said.\n15 Water-soluble bags\n   One million plastic bags are consumed every minute worldwide. Most of them end up in landfills or in the\n   oceans. The one-piece polyethylene shopping bag, created in the 1960s, takes up to 500 years to degrade.\n   So when Roberto Astete and Cristian Olivares, founders of Chilean start-up Solubag, presented a plastic\n   bag which dissolves in water in just a few minutes, they raised many eyebrows.\n20 “The bag completely dissolves in water, with no harm. You can even drink the water, as it has no\n   chemicals,” said Cristian Olivares, the company’s commercial manager.\n   The secret? According to Olivares, Solubags uses limestone instead of oil by-products. That is why they\n   have zero environmental impact compared to other alternatives like oxo-biodegradable bags, which are still\n   made of polyethylene and break into small pieces of toxic plastic.\n25 Their innovation is expected to be widely accepted in Chile, where a ban on plastic bags in large businesses\n   came into force in February 2019.\n   A home for a sustainable lifestyle\n   Our energy consumption depends directly on the conditions of ventilation, temperature and light in our homes.\n   In the coming years, the construction sector must embrace these variables in order to increase energy\n30 efficiency and accelerate climate action. Currently, the buildings sector accounts for a significant 39 per cent\n   of total energy-related CO₂ emissions, according to The 2018 Global Status Report.\n   With this challenge in mind, a group of students, graduates and professors from the ORT University\n   Uruguay created La Casa Uruguaya (The Uruguayan House), a sustainable and intelligent housing project\n   inspired from bioclimatic architecture and equipped with technology that can reduce energy consumption\n35 while offering a sustainable and accessible lifestyle.\n   The living unit consists of a house inside a box, according to the ORT University Uruguay. The insulation\n   prevents heat and cold from entering. It has two ceilings – one on top of the other – and, between the two,\n   moving parts that can be remotely opened or closed in order to regulate indoor temperature. Windows are\n   strategically located to improve lighting.\n40 The house is self-supplied with solar energy, notifies inhabitants of energy misuses, has a water reuse\n   system, and sensors that help to regulate temperature, humidity or lighting. The unit can be installed in only\n   15 days and costs between US$ 50 000 and US$ 90 000.\n```\n\nFonte: UNITED NATIONS ENVIRONMENT. Made in Latin America – four innovations for sustainable living that could change the world. Publicado em: 09 mar. 2019. Disponível em: <https://www.unep.org/news-and-stories/story/made-latin-america-four-innovations-sustainable-living-could-change-world>. Acesso em: 06 ago. 2024. (Adaptado).\n\nAssinale a alternativa que contém recursos de referência que retomam informações apresentadas em segmentos anteriores do texto.",
+      "options": [
+        {
+          "text": "“which” (ℓ. 03) – “you” (ℓ. 12) – “which” (ℓ. 23)",
+          "explanation": "Os dois “which” retomam termos anteriores (“corn” e “oxo-biodegradable bags”), mas “you” (ℓ. 12) tem sentido genérico, equivalente a “alguém”, e não retoma nada do texto."
+        },
+        {
+          "text": "“many people” (ℓ. 12) – “them” (ℓ. 16) – “where” (ℓ. 25)",
+          "explanation": "“Them” retoma “plastic bags” e “where” retoma “Chile”, mas “many people” (ℓ. 12) introduz uma informação nova, sem retomar segmento anterior."
+        },
+        {
+          "text": "“we” (ℓ. 13) – “a group of students” (ℓ. 32) – “It” (ℓ. 37)",
+          "explanation": "“It” retoma a unidade habitacional, mas “we” é genérico (as pessoas em geral) e “a group of students” apresenta um referente novo."
+        },
+        {
+          "text": "“this alternative” (ℓ. 10) – “plastic bags” (ℓ. 16) – “our” (ℓ. 28)",
+          "explanation": "“This alternative” retoma o bioplástico de abacate, mas “plastic bags” (ℓ. 16) é a primeira menção do termo nessa seção e “our” se refere às pessoas em geral."
+        },
+        {
+          "text": "“This young Mexican chemical engineer” (ℓ. 02) – “they” (ℓ. 19) – “these variables” (ℓ. 29)",
+          "explanation": "Correta. “This young Mexican chemical engineer” retoma Scott Munguía; “they” retoma Roberto Astete e Cristian Olivares; e “these variables” retoma “ventilation, temperature and light”. Os três recuperam informações já apresentadas."
+        }
+      ],
+      "correct": "E"
+    }
+  ]
+}

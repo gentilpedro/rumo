@@ -1,0 +1,1266 @@
+{
+  "year": 2026,
+  "track": "ufsm-2",
+  "questions": [
+    {
+      "key": "ufsm-2026-p2-q01",
+      "source": "Vestibular UFSM 2026 – Prova 2, questão 1 (UFSM)",
+      "kind": "Objective",
+      "subject": "historia",
+      "statement": "A história do livro remonta à antiguidade, desde a invenção da escrita, e ao uso de inúmeros suportes, como argila, madeira, rocha, papiro, pergaminho e papel. Na China, originou-se a técnica da impressão em xilogravura nos séculos IV e V. Na Europa medieval, os livros eram manuscritos, copiados e acrescidos de iluminuras. No entanto, a revolução no processo de produção de livros se deu com a prensa de tipos móveis, na Alemanha, no século XV.\n\nFonte: MARK, J. Johannes Gutenberg. World History Encyclopedia, 2022. Disponível em: https://www.worldhistory.org/trans/pt/1-20945/johannesgutenberg/. Acesso em: 28 ago. 2025. (Adaptado)\n\nAcompanhando o processo de impressão, os preços de um livro, considerando hipoteticamente \u0003um salário mensal (30 dias trabalhados) de 1.000 unidades de valor, \u0003em uma jornada diária de 10 horas de trabalho, podem ser observados no quadro a seguir.\n\n```\nSéculo XIV   Séculos XV e XVI   Século XVII\n6.000        200                8,33\n```\n\nCom base nos dados do quadro e no contexto histórico dos séculos mencionados, assinale V (verdadeiro) ou F (falso) em cada afirmativa a seguir.\n\n( ) A produção de livros, antes da invenção dos tipos móveis, assumia feição manufatureira e disponível a poucos, o que explica o alto valor no século XIV, correspondendo ao valor de seis meses de trabalho.\n\n( ) A prensa de tipos móveis permitiu a difusão de conhecimentos importantes para o progresso das ciências, além de diminuir o custo dos livros para 60 horas de trabalho.\n\n( ) A difusão da prensa de tipos móveis, no século XVII, repercutiu na queda dos preços dos livros, menos de 1% do valor do século XIV, gerando uma alfabetização em massa na Europa moderna.\n\nA sequência correta é",
+      "options": [
+        {
+          "text": "V – V – V.",
+          "explanation": "A terceira afirmativa é falsa: o preço caiu mesmo para menos de 1% (8,33 ÷ 6.000 ≈ 0,14%), mas a Europa moderna não conheceu alfabetização em massa, que só veio com a escola pública dos séculos XIX e XX."
+        },
+        {
+          "text": "V – F – V.",
+          "explanation": "A segunda afirmativa é verdadeira: 200 unidades equivalem a 6 dias de salário (1.000 ÷ 30 ≈ 33,3 por dia), ou 60 horas de trabalho; e a terceira é falsa, pois não houve alfabetização em massa na Europa moderna."
+        },
+        {
+          "text": "F – F – V.",
+          "explanation": "A primeira afirmativa é verdadeira (6.000 unidades = seis salários mensais; o livro era copiado à mão e acessível a poucos) e a terceira é falsa, pois não houve alfabetização em massa."
+        },
+        {
+          "text": "F – V – F.",
+          "explanation": "A primeira afirmativa é verdadeira: 6.000 unidades correspondem a seis meses de salário, coerente com a produção artesanal dos manuscritos antes de Gutenberg."
+        },
+        {
+          "text": "V – V – F.",
+          "explanation": "Correta. Século XIV: 6.000 = 6 salários mensais (V). Séculos XV e XVI: 200 unidades = 6 dias × 10 h = 60 horas de trabalho, e a imprensa de fato difundiu o conhecimento científico (V). Século XVII: 8,33 é menos de 1% de 6.000, mas isso não gerou alfabetização em massa na Europa moderna (F)."
+        }
+      ],
+      "correct": "E"
+    },
+    {
+      "key": "ufsm-2026-p2-q02",
+      "source": "Vestibular UFSM 2026 – Prova 2, questão 2 (UFSM)",
+      "kind": "Objective",
+      "subject": "biologia",
+      "statement": "Em 1997, Janine Benyus popularizou a biomimética em seu livro intitulado Biomimicry: innovation inspired by nature (Biomimética: inovação inspirada pela natureza), uma área que busca observar a natureza para solucionar diferentes desafios, em especial, no design e no desenvolvimento de produtos e processos. Um exemplo são os manguezais, que inspiram projetos de infraestrutura verde para conter enchentes.\n\nConsiderando as características desse ecossistema, assinale V (verdadeiro) ou F (falso) em cada afirmativa a seguir.\n\n( ) Tem a função de proteção costeira e retenção de gás carbônico.\n\n( ) Constitui-se como uma zona de transição entre os ambientes terrestre e marinho, caracterizando-se pela presença de solos lodosos com pouca oxigenação.\n\n( ) Apresenta plantas que possuem raízes subterrâneas do tipo escoras e do tipo respiratórias.\n\nA sequência correta é",
+      "options": [
+        {
+          "text": "V – V – V.",
+          "explanation": "A terceira afirmativa é falsa: as raízes-escoras e as respiratórias (pneumatóforos) dos mangues são aéreas, e não subterrâneas."
+        },
+        {
+          "text": "F – F – V.",
+          "explanation": "As duas primeiras afirmativas são verdadeiras (o manguezal protege a costa, estoca carbono e é zona de transição com solo lodoso e pouco oxigenado), e a terceira é falsa porque as raízes citadas são aéreas."
+        },
+        {
+          "text": "V – V – F.",
+          "explanation": "Correta. O manguezal amortece ondas e marés e retém carbono (V); é ecossistema de transição entre terra e mar, com solo lodoso e pobre em oxigênio (V); mas as raízes-escoras e os pneumatóforos são raízes aéreas, justamente uma adaptação ao solo instável e sem oxigênio (F)."
+        },
+        {
+          "text": "V – F – F.",
+          "explanation": "A segunda afirmativa também é verdadeira: o manguezal fica na faixa entre marés, transição entre o ambiente terrestre e o marinho, com solo lodoso e pouco oxigenado."
+        },
+        {
+          "text": "F – V – F.",
+          "explanation": "A primeira afirmativa é verdadeira: a vegetação do mangue protege a linha de costa e armazena grande quantidade de carbono no solo e na biomassa."
+        }
+      ],
+      "correct": "C"
+    },
+    {
+      "key": "ufsm-2026-p2-q03",
+      "source": "Vestibular UFSM 2026 – Prova 2, questão 3 (UFSM)",
+      "kind": "Objective",
+      "subject": "lingua-portuguesa",
+      "statement": "Para responder às questões 03 a 05, leia o texto a seguir.\n\n```\n01    Ao longo da história, como se sabe, os livros não\n    foram objeto só de amor, mas de ódio. Por razões re-\n    ligiosas ou políticas, autores e obras sofreram perse-\n    guições na Antiguidade e Idade Média. A invenção da\n05  impressão por Gutenberg, no século XV, ampliou ex-\n    ponencialmente a circulação de livros – mas também\n    a caçada a eles. Foram vítimas das fogueiras da Inqui-\n    sição e de outros ataques mais recentes: estima-se\n    que os nazistas tenham queimado obras de mais de\n10  5 500 autores, e 188 bibliotecas foram atingidas du-\n    rante a Guerra da Bósnia – entre elas a de Saraje-\n    vo, que perdeu 150 000 títulos raros ao ser atingida\n    por um bombardeio em 1992. A própria Biblioteca\n    de Alexandria foi destruída três vezes, a última delas\n15  em 642, quando o comandante árabe Amr ibn al-As\n    teria liquidado os livros restantes a mando do califa\n    Omar I. “O genocídio atinge também as letras, por-\n    que nelas sobrevivem uma cultura e uma memória”,\n    afirma Irene Vallejo, filósofa, historiadora espanhola,\n20  autora do livro O Infinito em um Junco.\n      Já hoje, com o advento do mundo digital,\n    publica-se um novo título a cada meio minuto. É um\n    volume impressionante: um leitor comum não conse-\n    gue ler em toda a sua vida o que o mercado editorial\n25  produz em um único dia de trabalho. Nunca foi tão\n    fácil e tão difícil acompanhar o avanço da civilização.\n```\n\nFonte: CAPUANO, A. Como a invenção do livro moldou a civilização que conhecemos. Veja. Publicado em: 08 jun. 2022, ed. 2792. Disponível em: https://veja.abril.com.br/cultura/como-a-invencao-do-livro-moldou-a-civilizacao-que-conhecemos/. Acesso em: 27 ago. 2025. (Adaptado)\n\nA partir das informações apresentadas no texto, assinale a alternativa correta.",
+      "options": [
+        {
+          "text": "O emprego de palavras como “amor” (ℓ. 02) e “ódio” (ℓ. 02), “ampliou” (ℓ. 05) e “caçada” (ℓ. 07) e “fácil” (ℓ. 26) e “difícil” (ℓ. 26) indica que o autor opõe os tipos de livros que existem.",
+          "explanation": "Os pares de sentido oposto mostram contradições na história do livro (amado e odiado, mais circulação e mais perseguição, fácil e difícil de acompanhar), e não uma classificação de tipos de livros."
+        },
+        {
+          "text": "A invenção da imprensa, segundo o texto, provocou diferentes movimentos culturais e sociais na humanidade.",
+          "explanation": "O texto diz que a impressão ampliou a circulação de livros e também a caçada a eles; não atribui à invenção movimentos culturais e sociais diversos."
+        },
+        {
+          "text": "Os incêndios provocados nas bibliotecas visavam à diminuição do poderio dos governantes.",
+          "explanation": "As destruições são atribuídas a razões religiosas ou políticas e atingem a cultura e a memória de um povo; o texto não fala em diminuir o poder de governantes."
+        },
+        {
+          "text": "A rapidez na publicação de livros em meios digitais tem impedido o avanço da civilização.",
+          "explanation": "O texto afirma que nunca foi tão fácil e tão difícil acompanhar o avanço da civilização, por causa do volume publicado; não diz que esse avanço foi impedido."
+        },
+        {
+          "text": "O “genocídio” mencionado por Irene Vallejo refere-se à destruição de obras, o que, por sua vez, ocasiona a perda da cultura e da memória.",
+          "explanation": "Correta. Para Irene Vallejo, “o genocídio atinge também as letras, porque nelas sobrevivem uma cultura e uma memória”: destruir livros é uma forma de apagar a cultura e a memória de um povo."
+        }
+      ],
+      "correct": "E"
+    },
+    {
+      "key": "ufsm-2026-p2-q04",
+      "source": "Vestibular UFSM 2026 – Prova 2, questão 4 (UFSM)",
+      "kind": "Objective",
+      "subject": "lingua-portuguesa",
+      "statement": "Para responder às questões 03 a 05, leia o texto a seguir.\n\n```\n01    Ao longo da história, como se sabe, os livros não\n    foram objeto só de amor, mas de ódio. Por razões re-\n    ligiosas ou políticas, autores e obras sofreram perse-\n    guições na Antiguidade e Idade Média. A invenção da\n05  impressão por Gutenberg, no século XV, ampliou ex-\n    ponencialmente a circulação de livros – mas também\n    a caçada a eles. Foram vítimas das fogueiras da Inqui-\n    sição e de outros ataques mais recentes: estima-se\n    que os nazistas tenham queimado obras de mais de\n10  5 500 autores, e 188 bibliotecas foram atingidas du-\n    rante a Guerra da Bósnia – entre elas a de Saraje-\n    vo, que perdeu 150 000 títulos raros ao ser atingida\n    por um bombardeio em 1992. A própria Biblioteca\n    de Alexandria foi destruída três vezes, a última delas\n15  em 642, quando o comandante árabe Amr ibn al-As\n    teria liquidado os livros restantes a mando do califa\n    Omar I. “O genocídio atinge também as letras, por-\n    que nelas sobrevivem uma cultura e uma memória”,\n    afirma Irene Vallejo, filósofa, historiadora espanhola,\n20  autora do livro O Infinito em um Junco.\n      Já hoje, com o advento do mundo digital,\n    publica-se um novo título a cada meio minuto. É um\n    volume impressionante: um leitor comum não conse-\n    gue ler em toda a sua vida o que o mercado editorial\n25  produz em um único dia de trabalho. Nunca foi tão\n    fácil e tão difícil acompanhar o avanço da civilização.\n```\n\nFonte: CAPUANO, A. Como a invenção do livro moldou a civilização que conhecemos. Veja. Publicado em: 08 jun. 2022, ed. 2792. Disponível em: https://veja.abril.com.br/cultura/como-a-invencao-do-livro-moldou-a-civilizacao-que-conhecemos/. Acesso em: 27 ago. 2025. (Adaptado)\n\nSobre o emprego e o significado das formas verbais utilizadas no texto, é correto afirmar que",
+      "options": [
+        {
+          "text": "“sabe” (ℓ. 01) é um processo verbal que tem como agente o pronome “se”.",
+          "explanation": "Em “como se sabe”, o “se” não é agente: ele justamente apaga o agente do processo, deixando indeterminado quem sabe."
+        },
+        {
+          "text": "“estima” (ℓ. 08) é uma forma verbal na voz ativa, cujo agente elíptico é “uma pessoa”.",
+          "explanation": "“Estima-se que…” é construção com “se” (passiva sintética, com a oração seguinte como sujeito); não há um agente elíptico “uma pessoa”, o agente fica indeterminado."
+        },
+        {
+          "text": "“tenham queimado” (ℓ. 09) é uma forma verbal composta na voz passiva, cujo agente é “nazistas”.",
+          "explanation": "“Tenham queimado” é tempo composto (ter + particípio) na voz ativa: “os nazistas” é o sujeito agente. A voz passiva seria “tenham sido queimadas”."
+        },
+        {
+          "text": "“teria liquidado” (ℓ. 16) é uma forma verbal composta, cujo agente é “o comandante árabe Amr ibn al-As”.",
+          "explanation": "Correta. “Teria liquidado” é tempo composto (futuro do pretérito composto, ter + particípio) na voz ativa, e quem pratica a ação de liquidar os livros é “o comandante árabe Amr ibn al-As”."
+        },
+        {
+          "text": "“publica” (ℓ. 22) é uma forma verbal na voz ativa, cujo agente é “um novo título”.",
+          "explanation": "Em “publica-se um novo título”, há voz passiva sintética: “um novo título” é o sujeito paciente (o que é publicado), não o agente."
+        }
+      ],
+      "correct": "D"
+    },
+    {
+      "key": "ufsm-2026-p2-q05",
+      "source": "Vestibular UFSM 2026 – Prova 2, questão 5 (UFSM)",
+      "kind": "Objective",
+      "subject": "lingua-portuguesa",
+      "statement": "Para responder às questões 03 a 05, leia o texto a seguir.\n\n```\n01    Ao longo da história, como se sabe, os livros não\n    foram objeto só de amor, mas de ódio. Por razões re-\n    ligiosas ou políticas, autores e obras sofreram perse-\n    guições na Antiguidade e Idade Média. A invenção da\n05  impressão por Gutenberg, no século XV, ampliou ex-\n    ponencialmente a circulação de livros – mas também\n    a caçada a eles. Foram vítimas das fogueiras da Inqui-\n    sição e de outros ataques mais recentes: estima-se\n    que os nazistas tenham queimado obras de mais de\n10  5 500 autores, e 188 bibliotecas foram atingidas du-\n    rante a Guerra da Bósnia – entre elas a de Saraje-\n    vo, que perdeu 150 000 títulos raros ao ser atingida\n    por um bombardeio em 1992. A própria Biblioteca\n    de Alexandria foi destruída três vezes, a última delas\n15  em 642, quando o comandante árabe Amr ibn al-As\n    teria liquidado os livros restantes a mando do califa\n    Omar I. “O genocídio atinge também as letras, por-\n    que nelas sobrevivem uma cultura e uma memória”,\n    afirma Irene Vallejo, filósofa, historiadora espanhola,\n20  autora do livro O Infinito em um Junco.\n      Já hoje, com o advento do mundo digital,\n    publica-se um novo título a cada meio minuto. É um\n    volume impressionante: um leitor comum não conse-\n    gue ler em toda a sua vida o que o mercado editorial\n25  produz em um único dia de trabalho. Nunca foi tão\n    fácil e tão difícil acompanhar o avanço da civilização.\n```\n\nFonte: CAPUANO, A. Como a invenção do livro moldou a civilização que conhecemos. Veja. Publicado em: 08 jun. 2022, ed. 2792. Disponível em: https://veja.abril.com.br/cultura/como-a-invencao-do-livro-moldou-a-civilizacao-que-conhecemos/. Acesso em: 27 ago. 2025. (Adaptado)\n\nCom relação ao emprego de itens lexicais no texto, considere as afirmativas a seguir.\n\nI → “Mais” (ℓ. 08) é um advérbio que intensifica “recentes” (ℓ. 08).\n\nII → “Árabe” (ℓ. 15) é um adjetivo que funciona como classificador de “comandante” (ℓ. 15).\n\nIII → “Novo” (ℓ. 22) é um adjetivo que funciona como predicador de “título” (ℓ. 22).\n\nIV → “Meio” (ℓ. 22) é um adjetivo que funciona como classificador de “minuto” (ℓ. 22).\n\nEstão corretas",
+      "options": [
+        {
+          "text": "apenas I e II.",
+          "explanation": "Correta. Em “ataques mais recentes”, “mais” é advérbio de intensidade ligado ao adjetivo “recentes” (I), e em “comandante árabe” o adjetivo classifica o substantivo, indicando a que grupo o comandante pertence (II). “Novo” é um qualificador dentro do grupo nominal, não um predicador (III), e “meio” em “meio minuto” é numeral fracionário (IV)."
+        },
+        {
+          "text": "apenas I e III.",
+          "explanation": "A afirmativa III está errada: em “um novo título”, “novo” modifica o substantivo dentro do grupo nominal (adjunto), não funciona como predicador, papel que teria em “o título é novo”."
+        },
+        {
+          "text": "apenas I e IV.",
+          "explanation": "A afirmativa IV está errada: em “meio minuto”, “meio” indica quantidade (metade), é numeral fracionário, e não adjetivo classificador."
+        },
+        {
+          "text": "apenas II e IV.",
+          "explanation": "A II está certa, mas a IV não: “meio” quantifica “minuto” (metade de um minuto), é numeral, e a afirmativa I, também correta, ficou de fora."
+        },
+        {
+          "text": "apenas III e IV.",
+          "explanation": "III e IV estão erradas: “novo” é modificador de “título”, não predicador, e “meio” é numeral fracionário, não adjetivo classificador."
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "key": "ufsm-2026-p2-q06",
+      "source": "Vestibular UFSM 2026 – Prova 2, questão 6 (UFSM)",
+      "kind": "Objective",
+      "subject": "filosofia-sociologia",
+      "statement": "Em A República, Platão narra a alegoria da caverna, onde prisioneiros acorrentados desde a infância tomam as sombras projetadas na parede da caverna como sendo a única realidade. A libertação de um prisioneiro representa a árdua ascensão da alma ao mundo inteligível, o mundo do conhecimento verdadeiro. Em uma analogia contemporânea, o fluxo incessante de informações e conteúdos efêmeros nas redes sociais pode ser comparado às sombras na parede: fragmentado, rápido e projetado para a reação imediata e não para reflexão.\n\nNesse cenário, o livro assume uma importância filosófica renovada. A leitura de uma obra densa não é mero consumo de dados, mas um esforço análogo à própria jornada de libertação da caverna. Exige concentração, tempo e disposição para seguir um pensamento coerente e estruturado, promovendo o aprofundamento em oposição à superficialidade. O livro, portanto, não é apenas um objeto, mas uma ferramenta de libertação intelectual, um convite para desviar o olhar das sombras e contemplar uma realidade mais complexa.\n\nCom base na analogia proposta pelo texto, assinale V (verdadeiro) ou F (falso) em cada afirmativa a seguir.\n\n( ) O texto sugere que a principal característica do conhecimento proporcionado pelos livros, em contraste com o conteúdo digital efêmero, é a estrutura e a exigência de um engajamento reflexivo por parte do leitor.\n\n( ) A analogia apresentada, a “libertação da caverna”, significa consumir o maior número de informação disponível, ainda que seja por meio de uma rede ou mídia social, para que se obtenha conhecimento verdadeiro e se liberte do mundo das aparências.\n\n( ) A importância contemporânea do livro, segundo a perspectiva do texto, não reside em seu papel como um antídoto à superficialidade, funcionando como um meio para o exercício do pensamento crítico e aprofundado, pois as redes e mídias sociais podem cumprir esse papel.\n\nA sequência correta é",
+      "options": [
+        {
+          "text": "V – F – F.",
+          "explanation": "Correta. O texto opõe o pensamento coerente e estruturado do livro, que exige concentração e reflexão, ao fluxo efêmero das redes (V); a libertação da caverna é aprofundamento, não acúmulo de informação pelas redes, que são as próprias sombras (F); e o livro é apresentado justamente como antídoto à superficialidade, papel que as redes não cumprem (F)."
+        },
+        {
+          "text": "F – V – V.",
+          "explanation": "A primeira afirmativa é verdadeira (o livro exige engajamento reflexivo) e as outras duas são falsas: libertar-se não é consumir mais informação, e o texto vê o livro como antídoto à superficialidade."
+        },
+        {
+          "text": "F – V – F.",
+          "explanation": "A primeira afirmativa é verdadeira, e a segunda é falsa: no texto, o conteúdo das redes sociais equivale às sombras da caverna, de modo que consumi-lo em quantidade não liberta ninguém."
+        },
+        {
+          "text": "V – F – V.",
+          "explanation": "A terceira afirmativa é falsa: ela nega que o livro seja antídoto à superficialidade e atribui esse papel às redes, o contrário do que o texto defende."
+        },
+        {
+          "text": "F – F – V.",
+          "explanation": "A primeira afirmativa é verdadeira, e a terceira é falsa, pois o texto afirma que o livro é ferramenta de libertação intelectual frente à superficialidade das redes."
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "key": "ufsm-2026-p2-q07",
+      "source": "Vestibular UFSM 2026 – Prova 2, questão 7 (UFSM)",
+      "kind": "Objective",
+      "subject": "fisica",
+      "statement": "Apesar de certa controvérsia quanto ao real início de sua produção, a origem do papel está na China. Atribui-se sua criação ao oficial da corte T’sai Lun, que, em 105 d.C., durante sua estada em Pequim, observou as vespas triturando fibras vegetais de bambu e amoreira, obtendo uma pasta celulósica que era utilizada na construção dos ninhos. Baseando-se no mesmo princípio utilizado pelos insetos, ele pilou cascas de amoreira, bambu e restos de redes de pescar até obter uma pasta úmida que estendeu e colocou para secar. Nascia, assim, a primeira folha de papel, cujo princípio básico de produção permanece quase inalterado após quase dois mil anos de sua invenção.\n\nFonte: FRITOLI, C. L. et al. História do papel: panorama evolutivo das técnicas de produção e implicações para sua preservação. In: RICI: R. Ibero-amer. Ci. Inf., Brasília, v. 9, n. 2, jul./dez. 2016. p. 475-502. (Adaptado)\n\nImagine que, para apressar a secagem da folha de papel, abandona-se sobre ela, cobrindo-a totalmente, uma prancha de madeira com massa m e densidade d. A face dessa prancha em contato com a folha de papel tem área A, a folha de papel tem espessura h, e cada uma de suas faces tem área A/2. Sendo g o módulo da aceleração gravitacional local, a alternativa que representa corretamente a pressão exercida pela prancha de madeira sobre a folha de papel é",
+      "options": [
+        {
+          "text": "dgh.",
+          "explanation": "dgh é a pressão de uma coluna de fluido de densidade d e altura h; aqui h é a espessura do papel e não tem relação com a força que a prancha exerce."
+        },
+        {
+          "text": "mgh.",
+          "explanation": "mgh é uma expressão de energia potencial gravitacional, não de pressão."
+        },
+        {
+          "text": "mg/A.",
+          "explanation": "Dividiu-se o peso pela área da face da prancha (A), mas só a parte dessa face que toca o papel, de área A/2, transmite a força a ele."
+        },
+        {
+          "text": "2mg/A.",
+          "explanation": "Correta. Pressão é força sobre área de contato: a força é o peso mg da prancha, e o contato se dá em toda a face da folha, de área A/2 (a prancha, de área A, cobre a folha inteira). Logo p = mg/(A/2) = 2mg/A."
+        },
+        {
+          "text": "dgh/A.",
+          "explanation": "dgh/A nem tem unidade de pressão; a densidade da prancha e a espessura do papel não entram no cálculo, que é peso dividido pela área de contato."
+        }
+      ],
+      "correct": "D"
+    },
+    {
+      "key": "ufsm-2026-p2-q09",
+      "source": "Vestibular UFSM 2026 – Prova 2, questão 9 (UFSM)",
+      "kind": "Objective",
+      "subject": "historia",
+      "statement": "No século XVIII, Denis Diderot e Jean d’Alembert organizaram e publicaram a Enciclopédia, ou Dicionário razoado das ciências, das artes e dos ofícios, livro que marcou época e teve significativas repercussões. A imagem a seguir mostra o frontispício da obra.\n\n![Gravura em preto e branco do frontispício da Enciclopédia: no alto, entre nuvens e raios de luz, uma figura feminina coberta por um véu, que outras figuras femininas tentam retirar; abaixo dela, um grupo numeroso de figuras alegóricas com livros, instrumentos e papéis olha para a luz.](img/ufsm/2026/prova-2/q09-1.png)\n\nFonte: CARTWRIGHT, M. Denis Diderot: definição. World History, 2023. Disponível em: https://www.worldhistory.org/Denis_Diderot. Acesso em: 21 ago. 2025.\n\nA respeito da Enciclopédia e do seu contexto de publicação, é correto afirmar que",
+      "options": [
+        {
+          "text": "a forte influência da monarquia e da Igreja pode ser atestada pelo anjo iluminado no frontispício e pelo conteúdo da obra, que incluía os conhecimentos derivados da revelação divina.",
+          "explanation": "A Enciclopédia criticava o absolutismo e a autoridade da Igreja; a figura iluminada do frontispício é uma alegoria da Verdade desvelada pela Razão, e o conteúdo se apoiava na razão e na experiência, não na revelação divina."
+        },
+        {
+          "text": "a publicação da obra se beneficiou do contexto de expansão comercial e industrial e do descontentamento diante do poder secular e espiritual, insuflando revoluções burguesas.",
+          "explanation": "Correta. A obra circulou numa França em expansão comercial e manufatureira, com uma burguesia descontente com o absolutismo e com o poder da Igreja, e suas ideias iluministas alimentaram as revoluções burguesas do fim do século XVIII."
+        },
+        {
+          "text": "os ideais presentes na obra, apesar do teor religioso, foram decisivos para a disseminação de conhecimentos científicos contribuintes para a derrocada da ordem estabelecida.",
+          "explanation": "A obra não tinha teor religioso: era laica e crítica à religião revelada, o que lhe valeu censura da Igreja e do Estado."
+        },
+        {
+          "text": "a obra foi incluída no Index eclesiástico, auxiliando a produção e a divulgação do conhecimento racional às camadas mais baixas da sociedade francesa da época.",
+          "explanation": "A condenação pela Igreja foi uma tentativa de proibir a leitura, não um auxílio à divulgação; além disso, a obra, cara e extensa, circulava entre letrados e burgueses, não entre as camadas mais baixas."
+        },
+        {
+          "text": "a obra integrou um movimento denominado de Ilustração, sendo concebida como a reunião de todo o conhecimento baseado na razão e o fundamento para movimentos reacionários.",
+          "explanation": "A Enciclopédia de fato integrou a Ilustração e pretendia reunir o saber fundado na razão, mas serviu de base a movimentos revolucionários e liberais, não reacionários."
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "key": "ufsm-2026-p2-q10",
+      "source": "Vestibular UFSM 2026 – Prova 2, questão 10 (UFSM)",
+      "kind": "Objective",
+      "subject": "quimica",
+      "statement": "Historicamente, ciência e literatura andam lado a lado, contribuindo, cada uma a seu modo, para a construção do conhecimento. A ficção científica, nesse contexto, acaba sendo uma importante ferramenta de diálogo entre essas duas áreas.\n\nFonte: PORTO, W. Ciência e literatura andam de mãos dadas pela história, mostram novos livros. Folha de S.Paulo. Publicado em: 15 abr. 2022. Disponível em: https://www1.folha.uol.com.br/ilustrada/2022/04/ciencia-e-literatura-andam-de-maos-dadas-pela-historia-mostram-novos-livros.shtml. Acesso em: 23 jul. 2025. (Adaptado)\n\nUm exemplo é o livro Frankenstein, da autora Mary Shelley, uma das primeiras obras de ficção científica publicada no início do século XIX. Embora Mary Shelley não tenha sido cientista, sua obra traz muitas referências às descobertas científicas daquela época, entre elas os primeiros experimentos envolvendo eletricidade. O personagem principal do livro, Victor Frankenstein, tenta dar vida a sua criatura usando as teorias do galvanismo, experimentos desenvolvidos naquele mesmo período pelos cientistas Galvani e Volta.\n\nOs experimentos com células galvânicas ou voltaicas (nomeadas em homenagem a seus desenvolvedores) contribuíram muito para a eletroquímica, área da química que estuda as conversões entre as energias elétrica e química. Esse fenômeno ocorre nas pilhas, nas quais as reações de oxirredução dão origem à corrente elétrica.\n\nCom relação à eletroquímica e às células galvânicas, assinale V (verdadeiro) ou F (falso) em cada afirmativa a seguir.\n\n( ) Uma célula galvânica é uma célula eletroquímica em que uma reação química espontânea é usada para gerar uma corrente elétrica.\n\n( ) A célula galvânica é formada por dois condutores metálicos chamados eletrodos, e aquele onde ocorre a oxidação é denominado cátodo.\n\n( ) A tendência de um eletrodo atuar como agente oxidante será maior quanto mais positivo for o potencial padrão de redução de seu par constituinte.\n\nA sequência correta é",
+      "options": [
+        {
+          "text": "V – F – V.",
+          "explanation": "Correta. A pilha (célula galvânica) transforma uma reação de oxirredução espontânea em corrente elétrica (V); a oxidação ocorre no ânodo, e a redução, no cátodo (F); e quanto mais positivo o potencial padrão de redução, maior a tendência de a espécie se reduzir, isto é, de atuar como agente oxidante (V)."
+        },
+        {
+          "text": "V – F – F.",
+          "explanation": "A terceira afirmativa é verdadeira: potencial padrão de redução mais positivo significa maior tendência a receber elétrons, ou seja, a agir como oxidante."
+        },
+        {
+          "text": "F – V – F.",
+          "explanation": "A primeira afirmativa é verdadeira (reação espontânea gerando corrente) e a segunda é falsa, pois o eletrodo em que ocorre oxidação é o ânodo."
+        },
+        {
+          "text": "F – F – V.",
+          "explanation": "A primeira afirmativa é verdadeira: é exatamente a definição de célula galvânica, em oposição à eletrolítica, que consome energia elétrica."
+        },
+        {
+          "text": "V – V – F.",
+          "explanation": "A segunda afirmativa é falsa (oxidação ocorre no ânodo, não no cátodo) e a terceira é verdadeira."
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "key": "ufsm-2026-p2-q11",
+      "source": "Vestibular UFSM 2026 – Prova 2, questão 11 (UFSM)",
+      "kind": "Objective",
+      "subject": "historia",
+      "statement": "– Meu caro, o senhor chega em meio de uma encarniçada batalha. É preciso decidir-se imediatamente. A literatura está dividida, é claro, em várias zonas, mas os nossos grandes homens se dividem em dois campos. Os monarquistas são românticos, os liberais são clássicos. A divergência de opiniões literárias junta-se à divergência de opiniões políticas, e daí se deriva uma guerra em que tomam parte todas as armas, tintas em torrentes, ditos de espírito como ferro pontiagudo, calúnias ferinas, alcunhas mordazes trocadas entre as glórias nascentes e as glórias em decadência. Por um capricho singular, os monarquistas românticos pedem a liberdade literária e a revogação das leis que dão formas convencionais à nossa literatura, enquanto os liberais querem manter a unidade, o ritmo do alexandrino e os temas clássicos.\n\nFonte: BALZAC, H. de. As ilusões perdidas. In: A comédia humana. v. 7, Trad. Ernesto Pelanda e Mario Quintana. São Paulo: Globo, 2013. p. 295.\n\nO excerto refere-se ao romance As ilusões perdidas, de Honoré de Balzac, publicado entre 1837 e 1843, integrante da monumental obra balzaquiana – A comédia humana –, que se propunha a abordar, literariamente, todos os aspectos da sociedade francesa da época.\n\nSobre o excerto e o contexto de publicação, assinale V (verdadeiro) ou F (falso) em cada afirmativa a seguir.\n\n( ) As posições políticas e literárias mencionadas representam a situação da França por ocasião da Restauração Monárquica, a qual reconduziu ao trono a dinastia dos Bourbon.\n\n( ) Os aspectos valorizados, politicamente, pelos monarquistas e pelos liberais são contraditórios em relação às suas respectivas posições literárias.\n\n( ) O contexto histórico interno ao romance e o de sua publicação remetem à ascensão e ao triunfo da sociedade burguesa em detrimento da sociedade aristocrática.\n\nA sequência correta é",
+      "options": [
+        {
+          "text": "V – F – F.",
+          "explanation": "As outras duas afirmativas também são verdadeiras: há contradição entre posição política e literária dos dois grupos, e o período é o da ascensão burguesa."
+        },
+        {
+          "text": "V – F – V.",
+          "explanation": "A segunda afirmativa também é verdadeira: os monarquistas, conservadores na política, pedem liberdade literária, e os liberais defendem as regras clássicas."
+        },
+        {
+          "text": "F – V – F.",
+          "explanation": "A primeira e a terceira afirmativas são verdadeiras: a disputa entre monarquistas e liberais é a da França da Restauração dos Bourbon, em plena ascensão da burguesia."
+        },
+        {
+          "text": "F – V – V.",
+          "explanation": "A primeira afirmativa é verdadeira: monarquistas e liberais em confronto remetem à Restauração (1814–1830), quando os Bourbon voltaram ao trono após Napoleão."
+        },
+        {
+          "text": "V – V – V.",
+          "explanation": "Correta. O romance se passa na Restauração dos Bourbon (V); os monarquistas, que defendem a ordem tradicional, pedem liberdade nas letras, enquanto os liberais querem manter as regras clássicas, o inverso do que pregam na política (V); e tanto a época narrada quanto a da publicação (Monarquia de Julho) são de afirmação da burguesia sobre a aristocracia (V)."
+        }
+      ],
+      "correct": "E"
+    },
+    {
+      "key": "ufsm-2026-p2-q12",
+      "source": "Vestibular UFSM 2026 – Prova 2, questão 12 (UFSM)",
+      "kind": "Objective",
+      "subject": "geografia",
+      "statement": "O livro Vidas Secas, de Graciliano Ramos, foi escrito em 1938 e retrata a saga da cachorra Baleia e de uma família composta pelo pai Fabiano, pela mãe Sinhá Vitória e seus dois filhos. Moura e Ludka (2021, p. 77) relatam que “essa família vai em busca da sobrevivência, desloca-se de tempos em tempos para áreas menos castigadas pela falta de chuva”.\n\nPara a atualidade, dados do último Censo Demográfico de 2022, espacializados no mapa, demonstram saldos migratórios e principais fluxos de imigrantes interestaduais.\n\n![Mapa do Brasil intitulado Saldos migratórios e principais fluxos migratórios, por unidade da federação, 2022. Saldos migratórios: Maranhão e Rio de Janeiro na faixa mais negativa (−237.135 a −100.000); São Paulo, Bahia, Pernambuco, Ceará, Piauí, Pará, Amazonas e a maior parte dos estados na faixa de −99.999 a 0; Mato Grosso do Sul, Tocantins, Paraná e Espírito Santo na faixa de 1 a 100.000; Mato Grosso, Goiás, Minas Gerais e Santa Catarina na faixa mais positiva (100.000 a 354.350). Setas de fluxos de migrantes (30 a 215 mil habitantes): a maioria parte de São Paulo ou chega a São Paulo; as mais grossas (200 a 215 mil) ligam São Paulo à Bahia e a Minas Gerais; outras ligam São Paulo ao Paraná, a Mato Grosso do Sul, a Santa Catarina, ao Ceará, ao Piauí e a Pernambuco; há ainda fluxos do Maranhão para o Pará e para Goiás, do Rio de Janeiro para Minas Gerais e entre Paraná, Santa Catarina e Rio Grande do Sul.](img/ufsm/2026/prova-2/q12-1.png)\n\nFonte: IBGE. Censo 2022. Disponível em: https://agenciadenoticias.ibge.gov.br/agencia-noticias/2012-agencia-de-noticias/noticias/43815-censo-2022-19-2-milhoes-de-pessoas-vivem-fora-de-sua-regiao-de-nascimento. Acesso em: 27 ago. 2025. (Adaptado)\n\nCom relação aos fluxos migratórios do Brasil representados no mapa e na obra literária, assinale V (verdadeiro) ou F (falso) em cada afirmativa a seguir.\n\n( ) Os dados do Censo Demográfico de 2022 demonstram que São Paulo é o principal centro migratório do país.\n\n( ) O Estado de São Paulo está com um saldo migratório negativo; um dos motivos é o movimento de retorno para estados do Nordeste, como Bahia, Pernambuco e Ceará.\n\n( ) O livro Vidas Secas retrata a migração pendular dos personagens.\n\nA sequência correta é",
+      "options": [
+        {
+          "text": "V – V – F.",
+          "explanation": "Correta. Quase todas as setas mais grossas do mapa saem de São Paulo ou chegam a ele (V); o estado aparece na faixa de saldo negativo, com fluxos fortes de saída para estados nordestinos, a migração de retorno (V); e a família de Fabiano é de retirantes, que se deslocam por causa da seca, não de migrantes pendulares, que vão e voltam diariamente para trabalhar ou estudar (F)."
+        },
+        {
+          "text": "F – V – F.",
+          "explanation": "A primeira afirmativa é verdadeira: mesmo com saldo negativo, São Paulo concentra os principais fluxos de entrada e de saída do país."
+        },
+        {
+          "text": "V – F – V.",
+          "explanation": "A segunda afirmativa é verdadeira (São Paulo está na faixa de saldo negativo, com retorno para o Nordeste) e a terceira é falsa, pois migração pendular é o deslocamento diário de ida e volta."
+        },
+        {
+          "text": "V – V – V.",
+          "explanation": "A terceira afirmativa é falsa: migração pendular é o vaivém diário entre casa e trabalho ou estudo; em Vidas Secas a família abandona a terra por causa da seca."
+        },
+        {
+          "text": "F – F – V.",
+          "explanation": "As duas primeiras afirmativas são verdadeiras, como mostra o mapa, e a terceira é falsa: os retirantes de Vidas Secas não fazem deslocamento diário de ida e volta."
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "key": "ufsm-2026-p2-q13",
+      "source": "Vestibular UFSM 2026 – Prova 2, questão 13 (UFSM)",
+      "kind": "Objective",
+      "subject": "geografia",
+      "statement": "A obra intitulada A Volta ao Mundo em 80 Dias foi escrita por Júlio Verne e conta a história de Phileas Fogg, um inglês que aceita o desafio de seus companheiros do Reform Club de dar a “volta ao mundo” em apenas 80 dias. A duração dessa viagem está diretamente ligada aos meios de transporte disponíveis na época; na atualidade seria realizada em poucos dias.\n\nConsiderando o contexto da história e os meios de transporte disponíveis na Primeira Revolução Industrial, qual tipo de motor para meios de transporte poderia ter sido utilizado na referida viagem?",
+      "options": [
+        {
+          "text": "De biocombustão.",
+          "explanation": "Motores movidos a biocombustíveis, como o etanol, só se difundiram no século XX."
+        },
+        {
+          "text": "De combustão.",
+          "explanation": "O motor de combustão interna é do fim do século XIX e marca a Segunda Revolução Industrial, com o petróleo; não estava disponível para as viagens de Phileas Fogg."
+        },
+        {
+          "text": "Elétrico.",
+          "explanation": "O motor elétrico aplicado aos transportes também pertence à Segunda Revolução Industrial, no fim do século XIX."
+        },
+        {
+          "text": "Nuclear.",
+          "explanation": "A propulsão nuclear só surgiu na segunda metade do século XX, em submarinos e navios."
+        },
+        {
+          "text": "A vapor.",
+          "explanation": "Correta. A Primeira Revolução Industrial teve como base a máquina a vapor movida a carvão, que impulsionava as locomotivas e os navios usados na viagem de Phileas Fogg."
+        }
+      ],
+      "correct": "E"
+    },
+    {
+      "key": "ufsm-2026-p2-q14",
+      "source": "Vestibular UFSM 2026 – Prova 2, questão 14 (UFSM)",
+      "kind": "Objective",
+      "subject": "artes-educacao-fisica",
+      "statement": "O livro de artista, ou livro-objeto, é uma manifestação artística que alia a arte visual à literatura, propondo um hibridismo das linguagens artísticas e ampliando os limites do objeto livro tradicional. Como pode ser observado na imagem do trabalho intitulado Livro da criação (1959), de Lygia Pape, o livro de artista se configura como um objeto estético que pode incorporar novos meios e formas para expressar a intenção do artista, indo além do mero conteúdo.\n\n![Fotografia em preto e branco de uma página do Livro da criação, de Lygia Pape: sobre uma base plana branca, um papel branco dobrado em pregas se abre como um leque em semicírculo, formando um volume no espaço.](img/ufsm/2026/prova-2/q14-1.png)\n\nFonte: PAPE, L. Livro da criação, 1959. In: HUBER, C. Lygia Pape. Revista Dasartes, n. 119, 2022. Disponível em: https://dasartes-media.storage.googleapis.com/dasartes.com.br/wp-content/uploads/2022/05/31094925/Livro-da-criacao_photos_v2_custom-Copy.jpg. Acesso em: 30 set. 2025.\n\nNo Brasil, a origem e o desenvolvimento do livro de artista estão intrinsecamente relacionados à influência das vanguardas modernas que surgem a partir da década de 1950, como o movimento da arte concreta, que teve sua ascensão com a formação do Grupo Ruptura, um grupo de poesia concreta. Esse grupo está diretamente relacionado ao Grupo Noigandres, fundado em 1952, responsável pela revista Noigandres, que se tornou um meio importante de divulgação da poesia concreta. Nesse período também ocorreram outros movimentos, como o neoconcretismo e a arte conceitual.\n\nNo contexto dos movimentos artísticos relacionados ao desenvolvimento do livro de artista, considere as afirmativas a seguir.\n\nI → A poesia concreta, surgida na década de 1950 no Brasil, desenvolveu-se como um aprimoramento da poesia tradicional, incluindo abordagens temáticas com maior liberdade expressiva, mas preservando os elementos sintáticos dos poemas organizados em versos que se estruturam em estrofes convencionais.\n\nII → No contexto do neoconcretismo brasileiro, o livro tornou-se um campo de criação onde a linguagem é visual e dinâmica, aproximando-se dos princípios neoconcretos que valorizam a interação sensorial e a participação subjetiva do leitor/espectador na construção da obra artística.\n\nIII → O movimento concreto foi desencadeado no Brasil em 1952 a partir da formação do Grupo Ruptura em São Paulo, liderado por Waldemar Cordeiro. Ainda nesse ano, surgiu também o grupo Noigandres (composto por Décio Pignatari e pelos irmãos Augusto e Haroldo de Campos), que se tornaria fundamental para o desenvolvimento da poesia concreta.\n\nIV → A arte conceitual brasileira ganhou força a partir da década de 1970 com artistas como Cildo Meireles, Artur Barrio e Mira Schendel, por meio da exploração da arte em diversos suportes, o que consistiria no interesse principal desse movimento artístico. Trata-se de uma forma de expressão que surge como reação ao formalismo e busca estimular a reflexão crítica por meio de linguagens, como textos, performances, instalações e outros meios não convencionais.\n\nEstá(ão) correta(s)",
+      "options": [
+        {
+          "text": "apenas II.",
+          "explanation": "A II está correta, mas a III também: o Grupo Ruptura, liderado por Waldemar Cordeiro, e o grupo Noigandres, de Décio Pignatari e dos irmãos Campos, surgiram em 1952."
+        },
+        {
+          "text": "apenas I e IV.",
+          "explanation": "A I está errada, porque a poesia concreta rompeu com o verso e com a sintaxe tradicional, e a IV também, porque na arte conceitual o que importa é a ideia, não a exploração de suportes."
+        },
+        {
+          "text": "apenas II e III.",
+          "explanation": "Correta. O neoconcretismo valoriza a experiência sensorial e a participação do espectador, como no Livro da criação, que o leitor manuseia (II), e em 1952 surgiram o Grupo Ruptura, em São Paulo, e o grupo Noigandres (III). A poesia concreta aboliu o verso e a estrofe tradicionais (I), e na arte conceitual a ideia prevalece sobre o suporte (IV)."
+        },
+        {
+          "text": "apenas I, II e III.",
+          "explanation": "A I está errada: a poesia concreta não preservou versos e estrofes convencionais; ela os substituiu pela organização visual das palavras na página."
+        },
+        {
+          "text": "apenas I, III e IV.",
+          "explanation": "A I e a IV estão erradas: a poesia concreta rompeu com o verso, e o interesse principal da arte conceitual é o conceito, a ideia, não a exploração de suportes em si."
+        }
+      ],
+      "correct": "C"
+    },
+    {
+      "key": "ufsm-2026-p2-q15",
+      "source": "Vestibular UFSM 2026 – Prova 2, questão 15 (UFSM)",
+      "kind": "Objective",
+      "subject": "matematica",
+      "statement": "Uma escola de ensino médio possui 600 alunos distribuídos em três turmas (1º, 2º e 3º anos). Após uma palestra da professora de literatura sobre gêneros literários clássicos, foi elaborada uma enquete, na qual os alunos deveriam declarar interesses pessoais em um dos temas da palestra. O quadro a seguir apresenta o resultado da enquete.\n\n```\nAno      Gênero Literário Clássico\n         Épico   Lírico   Dramático\n1º Ano   120     30       100\n2º Ano   80      20       50\n3º Ano   120     40       40\n```\n\nConsiderando os dados do quadro, assinale V (verdadeiro) ou F (falso) em cada afirmativa a seguir.\n\n( ) A probabilidade de um aluno escolhido ao acaso estar no 1º ano ou ter declarado interesse pelo gênero dramático é igual a 17/30.\n\n( ) A probabilidade de um aluno estar no 2º ano, dado que ele tenha declarado interesse pelo gênero épico, é de 1/4.\n\n( ) A probabilidade de um aluno ter declarado interesse por literatura lírica e estar cursando o 3º ano é de 2/3.\n\nA sequência correta é",
+      "options": [
+        {
+          "text": "V – V – V.",
+          "explanation": "A terceira afirmativa é falsa: são 40 alunos do 3º ano interessados no lírico em 600, isto é, 40/600 = 1/15. O valor 2/3 não corresponde a nenhuma leitura correta do quadro."
+        },
+        {
+          "text": "V – F – V.",
+          "explanation": "A segunda afirmativa é verdadeira (80 do 2º ano entre os 320 do épico = 1/4) e a terceira é falsa (40/600 = 1/15)."
+        },
+        {
+          "text": "F – F – V.",
+          "explanation": "As duas primeiras afirmativas são verdadeiras e a terceira é falsa: P(lírico e 3º ano) = 40/600 = 1/15."
+        },
+        {
+          "text": "V – V – F.",
+          "explanation": "Correta. 1º ano: 250 alunos; dramático: 190; ambos: 100; então P(1º ano ou dramático) = (250 + 190 − 100)/600 = 340/600 = 17/30 (V). Épico: 320 alunos, dos quais 80 do 2º ano: 80/320 = 1/4 (V). Lírico e 3º ano: 40/600 = 1/15, e não 2/3 (F)."
+        },
+        {
+          "text": "F – V – F.",
+          "explanation": "A primeira afirmativa é verdadeira: pela regra da união, (250 + 190 − 100)/600 = 340/600 = 17/30."
+        }
+      ],
+      "correct": "D"
+    },
+    {
+      "key": "ufsm-2026-p2-q16",
+      "source": "Vestibular UFSM 2026 – Prova 2, questão 16 (UFSM)",
+      "kind": "Objective",
+      "subject": "fisica",
+      "statement": "Livros ainda são feitos de papel. Para a produção do papel, prepara-se polpa de celulose num grande tanque (digestor), no qual a madeira, em forma de cavacos, é cozida a uma pressão de 8 atm e à temperatura de 165 ºC. No processo, a lignina, que une as fibras da madeira, é dissolvida com a adição de uma solução de água e certos reagentes químicos. Com pressão acima de 1 atm, a água pode ser mantida no estado líquido em temperaturas acima de 100 ºC. Considerando esse fato, assinale a alternativa correta.",
+      "options": [
+        {
+          "text": "A viscosidade da água aumenta com o aumento da pressão, e, por isso, a temperatura pode ser maior do que 100 ºC.",
+          "explanation": "A viscosidade mede a resistência do líquido ao escoamento e não determina a temperatura em que ele ferve."
+        },
+        {
+          "text": "O calor específico da água aumenta com o aumento da pressão e, por isso, a temperatura sobe.",
+          "explanation": "O calor específico indica quanta energia é necessária para aquecer a água, não até que temperatura ela permanece líquida."
+        },
+        {
+          "text": "A temperatura de ebulição da água líquida depende da pressão exercida sobre ela.",
+          "explanation": "Correta. O líquido ferve quando sua pressão de vapor iguala a pressão externa; sob 8 atm, a água só atinge essa condição acima de 165 ºC, por isso segue líquida no digestor, o mesmo princípio da panela de pressão."
+        },
+        {
+          "text": "O calor latente da água aumenta com o aumento da pressão e, por isso, a temperatura sobe.",
+          "explanation": "O calor latente é a energia necessária para a mudança de fase por unidade de massa; ele não explica o deslocamento do ponto de ebulição."
+        },
+        {
+          "text": "A temperatura de fusão da água depende da pressão exercida sobre ela.",
+          "explanation": "A temperatura de fusão também varia (pouco) com a pressão, mas o fato descrito, água líquida acima de 100 ºC, diz respeito à ebulição, não à fusão."
+        }
+      ],
+      "correct": "C"
+    },
+    {
+      "key": "ufsm-2026-p2-q17",
+      "source": "Vestibular UFSM 2026 – Prova 2, questão 17 (UFSM)",
+      "kind": "Objective",
+      "subject": "quimica",
+      "statement": "O papel tem grande importância na transmissão do conhecimento por meio de livros, jornais e revistas. Porém, a fabricação de papel envolve processos que emitem dióxido de carbono (CO₂). Na etapa de secagem, por exemplo, é utilizada a combustão do butano (C₄H₁₀) como fonte de calor, conforme a reação a seguir.\n\n2 C₄H₁₀(g) + 13 O₂(g) → 8 CO₂(g) + 10 H₂O(g) + calor\n\nConsiderando a queima completa do C₄H₁₀ em condições normais de temperatura e pressão (CNTP) e a média de consumo de 14 g de C₄H₁₀ para produzir um livro físico, assinale V (verdadeiro) ou F (falso) em cada afirmativa a seguir.\n\n( ) A produção de 10 livros físicos emite, aproximadamente, 140 g de CO₂.\n\n( ) A produção de 10 livros físicos emite, aproximadamente, 21,5 L de CO₂.\n\n( ) A produção de 100 livros físicos gera, aproximadamente, 4,2 kg de CO₂.\n\nA sequência correta é",
+      "options": [
+        {
+          "text": "V – F – V.",
+          "explanation": "A primeira afirmativa é falsa: 140 g é a massa de butano consumida em 10 livros, não a de CO₂ emitida, que é de cerca de 425 g."
+        },
+        {
+          "text": "F – F – V.",
+          "explanation": "Correta. 14 g de C₄H₁₀ (58 g/mol) são 0,241 mol, que geram 4 × 0,241 ≈ 0,966 mol de CO₂ por livro: 42,5 g ou 21,6 L na CNTP. Dez livros emitem cerca de 425 g (F) e 216 L (F); cem livros, cerca de 4.250 g ≈ 4,2 kg (V)."
+        },
+        {
+          "text": "F – V – F.",
+          "explanation": "A segunda afirmativa é falsa: 21,5 L é aproximadamente o volume de CO₂ de um único livro (0,966 mol × 22,4 L/mol); dez livros emitem cerca de 216 L. E a terceira é verdadeira."
+        },
+        {
+          "text": "F – V – V.",
+          "explanation": "A segunda afirmativa é falsa: cerca de 21,5 L de CO₂ correspondem a um livro, não a dez (seriam cerca de 216 L)."
+        },
+        {
+          "text": "V – V – F.",
+          "explanation": "As duas primeiras são falsas (10 livros emitem cerca de 425 g, ou 216 L, de CO₂) e a terceira é verdadeira (100 livros ≈ 4,2 kg)."
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "key": "ufsm-2026-p2-q18",
+      "source": "Vestibular UFSM 2026 – Prova 2, questão 18 (UFSM)",
+      "kind": "Objective",
+      "subject": "quimica",
+      "statement": "Uma pesquisa da Câmara Brasileira do Livro, realizada pela Nielsen BookData, mostra que, mesmo com a popularização dos e-books nos últimos anos, os livros de papel continuam sendo os mais escolhidos pelos leitores brasileiros. Dos participantes entrevistados, 56% compraram somente livros físicos nos 12 meses que antecederam a pesquisa.\n\nFonte: CÂMARA BRASILEIRA DO LIVRO; NIELSEN BOOKDATA. Panorama do consumo de livros: um estudo sobre o perfil e hábitos dos consumidores de livros no Brasil. São Paulo: Câmara Brasileira do Livro, 2025.\n\nSegundo o blog da editora UICLAP (plataforma brasileira de autopublicação), a explicação é sensorial: o cheiro do papel, o toque das páginas e a sensação de virar uma folha ainda são insubstituíveis para muitos leitores.\n\nFonte: UICLAP. Livro físico ou digital: qual a preferência dos leitores? Publicado em: 07 ago. 2024. Disponível em: https://blog.uiclap.com/livro-fisico-ou-digital-qual-a-preferencia-dos-leitores/. Acesso em: 21 jul. 2025. (Adaptado)\n\nO papel sulfite, um dos mais utilizados para impressão de livros, é obtido após vários processos químicos de tratamento da celulose. Uma das muitas etapas da fase de branqueamento da celulose para obtenção de papel é o teste de número Kappa, no qual a lignina presente na polpa da celulose é indiretamente quantificada, empregando-se uma reação com permanganato de potássio em meio ácido. Nesse teste, um excesso de permanganato de potássio é adicionado à solução contendo a polpa e, após 10 minutos, o excedente é quantificado volumetricamente por meio de titulação com ácido oxálico, conforme equação não balanceada.\n\nKMnO₄ + H₂C₂O₄ + H₂SO₄ → MnSO₄ + K₂SO₄ + CO₂ + H₂O\n\nSabendo-se que a polpa foi tratada com 30 mL de uma solução de KMnO₄ 10 M e, após cessar a reação inicial, foram utilizados 10 mL da solução de H₂C₂O₄ 25 M para reagir com o KMnO₄ restante, quantos mols de KMnO₄ foram consumidos pela reação inicial com a polpa da celulose?",
+      "options": [
+        {
+          "text": "0,05 mols",
+          "explanation": "O valor não sai da estequiometria: do total de 0,3 mol de KMnO₄, 0,1 mol sobrou e foi titulado, restando 0,2 mol consumido pela polpa."
+        },
+        {
+          "text": "0,1 mol",
+          "explanation": "0,1 mol é o KMnO₄ em excesso, o que reagiu com o ácido oxálico na titulação (0,25 mol de H₂C₂O₄ × 2/5), e não o que a polpa consumiu."
+        },
+        {
+          "text": "0,2 mols",
+          "explanation": "Correta. Balanceando: 2 KMnO₄ + 5 H₂C₂O₄ + 3 H₂SO₄ → 2 MnSO₄ + K₂SO₄ + 10 CO₂ + 8 H₂O. Adicionado: 0,030 L × 10 mol/L = 0,3 mol de KMnO₄. Ácido oxálico: 0,010 L × 25 mol/L = 0,25 mol, que reage com 0,25 × 2/5 = 0,1 mol de KMnO₄ (o excesso). Consumido pela polpa: 0,3 − 0,1 = 0,2 mol."
+        },
+        {
+          "text": "0,25 mols",
+          "explanation": "0,25 mol é a quantidade de ácido oxálico usada na titulação (0,010 L × 25 mol/L), não a de KMnO₄ consumido."
+        },
+        {
+          "text": "0,3 mols",
+          "explanation": "0,3 mol é todo o KMnO₄ adicionado (0,030 L × 10 mol/L); é preciso descontar o 0,1 mol que sobrou e foi titulado."
+        }
+      ],
+      "correct": "C"
+    },
+    {
+      "key": "ufsm-2026-p2-q19",
+      "source": "Vestibular UFSM 2026 – Prova 2, questão 19 (UFSM)",
+      "kind": "Objective",
+      "subject": "fisica",
+      "statement": "No processo de impressão offset de livros, por exemplo, a tinta é transferida para um substrato e, dele, para o papel. Um dos fatores relevantes para a qualidade da impressão é a viscosidade da tinta. Uma tinta com alta viscosidade pode dificultar a transferência da imagem para o substrato, fazendo com que a imagem impressa perca nitidez. Uma tinta com baixa viscosidade pode levar a imagens impressas com borrões. É correto afirmar que o efeito produzido, dependendo da viscosidade de um líquido, será",
+      "options": [
+        {
+          "text": "evaporar mais rapidamente, apesar da intensidade das forças intermoleculares.",
+          "explanation": "A rapidez de evaporação depende da pressão de vapor do líquido, ligada às forças intermoleculares e à temperatura, e não é o efeito que define a viscosidade."
+        },
+        {
+          "text": "espalhar-se com maior ou menor rapidez sobre uma superfície plana.",
+          "explanation": "Correta. Viscosidade é a resistência do líquido ao escoamento: o pouco viscoso espalha-se depressa (daí os borrões) e o muito viscoso escoa devagar (daí a dificuldade de transferência)."
+        },
+        {
+          "text": "passar do estado líquido para o estado sólido com maior ou menor rapidez.",
+          "explanation": "A passagem para o estado sólido depende da temperatura de fusão e da troca de calor, não da viscosidade."
+        },
+        {
+          "text": "sustentar, sobre a superfície livre do líquido, pequenos objetos, como agulhas de aço, e insetos, como mosquitos.",
+          "explanation": "Sustentar agulhas e insetos na superfície é efeito da tensão superficial."
+        },
+        {
+          "text": "elevar-se, no interior de tubos capilares, acima do nível da superfície livre do resto do líquido.",
+          "explanation": "A subida do líquido em tubos finos é a capilaridade, resultado da tensão superficial e da adesão às paredes."
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "key": "ufsm-2026-p2-q20",
+      "source": "Vestibular UFSM 2026 – Prova 2, questão 20 (UFSM)",
+      "kind": "Objective",
+      "subject": "biologia",
+      "statement": "A preservação de livros e documentos é uma preocupação antiga do ser humano. Existem diversas técnicas e produtos que foram desenvolvidos, ao longo do tempo, para ajudar nessa missão. Os maiores vilões para a preservação são as traças, os cupins, as baratas, que vivem e se alimentam de praticamente tudo o que compõe um livro: papel, cola, couro, fios naturais, fotografias, adesivos, entre outros.\n\nFonte: INSETKAN. Você sabe o que são insetos bibliófagos? Disponível em: https://insetkan.com.br/voce-sabe-o-que-sao-insetos-bibliofagos/. Acesso em: 14 set. 2025. (Adaptado)\n\nSobre esses vilões e suas características, assinale V (verdadeiro) ou F (falso) em cada afirmativa a seguir.\n\n( ) São heterotróficos, cuja nutrição é obtida do meio externo a partir de moléculas orgânicas.\n\n( ) São animais ametábolos, que não apresentam qualquer tipo de metamorfose.\n\n( ) São animais com corpo segmentado, que possuem exoesqueleto e três pares de pernas.\n\nA sequência correta é",
+      "options": [
+        {
+          "text": "V – V – F.",
+          "explanation": "A segunda afirmativa é falsa (só as traças são ametábolas; cupins e baratas têm metamorfose incompleta) e a terceira é verdadeira."
+        },
+        {
+          "text": "F – F – V.",
+          "explanation": "A primeira afirmativa é verdadeira (todo animal é heterótrofo) e a segunda é falsa."
+        },
+        {
+          "text": "V – F – V.",
+          "explanation": "Correta. Insetos, como todos os animais, são heterótrofos (V); as traças-dos-livros são ametábolas, mas cupins e baratas são hemimetábolos, com metamorfose incompleta (F); e todos são insetos: artrópodes de corpo segmentado, com exoesqueleto de quitina e três pares de pernas (V)."
+        },
+        {
+          "text": "V – V – V.",
+          "explanation": "A segunda afirmativa é falsa: cupins e baratas passam por metamorfose incompleta (ovo, ninfa e adulto); apenas as traças não têm metamorfose."
+        },
+        {
+          "text": "F – V – F.",
+          "explanation": "A primeira e a terceira afirmativas são verdadeiras, e a segunda é falsa: não vale para os três grupos."
+        }
+      ],
+      "correct": "C"
+    },
+    {
+      "key": "ufsm-2026-p2-q21",
+      "source": "Vestibular UFSM 2026 – Prova 2, questão 21 (UFSM)",
+      "kind": "Objective",
+      "subject": "biologia",
+      "statement": "A obra Systema Naturae, organizada pelo naturalista sueco Carl Von Linné, introduziu um sistema hierárquico de classificação natural e estabeleceu o sistema de nomenclatura binomial. Publicado pela primeira vez em 1735, o livro foi disseminado e tornou-se a base da moderna taxonomia biológica.\n\nA figura que segue ilustra parte do tema abordado nesse livro.\n\n![Charge: um biólogo sorridente, de chapéu e colete, caminha pela mata com uma lupa na mão. Escondidos entre as folhas, dois insetos o observam, e um diz ao outro: NÃO OLHE AGORA, MAS ESTÁ CHEGANDO MAIS UM BIÓLOGO, AQUELES QUE COLOCAM NOMES ESQUISITOS NA GENTE.](img/ufsm/2026/prova-2/q21-1.png)\n\nFonte: AVENTUREIROS DA BIOLOGIA. Charges de Biologia. Disponível em: https://aventureirosembiologia.blogspot.com/. Acesso em: 14 set. 2025.\n\nA partir do exposto, considere as afirmativas a seguir.\n\nI → Os “nomes esquisitos” referem-se aos nomes científicos, que representam a identidade dos seres vivos.\n\nII → O ato de nomear cientificamente as espécies é o primeiro passo para a sua conservação.\n\nIII → Os nomes científicos garantem que as espécies de seres vivos sejam divulgadas de forma clara e universal, sem confusões causadas pelos nomes populares.\n\nIV → O conhecimento sobre os nomes científicos dos seres vivos pode evitar o risco de acidentes com a saúde de animais e de seres humanos.\n\nEstão corretas",
+      "options": [
+        {
+          "text": "apenas I e II.",
+          "explanation": "I e II estão corretas, mas III e IV também: o nome científico é universal e permite identificar com segurança espécies perigosas."
+        },
+        {
+          "text": "apenas I e III.",
+          "explanation": "I e III estão corretas, mas também II (só se protege a espécie que foi descrita e identificada) e IV (identificar a espécie evita acidentes)."
+        },
+        {
+          "text": "apenas II e IV.",
+          "explanation": "II e IV estão corretas, mas também I e III: os “nomes esquisitos” são os nomes científicos, únicos e universais."
+        },
+        {
+          "text": "apenas III e IV.",
+          "explanation": "III e IV estão corretas, mas também I e II: o nome científico identifica cada espécie e é o ponto de partida para conhecê-la e conservá-la."
+        },
+        {
+          "text": "I, II, III e IV.",
+          "explanation": "Correta. Os “nomes esquisitos” são os nomes científicos binomiais de Lineu, que identificam cada espécie (I); descrever e nomear é a etapa inicial para estudar e proteger uma espécie (II); o nome em latim é único e válido no mundo todo, ao contrário dos nomes populares (III); e a identificação precisa permite reconhecer espécies venenosas, peçonhentas ou tóxicas (IV)."
+        }
+      ],
+      "correct": "E"
+    },
+    {
+      "key": "ufsm-2026-p2-q22",
+      "source": "Vestibular UFSM 2026 – Prova 2, questão 22 (UFSM)",
+      "kind": "Objective",
+      "subject": "fisica",
+      "statement": "Segundo o paradigma científico atual, os aspectos relevantes associados ao conceito de calor são: o sentido da transferência de energia, sua espontaneidade e sua ocorrência entre dois ou mais corpos com diferentes temperaturas. Buscando o modo como esses aspectos são apresentados em diversos materiais de divulgação científica, incluindo-se revistas, jornais, canais do YouTube e livros didáticos do ensino médio, foram encontradas as afirmativas a seguir. Assinale a alternativa compatível com o paradigma científico atual.",
+      "options": [
+        {
+          "text": "A passagem espontânea de calor de um corpo a outro termina quando os dois corpos atingem o equilíbrio térmico.",
+          "explanation": "Correta. Calor é energia em trânsito provocada por diferença de temperatura; a transferência espontânea vai do corpo mais quente para o mais frio e cessa quando as temperaturas se igualam (equilíbrio térmico)."
+        },
+        {
+          "text": "Um litro de água a 100 ºC tem mais calor que meio litro de água também a 100 ºC.",
+          "explanation": "Corpos não “têm” calor: calor é energia em trânsito. Um litro de água a 100 ºC tem mais energia interna que meio litro na mesma temperatura."
+        },
+        {
+          "text": "Um corpo quente tem mais calor do que um corpo frio.",
+          "explanation": "A frase trata o calor como algo contido no corpo; o que o corpo quente tem é temperatura maior, e calor é a energia transferida por causa dessa diferença."
+        },
+        {
+          "text": "Corpos com diferentes energias internas devem ter, necessariamente, diferentes temperaturas.",
+          "explanation": "A energia interna depende também da massa e da substância: dois corpos podem ter energias internas diferentes e a mesma temperatura, como um litro e meio litro de água a 100 ºC."
+        },
+        {
+          "text": "O calor se propaga exclusivamente de um corpo de maior temperatura para outro de menor temperatura.",
+          "explanation": "O sentido do quente para o frio vale para a transferência espontânea; com realização de trabalho, como numa geladeira, a energia passa do corpo frio para o quente, e a palavra “exclusivamente” torna a frase incorreta."
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "key": "ufsm-2026-p2-q23",
+      "source": "Vestibular UFSM 2026 – Prova 2, questão 23 (UFSM)",
+      "kind": "Objective",
+      "subject": "matematica",
+      "statement": "Uma editora, responsável pela produção de livros didáticos para o ensino médio, está desenvolvendo a arte para a capa de uma nova coleção, composta por um conjunto de três livros, um para cada ano do curso. O projeto de capa deve ser desenvolvido de maneira que, ao se posicionarem os três livros lado a lado, obtenha-se a imagem de uma linha contínua que liga o canto inferior esquerdo do Livro 1 (ponto A), passe pelo Livro 2 e termine no ponto B, na margem direita do Livro 3. Forma-se, assim, um triângulo retângulo ABC, em que C é o ponto no canto inferior direito do Livro 3, como ilustrado na imagem a seguir.\n\n![Três retângulos iguais lado a lado, rotulados Livro 1, Livro 2 e Livro 3, formando um retângulo maior. O ponto A é o canto inferior esquerdo do Livro 1, C é o canto inferior direito do Livro 3 e D é o canto superior direito do Livro 3. O ponto B fica no lado direito do Livro 3, entre D e C. Um segmento reto liga A a B, cruzando os três livros, e o triângulo ABC, abaixo desse segmento, está pintado de cinza; o ângulo α é o do vértice A, entre AC e AB.](img/ufsm/2026/prova-2/q23-1.png)\n\nPor questões de estética, decidiu-se que o ponto B deve estar a uma distância de 10 cm do ponto D (no canto superior direito). O triângulo ABC será preenchido por uma cor sólida (cinza), e o restante da capa será mantido na cor branca.\n\nConsidere que a capa de cada um dos livros tem o formato de um retângulo de base igual a 21 cm e altura igual a 30 cm e que o ângulo CÂB mede α graus.\n\nNessas condições, é correto afirmar que o valor da área preenchida pela cor cinza (em cm²) na capa do Livro 3 dessa coleção é igual a",
+      "options": [
+        {
+          "text": "210",
+          "explanation": "210 cm² é um terço da área do triângulo ABC (630 ÷ 3), mas a parte cinza não se divide igualmente entre os livros: ela cresce da esquerda para a direita."
+        },
+        {
+          "text": "250",
+          "explanation": "O valor não corresponde ao trapézio cinza do Livro 3, cujas bases medem 40/3 cm e 20 cm e cuja altura é 21 cm."
+        },
+        {
+          "text": "310",
+          "explanation": "O valor não corresponde ao trapézio cinza do Livro 3: (40/3 + 20) × 21/2 = 350 cm²."
+        },
+        {
+          "text": "350",
+          "explanation": "Correta. BC = 30 − 10 = 20 cm e AC = 3 × 21 = 63 cm. No Livro 3, a região cinza é um trapézio: por semelhança, a altura da linha na divisa com o Livro 2 (a 42 cm de A) é 20 × 42/63 = 40/3 cm, e na margem direita é 20 cm. Área = (40/3 + 20) × 21/2 = 350 cm². (Ou: área de ABC, 630, menos o triângulo menor até 42 cm, 42 × (40/3)/2 = 280.)"
+        },
+        {
+          "text": "420",
+          "explanation": "420 cm² é a área do retângulo de 21 cm por 20 cm (toda a faixa do Livro 3 até a altura de B); a região cinza é só o trapézio abaixo da linha AB."
+        }
+      ],
+      "correct": "D"
+    },
+    {
+      "key": "ufsm-2026-p2-q24",
+      "source": "Vestibular UFSM 2026 – Prova 2, questão 24 (UFSM)",
+      "kind": "Objective",
+      "subject": "matematica",
+      "statement": "Uma rede de livrarias tem suas vendas de livros contabilizadas aos milhares a cada trimestre e, por simplificação, tal contabilidade é separada em apenas dois grandes grupos: didáticos e não didáticos. As quantidades vendidas a cada trimestre t, contadas aos milhares, são\n\nV₁(t) = 500 + 200 · cos[(π/2)(t – 1)]\n\nde livros didáticos e\n\nV₂(t) = 600 + 200 · sen[(π/2)(t – 1)]\n\nde livros não didáticos, onde t=1 corresponde ao primeiro trimestre do ano, t=2, ao segundo trimestre e assim por diante.\n\nConsiderando essas informações, é correto afirmar que o número total de livros, em milhares, vendidos por essa rede de livrarias num ano inteiro é",
+      "options": [
+        {
+          "text": "1 100",
+          "explanation": "1 100 é a soma das partes constantes (500 + 600) de um único trimestre; o ano tem quatro trimestres."
+        },
+        {
+          "text": "1 300",
+          "explanation": "1 300 é o total do primeiro trimestre apenas: V₁(1) + V₂(1) = 700 + 600."
+        },
+        {
+          "text": "2 300",
+          "explanation": "O valor não corresponde à soma dos quatro trimestres, que é 1 300 + 1 300 + 900 + 900 = 4 400."
+        },
+        {
+          "text": "3 100",
+          "explanation": "O valor não corresponde à soma dos quatro trimestres: as parcelas com seno e cosseno se anulam ao longo do ano e restam 4 × (500 + 600) = 4 400."
+        },
+        {
+          "text": "4 400",
+          "explanation": "Correta. Para t = 1, 2, 3, 4, o ângulo (π/2)(t − 1) vale 0, π/2, π e 3π/2: os cossenos (1, 0, −1, 0) e os senos (0, 1, 0, −1) somam zero. Total do ano = 4 × 500 + 4 × 600 = 4 400 (trimestre a trimestre: 1 300 + 1 300 + 900 + 900)."
+        }
+      ],
+      "correct": "E"
+    },
+    {
+      "key": "ufsm-2026-p2-q25",
+      "source": "Vestibular UFSM 2026 – Prova 2, questão 25 (UFSM)",
+      "kind": "Objective",
+      "subject": "geografia",
+      "statement": "Mangás e animes são cada vez mais consumidos no Brasil. Mangá é o termo usado para histórias em quadrinhos de origem japonesa. Anime é um produto complementar do mangá e trata de desenhos animados.\n\nBerto e Almeida (2021, p. 200) afirmam que “no Brasil se concentra a maior quantidade de japoneses fora do Japão em todo o mundo. Mesmo antes da publicação oficial de títulos no país, os imigrantes que aqui residiam importavam mangás e, influenciados pelo estilo de quadrinhos japoneses e, posteriormente, pelos animes, passaram a produzir conteúdo próprio. As histórias refletiam de início a cultura japonesa em si e, com o passar do tempo, passaram a ter traços culturais brasileiros”.\n\nFonte: BERTO, R. G.; ALMEIDA, M. C. A cadeia produtiva do mangá. Arquivos do CMD. v. 9, n. 01, jan./jul. 2021.\n\nCom relação à globalização e à Geografia Cultural, considere as afirmativas a seguir.\n\nI → Os mangás estão ligados a uma convergência de mídias proporcionada por avanços tecnológicos; estão presentes em jogos, músicas e cosplays, caracterizando um universo cultural interconectado.\n\nII → Os mangás passaram por um processo de hibridismo cultural no Brasil, que é a retirada de traços japoneses e a substituição por personagens da cultura brasileira.\n\nIII → Mangás e animes são produtos conhecidos em diversos países, pois a globalização facilitou a sua disseminação como um fenômeno cultural, levando o entretenimento japonês para vários países.\n\nIV → Mangás e animes estão relacionados às cadeias produtivas internacionais, na medida em que empresas globais atuam na distribuição desses produtos culturais, capitalizando-os.\n\nEstá(ão) correta(s)",
+      "options": [
+        {
+          "text": "apenas I.",
+          "explanation": "A I está correta, mas III e IV também: a globalização difundiu mangás e animes pelo mundo, e eles circulam por cadeias produtivas internacionais."
+        },
+        {
+          "text": "apenas I e II.",
+          "explanation": "A II está errada: hibridismo cultural é mistura de elementos de culturas diferentes, não a retirada dos traços japoneses e sua substituição."
+        },
+        {
+          "text": "apenas II e IV.",
+          "explanation": "A II está errada, pois hibridismo não é substituição de uma cultura por outra, e ficaram de fora I e III, que estão corretas."
+        },
+        {
+          "text": "apenas I, III e IV.",
+          "explanation": "Correta. Os mangás integram um universo de mídias interligadas, com jogos, músicas e cosplays (I), espalharam-se pelo mundo com a globalização (III) e são distribuídos por empresas globais que lucram com esses produtos culturais (IV). A II erra ao definir hibridismo: o texto fala em histórias que “passaram a ter traços culturais brasileiros”, somando-os aos japoneses, sem substituí-los."
+        },
+        {
+          "text": "apenas II, III e IV.",
+          "explanation": "III e IV estão corretas, mas a II não: no hibridismo, traços japoneses e brasileiros se combinam; e a I, também correta, ficou de fora."
+        }
+      ],
+      "correct": "D"
+    },
+    {
+      "key": "ufsm-2026-p2-q26",
+      "source": "Vestibular UFSM 2026 – Prova 2, questão 26 (UFSM)",
+      "kind": "Objective",
+      "subject": "quimica",
+      "statement": "Equipamentos eletrônicos utilizados na leitura de livros digitais podem superaquecer devido ao uso prolongado. Para evitar que isso ocorra, utiliza-se um sistema de resfriamento líquido, no qual o etilenoglicol é adicionado à água, evitando que o líquido evapore rapidamente.\n\nCom relação às soluções contendo solutos não voláteis, como a de etilenoglicol em água, considere as afirmativas a seguir.\n\nI → A temperatura inicial de ebulição da solução é sempre maior que a do solvente puro, sendo a elevação de temperatura proporcional à concentração do soluto.\n\nII → O etilenoglicol diminui a pressão de vapor da água, deslocando o equilíbrio líquido-vapor e elevando a temperatura de ebulição.\n\nIII → A elevação na temperatura de ebulição de uma solução só depende da molalidade da solução, não sendo dependente da natureza do soluto, desde que esse seja não iônico e não volátil.\n\nIV → A pressão atmosférica mais elevada reduz a energia cinética necessária para a vaporização do líquido, aumentando, assim, a pressão máxima de vapor.\n\nEstá(ão) correta(s)",
+      "options": [
+        {
+          "text": "apenas II.",
+          "explanation": "A II está correta, mas I e III também descrevem corretamente a ebulioscopia, propriedade coligativa."
+        },
+        {
+          "text": "apenas I e II.",
+          "explanation": "I e II estão corretas, mas a III também: o efeito coligativo depende da quantidade de partículas de soluto (molalidade), não da sua natureza."
+        },
+        {
+          "text": "apenas III e IV.",
+          "explanation": "A IV está errada: pressão atmosférica maior dificulta a ebulição e não altera a pressão máxima de vapor, que depende do líquido e da temperatura."
+        },
+        {
+          "text": "apenas I, II e III.",
+          "explanation": "Correta. O soluto não volátil reduz a pressão de vapor do solvente (II); por isso a solução começa a ferver em temperatura maior que a do solvente puro, com elevação proporcional à concentração (I), que depende só da molalidade quando o soluto é molecular e não volátil (III). A IV é falsa: a pressão máxima de vapor não depende da pressão atmosférica."
+        },
+        {
+          "text": "apenas I, III e IV.",
+          "explanation": "I e III estão corretas, mas a IV não: a pressão atmosférica mais alta eleva a temperatura de ebulição e não reduz a energia necessária para vaporizar; e a II, correta, ficou de fora."
+        }
+      ],
+      "correct": "D"
+    },
+    {
+      "key": "ufsm-2026-p2-q27",
+      "source": "Vestibular UFSM 2026 – Prova 2, questão 27 (UFSM)",
+      "kind": "Objective",
+      "subject": "artes-educacao-fisica",
+      "statement": "![Fotografia em preto e branco, vista de cima: um jovem deitado em uma cama, de fones de ouvido, cobre os olhos com a mão, em sinal de cansaço. Ao redor dele estão espalhados um notebook, um tablet, vários celulares, um mouse, um despertador, óculos, cadernos e livros, um deles aberto sobre sua barriga.](img/ufsm/2026/prova-2/q27-1.png)\n\nFonte: CONSUMIDOR MODERNO. Cansaço mental e excesso de telas. Publicado em: 14 set. 2020. Disponível em: https://consumidormoderno.com.br/telas-em-excesso-fadiga-ocular/. Acesso em: 10 set. 2025.\n\nA leitura do livro requer uma postura corporal em que o tempo se estende em um momento de reflexão e contemplação de si e do mundo.\n\nNo século XXI, a publicação de e-books e o uso de diversos equipamentos para leitura digital, com a democratização do acesso ao conhecimento motivado por baixo custo e maior difusão, trouxeram questões importantes, como o aumento de casos de estresse e ansiedade, bem como a diminuição da aprendizagem de crianças e jovens nas escolas.\n\nDestaque-se que, em 2024, o termo brain fog (névoa cerebral) foi eleito a palavra do ano pelo Dicionário Oxford, referindo-se à deterioração mental pelo consumo excessivo de conteúdo superficial por meio de telas, modificando inclusive capacidades físico-motoras.\n\nO processo de construção de conhecimento no cérebro ocorre na conexão de diferentes redes neurais que atuam no gerenciamento da atenção com a postura corporal e as informações captadas. Quando há o bombardeio constante de estímulos variáveis, há a afetação da capacidade de atenção sustentada e contextualizada, fundamental para o aprendizado.\n\nPor essa razão, a postura corporal, quando se lê algo em formato digital, influencia não apenas a redução do fluxo sanguíneo para o cérebro, como também a manutenção das redes neurais necessárias para a recordação significativa e ampliada na memória.\n\nPor exemplo, a Suécia, em 2023, desistiu da educação 100% digital e retornou à impressão de livros devido aos resultados desanimadores sobre o desenvolvimento cognitivo e mental dos estudantes que indicaram dificuldade de concentração e de criação.\n\nCom base nas informações apresentadas no texto e na imagem, considere as afirmativas a seguir.\n\nI → A leitura digital propicia um círculo vicioso, com maior probabilidade de consumo de conteúdo de baixa qualidade e aumento do tempo de tela.\n\nII → A ausência de movimento e a inclinação expressiva da cabeça resultam em ganho democrático de retenção da informação lida.\n\nIII → O uso excessivo de conteúdo superficial e o consumo compulsivo de conteúdo de baixa qualidade enfraquecem a memória.\n\nIV → A sensação de estar lento, no brain fog, torna-se imperceptível, ocasionando dificuldade para pensar com clareza e realizar tarefas básicas.\n\nEstão corretas",
+      "options": [
+        {
+          "text": "apenas I e II.",
+          "explanation": "A II está errada: o texto associa a postura da leitura em telas à redução do fluxo sanguíneo para o cérebro e a prejuízo da memória, não a ganho de retenção."
+        },
+        {
+          "text": "apenas I e III.",
+          "explanation": "Correta. O texto relaciona a leitura digital ao bombardeio de estímulos e ao consumo excessivo de conteúdo superficial, que se retroalimentam com o tempo de tela (I), e afirma que esse consumo deteriora a mente e compromete as redes neurais da memória (III). A II inverte o efeito da postura, e a IV erra porque a lentidão do brain fog é percebida por quem a sente."
+        },
+        {
+          "text": "apenas II e IV.",
+          "explanation": "II e IV estão erradas: a postura diante das telas prejudica a retenção, e a sensação de lentidão da névoa cerebral é perceptível, não imperceptível."
+        },
+        {
+          "text": "apenas III e IV.",
+          "explanation": "A III está correta, mas a IV não: se a sensação de lentidão fosse imperceptível, não seria sensação; no brain fog a pessoa percebe a dificuldade de pensar com clareza."
+        },
+        {
+          "text": "apenas I, II e IV.",
+          "explanation": "A I está correta, mas II e IV não: não há ganho de retenção com a postura inclinada e imóvel, e a lentidão do brain fog é percebida."
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "key": "ufsm-2026-p2-q28",
+      "source": "Vestibular UFSM 2026 – Prova 2, questão 28 (UFSM)",
+      "kind": "Objective",
+      "subject": "geografia",
+      "statement": "A indústria de produção de livros físicos e digitais está em evolução, com o crescimento da demanda por e-books e a manutenção da importância de livros impressos, o que possibilita atender a diferentes perfis de leitores. Com relação ao livro físico e ao digital e suas vantagens e desvantagens no contexto ambiental e socioeconômico, assinale V (verdadeiro) ou F (falso) em cada afirmativa a seguir.\n\n( ) Uma vantagem de livros digitais disponíveis em equipamentos de leitura está em armazenar milhares de obras sem a utilização de papel. Uma desvantagem é que a sua produção envolve consumo de água e energia, além do uso de plásticos originados de combustíveis fósseis.\n\n( ) Uma vantagem dos livros físicos é que podem ser guardados por anos e compartilhados por diversos leitores. Uma desvantagem é que, na produção em gráficas, utiliza-se celulose e, no transporte aos leitores, ocorre a emissão de CO₂ e o uso de combustíveis fósseis.\n\n( ) Uma vantagem dos livros digitais é que privilegiam leitores com domínio de tecnologias e com alta renda. Uma desvantagem é que autores independentes conseguem atingir diferentes perfis de leitores.\n\nA sequência correta é",
+      "options": [
+        {
+          "text": "V – F – V.",
+          "explanation": "A segunda afirmativa é verdadeira (o livro físico dura e circula entre leitores, mas consome celulose e seu transporte emite CO₂) e a terceira é falsa."
+        },
+        {
+          "text": "F – V – F.",
+          "explanation": "A primeira afirmativa é verdadeira: o leitor digital dispensa papel, mas fabricá-lo consome água, energia e plásticos derivados do petróleo."
+        },
+        {
+          "text": "V – V – F.",
+          "explanation": "Correta. As duas primeiras afirmativas apontam vantagens e desvantagens reais de cada suporte (V, V). A terceira inverte os termos: privilegiar quem tem renda alta e domínio de tecnologia é uma desvantagem (exclusão digital), e o alcance dos autores independentes é uma vantagem (F)."
+        },
+        {
+          "text": "F – V – V.",
+          "explanation": "A primeira afirmativa é verdadeira e a terceira é falsa: favorecer só leitores de alta renda é desvantagem, e dar alcance a autores independentes é vantagem."
+        },
+        {
+          "text": "V – F – F.",
+          "explanation": "A segunda afirmativa também é verdadeira: celulose na produção e combustíveis fósseis no transporte são custos ambientais do livro impresso."
+        }
+      ],
+      "correct": "C"
+    },
+    {
+      "key": "ufsm-2026-p2-q29",
+      "source": "Vestibular UFSM 2026 – Prova 2, questão 29 (UFSM)",
+      "kind": "Objective",
+      "subject": "historia",
+      "statement": "A ampliação [do público leitor] deve ter sido mais acentuada nas cidades, pois se acredita que na época diminuiu o número de pequenos proprietários rurais, cujos rendimentos possivelmente se mantiveram estáveis ou decresceram, enquanto aumentavam o número e a riqueza de comerciantes, profissionais liberais independentes, funcionários administrativos e membros do clero. Sua abastança crescente provavelmente os levou à órbita da cultura da classe média, até então reservada a um número menor de comerciantes e artesãos bem-sucedidos. É possível que se deva a eles a expansão mais significativa do público comprador de livros.\n\nFonte: WATT, I. A ascensão do romance: estudos sobre Defoe, Richardson e Fielding. Trad. Hildegard Feist. São Paulo: Cia das Letras, 1990. p. 39. (Adaptado)\n\nO excerto faz referência à amplificação dos leitores na Inglaterra do século XVIII. No Brasil, houve um aumento do público leitor no século XIX, devido",
+      "options": [
+        {
+          "text": "à ampliação de atividades da economia secundária e terciária, incluindo o incremento do urbanismo.",
+          "explanation": "Correta. Como na Inglaterra descrita por Watt, o público leitor brasileiro cresceu com a vida urbana do século XIX: comércio, serviços, funcionalismo e profissões liberais, sobretudo no Rio de Janeiro, formaram as camadas médias que compravam jornais, folhetins e romances."
+        },
+        {
+          "text": "à criação da Imprensa Régia e às leis estatais de alfabetização e promoção da leitura.",
+          "explanation": "A Imprensa Régia foi criada em 1808, mas não houve no século XIX políticas estatais efetivas de alfabetização e promoção da leitura; a maioria da população seguiu analfabeta."
+        },
+        {
+          "text": "à transição da mão de obra escrava para a assalariada e à taxa de alfabetização no país.",
+          "explanation": "A taxa de alfabetização era muito baixa em todo o século (o censo de 1872 registrou mais de 80% de analfabetos), e o trabalho assalariado só se generalizou no fim do período."
+        },
+        {
+          "text": "à aplicação de fundos oriundos da oligarquia cafeeira na alfabetização de imigrantes.",
+          "explanation": "Os cafeicultores não financiaram a alfabetização de imigrantes; a escolarização não era prioridade da oligarquia."
+        },
+        {
+          "text": "à fundação da Editora Clássica, em 1834, decorrente da consolidação do comércio e da indústria.",
+          "explanation": "Em 1834 o Brasil tinha economia agrária e escravista, sem indústria consolidada que pudesse explicar a ampliação do público leitor."
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "key": "ufsm-2026-p2-q30",
+      "source": "Vestibular UFSM 2026 – Prova 2, questão 30 (UFSM)",
+      "kind": "Objective",
+      "subject": "lingua-portuguesa",
+      "statement": "Uma pesquisa publicada em 2025 investigou o perfil e os hábitos de compra do consumidor de livros. O gráfico a seguir apresenta o resultado acerca dos motivos para a escolha do local da última compra de livro digital.\n\n![Gráfico de barras horizontais. Título: Consumidores de livros – Última compra de livros digitais. Motivos para a escolha do local da última compra de LIVRO DIGITAL, em 2023 e em 2024. Preço: 68,1% em 2023 e 59,7% em 2024. Disponibilidade: 49,3% e 37,7%. Variedade de títulos: 33,9% e 31,7%. Serviço/Atendimento: 8,9% e 18,7%. Tinha um vale-presente voucher do local: 11,6% e 15,2%. Pré-venda: 5,9% e 8,3%. Praticidade: sem valor em 2023 e 2,2% em 2024. Possuo um e-reader: 0,4% e 1,2%. Outros: 0,6% e 0,4%.](img/ufsm/2026/prova-2/q30-1.png)\n\nFonte: CÂMARA BRASILEIRA DO LIVRO. Panorama do consumo de livros. Publicado em: jan. 2025. Disponível em: https://clb.org.br/wp-content/uploads/2025/02/2024_Panorama-do-Consumo-de-Livros_Imprensa_V2-1.pdf. Acesso em: 17 dez. 2025.\n\nCom relação às informações depreendidas do gráfico, considere as afirmativas a seguir.\n\nI → O resultado da pesquisa mostrou que, em 2024, os três principais fatores para a compra de livros digitais regrediram numericamente.\n\nII → Um dos motivos que impulsionou a venda de obras digitais em 2023 foi o pré-pagamento de livros.\n\nIII → O relacionamento com o cliente é o fator que mais cresceu em 2024.\n\nIV → A disponibilidade de livros digitais e a pré-venda foram determinantes para a compra de livros digitais em 2024.\n\nEstão corretas",
+      "options": [
+        {
+          "text": "apenas I e II.",
+          "explanation": "A I está correta, mas a II não: a pré-venda teve só 5,9% em 2023, um dos menores índices, e pré-venda não é o mesmo que pré-pagamento."
+        },
+        {
+          "text": "apenas I e III.",
+          "explanation": "Correta. Preço (68,1% → 59,7%), disponibilidade (49,3% → 37,7%) e variedade de títulos (33,9% → 31,7%), os três maiores motivos, caíram em 2024 (I); e serviço/atendimento, isto é, o relacionamento com o cliente, teve o maior aumento, de 8,9% para 18,7% (III)."
+        },
+        {
+          "text": "apenas II e III.",
+          "explanation": "A III está correta, mas a II não: com 5,9% em 2023, a pré-venda não impulsionou as vendas."
+        },
+        {
+          "text": "apenas II e IV.",
+          "explanation": "II e IV estão erradas: a pré-venda foi pouco citada nos dois anos (5,9% e 8,3%), e a disponibilidade caiu de 49,3% para 37,7%."
+        },
+        {
+          "text": "apenas III e IV.",
+          "explanation": "A III está correta, mas a IV não: a pré-venda respondeu por apenas 8,3% em 2024, longe de ser determinante, e a disponibilidade perdeu peso."
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "key": "ufsm-2026-p2-q31",
+      "source": "Vestibular UFSM 2026 – Prova 2, questão 31 (UFSM)",
+      "kind": "Objective",
+      "subject": "literatura",
+      "statement": "Em sessões de autógrafos, é comum que o autor faça alguma dedicatória ao fã que adquiriu o seu livro. E certamente você sabe que Brás Cubas, o autor-defunto de Machado de Assis, dedicou suas memórias póstumas, como saudosa lembrança, ao verme que primeiro lhe roeu as frias carnes cadavéricas. Leia os trechos que seguem, extraídos desse mesmo romance.\n\nDeixa lá dizer Pascal que o homem é um caniço pensante. Não; é uma errata pensante, isso sim. Cada estação da vida é uma edição, que corrige a anterior, e que será corrigida também, até a edição definitiva, que o editor dá de graça aos vermes.\n\nFonte: MACHADO DE ASSIS, J. M. Memórias póstumas de Brás Cubas. 20. ed. São Paulo: Ática, 1995. p. 60.\n\nLembra-vos ainda a minha teoria das edições humanas? Pois sabei que, naquele tempo, estava eu na quarta edição, revista e emendada, mas inçada de descuidos e barbarismos; defeito que, aliás, achava alguma compensação no tipo, que era elegante, e na encadernação, que era luxuosa.\n\nFonte: MACHADO DE ASSIS, J. M. Memórias póstumas de Brás Cubas. 20. ed. São Paulo: Ática, 1995. p. 69.\n\nA partir dos excertos apresentados, assinale V (verdadeiro) ou F (falso) em cada afirmativa a seguir.\n\n( ) A estrutura insólita de Memórias póstumas de Brás Cubas, mesmo antecipando o realismo mágico, é classificada como realista-naturalista, apesar de não seguir a linearidade objetiva do Realismo europeu, à moda de Flaubert ou Zola.\n\n( ) A teoria das edições humanas, proposta por Brás Cubas, funciona como uma grande metáfora em que, ao longo da vida, o homem vai se “escrevendo”, “corrigindo”, “revisando” e “atualizando” – etapas que correspondem ao processo de confecção e permanência de um livro no mercado editorial.\n\n( ) O segundo trecho transcrito indica que Brás Cubas tinha chegado à casa dos 40 anos com boa aparência e vida abastada e, embora tenha reparado algumas imperfeições, ainda era um homem cheio de defeitos a serem corrigidos.\n\nA sequência correta é",
+      "options": [
+        {
+          "text": "V – F – F.",
+          "explanation": "A primeira afirmativa é falsa (o romance inaugura o Realismo no Brasil, mas não é naturalista) e as outras duas são verdadeiras."
+        },
+        {
+          "text": "V – V – V.",
+          "explanation": "A primeira afirmativa é falsa: Machado não segue o Naturalismo de Zola, com seu determinismo e sua tese científica; seu realismo é psicológico e irônico."
+        },
+        {
+          "text": "F – V – V.",
+          "explanation": "Correta. Memórias póstumas não é obra realista-naturalista: afasta-se do determinismo e do método de Zola (F). A teoria das edições compara a vida a um livro que vai sendo corrigido, revisto e reeditado (V). E a “quarta edição, revista e emendada, mas inçada de descuidos” é a quarta década de vida de um homem ainda cheio de defeitos, compensados pelo “tipo elegante” (boa aparência) e pela “encadernação luxuosa” (riqueza) (V)."
+        },
+        {
+          "text": "F – V – F.",
+          "explanation": "A terceira afirmativa também é verdadeira: tipo elegante e encadernação luxuosa são metáforas da boa aparência e da riqueza de Brás Cubas, que seguia cheio de “descuidos e barbarismos”."
+        },
+        {
+          "text": "V – F – V.",
+          "explanation": "A primeira afirmativa é falsa, pois a obra não se enquadra no Naturalismo, e a segunda é verdadeira: a vida como sucessão de edições corrigidas é a metáfora central dos trechos."
+        }
+      ],
+      "correct": "C"
+    },
+    {
+      "key": "ufsm-2026-p2-q32",
+      "source": "Vestibular UFSM 2026 – Prova 2, questão 32 (UFSM)",
+      "kind": "Objective",
+      "subject": "biologia",
+      "statement": "O livro tem aproximadamente seis mil anos de história para ser contada. O homem utilizou os mais diferentes tipos de materiais para registrar a sua passagem pelo planeta e difundir seus conhecimentos e experiências. Os sumérios guardavam suas informações em tijolos de barro; os indianos faziam seus livros em folhas de palmeiras; os maias e astecas, antes do descobrimento das Américas, escreviam em um material macio existente entre a casca das árvores e a madeira; os romanos escreviam em tábuas de madeira cobertas com cera; os egípcios desenvolveram a tecnologia do papiro, uma planta cujas fibras unidas em tiras serviam como superfície resistente para a escrita.\n\nFonte: CALDEIRA, C. Do papiro ao papel manufaturado. Revista Espaço Aberto, n. 24, s.p., 2002. (Adaptado)\n\nConsiderando esse contexto, assinale a alternativa que apresenta tecido vegetal com fibras na sua constituição, possibilitando a confecção de uma superfície resistente para registrar o conhecimento.",
+      "options": [
+        {
+          "text": "Parênquima.",
+          "explanation": "O parênquima é tecido de preenchimento, reserva e fotossíntese, de células vivas com parede fina; não confere resistência."
+        },
+        {
+          "text": "Esclerênquima.",
+          "explanation": "Correta. O esclerênquima é o tecido de sustentação formado por fibras e esclereídes, células de parede espessa e lignificada, geralmente mortas na maturidade; são essas fibras que dão resistência a materiais como o papiro."
+        },
+        {
+          "text": "Tecido secretor.",
+          "explanation": "Os tecidos secretores produzem e liberam substâncias como látex, resinas e néctar; não têm função de sustentação."
+        },
+        {
+          "text": "Meristema.",
+          "explanation": "O meristema é formado por células indiferenciadas em divisão, responsáveis pelo crescimento da planta; não possui fibras."
+        },
+        {
+          "text": "Epiderme.",
+          "explanation": "A epiderme é o tecido de revestimento, em geral com uma única camada de células; protege a planta, mas não é fibrosa."
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "key": "ufsm-2026-p2-q33",
+      "source": "Vestibular UFSM 2026 – Prova 2, questão 33 (UFSM)",
+      "kind": "Objective",
+      "subject": "matematica",
+      "statement": "A direção de uma escola iniciou um projeto de ampliação e renovação de sua biblioteca e, para isso, passou a fazer compras mensais de novos livros para o acervo. A cada mês, a direção comprou o dobro da quantidade de livros do mês anterior, de modo que, ao final de 10 meses, foi adquirido um total de 20 460 livros novos para a biblioteca.\n\nNessas condições, é correto afirmar que a diferença entre o número de livros adquiridos no décimo mês e o número de livros adquiridos no primeiro mês é",
+      "options": [
+        {
+          "text": "10 220",
+          "explanation": "Correta. As compras formam uma PG de razão 2: S₁₀ = a₁(2¹⁰ − 1) = 1 023·a₁ = 20 460, logo a₁ = 20. No décimo mês, a₁₀ = 20 × 2⁹ = 10 240. Diferença: 10 240 − 20 = 10 220."
+        },
+        {
+          "text": "12 240",
+          "explanation": "Com a₁ = 20 (pois 1 023·a₁ = 20 460) e a₁₀ = 20 × 512 = 10 240, a diferença é 10 220, não 12 240."
+        },
+        {
+          "text": "14 280",
+          "explanation": "O valor não sai da PG: a₁₀ − a₁ = 10 240 − 20 = 10 220. A própria compra do décimo mês (10 240) já é menor que 14 280."
+        },
+        {
+          "text": "16 800",
+          "explanation": "O valor supera a compra do décimo mês inteiro (10 240 livros), então não pode ser a diferença entre ela e a do primeiro mês."
+        },
+        {
+          "text": "19 600",
+          "explanation": "O valor é próximo do total dos dez meses (20 460), e não da diferença entre o décimo e o primeiro mês, que é 10 240 − 20 = 10 220."
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "key": "ufsm-2026-p2-q34",
+      "source": "Vestibular UFSM 2026 – Prova 2, questão 34 (UFSM)",
+      "kind": "Objective",
+      "subject": "lingua-portuguesa",
+      "statement": "Existem livros cujo propósito é apresentar aos leitores conselhos para aprimoramento pessoal. Esses conselhos buscam cooperar para a solução de problemas emocionais e orientar a superação de dificuldades. São os livros de autoajuda, geralmente muito vendidos em feiras de livros. Apesar da alta popularidade, sabe-se que não devem substituir o trabalho dos profissionais de saúde.\n\n![Charge com dois personagens. O primeiro, um homem de gravata, diz: – O senhor ficou rico escrevendo livros de autoajuda. O segundo, um homem calvo de óculos que segura um livro, responde: – Pois é! Eram de autoajuda. Assinatura: andrade, etristeviverdehumor.blogspot.com](img/ufsm/2026/prova-2/q34-1.png)\n\nFonte: ANDRADE, S. Disponível em: https://institutoparacleto.org/2013/02/24/o-crescimento-e-desilusao-com-os-livros-de-auto-ajuda/. Acesso em: 25 ago. 2025. (Adaptado)\n\nTendo por base os sentidos construídos pela charge, assinale V (verdadeiro) ou F (falso) em cada afirmativa a seguir.\n\n( ) O termo “autoajuda”, empregado na fala da primeira personagem, sugere uma direção de leitura, a qual não se concretiza na fala da segunda personagem.\n\n( ) A oração “escrevendo livros de autoajuda” indica a explicação sobre a riqueza do autor dos livros.\n\n( ) “Pois é” consiste em uma expressão interpessoal que tem a função de dar continuidade à conversa entre as personagens.\n\nA sequência correta é",
+      "options": [
+        {
+          "text": "V – F – V.",
+          "explanation": "Correta. Na primeira fala, “autoajuda” leva a entender livros que ajudam o leitor; a resposta desfaz essa leitura, pois quem os livros ajudaram foi o próprio autor (V). Para a banca, a oração reduzida de gerúndio indica o meio ou modo pelo qual ele enriqueceu, e a explicação da riqueza só se constrói na segunda fala (F). “Pois é” retoma a fala do outro e mantém a interação, função interpessoal (V)."
+        },
+        {
+          "text": "V – V – F.",
+          "explanation": "A segunda afirmativa é considerada falsa: a oração de gerúndio expressa o meio (“escrevendo”), e é a segunda fala que explica quem a autoajuda realmente ajudou. A terceira é verdadeira."
+        },
+        {
+          "text": "F – V – V.",
+          "explanation": "A primeira afirmativa é verdadeira: o humor nasce de a segunda fala quebrar a leitura sugerida por “autoajuda” na primeira."
+        },
+        {
+          "text": "F – F – V.",
+          "explanation": "A primeira afirmativa é verdadeira: a expectativa criada por “livros de autoajuda” (ajudar o leitor) é frustrada na resposta, em que a ajuda foi para o próprio autor."
+        },
+        {
+          "text": "F – V – F.",
+          "explanation": "A primeira e a terceira afirmativas são verdadeiras: há quebra de expectativa no sentido de “autoajuda”, e “Pois é” serve para dar sequência ao diálogo."
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "key": "ufsm-2026-p2-q35",
+      "source": "Vestibular UFSM 2026 – Prova 2, questão 35 (UFSM)",
+      "kind": "Objective",
+      "subject": "artes-educacao-fisica",
+      "statement": "Conhecer a história e seu contexto cultural, como foi contada nos livros e por quem, faz-nos compreender as razões pelas quais existe essa diferença na quantidade de oportunidades para homens e mulheres.\n\nO livro, entendido no passado como local de preservação da História e da Cultura humana, permeia a defesa de posturas e determinados comportamentos da mulher como aceitos pela sociedade. Sabe-se que a ausência de mulheres artistas, inclusive no ideário popular, conecta-se à determinância social ainda vigente da responsabilidade doméstica, à capacidade criadora e criativa resignada aos “gênios” masculinos e ao preconceito com a própria Arte como profissão.\n\nUm exemplo que representa a discussão não só do espaço, mas também da imagem da mulher, desde as exposições aos livros, é o trabalho das Guerrilas Girls. Há 40 anos, as artistas que têm passado por esse grupo aparecem em público usando máscaras de gorila, porque querem a atenção para a sua causa e não para suas aparências. Já estiveram em vários museus do mundo, como no Museu de Arte de São Paulo, em 2017.\n\n![Cartaz das Guerrilla Girls: uma mulher nua deitada de costas, em pose de pintura clássica, usa uma máscara de gorila. Texto: As mulheres precisam estar nuas para entrar no Museu de Arte de São Paulo? Apenas 6% dos artistas do acervo em exposição são mulheres, mas 60% dos nus são femininos. Estatísticas do Museu de Arte de São Paulo, 2017. GUERRILLA GIRLS CONSCIÊNCIA DO MUNDO DA ARTE. guerrillagirls.com](img/ufsm/2026/prova-2/q35-1.png)\n\nFonte: ACERVO DO MASP. Guerrilla Girls, 2017. Disponível em: https://masp.org.br/acervo/busca?author=guerrilla+girls. Acesso em: 11 ago. 2025.\n\nDiante disso, na contemporaneidade brasileira, encontramos os livros com lentes mais ampliadas depois de séculos de rupturas com as lutas feministas, que buscam registrar uma História da Arte e do ensino de Arte que apagou ou invisibilizou a presença da mulher, revendo a desigualdade de gênero na área. Neste sentido, em nosso país, atualmente, pode-se inferir que, ainda de forma incipiente, mas indicial, são encontradas, nos livros didáticos da Educação Básica, algumas mulheres artistas representadas nas Artes Visuais, na Dança, no Teatro e na Música.\n\nTendo como referência a escrita e a leitura de imagens em livros em que mulheres artistas são representadas, a presença de mulheres artistas em exposições e eventos culturais no país e a leitura do cartaz acima, assinale a alternativa correta.",
+      "options": [
+        {
+          "text": "Os livros são materiais sociais de uma época e de uma cultura; por isso, no registro da História, ao optar por inserir trabalhos e imagens de “gênios” masculinos, os historiadores contrapõem o sistema social vigente.",
+          "explanation": "Ao registrar apenas os “gênios” masculinos, os historiadores reproduzem o sistema social vigente, em vez de contrapô-lo."
+        },
+        {
+          "text": "Há materiais escritos que divulgam as Guerrilas Girls promovendo o nu da mulher como presença da musa inspiradora do artista, pela exaltação da beleza natural de seus corpos.",
+          "explanation": "As Guerrilla Girls denunciam o nu feminino como sinal da desigualdade: a mulher aparece nos museus como corpo retratado, não como artista; não exaltam a figura da musa."
+        },
+        {
+          "text": "A presença de imagens de homens e mulheres artistas nos livros didáticos tem mantido contemporaneamente sincronias, dando ênfase ao debate sobre desigualdade de gênero.",
+          "explanation": "O texto diz que a presença de mulheres artistas nos livros didáticos é ainda “incipiente”; não há sincronia, isto é, equilíbrio, entre homens e mulheres."
+        },
+        {
+          "text": "Os livros, quando trazem mulheres artistas em exposições e eventos culturais, ampliam os modos de ver, pois reduzem as lentes sobre a produção social e cultural humana.",
+          "explanation": "Trazer mulheres artistas amplia as lentes sobre a produção cultural, como diz o texto (“lentes mais ampliadas”); a alternativa se contradiz ao falar em reduzi-las."
+        },
+        {
+          "text": "Os livros, na contemporaneidade, atuam como potencializadores de outros modos de ver a memória e a História da Arte na sociedade.",
+          "explanation": "Correta. Segundo o texto, os livros contemporâneos, com “lentes mais ampliadas”, revisam uma História da Arte que apagou a presença das mulheres, abrindo outros modos de ver a memória e a arte."
+        }
+      ],
+      "correct": "E"
+    },
+    {
+      "key": "ufsm-2026-p2-q36",
+      "source": "Vestibular UFSM 2026 – Prova 2, questão 36 (UFSM)",
+      "kind": "Objective",
+      "subject": "filosofia-sociologia",
+      "statement": "SENTENÇA 01\n\nAs campanhas de fomento à leitura, em geral, baseiam-se em palavras de ordem que pretendem nos convencer da necessidade dessa prática, sem levar em conta que nada se torna necessário – e muito menos a leitura, que é um exercício difícil, que exige um tempo cada vez mais escasso e um esforço que poucos estão dispostos a realizar –, se não se tiver a íntima convicção de que ler pode ser um meio para melhorar as condições de vida e as possibilidades de ser, de estar e de atuar no mundo.\n\nFonte: CASTRILLÓN, S. O direito de ler e de escrever. São Paulo: Pulo do Gato, 2011. (Adaptado)\n\nSENTENÇA 02\n\nFormar leitores vai além dos discursos oficiais que reforçam a ideia de que ler é uma questão de hábito ou gosto que se adquire por vontade individual, independente dos vínculos sociais estabelecidos pelo sujeito. Ser leitor está relacionado à capacidade e à possibilidade de encontrar, nas práticas de leitura, a oportunidade de elaborar e reelaborar um conhecimento de mundo que permite ao sujeito, enquanto ser social, a crítica da própria sociedade em que está inserido, bem como da própria condição de existência.\n\nFonte: BRITTO, L. P. L. Contra o consenso: cultura escrita, educação e participação. Campinas, SP: Mercado de Letras, 2003. (Adaptado)\n\nCom relação aos argumentos presentes nas sentenças apresentadas, assinale V (verdadeiro) ou F (falso) em cada afirmativa a seguir.\n\n( ) A primeira sentença defende a ideia de que a transformação do mundo não passa pelo estímulo da leitura, pois esse é um exercício difícil e demasiadamente abstrato.\n\n( ) A segunda sentença afirma que ler é uma questão de hábito ou gosto que se adquire a partir da vontade própria, independentemente dos vínculos sociais estabelecidos pelo sujeito.\n\n( ) Ambas as sentenças apresentam uma abordagem crítica com relação às campanhas e políticas de estímulo à leitura que desconsideram as condições materiais em que se encontram os leitores.\n\nA sequência correta é",
+      "options": [
+        {
+          "text": "V – V – F.",
+          "explanation": "As duas primeiras afirmativas são falsas e a terceira é verdadeira: os textos criticam o discurso que trata a leitura como simples hábito individual."
+        },
+        {
+          "text": "V – V – V.",
+          "explanation": "As duas primeiras afirmativas são falsas: a sentença 01 vê a leitura como meio de melhorar a vida e a atuação no mundo, e a sentença 02 rejeita a ideia de leitura como questão de hábito ou gosto."
+        },
+        {
+          "text": "F – F – V.",
+          "explanation": "Correta. A sentença 01 não nega o papel da leitura: diz que ela só se torna necessária para quem se convence de que pode melhorar suas condições de vida (F). A sentença 02 atribui a ideia de hábito ou gosto aos “discursos oficiais” e afirma que formar leitores vai além dela (F). Ambas criticam campanhas e discursos que ignoram as condições concretas e sociais dos leitores (V)."
+        },
+        {
+          "text": "F – V – F.",
+          "explanation": "A segunda afirmativa é falsa, pois a sentença 02 cita a ideia de hábito e gosto para superá-la, e a terceira é verdadeira."
+        },
+        {
+          "text": "V – F – F.",
+          "explanation": "A primeira afirmativa é falsa: a sentença 01 reconhece que ler é difícil, mas defende a leitura como meio de melhorar a vida e a ação no mundo."
+        }
+      ],
+      "correct": "C"
+    },
+    {
+      "key": "ufsm-2026-p2-q37",
+      "source": "Vestibular UFSM 2026 – Prova 2, questão 37 (UFSM)",
+      "kind": "Objective",
+      "subject": "matematica",
+      "statement": "Em uma biblioteca, os livros são catalogados com uma etiqueta de identificação. Cada livro recebe uma etiqueta única e diferente das demais. Dentre as diversas formas de se realizar essa identificação, uma biblioteca decidiu criar códigos que permitissem também uma classificação para os livros de Matemática e de Física do acervo.\n\nConsidere que o código utilizado por essa biblioteca é formado por uma sequência de cinco caracteres, composta por duas letras seguidas de três números distintos. A classificação adotada foi realizada de acordo com as regras a seguir.\n\n1) A primeira letra do código indica o tema do livro:\n\na) para livros de Matemática, usa-se uma letra do conjunto {A, B, C, D, E};\n\nb) para livros de Física, usa-se uma letra do conjunto {F, G, H}.\n\n2) A segunda letra do código indica o nível do livro:\n\na) para livros de nível básico, usa-se uma letra do conjunto {I, J, K, L};\n\nb) para livros de nível superior, usa-se uma letra do conjunto {M, N}.\n\n3) Os caracteres numéricos são escolhidos do conjunto {0,1,2,3,4,5}. Considere, ainda, que o primeiro caractere numérico do código deve ser diferente de zero.\n\nCom relação à quantidade de livros de Matemática e de Física que podem ser etiquetados de acordo com essa classificação, assinale V (verdadeiro) ou F (falso) em cada afirmativa a seguir.\n\n( ) Podem ser etiquetados, no máximo, 1 200 livros de Matemática do nível superior.\n\n( ) Podem ser etiquetados, no máximo, 1 800 livros de Matemática.\n\n( ) Podem ser etiquetados 1 600 livros de nível básico a mais do que livros de nível superior.\n\nA sequência correta é",
+      "options": [
+        {
+          "text": "V – V – V.",
+          "explanation": "As duas primeiras afirmativas são falsas: são 1 000 livros de Matemática de nível superior e 3 000 de Matemática ao todo."
+        },
+        {
+          "text": "V – F – F.",
+          "explanation": "A primeira afirmativa é falsa (5 × 2 × 100 = 1 000, não 1 200) e a terceira é verdadeira (3 200 − 1 600 = 1 600)."
+        },
+        {
+          "text": "F – V – F.",
+          "explanation": "A segunda afirmativa é falsa (Matemática: 5 × 6 × 100 = 3 000 códigos) e a terceira é verdadeira."
+        },
+        {
+          "text": "F – V – V.",
+          "explanation": "A segunda afirmativa é falsa: há 5 letras de tema, 6 de nível e 100 sequências numéricas, o que dá 3 000 livros de Matemática, não 1 800."
+        },
+        {
+          "text": "F – F – V.",
+          "explanation": "Correta. Parte numérica: 5 opções para o primeiro algarismo (não pode ser zero), 5 para o segundo e 4 para o terceiro, todos distintos: 100 sequências. Matemática de nível superior: 5 × 2 × 100 = 1 000 (F). Matemática: 5 × 6 × 100 = 3 000 (F). Nível básico: 8 × 4 × 100 = 3 200; nível superior: 8 × 2 × 100 = 1 600; diferença de 1 600 (V)."
+        }
+      ],
+      "correct": "E"
+    },
+    {
+      "key": "ufsm-2026-p2-q38-es",
+      "source": "Vestibular UFSM 2026 – Prova 2, questão 38, espanhol (UFSM)",
+      "kind": "Objective",
+      "subject": "espanhol",
+      "statement": "Para responder às questões 38 a 40, leia o texto a seguir.\n\n![Imagem do post do perfil elpaislibros: fotografia de uma longa fila de pessoas diante das casetas fechadas de uma feira do livro, com letreiros de editoras como Ediciones Encuentro e Edelvives. Sobre a foto, o título: Cuando la presencia de un autor genera economía: el negocio de las firmas de libros. No canto inferior, a marca EL PAÍS.](img/ufsm/2026/prova-2/q38-es-1.png)\n\n**elpaislibros** La firma es ese momento idílico en el que el autor y el lector se encuentran en la caseta y se reconocen a sí mismos como los extremos de la cadena del libro, y se abrazan, metafóricamente, a través de un boli y una página. Es hermoso.\n\nNo siempre hubo firmas en la Feria del Libro de Madrid: en una columna reciente en este periódico el escritor Manuel Vicent recuerda que a finales de los años 60 todavía no era tradición que los escritores firmaran: “Fue una moda que se fue imponiendo con los años hasta convertirse en una carrera de caballos, un festival de egos porque había un jurado que al final proclamaba quién había sido el rey de la feria”. Algunos de esos reyes fueron, recuerda Vicent, Carmen Martín Gaite o Antonio Gala. Hoy más que reyes incuestionables hay nutrida aristocracia literaria, y también extraliteraria.\n\nAsí que los escritores están ahí, expuestos como fieras en el zoo, y, como las fieras en el zoo, es su presencia la que genera economía. Las firmas se han convertido en el gran reclamo del evento y en una parte importante de su motor económico. El año pasado, según la consultora GFK, el volumen de negocio fue de 13,4 millones de euros. Para el 42% de las librerías, la Feria supone entre un 10% y más del 20% de su facturación anual. Y una parte de esa facturación (es difícil saberlo con precisión) viene por las firmas.\n\n📌 Lee la noticia completa en el enlace de la bio\n\n✒ Sergio Fanjul\n\n📷 JUAN BARBOSA\n\nFonte: EL PAÍS LIBROS. Cuando a presencia de un autor genera economía: el negocio de las firmas de libros. Publicado em: 08 jun. 2025. Instagram: @elpaislibros. Disponível em: https://www.instagram.com/p/DKpm6tdz1J2/. Acesso em: 13 ago. 2025. (Adaptado)\n\nO post do perfil El País Libros, do jornal El País (Espanha), numa rede social, refere-se a uma publicação sobre o evento literário da Feira do Livro em Madri. Tendo em vista a totalidade da publicação do post e suas pistas linguísticas e imagéticas, um possível leitor pode depreender que a notícia completa no jornal enfatizará determinadas ideias. Com base nesse cenário, considere as afirmativas a seguir.\n\nI → Comprova-se que há uma correlação explícita e objetiva entre compra de livros e distribuição de autógrafos em um evento de lançamento ou de festa literária.\n\nII → É fundamental, na contemporaneidade, a organização do momento de autógrafos no que se refere aos aspectos culturais, sociais e econômicos, desde a gênese de eventos literários no setor de publicações.\n\nIII → Apresenta-se uma crítica à interferência das relações mercantis em um simbolismo artístico-cultural vinculado ao artefato livro.\n\nIV → Existe um fascínio referente à presença do(a) escritor(a) em um evento bibliófilo, provocando um aumento de público em longas filas somente para conhecer o(a) seu(sua) autor(a) favorito(a), o que, indiretamente, reverte-se em compra de um ou vários exemplares da mesma obra só para serem autografados, sendo um aspecto importante e positivo no contexto da relação entre leitor e autor em todas as perspectivas.\n\nEstá(ão) correta(s)",
+      "options": [
+        {
+          "text": "apenas I.",
+          "explanation": "A I está errada: o texto não comprova correlação objetiva; diz que parte do faturamento vem das sessões de autógrafos, mas que “es difícil saberlo con precisión”."
+        },
+        {
+          "text": "apenas III.",
+          "explanation": "Correta. O post contrasta o “momento idílico” do encontro entre autor e leitor com sua transformação em negócio: os escritores ficam “expuestos como fieras en el zoo” e as sessões de autógrafos viram “una carrera de caballos, un festival de egos” e o grande chamariz econômico da feira, o que configura crítica à interferência mercantil (III)."
+        },
+        {
+          "text": "apenas I e II.",
+          "explanation": "I e II estão erradas: não há comprovação objetiva (“es difícil saberlo con precisión”), e os autógrafos não existem desde a origem do evento (“No siempre hubo firmas”; no fim dos anos 60 ainda não eram tradição)."
+        },
+        {
+          "text": "apenas II e IV.",
+          "explanation": "II e IV estão erradas: os autógrafos não vêm da gênese das feiras, e o texto não trata o fenômeno como positivo “em todas as perspectivas”; ao contrário, ironiza a exposição dos autores."
+        },
+        {
+          "text": "apenas III e IV.",
+          "explanation": "A III está correta, mas a IV não: o texto não fala em compra de vários exemplares nem considera o fenômeno positivo em todas as perspectivas."
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "key": "ufsm-2026-p2-q39-es",
+      "source": "Vestibular UFSM 2026 – Prova 2, questão 39, espanhol (UFSM)",
+      "kind": "Objective",
+      "subject": "espanhol",
+      "statement": "Para responder às questões 38 a 40, leia o texto a seguir.\n\n![Imagem do post do perfil elpaislibros: fotografia de uma longa fila de pessoas diante das casetas fechadas de uma feira do livro, com letreiros de editoras como Ediciones Encuentro e Edelvives. Sobre a foto, o título: Cuando la presencia de un autor genera economía: el negocio de las firmas de libros. No canto inferior, a marca EL PAÍS.](img/ufsm/2026/prova-2/q38-es-1.png)\n\n**elpaislibros** La firma es ese momento idílico en el que el autor y el lector se encuentran en la caseta y se reconocen a sí mismos como los extremos de la cadena del libro, y se abrazan, metafóricamente, a través de un boli y una página. Es hermoso.\n\nNo siempre hubo firmas en la Feria del Libro de Madrid: en una columna reciente en este periódico el escritor Manuel Vicent recuerda que a finales de los años 60 todavía no era tradición que los escritores firmaran: “Fue una moda que se fue imponiendo con los años hasta convertirse en una carrera de caballos, un festival de egos porque había un jurado que al final proclamaba quién había sido el rey de la feria”. Algunos de esos reyes fueron, recuerda Vicent, Carmen Martín Gaite o Antonio Gala. Hoy más que reyes incuestionables hay nutrida aristocracia literaria, y también extraliteraria.\n\nAsí que los escritores están ahí, expuestos como fieras en el zoo, y, como las fieras en el zoo, es su presencia la que genera economía. Las firmas se han convertido en el gran reclamo del evento y en una parte importante de su motor económico. El año pasado, según la consultora GFK, el volumen de negocio fue de 13,4 millones de euros. Para el 42% de las librerías, la Feria supone entre un 10% y más del 20% de su facturación anual. Y una parte de esa facturación (es difícil saberlo con precisión) viene por las firmas.\n\n📌 Lee la noticia completa en el enlace de la bio\n\n✒ Sergio Fanjul\n\n📷 JUAN BARBOSA\n\nFonte: EL PAÍS LIBROS. Cuando a presencia de un autor genera economía: el negocio de las firmas de libros. Publicado em: 08 jun. 2025. Instagram: @elpaislibros. Disponível em: https://www.instagram.com/p/DKpm6tdz1J2/. Acesso em: 13 ago. 2025. (Adaptado)\n\nConsiderando as características que se referem aos principais mecanismos linguísticos e imagéticos da estrutura geral do texto e das estruturas oracionais dos parágrafos, qual alternativa representa corretamente o objetivo e as dinâmicas textuais e discursivas no post?",
+      "options": [
+        {
+          "text": "O texto está constituído de estruturas oracionais simples em sua maioria, encadeadas por enunciados autorais combinados com fragmentos de discurso direto de outra publicação, além da articulação com uma imagem fotográfica em que se encontra a tese do texto, o que reforça o único objetivo persuasivo do post: discussão sobre o tema referente especificamente à Feira do Livro de Madri.",
+          "explanation": "A imagem traz o título do post, não a tese do texto, e o objetivo não é único nem restrito à Feira de Madri: o post também encaminha o leitor à notícia completa."
+        },
+        {
+          "text": "O texto está constituído de estruturas enunciativas assertivas e negativas, encadeadas por enunciados autorais combinados com fragmentos com hiperlinks de outra publicação, além da articulação com uma imagem fotográfica em que se encontra o argumento do locutor que reforça o objetivo persuasivo triplo do post: a importância da reflexão sobre o tema, a publicidade do evento literário e o encaminhamento do leitor ao texto original publicado no jornal.",
+          "explanation": "O post não combina fragmentos com hiperlinks de outra publicação nem faz publicidade do evento; a imagem traz o título e a marca do jornal, não o argumento do locutor."
+        },
+        {
+          "text": "O texto está constituído de estruturas enunciativas assertivas, com algumas exceções, encadeadas por enunciados com discurso indireto livre, além da articulação com uma imagem fotográfica em que se encontra o título do post, o que reforça o objetivo explicativo: a relação entre autor e obra.",
+          "explanation": "Não há discurso indireto livre: a fala de Manuel Vicent aparece em discurso direto (entre aspas) e indireto (“recuerda que…”); e o tema não é a relação entre autor e obra."
+        },
+        {
+          "text": "O texto está constituído de estruturas enunciativas assertivas, encadeadas por enunciados autorais combinados com fragmentos de discurso direto e discurso indireto de outra publicação, além da articulação com uma imagem fotográfica em que se encontra o título do post e seu remetente, o que reforça o objetivo persuasivo duplo em um estilo dinâmico e direto: a importância da reflexão sobre o tema e o encaminhamento do leitor ao texto original publicado no jornal.",
+          "explanation": "Correta. O texto é feito de frases declarativas do autor do post, combinadas com a coluna de Manuel Vicent em discurso indireto (“recuerda que…”) e direto (entre aspas); a foto traz o título e a marca EL PAÍS (remetente), e o post busca fazer refletir sobre o tema e levar à notícia completa (“Lee la noticia completa en el enlace de la bio”)."
+        },
+        {
+          "text": "O texto está constituído de estruturas oracionais compostas, encadeadas por enunciados afirmativos combinados com fragmentos de discurso direto e discurso indireto de outra publicação do mesmo autor do post, Manuel Vicent.",
+          "explanation": "Manuel Vicent é o escritor citado, autor da coluna mencionada; o post é assinado por Sergio Fanjul."
+        }
+      ],
+      "correct": "D"
+    },
+    {
+      "key": "ufsm-2026-p2-q40-es",
+      "source": "Vestibular UFSM 2026 – Prova 2, questão 40, espanhol (UFSM)",
+      "kind": "Objective",
+      "subject": "espanhol",
+      "statement": "Para responder às questões 38 a 40, leia o texto a seguir.\n\n![Imagem do post do perfil elpaislibros: fotografia de uma longa fila de pessoas diante das casetas fechadas de uma feira do livro, com letreiros de editoras como Ediciones Encuentro e Edelvives. Sobre a foto, o título: Cuando la presencia de un autor genera economía: el negocio de las firmas de libros. No canto inferior, a marca EL PAÍS.](img/ufsm/2026/prova-2/q38-es-1.png)\n\n**elpaislibros** La firma es ese momento idílico en el que el autor y el lector se encuentran en la caseta y se reconocen a sí mismos como los extremos de la cadena del libro, y se abrazan, metafóricamente, a través de un boli y una página. Es hermoso.\n\nNo siempre hubo firmas en la Feria del Libro de Madrid: en una columna reciente en este periódico el escritor Manuel Vicent recuerda que a finales de los años 60 todavía no era tradición que los escritores firmaran: “Fue una moda que se fue imponiendo con los años hasta convertirse en una carrera de caballos, un festival de egos porque había un jurado que al final proclamaba quién había sido el rey de la feria”. Algunos de esos reyes fueron, recuerda Vicent, Carmen Martín Gaite o Antonio Gala. Hoy más que reyes incuestionables hay nutrida aristocracia literaria, y también extraliteraria.\n\nAsí que los escritores están ahí, expuestos como fieras en el zoo, y, como las fieras en el zoo, es su presencia la que genera economía. Las firmas se han convertido en el gran reclamo del evento y en una parte importante de su motor económico. El año pasado, según la consultora GFK, el volumen de negocio fue de 13,4 millones de euros. Para el 42% de las librerías, la Feria supone entre un 10% y más del 20% de su facturación anual. Y una parte de esa facturación (es difícil saberlo con precisión) viene por las firmas.\n\n📌 Lee la noticia completa en el enlace de la bio\n\n✒ Sergio Fanjul\n\n📷 JUAN BARBOSA\n\nFonte: EL PAÍS LIBROS. Cuando a presencia de un autor genera economía: el negocio de las firmas de libros. Publicado em: 08 jun. 2025. Instagram: @elpaislibros. Disponível em: https://www.instagram.com/p/DKpm6tdz1J2/. Acesso em: 13 ago. 2025. (Adaptado)\n\nEm seu perfil rene_estamal, em uma rede social, o artista gráfico René Merino publicou o post a seguir.\n\n![Ilustração de René Merino com o título EN CASO DE EMERGENCIA: EDÚQUESE ANTES DE EDUCAR. No primeiro quadro, um adulto prende ao próprio rosto um livro aberto, preso por elásticos atrás da cabeça, como se fosse uma máscara de oxigênio de avião. No segundo quadro, já com o livro preso ao rosto, o adulto coloca outro livro-máscara no rosto de uma criança.](img/ufsm/2026/prova-2/q40-es-1.png)\n\n**rene_estamal** Mi publicación número 1000 está dedicada a la educación y la lectura. Además, esta semana que entra se celebra el Día del Libro. Un abrazo y gracias por estar ahí. #educación #libros #ilustración #1000posts\n\nFonte: RENE-ESTAMAL. En caso de emergencia. Publicado em: 19 abr. 2025. Instagram: @rene-estamal. Disponível em: https://www.instagram.com/p/DIoUr66queW/. Acesso em: 13 ago. 2025. (Adaptado)\n\nCom relação ao post do perfil de René Merino e ao post do perfil do El País Libros, assinale V (verdadeiro) ou F (falso) em cada afirmativa a seguir.\n\n( ) Ambas as publicações possuem o suporte textual em comum, embora apresentem propósitos comunicacionais e perspectivas relacionais distintas, pois a publicação do El País Libros apresenta uma reflexão sobre relações diversas, enquanto o post de René Merino enfoca a leitura de um livro como elemento de conexão presente em determinados vínculos pessoais.\n\n( ) Ambas as publicações possuem a tipologia textual explicativa e algumas semelhanças no registro linguístico e na arte gráfica, embora tenham diferentes mecanismos de expressão para essas três categorias.\n\n( ) Ambas as publicações empregam, como pensamento basilar, a ideia do “encontro” para introduzir a discussão principal, mas somente uma delas possui, como evidente mecanismo textual-discursivo, a intertextualidade e a interdiscursividade, estratégias para criar efeitos de sentido.\n\nA sequência correta é",
+      "options": [
+        {
+          "text": "V – F – V.",
+          "explanation": "Correta. Os dois textos são posts de rede social, com propósitos diferentes: o do El País reflete sobre relações culturais e econômicas em torno dos autógrafos, e o de Merino mostra a leitura unindo adulto e criança (V). Não têm ambos tipologia explicativa nem arte gráfica semelhante: um usa fotografia e texto jornalístico, o outro, ilustração e dedicatória pessoal (F). Ambos partem da ideia de encontro, mas só o de Merino recorre à intertextualidade, parodiando as instruções de emergência dos aviões (“coloque a máscara em si antes de ajudar outra pessoa”) (V)."
+        },
+        {
+          "text": "F – F – V.",
+          "explanation": "A primeira afirmativa é verdadeira: ambos são posts de rede social, mas com propósitos e relações diferentes (mercado editorial em um, vínculo pessoal no outro)."
+        },
+        {
+          "text": "F – V – F.",
+          "explanation": "A primeira e a terceira afirmativas são verdadeiras, e a segunda é falsa: os posts não compartilham tipologia explicativa nem arte gráfica semelhante."
+        },
+        {
+          "text": "V – V – F.",
+          "explanation": "A segunda afirmativa é falsa (foto jornalística e ilustração autoral não são artes gráficas semelhantes, e o post de Merino não é explicativo) e a terceira é verdadeira."
+        },
+        {
+          "text": "V – F – F.",
+          "explanation": "A terceira afirmativa também é verdadeira: só o post de Merino se constrói sobre outro texto, o aviso de segurança dos aviões, em “En caso de emergencia: edúquese antes de educar”."
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "key": "ufsm-2026-p2-q38-en",
+      "source": "Vestibular UFSM 2026 – Prova 2, questão 38, inglês (UFSM)",
+      "kind": "Objective",
+      "subject": "ingles",
+      "statement": "Para responder às questões 38 a 40, leia o texto a seguir.\n\n**Why reading books is good for society, wellbeing and your career**\n\n```\n01    TikTok allows video up to 10 minutes, but says\n    surveys show almost half its users are stressed by\n    anything longer than a minute. An Instagram video\n    can be up to 90 seconds, but experts reckon the\n05  ideal time to maximise engagement is less than\n    15 seconds. Twitter doubled the length of tweets\n    in 2017 to 280 characters, but the typical length is\n    more like 33 characters.\n      It’s easy to get sucked into short and\n10  sensational content. But if you’re worried this may\n    be harming your attention span, you should be.\n    There’s solid evidence that so many demands on\n    our attention make us more stressed, and that the\n    endless social comparison makes us feel worse\n15  about ourselves.\n      For better mental health, read a book.\n      Studies show a range of psychological benefits\n    from book-reading. Reading fiction can increase your\n    capacity for empathy, through the process of seeing\n20  the world through a relatable character. Reading has\n    been found to reduce stress as effectively as yoga.\n    It is being prescribed for depression – a treatment\n    known as bibliotherapy.\n      Book-reading is also a strong marker of curiosity\n25  – a quality prized by employers such as Google. Our\n    research shows reading is as strongly associated\n    with curiosity as interest in science, and more\n    strongly than mathematical ability.\n      And it’s not just that curious minds are more\n30  likely to read because of a thirst for knowledge and\n    understanding. That happens too, but our research\n    has specifically been to investigate the role of\n    reading in the development of curious minds.\n    Tracking reading and curiosity\n35    Our findings come from analysing data from the\n    Longitudinal Surveys of Australian Youth, which\n    tracks the progress of young Australians from the\n    age of 15 till 25.\n      Longitudinal surveys provide valuable\n40  insights by surveying the same people – in this\n    case a group of about 10,000 young people.\n    Every year for ten years they are asked about\n    their achievements, aspirations, education,\n    employment and life satisfaction.\n45    There have been five survey cohorts since 1998,\n    the most recent starting in 2016. We analysed three\n    of them – those beginning in 2003, 2006 and 2009,\n    looking at the data up to age 20, at which age most\n    have a job or are looking for one.\n50    The survey data is rich enough to develop proxy\n    measures of reading and curiosity levels. It includes\n    participants’ scores in the OECD Programme\n    for International Student Assessment tests for\n    reading, mathematics and science ability. There\n55  are survey questions about time spent reading for\n    pleasure, time reading newspapers or magazines,\n    and library use.\n      We used statistical modelling to control for\n    environmental and demographic variables and\n60  distinguish the effect of reading activity as a\n    teenager on greater curiosity as a young adult.\n    This modelling gives us confidence that reading is\n    not just correlated with curiosity. Reading books\n    helps build curiosity.\n65    Does this mean if you’re older that it’s too late\n    to start reading? No. Our results relate to young\n    people because the data was available. No matter\n    what your age, deep reading has benefits over\n    social-media scrolling.\n70  Tips to get back into books\n      If you are having difficulty choosing between\n    your phone and a book, here’s a simple tip proven\n    by behavioural science. To change behaviour it also\n    helps to change your environment.\n75    Try the following:\n      • Carry a book at all times, or leave books\n        around the house in convenient places.\n      • Schedule reading time into your day. 20\n        minutes is enough. This reinforces the\n80      habit and ensures regular immersion in\n        the book world.\n      • If you’re not enjoying a book, try another.\n        Don’t force yourself.\n    You’ll feel better for it – and be prepared for a future\n85  employer asking you what books you’re reading.\n```\n\nFonte: ELKINS, M.; FRY, J.; FARELL, L. Why reading books is good for society, wellbeing and your career. Publicado em: 11 abr. 2023. Disponível em: https://findanexpert.unimelb.edu.au/news/63284-why-reading-books-is-good-for-society--wellbeing-and-your-career. Acesso em: 13 ago. 2025. (Adaptado)\n\nCom relação aos estudos apresentados no texto, assinale a alternativa correta sobre os benefícios da leitura de livros.",
+      "options": [
+        {
+          "text": "A leitura de livros de ficção pode aumentar a capacidade de empatia, pois o leitor começa a vivenciar o mundo real como o próprio personagem da ficção.",
+          "explanation": "O texto diz que a ficção aumenta a empatia porque o leitor vê o mundo pelos olhos de um personagem com quem se identifica (“seeing the world through a relatable character”), não porque passa a viver o mundo real como o personagem."
+        },
+        {
+          "text": "A leitura reduz o estresse da mesma forma que a prática de ioga, mas ainda não pode ser prescrita como tratamento para depressão.",
+          "explanation": "A primeira parte confere (“reduce stress as effectively as yoga”), mas a leitura já é prescrita para depressão: “It is being prescribed for depression – a treatment known as bibliotherapy”."
+        },
+        {
+          "text": "A leitura está associada à curiosidade, mas somente em relação às ciências e à habilidade em matemática.",
+          "explanation": "O texto compara: a leitura está tão associada à curiosidade quanto o interesse por ciências, e mais do que a habilidade matemática; não restringe a relação a essas áreas."
+        },
+        {
+          "text": "O tempo utilizado pelos jovens para leitura de lazer, de jornais e de revistas e o tempo despendido em dispositivos móveis de leitura são fatores essenciais para o desenvolvimento do pensamento crítico.",
+          "explanation": "A pesquisa tem perguntas sobre leitura por prazer, jornais ou revistas e uso de biblioteca; não menciona dispositivos móveis de leitura nem pensamento crítico."
+        },
+        {
+          "text": "O ato de ler livros auxilia a desenvolver a curiosidade e apresenta vantagens em relação à navegação em redes sociais.",
+          "explanation": "Correta. “Reading books helps build curiosity” (ler livros ajuda a construir a curiosidade) e “deep reading has benefits over social-media scrolling” (a leitura profunda tem vantagens sobre rolar as redes sociais)."
+        }
+      ],
+      "correct": "E"
+    },
+    {
+      "key": "ufsm-2026-p2-q39-en",
+      "source": "Vestibular UFSM 2026 – Prova 2, questão 39, inglês (UFSM)",
+      "kind": "Objective",
+      "subject": "ingles",
+      "statement": "Para responder às questões 38 a 40, leia o texto a seguir.\n\n**Why reading books is good for society, wellbeing and your career**\n\n```\n01    TikTok allows video up to 10 minutes, but says\n    surveys show almost half its users are stressed by\n    anything longer than a minute. An Instagram video\n    can be up to 90 seconds, but experts reckon the\n05  ideal time to maximise engagement is less than\n    15 seconds. Twitter doubled the length of tweets\n    in 2017 to 280 characters, but the typical length is\n    more like 33 characters.\n      It’s easy to get sucked into short and\n10  sensational content. But if you’re worried this may\n    be harming your attention span, you should be.\n    There’s solid evidence that so many demands on\n    our attention make us more stressed, and that the\n    endless social comparison makes us feel worse\n15  about ourselves.\n      For better mental health, read a book.\n      Studies show a range of psychological benefits\n    from book-reading. Reading fiction can increase your\n    capacity for empathy, through the process of seeing\n20  the world through a relatable character. Reading has\n    been found to reduce stress as effectively as yoga.\n    It is being prescribed for depression – a treatment\n    known as bibliotherapy.\n      Book-reading is also a strong marker of curiosity\n25  – a quality prized by employers such as Google. Our\n    research shows reading is as strongly associated\n    with curiosity as interest in science, and more\n    strongly than mathematical ability.\n      And it’s not just that curious minds are more\n30  likely to read because of a thirst for knowledge and\n    understanding. That happens too, but our research\n    has specifically been to investigate the role of\n    reading in the development of curious minds.\n    Tracking reading and curiosity\n35    Our findings come from analysing data from the\n    Longitudinal Surveys of Australian Youth, which\n    tracks the progress of young Australians from the\n    age of 15 till 25.\n      Longitudinal surveys provide valuable\n40  insights by surveying the same people – in this\n    case a group of about 10,000 young people.\n    Every year for ten years they are asked about\n    their achievements, aspirations, education,\n    employment and life satisfaction.\n45    There have been five survey cohorts since 1998,\n    the most recent starting in 2016. We analysed three\n    of them – those beginning in 2003, 2006 and 2009,\n    looking at the data up to age 20, at which age most\n    have a job or are looking for one.\n50    The survey data is rich enough to develop proxy\n    measures of reading and curiosity levels. It includes\n    participants’ scores in the OECD Programme\n    for International Student Assessment tests for\n    reading, mathematics and science ability. There\n55  are survey questions about time spent reading for\n    pleasure, time reading newspapers or magazines,\n    and library use.\n      We used statistical modelling to control for\n    environmental and demographic variables and\n60  distinguish the effect of reading activity as a\n    teenager on greater curiosity as a young adult.\n    This modelling gives us confidence that reading is\n    not just correlated with curiosity. Reading books\n    helps build curiosity.\n65    Does this mean if you’re older that it’s too late\n    to start reading? No. Our results relate to young\n    people because the data was available. No matter\n    what your age, deep reading has benefits over\n    social-media scrolling.\n70  Tips to get back into books\n      If you are having difficulty choosing between\n    your phone and a book, here’s a simple tip proven\n    by behavioural science. To change behaviour it also\n    helps to change your environment.\n75    Try the following:\n      • Carry a book at all times, or leave books\n        around the house in convenient places.\n      • Schedule reading time into your day. 20\n        minutes is enough. This reinforces the\n80      habit and ensures regular immersion in\n        the book world.\n      • If you’re not enjoying a book, try another.\n        Don’t force yourself.\n    You’ll feel better for it – and be prepared for a future\n85  employer asking you what books you’re reading.\n```\n\nFonte: ELKINS, M.; FRY, J.; FARELL, L. Why reading books is good for society, wellbeing and your career. Publicado em: 11 abr. 2023. Disponível em: https://findanexpert.unimelb.edu.au/news/63284-why-reading-books-is-good-for-society--wellbeing-and-your-career. Acesso em: 13 ago. 2025. (Adaptado)\n\nCom relação ao uso de recursos linguísticos que estabelecem relações lógico-semânticas no texto, considere as afirmativas a seguir.\n\nI → Em “TikTok allows video up to 10 minutes, but says surveys show almost half its users are stressed by anything longer than a minute” (ℓ. 01-03), o termo “longer than” expressa comparação em relação à duração máxima de tempo permitido em vídeos em uma rede social e a média do tempo gasto pelos usuários ao assistir a esses vídeos.\n\nII → Em “Twitter doubled the length of tweets in 2017 to 280 characters, but the typical length is more like 33 characters” (ℓ. 06-08), o termo “but” expressa oposição de ideias no que tange à quantidade máxima e à quantidade utilizada de caracteres para escrever em uma rede social.\n\nIII → Em “Book-reading is also a strong marker of curiosity – a quality prized by employers such as Google” (ℓ. 24-25), o termo “strong marker” expressa comparação em relação à leitura de livros em uma rede social.\n\nIV → Em “If you are having difficulty choosing between your phone and a book, here’s a simple tip proven by behavioural science” (ℓ. 71-73), o termo “if” expressa condição de ideias em relação à dificuldade de escolha entre dois objetos.\n\nEstá(ão) correta(s)",
+      "options": [
+        {
+          "text": "apenas I.",
+          "explanation": "A I está correta, mas II e IV também: “but” marca oposição e “if” marca condição."
+        },
+        {
+          "text": "apenas I e II.",
+          "explanation": "I e II estão corretas, mas a IV também: “If you are having difficulty choosing…” introduz uma condição."
+        },
+        {
+          "text": "apenas III e IV.",
+          "explanation": "A IV está correta, mas a III não: “strong marker” (forte indicador) não estabelece comparação, e o trecho não fala de leitura em rede social."
+        },
+        {
+          "text": "apenas I, II e IV.",
+          "explanation": "Correta. “Longer than” é comparativo de superioridade (I); “but” opõe o limite de 280 caracteres ao uso típico de 33 (II); e “if” introduz a condição de estar em dúvida entre o celular e o livro (IV). Em III, “strong marker” apenas qualifica a leitura como forte indicador de curiosidade, sem comparar nada."
+        },
+        {
+          "text": "apenas II, III e IV.",
+          "explanation": "II e IV estão corretas, mas a III não, pois “strong marker” não expressa comparação; e a I, correta, ficou de fora."
+        }
+      ],
+      "correct": "D"
+    },
+    {
+      "key": "ufsm-2026-p2-q40-en",
+      "source": "Vestibular UFSM 2026 – Prova 2, questão 40, inglês (UFSM)",
+      "kind": "Objective",
+      "subject": "ingles",
+      "statement": "Para responder às questões 38 a 40, leia o texto a seguir.\n\n**Why reading books is good for society, wellbeing and your career**\n\n```\n01    TikTok allows video up to 10 minutes, but says\n    surveys show almost half its users are stressed by\n    anything longer than a minute. An Instagram video\n    can be up to 90 seconds, but experts reckon the\n05  ideal time to maximise engagement is less than\n    15 seconds. Twitter doubled the length of tweets\n    in 2017 to 280 characters, but the typical length is\n    more like 33 characters.\n      It’s easy to get sucked into short and\n10  sensational content. But if you’re worried this may\n    be harming your attention span, you should be.\n    There’s solid evidence that so many demands on\n    our attention make us more stressed, and that the\n    endless social comparison makes us feel worse\n15  about ourselves.\n      For better mental health, read a book.\n      Studies show a range of psychological benefits\n    from book-reading. Reading fiction can increase your\n    capacity for empathy, through the process of seeing\n20  the world through a relatable character. Reading has\n    been found to reduce stress as effectively as yoga.\n    It is being prescribed for depression – a treatment\n    known as bibliotherapy.\n      Book-reading is also a strong marker of curiosity\n25  – a quality prized by employers such as Google. Our\n    research shows reading is as strongly associated\n    with curiosity as interest in science, and more\n    strongly than mathematical ability.\n      And it’s not just that curious minds are more\n30  likely to read because of a thirst for knowledge and\n    understanding. That happens too, but our research\n    has specifically been to investigate the role of\n    reading in the development of curious minds.\n    Tracking reading and curiosity\n35    Our findings come from analysing data from the\n    Longitudinal Surveys of Australian Youth, which\n    tracks the progress of young Australians from the\n    age of 15 till 25.\n      Longitudinal surveys provide valuable\n40  insights by surveying the same people – in this\n    case a group of about 10,000 young people.\n    Every year for ten years they are asked about\n    their achievements, aspirations, education,\n    employment and life satisfaction.\n45    There have been five survey cohorts since 1998,\n    the most recent starting in 2016. We analysed three\n    of them – those beginning in 2003, 2006 and 2009,\n    looking at the data up to age 20, at which age most\n    have a job or are looking for one.\n50    The survey data is rich enough to develop proxy\n    measures of reading and curiosity levels. It includes\n    participants’ scores in the OECD Programme\n    for International Student Assessment tests for\n    reading, mathematics and science ability. There\n55  are survey questions about time spent reading for\n    pleasure, time reading newspapers or magazines,\n    and library use.\n      We used statistical modelling to control for\n    environmental and demographic variables and\n60  distinguish the effect of reading activity as a\n    teenager on greater curiosity as a young adult.\n    This modelling gives us confidence that reading is\n    not just correlated with curiosity. Reading books\n    helps build curiosity.\n65    Does this mean if you’re older that it’s too late\n    to start reading? No. Our results relate to young\n    people because the data was available. No matter\n    what your age, deep reading has benefits over\n    social-media scrolling.\n70  Tips to get back into books\n      If you are having difficulty choosing between\n    your phone and a book, here’s a simple tip proven\n    by behavioural science. To change behaviour it also\n    helps to change your environment.\n75    Try the following:\n      • Carry a book at all times, or leave books\n        around the house in convenient places.\n      • Schedule reading time into your day. 20\n        minutes is enough. This reinforces the\n80      habit and ensures regular immersion in\n        the book world.\n      • If you’re not enjoying a book, try another.\n        Don’t force yourself.\n    You’ll feel better for it – and be prepared for a future\n85  employer asking you what books you’re reading.\n```\n\nFonte: ELKINS, M.; FRY, J.; FARELL, L. Why reading books is good for society, wellbeing and your career. Publicado em: 11 abr. 2023. Disponível em: https://findanexpert.unimelb.edu.au/news/63284-why-reading-books-is-good-for-society--wellbeing-and-your-career. Acesso em: 13 ago. 2025. (Adaptado)\n\nAo final do texto, são apresentadas três dicas para retornar à leitura de livros, em comparação com o uso do telefone celular. Com relação às dicas para retomar a leitura de livros, assinale V (verdadeiro) ou F (falso) em cada afirmativa a seguir.\n\n( ) A primeira dica é escolher um lugar específico de sua casa para deixar o livro visível, a fim de carregá-lo consigo para todos os lugares ao sair.\n\n( ) A segunda dica é agendar um tempo de leitura diário de, aproximadamente, vinte minutos para reforçar o hábito de ler e manter-se imerso no mundo dos livros.\n\n( ) A terceira dica é não ler mais de um livro ao mesmo tempo; é preciso terminar a leitura de um livro para iniciar a leitura do próximo.\n\nA sequência correta é",
+      "options": [
+        {
+          "text": "V – F – F.",
+          "explanation": "A primeira afirmativa é falsa: a dica é levar um livro sempre consigo ou deixar livros pela casa em lugares convenientes, não escolher um lugar específico."
+        },
+        {
+          "text": "F – V – V.",
+          "explanation": "A segunda afirmativa é verdadeira, mas a terceira é falsa: a dica é trocar de livro se não estiver gostando (“try another. Don’t force yourself”)."
+        },
+        {
+          "text": "V – F – V.",
+          "explanation": "A primeira e a terceira afirmativas são falsas, e a segunda, verdadeira: o texto recomenda reservar um tempo diário de leitura, e 20 minutos bastam."
+        },
+        {
+          "text": "F – V – F.",
+          "explanation": "Correta. A primeira dica é levar um livro o tempo todo ou deixar livros espalhados pela casa em lugares convenientes, e não um lugar específico (F). A segunda é reservar tempo de leitura no dia, 20 minutos bastam, o que reforça o hábito e garante imersão regular (V). A terceira é trocar de livro quando não se está gostando, sem se forçar (F)."
+        },
+        {
+          "text": "V – V – F.",
+          "explanation": "A primeira afirmativa é falsa, pois o texto oferece duas alternativas (carregar um livro ou deixar livros pela casa), sem falar em lugar específico."
+        }
+      ],
+      "correct": "D"
+    }
+  ]
+}

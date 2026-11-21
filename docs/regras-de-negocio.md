@@ -89,7 +89,7 @@ Alunos também têm e-mail institucional, muitas vezes no mesmo domínio dos pro
 
 - Os formulários de entrar, criar conta, esqueci a senha, reenviar confirmação, criar nova senha e códigos de 2FA aceitam no máximo **10 envios por minuto por IP**. Acima disso, a pessoa vê "Muitas tentativas em pouco tempo. Aguarde um minuto e tente de novo."
 - **5 senhas erradas seguidas** bloqueiam a conta por **15 minutos**. O admin pode desbloquear antes pela tela *Contas*.
-- Todo texto enviado tem limite de tamanho: comentário 2.000 caracteres, resposta discursiva 5.000, enunciado 8.000, post 20.000.
+- Todo texto enviado tem limite de tamanho: comentário 2.000 caracteres, resposta discursiva 5.000, enunciado 12.000, post 20.000.
 - O site envia cabeçalhos de segurança: política de conteúdo (CSP), proibição de ser exibido dentro de outro site (frame) e de adivinhar tipo de arquivo.
 
 ## Acesso ao conteúdo
@@ -340,6 +340,14 @@ A página inicial é um feed no estilo Reddit, onde professores publicam avisos 
 - As questões de um desafio não mudam depois que algum aluno enviou respostas. Título, descrição e datas ainda podem ser ajustados.
 - As respostas dadas no desafio contam só no desafio: não aparecem como tentativa na página da questão nem liberam o gabarito lá.
 - **Limite conhecido:** as questões do desafio são do banco público. Quem procurar a mesma questão no banco consegue responder lá e ver o gabarito antes do desafio encerrar.
+
+### Provas com cota de matéria (concursos e vestibulares)
+
+- Nas trilhas do **IBGE Recenseador** e da **UFSM** o simulado segue a distribuição do edital. IBGE: 15 de Língua Portuguesa, 15 de Matemática e 30 de Conhecimentos Técnicos em 4 horas. UFSM: 40 questões em 3 horas, com a quantidade de cada disciplina do manual do candidato e 3 de língua estrangeira no idioma escolhido.
+- O médio tem cerca de dois terços e o curto um terço de cada matéria, com ao menos uma de cada. O tempo é proporcional.
+- Se o banco não tem questões suficientes numa matéria, ela entra com as que existem, e outra matéria não completa a falta.
+- Questões podem ter **quatro ou cinco alternativas**, como na prova de origem. Na tela de edição, a questão de quatro alternativas deixa a E em branco; o número de alternativas não muda depois de publicada.
+- A UFSM aplica a mesma prova no vestibular e no PSS: cada trilha (Prova 1, 2 e 3) serve aos dois.
 
 ### Desafio da semana automático
 

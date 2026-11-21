@@ -8,7 +8,7 @@ namespace EnadeAds.MockExams;
 public sealed record MockExamPlan(MockExamFormat Format, int GeneralEducation, int Specific, int Discursive)
 {
     public int Total => GeneralEducation + Specific + Discursive;
-    public int Minutes => MockExamFormat.MinutesFor(Format.Style, Total);
+    public int Minutes => Format.MinutesFor(Total);
     public bool IsShorterThanFormat => Total < Format.Total;
 }
 
@@ -47,7 +47,7 @@ public sealed class MockExamService(ApplicationDbContext db, TimeProvider clock,
     public async Task<IReadOnlyList<MockExamPlan>> PlansAsync(CancellationToken cancellationToken = default)
     {
         var pools = await PoolsAsync(cancellationToken);
-        return MockExamFormat.For(Style).Select(format => Plan(format, pools)).ToList();
+        return MockExamFormat.ForTrack(db.CurrentTrackId).Select(format => Plan(format, pools)).ToList();
     }
 
     /// <summary>Simulado em andamento do aluno, já entregando por tempo se o prazo passou.</summary>
@@ -83,7 +83,7 @@ public sealed class MockExamService(ApplicationDbContext db, TimeProvider clock,
 
         var pools = await PoolsAsync(cancellationToken);
         var language = PaveRoadmapSeed.ForeignLanguageSlugs.Contains(foreignLanguageSlug) ? foreignLanguageSlug! : PaveRoadmapSeed.EnglishSlug;
-        var plan = Plan(MockExamFormat.Of(Style, size), pools, language);
+        var plan = Plan(MockExamFormat.Of(db.CurrentTrackId, size), pools, language);
         if (plan.Total == 0)
         {
             return new StartResult(StartOutcome.NoQuestions, null);
@@ -92,6 +92,8 @@ public sealed class MockExamService(ApplicationDbContext db, TimeProvider clock,
         // Ordem da prova. ENADE: formação geral, específicas e, por último, a discursiva. PAVE: as áreas, uma a uma.
         var picked = Style == MockExamStyle.Pave
             ? PickPave(pools.Specific, size, language).Select(id => (id, general: false)).ToList()
+            : SubjectExam.Of(db.CurrentTrackId) is { } subjectExam
+            ? PickSubjects(pools.Specific, subjectExam.QuotasFor(size), language).Select(id => (id, general: false)).ToList()
             : Pick(pools.GeneralEducation, plan.GeneralEducation).Select(id => (id, general: true))
                 .Concat(Pick(pools.Specific, plan.Specific, balanced: Style == MockExamStyle.Enem).Select(id => (id, general: false)))
                 .Concat(Pick(pools.Discursive, plan.Discursive).Select(id => (id, general: false)))
@@ -270,6 +272,15 @@ public sealed class MockExamService(ApplicationDbContext db, TimeProvider clock,
     /// </summary>
     private static MockExamPlan Plan(MockExamFormat format, Pools pools, string? foreignLanguageSlug = null)
     {
+        if (format.TrackId is { } trackId && SubjectExam.Of(trackId) is { } subjectExam)
+        {
+            // Como no PAVE: cada parte entra com o que o banco tem, até a cota, e antes da escolha do idioma vale o maior.
+            IReadOnlyList<string> choices = foreignLanguageSlug is null ? SubjectExam.LanguageSlugs : [foreignLanguageSlug];
+            var available = choices.Max(language => subjectExam.QuotasFor(format.Size)
+                .Sum(quota => Math.Min(quota.Count, pools.Specific.Count(item => InQuota(item, quota, language)))));
+            return new MockExamPlan(format, 0, available, 0);
+        }
+
         if (format.Style == MockExamStyle.Pave)
         {
             // Cada parte entra com o que o banco tem, até a cota: completar com outra área tiraria a proporção da prova.
@@ -299,6 +310,17 @@ public sealed class MockExamService(ApplicationDbContext db, TimeProvider clock,
             .OrderBy(_ => Random.Shared.Next())
             .Take(quota.Count)
             .Select(item => item.Id));
+
+    /// <summary>Prova por cota de matéria: sorteia a cota de cada parte e devolve na ordem do edital.</summary>
+    private static IEnumerable<int> PickSubjects(List<PoolItem> pool, IReadOnlyList<SubjectQuota> quotas, string foreignLanguageSlug) =>
+        quotas.SelectMany(quota => pool
+            .Where(item => InQuota(item, quota, foreignLanguageSlug))
+            .OrderBy(_ => Random.Shared.Next())
+            .Take(quota.Count)
+            .Select(item => item.Id));
+
+    private static bool InQuota(PoolItem item, SubjectQuota quota, string foreignLanguageSlug) =>
+        quota.IsForeignLanguage ? item.Slug == foreignLanguageSlug : quota.Slugs.Contains(item.Slug);
 
     private static bool IsInPart(PoolItem item, PavePart part, string foreignLanguageSlug)
     {

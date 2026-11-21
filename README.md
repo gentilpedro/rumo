@@ -16,6 +16,8 @@ Cada prova é uma **trilha**. Ao entrar, o estudante escolhe a dele, e a marca p
 | **ENADE 2026 · ADS** | Estudantes de Tecnologia em Análise e Desenvolvimento de Sistemas. Prova em 29/11/2026 | No ar: roadmap pela Portaria Inep nº 169/2026, provas reais de 2017 e 2021 e simulado no formato do ENADE |
 | **ENADE 2026 · Redes de Computadores** | Estudantes de Tecnologia em Redes de Computadores. Prova em 29/11/2026 | No ar: roadmap pela Portaria Inep nº 172/2026, provas reais de 2017 e 2021 e simulado no formato do ENADE |
 | **PAVE 2026 · Etapas 1, 2 e 3** (UFPel) | Estudantes do 1º, 2º e 3º ano do ensino médio que fazem a avaliação seriada da UFPel. Etapa 1 em 05/12/2026; Etapas 2 e 3 em 06/12/2026 | No ar, uma trilha por etapa: roadmap pela Matriz de Referência PAVE 2026, provas reais de 2024 e 2025 e simulado com a regra do PAVE ("Ignoro a resposta" e desconto por erro) |
+| **IBGE 2027 · Recenseador** (Cesgranrio) | Nível fundamental, 27.279 vagas do 12º Censo Agro. Prova em 31/01/2027 | No ar: roadmap pelo Edital nº 03/2026, Português e Matemática das provas de Recenseador de 2006, 2009 e 2010, 60 questões de autoria própria sobre a apostila oficial e simulado de 60 questões em 4 horas |
+| **UFSM 2027 · Provas 1, 2 e 3** (vestibular e PSS) | Ensino médio; o PSS usa as mesmas provas. Prova 1 em 09/01/2027; Provas 2 e 3 em 10/01/2027 | No ar, uma trilha por prova: roadmap pelos Cadernos de Habilidades, provas de 2025 e 2026 e simulado de 40 questões na distribuição do edital |
 | **Seletivos de IFs** (como o IFSul) | Quem vai entrar no ensino médio técnico | Próxima trilha |
 
 ## O que tem em cada trilha
@@ -64,6 +66,8 @@ O Rumo coleta o mínimo: nome, e-mail e a faixa de idade, sem data de nascimento
   - **Língua estrangeira:** as questões 30 a 32 entram nas duas versões, espanhol e inglês, cada uma na sua matéria.
   - **"Ignoro a resposta":** a alternativa "f" da prova não é guardada na questão. Ela é uma opção do simulado.
   - **Anuladas:** não entram a questão 32 da Etapa 1, a 5 da Etapa 2 e a 21 da Etapa 3 de 2024, nem a 19 da Etapa 1 e a 19 e a 32 da Etapa 2 de 2025.
+- **IBGE Recenseador:** as questões 1 a 20 (Português e Matemática) das provas de Recenseador da Cesgranrio de 2006, 2009 e 2010 estão em `EnadeAds/Data/Seed/ibge/`, com o gabarito oficial. A de 2010 tem quatro alternativas. As 60 questões de Conhecimentos Técnicos são de autoria própria, escritas a partir da apostila oficial do 12º Censo Agro, e cada uma cita a página. As bancas não publicam licença de reutilização das provas.
+- **UFSM:** as Provas 1, 2 e 3 do vestibular de 2025 e 2026 estão em `EnadeAds/Data/Seed/ufsm/`, com o gabarito definitivo e as questões 38 a 40 em espanhol e em inglês. As anuladas (2025 Prova 3, questão 8; 2026 Prova 2, questão 8) não entram. A UFSM não publica licença de reutilização das provas.
 - **Comentários e padrões de resposta** são da plataforma e ficam sob [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.pt_BR).
 
 As questões entram quando a aplicação sobe. Só são importadas as que ainda não existem, então as correções feitas pelos professores na tela não são sobrescritas.

@@ -1,0 +1,1806 @@
+{
+  "year": 2026,
+  "track": "ibge-recenseador",
+  "questions": [
+    {
+      "key": "rumo-ibge-ct-001",
+      "source": "Autoria própria – Rumo, com base na apostila do IBGE para o 12º Censo Agropecuário (p. 4)",
+      "kind": "Objective",
+      "subject": "conhecimentos-tecnicos",
+      "statement": "De acordo com a apostila, a missão institucional do IBGE é",
+      "options": [
+        {
+          "text": "fiscalizar o pagamento de impostos pelos produtores rurais.",
+          "explanation": "A apostila não atribui ao IBGE nenhuma função de fiscalização de impostos; o Instituto produz informações estatísticas e geográficas."
+        },
+        {
+          "text": "definir os preços dos alimentos vendidos nos supermercados.",
+          "explanation": "A apostila diz que as informações do IBGE afetam até os preços no supermercado, mas não que o Instituto os define."
+        },
+        {
+          "text": "retratar o Brasil com informações necessárias ao conhecimento de sua realidade e ao exercício da cidadania.",
+          "explanation": "Correta. É exatamente a missão institucional do IBGE apresentada na apostila."
+        },
+        {
+          "text": "executar as políticas públicas de saúde, transporte e educação.",
+          "explanation": "As informações do IBGE ajudam na formulação dessas políticas, mas executá-las não é a missão do Instituto."
+        },
+        {
+          "text": "conceder crédito aos agricultores familiares.",
+          "explanation": "Conceder crédito não aparece na apostila como papel do IBGE, que é o órgão coordenador e produtor de informações estatísticas e geográficas."
+        }
+      ],
+      "correct": "C"
+    },
+    {
+      "key": "rumo-ibge-ct-002",
+      "source": "Autoria própria – Rumo, com base na apostila do IBGE para o 12º Censo Agropecuário (p. 6)",
+      "kind": "Objective",
+      "subject": "conhecimentos-tecnicos",
+      "statement": "O Censo Agropecuário, Florestal e Aquícola é uma pesquisa censitária. Segundo a apostila, uma pesquisa censitária é um levantamento de dados estatísticos que",
+      "options": [
+        {
+          "text": "coleta os dados de toda a população do universo que se quer investigar.",
+          "explanation": "Correta. A apostila define a pesquisa censitária como a que coleta dados de toda a população de um determinado universo; no Censo Agro, o universo dos estabelecimentos agropecuários."
+        },
+        {
+          "text": "coleta os dados de apenas uma parte sorteada do universo investigado.",
+          "explanation": "Coletar só uma parte é o contrário do que a apostila descreve: a pesquisa censitária alcança toda a população do universo investigado."
+        },
+        {
+          "text": "coleta os dados somente dos maiores estabelecimentos de cada município.",
+          "explanation": "O Censo será realizado em todos os estabelecimentos agropecuários, independentemente do tamanho."
+        },
+        {
+          "text": "coleta os dados somente dos estabelecimentos situados em área rural.",
+          "explanation": "O estabelecimento agropecuário é investigado esteja ele em área rural ou urbana."
+        },
+        {
+          "text": "coleta os dados apenas dos produtores que vendem a sua produção.",
+          "explanation": "A produção para subsistência também caracteriza o estabelecimento agropecuário, que faz parte do universo investigado."
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "key": "rumo-ibge-ct-003",
+      "source": "Autoria própria – Rumo, com base na apostila do IBGE para o 12º Censo Agropecuário (p. 7)",
+      "kind": "Objective",
+      "subject": "conhecimentos-tecnicos",
+      "statement": "Na apostila, o termo que se refere à criação e à multiplicação de plantas e animais cujo ciclo de vida, em condições naturais, se dá total ou parcialmente na água é",
+      "options": [
+        {
+          "text": "Agropecuário.",
+          "explanation": "Agropecuário é o termo relativo às atividades de agricultura e pecuária, ou seja, à produção vegetal e à criação de animais."
+        },
+        {
+          "text": "Florestal.",
+          "explanation": "Florestal refere-se ao cultivo, manejo ou exploração de florestas e matas, além do extrativismo florestal."
+        },
+        {
+          "text": "Temporário.",
+          "explanation": "Na apostila, temporária é um tipo de lavoura, a que é plantada e colhida no mesmo ano, e não a atividade ligada ao meio aquático."
+        },
+        {
+          "text": "Permanente.",
+          "explanation": "Na apostila, permanente é um tipo de lavoura, a que produz por muitos anos sem replantio, e não a atividade ligada ao meio aquático."
+        },
+        {
+          "text": "Aquícola.",
+          "explanation": "Correta. A apostila define aquícola como relativo à criação e à multiplicação de plantas e animais cujo ciclo de vida se dá total ou parcialmente em meio aquático."
+        }
+      ],
+      "correct": "E"
+    },
+    {
+      "key": "rumo-ibge-ct-004",
+      "source": "Autoria própria – Rumo, com base na apostila do IBGE para o 12º Censo Agropecuário (p. 8)",
+      "kind": "Objective",
+      "subject": "conhecimentos-tecnicos",
+      "statement": "Segundo a apostila, de 1940 a 1970 os Censos Agropecuários foram realizados a cada dez anos. A partir de então, como em 1975, 1980 e 1985, eles passaram a ocorrer a cada",
+      "options": [
+        {
+          "text": "três anos.",
+          "explanation": "Os anos citados na apostila (1975, 1980 e 1985) têm intervalo de cinco anos, não de três."
+        },
+        {
+          "text": "cinco anos.",
+          "explanation": "Correta. A apostila informa que, depois de 1970, os Censos Agropecuários passaram a ocorrer a cada cinco anos, citando 1975, 1980 e 1985."
+        },
+        {
+          "text": "seis anos.",
+          "explanation": "Os anos citados na apostila (1975, 1980 e 1985) têm intervalo de cinco anos, não de seis."
+        },
+        {
+          "text": "oito anos.",
+          "explanation": "Os anos citados na apostila (1975, 1980 e 1985) têm intervalo de cinco anos, não de oito."
+        },
+        {
+          "text": "doze anos.",
+          "explanation": "Os anos citados na apostila (1975, 1980 e 1985) têm intervalo de cinco anos, não de doze."
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "key": "rumo-ibge-ct-005",
+      "source": "Autoria própria – Rumo, com base na apostila do IBGE para o 12º Censo Agropecuário (p. 10)",
+      "kind": "Objective",
+      "subject": "conhecimentos-tecnicos",
+      "statement": "A concepção do Censo Agropecuário, Florestal e Aquícola leva em conta as recomendações do Programa Mundial de Censos Agropecuários, que pertence à",
+      "options": [
+        {
+          "text": "Organização Internacional do Trabalho (OIT).",
+          "explanation": "A OIT aparece na apostila por causa da Convenção nº 169, sobre a consulta a povos e comunidades tradicionais, e não pelo Programa Mundial de Censos Agropecuários."
+        },
+        {
+          "text": "Fundação Nacional dos Povos Indígenas (FUNAI).",
+          "explanation": "A FUNAI é citada como apoio na indicação de guias para a coleta em terras indígenas, e não como responsável pelo programa mundial."
+        },
+        {
+          "text": "Empresa Brasileira de Correios e Telégrafos (ECT).",
+          "explanation": "A ECT é citada na apostila como mantenedora do CEP, sem relação com o programa de censos agropecuários."
+        },
+        {
+          "text": "Organização das Nações Unidas para Alimentação e Agricultura (FAO).",
+          "explanation": "Correta. A apostila informa que a pesquisa considera as recomendações do Programa Mundial de Censos Agropecuários da FAO."
+        },
+        {
+          "text": "Secretaria Especial de Saúde Indígena (SESAI).",
+          "explanation": "A SESAI é citada como apoio na indicação de guias para a coleta em terras indígenas, e não como responsável pelo programa mundial."
+        }
+      ],
+      "correct": "D"
+    },
+    {
+      "key": "rumo-ibge-ct-006",
+      "source": "Autoria própria – Rumo, com base na apostila do IBGE para o 12º Censo Agropecuário (p. 11)",
+      "kind": "Objective",
+      "subject": "conhecimentos-tecnicos",
+      "statement": "Para o 12º Censo Agropecuário, a estrutura permanente do IBGE será ampliada com funções de caráter temporário. Segundo a apostila, os cerca de 36 mil profissionais temporários serão contratados por meio de",
+      "options": [
+        {
+          "text": "indicação das prefeituras dos municípios.",
+          "explanation": "A apostila não prevê indicação por prefeituras; a contratação é feita por processos seletivos simplificados."
+        },
+        {
+          "text": "processos seletivos simplificados.",
+          "explanation": "Correta. A apostila informa que os cerca de 36 mil profissionais temporários serão contratados por processos seletivos simplificados."
+        },
+        {
+          "text": "trabalho voluntário das comunidades rurais.",
+          "explanation": "Os profissionais são contratados como temporários, e não como voluntários."
+        },
+        {
+          "text": "transferência de servidores das Agências municipais.",
+          "explanation": "A apostila fala em contratação de pessoal temporário, que amplia a estrutura permanente, e não em transferência de servidores."
+        },
+        {
+          "text": "escolha direta feita pelos produtores de cada setor.",
+          "explanation": "Não há na apostila escolha de profissionais pelos produtores; a contratação é por processos seletivos simplificados."
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "key": "rumo-ibge-ct-007",
+      "source": "Autoria própria – Rumo, com base na apostila do IBGE para o 12º Censo Agropecuário (p. 13)",
+      "kind": "Objective",
+      "subject": "conhecimentos-tecnicos",
+      "statement": "Na estrutura temporária do Censo Agropecuário, a unidade vinculada às Superintendências Estaduais (SES) e responsável, em nível estadual, pelo monitoramento da qualidade dos dados coletados é o",
+      "options": [
+        {
+          "text": "Centro Nacional de Qualidade (CNQ).",
+          "explanation": "O CNQ é vinculado à Sede e monitora a qualidade com uma visão nacional, orientando o trabalho dos CEQs."
+        },
+        {
+          "text": "Posto censitário.",
+          "explanation": "O Posto censitário é a unidade de apoio que serve de base operacional para a equipe de supervisão e os Recenseadores."
+        },
+        {
+          "text": "Cadastro Nacional de Endereços para Fins Estatísticos (CNEFE).",
+          "explanation": "O CNEFE é o cadastro cujo padrão de endereçamento é seguido nos registros, e não uma unidade de monitoramento da qualidade."
+        },
+        {
+          "text": "Centro Estadual de Qualidade (CEQ).",
+          "explanation": "Correta. A apostila define o CEQ como vinculado às Superintendências Estaduais e responsável, em nível estadual, pelo monitoramento da qualidade dos dados."
+        },
+        {
+          "text": "Núcleo Virtual da Rede de Memória do IBGE.",
+          "explanation": "A Rede de Memória é citada apenas como portal sobre a história do IBGE."
+        }
+      ],
+      "correct": "D"
+    },
+    {
+      "key": "rumo-ibge-ct-008",
+      "source": "Autoria própria – Rumo, com base na apostila do IBGE para o 12º Censo Agropecuário (p. 13)",
+      "kind": "Objective",
+      "subject": "conhecimentos-tecnicos",
+      "statement": "A equipe de um Posto censitário é composta por servidores temporários. Dentre os servidores abaixo, o que **NÃO** faz parte da equipe do Posto censitário é o",
+      "options": [
+        {
+          "text": "Analista Censitário Nacional.",
+          "explanation": "Correta. O Analista Censitário Nacional compõe a equipe do Centro Nacional de Qualidade (CNQ), vinculado à Sede, e não a do Posto censitário."
+        },
+        {
+          "text": "Assistente Operacional Regional (AOR).",
+          "explanation": "O AOR está na lista de servidores que compõem a equipe do Posto censitário."
+        },
+        {
+          "text": "Agente Censitário Administrativo (ACA).",
+          "explanation": "O ACA está na lista de servidores que compõem a equipe do Posto censitário."
+        },
+        {
+          "text": "Agente Censitário Supervisor (ACS).",
+          "explanation": "O ACS está na lista de servidores que compõem a equipe do Posto censitário."
+        },
+        {
+          "text": "Recenseador.",
+          "explanation": "O Recenseador está na lista de servidores que compõem a equipe do Posto censitário."
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "key": "rumo-ibge-ct-009",
+      "source": "Autoria própria – Rumo, com base na apostila do IBGE para o 12º Censo Agropecuário (p. 15)",
+      "kind": "Objective",
+      "subject": "conhecimentos-tecnicos",
+      "statement": "No Posto censitário, o servidor temporário responsável por prestar apoio ao Assistente Operacional Regional (AOR) nas questões de tecnologia da informação é o",
+      "options": [
+        {
+          "text": "Agente Censitário Administrativo (ACA).",
+          "explanation": "O ACA apoia as atividades administrativas executadas pelo AOR, e não as de tecnologia da informação."
+        },
+        {
+          "text": "Agente Censitário Supervisor (ACS).",
+          "explanation": "O ACS é responsável pela supervisão do trabalho dos Recenseadores."
+        },
+        {
+          "text": "Agente Censitário Regional (ACR).",
+          "explanation": "O ACR acompanha o trabalho dos ACSs e cuida da produtividade, da cobertura territorial e dos prazos da coleta."
+        },
+        {
+          "text": "Recenseador.",
+          "explanation": "O Recenseador é responsável pela coleta presencial das informações pesquisadas pelo censo."
+        },
+        {
+          "text": "Agente Censitário de Informática (ACI).",
+          "explanation": "Correta. A apostila atribui ao ACI o apoio ao AOR nas questões de tecnologia da informação."
+        }
+      ],
+      "correct": "E"
+    },
+    {
+      "key": "rumo-ibge-ct-010",
+      "source": "Autoria própria – Rumo, com base na apostila do IBGE para o 12º Censo Agropecuário (p. 18)",
+      "kind": "Objective",
+      "subject": "conhecimentos-tecnicos",
+      "statement": "Durante a coleta, um Recenseador encontra uma situação que não sabe como resolver. De acordo com a apostila, ele deve se reportar ao",
+      "options": [
+        {
+          "text": "Agente Censitário Administrativo (ACA).",
+          "explanation": "O ACA apoia as atividades administrativas do AOR; a orientação técnica do Recenseador cabe ao ACS."
+        },
+        {
+          "text": "Agente Censitário de Informática (ACI).",
+          "explanation": "O ACI presta apoio de tecnologia da informação ao AOR; quem dá orientação técnica e assistência ao Recenseador é o ACS."
+        },
+        {
+          "text": "Agente Censitário Supervisor (ACS).",
+          "explanation": "Correta. A apostila diz que é ao ACS que o Recenseador deve se reportar sempre que encontrar alguma dificuldade ou dúvida."
+        },
+        {
+          "text": "Analista Censitário Estadual.",
+          "explanation": "O Analista Censitário Estadual atua na supervisão da qualidade na Unidade da Federação; o Recenseador se reporta ao seu ACS."
+        },
+        {
+          "text": "Analista Censitário Nacional.",
+          "explanation": "O Analista Censitário Nacional atua no CNQ, em nível nacional; o Recenseador se reporta ao seu ACS."
+        }
+      ],
+      "correct": "C"
+    },
+    {
+      "key": "rumo-ibge-ct-011",
+      "source": "Autoria própria – Rumo, com base na apostila do IBGE para o 12º Censo Agropecuário (p. 16)",
+      "kind": "Objective",
+      "subject": "conhecimentos-tecnicos",
+      "statement": "Segundo a apostila, o Agente Censitário Regional (ACR) é subordinado ao",
+      "options": [
+        {
+          "text": "Agente Censitário Supervisor (ACS) e gerencia o trabalho dos Assistentes Operacionais Regionais (AOR).",
+          "explanation": "A relação está invertida: o ACR é subordinado ao AOR e é ele quem gerencia os ACSs."
+        },
+        {
+          "text": "Recenseador e gerencia o trabalho dos Agentes Censitários de Informática (ACI).",
+          "explanation": "O Recenseador é supervisionado pelo ACS, que por sua vez é gerenciado pelo ACR; o ACR é subordinado ao AOR."
+        },
+        {
+          "text": "Agente Censitário Administrativo (ACA) e gerencia o trabalho dos Analistas Censitários Estaduais.",
+          "explanation": "O ACA apoia o AOR em atividades administrativas; o ACR é subordinado ao AOR e gerencia os ACSs."
+        },
+        {
+          "text": "Agente Censitário de Informática (ACI) e gerencia o trabalho dos Agentes Censitários de Qualidade (ACQ).",
+          "explanation": "O ACI apoia o AOR em tecnologia da informação; o ACR é subordinado ao AOR e gerencia os ACSs."
+        },
+        {
+          "text": "Assistente Operacional Regional (AOR) e gerencia o trabalho dos Agentes Censitários Supervisores (ACS).",
+          "explanation": "Correta. A apostila descreve o ACR como subordinado ao AOR e responsável por gerenciar o trabalho dos ACSs."
+        }
+      ],
+      "correct": "E"
+    },
+    {
+      "key": "rumo-ibge-ct-012",
+      "source": "Autoria própria – Rumo, com base na apostila do IBGE para o 12º Censo Agropecuário (p. 19)",
+      "kind": "Objective",
+      "subject": "conhecimentos-tecnicos",
+      "statement": "Um Recenseador foi chamado ao Posto censitário, e o supervisor, ao avaliar o seu trabalho, indicou a necessidade de corrigir um dado coletado. Nesse caso, o Recenseador deverá",
+      "options": [
+        {
+          "text": "corrigir o dado no Posto, com base no que ele acha mais provável.",
+          "explanation": "A apostila manda retornar a campo; ela não autoriza corrigir o dado por suposição."
+        },
+        {
+          "text": "excluir o estabelecimento da lista de endereços.",
+          "explanation": "A exclusão vale para endereços que não forem encontrados em campo, e não para dados que precisam de correção."
+        },
+        {
+          "text": "retornar a campo.",
+          "explanation": "Correta. A apostila determina que, se a supervisão indicar a necessidade de corrigir algum dado coletado, o Recenseador deverá retornar a campo."
+        },
+        {
+          "text": "deixar a correção para o Recenseador do setor vizinho.",
+          "explanation": "Cada Recenseador é responsável pela sua área; a apostila diz que ele mesmo deverá retornar a campo."
+        },
+        {
+          "text": "manter o dado como está, pois a entrevista já foi encerrada.",
+          "explanation": "A apostila prevê o retorno a campo justamente para corrigir o dado apontado pela supervisão."
+        }
+      ],
+      "correct": "C"
+    },
+    {
+      "key": "rumo-ibge-ct-013",
+      "source": "Autoria própria – Rumo, com base na apostila do IBGE para o 12º Censo Agropecuário (p. 18)",
+      "kind": "Objective",
+      "subject": "conhecimentos-tecnicos",
+      "statement": "Ao chegar a um estabelecimento agropecuário, o Recenseador ouve do informante o pedido para que a entrevista seja feita em outro momento. De acordo com as atribuições do Recenseador descritas na apostila, ele deve",
+      "options": [
+        {
+          "text": "excluir o endereço da lista, pois não houve entrevista.",
+          "explanation": "A exclusão vale para endereços não encontrados em campo; aqui o estabelecimento existe e o informante só pediu outro momento."
+        },
+        {
+          "text": "agendar a entrevista e gerenciar a sua realização.",
+          "explanation": "Correta. Entre as atribuições do Recenseador está agendar entrevistas, se solicitado pelo informante, e gerenciar sua realização."
+        },
+        {
+          "text": "preencher o questionário com dados estimados por ele mesmo.",
+          "explanation": "O questionário é preenchido a partir da entrevista; a apostila prevê o agendamento, e não a estimativa pelo Recenseador."
+        },
+        {
+          "text": "pedir a um vizinho que responda no lugar do informante.",
+          "explanation": "A apostila prevê agendar a entrevista quando o informante solicita, e não substituí-lo por um vizinho."
+        },
+        {
+          "text": "informar que o Censo só pode ser respondido naquele momento.",
+          "explanation": "A apostila prevê expressamente o agendamento de entrevistas quando solicitado pelo informante."
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "key": "rumo-ibge-ct-014",
+      "source": "Autoria própria – Rumo, com base na apostila do IBGE para o 12º Censo Agropecuário (p. 20)",
+      "kind": "Objective",
+      "subject": "conhecimentos-tecnicos",
+      "statement": "A área de trabalho pela qual o Recenseador é responsável é a menor área geográfica definida pelo IBGE e constitui a unidade territorial de coleta do Censo Agropecuário. Essa área é chamada de",
+      "options": [
+        {
+          "text": "distrito.",
+          "explanation": "O distrito é uma divisão do município criada por legislação municipal, e não a área de trabalho do Recenseador."
+        },
+        {
+          "text": "subdistrito.",
+          "explanation": "O subdistrito subdivide distritos, geralmente nas grandes cidades; a área de trabalho do Recenseador é o setor censitário."
+        },
+        {
+          "text": "Posto censitário.",
+          "explanation": "O Posto censitário é o local físico de trabalho e apoio da equipe, e não a área de coleta."
+        },
+        {
+          "text": "setor censitário.",
+          "explanation": "Correta. A apostila define o setor censitário como a menor área geográfica definida pelo IBGE e a unidade territorial de coleta do Censo."
+        },
+        {
+          "text": "localidade.",
+          "explanation": "Localidade é um componente do endereço, o nome pelo qual o local ou a região é conhecido."
+        }
+      ],
+      "correct": "D"
+    },
+    {
+      "key": "rumo-ibge-ct-015",
+      "source": "Autoria própria – Rumo, com base na apostila do IBGE para o 12º Censo Agropecuário (p. 20)",
+      "kind": "Objective",
+      "subject": "conhecimentos-tecnicos",
+      "statement": "Antes de sair para o campo, um Recenseador quer saber onde o seu setor fica dentro do município e por quais vias pode chegar até ele. O instrumento indicado para isso, que fica fixado no posto e traz a visão geral de todos os setores censitários do município, é o",
+      "options": [
+        {
+          "text": "Mapa Municipal Estatístico (MME).",
+          "explanation": "Correta. O MME fica fixado no posto, mostra todos os setores do município e suas vias de acesso e deve ser usado para planejar a chegada ao setor."
+        },
+        {
+          "text": "Descritivo do setor.",
+          "explanation": "O Descritivo é o texto que define o contorno do setor do Recenseador, e não a visão geral do município."
+        },
+        {
+          "text": "Manual do Recenseador.",
+          "explanation": "O Manual reúne orientações sobre conceitos, procedimentos e sistemas, e não a visão dos setores do município."
+        },
+        {
+          "text": "questionário.",
+          "explanation": "O questionário serve para registrar as informações sobre os estabelecimentos agropecuários."
+        },
+        {
+          "text": "geocódigo.",
+          "explanation": "O geocódigo é o código que identifica cada setor de forma única, e não um mapa."
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "key": "rumo-ibge-ct-016",
+      "source": "Autoria própria – Rumo, com base na apostila do IBGE para o 12º Censo Agropecuário (p. 21)",
+      "kind": "Objective",
+      "subject": "conhecimentos-tecnicos",
+      "statement": "Ao percorrer o seu setor, um Recenseador verifica que um endereço da lista prévia registrada no DMC não foi encontrado em campo. Ao atualizar a lista, ele deverá",
+      "options": [
+        {
+          "text": "excluir esse endereço.",
+          "explanation": "Correta. Para atualizar a lista prévia, o Recenseador confirma os endereços que continuam em campo, inclui os novos e exclui os que não forem encontrados."
+        },
+        {
+          "text": "confirmar esse endereço, pois ele já constava na lista.",
+          "explanation": "A confirmação vale só para os endereços que continuam presentes em campo, após verificação."
+        },
+        {
+          "text": "incluir o mesmo endereço mais uma vez.",
+          "explanation": "A inclusão vale para novos endereços de estabelecimentos agropecuários encontrados em campo."
+        },
+        {
+          "text": "registrar esse endereço em um setor vizinho.",
+          "explanation": "A apostila não prevê transferir endereços para outro setor; o endereço não encontrado deve ser excluído."
+        },
+        {
+          "text": "preencher o questionário com os dados de pesquisas anteriores.",
+          "explanation": "A lista prévia traz endereços de pesquisas anteriores, mas o endereço não encontrado em campo deve ser excluído."
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "key": "rumo-ibge-ct-017",
+      "source": "Autoria própria – Rumo, com base na apostila do IBGE para o 12º Censo Agropecuário (p. 23)",
+      "kind": "Objective",
+      "subject": "conhecimentos-tecnicos",
+      "statement": "Em um mapa, o elemento que apresenta os símbolos, as cores e os estilos usados para representar estradas, rios, áreas de vegetação e construções, e que deve ser consultado antes de interpretar qualquer símbolo, é a",
+      "options": [
+        {
+          "text": "escala.",
+          "explanation": "A escala é a relação de proporção entre a distância no mapa e a distância real no terreno."
+        },
+        {
+          "text": "latitude.",
+          "explanation": "A latitude é o afastamento, em graus, da linha do Equador a um ponto da superfície terrestre."
+        },
+        {
+          "text": "linha seca.",
+          "explanation": "A linha seca é uma reta que define um limite de setor sem estar materializada no terreno."
+        },
+        {
+          "text": "localidade.",
+          "explanation": "Localidade é um componente do endereço, e não um elemento do mapa que explica os símbolos."
+        },
+        {
+          "text": "legenda.",
+          "explanation": "Correta. A legenda apresenta os símbolos e referências do mapa, e a apostila orienta a nunca interpretar um símbolo sem consultá-la."
+        }
+      ],
+      "correct": "E"
+    },
+    {
+      "key": "rumo-ibge-ct-018",
+      "source": "Autoria própria – Rumo, com base na apostila do IBGE para o 12º Censo Agropecuário (p. 25)",
+      "kind": "Objective",
+      "subject": "conhecimentos-tecnicos",
+      "statement": "Um Recenseador usa um mapa na escala 1:50.000, em que 1 cm no mapa corresponde a 500 m no terreno. Ele mede 4 cm entre dois pontos do mapa. A distância real entre esses pontos é de",
+      "options": [
+        {
+          "text": "20 m.",
+          "explanation": "Cada centímetro do mapa corresponde a 500 m; 4 cm correspondem a 2.000 m, e não a 20 m."
+        },
+        {
+          "text": "200 m.",
+          "explanation": "Cada centímetro do mapa corresponde a 500 m; 4 cm correspondem a 2.000 m, e não a 200 m."
+        },
+        {
+          "text": "500 m.",
+          "explanation": "500 m é a distância real correspondente a apenas 1 cm no mapa."
+        },
+        {
+          "text": "2 km.",
+          "explanation": "Correta. Pelo método da apostila, 4 cm × 50.000 = 200.000 cm, que são 2.000 metros, ou seja, 2 km."
+        },
+        {
+          "text": "20 km.",
+          "explanation": "200.000 cm equivalem a 2.000 m, isto é, 2 km, e não 20 km."
+        }
+      ],
+      "correct": "D"
+    },
+    {
+      "key": "rumo-ibge-ct-019",
+      "source": "Autoria própria – Rumo, com base na apostila do IBGE para o 12º Censo Agropecuário (p. 27)",
+      "kind": "Objective",
+      "subject": "conhecimentos-tecnicos",
+      "statement": "Observando a imagem de satélite do seu setor, um Recenseador identifica uma unidade que não está na lista de endereços. Segundo a apostila, ele deve",
+      "options": [
+        {
+          "text": "ignorar a unidade, pois só os endereços da lista devem ser visitados.",
+          "explanation": "O Recenseador deve visitar todos os endereços de estabelecimentos do setor, mesmo os que não estão na lista."
+        },
+        {
+          "text": "registrar a unidade sem visitá-la, usando apenas a imagem.",
+          "explanation": "A apostila exige que as novas unidades sejam visitadas, além de registradas."
+        },
+        {
+          "text": "certificar-se de que essa unidade seja visitada e registrada no DMC.",
+          "explanation": "Correta. A apostila orienta que as novas unidades identificadas pela imagem ou em campo sejam devidamente visitadas e registradas no DMC."
+        },
+        {
+          "text": "alterar o perímetro do setor para deixar a unidade de fora.",
+          "explanation": "O Recenseador não pode alterar o perímetro do setor em hipótese alguma."
+        },
+        {
+          "text": "aguardar o próximo Censo para incluir a unidade.",
+          "explanation": "A lista deve ser atualizada durante a coleta, com a inclusão dos novos endereços encontrados."
+        }
+      ],
+      "correct": "C"
+    },
+    {
+      "key": "rumo-ibge-ct-020",
+      "source": "Autoria própria – Rumo, com base na apostila do IBGE para o 12º Censo Agropecuário (p. 28)",
+      "kind": "Objective",
+      "subject": "conhecimentos-tecnicos",
+      "statement": "O Descritivo do setor indica um Ponto Inicial para o percurso, mas o Recenseador constata que não é possível começar por ele. Nessa situação, o Recenseador",
+      "options": [
+        {
+          "text": "deve desistir de percorrer o setor.",
+          "explanation": "A apostila prevê a adoção de outro ponto de início, e não o abandono do setor."
+        },
+        {
+          "text": "pode adotar outro ponto, de mais fácil acesso, e deve comunicar o Supervisor.",
+          "explanation": "Correta. A apostila permite adotar outro ponto de mais fácil acesso para iniciar o trabalho, comunicando sempre o Supervisor, que avalia a mudança e orienta o percurso."
+        },
+        {
+          "text": "deve alterar o perímetro do setor para facilitar o acesso.",
+          "explanation": "O perímetro do setor não pode ser alterado pelo Recenseador em hipótese alguma."
+        },
+        {
+          "text": "pode adotar outro ponto, sem necessidade de avisar ninguém.",
+          "explanation": "A mudança do ponto de início é permitida, mas a apostila manda comunicar sempre o Supervisor."
+        },
+        {
+          "text": "deve iniciar o percurso pelo setor vizinho.",
+          "explanation": "O Recenseador não deve coletar fora da área para a qual foi designado."
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "key": "rumo-ibge-ct-021",
+      "source": "Autoria própria – Rumo, com base na apostila do IBGE para o 12º Censo Agropecuário (p. 29)",
+      "kind": "Objective",
+      "subject": "conhecimentos-tecnicos",
+      "statement": "Entre os elementos usados para definir os limites de um setor censitário, há retas que não estão materializadas no terreno e que podem ligar um ponto de referência visível a outro. Segundo a apostila, esses limites são chamados de",
+      "options": [
+        {
+          "text": "corpos hídricos.",
+          "explanation": "Corpos hídricos são rios, córregos, lagos e semelhantes, elementos que existem no terreno."
+        },
+        {
+          "text": "ramais.",
+          "explanation": "Ramais, caminhos e estradas secundárias são vias que existem no terreno e são facilmente identificadas em campo."
+        },
+        {
+          "text": "ferrovias.",
+          "explanation": "As ferrovias são delimitadores materializados no terreno, de identificação simples."
+        },
+        {
+          "text": "linhas secas.",
+          "explanation": "Correta. A apostila chama de linhas secas as retas que definem um limite sem estarem materializadas no terreno."
+        },
+        {
+          "text": "rodovias.",
+          "explanation": "As rodovias são delimitadores materializados no terreno, asfaltadas ou não."
+        }
+      ],
+      "correct": "D"
+    },
+    {
+      "key": "rumo-ibge-ct-022",
+      "source": "Autoria própria – Rumo, com base na apostila do IBGE para o 12º Censo Agropecuário (p. 30)",
+      "kind": "Objective",
+      "subject": "conhecimentos-tecnicos",
+      "statement": "Em campo, um Recenseador encontra dificuldade para identificar um dos limites do seu setor. De acordo com a apostila, ele deve",
+      "options": [
+        {
+          "text": "alterar o perímetro do setor para um limite mais fácil de reconhecer.",
+          "explanation": "O Recenseador não pode alterar o perímetro do setor em hipótese alguma."
+        },
+        {
+          "text": "comunicar imediatamente à supervisão.",
+          "explanation": "Correta. A apostila orienta comunicar imediatamente à supervisão ao encontrar inconsistências ou dificuldades para identificar o limite."
+        },
+        {
+          "text": "avançar sobre a área do setor vizinho, para não omitir nenhum estabelecimento.",
+          "explanation": "A correta observação do perímetro serve justamente para não invadir a área de coleta de outro setor."
+        },
+        {
+          "text": "deixar de percorrer a parte do setor próxima desse limite.",
+          "explanation": "Isso levaria a omitir parte do setor sob sua responsabilidade, o que a observação do perímetro deve evitar."
+        },
+        {
+          "text": "deixar de usar o mapa e o descritivo e seguir apenas o GPS.",
+          "explanation": "A apostila manda sempre usar o mapa e o descritivo para confirmar os limites e alerta contra confiar exclusivamente no GPS."
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "key": "rumo-ibge-ct-023",
+      "source": "Autoria própria – Rumo, com base na apostila do IBGE para o 12º Censo Agropecuário (p. 30)",
+      "kind": "Objective",
+      "subject": "conhecimentos-tecnicos",
+      "statement": "O Descritivo de um setor rural informa, no item “Setores a serem excluídos”, que existe um setor urbano dentro do perímetro do setor. Nesse setor urbano, o Recenseador do setor rural",
+      "options": [
+        {
+          "text": "deve realizar a coleta normalmente, pois o setor está dentro do seu perímetro.",
+          "explanation": "Mesmo contidos no perímetro, os setores indicados nesse item devem ser excluídos do trabalho do Recenseador."
+        },
+        {
+          "text": "deve realizar a coleta apenas se houver tempo ao final do trabalho.",
+          "explanation": "A exclusão não depende de tempo: esses setores não fazem parte da responsabilidade do Recenseador."
+        },
+        {
+          "text": "não deve realizar a coleta, pois outro Recenseador será o responsável.",
+          "explanation": "Correta. Os setores a serem excluídos não fazem parte da responsabilidade do Recenseador; neles, outro Recenseador fará a coleta."
+        },
+        {
+          "text": "deve coletar apenas os endereços, sem aplicar o questionário.",
+          "explanation": "A apostila diz que nesses locais o Recenseador não deve realizar a coleta de informações."
+        },
+        {
+          "text": "deve alterar o perímetro do setor para retirar a área urbana.",
+          "explanation": "O perímetro não pode ser alterado pelo Recenseador; ele apenas deixa de coletar nos setores excluídos."
+        }
+      ],
+      "correct": "C"
+    },
+    {
+      "key": "rumo-ibge-ct-024",
+      "source": "Autoria própria – Rumo, com base na apostila do IBGE para o 12º Censo Agropecuário (p. 31)",
+      "kind": "Objective",
+      "subject": "conhecimentos-tecnicos",
+      "statement": "O Descritivo de um setor registra, no item “Estruturas territoriais não setorizadas”, um pequeno aglomerado rural que não tem a quantidade mínima de domicílios para formar um setor próprio. Esse aglomerado deve ser",
+      "options": [
+        {
+          "text": "recenseado normalmente no setor, com atenção especial ao acesso e à abordagem.",
+          "explanation": "Correta. A apostila determina que esses aglomerados sejam recenseados normalmente no setor, exigindo atenção especial quanto ao acesso e à abordagem."
+        },
+        {
+          "text": "excluído do trabalho, pois outro Recenseador será o responsável.",
+          "explanation": "Isso vale para os “Setores a serem excluídos”; as estruturas não setorizadas fazem parte do setor."
+        },
+        {
+          "text": "recenseado somente depois de se transformar em um setor destacado.",
+          "explanation": "Como não foi separado em setor próprio, o aglomerado é recenseado dentro do setor em que está."
+        },
+        {
+          "text": "transferido pelo Recenseador para o setor vizinho.",
+          "explanation": "O Recenseador não altera a divisão dos setores; o aglomerado é recenseado no próprio setor."
+        },
+        {
+          "text": "ignorado, por ter poucos domicílios.",
+          "explanation": "A pequena quantidade de domicílios só impede a criação de um setor próprio; o aglomerado continua sendo recenseado."
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "key": "rumo-ibge-ct-025",
+      "source": "Autoria própria – Rumo, com base na apostila do IBGE para o 12º Censo Agropecuário (p. 48)",
+      "kind": "Objective",
+      "subject": "conhecimentos-tecnicos",
+      "statement": "No Sistema de Coordenadas Geográficas, a latitude é o afastamento, medido em graus,",
+      "options": [
+        {
+          "text": "do meridiano de Greenwich a um ponto da superfície terrestre, variando de 0° a 180°, Leste ou Oeste.",
+          "explanation": "Essa é a definição de longitude apresentada na apostila."
+        },
+        {
+          "text": "da linha do Equador a um ponto da superfície terrestre, variando de 0° a 180°, Leste ou Oeste.",
+          "explanation": "A latitude parte do Equador, mas vai de 0° a 90° e pode ser Norte ou Sul."
+        },
+        {
+          "text": "do meridiano de Greenwich a um ponto da superfície terrestre, variando de 0° a 90°, Norte ou Sul.",
+          "explanation": "O afastamento medido a partir do meridiano de Greenwich é a longitude; a latitude é medida a partir do Equador."
+        },
+        {
+          "text": "do Posto censitário a um ponto do setor, variando de 0° a 90°, Norte ou Sul.",
+          "explanation": "A latitude é medida a partir da linha do Equador, e não do Posto censitário."
+        },
+        {
+          "text": "da linha do Equador a um ponto da superfície terrestre, variando de 0° a 90°, Norte ou Sul.",
+          "explanation": "Correta. A apostila define a latitude como o afastamento em graus a partir da linha do Equador, de 0° a 90°, podendo ser Norte ou Sul."
+        }
+      ],
+      "correct": "E"
+    },
+    {
+      "key": "rumo-ibge-ct-026",
+      "source": "Autoria própria – Rumo, com base na apostila do IBGE para o 12º Censo Agropecuário (p. 49)",
+      "kind": "Objective",
+      "subject": "conhecimentos-tecnicos",
+      "statement": "Em um estabelecimento agropecuário de área rural, o Recenseador vai capturar manualmente as coordenadas geográficas com o DMC. Segundo a apostila, o local ideal para capturar o ponto é",
+      "options": [
+        {
+          "text": "no meio da maior lavoura do estabelecimento.",
+          "explanation": "As coordenadas devem representar o ponto de acesso à unidade, e não o meio de uma área de produção."
+        },
+        {
+          "text": "no Posto censitário, antes de sair para o campo.",
+          "explanation": "O Recenseador deve se posicionar com o DMC no local correto, no estabelecimento, antes de registrar o ponto."
+        },
+        {
+          "text": "na entrada da edificação que representa a sede do estabelecimento, caso haja.",
+          "explanation": "Correta. As coordenadas devem representar o ponto de acesso à unidade; o local ideal é a entrada da edificação que representa a sede, caso haja."
+        },
+        {
+          "text": "em qualquer ponto do limite do setor censitário.",
+          "explanation": "O ponto representa o acesso à unidade, na entrada da edificação que é a sede, e não o limite do setor."
+        },
+        {
+          "text": "no ponto inicial indicado no Descritivo do setor.",
+          "explanation": "O ponto inicial serve para começar o percurso do setor; a coordenada do endereço é capturada na entrada da sede do estabelecimento."
+        }
+      ],
+      "correct": "C"
+    },
+    {
+      "key": "rumo-ibge-ct-027",
+      "source": "Autoria própria – Rumo, com base na apostila do IBGE para o 12º Censo Agropecuário (p. 49)",
+      "kind": "Objective",
+      "subject": "conhecimentos-tecnicos",
+      "statement": "No exemplo de mapa da apostila, um ponto tem latitude -22.326 e longitude -42.669. Esses valores indicam que o ponto está",
+      "options": [
+        {
+          "text": "ao norte da linha do Equador e a oeste de Greenwich.",
+          "explanation": "A longitude está certa, mas a latitude -22.326 indica ponto ao sul da linha do Equador."
+        },
+        {
+          "text": "ao sul da linha do Equador e a leste de Greenwich.",
+          "explanation": "A latitude está certa, mas a longitude -42.669 indica ponto a oeste de Greenwich."
+        },
+        {
+          "text": "ao norte da linha do Equador e a leste de Greenwich.",
+          "explanation": "No exemplo da apostila, esses valores indicam ponto ao sul do Equador e a oeste de Greenwich."
+        },
+        {
+          "text": "a oeste da linha do Equador e ao sul de Greenwich.",
+          "explanation": "A latitude se refere ao Equador (Norte ou Sul) e a longitude, a Greenwich (Leste ou Oeste), e não o contrário."
+        },
+        {
+          "text": "ao sul da linha do Equador e a oeste de Greenwich.",
+          "explanation": "Correta. No exemplo, a latitude -22.326 indica ponto ao sul da linha do Equador e a longitude -42.669 indica ponto a oeste de Greenwich."
+        }
+      ],
+      "correct": "E"
+    },
+    {
+      "key": "rumo-ibge-ct-028",
+      "source": "Autoria própria – Rumo, com base na apostila do IBGE para o 12º Censo Agropecuário (p. 32)",
+      "kind": "Objective",
+      "subject": "conhecimentos-tecnicos",
+      "statement": "Sobre os distritos, a apostila informa que eles",
+      "options": [
+        {
+          "text": "são criados por legislação municipal e não possuem autonomia administrativa.",
+          "explanation": "Correta. Os distritos dividem os municípios, são criados por legislação municipal e estão subordinados ao governo municipal, sem autonomia administrativa."
+        },
+        {
+          "text": "são criados por lei estadual e são unidades federativas autônomas.",
+          "explanation": "Essa descrição corresponde aos municípios, que são autônomos e criados por lei estadual."
+        },
+        {
+          "text": "existem, em geral, apenas nas grandes cidades.",
+          "explanation": "Os que geralmente só existem nas grandes cidades são os subdistritos."
+        },
+        {
+          "text": "são definidos pelo IBGE apenas para estudos estatísticos.",
+          "explanation": "A unidade que o IBGE define para estudos estatísticos é o setor censitário."
+        },
+        {
+          "text": "existem em número igual em todos os municípios.",
+          "explanation": "Há municípios com distrito único e outros com o território subdividido em vários distritos."
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "key": "rumo-ibge-ct-029",
+      "source": "Autoria própria – Rumo, com base na apostila do IBGE para o 12º Censo Agropecuário (p. 32)",
+      "kind": "Objective",
+      "subject": "conhecimentos-tecnicos",
+      "statement": "De acordo com a apostila, os municípios são unidades federativas autônomas de caráter local, criados, incorporados, fundidos ou desmembrados por",
+      "options": [
+        {
+          "text": "legislação municipal.",
+          "explanation": "Por legislação municipal são criados os distritos, e não os municípios."
+        },
+        {
+          "text": "lei estadual.",
+          "explanation": "Correta. A apostila informa que os municípios são criados, incorporados, fundidos ou desmembrados por lei estadual."
+        },
+        {
+          "text": "decisão do IBGE.",
+          "explanation": "O IBGE define os setores censitários para fins estatísticos, mas não cria municípios."
+        },
+        {
+          "text": "decisão dos Postos censitários.",
+          "explanation": "Os Postos censitários são unidades temporárias de apoio à coleta, sem relação com a criação de municípios."
+        },
+        {
+          "text": "convenção internacional.",
+          "explanation": "A convenção internacional citada na apostila trata da consulta a povos e comunidades tradicionais."
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "key": "rumo-ibge-ct-030",
+      "source": "Autoria própria – Rumo, com base na apostila do IBGE para o 12º Censo Agropecuário (p. 34)",
+      "kind": "Objective",
+      "subject": "conhecimentos-tecnicos",
+      "statement": "A apostila apresenta como exemplo o geocódigo de setor **51 04104 05 00 0016**. Nesse geocódigo, a parte “05” identifica o",
+      "options": [
+        {
+          "text": "estado.",
+          "explanation": "No exemplo, o estado é identificado pela primeira parte do geocódigo, “51”."
+        },
+        {
+          "text": "município.",
+          "explanation": "No exemplo, o município é identificado pela parte “04104”."
+        },
+        {
+          "text": "subdistrito.",
+          "explanation": "No exemplo, o subdistrito é identificado pela parte “00”."
+        },
+        {
+          "text": "distrito.",
+          "explanation": "Correta. Na tabela do exemplo, o geocódigo é formado por Estado (51), Município (04104), Distrito (05), Subdistrito (00) e Setor (0016)."
+        },
+        {
+          "text": "setor.",
+          "explanation": "No exemplo, o número do setor é a última parte, “0016”."
+        }
+      ],
+      "correct": "D"
+    },
+    {
+      "key": "rumo-ibge-ct-031",
+      "source": "Autoria própria – Rumo, com base na apostila do IBGE para o 12º Censo Agropecuário (p. 35)",
+      "kind": "Objective",
+      "subject": "conhecimentos-tecnicos",
+      "statement": "Os setores censitários são classificados por dois códigos. O código associado à classificação dos setores entre urbanos e rurais, segundo suas formas de ocupação do espaço geográfico, é chamado de",
+      "options": [
+        {
+          "text": "tipo.",
+          "explanation": "O tipo está associado a características específicas do território, como restrições de acesso e procedimentos diferenciados em campo."
+        },
+        {
+          "text": "situação.",
+          "explanation": "Correta. A apostila explica que a situação está associada à classificação dos setores entre urbanos e rurais."
+        },
+        {
+          "text": "geocódigo.",
+          "explanation": "O geocódigo é o código que identifica cada setor de forma única."
+        },
+        {
+          "text": "escala.",
+          "explanation": "A escala é a relação de proporção entre a distância no mapa e a distância real."
+        },
+        {
+          "text": "modificador.",
+          "explanation": "O modificador é um componente do endereço associado ao número."
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "key": "rumo-ibge-ct-032",
+      "source": "Autoria própria – Rumo, com base na apostila do IBGE para o 12º Censo Agropecuário (p. 36)",
+      "kind": "Objective",
+      "subject": "conhecimentos-tecnicos",
+      "statement": "Na classificação dos setores censitários, a área rural em que os domicílios ficam aglomerados, normalmente distantes entre si não mais que 50 m, e separada da franja das cidades e vilas por mais de 1 km, é o",
+      "options": [
+        {
+          "text": "aglomerado rural.",
+          "explanation": "Correta. Essa é a definição de aglomerado rural apresentada no quadro de classificações da apostila."
+        },
+        {
+          "text": "núcleo urbano.",
+          "explanation": "O núcleo urbano é uma aglomeração urbana separada das cidades e vilas por menos de 1 km ou com características urbanas, como loteamentos e condomínios."
+        },
+        {
+          "text": "setor com baixo patamar domiciliar.",
+          "explanation": "Esse é um tipo de setor com baixa quantidade de domicílios ou sem domicílios identificados."
+        },
+        {
+          "text": "setor de massa d'água.",
+          "explanation": "As massas d'água são grandes porções de água interiores ou costeiras, que não são áreas de coleta."
+        },
+        {
+          "text": "setor de área urbana de alta densidade de edificações.",
+          "explanation": "Essa é uma classificação de área urbana, e não de área rural."
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "key": "rumo-ibge-ct-033",
+      "source": "Autoria própria – Rumo, com base na apostila do IBGE para o 12º Censo Agropecuário (p. 38)",
+      "kind": "Objective",
+      "subject": "conhecimentos-tecnicos",
+      "statement": "Entre os tipos de setores censitários, aquele com mais de 50 domicílios associados a Projetos de Assentamento, muito importante para o Censo Agro pela concentração de estabelecimentos agropecuários, é a",
+      "options": [
+        {
+          "text": "Unidade prisional.",
+          "explanation": "A Unidade prisional é o setor relacionado às unidades prisionais que abrigam mais de 50 presos permanentes."
+        },
+        {
+          "text": "Base Militar.",
+          "explanation": "Quartel e Base Militar são setores de instalações administradas por um comando das forças armadas."
+        },
+        {
+          "text": "Instituição de Longa Permanência para Idosos (ILPI).",
+          "explanation": "A ILPI é um domicílio coletivo de acolhimento de idosos, classificado em outro tipo de setor."
+        },
+        {
+          "text": "Agrovila.",
+          "explanation": "Correta. A apostila define a Agrovila como o setor com mais de 50 domicílios associados a Projetos de Assentamento, com concentração de estabelecimentos agropecuários."
+        },
+        {
+          "text": "Área de Interesse Operacional (AIO).",
+          "explanation": "A AIO é um recorte independente dos setores, que indica presença efetiva ou potencial de povos e comunidades tradicionais."
+        }
+      ],
+      "correct": "D"
+    },
+    {
+      "key": "rumo-ibge-ct-034",
+      "source": "Autoria própria – Rumo, com base na apostila do IBGE para o 12º Censo Agropecuário (p. 37)",
+      "kind": "Objective",
+      "subject": "conhecimentos-tecnicos",
+      "statement": "Segundo a apostila, um Agrupamento Indígena é um setor censitário composto por indivíduos indígenas residentes em uma ou mais moradias contíguas e ligados por vínculos familiares ou comunitários. O número mínimo de indivíduos indígenas para formar esse agrupamento é",
+      "options": [
+        {
+          "text": "5.",
+          "explanation": "A apostila fixa o mínimo em 15 indivíduos, e não em 5."
+        },
+        {
+          "text": "8.",
+          "explanation": "A apostila fixa o mínimo em 15 indivíduos, e não em 8."
+        },
+        {
+          "text": "10.",
+          "explanation": "A apostila fixa o mínimo em 15 indivíduos, e não em 10."
+        },
+        {
+          "text": "12.",
+          "explanation": "A apostila fixa o mínimo em 15 indivíduos, e não em 12."
+        },
+        {
+          "text": "15.",
+          "explanation": "Correta. A apostila define o Agrupamento Indígena como o setor composto por 15 ou mais indivíduos indígenas."
+        }
+      ],
+      "correct": "E"
+    },
+    {
+      "key": "rumo-ibge-ct-035",
+      "source": "Autoria própria – Rumo, com base na apostila do IBGE para o 12º Censo Agropecuário (p. 40)",
+      "kind": "Objective",
+      "subject": "conhecimentos-tecnicos",
+      "statement": "Durante a entrevista em uma comunidade tradicional, o informante declara pertencer a mais de uma comunidade tradicional. O Recenseador deve",
+      "options": [
+        {
+          "text": "pedir um documento que comprove o pertencimento declarado.",
+          "explanation": "A apostila não prevê comprovação; a identificação é registrada com base na declaração do próprio informante."
+        },
+        {
+          "text": "explicar que só é possível pertencer a uma comunidade tradicional.",
+          "explanation": "A apostila afirma que uma mesma pessoa pode se reconhecer como pertencente a mais de uma comunidade tradicional."
+        },
+        {
+          "text": "registrar a identificação conforme a declaração do próprio informante, sem questionamentos.",
+          "explanation": "Correta. O pertencimento étnico é autodeclaratório: registra-se a declaração do informante, sem questionamentos, julgamentos ou tentativas de correção."
+        },
+        {
+          "text": "registrar a identidade que ele, Recenseador, considerar mais adequada.",
+          "explanation": "O Recenseador não deve julgar nem corrigir a declaração do informante."
+        },
+        {
+          "text": "deixar a identificação sem registro, para evitar erros.",
+          "explanation": "A identificação deve ser registrada, com base na declaração do próprio informante."
+        }
+      ],
+      "correct": "C"
+    },
+    {
+      "key": "rumo-ibge-ct-036",
+      "source": "Autoria própria – Rumo, com base na apostila do IBGE para o 12º Censo Agropecuário (p. 41)",
+      "kind": "Objective",
+      "subject": "conhecimentos-tecnicos",
+      "statement": "Sobre as Áreas de Interesse Operacional (AIOs) de Povos e Comunidades Tradicionais, a apostila informa que elas",
+      "options": [
+        {
+          "text": "têm sempre os mesmos limites de um setor censitário.",
+          "explanation": "As AIOs não seguem a setorização proposta pelo IBGE."
+        },
+        {
+          "text": "são áreas em que não se aplica nenhuma pergunta específica.",
+          "explanation": "Quando o setor pertence a uma AIO, as entrevistas contam com perguntas específicas apresentadas automaticamente no DMC."
+        },
+        {
+          "text": "precisam ser desenhadas pelo Recenseador no mapa do setor digital.",
+          "explanation": "A AIO é carregada automaticamente no mapa do setor digital."
+        },
+        {
+          "text": "indicam apenas a presença já confirmada de povos e comunidades tradicionais.",
+          "explanation": "As AIOs indicam a presença efetiva ou potencial de povos e comunidades tradicionais."
+        },
+        {
+          "text": "são recortes independentes dos setores censitários, podendo ser menores ou maiores que um setor.",
+          "explanation": "Correta. As AIOs não seguem a setorização do IBGE: podem ser menores ou maiores que um setor e até cobrir um município inteiro."
+        }
+      ],
+      "correct": "E"
+    },
+    {
+      "key": "rumo-ibge-ct-037",
+      "source": "Autoria própria – Rumo, com base na apostila do IBGE para o 12º Censo Agropecuário (p. 42)",
+      "kind": "Objective",
+      "subject": "conhecimentos-tecnicos",
+      "statement": "Nas áreas de Povos e Comunidades Tradicionais, as condições de acesso e deslocamento são previamente negociadas com as lideranças. A obrigatoriedade de consultar esses povos quando forem previstas ações que possam afetá-los diretamente é determinada",
+      "options": [
+        {
+          "text": "pelo Programa Mundial de Censos Agropecuários da FAO.",
+          "explanation": "O programa da FAO é citado na concepção do Censo, e não como norma sobre a consulta aos povos tradicionais."
+        },
+        {
+          "text": "pelo Programa Nacional de Fortalecimento da Agricultura Familiar (Pronaf).",
+          "explanation": "O Pronaf é citado como exemplo de política pública que pode ser avaliada com os dados do Censo."
+        },
+        {
+          "text": "pelo Cadastro Nacional de Endereços para Fins Estatísticos (CNEFE).",
+          "explanation": "O CNEFE define o padrão de endereçamento usado nos registros."
+        },
+        {
+          "text": "pela Convenção nº 169 da Organização Internacional do Trabalho (OIT).",
+          "explanation": "Correta. A apostila cita a Convenção nº 169 da OIT como a norma que determina a consulta aos povos e comunidades tradicionais."
+        },
+        {
+          "text": "pelo Manual do Recenseador.",
+          "explanation": "O Manual reúne orientações de trabalho; a apostila atribui a obrigatoriedade da consulta à Convenção nº 169 da OIT."
+        }
+      ],
+      "correct": "D"
+    },
+    {
+      "key": "rumo-ibge-ct-038",
+      "source": "Autoria própria – Rumo, com base na apostila do IBGE para o 12º Censo Agropecuário (p. 42)",
+      "kind": "Objective",
+      "subject": "conhecimentos-tecnicos",
+      "statement": "Para a coleta em terras indígenas, o Recenseador muitas vezes precisa estar acompanhado por um guia institucional e/ou guia-intérprete. Segundo a apostila, a indicação dessa pessoa é feita com apoio da",
+      "options": [
+        {
+          "text": "Organização das Nações Unidas para Alimentação e Agricultura (FAO) e da Organização Internacional do Trabalho (OIT).",
+          "explanation": "A FAO e a OIT são citadas por recomendações e convenção internacionais, e não pela indicação de guias."
+        },
+        {
+          "text": "Empresa Brasileira de Correios e Telégrafos (ECT) e da prefeitura do município.",
+          "explanation": "A ECT é citada apenas como mantenedora do CEP; a indicação do guia tem apoio da FUNAI e da SESAI."
+        },
+        {
+          "text": "Fundação Nacional dos Povos Indígenas (FUNAI) e da Secretaria Especial de Saúde Indígena (SESAI).",
+          "explanation": "Correta. A apostila informa que a indicação do guia é feita com apoio da FUNAI e da SESAI."
+        },
+        {
+          "text": "Coordenação de Estatísticas Agropecuárias e da Diretoria de Geociências.",
+          "explanation": "Essas áreas fazem parte da estrutura do IBGE; a apostila aponta a FUNAI e a SESAI como apoio na indicação do guia."
+        },
+        {
+          "text": "equipe do Centro Nacional de Qualidade (CNQ).",
+          "explanation": "O CNQ monitora a qualidade dos dados; a indicação do guia tem apoio da FUNAI e da SESAI."
+        }
+      ],
+      "correct": "C"
+    },
+    {
+      "key": "rumo-ibge-ct-039",
+      "source": "Autoria própria – Rumo, com base na apostila do IBGE para o 12º Censo Agropecuário (p. 44)",
+      "kind": "Objective",
+      "subject": "conhecimentos-tecnicos",
+      "statement": "Em uma área rural, o Recenseador precisa registrar o logradouro de um endereço, mas a estrada não possui nome oficial. Nesse caso, ele deve, prioritariamente,",
+      "options": [
+        {
+          "text": "utilizar o nome pelo qual a estrada é localmente reconhecida.",
+          "explanation": "Correta. Quando o logradouro não tem nome oficial ou não é possível identificá-lo, deve-se usar prioritariamente o nome localmente reconhecido."
+        },
+        {
+          "text": "deixar o logradouro em branco.",
+          "explanation": "A apostila manda usar o nome localmente reconhecido, e não deixar de registrar o logradouro."
+        },
+        {
+          "text": "criar um nome para a estrada.",
+          "explanation": "O nome deve ser o reconhecido localmente, e não um nome criado pelo Recenseador."
+        },
+        {
+          "text": "registrar o nome do proprietário das terras ao lado da estrada.",
+          "explanation": "Não é permitido identificar pessoas nos componentes dos endereços."
+        },
+        {
+          "text": "registrar apenas a palavra “Estrada”.",
+          "explanation": "O logradouro deve ser registrado sem omissão de termos, com o nome oficial ou o localmente reconhecido."
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "key": "rumo-ibge-ct-040",
+      "source": "Autoria própria – Rumo, com base na apostila do IBGE para o 12º Censo Agropecuário (p. 45)",
+      "kind": "Objective",
+      "subject": "conhecimentos-tecnicos",
+      "statement": "Ao registrar um endereço, o Recenseador anota “Assentamento Chico Mendes”, nome pelo qual a região é conhecida. Esse registro corresponde ao componente do endereço chamado",
+      "options": [
+        {
+          "text": "logradouro.",
+          "explanation": "O logradouro é a área pública de circulação, como uma estrada, rodovia, travessa ou até um rio."
+        },
+        {
+          "text": "localidade.",
+          "explanation": "Correta. Localidade é o nome pelo qual o local ou a região é conhecido, e “Assentamento Chico Mendes” é um dos exemplos da apostila."
+        },
+        {
+          "text": "complemento.",
+          "explanation": "O complemento diferencia unidades com a mesma posição no logradouro, como lote, casa ou fundos."
+        },
+        {
+          "text": "modificador.",
+          "explanation": "O modificador está associado ao número, diferenciando posições com a mesma numeração."
+        },
+        {
+          "text": "ponto de referência.",
+          "explanation": "O ponto de referência descreve pontos fixos e estáveis, com expressões como “ao lado de” ou “em frente a”."
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "key": "rumo-ibge-ct-041",
+      "source": "Autoria própria – Rumo, com base na apostila do IBGE para o 12º Censo Agropecuário (p. 46)",
+      "kind": "Objective",
+      "subject": "conhecimentos-tecnicos",
+      "statement": "Ao chegar a um número em um logradouro, o Recenseador observa várias unidades cujo acesso se dá por esse mesmo número. Para identificar cada uma delas, com informações como lote, gleba, casa ou fundos, ele deve usar o componente",
+      "options": [
+        {
+          "text": "complemento.",
+          "explanation": "Correta. O complemento permite diferenciar unidades com a mesma posição no logradouro; lote, gleba, casa e fundos são exemplos da apostila."
+        },
+        {
+          "text": "logradouro.",
+          "explanation": "O logradouro é a área pública de circulação, e não o componente que diferencia unidades no mesmo número."
+        },
+        {
+          "text": "localidade.",
+          "explanation": "A localidade é o nome do local ou da região onde está o endereço."
+        },
+        {
+          "text": "CEP.",
+          "explanation": "O CEP é o código de oito dígitos atribuído a uma área de endereçamento."
+        },
+        {
+          "text": "coordenadas geográficas.",
+          "explanation": "As coordenadas representam o ponto de acesso à unidade por latitude e longitude; lote, gleba, casa e fundos são exemplos de complemento."
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "key": "rumo-ibge-ct-042",
+      "source": "Autoria própria – Rumo, com base na apostila do IBGE para o 12º Censo Agropecuário (p. 47)",
+      "kind": "Objective",
+      "subject": "conhecimentos-tecnicos",
+      "statement": "Um endereço em área rural não possui número nem complemento que permita localizá-lo no logradouro. Nesse caso, a apostila considera obrigatório o registro",
+      "options": [
+        {
+          "text": "do modificador.",
+          "explanation": "O modificador está associado ao número e pode existir ou não; a apostila torna obrigatório, nesse caso, o ponto de referência."
+        },
+        {
+          "text": "do nome do morador.",
+          "explanation": "Não é permitido identificar pessoas nos componentes dos endereços."
+        },
+        {
+          "text": "do ponto de referência.",
+          "explanation": "Correta. O ponto de referência é obrigatório quando o endereço não possui número ou complemento que permita sua localização no logradouro."
+        },
+        {
+          "text": "do geocódigo do setor.",
+          "explanation": "O geocódigo identifica o setor censitário e não é um componente do endereço."
+        },
+        {
+          "text": "do nome do Recenseador.",
+          "explanation": "Não é permitido identificar pessoas nos componentes dos endereços, e o nome do Recenseador não ajuda a localizar a unidade."
+        }
+      ],
+      "correct": "C"
+    },
+    {
+      "key": "rumo-ibge-ct-043",
+      "source": "Autoria própria – Rumo, com base na apostila do IBGE para o 12º Censo Agropecuário (p. 47)",
+      "kind": "Objective",
+      "subject": "conhecimentos-tecnicos",
+      "statement": "Segundo a apostila, não é permitido identificar pessoas nos componentes dos endereços porque isso",
+      "options": [
+        {
+          "text": "aumenta o tempo de transmissão dos dados.",
+          "explanation": "A apostila não menciona tempo de transmissão; o motivo dado é o sigilo estatístico."
+        },
+        {
+          "text": "impede a captura das coordenadas geográficas.",
+          "explanation": "A captura de coordenadas não depende disso; o motivo dado é o sigilo estatístico."
+        },
+        {
+          "text": "altera o perímetro do setor censitário.",
+          "explanation": "O registro de endereços não altera o perímetro do setor; o motivo dado é o sigilo estatístico."
+        },
+        {
+          "text": "muda o CEP do endereço.",
+          "explanation": "O CEP é atribuído pelos Correios a uma área de endereçamento; o motivo dado é o sigilo estatístico."
+        },
+        {
+          "text": "fere o sigilo estatístico que o IBGE tem a obrigação legal de preservar.",
+          "explanation": "Correta. A apostila afirma que identificar pessoas nos componentes dos endereços fere o sigilo estatístico, que o IBGE tem obrigação legal de preservar."
+        }
+      ],
+      "correct": "E"
+    },
+    {
+      "key": "rumo-ibge-ct-044",
+      "source": "Autoria própria – Rumo, com base na apostila do IBGE para o 12º Censo Agropecuário (p. 53)",
+      "kind": "Objective",
+      "subject": "conhecimentos-tecnicos",
+      "statement": "Passando por uma propriedade rural, o Recenseador vê, por cima do muro, apenas uma casa com quintal e algumas árvores frutíferas. Para saber se ali existe unidade recenseável, ele deve",
+      "options": [
+        {
+          "text": "concluir que não há unidade recenseável e seguir adiante.",
+          "explanation": "A apostila afirma que não é possível decidir apenas olhando através da cerca ou sobre o muro."
+        },
+        {
+          "text": "perguntar à pessoa que encontrar na propriedade se ali existe alguma atividade de exploração agropecuária, florestal e/ou aquícola.",
+          "explanation": "Correta. Não é possível identificar a atividade apenas olhando pela cerca ou pelo muro; por isso, o Recenseador deve sempre perguntar à pessoa encontrada na propriedade."
+        },
+        {
+          "text": "registrar a propriedade como estabelecimento agropecuário, por estar em área rural.",
+          "explanation": "Nem toda propriedade rural é estabelecimento agropecuário; a classificação é feita pelo questionário de abordagem inicial."
+        },
+        {
+          "text": "decidir por conta própria, com base no tamanho do quintal.",
+          "explanation": "A classificação é feita pelo questionário de abordagem inicial, e não por decisão direta do Recenseador."
+        },
+        {
+          "text": "contar as árvores frutíferas e registrar a quantidade no questionário.",
+          "explanation": "Só depois de caracterizada a propriedade como estabelecimento agropecuário é que as culturas e os efetivos devem ser registrados."
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "key": "rumo-ibge-ct-045",
+      "source": "Autoria própria – Rumo, com base na apostila do IBGE para o 12º Censo Agropecuário (p. 53)",
+      "kind": "Objective",
+      "subject": "conhecimentos-tecnicos",
+      "statement": "De acordo com a apostila, a produção de subsistência é aquela em que os alimentos produzidos",
+      "options": [
+        {
+          "text": "servem apenas para lazer ou passatempo dos moradores.",
+          "explanation": "A produção apenas para lazer ou passatempo não é recenseável e não se confunde com a subsistência."
+        },
+        {
+          "text": "são todos destinados à venda.",
+          "explanation": "Na subsistência, a produção atende às necessidades da família; apenas eventualmente uma parte é vendida ou trocada."
+        },
+        {
+          "text": "são destinados a experiências de laboratório.",
+          "explanation": "A criação de animais para laboratório nem sequer é considerada atividade agropecuária pela apostila."
+        },
+        {
+          "text": "são voltados para atender às necessidades vitais do produtor e de sua família.",
+          "explanation": "Correta. Essa é a definição de produção de subsistência da apostila; eventualmente, parte dela pode ser vendida ou trocada."
+        },
+        {
+          "text": "não podem, em nenhum caso, ser vendidos ou trocados.",
+          "explanation": "A apostila admite que, eventualmente, parte da produção seja vendida ou trocada para atender a outras necessidades da família."
+        }
+      ],
+      "correct": "D"
+    },
+    {
+      "key": "rumo-ibge-ct-046",
+      "source": "Autoria própria – Rumo, com base na apostila do IBGE para o 12º Censo Agropecuário (p. 54)",
+      "kind": "Objective",
+      "subject": "conhecimentos-tecnicos",
+      "statement": "Qual das atividades abaixo **NÃO** é considerada atividade agropecuária, florestal ou aquícola pela apostila?",
+      "options": [
+        {
+          "text": "Criação de abelhas.",
+          "explanation": "As abelhas aparecem entre os exemplos de criação de animais considerada atividade agropecuária."
+        },
+        {
+          "text": "Criação de rãs.",
+          "explanation": "A criação de rãs é citada como exemplo de aquicultura."
+        },
+        {
+          "text": "Produção de cogumelos.",
+          "explanation": "A produção de cogumelos faz parte da horticultura, que é atividade agropecuária."
+        },
+        {
+          "text": "Criação de cães e gatos.",
+          "explanation": "Correta. A apostila informa que a criação de pássaros, cães e gatos não é considerada atividade agropecuária, florestal e aquícola."
+        },
+        {
+          "text": "Cultivo de plantas por hidroponia.",
+          "explanation": "A hidroponia é citada como exemplo de cultivo em outros meios, considerado atividade agropecuária."
+        }
+      ],
+      "correct": "D"
+    },
+    {
+      "key": "rumo-ibge-ct-047",
+      "source": "Autoria própria – Rumo, com base na apostila do IBGE para o 12º Censo Agropecuário (p. 55)",
+      "kind": "Objective",
+      "subject": "conhecimentos-tecnicos",
+      "statement": "Em uma área urbana, o Recenseador encontra uma pequena horta cuja produção é vendida. Com base no conceito de estabelecimento agropecuário da apostila, essa unidade",
+      "options": [
+        {
+          "text": "não é um estabelecimento agropecuário, pois está em área urbana.",
+          "explanation": "O conceito independe da localização, que pode ser rural ou urbana."
+        },
+        {
+          "text": "é um estabelecimento agropecuário, pois o conceito independe do tamanho e da localização.",
+          "explanation": "Correta. É estabelecimento agropecuário toda unidade de produção dedicada, total ou parcialmente, à atividade agropecuária, independentemente de tamanho, forma jurídica, localização e valor da produção."
+        },
+        {
+          "text": "não é um estabelecimento agropecuário, pois é pequena.",
+          "explanation": "O conceito independe do tamanho da unidade."
+        },
+        {
+          "text": "só é um estabelecimento agropecuário se pertencer a uma empresa.",
+          "explanation": "O conceito independe da forma jurídica: pode pertencer a um produtor, a vários ou a empresas."
+        },
+        {
+          "text": "só é um estabelecimento agropecuário se o valor da produção for alto.",
+          "explanation": "O conceito independe do valor da produção."
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "key": "rumo-ibge-ct-048",
+      "source": "Autoria própria – Rumo, com base na apostila do IBGE para o 12º Censo Agropecuário (p. 56)",
+      "kind": "Objective",
+      "subject": "conhecimentos-tecnicos",
+      "statement": "A lavoura permanente é a plantação que se coloca no solo uma vez e que continua dando frutos por muitos anos. São exemplos de lavoura permanente citados na apostila:",
+      "options": [
+        {
+          "text": "café, laranja e uva.",
+          "explanation": "Correta. Café, laranja e uva são os exemplos de lavoura permanente dados pela apostila."
+        },
+        {
+          "text": "milho, feijão e arroz.",
+          "explanation": "Esses são exemplos de lavoura temporária, que é plantada e colhida no mesmo ano."
+        },
+        {
+          "text": "soja, milho e feijão.",
+          "explanation": "Esses são exemplos de lavoura temporária, que precisa ser replantada depois da colheita."
+        },
+        {
+          "text": "legumes, verduras e cogumelos.",
+          "explanation": "Esses produtos são citados na apostila como horticultura."
+        },
+        {
+          "text": "peixes, camarões e moluscos.",
+          "explanation": "Essas criações são citadas na apostila como aquicultura."
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "key": "rumo-ibge-ct-049",
+      "source": "Autoria própria – Rumo, com base na apostila do IBGE para o 12º Censo Agropecuário (p. 56)",
+      "kind": "Objective",
+      "subject": "conhecimentos-tecnicos",
+      "statement": "Segundo a apostila, um pesque-pague é considerado estabelecimento agropecuário",
+      "options": [
+        {
+          "text": "em qualquer situação.",
+          "explanation": "Se houver somente compra de peixes criados, o pesque-pague não deve ser considerado."
+        },
+        {
+          "text": "em nenhuma situação.",
+          "explanation": "Havendo criação e engorda de peixes, o pesque-pague é considerado estabelecimento agropecuário."
+        },
+        {
+          "text": "quando nele houver criação e engorda de peixes.",
+          "explanation": "Correta. A apostila considera o pesque-pague estabelecimento agropecuário quando nele houver criação e engorda de peixes."
+        },
+        {
+          "text": "quando houver somente compra de peixes já criados.",
+          "explanation": "É justamente nesse caso que a apostila manda não considerar o pesque-pague."
+        },
+        {
+          "text": "somente quando estiver em área rural.",
+          "explanation": "O conceito de estabelecimento agropecuário independe de a localização ser rural ou urbana."
+        }
+      ],
+      "correct": "C"
+    },
+    {
+      "key": "rumo-ibge-ct-050",
+      "source": "Autoria própria – Rumo, com base na apostila do IBGE para o 12º Censo Agropecuário (p. 57)",
+      "kind": "Objective",
+      "subject": "conhecimentos-tecnicos",
+      "statement": "Um produtor de mel não possui terras e instala suas colmeias em matas e em áreas de outros estabelecimentos agropecuários. De acordo com a apostila, o Recenseador deve",
+      "options": [
+        {
+          "text": "deixar de recenseá-lo, pois ele não possui terras.",
+          "explanation": "A apostila prevê o registro da atividade e a aplicação do questionário mesmo sem área própria."
+        },
+        {
+          "text": "considerar a criação de abelhas uma atividade de lazer.",
+          "explanation": "A criação de abelhas é atividade agropecuária, e o produtor de mel é exemplo de produtor sem área."
+        },
+        {
+          "text": "recenseá-lo somente depois que ele comprar uma área.",
+          "explanation": "Há atividades em que o produtor não precisa possuir área própria, e ainda assim o questionário deve ser aplicado."
+        },
+        {
+          "text": "tratá-lo como unidade não recenseável, pois abelhas são animais domésticos.",
+          "explanation": "As atividades não recenseáveis citadas são a criação de pássaros, cães e gatos; as abelhas são exemplo de criação agropecuária."
+        },
+        {
+          "text": "tratá-lo como produtor sem área, registrando a atividade e aplicando o questionário.",
+          "explanation": "Correta. O produtor de mel com colmeias em matas ou em áreas de outros estabelecimentos é exemplo de produtor sem área; a atividade é registrada e o questionário, aplicado."
+        }
+      ],
+      "correct": "E"
+    },
+    {
+      "key": "rumo-ibge-ct-051",
+      "source": "Autoria própria – Rumo, com base na apostila do IBGE para o 12º Censo Agropecuário (p. 58)",
+      "kind": "Objective",
+      "subject": "conhecimentos-tecnicos",
+      "statement": "O Recenseador chega a uma propriedade rural, e a proprietária informa que, durante o período de referência, a terra esteve arrendada a outro produtor, que ali realizou atividades agropecuárias, mas que na data de referência ele já não estava mais na área. O Recenseador consegue localizar esse produtor. Nesse caso, ele deve",
+      "options": [
+        {
+          "text": "desconsiderar essa produção, pois o produtor não ocupa mais a área.",
+          "explanation": "O produtor que não estava mais nas terras na data de referência é exemplo de produtor sem área, e sua produção deve ser coletada."
+        },
+        {
+          "text": "coletar com esse produtor as informações da produção, assinalando no questionário o item que identifica o produtor sem área.",
+          "explanation": "Correta. No caso das terras arrendadas, a apostila manda coletar com o produtor localizado as informações daquela produção e assinalar, em quadro específico, o item de produtor sem área."
+        },
+        {
+          "text": "registrar essa produção como atividade de lazer da proprietária.",
+          "explanation": "A produção foi realizada pelo arrendatário e deve ser coletada com ele, como produtor sem área."
+        },
+        {
+          "text": "registrar a propriedade como unidade não recenseável, sem coletar nada.",
+          "explanation": "Houve atividade agropecuária no período de referência, e a apostila manda coletar as informações com quem produziu."
+        },
+        {
+          "text": "aguardar que o produtor volte a arrendar a terra.",
+          "explanation": "A apostila manda apresentar-se ao produtor localizado, explicar o Censo e realizar a coleta."
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "key": "rumo-ibge-ct-052",
+      "source": "Autoria própria – Rumo, com base na apostila do IBGE para o 12º Censo Agropecuário (p. 59)",
+      "kind": "Objective",
+      "subject": "conhecimentos-tecnicos",
+      "statement": "O Recenseador encontra um estabelecimento agropecuário pertencente a uma indústria, cuja atividade principal é a própria indústria. Nesse caso, o Censo Agropecuário deverá investigar",
+      "options": [
+        {
+          "text": "toda a atividade da indústria, incluindo vendas e salários.",
+          "explanation": "Os dados da atividade industrial, como produção, venda, trabalhadores e salários, são coletados por outras pesquisas do IBGE."
+        },
+        {
+          "text": "somente a atividade industrial.",
+          "explanation": "O Censo Agropecuário investiga a parte agropecuária, florestal e aquícola, e não a industrial."
+        },
+        {
+          "text": "nada, pois a atividade principal não é agropecuária.",
+          "explanation": "Mesmo com atividade principal industrial, a parte ligada à atividade agropecuária deve ser investigada."
+        },
+        {
+          "text": "somente o número de trabalhadores da indústria.",
+          "explanation": "Os trabalhadores da atividade industrial são levantados por outras pesquisas do IBGE."
+        },
+        {
+          "text": "somente a parte diretamente ligada à atividade agropecuária, florestal e aquícola.",
+          "explanation": "Correta. A apostila determina que se investigue só a parte ligada à atividade agropecuária, florestal e aquícola; os dados industriais são coletados por outras pesquisas do IBGE."
+        }
+      ],
+      "correct": "E"
+    },
+    {
+      "key": "rumo-ibge-ct-053",
+      "source": "Autoria própria – Rumo, com base na apostila do IBGE para o 12º Censo Agropecuário (p. 59)",
+      "kind": "Objective",
+      "subject": "conhecimentos-tecnicos",
+      "statement": "Uma unidade especializada em confinamento de gado (boitel) abriga apenas animais de terceiros e não desenvolve nenhuma outra atividade agropecuária. De acordo com a apostila, essa unidade",
+      "options": [
+        {
+          "text": "é considerada estabelecimento agropecuário, e todos os animais são contados nela.",
+          "explanation": "Sem animais próprios nem outra atividade agropecuária, a unidade não é considerada estabelecimento agropecuário."
+        },
+        {
+          "text": "é considerada estabelecimento agropecuário, mas os animais não são contados em lugar nenhum.",
+          "explanation": "A unidade não é considerada estabelecimento, e os animais são contados nos estabelecimentos dos respectivos proprietários."
+        },
+        {
+          "text": "não é considerada estabelecimento agropecuário, e os animais não são contados em lugar nenhum.",
+          "explanation": "A primeira parte está de acordo com a apostila, mas os animais de terceiros são contados nos estabelecimentos de seus proprietários."
+        },
+        {
+          "text": "não é considerada estabelecimento agropecuário, e os animais são contados nos estabelecimentos de seus proprietários.",
+          "explanation": "Correta. O boitel só é estabelecimento agropecuário se tiver animais próprios ou outra atividade agropecuária; os animais de terceiros são contados nos estabelecimentos dos proprietários."
+        },
+        {
+          "text": "é considerada um produtor sem área.",
+          "explanation": "O produtor sem área é quem produz sem área própria ou espaço delimitado; a apostila trata o boitel em regra separada."
+        }
+      ],
+      "correct": "D"
+    },
+    {
+      "key": "rumo-ibge-ct-054",
+      "source": "Autoria própria – Rumo, com base na apostila do IBGE para o 12º Censo Agropecuário (p. 60)",
+      "kind": "Objective",
+      "subject": "conhecimentos-tecnicos",
+      "statement": "Dentro de uma mesma propriedade rural, dois produtores diferentes exploram partes distintas da área, cada um com a sua própria produção. Segundo a apostila, nesse caso",
+      "options": [
+        {
+          "text": "cada exploração poderá corresponder a um estabelecimento agropecuário diferente.",
+          "explanation": "Correta. A apostila explica que uma única propriedade rural pode ter mais de um estabelecimento quando produtores diferentes exploram partes distintas, cada um com sua produção."
+        },
+        {
+          "text": "há um único estabelecimento agropecuário, pois a propriedade é uma só.",
+          "explanation": "Propriedade rural e estabelecimento agropecuário não são a mesma coisa; uma propriedade pode ter mais de um estabelecimento."
+        },
+        {
+          "text": "não há estabelecimento agropecuário, pois a área está dividida.",
+          "explanation": "A divisão da exploração entre produtores não elimina os estabelecimentos; cada exploração pode ser um deles."
+        },
+        {
+          "text": "só deve ser recenseado o produtor que for o dono da terra.",
+          "explanation": "O estabelecimento é definido pela unidade de produção, e não por quem é o proprietário da terra."
+        },
+        {
+          "text": "só deve ser recenseado o produtor que explorar a maior parte da área.",
+          "explanation": "A apostila não manda escolher um dos produtores; cada exploração pode corresponder a um estabelecimento."
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "key": "rumo-ibge-ct-055",
+      "source": "Autoria própria – Rumo, com base na apostila do IBGE para o 12º Censo Agropecuário (p. 61)",
+      "kind": "Objective",
+      "subject": "conhecimentos-tecnicos",
+      "statement": "A área de um estabelecimento agropecuário se estende por dois setores censitários, e não existe Sede no estabelecimento. Segundo a apostila, ele será recenseado",
+      "options": [
+        {
+          "text": "nos dois setores, com um questionário em cada um.",
+          "explanation": "O estabelecimento é recenseado em um único setor: o da Sede ou, na falta dela, o da maior parte das terras."
+        },
+        {
+          "text": "no setor em que estiver localizada a menor parte de suas terras.",
+          "explanation": "O critério da apostila, na falta de Sede, é a maior parte das terras."
+        },
+        {
+          "text": "no setor em que estiver localizada a maior parte de suas terras.",
+          "explanation": "Correta. Na inexistência da Sede, o estabelecimento é recenseado no setor em que estiver a maior parte de suas terras."
+        },
+        {
+          "text": "no setor que o Recenseador visitar primeiro.",
+          "explanation": "O critério é a localização da Sede ou, na falta dela, da maior parte das terras, e não a ordem das visitas."
+        },
+        {
+          "text": "em nenhum dos setores, pois não possui Sede.",
+          "explanation": "A falta de Sede não impede o recenseamento; usa-se o critério da maior parte das terras."
+        }
+      ],
+      "correct": "C"
+    },
+    {
+      "key": "rumo-ibge-ct-056",
+      "source": "Autoria própria – Rumo, com base na apostila do IBGE para o 12º Censo Agropecuário (p. 62)",
+      "kind": "Objective",
+      "subject": "conhecimentos-tecnicos",
+      "statement": "Um produtor explora duas áreas separadas entre si, no mesmo município. Cada área, porém, tem pessoal próprio e está subordinada a uma administração diferente. De acordo com a apostila, essas áreas",
+      "options": [
+        {
+          "text": "formam um único estabelecimento, pois estão no mesmo município.",
+          "explanation": "Estar no mesmo município é só uma das quatro condições, que devem ser atendidas simultaneamente."
+        },
+        {
+          "text": "formam um único estabelecimento, pois pertencem ao mesmo produtor.",
+          "explanation": "Além do mesmo produtor, é preciso usar os mesmos recursos humanos e ter uma única administração, entre outras condições."
+        },
+        {
+          "text": "devem ser consideradas estabelecimentos agropecuários diferentes.",
+          "explanation": "Correta. Áreas não contínuas só formam um único estabelecimento se atenderem às quatro condições ao mesmo tempo; faltando qualquer uma, a área é outro estabelecimento."
+        },
+        {
+          "text": "não devem ser recenseadas.",
+          "explanation": "As áreas são recenseadas; apenas são tratadas como estabelecimentos diferentes."
+        },
+        {
+          "text": "devem ser recenseadas como produtor sem área.",
+          "explanation": "O produtor sem área é aquele que produz sem área própria ou espaço delimitado, o que não é o caso."
+        }
+      ],
+      "correct": "C"
+    },
+    {
+      "key": "rumo-ibge-ct-057",
+      "source": "Autoria própria – Rumo, com base na apostila do IBGE para o 12º Censo Agropecuário (p. 62)",
+      "kind": "Objective",
+      "subject": "conhecimentos-tecnicos",
+      "statement": "As terras de um estabelecimento agropecuário são cortadas por uma estrada. Segundo a apostila, a presença dessa estrada",
+      "options": [
+        {
+          "text": "não caracteriza a descontinuidade da área do estabelecimento.",
+          "explanation": "Correta. Rios, estradas ou ferrovias cortando as terras do estabelecimento não caracterizam a descontinuidade de sua área."
+        },
+        {
+          "text": "divide o estabelecimento em dois estabelecimentos diferentes.",
+          "explanation": "A estrada que corta as terras não caracteriza descontinuidade nem cria outro estabelecimento."
+        },
+        {
+          "text": "torna o estabelecimento uma unidade não recenseável.",
+          "explanation": "A estrada não altera a condição de estabelecimento agropecuário."
+        },
+        {
+          "text": "transforma o produtor em produtor sem área.",
+          "explanation": "O produtor sem área é o que não tem área própria ou espaço delimitado, situação diferente desta."
+        },
+        {
+          "text": "obriga o Recenseador a alterar o perímetro do setor.",
+          "explanation": "O Recenseador não pode alterar o perímetro do setor em hipótese alguma."
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "key": "rumo-ibge-ct-058",
+      "source": "Autoria própria – Rumo, com base na apostila do IBGE para o 12º Censo Agropecuário (p. 65)",
+      "kind": "Objective",
+      "subject": "conhecimentos-tecnicos",
+      "statement": "Um estabelecimento agropecuário está em processo de partilha, e cada herdeiro ocupa uma parte do terreno. De acordo com a apostila,",
+      "options": [
+        {
+          "text": "o estabelecimento não deve ser recenseado até o fim da partilha.",
+          "explanation": "Estabelecimentos em sucessão, partilha ou litígio são recenseados; a apostila só define como registrá-los."
+        },
+        {
+          "text": "cada parte será considerada um estabelecimento diferente.",
+          "explanation": "Correta. A apostila estabelece que, quando cada herdeiro ocupa uma parte do terreno, cada parte é um estabelecimento diferente."
+        },
+        {
+          "text": "o estabelecimento deve ser recenseado como um só, com informações prestadas pelo inventariante.",
+          "explanation": "Essa é a regra para quando há consenso entre os herdeiros, e não para quando cada um ocupa uma parte."
+        },
+        {
+          "text": "apenas a parte do herdeiro mais velho deve ser recenseada.",
+          "explanation": "A apostila não faz essa distinção; cada parte ocupada é um estabelecimento."
+        },
+        {
+          "text": "todos os herdeiros devem ser registrados como produtores sem área.",
+          "explanation": "Os herdeiros ocupam partes do terreno; o produtor sem área é o que não tem área própria ou espaço delimitado."
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "key": "rumo-ibge-ct-059",
+      "source": "Autoria própria – Rumo, com base na apostila do IBGE para o 12º Censo Agropecuário (p. 66)",
+      "kind": "Objective",
+      "subject": "conhecimentos-tecnicos",
+      "statement": "Um estabelecimento agropecuário existia na data de referência, mas não teve produção durante o período de referência porque perdeu a lavoura por razões climáticas. O Recenseador deve",
+      "options": [
+        {
+          "text": "deixar de recensear o estabelecimento, pois não houve produção.",
+          "explanation": "A apostila manda recensear também o estabelecimento que não teve produção durante o período de referência."
+        },
+        {
+          "text": "registrar o estabelecimento como unidade não recenseável.",
+          "explanation": "A perda de produção por razões climáticas não tira a condição de estabelecimento a ser recenseado."
+        },
+        {
+          "text": "excluir o endereço da lista prévia.",
+          "explanation": "A exclusão vale para endereços não encontrados em campo, e este estabelecimento existe."
+        },
+        {
+          "text": "registrar o responsável como produtor sem área.",
+          "explanation": "O produtor sem área é o que não tem área própria ou espaço delimitado; aqui há um estabelecimento sem produção no período."
+        },
+        {
+          "text": "recensear o estabelecimento e registrar, no campo Observações do DMC, o motivo da ausência de produção.",
+          "explanation": "Correta. Estabelecimentos existentes na data de referência são recenseados mesmo sem produção no período, e o motivo deve ser registrado no campo Observações do DMC."
+        }
+      ],
+      "correct": "E"
+    },
+    {
+      "key": "rumo-ibge-ct-060",
+      "source": "Autoria própria – Rumo, com base na apostila do IBGE para o 12º Censo Agropecuário (p. 66)",
+      "kind": "Objective",
+      "subject": "conhecimentos-tecnicos",
+      "statement": "Em uma área de exploração comunitária, as famílias trabalham juntas numa mesma área e dividem a produção entre si. Nesse caso, que a apostila chama de produção coletiva, o Recenseador deve preencher",
+      "options": [
+        {
+          "text": "um questionário para cada família.",
+          "explanation": "Um questionário por família é a regra da produção individual, em que cada família decide o que produzir e o destino da produção."
+        },
+        {
+          "text": "um questionário para cada pessoa da comunidade.",
+          "explanation": "A apostila prevê um único questionário para a produção coletiva."
+        },
+        {
+          "text": "um questionário para cada produto cultivado.",
+          "explanation": "O número de questionários depende da forma de organização da produção, e não dos produtos."
+        },
+        {
+          "text": "apenas um questionário.",
+          "explanation": "Correta. Na produção coletiva, em que as famílias trabalham juntas e dividem a produção, deve-se preencher apenas um questionário."
+        },
+        {
+          "text": "nenhum questionário.",
+          "explanation": "A exploração comunitária é recenseada; na produção coletiva, com um questionário."
+        }
+      ],
+      "correct": "D"
+    }
+  ]
+}

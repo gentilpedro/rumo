@@ -1,0 +1,1296 @@
+{
+  "year": 2025,
+  "track": "ufsm-1",
+  "questions": [
+    {
+      "key": "ufsm-2025-p1-q01",
+      "source": "Vestibular UFSM 2025 – Prova 1, questão 1 (UFSM)",
+      "kind": "Objective",
+      "subject": "filosofia-sociologia",
+      "statement": "A tese do dualismo cartesiano, proposta pelo filósofo René Descartes, no século XVII, estabelece uma distinção clara entre corpo e mente, tratando-os como entidades separadas. Segundo Descartes, o corpo é uma substância material, sujeita às leis físicas, enquanto a mente é uma substância imaterial, responsável pelo pensamento e pela consciência. Hoje sabemos que o sistema imunológico do corpo humano responde a estímulos tanto físicos quanto emocionais. O estresse psicológico, por exemplo, pode levar à liberação de hormônios como o cortisol, que, em níveis elevados, pode comprometer o sistema imunológico e aumentar o risco de doenças. Além disso, a inflamação crônica, frequentemente associada a problemas de saúde física, também tem sido ligada a transtornos mentais, sugerindo uma via bidirecional entre saúde física e mental.\n\nApós refletir sobre a relação entre a tese dualista proposta por Descartes, no século XVII, e o conhecimento contemporâneo sobre o tema da saúde mental e física, assinale V (verdadeiro) ou F (falso) em cada afirmativa a seguir.\n\n(  ) A relação entre saúde mental e física, concebida atualmente, não fornece suporte em favor da tese do dualismo cartesiano.\n\n(  ) A distinção entre corpo e mente, segundo o dualismo cartesiano, serve de base para a fundamentação da relação entre a saúde mental e física na ciência contemporânea.\n\n(  ) Segundo a tese do dualismo cartesiano, o pensamento e a consciência são produtos de processos físicos no cérebro.\n\nA sequência correta é",
+      "options": [
+        {
+          "text": "V – V – F.",
+          "explanation": "A segunda afirmativa é falsa: a ciência atual descreve uma via bidirecional entre corpo e mente, o que contraria a separação cartesiana em vez de se apoiar nela."
+        },
+        {
+          "text": "V – F – V.",
+          "explanation": "A terceira afirmativa é falsa: para Descartes, a mente é uma substância imaterial, e o pensamento não resulta de processos físicos do cérebro (essa é uma posição materialista)."
+        },
+        {
+          "text": "F – V – F.",
+          "explanation": "A primeira afirmativa é verdadeira (a integração entre saúde física e mental não apoia o dualismo) e a segunda é falsa, pois a ciência contemporânea não se fundamenta na separação entre corpo e mente."
+        },
+        {
+          "text": "F – F – V.",
+          "explanation": "Inverte a primeira e a terceira: a integração corpo-mente de fato não dá suporte ao dualismo, e Descartes não reduz o pensamento a processos físicos, já que a mente é substância imaterial."
+        },
+        {
+          "text": "V – F – F.",
+          "explanation": "Correta. A via bidirecional entre saúde física e mental não sustenta a separação cartesiana (V); logo, o dualismo não é a base da ciência atual sobre o tema (F); e, para Descartes, o pensamento pertence à substância imaterial, não a processos físicos do cérebro (F)."
+        }
+      ],
+      "correct": "E"
+    },
+    {
+      "key": "ufsm-2025-p1-q02",
+      "source": "Vestibular UFSM 2025 – Prova 1, questão 2 (UFSM)",
+      "kind": "Objective",
+      "subject": "matematica",
+      "statement": "Conforme a UNICEF (2022), um a cada dois adolescentes já sentiu necessidade de pedir ajuda em relação a sua saúde mental, e um a cada três adolescentes possui sintomas emocionais que indicam necessidade de avaliação clínica. Conforme o último censo de 2022 (IBGE, 2022), os números de adolescentes de 10 a 14 anos nas regiões sudeste e sul estão expressos na tabela a seguir.\n\n```\nRegião    Estado               Número de adolescentes (x 1000)\nSudeste   São Paulo            2 732\n          Rio de Janeiro         964\n          Espírito Santo         246\n          Minas Gerais         1 263\nSul       Rio Grande do Sul      630\n          Santa Catarina         465\n          Paraná                 737\n```\n\nFonte: FUNDAÇÃO DAS NAÇÕES UNIDAS PARA A INFÂNCIA - UNICEF. Saúde mental de adolescentes, 2022. Disponível em: <http://www.unicef.org/brazil/saude-mental-de-adolescentes>. Acesso em: 20 dez. 2024.\n\nDe acordo com as estimativas da UNICEF (2022), é correto afirmar que",
+      "options": [
+        {
+          "text": "480 mil adolescentes do Rio de Janeiro pediram ajuda quanto a sua saúde mental.",
+          "explanation": "Metade dos 964 mil adolescentes do Rio de Janeiro são 482 mil, não 480 mil; além disso, a estimativa fala em sentir necessidade de pedir ajuda, não em ter pedido."
+        },
+        {
+          "text": "1 735 mil adolescentes do sudeste necessitaram de avaliação clínica.",
+          "explanation": "Correta. O Sudeste tem 2 732 + 964 + 246 + 1 263 = 5 205 mil adolescentes; um a cada três com sintomas que indicam avaliação clínica dá 5 205 ÷ 3 = 1 735 mil."
+        },
+        {
+          "text": "1 milhão 366 mil adolescentes de São Paulo possuíam sintomas emocionais.",
+          "explanation": "1 366 mil é a metade de 2 732 mil, mas a proporção dos que têm sintomas emocionais é de um a cada três: 2 732 ÷ 3 ≈ 911 mil."
+        },
+        {
+          "text": "310 mil adolescentes do Rio Grande do Sul já pediram ajuda em relação a sua saúde mental.",
+          "explanation": "Metade dos 630 mil adolescentes gaúchos são 315 mil, não 310 mil."
+        },
+        {
+          "text": "600 mil adolescentes da região sul necessitam de avaliação clínica.",
+          "explanation": "O Sul soma 630 + 465 + 737 = 1 832 mil adolescentes; um terço disso é cerca de 611 mil, não 600 mil."
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "key": "ufsm-2025-p1-q03",
+      "source": "Vestibular UFSM 2025 – Prova 1, questão 3 (UFSM)",
+      "kind": "Objective",
+      "subject": "lingua-portuguesa",
+      "statement": "Leia o texto a seguir para responder às questões 03 e 04.\n\n**Covitel 2023 apresenta resultados sobre a saúde dos jovens brasileiros**\n\n```\n01    Foi lançada ontem (29) a segunda edição do Covitel∗, estudo de monitoramento dos fatores de risco para\n    doenças crônicas no Brasil. A pesquisa traz informações sobre prática de atividade física, hábitos alimen-\n    tares, saúde mental, estado de saúde, prevalências de hipertensão arterial e diabetes, consumo de álcool,\n    tabagismo e poluição do ar.\n05    A pesquisa destacou uma piora nos hábitos de saúde, especialmente entre as pessoas mais jovens, na faixa\n    etária entre 18 e 24 anos. Os pesquisadores identificaram que 40,3% estão com excesso de peso. A obesidade\n    aumentou 90% nesta faixa etária – de 9% para 17,1%; 31,6% já receberam diagnóstico médico de ansiedade\n    e 14,1%, de depressão; 32,6% relataram episódio de consumo abusivo de álcool. Além disso, são as pessoas\n    que menos consomem frutas, verduras e legumes e as que mais consomem refrigerantes e sucos artificiais.\n10    “Temos que dar visibilidade a essa pauta para que possamos nos comunicar com a sociedade, porque\n    esses agravos de saúde têm sido uma das maiores causas de mortalidade no Brasil. Por isso, já estamos\n    criando uma coordenação somente para cuidar desse tema e usar essas informações para traçar estra-\n    tégias de políticas públicas”, disse Ethel Maciel, secretária de Vigilância em Saúde e Meio Ambiente do\n    Ministério da Saúde.\n15    De acordo com o coordenador técnico e assessor para Relações Internacionais do Conass, Fernando\n    Cupertino, entender o cenário, o que impacta esses hábitos, diagnósticos e tratamentos, é fundamental para\n    fortalecer a capacidade analítica dos gestores e orientar as prioridades, o planejamento e as ações relacio-\n    nadas às políticas públicas de saúde de enfrentamento dessas condições crônicas. “Esses dados são muito\n    relevantes para tomadas de decisões e para entendermos que a promoção da saúde é necessária, mas que\n20  deve ser feita em conjunto com o poder público e parceiros para que possamos reduzir acidentes, violências\n    e fatores de riscos que têm atingido os jovens no Brasil”, falou.\n      Para o diretor-executivo da Vital Strategies Brasil, Pedro de Paula, o Covitel apresenta informações robustas\n    para a análise da situação de saúde da população em um momento ímpar que, muito provavelmente, trará\n    implicações para a saúde das pessoas nos próximos anos e até mesmo nas próximas décadas. “Dados são\n25  fundamentais para monitorar políticas públicas de saúde. Essa piora nos comportamentos gera uma preo-\n    cupação a curto, médio e longo prazo. Precisamos prevenir e melhorar cada vez mais as políticas de saúde”,\n    alertou. A pesquisa foi realizada entre 2 de janeiro e 15 de abril, nas cinco regiões do país, pelo Instituto\n    Vital Strategies Brasil, em parceria com a Universidade Federal de Pelotas (UFPel), Associação Brasileira de\n    Saúde Coletiva (Abrasco) e Umane∗∗.\n```\n\n∗Covitel é o Inquérito Telefônico de Fatores de Risco para Doenças Crônicas não Transmissíveis em Tempos de Pandemia.\n\n∗∗Umane é uma associação filantrópica paulista sem fins lucrativos, que apoia iniciativas no âmbito da saúde pública.\n\nFonte: ASSESSORIA DE COMUNICAÇÃO DO CONASS. Conselho Nacional de Secretários de Saúde. Covitel 2023 apresenta resultados sobre a saúde dos jovens brasileiros. Publicado em: 30 jun. 2023. Disponível em: <https://www.conass.org.br/covitel-2023-apresenta-resultados-sobre-a-saude-dos-jovens-brasileiros/>. Acesso em: 08 ago. 2024. (Adaptado).\n\nO objetivo do texto é",
+      "options": [
+        {
+          "text": "alertar as autoridades de saúde e a população sobre os riscos que corre a saúde dos jovens e adolescentes brasileiros.",
+          "explanation": "O texto é uma notícia institucional que divulga números de uma pesquisa; o alerta aparece apenas na fala de um entrevistado, e os dados tratam de jovens de 18 a 24 anos, não de adolescentes."
+        },
+        {
+          "text": "promover reflexões sobre os cuidados que os jovens e adolescentes devem ter com sua saúde.",
+          "explanation": "O texto não se dirige aos jovens nem dá orientações de cuidado: informa resultados e reproduz comentários de gestores sobre políticas públicas."
+        },
+        {
+          "text": "publicizar o ponto de vista de autoridades sobre a tomada de decisões quanto à promoção da saúde dos jovens e adolescentes.",
+          "explanation": "As falas das autoridades comentam os dados, mas são complemento da notícia; o foco, anunciado já no título, são os resultados do Covitel 2023."
+        },
+        {
+          "text": "apresentar dados sobre a saúde dos jovens brasileiros até o ano de 2023.",
+          "explanation": "Correta. O título e os dois primeiros parágrafos mostram a finalidade informativa: divulgar os dados do Covitel 2023 sobre a saúde dos jovens (faixa de 18 a 24 anos), seguidos de comentários de autoridades."
+        },
+        {
+          "text": "expor resultados de pesquisa realizada sobre a saúde dos jovens e adolescentes brasileiros.",
+          "explanation": "Parece adequada, mas o Covitel monitora fatores de risco para doenças crônicas na população, e o texto destaca os jovens de 18 a 24 anos: não há dados sobre adolescentes, como afirma a alternativa."
+        }
+      ],
+      "correct": "D"
+    },
+    {
+      "key": "ufsm-2025-p1-q04",
+      "source": "Vestibular UFSM 2025 – Prova 1, questão 4 (UFSM)",
+      "kind": "Objective",
+      "subject": "lingua-portuguesa",
+      "statement": "Leia o texto a seguir para responder às questões 03 e 04.\n\n**Covitel 2023 apresenta resultados sobre a saúde dos jovens brasileiros**\n\n```\n01    Foi lançada ontem (29) a segunda edição do Covitel∗, estudo de monitoramento dos fatores de risco para\n    doenças crônicas no Brasil. A pesquisa traz informações sobre prática de atividade física, hábitos alimen-\n    tares, saúde mental, estado de saúde, prevalências de hipertensão arterial e diabetes, consumo de álcool,\n    tabagismo e poluição do ar.\n05    A pesquisa destacou uma piora nos hábitos de saúde, especialmente entre as pessoas mais jovens, na faixa\n    etária entre 18 e 24 anos. Os pesquisadores identificaram que 40,3% estão com excesso de peso. A obesidade\n    aumentou 90% nesta faixa etária – de 9% para 17,1%; 31,6% já receberam diagnóstico médico de ansiedade\n    e 14,1%, de depressão; 32,6% relataram episódio de consumo abusivo de álcool. Além disso, são as pessoas\n    que menos consomem frutas, verduras e legumes e as que mais consomem refrigerantes e sucos artificiais.\n10    “Temos que dar visibilidade a essa pauta para que possamos nos comunicar com a sociedade, porque\n    esses agravos de saúde têm sido uma das maiores causas de mortalidade no Brasil. Por isso, já estamos\n    criando uma coordenação somente para cuidar desse tema e usar essas informações para traçar estra-\n    tégias de políticas públicas”, disse Ethel Maciel, secretária de Vigilância em Saúde e Meio Ambiente do\n    Ministério da Saúde.\n15    De acordo com o coordenador técnico e assessor para Relações Internacionais do Conass, Fernando\n    Cupertino, entender o cenário, o que impacta esses hábitos, diagnósticos e tratamentos, é fundamental para\n    fortalecer a capacidade analítica dos gestores e orientar as prioridades, o planejamento e as ações relacio-\n    nadas às políticas públicas de saúde de enfrentamento dessas condições crônicas. “Esses dados são muito\n    relevantes para tomadas de decisões e para entendermos que a promoção da saúde é necessária, mas que\n20  deve ser feita em conjunto com o poder público e parceiros para que possamos reduzir acidentes, violências\n    e fatores de riscos que têm atingido os jovens no Brasil”, falou.\n      Para o diretor-executivo da Vital Strategies Brasil, Pedro de Paula, o Covitel apresenta informações robustas\n    para a análise da situação de saúde da população em um momento ímpar que, muito provavelmente, trará\n    implicações para a saúde das pessoas nos próximos anos e até mesmo nas próximas décadas. “Dados são\n25  fundamentais para monitorar políticas públicas de saúde. Essa piora nos comportamentos gera uma preo-\n    cupação a curto, médio e longo prazo. Precisamos prevenir e melhorar cada vez mais as políticas de saúde”,\n    alertou. A pesquisa foi realizada entre 2 de janeiro e 15 de abril, nas cinco regiões do país, pelo Instituto\n    Vital Strategies Brasil, em parceria com a Universidade Federal de Pelotas (UFPel), Associação Brasileira de\n    Saúde Coletiva (Abrasco) e Umane∗∗.\n```\n\n∗Covitel é o Inquérito Telefônico de Fatores de Risco para Doenças Crônicas não Transmissíveis em Tempos de Pandemia.\n\n∗∗Umane é uma associação filantrópica paulista sem fins lucrativos, que apoia iniciativas no âmbito da saúde pública.\n\nFonte: ASSESSORIA DE COMUNICAÇÃO DO CONASS. Conselho Nacional de Secretários de Saúde. Covitel 2023 apresenta resultados sobre a saúde dos jovens brasileiros. Publicado em: 30 jun. 2023. Disponível em: <https://www.conass.org.br/covitel-2023-apresenta-resultados-sobre-a-saude-dos-jovens-brasileiros/>. Acesso em: 08 ago. 2024. (Adaptado).\n\nSobre os recursos linguísticos usados no texto, é correto afirmar que",
+      "options": [
+        {
+          "text": "“identificaram” (ℓ. 06), “de acordo com” (ℓ. 15) e “para” (ℓ. 15) indicam a introdução de vozes externas no texto.",
+          "explanation": "“Identificaram” e “de acordo com” atribuem informações a outras vozes, mas o “para” da linha 15 é só a preposição do nome do cargo (“assessor para Relações Internacionais”); o “para” que introduz voz é o da linha 22."
+        },
+        {
+          "text": "os verbos “destacou” (ℓ. 05), “disse” (ℓ. 13), “falou” (ℓ. 21) e “alertou” (ℓ. 27) correspondem a ações de seres conscientes.",
+          "explanation": "O sujeito de “destacou” é “A pesquisa”, que não é um ser consciente; só “disse”, “falou” e “alertou” têm pessoas como sujeito."
+        },
+        {
+          "text": "as expressões “Temos que” (ℓ. 10), “possamos” (ℓ. 10) e “Precisamos” (ℓ. 26) indicam, no contexto das orações, necessidade de realizar alguma tarefa.",
+          "explanation": "“Temos que” e “Precisamos” expressam necessidade, mas “possamos” expressa possibilidade (o que se torna possível com a visibilidade da pauta)."
+        },
+        {
+          "text": "os trechos “as” (ℓ. 08), “desse tema” (ℓ. 12) e “o que” (ℓ. 16) referem-se, respectivamente, a “pessoas” (ℓ. 08), “agravos de saúde” (ℓ. 11) e “cenário” (ℓ. 16).",
+          "explanation": "“As” retoma “pessoas”, mas “o que” (ℓ. 16) não retoma “cenário”: equivale a “aquilo que” e introduz um novo elemento a ser entendido (o que impacta os hábitos)."
+        },
+        {
+          "text": "os grupos “Além disso” (ℓ. 08), “para que” (ℓ. 10) e “porque” (ℓ. 10) indicam, respectivamente, adição, finalidade e causa.",
+          "explanation": "Correta. “Além disso” acrescenta uma informação, “para que possamos nos comunicar” indica a finalidade de dar visibilidade à pauta, e “porque esses agravos...” apresenta a causa."
+        }
+      ],
+      "correct": "E"
+    },
+    {
+      "key": "ufsm-2025-p1-q05",
+      "source": "Vestibular UFSM 2025 – Prova 1, questão 5 (UFSM)",
+      "kind": "Objective",
+      "subject": "quimica",
+      "statement": "Alguns íons desempenham papel vital no corpo humano. Os íons sódio e potássio estão envolvidos no equilíbrio eletrolítico e funcionamento do sistema nervoso. Um baixo nível de Na⁺ (hiponatremia) pode causar confusão e fraqueza muscular, enquanto um nível elevado (hipernatremia) pode causar paralisia ou convulsão. Baixas concentrações extracelulares de K⁺(hipocalemia) diminuem a frequência cardíaca, ao passo que altas concentrações (hipercalemia) provocam arritmias cardíacas e afetam o transporte de O₂ e CO₂ pela hemoglobina.\n\nAssinale a alternativa correta em relação aos íons Na⁺ e K⁺.",
+      "options": [
+        {
+          "text": "São isoeletrônicos, pois possuem o mesmo número de elétrons na última camada.",
+          "explanation": "Espécies isoeletrônicas têm o mesmo número total de elétrons; Na⁺ tem 10 e K⁺ tem 18. Ter 8 elétrons na última camada não basta."
+        },
+        {
+          "text": "A configuração eletrônica do íon Na⁺ é 1s² 2s² 2p⁶ 3s².",
+          "explanation": "Essa configuração tem 12 elétrons (é a do magnésio). O Na (Z = 11) perde o elétron 3s¹ e o íon Na⁺ fica com 1s² 2s² 2p⁶."
+        },
+        {
+          "text": "O íon Na⁺ tem raio menor do que o raio do átomo de sódio (Na).",
+          "explanation": "Correta. Ao perder o elétron 3s¹, o sódio fica com uma camada a menos e com os mesmos 11 prótons atraindo apenas 10 elétrons: todo cátion é menor que o átomo de origem."
+        },
+        {
+          "text": "O nível mais energético do íon K⁺ é o 4º com 1 elétron no subnível s.",
+          "explanation": "Essa é a descrição do átomo neutro de potássio (4s¹). O íon K⁺ perdeu esse elétron e termina em 3s² 3p⁶, no 3º nível."
+        },
+        {
+          "text": "O íon K⁺ é isótopo do átomo de argônio (Ar).",
+          "explanation": "Isótopos são átomos do mesmo elemento (mesmo número de prótons). K⁺ e Ar têm 18 elétrons cada um: são isoeletrônicos, não isótopos."
+        }
+      ],
+      "correct": "C"
+    },
+    {
+      "key": "ufsm-2025-p1-q06",
+      "source": "Vestibular UFSM 2025 – Prova 1, questão 6 (UFSM)",
+      "kind": "Objective",
+      "subject": "biologia",
+      "statement": "As proteínas são substâncias de fundamental importância na estrutura e no funcionamento dos seres vivos. Além da função estrutural, um grupo de proteínas – as enzimas – participa de praticamente todas as reações químicas vitais, estimulando-as; consequentemente, todo o metabolismo depende da ação dessas proteínas.\n\nSobre as proteínas, assinale V (verdadeiro) ou F (falso) em cada afirmativa a seguir.\n\n(  ) São sintetizadas pelos lisossomos.\n\n(  ) São formadas por nucleotídeos.\n\n(  ) Apresentam aminoácidos que seguem a sequência dos códons do RNA mensageiro.\n\nA sequência correta é",
+      "options": [
+        {
+          "text": "V – V – F.",
+          "explanation": "As três estão trocadas: a síntese ocorre nos ribossomos, as unidades são aminoácidos e a ordem deles segue, sim, os códons do RNA mensageiro."
+        },
+        {
+          "text": "V – F – F.",
+          "explanation": "Lisossomos fazem digestão intracelular; quem sintetiza proteínas são os ribossomos. E a terceira afirmativa é verdadeira."
+        },
+        {
+          "text": "F – V – F.",
+          "explanation": "Nucleotídeos são as unidades dos ácidos nucleicos (DNA e RNA); proteínas são formadas por aminoácidos."
+        },
+        {
+          "text": "F – F – V.",
+          "explanation": "Correta. Proteínas são sintetizadas nos ribossomos (F), são polímeros de aminoácidos, não de nucleotídeos (F), e a sequência de aminoácidos é determinada pela sequência de códons do RNA mensageiro na tradução (V)."
+        },
+        {
+          "text": "F – V – V.",
+          "explanation": "A segunda afirmativa é falsa: nucleotídeos formam DNA e RNA, enquanto proteínas são cadeias de aminoácidos."
+        }
+      ],
+      "correct": "D"
+    },
+    {
+      "key": "ufsm-2025-p1-q07",
+      "source": "Vestibular UFSM 2025 – Prova 1, questão 7 (UFSM)",
+      "kind": "Objective",
+      "subject": "lingua-portuguesa",
+      "statement": "As Diretrizes Nacionais para a Atenção Integral à Saúde de Adolescentes e Jovens na Promoção, Proteção e Recuperação da Saúde, do Ministério da Saúde, de 2010 e ainda em vigor no Brasil, trazem os resultados de um estudo realizado sobre os padrões de consumo de álcool entre adolescentes.\n\nSabemos que “beber em binge” significa “o beber com maior risco em um curto espaço de tempo”, o que corresponde a 5 doses ou mais para homens e 4 doses ou mais para mulheres, na mesma ocasião.\n\nLeia a figura a seguir, que apresenta os resultados em porcentagens.\n\n![Gráfico de barras empilhadas intitulado Frequência com que bebeu em binge x gênero (em %) no ano anterior. Total de doses: 16 bebeu em binge no último ano, 17 bebeu, mas não em binge, 66 não bebeu no último ano. Homens: 21 bebeu em binge, 15 bebeu, mas não em binge, 64 não bebeu. Mulheres: 12 bebeu em binge, 20 bebeu, mas não em binge, 68 não bebeu.](img/ufsm/2025/prova-1/q07-1.png)\n\nFonte: BRASIL. Ministério da Saúde. Secretaria de Atenção em Saúde. Diretrizes Nacionais para a Atenção Integral à Saúde de Adolescentes e Jovens na Promoção, Proteção e Recuperação da Saúde. 2010. p. 42. Disponível em: <https://bvsms.saude.gov.br/bvs/publicacoes/diretrizes_nacionais_atencao_saude_adolescentes_jovens_promocao_saude.pdf>. Acesso em: 08 ago. 2024. (Adaptado).\n\nCom relação às informações apresentadas na figura, considere as afirmativas a seguir.\n\nI → Os homens consumiram percentualmente mais que as mulheres, quando não em binge.\n\nII → Há uma diferença significativa no percentual do consumo em binge, se considerado o gênero das pessoas.\n\nIII → Dois terços dos adolescentes de ambos os gêneros são abstinentes.\n\nIV → Um quarto das adolescentes mulheres bebeu em binge nos últimos 12 meses.\n\nEstá(ão) correta(s)",
+      "options": [
+        {
+          "text": "apenas I.",
+          "explanation": "A afirmativa I é falsa: na faixa “bebeu, mas não em binge”, os homens são 15% e as mulheres, 20%."
+        },
+        {
+          "text": "apenas I e II.",
+          "explanation": "A II está certa, mas a I não: fora do binge, as mulheres (20%) superam os homens (15%)."
+        },
+        {
+          "text": "apenas I e IV.",
+          "explanation": "As duas são falsas: fora do binge as mulheres bebem mais (20% contra 15%), e só 12% delas beberam em binge, bem menos que um quarto (25%)."
+        },
+        {
+          "text": "apenas II e III.",
+          "explanation": "Correta. Em binge, os homens (21%) quase dobram as mulheres (12%), diferença significativa (II); e 66% do total não bebeu no último ano, cerca de dois terços (III). I e IV falham: 15% < 20% e 12% não é um quarto."
+        },
+        {
+          "text": "apenas II, III e IV.",
+          "explanation": "II e III estão certas, mas a IV não: 12% das mulheres beberam em binge, cerca de um oitavo, não um quarto."
+        }
+      ],
+      "correct": "D"
+    },
+    {
+      "key": "ufsm-2025-p1-q08",
+      "source": "Vestibular UFSM 2025 – Prova 1, questão 8 (UFSM)",
+      "kind": "Objective",
+      "subject": "quimica",
+      "statement": "A hidratação é fundamental para a boa saúde como um todo, já que o organismo de uma pessoa adulta é composto por aproximadamente 70% de água. Estudos científicos comprovam que, sem água, a sobrevivência é quatro vezes menor quando se compara ao tempo sem ingestão de comida. Ainda, atividades cerebrais, intestinais e musculares apresentam melhor desempenho quando o corpo está hidratado.\n\nA hidratação, essencial para o adequado funcionamento do organismo, reflete-se visivelmente na aparência da pele e impacta diretamente a performance de atividades físicas.\n\nCom base nas propriedades da água, considere as afirmativas a seguir.\n\nI → Se colocarmos uma garrafa de água em um freezer, à temperatura de -18 ºC, quando iniciar o congelamento a temperatura da água diminuirá gradativamente.\n\nII → Ao analisar a composição geométrica da água, observa-se que ela apresenta geometria angular e que a soma dos momentos angulares das ligações estabelecidas é nula.\n\nIII → Alotropia é o fenômeno que ocorre quando um elemento químico forma duas ou mais substâncias simples diferentes, como, por exemplo, o gelo e o vapor de água.\n\nIV → No estado líquido, as ligações de hidrogênio que ocorrem entre as moléculas de água estão dispostas numa forma mais desorganizada, ao passo que, no gelo, as ligações intermoleculares provocam um arranjo cristalino, no qual conjuntos tetraédricos se organizam formando estruturas hexagonais tridimensionais.\n\nEstá(ão) correta(s)",
+      "options": [
+        {
+          "text": "apenas IV.",
+          "explanation": "Correta. Só a IV descreve corretamente a água: no líquido as ligações de hidrogênio são desorganizadas e, no gelo, formam um retículo hexagonal. A I erra porque a temperatura fica constante durante a mudança de estado de uma substância pura; a II, porque a molécula angular é polar; a III, porque gelo e vapor são a mesma substância composta."
+        },
+        {
+          "text": "apenas I e II.",
+          "explanation": "Durante o congelamento de uma substância pura, a temperatura permanece constante (0 °C a 1 atm) até toda a água solidificar; e, na molécula angular, os dipolos das ligações O–H não se cancelam."
+        },
+        {
+          "text": "apenas II e IV.",
+          "explanation": "A II é falsa: justamente por ser angular, a água tem momento dipolar resultante diferente de zero (é polar)."
+        },
+        {
+          "text": "apenas I, II e III.",
+          "explanation": "As três são falsas: a temperatura não varia durante o congelamento, a água é polar, e gelo e vapor são estados físicos de uma substância composta, não formas alotrópicas."
+        },
+        {
+          "text": "apenas I, III e IV.",
+          "explanation": "A definição de alotropia da III está certa, mas o exemplo não: gelo e vapor são a mesma substância (H₂O) em estados físicos diferentes. E a I ignora o patamar de temperatura na mudança de estado."
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "key": "ufsm-2025-p1-q09",
+      "source": "Vestibular UFSM 2025 – Prova 1, questão 9 (UFSM)",
+      "kind": "Objective",
+      "subject": "fisica",
+      "statement": "A realização de movimentos no dia a dia pode fazer a diferença na saúde das pessoas. Utilizar escadas, em vez de elevadores, e outras pequenas mudanças de comportamento ajudam a manter o corpo mais ativo, diminuindo o sedentarismo, as doenças cardíacas e até as doenças neurodegenerativas.\n\nFonte: BRASIL. Movimentos rotineiros como subir escada podem salvar o coração. Brasilia, DF: Senado Federal, 2018. Disponível em: <https://www.gov.br/saude/pt-br/assuntos/saude-brasil/eu-quero-me-exercitar/noticias/2018/alongamento-e-bom-antes-e-depois-da-atividade-fisica>. Acesso em: 09 ago. 2024. (Adaptado).\n\nCiente da necessidade de uma vida saudável, uma caloura da UFSM decide fazer uma caminhada até o campus e visitar o diretório acadêmico de seu curso. No prédio, é informada de que precisa subir dois andares para chegar ao local. Para realizar este deslocamento vertical, ela tem a opção de usar o elevador ou a escada.\n\nAssumindo que a caloura, bem como qualquer outro objeto, comporta-se como uma partícula em um sistema conservativo e considerando um referencial fixo no primeiro pavimento do prédio, considere as afirmativas a seguir.\n\nI → A variação da energia potencial gravitacional, associada ao sistema Terra-Caloura, é maior quando o deslocamento entre os dois andares é realizado pela escada em relação ao mesmo deslocamento realizado a partir do elevador.\n\nII → Considerando o intervalo de tempo utilizado para realizar o deslocamento, a potência média empregada para subir as escadas aumenta se o intervalo de tempo também aumentar.\n\nIII → Se, ao chegar ao terceiro andar, a caloura deixar o seu molho de chaves cair pelo vão da escada em queda livre até o primeiro andar, o módulo da velocidade dessa partícula, ao cair um andar, seria a metade do observado quando o molho de chaves tocar o solo, após cair dois andares.\n\nIV → Se o sistema for não conservativo com um rendimento de 0,4, o trabalho realizado pela força peso da caloura durante o deslocamento vertical seria suficiente para um deslocamento vertical 2,5 maior em um sistema conservativo.\n\nEstá(ão) correta(s)",
+      "options": [
+        {
+          "text": "apenas IV.",
+          "explanation": "Correta. Com rendimento 0,4, só 40% da energia despendida vira trabalho útil; sem perdas (rendimento 1), a mesma energia permitiria um deslocamento 1 ÷ 0,4 = 2,5 vezes maior. As demais falham: ΔEp = mgh não depende do caminho (I), P = E/Δt diminui se o tempo aumenta (II) e v = √(2gh) cresce com a raiz da altura (III)."
+        },
+        {
+          "text": "apenas I e III.",
+          "explanation": "A energia potencial gravitacional depende só do desnível (mgh), igual pela escada ou pelo elevador; e, na queda livre, v = √(2gh): com metade da altura, a velocidade é 1/√2 ≈ 0,71 da final, não a metade."
+        },
+        {
+          "text": "apenas II e III.",
+          "explanation": "Potência média é energia dividida pelo tempo: para o mesmo desnível, mais tempo significa menos potência. E a velocidade na queda varia com √h, não proporcionalmente a h."
+        },
+        {
+          "text": "apenas II e IV.",
+          "explanation": "A IV está certa, mas a II não: como P = mgh/Δt, aumentar o intervalo de tempo reduz a potência média."
+        },
+        {
+          "text": "apenas I, II e III.",
+          "explanation": "As três são falsas: a variação de energia potencial não depende da trajetória, a potência cai quando o tempo aumenta e a velocidade após um andar é v/√2, não v/2."
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "key": "ufsm-2025-p1-q10",
+      "source": "Vestibular UFSM 2025 – Prova 1, questão 10 (UFSM)",
+      "kind": "Objective",
+      "subject": "fisica",
+      "statement": "Alongamento é bom antes e depois da atividade física é o título de uma publicação do Ministério da Saúde. Segundo a notícia, “o alongamento é uma forma simples e segura de exercitar o corpo em qualquer hora ou lugar”.\n\nFonte: BRASIL. Alongamento é bom antes e depois da atividade física. Brasilia, DF: Ministério da Saúde, 2018. Disponível em: https://www.gov.br/saude/pt-br/assuntos/saude-brasil/eu-quero-me-exercitar/noticias/2018/alongamento-e-bom-antes-e-depois-da-atividade-fisica. Acesso em: 09 ago. 2024. (Adaptado).\n\nApós ler essa notícia, um estudante da UFSM passa a realizar alongamentos todos os dias antes de ir caminhando para a aula. A figura a seguir esboça a posição do exercício de alongamento executado pelo estudante, em que ele empurra a parede com uma força horizontal exercida pelas mãos sem que seus pés deslizem, permanecendo, assim, em repouso em relação a um referencial fixo no solo.\n\n![Silhueta de uma pessoa inclinada para a frente, com os dois pés apoiados no piso horizontal e as duas mãos empurrando uma parede vertical à sua direita. Legendas: Parede (vertical) e Piso (horizontal).](img/ufsm/2025/prova-1/q10-1.png)\n\nEm relação a esse exercício físico realizado, considerando o estudante como uma partícula e o referencial como inercial, assinale V (verdadeiro) ou F (falso) em cada afirmativa a seguir.\n\n(  ) Ao exercer uma força horizontal com as mãos contra a parede, o estudante recebe uma força aplicada pela parede, de mesma direção, mesma intensidade, porém em sentido contrário à força por ele exercida.\n\n(  ) O estudante permanece em repouso na direção horizontal durante o exercício, em relação ao referencial indicado, pois a força aplicada por suas mãos na parede é equilibrada pela força exercida pela parede em suas mãos.\n\n(  ) A força peso do estudante e a força normal exercida pela superfície nos pés do atleta formam um par ação e reação.\n\nA sequência correta é",
+      "options": [
+        {
+          "text": "V – F – V.",
+          "explanation": "Peso e normal atuam no mesmo corpo (o estudante) e têm naturezas diferentes, logo não são par ação-reação: a reação do peso está na Terra, e a da normal, no piso."
+        },
+        {
+          "text": "V – F – F.",
+          "explanation": "Correta. A primeira é a 3ª lei de Newton (V). A segunda é falsa: ação e reação atuam em corpos diferentes e não se equilibram; quem equilibra a força da parede sobre o estudante é o atrito do piso nos pés. A terceira é falsa: peso e normal agem no mesmo corpo, não formam par ação-reação."
+        },
+        {
+          "text": "F – F – V.",
+          "explanation": "A primeira afirmativa é exatamente o enunciado da 3ª lei de Newton, portanto verdadeira; e peso e normal não são par ação-reação."
+        },
+        {
+          "text": "V – V – F.",
+          "explanation": "As forças do par ação-reação agem em corpos diferentes (uma na parede, outra no estudante) e por isso não se equilibram; o equilíbrio horizontal do estudante vem do atrito nos pés."
+        },
+        {
+          "text": "F – V – F.",
+          "explanation": "Troca as duas primeiras: a parede reage com força de mesma intensidade e sentido oposto (V), mas essa reação não “equilibra” a força que atua na parede, pois estão em corpos diferentes (F)."
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "key": "ufsm-2025-p1-q11",
+      "source": "Vestibular UFSM 2025 – Prova 1, questão 11 (UFSM)",
+      "kind": "Objective",
+      "subject": "matematica",
+      "statement": "O Relatório de Status Global sobre Atividade Física 2022, publicado pela Organização Mundial da Saúde (OMS), recomenda 150 minutos de atividades moderadas por semana para que uma pessoa seja considerada não sedentária. Em números aproximados, o Instituto Brasileiro de Geografia e Estatística informa que a população brasileira, em 2009, era de 195 milhões, passando para 203 milhões em 2022. O Ministério da Saúde, em seu relatório Vigitel Brasil, considerou que, em 2009, 30% da população praticava os 150 minutos recomendados pela OMS, enquanto em 2022 esse percentual passou para 37%. Em termos absolutos, o número de pessoas consideradas não sedentárias aumentou em",
+      "options": [
+        {
+          "text": "2 milhões.",
+          "explanation": "Fica muito abaixo do resultado: 37% de 203 milhões menos 30% de 195 milhões dá cerca de 16,6 milhões."
+        },
+        {
+          "text": "7 milhões.",
+          "explanation": "Confunde a diferença de pontos percentuais (37% − 30% = 7) com o aumento absoluto; cada percentual incide sobre uma população diferente."
+        },
+        {
+          "text": "12 milhões.",
+          "explanation": "Subestima o aumento: é preciso calcular 0,37 × 203 = 75,11 milhões e 0,30 × 195 = 58,5 milhões antes de subtrair."
+        },
+        {
+          "text": "17 milhões.",
+          "explanation": "Correta. Em 2009: 0,30 × 195 = 58,5 milhões. Em 2022: 0,37 × 203 = 75,11 milhões. Aumento: 75,11 − 58,5 = 16,61 ≈ 17 milhões."
+        },
+        {
+          "text": "22 milhões.",
+          "explanation": "Superestima o aumento: 75,11 − 58,5 = 16,61 milhões, e não 22 milhões."
+        }
+      ],
+      "correct": "D"
+    },
+    {
+      "key": "ufsm-2025-p1-q12",
+      "source": "Vestibular UFSM 2025 – Prova 1, questão 12 (UFSM)",
+      "kind": "Objective",
+      "subject": "artes-educacao-fisica",
+      "statement": "A Federação Internacional de Medicina do Esporte recomenda que todos os indivíduos se engajem em um programa regular de exercícios aeróbicos, com três a cinco sessões semanais, cada uma das quais com duração de 30 a 60 minutos. O exercício aeróbico pode se constituir de atividades como caminhada, corrida, natação, ciclismo, remo, patinação ou esqui cross-country. Também podem ser praticados esportes individuais, como jogos de raquete, e esportes coletivos, desde que se controle a intensidade, a qual deve ser suficiente para manter a frequência cardíaca entre 50 e 80% da frequência cardíaca máxima. A escolha da atividade dependerá de fatores como o interesse, o acesso a locais e instalações para a sua prática, a idade e o estado físico do praticante. É conveniente uma revisão geral realizada por um médico, especialmente para adultos e para os que apresentam fatores de risco conhecidos.\n\nFonte: FEDERAÇÃO INTERNACIONAL DE MEDICINA DO ESPORTE. O exercício físico: um fator importante para a saúde. Revista Brasileira de Medicina do Esporte, n. 3, v. 3, set. 1997. Disponível em: <https://www.scielo.br/j/rbme/a/W9L5m6WZKH5mQ5yBMBvPT4S/?lang=pt>. Acesso em: 05 nov. 2024.\n\nA partir do texto, com relação à prática de exercícios físicos, assinale V (verdadeiro) ou F (falso) em cada afirmativa a seguir.\n\n(  ) O tempo mínimo recomendado para a prática de exercícios aeróbicos é de 90 minutos semanais.\n\n(  ) A intensidade controlada da prática de esportes individuais e coletivos contribui para a saúde cardiovascular.\n\n(  ) A melhora da mobilidade e a diminuição da funcionalidade fisiológica pela redução de massa muscular são consequências da prática regular de atividades físicas.\n\nA sequência correta é",
+      "options": [
+        {
+          "text": "V – F – V.",
+          "explanation": "A segunda é verdadeira (o texto admite esportes com intensidade controlada, mantendo a frequência cardíaca na faixa aeróbica) e a terceira é falsa, pois o exercício regular preserva a massa muscular e a funcionalidade."
+        },
+        {
+          "text": "V – V – F.",
+          "explanation": "Correta. O mínimo é 3 sessões × 30 minutos = 90 minutos semanais (V); esportes com intensidade controlada, entre 50 e 80% da frequência cardíaca máxima, funcionam como exercício aeróbico (V); e a prática regular não reduz massa muscular nem funcionalidade, ao contrário (F)."
+        },
+        {
+          "text": "V – V – V.",
+          "explanation": "A terceira afirmativa mistura um benefício real (mobilidade) com um efeito que o exercício combate: perda de massa muscular e de funcionalidade vem do sedentarismo."
+        },
+        {
+          "text": "F – F – V.",
+          "explanation": "As três estão invertidas: 3 × 30 = 90 minutos é o mínimo semanal, a intensidade controlada beneficia o coração, e exercício regular não diminui a funcionalidade fisiológica."
+        },
+        {
+          "text": "F – V – F.",
+          "explanation": "A primeira é verdadeira: três sessões (mínimo) de 30 minutos (mínimo) somam 90 minutos por semana."
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "key": "ufsm-2025-p1-q13",
+      "source": "Vestibular UFSM 2025 – Prova 1, questão 13 (UFSM)",
+      "kind": "Objective",
+      "subject": "matematica",
+      "statement": "Estudos da Organização Mundial da Saúde sugerem que a qualidade de vida está relacionada à quantidade de atividades físicas que fazemos durante a semana. Um dono de academia resolveu estimular seus alunos idosos atribuindo-lhes notas conforme sua frequência mensal, para em seguida poder brindá-los com descontos, estimulando, assim, o comparecimento nas atividades físicas, coibindo os excessos. A ideia é dar nota máxima 10 a quem vem a um número ideal x₀ de vezes à academia no mês e, obviamente, dar nota 0 a quem não comparece nenhuma vez. A nota (N) mensal por comparecimento (x) foi modelada por N=−ax²+bx+c como na figura a seguir, na qual os valores a, b, c são números reais não negativos com a ≠ 0.\n\n![Gráfico de uma parábola com concavidade para baixo que parte da origem (0, 0), sobe até o vértice, de abscissa x₀ e ordenada 10, e depois desce. Linhas auxiliares ligam o vértice ao valor 10 no eixo vertical e a x₀ no eixo horizontal.](img/ufsm/2025/prova-1/q13-1.png)\n\nPara que o modelo esteja correto e a nota máxima 10 seja de fato alcançada em x₀, a alternativa correta é",
+      "options": [
+        {
+          "text": "x₀ = 10/a",
+          "explanation": "Viria de a·x₀ = 10, esquecendo o quadrado: a condição correta no vértice é a·x₀² = 10."
+        },
+        {
+          "text": "x₀ = (√10)/a",
+          "explanation": "Extrai a raiz só do 10; de a·x₀² = 10 vem x₀² = 10/a, e a raiz incide sobre a fração inteira."
+        },
+        {
+          "text": "x₀ = (√10)/a²",
+          "explanation": "Não decorre do modelo: com c = 0 e b = 2a·x₀, a nota máxima é a·x₀² = 10, o que dá x₀ = √(10/a)."
+        },
+        {
+          "text": "x₀ = √(10/a)",
+          "explanation": "Correta. N(0) = 0 dá c = 0. O vértice fica em x₀ = b/(2a), logo b = 2a·x₀. Então N(x₀) = −a·x₀² + 2a·x₀² = a·x₀² = 10, e x₀ = √(10/a)."
+        },
+        {
+          "text": "x₀ = 100/a",
+          "explanation": "Eleva o 10 ao quadrado em vez de extrair a raiz; a relação correta é x₀² = 10/a."
+        }
+      ],
+      "correct": "D"
+    },
+    {
+      "key": "ufsm-2025-p1-q14",
+      "source": "Vestibular UFSM 2025 – Prova 1, questão 14 (UFSM)",
+      "kind": "Objective",
+      "subject": "fisica",
+      "statement": "O ciclismo é uma ótima forma de realizar exercícios físicos e também aproveitar a vida ao ar livre na companhia de bons amigos. Um ciclista pedala sua bicicleta, parcialmente representada na figura a seguir, fazendo com que a coroa realize 40 voltas por minuto.\n\n![Parte traseira de uma bicicleta com as legendas: Roda (pneu+aro), a roda traseira; Catraca, a engrenagem pequena no centro da roda traseira; Coroa, a engrenagem maior presa aos pedais; e Correia, que liga a coroa à catraca.](img/ufsm/2025/prova-1/q14-1.png)\n\nSabendo que os diâmetros da coroa, catraca e roda são, respectivamente, 20 cm, 10 cm e 60 cm, qual o módulo da velocidade do ciclista, em metros por segundo, em relação a um referencial fixo no solo? Desconsidere qualquer perda no sistema e assuma que não há nenhum deslizamento entre correia, catraca e coroa, nem entre roda e solo.",
+      "options": [
+        {
+          "text": "(4/5)π",
+          "explanation": "Correta. A correia impõe a mesma velocidade linear à coroa e à catraca: f(catraca) = 40 × 20/10 = 80 rpm = 4/3 Hz, que é também a frequência da roda. Então v = π·d·f = π × 0,60 × 4/3 = 0,8π = (4/5)π m/s."
+        },
+        {
+          "text": "8π",
+          "explanation": "A roda percorre π × 0,60 × 80 = 48π metros por minuto; 8π aparece ao dividir por 6, e não por 60, na conversão para segundos."
+        },
+        {
+          "text": "(5/4)π",
+          "explanation": "É o inverso da fração correta: v = π × 0,60 × (4/3) = (4/5)π m/s."
+        },
+        {
+          "text": "16π",
+          "explanation": "Combina dois erros: usar o diâmetro (0,60 m) como raio e converter minutos em segundos dividindo por 6 (2π × 0,60 × 80 = 96π m/min)."
+        },
+        {
+          "text": "(8/5)π",
+          "explanation": "É o dobro do valor correto: surge ao usar o diâmetro de 0,60 m como se fosse o raio em v = 2π·R·f."
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "key": "ufsm-2025-p1-q15",
+      "source": "Vestibular UFSM 2025 – Prova 1, questão 15 (UFSM)",
+      "kind": "Objective",
+      "subject": "matematica",
+      "statement": "Vida saudável tem custo. Um pacote anual incluindo aulas de pilates, ioga e musculação custa R$ 1 000,00 à vista. Caso o cliente não tenha dinheiro no momento, ele poderá pagar R$ 1 100,00 um mês depois e, seguindo assim, o cliente poderá pagar o pacote no mês conseguinte ou em qualquer mês, sempre pagando a mesma taxa de juros compostos mensais. Se o cliente for pagar 4 meses após a matrícula, descontados os centavos, quanto ele deverá desembolsar?",
+      "options": [
+        {
+          "text": "R$ 1 400,00",
+          "explanation": "É o resultado com juros simples (1 000 + 4 × 100); nos juros compostos, os 10% incidem a cada mês sobre o valor já corrigido."
+        },
+        {
+          "text": "R$ 1 444,00",
+          "explanation": "Não corresponde a 1 000 × 1,1⁴: a sequência mês a mês é 1 100; 1 210; 1 331; 1 464,10."
+        },
+        {
+          "text": "R$ 1 464,00",
+          "explanation": "Correta. A taxa é de 10% ao mês (1 100/1 000 = 1,1). Em 4 meses: 1 000 × 1,1⁴ = 1 000 × 1,4641 = R$ 1 464,10, ou R$ 1 464,00 sem os centavos."
+        },
+        {
+          "text": "R$ 1 484,00",
+          "explanation": "Passa do valor correto: 1,1⁴ = 1,4641, o que dá R$ 1 464,10."
+        },
+        {
+          "text": "R$ 1 504,00",
+          "explanation": "Passa do valor correto: com 10% ao mês, o montante de R$ 1 500 só é superado no quinto mês (R$ 1 610,51)."
+        }
+      ],
+      "correct": "C"
+    },
+    {
+      "key": "ufsm-2025-p1-q16",
+      "source": "Vestibular UFSM 2025 – Prova 1, questão 16 (UFSM)",
+      "kind": "Objective",
+      "subject": "fisica",
+      "statement": "A vida cotidiana expõe todos ao estresse, seja físico ou mental, é o que diz uma publicação do Hospital Israelita Albert Einsten. Tal estresse acaba por sobrecarregar todo o corpo e, em especial, o coração, fazendo com que a frequência de batimentos cardíacos se eleve, obrigando o coração a trabalhar mais para manter a oxigenação dos tecidos. Logo, uma questão relevante é: será que o coração consegue dar conta dessa demanda? Para avaliar tal situação existe o teste ergométrico, o qual consiste em um exame em que o coração é levado ao esforço de modo controlado e seguro. Uma forma de fazer o teste ergométrico é realizar uma corrida monitorada em uma esteira. O monitoramento ocorre a partir de eletrodos conectados ao paciente que realiza uma corrida com intensidade variável na esteira. A variação do esforço pode se dar a partir do aumento da velocidade da corrida e também da inclinação da esteira.\n\nFonte: VIDA SAUDÁVEL. Vai fazer o teste ergométrico? Confira as principais informações. São Paulo: Hospital Israelita Albert Einstein, 2021. Disponível em: https://vidasaudavel.einstein.br/teste-ergometrico. Acesso em: 09 ago. 2024. (Adaptado).\n\nA figura a seguir mostra, de forma simplificada, um instante de um teste ergométrico, em que o paciente corre em uma esteira inclinada 30 graus com a horizontal sem escorregar.\n\n![Silhueta de uma pessoa correndo sobre uma esteira ergométrica inclinada, que forma um ângulo de 30º com a base horizontal do aparelho.](img/ufsm/2025/prova-1/q16-1.png)\n\nConsiderando que as únicas forças que atuam sobre o paciente são seu peso, força normal e força de atrito, assinale a alternativa que descreve corretamente a interação de atrito entre o calçado do paciente e a esteira.\n\nDados do problema: cos30°=√3/2 e sen30°=1/2.",
+      "options": [
+        {
+          "text": "O atrito é cinético, sendo o valor mínimo do coeficiente de atrito necessário √3.",
+          "explanation": "Como o calçado não escorrega sobre a esteira, o atrito é estático; além disso, √3 é tg 60°, não tg 30°."
+        },
+        {
+          "text": "O atrito é cinético, sendo o valor máximo do coeficiente de atrito necessário √3/3.",
+          "explanation": "Sem deslizamento entre calçado e esteira, o atrito é estático, e a condição para não escorregar fixa um valor mínimo, não máximo, para o coeficiente."
+        },
+        {
+          "text": "O atrito é estático, sendo o valor mínimo do coeficiente de atrito necessário √3/3.",
+          "explanation": "Correta. Sem escorregar, o atrito é estático e equilibra a componente do peso ao longo da esteira: P·sen30° ≤ μ·N = μ·P·cos30°, logo μ ≥ tg30° = (1/2)/(√3/2) = √3/3."
+        },
+        {
+          "text": "O atrito é estático, sendo o valor máximo do coeficiente de atrito necessário √3/3.",
+          "explanation": "O tipo de atrito e o valor estão certos, mas √3/3 é o mínimo: coeficientes maiores também impedem o escorregamento, e menores não."
+        },
+        {
+          "text": "O atrito é estático, sendo o valor mínimo do coeficiente de atrito necessário √3.",
+          "explanation": "O atrito é estático, mas o mínimo é tg30° = sen30°/cos30° = √3/3; √3 resulta de inverter a razão (cos30°/sen30°)."
+        }
+      ],
+      "correct": "C"
+    },
+    {
+      "key": "ufsm-2025-p1-q17",
+      "source": "Vestibular UFSM 2025 – Prova 1, questão 17 (UFSM)",
+      "kind": "Objective",
+      "subject": "geografia",
+      "statement": "Pensar em saúde está diretamente associado à promoção de acesso à infraestrutura e a condições de vida adequadas. Logo, prevenção em saúde está muito ligada à qualidade do espaço ocupado pelas populações. Todavia, no Brasil, assim como em outras partes do mundo, o acesso seguro a locais de moradia e com condições básicas de saúde ainda não é uma realidade para todos os seres humanos.\n\nFrente a isso, o conceito de ___________________ refere-se às disparidades socioespaciais que afetam comunidades que são levadas a morar em espaços de maior vulnerabilidade devido às desigualdades sociais e étnicas. Esse conceito é marcado, principalmente, pela presença de pessoas com menor renda e de pretos e pardos residindo em áreas de risco. Tal processo pode, por exemplo, ser observado durante as inundações de abril e maio de 2024 no estado do Rio Grande do Sul, onde a população mais afetada na região metropolitana de Porto Alegre foi aquela que vivia em áreas de maior vulnerabilidade e era pobre e negra ou parda, conforme dados apresentados pelo Observatório de Metrópoles (2024).\n\nConsiderando a descrição apresentada, assinale a alternativa que preenche corretamente a lacuna.",
+      "options": [
+        {
+          "text": "racismo ambiental",
+          "explanation": "Correta. Racismo ambiental designa a distribuição desigual dos riscos e danos ambientais, que recaem sobretudo sobre populações pobres e racializadas, empurradas para áreas vulneráveis como encostas e várzeas inundáveis."
+        },
+        {
+          "text": "racismo estrutural",
+          "explanation": "É um conceito mais amplo, sobre o racismo enraizado nas instituições e relações sociais; a descrição trata especificamente da exposição desigual a riscos do ambiente e do espaço de moradia."
+        },
+        {
+          "text": "determinismo geográfico",
+          "explanation": "É a teoria (associada a Ratzel) de que o meio natural determina o desenvolvimento das sociedades; não trata de desigualdade social e étnica na ocupação de áreas de risco."
+        },
+        {
+          "text": "determinismo ambiental",
+          "explanation": "É outro nome para a ideia de que o ambiente condiciona de modo decisivo a sociedade; aqui a causa da vulnerabilidade é social (renda e raça), não natural."
+        },
+        {
+          "text": "possibilismo geográfico",
+          "explanation": "É a corrente (La Blache) segundo a qual o ser humano transforma o meio conforme suas técnicas e escolhas; não descreve disparidades socioespaciais e étnicas."
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "key": "ufsm-2025-p1-q18",
+      "source": "Vestibular UFSM 2025 – Prova 1, questão 18 (UFSM)",
+      "kind": "Objective",
+      "subject": "lingua-portuguesa",
+      "statement": "Para responder à questão 18, leia o texto a seguir.\n\n![Tirinha do Armandinho em três quadros numerados. Quadro 01: um adulto, do qual só aparecem as pernas, pergunta: O senhor é o paciente? O menino responde: Costumo ser... Quadro 02: o menino continua: Mas foram duas horas esperando, no calor e sem gibi.... Quadro 03: entre as pernas de dois adultos, o menino conclui: ...A minha paciência se foi faz tempo!](img/ufsm/2025/prova-1/q18-1.png)\n\nFonte: BECK, A. Armandinho Cinco. Florianópolis, SC: A. C. Beck, 2015. p. 14.\n\nCom relação ao texto, assinale V (verdadeiro) ou F (falso) em cada afirmativa a seguir.\n\n(  ) No primeiro quadro, a resposta do menino revela um outro sentido para a palavra “paciente” empregada na pergunta.\n\n(  ) No segundo quadro, o desenrolar da interação verbal consiste na apresentação das consequências de a criança ter perdido a paciência.\n\n(  ) No terceiro quadro, o segmento “se foi faz tempo” pode ser reescrito, sem prejuízo do sentido e da adequação gramatical, como se foi a tempo.\n\nA sequência correta é",
+      "options": [
+        {
+          "text": "V – F – F.",
+          "explanation": "Correta. Na pergunta, “paciente” é quem será atendido; ao responder “costumo ser”, o menino toma a palavra como “quem tem paciência” (V). No segundo quadro ele dá as causas da impaciência (espera, calor, falta de gibi), não as consequências (F). “Faz tempo” indica tempo decorrido; “a tempo” significa “no momento oportuno” (F)."
+        },
+        {
+          "text": "F – V – F.",
+          "explanation": "A primeira é verdadeira, pois o humor nasce do duplo sentido de “paciente”; e as duas horas de espera, o calor e a falta de gibi são causas, não consequências, da perda da paciência."
+        },
+        {
+          "text": "F – V – V.",
+          "explanation": "As três estão invertidas: há duplo sentido em “paciente”, o segundo quadro traz causas, e “a tempo” (em tempo hábil) não equivale a “faz tempo” (há muito tempo)."
+        },
+        {
+          "text": "V – V – V.",
+          "explanation": "Só a primeira é verdadeira: o segundo quadro apresenta os motivos da impaciência, e trocar “faz tempo” por “a tempo” muda o sentido."
+        },
+        {
+          "text": "F – F – V.",
+          "explanation": "A primeira é verdadeira (polissemia de “paciente”) e a terceira é falsa: para manter o sentido, a reescrita seria “se foi há tempo”, não “a tempo”."
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "key": "ufsm-2025-p1-q19",
+      "source": "Vestibular UFSM 2025 – Prova 1, questão 19 (UFSM)",
+      "kind": "Objective",
+      "subject": "lingua-portuguesa",
+      "statement": "Para responder à questão 19, leia o trecho destacado a seguir, que integra um glossário do Ministério da Saúde abordando diversos temas referentes à saúde no Brasil.\n\n```\n01  A garantia do direito constitucional à saúde inclui\n    o cuidado à saúde mental. É um dever do Estado\n    brasileiro, que tem a responsabilidade em oferecer\n    condições dignas de cuidado em saúde para toda a\n05  população. No Brasil, a política de saúde mental se\n    pauta em princípios como a desinstitucionalização,\n    o cuidado em liberdade e os direitos humanos.\n```\n\nFonte: BRASIL. Ministério da Saúde. Saúde de A a Z. Disponível em: <https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/s/saude-mental>. Acesso em: 23 dez. 2024. (Adaptado).\n\nSobre as escolhas linguísticas e a organização do trecho, considere as afirmativas a seguir.\n\nI → A expressão “se pauta em” (ℓ. 05 e 06) está empregada com o sentido de se orienta por.\n\nII → A partícula “como” (ℓ. 06) introduz a delimitação de um subconjunto dentre o conjunto dos princípios norteadores da política de saúde mental no Brasil.\n\nIII → A palavra “desinstitucionalização” (ℓ. 06) tem, no seu processo de formação, a contribuição de um prefixo com ideia de repetição.\n\nIV → A sequência “em liberdade” (ℓ. 07) expressa a ideia de que a finalidade do cuidado à saúde mental é se alcançar a liberdade.\n\nEstá(ão) correta(s)",
+      "options": [
+        {
+          "text": "apenas II.",
+          "explanation": "A II está certa, mas a I também: “pautar-se em” significa guiar-se, orientar-se por algo."
+        },
+        {
+          "text": "apenas III.",
+          "explanation": "O prefixo “des-” indica negação ou ação contrária (desfazer a institucionalização); a ideia de repetição é do prefixo “re-”."
+        },
+        {
+          "text": "apenas I e II.",
+          "explanation": "Correta. “Se pauta em” equivale a “se orienta por” (I), e “como” introduz exemplos, isto é, alguns princípios entre outros possíveis (II). Já “des-” expressa ação contrária, não repetição (III), e “em liberdade” indica o modo ou a condição em que o cuidado ocorre, sem internação, não a sua finalidade (IV)."
+        },
+        {
+          "text": "apenas I e IV.",
+          "explanation": "A I está certa, mas a IV não: “cuidado em liberdade” informa a circunstância em que se cuida (fora do confinamento), não o objetivo do cuidado."
+        },
+        {
+          "text": "apenas III e IV.",
+          "explanation": "As duas são falsas: “des-” indica reversão, não repetição, e “em liberdade” expressa modo/condição, não finalidade."
+        }
+      ],
+      "correct": "C"
+    },
+    {
+      "key": "ufsm-2025-p1-q20",
+      "source": "Vestibular UFSM 2025 – Prova 1, questão 20 (UFSM)",
+      "kind": "Objective",
+      "subject": "filosofia-sociologia",
+      "statement": "Leia as sentenças a seguir.\n\n1. As recomendações para uma vida saudável têm sido cada vez mais adotadas: consumir uma alimentação saudável, praticar exercícios físicos regularmente, desfrutar de momentos de lazer e cultivar amizades, entre outras.\n\nVárias fontes: avaliação majoritária nos meios médicos contemporaneamente.\n\n2. A percepção de como fatores para uma vida com saúde foram sendo incorporados pela sociedade corresponde a uma abordagem sociológica que destaca os condicionantes advindos do meio (ou estrutura) sobre as práticas (ou ações) individuais.\n\nFonte: BOURDIEU, P. O poder simbólico. Rio de Janeiro: Bertrand Brasil, 2007. (Adaptado).\n\n3. Os conceitos de “saúde” e “doença” não envolvem apenas uma avaliação sobre o estado biológico do organismo, mas comportam uma definição social.\n\nFonte: BOLTANSKI, L. As classes sociais e o corpo. Rio de Janeiro: Graal, 1989. (Adaptado).\n\nCom relação ao raciocínio sociológico contido nas sentenças, considere as afirmativas a seguir.\n\nI → Há uma desconexão entre as sentenças 1 e 2. As pessoas, embora vivam em sociedade, são autônomas em suas ações, o que permite a inversão do afirmado em 2: são as ações individuais que vão se disseminando e findam por influenciar as outras pessoas.\n\nII → Os condicionantes do meio sobre as individualidades – fenômeno reconhecido pela Sociologia desde os seus momentos inaugurais, no século XIX – tiveram no pensador francês Émile Durkheim (1858-1917) um importante divulgador.\n\nIII → “Uma cachacinha pode não fazer bem para o corpo, mas o faz para a alma”. Esse dito popular se alinha às recomendações elencadas em 1, pois “entre outras” inclui a saúde mental.\n\nIV → As sentenças 2 e 3 são complementares, pois é a sociedade que estabelece como nos relacionamos com o nosso aparato biológico.\n\nEstá(ão) correta(s)",
+      "options": [
+        {
+          "text": "apenas I.",
+          "explanation": "A I contraria o raciocínio das sentenças: a 2 explica justamente a 1, ao mostrar que a adoção de hábitos saudáveis é condicionada pelo meio social, não fruto de escolhas puramente autônomas."
+        },
+        {
+          "text": "apenas I e IV.",
+          "explanation": "A IV está certa, mas a I não: as sentenças 1 e 2 se conectam, pois a difusão das recomendações de saúde ilustra a ação da estrutura social sobre as práticas individuais."
+        },
+        {
+          "text": "apenas II e III.",
+          "explanation": "A II está certa, mas a III não: o consumo de álcool não figura entre as recomendações médicas de vida saudável, e o “entre outras” não autoriza incluí-lo."
+        },
+        {
+          "text": "apenas II e IV.",
+          "explanation": "Correta. Durkheim, com o conceito de fato social (exterior e coercitivo), é referência clássica da ideia de que a sociedade condiciona o indivíduo (II); e as sentenças 2 e 3 convergem: se o meio molda as práticas, também define socialmente o que é saúde e doença (IV)."
+        },
+        {
+          "text": "apenas I, II e III.",
+          "explanation": "Só a II se sustenta: a I nega a relação entre estrutura e ação afirmada nas sentenças, e a III toma um dito popular sobre bebida como se fosse recomendação de saúde."
+        }
+      ],
+      "correct": "D"
+    },
+    {
+      "key": "ufsm-2025-p1-q21",
+      "source": "Vestibular UFSM 2025 – Prova 1, questão 21 (UFSM)",
+      "kind": "Objective",
+      "subject": "literatura",
+      "statement": "Gregório de Matos, conhecido como Boca do Inferno, desenvolveu uma poética que transita por diferentes temas, desde o religioso até o erótico e o satírico. Levou uma vida boêmia e morreu aos 59 anos em decorrência de uma febre contraída em Angola. No romance Boca do Inferno, Ana Miranda transforma Gregório de Matos em personagem literária, aborda questões de saúde pública da época e tece críticas sociais ao Brasil colonial do século XVII, como se pode verificar no excerto a seguir.\n\nFonte: MIRANDA, A. Boca do inferno. São Paulo: Companhia das Letras, 2006. p. 09. (Adaptado).\n\n“Esta cidade acabou-se”, pensou Gregório de Matos, olhando pela janela do sobrado do terreiro de Jesus. “Não é mais a Bahia. Antigamente havia muito respeito. Hoje, até dentro da praça, nas barbas da infantaria, nas bochechas dos granachas, na frente da forca fazem assaltos à vista”.\n\nFonte: WISNIK, J. M. (org.) Poemas escolhidos de Gregório de Matos. São Paulo: Companhia das Letras, 2010. p. 286, 178, 33, 264 e 267. (Adaptado).\n\nCom base no excerto e na produção literária do autor, assinale a alternativa que apresenta um fragmento da poesia satírica do Boca do Inferno.",
+      "options": [
+        {
+          "text": "```\nDiscreta, e formosíssima Maria,\nEnquanto estamos vendo a qualquer hora\nEm tuas faces a rosada Aurora,\nEm teus olhos, e boca o Sol, e o dia.\n```",
+          "explanation": "É poesia lírico-amorosa: o eu lírico exalta a beleza de Maria com imagens da natureza, no soneto que desenvolve o tema do carpe diem."
+        },
+        {
+          "text": "```\nQue mais por sua desonra? Honra.\nFalta mais que se lhe ponha? Vergonha.\nO demo a viver se exponha,\nPor mais que a fama a exalta,\nNuma cidade onde falta\nVerdade, honra, vergonha.\n```",
+          "explanation": "Correta. Os versos denunciam a cidade da Bahia, onde faltam “verdade, honra, vergonha”: é a crítica social e de costumes típica da sátira de Gregório, em sintonia com o “Esta cidade acabou-se” do excerto."
+        },
+        {
+          "text": "```\nPequei, Senhor, mas não porque hei pecado,\nDa vossa piedade me despido,\nPorque quanto mais tenho delinquido,\nVos tenho a perdoar mais empenhado.\n```",
+          "explanation": "É poesia sacra: o pecador dirige-se a Deus e argumenta, em jogo conceptista, que seu pecado dá ocasião ao perdão divino."
+        },
+        {
+          "text": "```\nAnjo no nome, Angélica na cara,\nIsso é ser flor, e Anjo juntamente,\nSer Angélica flor, e Anjo florente,\nEm quem, senão em vós se uniformara?\n```",
+          "explanation": "É poesia lírico-amorosa: o jogo de palavras entre anjo e flor (angélica) serve para louvar a mulher amada, sem crítica social."
+        },
+        {
+          "text": "```\nA vós correndo vou, braços sagrados,\nNessa cruz sacrossanta descobertos\nQue, para receber-me, estais abertos,\nE, por não castigar-me, estais cravados.\n```",
+          "explanation": "É poesia sacra: o eu lírico se dirige a Cristo crucificado em busca de acolhimento e perdão."
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "key": "ufsm-2025-p1-q22",
+      "source": "Vestibular UFSM 2025 – Prova 1, questão 22 (UFSM)",
+      "kind": "Objective",
+      "subject": "geografia",
+      "statement": "A distopia Floresta é o nome do mundo, escrita por Ursula K. Le Guin, publicada em 2020, conta a história do Planeta Athshe (que significa floresta e casa). Esse planeta era um paraíso, com características associadas ao ecossistema amazônico, densas florestas, significativa biodiversidade e chuvas abundantes. Nesse planeta futurístico, viviam povos tradicionais, com baixa estatura e corpo recoberto de pelos verdes. Na história, o Planeta Terra havia sido densamente explorado, e os yumanos (humanos no idioma de Athshe) começam a colonizar esse novo mundo para explorar suas riquezas. Durante esse processo, muitos conflitos são desencadeados e repercutem em batalhas entre os povos locais e os yumanos, bem como em processos de degradação ambiental.\n\nDentre as diversas problemáticas socioespaciais retratadas na obra ficcional, pode-se destacar que os povos da floresta e os yumanos tinham um conflito pelo modo de entender a relação com a floresta e sobre a relação com o ambiente. Os astheanos vivem em contato com a natureza local, valorizando-a e tratando-a com cuidado, pois é da floresta que obtêm seu sustento e sua saúde.\n\nNo planeta Terra real, acontecem processos que promovem a degradação de ambientes, gerando problemas na saúde humana, como ocorre de maneira fíctícia nos planetas do livro. Com base nos conflitos ambientais e nas problemáticas de saúde, assinale V (verdadeiro) ou F (falso) em cada afirmativa a seguir.\n\n(  ) A mineração indevida, nos territórios das comunidades yanomamis do Brasil, promove a contaminação e o envenenamento por mercúrio, afetando a saúde das populações tradicionais.\n\n(  ) As queimadas em diversas regiões do Brasil, como na Amazônia e no Cerrado, prejudicam a saúde humana pela dispersão das partículas na circulação atmosférica global.\n\n(  ) O uso excessivo e inadequado de agrotóxicos contamina os rios e os aquíferos, podendo comprometer a saúde das águas e das pessoas que as consomem.\n\nA sequência correta é",
+      "options": [
+        {
+          "text": "V – F – F.",
+          "explanation": "A segunda e a terceira também são verdadeiras: a fumaça das queimadas é transportada pela circulação atmosférica e causa problemas respiratórios, e os agrotóxicos chegam aos rios e aquíferos."
+        },
+        {
+          "text": "V – V – V.",
+          "explanation": "Correta. O garimpo ilegal usa mercúrio, que contamina rios e peixes na terra yanomami; o material particulado das queimadas é levado pelos ventos a longas distâncias e afeta a saúde respiratória; e agrotóxicos em excesso infiltram-se e escoam, contaminando águas superficiais e subterrâneas."
+        },
+        {
+          "text": "V – F – V.",
+          "explanation": "A segunda é verdadeira: a fumaça das queimadas da Amazônia e do Cerrado é dispersa pela circulação atmosférica e atinge populações distantes dos focos."
+        },
+        {
+          "text": "F – V – F.",
+          "explanation": "A primeira é verdadeira (o mercúrio do garimpo ilegal contamina água e pescado nas terras yanomamis), assim como a terceira, sobre os agrotóxicos."
+        },
+        {
+          "text": "F – V – V.",
+          "explanation": "A primeira é verdadeira: a contaminação por mercúrio é um dos principais danos do garimpo ilegal à saúde dos yanomamis."
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "key": "ufsm-2025-p1-q23",
+      "source": "Vestibular UFSM 2025 – Prova 1, questão 23 (UFSM)",
+      "kind": "Objective",
+      "subject": "quimica",
+      "statement": "Em situações de emergência (enchentes e calamidades públicas), algumas doenças podem se propagar facilmente em decorrência da contaminação da água e dos alimentos, como diarreia, cólera, febre tifóide, hepatite A, giardíase, amebíase, verminoses e leptospirose. O hipoclorito de sódio, conhecido popularmente como água sanitária, é um saneante amplamente utilizado na desinfecção de água. Ele tem a capacidade de permear a membrana celular, inativando microrganismos patogênicos, como bactérias, vírus e protozoários, além de eliminar substâncias orgânicas e inorgânicas, como ferro, manganês e sulfeto de hidrogênio. A equação a seguir representa a reação entre a solução de hipoclorito de sódio e sulfeto de hidrogênio.\n\nvNaClO(aq) + wH₂S(g) → xSO₂(aq)+ yNaCl(aq) +zH₂O(l)\n\nDe acordo com a reação representada, assinale V (verdadeiro) ou F (falso) em cada afirmativa a seguir.\n\n(  ) Fazendo o balanceamento da equação pelo método das tentativas, os coeficientes v, w, x, y e z são, respectivamente, 3, 1, 1, 1 e 1.\n\n(  ) É uma reação de oxidação-redução na qual o enxofre é reduzido.\n\n(  ) H₂S é um agente redutor, e NaClO é um agente oxidante.\n\nA sequência correta é",
+      "options": [
+        {
+          "text": "V – F – V.",
+          "explanation": "A primeira é falsa: com 3 NaClO nos reagentes há 3 Na e 3 Cl, logo o coeficiente do NaCl também é 3 (3, 1, 1, 3, 1)."
+        },
+        {
+          "text": "V – V – F.",
+          "explanation": "As três estão invertidas: o coeficiente de NaCl é 3, o enxofre é oxidado (de −2 para +4) e H₂S é de fato o redutor, enquanto NaClO é o oxidante."
+        },
+        {
+          "text": "F – F – V.",
+          "explanation": "Correta. A equação balanceada é 3 NaClO + H₂S → SO₂ + 3 NaCl + H₂O, então y = 3 (F). O enxofre passa de −2 (H₂S) a +4 (SO₂): oxida-se (F). Quem se oxida é o agente redutor (H₂S), e o cloro, que vai de +1 a −1, está no agente oxidante NaClO (V)."
+        },
+        {
+          "text": "F – V – F.",
+          "explanation": "O enxofre aumenta seu Nox de −2 para +4, isto é, sofre oxidação; por isso H₂S é o agente redutor, e a terceira afirmativa é verdadeira."
+        },
+        {
+          "text": "F – V – V.",
+          "explanation": "A segunda é falsa: o enxofre perde elétrons (Nox de −2 para +4), portanto é oxidado; quem se reduz é o cloro (de +1 para −1)."
+        }
+      ],
+      "correct": "C"
+    },
+    {
+      "key": "ufsm-2025-p1-q24",
+      "source": "Vestibular UFSM 2025 – Prova 1, questão 24 (UFSM)",
+      "kind": "Objective",
+      "subject": "biologia",
+      "statement": "A imagem a seguir, da letra T em cor preta, dentro de um triângulo amarelo com bordas pretas, indica que, na fabricação do alimento contido na embalagem, há produtos transgênicos, obtidos a partir da técnica chamada de transgenia.\n\n![Símbolo de alimento transgênico: triângulo de bordas pretas com a letra T maiúscula preta no centro.](img/ufsm/2025/prova-1/q24-1.png)\n\nFonte: Símbolos nas embalagens. Disponível em: <https://www.ufrgs.br/laranjanacolher/2021/09/14/simbolos-nas-embalagens/>. Acesso em: 31 jun. 2024.\n\nCom relação à transgenia, assinale a alternativa correta.",
+      "options": [
+        {
+          "text": "É a produção de indivíduos geneticamente iguais.",
+          "explanation": "Essa é a definição de clonagem; o transgênico, ao contrário, recebe um gene que a sua espécie não possuía."
+        },
+        {
+          "text": "É a indução de mutações em genes de resistência.",
+          "explanation": "Induzir mutações é mutagênese; na transgenia não se altera um gene do próprio organismo, insere-se um gene vindo de outra espécie."
+        },
+        {
+          "text": "É uma substância que pode causar mutações.",
+          "explanation": "Substância capaz de causar mutações é um agente mutagênico; transgenia é uma técnica de engenharia genética, não uma substância."
+        },
+        {
+          "text": "É a transferência de um gene de uma espécie para outra.",
+          "explanation": "Correta. Na transgenia, um gene de interesse é isolado de uma espécie e inserido no genoma de outra por técnicas de DNA recombinante, como na soja resistente a herbicida ou no milho Bt."
+        },
+        {
+          "text": "É a transformação de um gene em outro para o surgimento de uma nova espécie.",
+          "explanation": "A técnica não converte um gene em outro nem cria uma nova espécie: o organismo continua da mesma espécie, apenas com um gene adicional."
+        }
+      ],
+      "correct": "D"
+    },
+    {
+      "key": "ufsm-2025-p1-q25",
+      "source": "Vestibular UFSM 2025 – Prova 1, questão 25 (UFSM)",
+      "kind": "Objective",
+      "subject": "geografia",
+      "statement": "A distribuição geográfica dos condicionantes de saúde pode contribuir para a prevenção de doenças e a promoção da saúde. Neste sentido, o estudo do médico John Snow (1813-1858) destacou com pioneirismo a análise espacial na Geografia da Saúde. A dengue, doença que pode ser associada aos aspectos físicos e à localização geográfica, tem a análise espacial como uma possibilidade de entendimento da sua distribuição. A propagação do mosquito transmissor é causada pela existência de água em abundância devido às chuvas e ao calor, que predominam em alguns locais da Terra.\n\nConsiderando as características ambientais necessárias à propagação do aedes aegypti, qual das regiões possui maior possibilidade de ocorrência da dengue durante todo o ano?",
+      "options": [
+        {
+          "text": "Polar",
+          "explanation": "As regiões polares têm frio intenso o ano todo e baixíssima precipitação, condições em que o mosquito não se reproduz."
+        },
+        {
+          "text": "Temperada de altitude",
+          "explanation": "O frio associado à latitude e à altitude, com inverno rigoroso, interrompe o ciclo do mosquito durante boa parte do ano."
+        },
+        {
+          "text": "Subtropical",
+          "explanation": "Há calor e chuva no verão, mas o inverno frio reduz a população do mosquito, tornando a ocorrência sazonal, não contínua."
+        },
+        {
+          "text": "De alta montanha",
+          "explanation": "As baixas temperaturas das grandes altitudes limitam a sobrevivência e a reprodução do Aedes aegypti."
+        },
+        {
+          "text": "Intertropical",
+          "explanation": "Correta. Entre os trópicos, a alta incidência de radiação solar mantém temperaturas elevadas o ano inteiro e favorece chuvas abundantes, as duas condições citadas no texto para a proliferação do mosquito."
+        }
+      ],
+      "correct": "E"
+    },
+    {
+      "key": "ufsm-2025-p1-q26",
+      "source": "Vestibular UFSM 2025 – Prova 1, questão 26 (UFSM)",
+      "kind": "Objective",
+      "subject": "biologia",
+      "statement": "A leptospirose, doença bacteriana, tem a situação epidemiológica atualizada no Brasil periodicamente pelo Sistema de Informação de Agravos de Notificação (SINAN). Dentre os dados disponibilizados pelo SINAN, a figura a seguir apresenta o número de casos confirmados, óbitos e letalidade no período de 2007 a 2024.\n\n![Gráfico Casos confirmados, óbitos e letalidade por leptospirose no Brasil entre 2007-2024, com barras para casos confirmados e óbitos e linha para letalidade em %. Dados por ano de início dos sintomas (confirmados; óbitos; letalidade): 2007: 3332; 349; 10,5. 2008: 3681; 347; 9,4. 2009: 3986; 353; 8,9. 2010: 3818; 390; 10,2. 2011: 4967; 442; 8,9. 2012: 3269; 281; 8,6. 2013: 4150; 360; 8,7. 2014: 4676; 333; 7,1. 2015: 4340; 339; 7,8. 2016: 3065; 270; 8,8. 2017: 3000; 271; 9,0. 2018: 3065; 286; 9,3. 2019: 3707; 326; 8,8. 2020: 1890; 195; 10,3. 2021: 1804; 182; 10,1. 2022: 3144; 316; 10,1. 2023: 3128; 258; 8,2. 2024: 123; 8; 6,5.](img/ufsm/2025/prova-1/q26-1.png)\n\nFonte: BRASIL. MINISTÉRIO DA SAÚDE. Situação Epidemiológica da Leptospirose. Atualizado em: 20 fev. 2024. Disponível em: <https://www.gov.br/saude/pt-br/centrais-de-conteudo/apresentacoes/2024/situacao-epidemiologica-dos-casos-de-leptospirose-no-brasil-2010-a-2024>. Acesso em: 31 out. 2024. (Adaptado).\n\nEm relação ao gráfico e à ocorrência de leptospirose, considere as afirmativas a seguir.\n\nI → A leptospirose teve o menor número de mortes registradas nos anos de 2016, 2017 e 2018.\n\nII → A letalidade da doença foi próxima de 100% nos anos de 2011 e 2014.\n\nIII → No ano de 2022, foram registrados mais casos de leptospirose que nos dois anos anteriores, 2020 e 2021.\n\nIV → O agente causador da leptospirose é uma bactéria, cuja célula é procariótica.\n\nEstá(ão) correta(s)",
+      "options": [
+        {
+          "text": "apenas I.",
+          "explanation": "Os menores números de óbitos estão em 2024 (8), 2021 (182) e 2020 (195); de 2016 a 2018 houve 270, 271 e 286 mortes."
+        },
+        {
+          "text": "apenas II.",
+          "explanation": "A letalidade (óbitos ÷ casos confirmados) foi de 8,9% em 2011 e 7,1% em 2014, muito longe de 100%."
+        },
+        {
+          "text": "apenas III.",
+          "explanation": "A III está certa, mas a IV também: a leptospirose é causada por bactérias do gênero Leptospira, que são procariontes."
+        },
+        {
+          "text": "apenas I e IV.",
+          "explanation": "A IV está certa, mas a I não: 2020, 2021 e 2024 tiveram menos óbitos que 2016, 2017 e 2018."
+        },
+        {
+          "text": "apenas III e IV.",
+          "explanation": "Correta. Em 2022 houve 3144 casos, mais que em 2020 (1890) e em 2021 (1804) (III); e a Leptospira é uma bactéria, organismo de célula procariótica, sem núcleo delimitado por membrana (IV). I e II não se confirmam na tabela do gráfico."
+        }
+      ],
+      "correct": "E"
+    },
+    {
+      "key": "ufsm-2025-p1-q27",
+      "source": "Vestibular UFSM 2025 – Prova 1, questão 27 (UFSM)",
+      "kind": "Objective",
+      "subject": "geografia",
+      "statement": "A linguagem cartográfica é utilizada na Geografia para diversas finalidades, dentre as quais se destacam o planejamento local e regional, o entendimento das disparidades socioespaciais por meio de dados geoespaciais e a compreensão da distribuição de doenças. A Corona Virus Disease 2019 (COVID-19), por exemplo, foi notadamente abordada por meio da linguagem cartográfica em diversos meios de comunicação e em órgãos governamentais e não governamentais, que buscavam compreender e mitigar a evolução da doença. Dessa maneira, o mapa a seguir, produzido pelo Grupo Radar COVID-19, da UNESP, permite fazer alguns apontamentos sobre o emprego da Cartografia na análise dos óbitos, associando-os à Geografia da Saúde.\n\n![Mapa do Brasil intitulado Óbitos Causados pela COVID-19 - Brasil, Até 01 de novembro de 2020. Cruzes pretas de tamanho proporcional ao número de óbitos (legenda: 1, 10, 100, 1.000 e 10.000) aparecem em todo o território, com as maiores e mais concentradas no Sudeste (São Paulo e Rio de Janeiro), no litoral do Nordeste e em capitais do Norte, e menores e mais esparsas no interior do Norte e do Centro-Oeste. Notas: Óbitos: Secretaria de Saúde dos Estados; https://data.brasil.io; Base Cartográfica: IBGE (2018); Total de óbitos em 01 de novembro = 160.104.](img/ufsm/2025/prova-1/q27-1.png)\n\nFonte: PUGLIESI, E. A. et al. Radar COVID-19. Produzido no ArcGIS PRO - ESRI. São Paulo: UNESP, 2020. Disponível em: <http://covid19.fct.unesp.br/mapeamento-cartografico/>. Acesso em: 17 jul. 2024. (Adaptado).\n\nCom base no mapa e nos temas relacionados à Cartografia, considere as afirmativas a seguir.\n\nI → O tipo de implementação cartográfica pontual permite identificar genericamente em quais estados do Brasil ocorreu maior número dos óbitos por COVID-19 até 01 de novembro de 2020.\n\nII → O maior número de óbitos, no período representado, ocorreu na região Sul, por concentrar o maior número absoluto de pessoas do país.\n\nIII → A representação cartográfica sobre os óbitos gerados pela COVID-19 é um tipo de mapa temático, cuja principal finalidade é a visualização do fenômeno espacial.\n\nIV → O mapa apresentado demonstra preocupação com a localização exata de cada óbito ao utilizar a variável visual forma.\n\nEstá(ão) correta(s)",
+      "options": [
+        {
+          "text": "apenas III.",
+          "explanation": "A III está certa, mas a I também: os símbolos pontuais proporcionais deixam ver, em linhas gerais, onde os óbitos se concentram."
+        },
+        {
+          "text": "apenas I e III.",
+          "explanation": "Correta. As cruzes são símbolos pontuais cujo tamanho varia com o número de óbitos, o que permite reconhecer de modo geral os estados mais atingidos (I), e o mapa é temático: representa a distribuição espacial de um fenômeno específico (III)."
+        },
+        {
+          "text": "apenas II e IV.",
+          "explanation": "As duas são falsas: a maior concentração de óbitos e de população está no Sudeste, e o mapa agrega os óbitos em símbolos proporcionais (variável tamanho), sem localizar cada morte."
+        },
+        {
+          "text": "apenas I, II e III.",
+          "explanation": "A II é falsa: a região mais populosa do país, e com as maiores cruzes no mapa, é a Sudeste, não a Sul."
+        },
+        {
+          "text": "apenas I, II e IV.",
+          "explanation": "II e IV são falsas: o Sul não é a região mais populosa, e a variável visual que carrega a informação é o tamanho da cruz, que representa totais agregados, não a posição exata de cada óbito."
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "key": "ufsm-2025-p1-q28",
+      "source": "Vestibular UFSM 2025 – Prova 1, questão 28 (UFSM)",
+      "kind": "Objective",
+      "subject": "historia",
+      "statement": "Curiosidade: esta planta faz parte da Relação Nacional de Plantas de Interesse do SUS (RENISUS). A carqueja é amplamente utilizada na medicina caseira, hábito herdado dos nossos indígenas. O primeiro registro, escrito em 1931 no Brasil, informa o emprego da infusão das partes aéreas para o tratamento da esterilidade feminina e da impotência masculina, atribuindo propriedades tônicas, febrífugas e estomáquicas.\n\nFonte: GARLET, T. M. B. Plantas medicinais nativas de uso popular no Rio Grande do Sul. Santa Maria: UFSM, 2019. p. 15.\n\nAs práticas de cura dos povos indígenas e afro-brasileiros permeiam a própria identidade de tais povos e incluem o uso de plantas e rituais. A respeito dessas práticas no Brasil contemporâneo, assinale V (verdadeiro) ou F (falso) em cada afirmativa a seguir.\n\n(  ) O conhecimento medicinal de indígenas e afro-brasileiros, ancorado no empirismo, assenta-se em tradições e costumes ancestrais.\n\n(  ) O conhecimento de propriedades terapêuticas das plantas entre indígenas e afro-brasileiros é descartado pelos órgãos estatais.\n\n(  ) Os saberes tradicionais de índigenas e afro-brasileiros, nas práticas de cura, diferem dos métodos do saber científico, mas ambos são legítimos.\n\nA sequência correta é",
+      "options": [
+        {
+          "text": "V – F – V.",
+          "explanation": "Correta. Esses saberes nascem da experiência acumulada e são transmitidos por tradição (V); o Estado não os descarta, como mostra a inclusão da carqueja na relação de plantas de interesse do SUS (F); e, embora sigam métodos diferentes dos da ciência, são formas legítimas de conhecimento (V)."
+        },
+        {
+          "text": "V – V – V.",
+          "explanation": "A segunda é falsa: o próprio texto informa que a planta de uso tradicional integra a RENISUS, uma relação oficial do SUS."
+        },
+        {
+          "text": "V – V – F.",
+          "explanation": "Inverte as duas últimas: os órgãos estatais reconhecem plantas medicinais de uso popular (RENISUS), e os saberes tradicionais são legítimos mesmo sem seguir o método científico."
+        },
+        {
+          "text": "F – F – V.",
+          "explanation": "A primeira é verdadeira: o conhecimento medicinal tradicional é empírico, construído pela observação e pelo uso, e passado entre gerações."
+        },
+        {
+          "text": "F – V – F.",
+          "explanation": "As três estão invertidas: o saber tradicional é empírico e ancestral, é reconhecido por políticas públicas como a RENISUS e tem legitimidade própria."
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "key": "ufsm-2025-p1-q29",
+      "source": "Vestibular UFSM 2025 – Prova 1, questão 29 (UFSM)",
+      "kind": "Objective",
+      "subject": "historia",
+      "statement": "Inicialmente, extraem o cérebro pelas narinas, parte com um ferro recurvo, parte por meio de drogas introduzidas na cabeça. Fazem, em seguida, uma incisão no flanco com pedra cortante da Etiópia e retiram, pela abertura, os intestinos, limpando-os cuidadosamente e banhando-os com vinho de palmeira e óleos aromáticos. O ventre, enchem-no com mirra pura moída, canela e essências várias, não fazendo uso, porém, do incenso. Feito isso, salgam o corpo e cobrem-no com natro, deixando-o assim durante setenta dias. Decorridos os setenta dias, lavam-no e envolvem-no inteiramente com faixas de tela de algodão embebidas em commi, de que os egípcios se servem ordinariamente como cola. Concluído o trabalho, o corpo é entregue aos parentes, que o encerram numa urna de madeira feita sob medida, colocando-a na sala destinada a esse fim. Tal a maneira mais luxuosa de embalsamar os mortos.\n\nFonte: HERÓDOTO. História. Rio de Janeiro: Clássicos Jackson, 1950. p. 171.\n\nA partir dos elementos abordados no excerto e do contexto do Egito Antigo, considere as afirmativas a seguir.\n\nI → O embalsamamento proporcionou um conhecimento de anatomia importante para a prática da medicina naquela sociedade, a exemplo de cirurgias cranianas.\n\nII → As crenças influenciaram diversas áreas das ciências egípcias, à exceção do conhecimento farmacológico e medicinal.\n\nIII → A mumificação de mortos podia envolver quantidades maiores ou menores de ingredientes, a depender da posição social do morto.\n\nIV → As práticas de cura no Egito se valiam de conhecimentos práticos e da espiritualidade, a exemplo de fórmulas mágicas e amuletos.\n\nEstá(ão) correta(s)",
+      "options": [
+        {
+          "text": "apenas I.",
+          "explanation": "A I está certa, mas III e IV também: Heródoto fala na “maneira mais luxuosa” de embalsamar, o que supõe formas mais simples, e a medicina egípcia unia remédios e magia."
+        },
+        {
+          "text": "apenas II e IV.",
+          "explanation": "A II é falsa: a medicina e a farmacologia egípcias eram inseparáveis da religião, combinando remédios com encantamentos e a ação de sacerdotes."
+        },
+        {
+          "text": "apenas III e IV.",
+          "explanation": "Ambas estão certas, mas falta a I: a manipulação dos corpos na mumificação deu aos egípcios conhecimento anatômico aproveitado na medicina."
+        },
+        {
+          "text": "apenas I, II e III.",
+          "explanation": "A II é falsa, pois as crenças religiosas também moldavam a medicina; e a IV, que fica de fora, é verdadeira."
+        },
+        {
+          "text": "apenas I, III e IV.",
+          "explanation": "Correta. A mumificação favoreceu o conhecimento de anatomia e a prática cirúrgica (I); havia tipos de embalsamamento mais ou menos caros conforme a condição social, como indica “a maneira mais luxuosa” (III); e a cura combinava saber prático com fórmulas mágicas e amuletos (IV). A II erra ao excluir a medicina da influência das crenças."
+        }
+      ],
+      "correct": "E"
+    },
+    {
+      "key": "ufsm-2025-p1-q30",
+      "source": "Vestibular UFSM 2025 – Prova 1, questão 30 (UFSM)",
+      "kind": "Objective",
+      "subject": "literatura",
+      "statement": "Na segunda parte de Marília de Dirceu, de Tomás Antônio Gonzaga, o pastor Dirceu lamenta o longo período longe da amada Marília e, consequentemente, a perda de sua saúde com o envelhecimento.\n\n```\nLira IV\nJá, já me vai, Marília, branquejando\nLouro cabelo, que circula a testa;\nEste mesmo, que alveja, vai caindo\nE pouco já me resta.\n[...]\n\nA doença deforma a quem padece;\nMas logo que a doença faz seu termo,\nTorna, Marília, a ser quem era dantes,\nO definhado enfermo.\n\nSupõe-me qual doente, ou mal a planta,\nNo meio da desgraça, que me altera;\nEu também te suponho qual saúde,\nOu qual a Primavera.\n\nSe dão esses teus meigos, vivos olhos\nAos mesmos Astros luz, e vida às flores,\nQue efeitos não farão, em quem por eles,\nSempre morreu de amores?\n```\n\nCom base no trecho e no contexto do Arcadismo, assinale V (verdadeiro) ou F (falso) em cada afirmativa a seguir.\n\n(  ) Na primeira estrofe, o eu-lírico admira o cabelo louro de Marília, assim como elogia, na última estrofe, a meiguice e a vivacidade de seus olhos.\n\n(  ) Na segunda estrofe, Dirceu reflete sobre o efeito passageiro da doença e sobre os possíveis efeitos positivos da presença da amada em sua recuperação.\n\n(  ) Os versos distribuem-se integralmente em redondilhas maiores, o que garante musicalidade ao poema, combinando o ritmo ao otimismo do eu-lírico.\n\nA sequência correta é",
+      "options": [
+        {
+          "text": "F – V – F.",
+          "explanation": "Correta. O cabelo louro que embranquece e cai é do próprio Dirceu (“já me vai... branquejando”), não de Marília (F). A segunda afirmativa é a que a banca dá como verdadeira: o enfermo volta a ser quem era quando a doença termina, e Marília é comparada à saúde e à primavera. Os versos são decassílabos alternados com hexassílabos, não redondilhas maiores (F)."
+        },
+        {
+          "text": "F – F – V.",
+          "explanation": "Os versos não têm sete sílabas poéticas: cada estrofe traz três decassílabos e um verso de seis sílabas (“E pou/co/ já/ me/ res/ta”)."
+        },
+        {
+          "text": "V – V – F.",
+          "explanation": "A primeira é falsa: o pronome “me” mostra que o cabelo louro que branqueia e cai é o do eu lírico, sinal do seu envelhecimento."
+        },
+        {
+          "text": "V – F – F.",
+          "explanation": "A primeira é falsa, pois o cabelo descrito é o de Dirceu; e a segunda é considerada verdadeira, já que o poema trata a doença como passageira e a amada como fonte de cura."
+        },
+        {
+          "text": "V – V – V.",
+          "explanation": "Só a segunda se sustenta: o cabelo é do eu lírico, e a métrica combina decassílabos e hexassílabos, não redondilhas maiores."
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "key": "ufsm-2025-p1-q31",
+      "source": "Vestibular UFSM 2025 – Prova 1, questão 31 (UFSM)",
+      "kind": "Objective",
+      "subject": "artes-educacao-fisica",
+      "statement": "Heitor Villa-Lobos (1887-1959) é considerado o mais importante compositor erudito brasileiro em todos os tempos. Foi personalidade marcante na linguagem estética nacionalista, com a qual atingiu expressão artística mundial. Sua produção abarcou inúmeras canções: peças para piano solo ou com orquestra (ou conjuntos camerísticos), sinfonias, música coral, música religiosa, musicais e óperas. Compôs uma série de Choros, num total de quatorze obras nesse gênero, escritas entre os anos de 1920 a 1928, todas com diferentes organizações vocais e instrumentais. Dentre essas se destaca Choros nº. 10, subintitulada “Rasga o Coração”, obra para coro e orquestra escrita em 1926, com poesia de Catulo da Paixão Cearense (1863-1946). Mais tarde, em 1957, Villa-Lobos substituiu o texto original por uma vocalização com sílabas neutras (onomatopaicas) e, por isso, ficou mais conhecido.\n\nSobre o movimento musical nacionalista no Brasil, assinale V (verdadeiro) ou F (falso) em cada afirmativa a seguir.\n\n(  ) É característica do movimento musical nacionalista a inspiração para suas composições nos elementos encontrados em canções e danças folclóricas e populares, através de suas melodias e ritmos originais.\n\n(  ) Além de Heitor Villa-Lobos, tiveram grande destaque no movimento musical nacionalista Francisco Manuel da Silva (1795-1865), autor da música de nosso Hino Nacional, e também Camargo Guarnieri (1907-1993), autor de Choro para violino e orquestra.\n\n(  ) Heitor Villa-Lobos, em seu Choros nº. 10, procura descrever o canto dos pássaros amazônicos e a realidade cotidiana das tribos indígenas como importantes motivos para sua inspiração musical.\n\nA sequência correta é",
+      "options": [
+        {
+          "text": "V – V – V.",
+          "explanation": "A segunda é falsa: Francisco Manuel da Silva viveu de 1795 a 1865, antes do nacionalismo musical, que se afirma no fim do século XIX e sobretudo no século XX."
+        },
+        {
+          "text": "V – F – F.",
+          "explanation": "A banca considera verdadeira a terceira afirmativa: o Choros nº 10 evoca a floresta, com imitações de cantos de pássaros e material de inspiração indígena."
+        },
+        {
+          "text": "V – F – V.",
+          "explanation": "Correta. O nacionalismo musical busca seu material em melodias e ritmos folclóricos e populares (V). Camargo Guarnieri é nacionalista, mas Francisco Manuel da Silva, compositor da primeira metade do século XIX, é anterior ao movimento (F). No Choros nº 10, Villa-Lobos evoca cantos de pássaros da floresta e temas e sonoridades indígenas (V)."
+        },
+        {
+          "text": "F – V – V.",
+          "explanation": "Inverte as duas primeiras: recorrer ao folclore e à música popular é o traço definidor do nacionalismo, e o autor do Hino Nacional não pertence a esse movimento."
+        },
+        {
+          "text": "F – F – V.",
+          "explanation": "A primeira é verdadeira: usar melodias e ritmos de canções e danças folclóricas e populares é justamente a marca do nacionalismo musical."
+        }
+      ],
+      "correct": "C"
+    },
+    {
+      "key": "ufsm-2025-p1-q32",
+      "source": "Vestibular UFSM 2025 – Prova 1, questão 32 (UFSM)",
+      "kind": "Objective",
+      "subject": "artes-educacao-fisica",
+      "statement": "A modalidade surgiu na Europa, no século XVIII, e ficou conhecida mundialmente nos séculos seguintes. Ao longo desse período, o ensino dessa modalidade foi aperfeiçoado, profissionalizando-se e popularizando-se com a atuação de artistas famosos em companhias profissionais, tal como Ana Botafogo, na Companhia Municipal do Rio de Janeiro. As apresentações artísticas dessa modalidade ocorrem em teatros, com exibições de pessoas que executam movimentos corporais precisos, os quais demonstram coordenação motora, lateralidade, agilidade, tônus muscular, equilíbrio sobre as pontas dos pés, saltos, rotação externa coxo-femural, passos, poses, giros, interpretação cênica e leveza.\n\nAs informações do texto referem-se ao/à",
+      "options": [
+        {
+          "text": "ballet clássico.",
+          "explanation": "Correta. Sapatilhas de ponta, rotação externa do quadril (en dehors), passos e poses codificados, leveza, apresentações em teatros e bailarinas como Ana Botafogo, primeira-bailarina do Theatro Municipal do Rio de Janeiro, caracterizam o ballet clássico."
+        },
+        {
+          "text": "ballet de corte.",
+          "explanation": "O ballet de corte é anterior (séculos XVI e XVII), era dançado pela nobreza em salões e festas palacianas, sem pontas nem companhias profissionais em teatros."
+        },
+        {
+          "text": "dança moderna.",
+          "explanation": "A dança moderna surge na virada para o século XX rompendo com o ballet: pés descalços, uso do peso e do chão, sem pontas nem busca de leveza."
+        },
+        {
+          "text": "ballet neoclássico.",
+          "explanation": "É uma vertente do século XX (associada a Balanchine), não uma modalidade surgida no século XVIII."
+        },
+        {
+          "text": "dança contemporânea.",
+          "explanation": "É uma linguagem da segunda metade do século XX, sem técnica única codificada e sem a exigência de pontas e rotação externa."
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "key": "ufsm-2025-p1-q33",
+      "source": "Vestibular UFSM 2025 – Prova 1, questão 33 (UFSM)",
+      "kind": "Objective",
+      "subject": "historia",
+      "statement": "Nas imagens, a Procissão de flagelantes, de Pierart dou Tielt, de 1353, e a Massagem antes e depois do banho, de Avicena, do século X, remetem ao modo de compreensão e tratamento de enfermidades no período medieval, em territórios do ocidente e do oriente, respectivamente.\n\n![Iluminura medieval emoldurada por ramos e folhas: homens de túnica longa e chapéu pontudo caminham em fila, de mãos postas, seguindo um grupo que carrega um crucifixo e um estandarte; abaixo, duas colunas de texto manuscrito em letra gótica.](img/ufsm/2025/prova-1/q33-1.png)\n\nFonte: TIELT, Pierart dou. Procissão de flagelantes. In: MUISIS, Gilles li. Tractatus Quartos. Bélgica: Biblioteca Real, 1353. Disponível em: <https://commons.wikimedia.org/wiki/File:The_flagellants_at_Doornik_in_1349.jpg?uselang=pt#Licenciamento>. Acesso em: 07 ago. 2024.\n\n![Gravura de uma sala de banho: à esquerda, um homem massageia as costas de outro, que está sentado; à direita, um homem massageia as costas de outro, que está de pé e curvado para a frente; no chão há baldes e utensílios de banho.](img/ufsm/2025/prova-1/q33-2.png)\n\nFonte: AVICENA. Massagem antes e depois do banho. In: AVICENA. Cânone de Medicina, século X. Disponível em: <https://archive.org/details/CanonOfMedicine/page/n3/mode/2up>. Acesso em: 07 ago. 2024. (Adaptado).\n\nAo analisar as imagens e seu contexto histórico, é correto afirmar que",
+      "options": [
+        {
+          "text": "houve, nas regiões de domínio árabe-muçulmano, a tradução de obras da cultura clássica para o latim, aspecto que colaborou para o desenvolvimento da medicina nas universidades europeias do século V ao VIII.",
+          "explanation": "No mundo islâmico, as obras clássicas foram traduzidas para o árabe; e as universidades europeias só surgem a partir dos séculos XI e XII, não entre o V e o VIII."
+        },
+        {
+          "text": "a carência de planejamento urbano e a queda demográfica na Baixa Idade Média colaboraram para a difusão de enfermidades, como a peste negra na Europa do século XIV.",
+          "explanation": "A queda demográfica foi consequência da peste, não sua causa: a doença se espalhou em cidades que vinham crescendo, adensadas e com más condições sanitárias."
+        },
+        {
+          "text": "a permanência das estruturas urbanas latinas na Europa, como as termas, após as invasões bárbaras, foi importante para práticas de higiene pessoal, a exemplo da prática do banho.",
+          "explanation": "Com as invasões e a ruralização, as estruturas urbanas romanas, como termas e aquedutos, entraram em decadência no Ocidente; a imagem do banho remete ao mundo oriental."
+        },
+        {
+          "text": "as práticas médicas do mundo islâmico embasaram-se no conhecimento clássico, o que inviabilizou a edificação de uma ciência médica mais desenvolvida que a do mundo ocidental europeu.",
+          "explanation": "A base clássica (Hipócrates, Galeno) não foi obstáculo: preservada e ampliada, permitiu aos médicos islâmicos uma medicina mais avançada que a europeia da época."
+        },
+        {
+          "text": "os conhecimentos medicinais dos árabes-muçulmanos, como o Cânone de Medicina, evidenciam um desenvolvimento científico oriental em contraste com o europeu, influenciado pelo teocentrismo cristão.",
+          "explanation": "Correta. Enquanto a obra de Avicena sistematiza terapias baseadas na observação do corpo, a procissão de flagelantes mostra a doença entendida como castigo divino, a ser aplacado com penitência: é o contraste entre a medicina islâmica e a visão teocêntrica do Ocidente medieval."
+        }
+      ],
+      "correct": "E"
+    },
+    {
+      "key": "ufsm-2025-p1-q34",
+      "source": "Vestibular UFSM 2025 – Prova 1, questão 34 (UFSM)",
+      "kind": "Objective",
+      "subject": "quimica",
+      "statement": "Em 1949, o lítio foi introduzido na prática psiquiátrica para o tratamento de alguns distúrbios psíquicos. Desde então, o carbonato de lítio tem sido o tratamento farmacológico padrão para transtorno bipolar, devido a seu efeito estabilizador nas variações de humor que acabam desgastando a saúde mental do paciente.\n\nUma das etapas de obtenção do carbonato de lítio a partir do sal-gema envolve a seguinte reação:\n\nNa₂CO₃(s) + Li₂SO₄(s) → Li₂CO₃(s) + Na₂SO₄(s)\n\nEm relação ao carbonato de lítio (Li₂CO₃), assinale a alternativa correta.",
+      "options": [
+        {
+          "text": "A equação de formação do Li₂CO₃ apresentada trata-se de uma reação de deslocamento do carbonato de sódio (Na₂CO₃).",
+          "explanation": "Dois compostos trocam seus íons e formam dois novos compostos: é uma reação de dupla troca. No deslocamento (simples troca), uma substância simples reage com uma composta."
+        },
+        {
+          "text": "A solução aquosa de Li₂CO₃ não apresenta condutividade elétrica, uma vez que o Li₂CO₃ é um sal insolúvel, assim como a maioria dos carbonatos.",
+          "explanation": "Os carbonatos de metais alcalinos são a exceção à regra de insolubilidade dos carbonatos; a parte dissolvida de Li₂CO₃ dissocia-se em Li⁺ e CO₃²⁻, e a solução conduz corrente."
+        },
+        {
+          "text": "Os elementos que constituem o Li₂CO₃ pertencem às famílias dos metais alcalinos, halogênios e calcogênios, respectivamente.",
+          "explanation": "O lítio é metal alcalino e o oxigênio é calcogênio, mas o carbono pertence ao grupo 14 (família do carbono), não aos halogênios (grupo 17)."
+        },
+        {
+          "text": "O  Li₂CO₃ apresenta ligações iônicas e covalentes, por isso é considerado um composto molecular.",
+          "explanation": "Há ligação iônica entre Li⁺ e CO₃²⁻ e covalente dentro do carbonato, mas basta existir ligação iônica para o composto ser classificado como iônico, não molecular."
+        },
+        {
+          "text": "A 1ª energia de ionização do lítio é menor que a 1ª energia de ionização do carbono e do oxigênio.",
+          "explanation": "Correta. Os três estão no 2º período, e a energia de ionização tende a crescer da esquerda para a direita com o aumento da carga nuclear efetiva: o lítio (grupo 1) perde seu elétron 2s¹ com muito mais facilidade que o carbono (grupo 14) e o oxigênio (grupo 16)."
+        }
+      ],
+      "correct": "E"
+    },
+    {
+      "key": "ufsm-2025-p1-q35",
+      "source": "Vestibular UFSM 2025 – Prova 1, questão 35 (UFSM)",
+      "kind": "Objective",
+      "subject": "historia",
+      "statement": "Advertiu ao atribulado senhor que a criança não estava a salvo de qualquer mal, pois a mordida de um cão, com ou sem raiva, não preservava contra nada. Como sempre, o único jeito era esperar. O marquês perguntou:\n\n– É a última coisa que me diz?\n\n– A ciência não me deu meios para lhe dizer mais nada – replicou o médico no mesmo tom ácido. –Mas se não acredita em mim, ainda lhe resta um recurso: confie em Deus.\n\n[...]\n\nNa cidade havia outros três médicos formados, seis boticários, onze barbeiros sangradores e um sem-número de curandeiros e mestres em feitiçaria, embora nos últimos cinquenta anos a Inquisição tivesse condenado mil e trezentos a diferentes penas e queimado sete na fogueira. Um jovem médico de Salamanca abriu a ferida fechada de Sierva María e pôs-lhe umas cataplasmas cáusticas para extrair os humores rançosos. Outro tentou a mesma coisa com sanguessugas nas costas. Um barbeiro sangrador lavou a ferida com urina dela própria e outro a fez bebê-la. Ao fim de duas semanas ela havia suportado dois banhos de ervas e duas lavagens emolientes por dia, e levaram-na à beira da agonia com cozimentos de antimônio natural e outros filtros mortais.\n\nFonte: MÁRQUEZ, G. G. Do amor e outros demônios. Rio de Janeiro: Record, 2008. p. 76-77.\n\nO romance de Gabriel Garcia Márquez se passa em Cartagena das Índias, no século XVIII, e narra a história de Sierva María após contrair raiva por meio de uma mordedura de cachorro. No que concerne ao contexto histórico do período, assinale a alternativa correta.",
+      "options": [
+        {
+          "text": "A saúde pública constituía preocupação da metrópole espanhola em relação às colônias, como se depreende da quantidade de médicos, barbeiros e curandeiros citada no excerto.",
+          "explanation": "O excerto mostra o contrário: havia apenas quatro médicos formados, e a população dependia de barbeiros e curandeiros, sinal de ausência de política de saúde da metrópole."
+        },
+        {
+          "text": "As práticas de cura que envolviam o conhecimento botânico, típicas de indígenas e africanos, eram tidas como heréticas, pois a Igreja prescrevia a cura pela fé.",
+          "explanation": "Correta. É o gabarito oficial: as práticas de curandeiros e “mestres em feitiçaria”, ligadas a saberes indígenas e africanos, eram perseguidas pela Inquisição (1300 condenados e sete queimados, diz o excerto), num contexto em que o próprio médico aponta a fé como último recurso (“confie em Deus”)."
+        },
+        {
+          "text": "A ação da Inquisição, na América Hispânica, concentrou-se no combate às heresias, inexistindo divergência em relação aos diversos saberes medicinais.",
+          "explanation": "O excerto desmente: curandeiros e mestres em feitiçaria foram condenados pela Inquisição, o que mostra conflito direto com saberes de cura não oficiais."
+        },
+        {
+          "text": "O desenvolvimento da medicina, no século XVIII, alcançava progressos na área da epidemiologia, o que implicava práticas que diferiam da atuação de barbeiros e curandeiros.",
+          "explanation": "No texto, o médico formado em Salamanca age como os barbeiros: cataplasmas para “extrair humores” e sanguessugas, práticas da teoria dos humores, sem base epidemiológica."
+        },
+        {
+          "text": "O conhecimento sobre zoonoses e vacinas, na Europa, foi decisivo para a redução de casos de raiva na América Colonial, visto que os povos nativos desconheciam a doença antes da chegada dos europeus.",
+          "explanation": "É anacrônico: a vacina contra a raiva só foi desenvolvida por Pasteur em 1885, e o próprio médico do romance admite que a ciência não tinha meios contra a doença."
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "key": "ufsm-2025-p1-q36",
+      "source": "Vestibular UFSM 2025 – Prova 1, questão 36 (UFSM)",
+      "kind": "Objective",
+      "subject": "biologia",
+      "statement": "Dentre os exames de rotina, o hemograma, exame comumente solicitado pelos médicos, fornece informações sobre as células do sangue. Dentre essas células, têm-se os leucócitos, chamados de glóbulos brancos.\n\nSobre os leucócitos, assinale V (verdadeiro) ou F (falso) em cada afirmativa a seguir.\n\n(  ) São células com forma esférica.\n\n(  ) Participam dos processos de coagulação do sangue.\n\n(  ) Transportam gás oxigênio para os tecidos.\n\nA sequência correta é",
+      "options": [
+        {
+          "text": "V – F – V.",
+          "explanation": "O transporte de gás oxigênio é função das hemácias, por meio da hemoglobina; os leucócitos atuam na defesa do organismo."
+        },
+        {
+          "text": "V – V – F.",
+          "explanation": "A coagulação depende das plaquetas e de proteínas do plasma, como o fibrinogênio, não dos leucócitos."
+        },
+        {
+          "text": "F – F – V.",
+          "explanation": "Inverte a primeira e a terceira: no sangue circulante, os leucócitos são esféricos, e quem transporta oxigênio são as hemácias."
+        },
+        {
+          "text": "F – V – F.",
+          "explanation": "Os leucócitos em circulação têm forma esférica (V), e a coagulação é papel das plaquetas (F)."
+        },
+        {
+          "text": "V – F – F.",
+          "explanation": "Correta. No sangue circulante, os leucócitos são células nucleadas de forma esférica (V); a coagulação é função das plaquetas (F); e o transporte de oxigênio cabe às hemácias (F). Os leucócitos fazem a defesa imunológica."
+        }
+      ],
+      "correct": "E"
+    },
+    {
+      "key": "ufsm-2025-p1-q37",
+      "source": "Vestibular UFSM 2025 – Prova 1, questão 37 (UFSM)",
+      "kind": "Objective",
+      "subject": "matematica",
+      "statement": "Em um tratamento terapêutico, a interrupção é um problema enfrentado pelos agentes de saúde. Isso ocorre quando o paciente resolve que já está melhor e cessa a medicação por conta própria. Considere que a concentração de um fármaco na corrente sanguínea foi modelada em função do tempo por C=ae⁻ᵇᵗ, em que a e b são constantes positivas e t representa a variável do tempo medida em dias. Considerando y=ln(C), o gráfico que representa corretamente y em função do tempo t é",
+      "options": [
+        {
+          "text": "![Gráfico de y em função de t: curva decrescente com concavidade para cima, que cai rapidamente no início e depois se aproxima lentamente do eixo t, sem tocá-lo.](img/ufsm/2025/prova-1/q37-a.png)",
+          "explanation": "Esse é o formato da própria concentração C = ae⁻ᵇᵗ (decaimento exponencial); ao aplicar o logaritmo, a curva se transforma em reta."
+        },
+        {
+          "text": "![Gráfico de y em função de t: curva que começa quase horizontal em um valor positivo e depois cai cada vez mais rápido até tocar o eixo t, com concavidade para baixo.](img/ufsm/2025/prova-1/q37-b.png)",
+          "explanation": "ln(C) = ln a − bt varia a taxa constante (−b); uma queda que se acelera com o tempo não corresponde a uma função do 1º grau."
+        },
+        {
+          "text": "![Gráfico de y em função de t: reta decrescente que parte de um valor positivo no eixo y e desce até cruzar o eixo t.](img/ufsm/2025/prova-1/q37-c.png)",
+          "explanation": "Correta. y = ln(ae⁻ᵇᵗ) = ln a + ln(e⁻ᵇᵗ) = ln a − bt: função afim de t, com coeficiente linear ln a e coeficiente angular −b < 0, ou seja, uma reta decrescente."
+        },
+        {
+          "text": "![Gráfico de y em função de t: curva crescente com concavidade para cima, que parte de um valor positivo no eixo y e sobe cada vez mais rápido.](img/ufsm/2025/prova-1/q37-d.png)",
+          "explanation": "Representa um crescimento exponencial; aqui y é uma função afim decrescente, pois o coeficiente de t é −b, negativo."
+        },
+        {
+          "text": "![Gráfico de y em função de t: reta crescente que parte de um valor positivo no eixo y.](img/ufsm/2025/prova-1/q37-e.png)",
+          "explanation": "É uma reta, mas crescente: corresponderia a y = ln a + bt, isto é, a um expoente positivo. Como b > 0 e o expoente é −bt, a inclinação é negativa."
+        }
+      ],
+      "correct": "C"
+    },
+    {
+      "key": "ufsm-2025-p1-q38-es",
+      "source": "Vestibular UFSM 2025 – Prova 1, questão 38, espanhol (UFSM)",
+      "kind": "Objective",
+      "subject": "espanhol",
+      "statement": "Leia o texto a seguir para responder às questões 38 e 39.\n\n**Un macroestudio demuestra que el estilo de vida saludable puede compensar una mala genética**\n\nLos datos de más de 350.000 personas durante 13 años sugieren que una dieta sana, ejercicio y no fumar, entre otras cuestiones, alarga considerablemente la vida de personas con predisposición a una vida más corta.\n\n```\n01    Hace ya tiempo que la ciencia demostró que un\n    estilo de vida saludable mejora la calidad de vida de\n    las personas, aumenta la esperanza de vida, dismi-\n    nuye la prevalencia de determinadas enfermedades\n05  crónicas y reduce considerablemente la mortalidad.\n    La evidencia al respecto es tan sólida que, en tiem-\n    pos de fake news, esta parece una verdad a salvo\n    de cualquier teoría de la conspiración. Pero, ¿qué\n    ocurre con las personas que están genéticamente\n10  predispuestas a tener una vida más corta [...]?\n      A esta pregunta ha respondido un estudio pu-\n    blicado recientemente en la revista científica BMJ\n    Evidence-Based Medicine, con base en los datos\n    de más de 350.000 participantes del Biobanco del\n15  Reino Unido a los que se siguió durante una media\n    de 13 años, que ha demostrado que la genética y\n    los estilos de vida tienen un impacto independiente\n    sobre la esperanza de vida de las personas; pero\n    que estos últimos tienen la capacidad de compensar\n20  la genética y alargar considerablemente la vida de\n    personas con predisposición a una vida más corta.\n      Concretamente, según los resultados de la in-\n    vestigación, las personas con una alta predisposi-\n    ción genética a una esperanza de vida más corta\n25  presentan un riesgo de muerte prematura un 21%\n    mayor en comparación con aquellos con un riesgo\n    genético bajo, independientemente de sus eleccio-\n    nes de estilo de vida. Por su parte, un estilo de\n    vida insano se asociaría con un riesgo de muerte\n30  prematura un 78% mayor, independientemente de\n    los determinantes genéticos. Y lo más importante:\n    gracias a un estilo de vida saludable, las personas\n    con riesgo genético de muerte prematura pueden\n    reducir ese riesgo en aproximadamente un 62% y\n35  ver prolongada su esperanza de vida aproximada-\n    mente en 5,22 años al cumplir los 40 años. [...]\n      “Es un trabajo muy interesante porque hace una\n    valoración conjunta de la genética y los hábitos de\n    vida, para demostrar que la genética, aunque es\n40  un factor que actúa de forma independiente sobre\n    la esperanza de vida, no lo tiene todo por decir”,\n    analiza Almudena Beltrán de Miguel, especialista\n    en medicina interna y miembro de la Unidad de\n    Chequeos de la Clínica Universidad de Navarra, que\n45  considera que este tipo de estudios ofrecen a los\n    profesionales médicos una “vía de acceso” hacia una\n    medicina más participativa “en la que se alienta al\n    paciente a tomar las riendas de su propia salud”.\n    ¿Qué se entiende por un\n50  estilo de vida saludable?\n      En el estudio se evaluaron varios aspectos relacio-\n    nados con un estilo de vida saludable, entre ellos no\n    fumar, mantener un consumo moderado de alcohol,\n    realizar actividad física regular, mantener un peso cor-\n55  poral saludable, garantizar una duración adecuada del\n    sueño y seguir una dieta saludable; [...]. “En el estudio\n    vimos que todos estos factores pueden compensar\n    significativamente el riesgo genético de una esperanza\n    de vida más corta, pero identificamos una combinación\n60  óptima de estilo de vida que ofrecía mejores beneficios\n    para prolongar la vida humana y que contenía cuatro\n    factores de estilo de vida: no fumar, realizar actividad\n    física regular, mantener una duración adecuada del\n    sueño y seguir una dieta saludable”, explica Xifeng Wu\n65  [profesor y miembro del departamento de Big Data en\n    Ciências de la Salud de la Facultad de Medicina de la\n    Universidad de Zhejiang, China] [...].\n      Con base en los resultados del estudio, que de-\n    muestran que un estilo de vida saludable es “cru-\n70  cial” para prolongar la esperanza de vida y mejorar\n    la calidad de vida de las personas, Xifeng Wu con-\n    sidera las decisiones políticas en materia de salud\n    pública deberían centrarse “en promover la edu-\n    cación sanitaria, fomentar los controles médicos\n75  preventivos, y proporcionar una gestión sanitaria\n    personalizada a los grupos de alto riesgo genético\n    para reducir los mismos y mejorar la salud pública”.\n      También en la educación sanitaria centra su\n    reivindicación Ángel Gil de Miguel, que considera\n80  que habría que empezar “cada vez un poco antes”\n    a hablar de lo que son estilos de vida saludables.\n    “Hay que empezar desde la escuela a crear esos\n    hábitos, porque lo que se ha visto en otros estu-\n    dios es que, si a ti te forman en buenos hábitos\n85  de pequeño, eso marca y se queda grabado. Y sí,\n    es posible que de los 18 a los 35 hagas el salvaje,\n    pero a partir de los 40 aquello que aprendiste de\n    pequeño vuelve”, reflexiona el catedrático [...].\n```\n\nFonte: CORDELLAT, A. Un macroestudio demuestra que el estilo de vida saludable puede compensar una mala genética. El País, Madri, 26 jun. 2024. Salud y Bienestar. Disponível em: https://elpais.com/salud-y-bienestar/2024-06-26/un-macroestudio-demuestra-que-el-estilo-de-vida-saludable-puede-compensar-una-mala-genetica.html. Acesso em: 19 jul. 2024 (Adaptado).\n\nOs aspectos genéticos e comportamentais influenciam a esperança de vida de diferentes formas. Com base nas informações apresentadas na reportagem, considere as afirmativas a seguir.\n\nI → As implicações da genética e dos hábitos cotidianos se vinculam intimamente no que se refere à esperança de vida.\n\nII → As pesquisas que analisam os impactos entre fatores genéticos e comportamentais (parágrafos 02 e 03), proporcionam subsídios para a prática médica de tendência cooperativa entre médico e paciente (ℓ. 45-48).\n\nIII → A adoção de um estilo de vida saudável compensa irrisoriamente uma genética que contribui para a morte prematura.\n\nIV → Os pilares essenciais para um estilo de vida de excelência se estruturam a partir do estabelecimento de uma dieta e de uma rotina de sono salutares e da ausência de sedentarismo e tabagismo.\n\nEstão corretas",
+      "options": [
+        {
+          "text": "apenas I e II.",
+          "explanation": "A I é falsa: o estudo mostrou que genética e estilo de vida têm “un impacto independiente” sobre a esperança de vida, isto é, não estão intimamente vinculados."
+        },
+        {
+          "text": "apenas I e III.",
+          "explanation": "As duas são falsas: os impactos são independentes, e o estilo de vida saudável compensa “considerablemente” a genética (reduz o risco em cerca de 62%), não de forma irrisória."
+        },
+        {
+          "text": "apenas II e III.",
+          "explanation": "A II está certa, mas a III não: o texto fala em alongar “considerablemente” a vida, o oposto de uma compensação irrisória."
+        },
+        {
+          "text": "apenas II e IV.",
+          "explanation": "Correta. Segundo a especialista, estudos assim oferecem uma “vía de acceso” a uma medicina mais participativa, em que o paciente toma as rédeas da própria saúde (II); e a combinação ótima reúne quatro fatores: não fumar, atividade física regular, sono adequado e dieta saudável (IV)."
+        },
+        {
+          "text": "apenas I, III e IV.",
+          "explanation": "Só a IV se sustenta: a I contraria o “impacto independiente” e a III contraria o advérbio “considerablemente” usado na reportagem."
+        }
+      ],
+      "correct": "D"
+    },
+    {
+      "key": "ufsm-2025-p1-q39-es",
+      "source": "Vestibular UFSM 2025 – Prova 1, questão 39, espanhol (UFSM)",
+      "kind": "Objective",
+      "subject": "espanhol",
+      "statement": "Leia o texto a seguir para responder às questões 38 e 39.\n\n**Un macroestudio demuestra que el estilo de vida saludable puede compensar una mala genética**\n\nLos datos de más de 350.000 personas durante 13 años sugieren que una dieta sana, ejercicio y no fumar, entre otras cuestiones, alarga considerablemente la vida de personas con predisposición a una vida más corta.\n\n```\n01    Hace ya tiempo que la ciencia demostró que un\n    estilo de vida saludable mejora la calidad de vida de\n    las personas, aumenta la esperanza de vida, dismi-\n    nuye la prevalencia de determinadas enfermedades\n05  crónicas y reduce considerablemente la mortalidad.\n    La evidencia al respecto es tan sólida que, en tiem-\n    pos de fake news, esta parece una verdad a salvo\n    de cualquier teoría de la conspiración. Pero, ¿qué\n    ocurre con las personas que están genéticamente\n10  predispuestas a tener una vida más corta [...]?\n      A esta pregunta ha respondido un estudio pu-\n    blicado recientemente en la revista científica BMJ\n    Evidence-Based Medicine, con base en los datos\n    de más de 350.000 participantes del Biobanco del\n15  Reino Unido a los que se siguió durante una media\n    de 13 años, que ha demostrado que la genética y\n    los estilos de vida tienen un impacto independiente\n    sobre la esperanza de vida de las personas; pero\n    que estos últimos tienen la capacidad de compensar\n20  la genética y alargar considerablemente la vida de\n    personas con predisposición a una vida más corta.\n      Concretamente, según los resultados de la in-\n    vestigación, las personas con una alta predisposi-\n    ción genética a una esperanza de vida más corta\n25  presentan un riesgo de muerte prematura un 21%\n    mayor en comparación con aquellos con un riesgo\n    genético bajo, independientemente de sus eleccio-\n    nes de estilo de vida. Por su parte, un estilo de\n    vida insano se asociaría con un riesgo de muerte\n30  prematura un 78% mayor, independientemente de\n    los determinantes genéticos. Y lo más importante:\n    gracias a un estilo de vida saludable, las personas\n    con riesgo genético de muerte prematura pueden\n    reducir ese riesgo en aproximadamente un 62% y\n35  ver prolongada su esperanza de vida aproximada-\n    mente en 5,22 años al cumplir los 40 años. [...]\n      “Es un trabajo muy interesante porque hace una\n    valoración conjunta de la genética y los hábitos de\n    vida, para demostrar que la genética, aunque es\n40  un factor que actúa de forma independiente sobre\n    la esperanza de vida, no lo tiene todo por decir”,\n    analiza Almudena Beltrán de Miguel, especialista\n    en medicina interna y miembro de la Unidad de\n    Chequeos de la Clínica Universidad de Navarra, que\n45  considera que este tipo de estudios ofrecen a los\n    profesionales médicos una “vía de acceso” hacia una\n    medicina más participativa “en la que se alienta al\n    paciente a tomar las riendas de su propia salud”.\n    ¿Qué se entiende por un\n50  estilo de vida saludable?\n      En el estudio se evaluaron varios aspectos relacio-\n    nados con un estilo de vida saludable, entre ellos no\n    fumar, mantener un consumo moderado de alcohol,\n    realizar actividad física regular, mantener un peso cor-\n55  poral saludable, garantizar una duración adecuada del\n    sueño y seguir una dieta saludable; [...]. “En el estudio\n    vimos que todos estos factores pueden compensar\n    significativamente el riesgo genético de una esperanza\n    de vida más corta, pero identificamos una combinación\n60  óptima de estilo de vida que ofrecía mejores beneficios\n    para prolongar la vida humana y que contenía cuatro\n    factores de estilo de vida: no fumar, realizar actividad\n    física regular, mantener una duración adecuada del\n    sueño y seguir una dieta saludable”, explica Xifeng Wu\n65  [profesor y miembro del departamento de Big Data en\n    Ciências de la Salud de la Facultad de Medicina de la\n    Universidad de Zhejiang, China] [...].\n      Con base en los resultados del estudio, que de-\n    muestran que un estilo de vida saludable es “cru-\n70  cial” para prolongar la esperanza de vida y mejorar\n    la calidad de vida de las personas, Xifeng Wu con-\n    sidera las decisiones políticas en materia de salud\n    pública deberían centrarse “en promover la edu-\n    cación sanitaria, fomentar los controles médicos\n75  preventivos, y proporcionar una gestión sanitaria\n    personalizada a los grupos de alto riesgo genético\n    para reducir los mismos y mejorar la salud pública”.\n      También en la educación sanitaria centra su\n    reivindicación Ángel Gil de Miguel, que considera\n80  que habría que empezar “cada vez un poco antes”\n    a hablar de lo que son estilos de vida saludables.\n    “Hay que empezar desde la escuela a crear esos\n    hábitos, porque lo que se ha visto en otros estu-\n    dios es que, si a ti te forman en buenos hábitos\n85  de pequeño, eso marca y se queda grabado. Y sí,\n    es posible que de los 18 a los 35 hagas el salvaje,\n    pero a partir de los 40 aquello que aprendiste de\n    pequeño vuelve”, reflexiona el catedrático [...].\n```\n\nFonte: CORDELLAT, A. Un macroestudio demuestra que el estilo de vida saludable puede compensar una mala genética. El País, Madri, 26 jun. 2024. Salud y Bienestar. Disponível em: https://elpais.com/salud-y-bienestar/2024-06-26/un-macroestudio-demuestra-que-el-estilo-de-vida-saludable-puede-compensar-una-mala-genetica.html. Acesso em: 19 jul. 2024 (Adaptado).\n\nAo considerar os mecanismos semânticos, discursivos e argumentativos da reportagem, assinale V (verdadeiro) ou F (falso) em cada afirmativa a seguir.\n\n(  ) O parágrafo 03, que apresenta os resultados da pesquisa, permite, por meio de porcentagens, oferecer evidências plausíveis de que o estilo de vida e a genética possuem efeitos equitativos sobre a incidência de mortes prematuras, quando se isola apenas um ou outro fator.\n\n(  ) No enunciado “este tipo de estudios ofrecen a los profesionales médicos ‘una vía de acceso’ hacia una medicina más participativa ‘en la que se alienta al paciente a tomar las riendas de su propia salud” (ℓ. 45-48), observa-se que o locutor sugere que a medicina participativa empodera o paciente, uma vez que o emprego do verbo “alentar” e da expressão “tomar las riendas” implica o protagonismo do enfermo.\n\n(  ) No enunciado “Hay que empezar desde la escuela a crear esos hábitos” (ℓ. 82-83), a presença da perífrase verbal imprime um efeito de obrigação, porém de natureza generalizada, o que tem um efeito de impessoalidade linguística.\n\nA sequência correta é",
+      "options": [
+        {
+          "text": "V – F – V.",
+          "explanation": "A primeira é falsa (21% e 78% não são efeitos equitativos) e a segunda é verdadeira: “alentar” é encorajar e “tomar las riendas” é assumir o controle."
+        },
+        {
+          "text": "F – V – V.",
+          "explanation": "Correta. No parágrafo 03, a genética desfavorável eleva o risco em 21% e o estilo de vida insano em 78%: efeitos bem desiguais (F). “Alentar” (encorajar) e “tomar las riendas” (assumir o controle) põem o paciente como protagonista (V). “Hay que + infinitivo” expressa obrigação sem sujeito determinado, portanto impessoal (V)."
+        },
+        {
+          "text": "F – F – V.",
+          "explanation": "A segunda é verdadeira: encorajar o paciente a “tomar as rédeas da própria saúde” é atribuir-lhe protagonismo."
+        },
+        {
+          "text": "V – V – F.",
+          "explanation": "A primeira é falsa, pois as porcentagens (21% contra 78%) mostram pesos diferentes; e a terceira é verdadeira, já que “hay que” é uma perífrase de obrigação impessoal."
+        },
+        {
+          "text": "F – V – F.",
+          "explanation": "A terceira é verdadeira: “hay que empezar” não tem sujeito específico e indica uma obrigação válida para todos."
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "key": "ufsm-2025-p1-q40-es",
+      "source": "Vestibular UFSM 2025 – Prova 1, questão 40, espanhol (UFSM)",
+      "kind": "Objective",
+      "subject": "espanhol",
+      "statement": "Leia o infográfico a seguir para responder à questão 40.\n\n![Infográfico em espanhol intitulado 7 Tipos de límites para Aumentar el Bienestar. Sete itens numerados dispostos em círculo, ligados por setas, em torno da silhueta de uma pessoa meditando sobre uma flor de lótus. 1 MENTAL: Saber regular/limitar tus sesgos, autocrítica y creencias negativas. 2 EMOCIONAL: Aprende a decir “no” para cuidar tu bienestar emocional. 3 FÍSICO: Salvaguarda tus espacios personales y privacidad para vivir mejor. 4 TIEMPO: Tienes derecho a desconectar, a estar solo/a dedicarte tiempo a ti. 5 CONVERSACIONAL: Tienes derecho a ser asertivo, expresar lo que quieres e incluso a no hablar si no lo deseas. 6 MATERIAL: Decidir no gastar dinero en lo que no deseas o no necesitas y desconectar de la tecnología. 7 INTERNO: Tienes derecho a la calma y la autorregulación, a evitar situaciones o personas que te estresan.](img/ufsm/2025/prova-1/q40-es-1.png)\n\nFonte: G.talent_net. 7 Tipos de Límites para Aumentar el Bienestar. Publicado em: 11 jun. 2024. Instagram: @g.talent_net. Disponível em: https://www.instagram.com/p/C8GAsDfIUoB/. Acesso em: 19 ago. 2024.\n\nAssinale a alternativa que seja coerente com as sugestões que contribuem para o bem-estar humano representadas no infográfico.",
+      "options": [
+        {
+          "text": "As sete formas de limites referem-se a condutas em que aspectos abstratos condicionam apenas questões transcendentais, uma vez que a figura central representa a prática da meditação que sempre está relacionada a determinadas tendências religiosas.",
+          "explanation": "Os limites tratam de questões concretas (dinheiro, tempo, espaço pessoal, conversa), não “apenas” transcendentais, e nada no infográfico vincula a meditação a religiões."
+        },
+        {
+          "text": "As sete sugestões apresentam-se em um estilo extremamente assertivo, em particular pelo uso específico de verbos no modo imperativo e no modo indicativo no início de cada oração.",
+          "explanation": "Nem todos os itens começam com imperativo ou indicativo: “Saber regular” e “Decidir no gastar” começam com infinitivo."
+        },
+        {
+          "text": "As sete possibilidades apresentam-se em um formato que implica a visão sistêmica do ser humano, pois o termo “límite”, combinado com a figura circular com setas que integram as sugestões, permite que o incremento do bem-estar esteja condicionado por práticas complementares em diferentes áreas que evidenciam a importância de identificar as demandas internas.",
+          "explanation": "Correta. O círculo com setas liga os sete limites (mental, emocional, físico, de tempo, conversacional, material e interno) como partes complementares de um mesmo todo, e todos pedem que a pessoa reconheça as próprias necessidades para aumentar o bem-estar."
+        },
+        {
+          "text": "Os sete aspectos relacionados ao bem-estar implicam atitudes de natureza passiva, reforçada pela figura que alude à meditação.",
+          "explanation": "As sugestões pedem ações: dizer “não”, proteger os espaços pessoais, decidir não gastar, expressar o que se quer. São atitudes ativas."
+        },
+        {
+          "text": "Os sete itens vinculados ao estabelecimento de limites enfocam relações intrapessoais, excluindo a presença do outro.",
+          "explanation": "Vários limites envolvem outras pessoas: dizer “não”, ser assertivo ao conversar e evitar “personas que te estresan”."
+        }
+      ],
+      "correct": "C"
+    },
+    {
+      "key": "ufsm-2025-p1-q38-en",
+      "source": "Vestibular UFSM 2025 – Prova 1, questão 38, inglês (UFSM)",
+      "kind": "Objective",
+      "subject": "ingles",
+      "statement": "Leia o infográfico a seguir para responder às questões 38, 39 e 40.\n\n![Infográfico circular em inglês, em três níveis. Centro: Healthy Places, Healthy People. Círculo intermediário, com três setores: Connected places make it easy to move around, interact and enjoy an active lifestyle; Welcoming places bring community together and encourage participation; Responsible places enable current and future generations to flourish. Círculo externo, com nove setores ilustrados: Easy to get around in active ways; Convenient access to services and open spaces; Accessible and integrated public transport (os três junto a Connected); Safe at all times of day and night; Vibrant local places where people want to be; Respectful and inclusive of diverse needs and backgrounds (os três junto a Welcoming); Cool, clean and green; Locally grown, fresh food and drink options; Adaptive and responsive to our climate (os três junto a Responsible). Na borda inferior: Creating great places to keep Queenslanders healthy. Illustration: Rachel Apelt, Curious Minds Co.](img/ufsm/2025/prova-1/q38-en-1.png)\n\nFonte: QUEENSLAND GOVERNMENT. Healthy Places, Healthy People FACTSHEET. Austrália, 2020. Disponível em: <https://www.health.qld.gov.au/__data/assets/pdf_file/0020/1171433/healthy-places-healthy-people-factsheet.pdf>. Acesso em: 05 ago. 2024. (Adaptado).\n\nSobre as informações e sua disposição no infográfico, considere as afirmativas a seguir.\n\nI → O círculo central, no infográfico, indica que lugares saudáveis têm impacto positivo na saúde das pessoas.\n\nII → O círculo intermediário apresenta três características de lugares saudáveis.\n\nIII → As nove qualidades apresentadas no círculo externo do infográfico são importantes para a saúde das pessoas.\n\nIV → As informações apresentadas, na trajetória centro-margem do infográfico, são gerais no centro e cada vez mais detalhadas em direção ao círculo externo.\n\nEstá(ão) correta(s)",
+      "options": [
+        {
+          "text": "apenas I.",
+          "explanation": "A I está certa, mas as outras também: há três características no círculo intermediário, nove qualidades no externo e detalhamento crescente do centro para a margem."
+        },
+        {
+          "text": "apenas I e III.",
+          "explanation": "II e IV também são verdadeiras: “Connected”, “Welcoming” e “Responsible” são as três características, e cada uma se desdobra em três qualidades mais específicas."
+        },
+        {
+          "text": "apenas II e IV.",
+          "explanation": "Faltam a I, pois o título central “Healthy Places, Healthy People” associa lugares saudáveis a pessoas saudáveis, e a III, sobre as nove qualidades do círculo externo."
+        },
+        {
+          "text": "apenas II, III e IV.",
+          "explanation": "A I também é verdadeira: o centro (“lugares saudáveis, pessoas saudáveis”) estabelece a relação entre a qualidade dos lugares e a saúde das pessoas."
+        },
+        {
+          "text": "I, II, III e IV.",
+          "explanation": "Correta. O centro liga lugares saudáveis a pessoas saudáveis (I); o anel intermediário traz três características, “Connected”, “Welcoming” e “Responsible” (II); o anel externo detalha nove qualidades que mantêm as pessoas saudáveis (III); e a informação vai do geral, no centro, ao específico, na margem (IV)."
+        }
+      ],
+      "correct": "E"
+    },
+    {
+      "key": "ufsm-2025-p1-q39-en",
+      "source": "Vestibular UFSM 2025 – Prova 1, questão 39, inglês (UFSM)",
+      "kind": "Objective",
+      "subject": "ingles",
+      "statement": "Leia o infográfico a seguir para responder às questões 38, 39 e 40.\n\n![Infográfico circular em inglês, em três níveis. Centro: Healthy Places, Healthy People. Círculo intermediário, com três setores: Connected places make it easy to move around, interact and enjoy an active lifestyle; Welcoming places bring community together and encourage participation; Responsible places enable current and future generations to flourish. Círculo externo, com nove setores ilustrados: Easy to get around in active ways; Convenient access to services and open spaces; Accessible and integrated public transport (os três junto a Connected); Safe at all times of day and night; Vibrant local places where people want to be; Respectful and inclusive of diverse needs and backgrounds (os três junto a Welcoming); Cool, clean and green; Locally grown, fresh food and drink options; Adaptive and responsive to our climate (os três junto a Responsible). Na borda inferior: Creating great places to keep Queenslanders healthy. Illustration: Rachel Apelt, Curious Minds Co.](img/ufsm/2025/prova-1/q39-en-1.png)\n\nFonte: QUEENSLAND GOVERNMENT. Healthy Places, Healthy People FACTSHEET. Austrália, 2020. Disponível em: <https://www.health.qld.gov.au/__data/assets/pdf_file/0020/1171433/healthy-places-healthy-people-factsheet.pdf>. Acesso em: 05 ago. 2024. (Adaptado).\n\nConsiderando as características dos lugares presentes no infográfico, assinale V (verdadeiro) ou F (falso) em cada afirmativa a seguir.\n\n(  ) Lugares que possibilitam que as pessoas se conectem gratuitamente de forma física e virtual trazem saúde e bem-estar.\n\n(  ) Lugares acolhedores são saudáveis, porque são seguros, inclusivos e têm espaços aconchegantes.\n\n(  ) Lugares responsáveis apoiam o comércio de alimentos e bebidas produzidos localmente.\n\nA sequência correta é",
+      "options": [
+        {
+          "text": "V – V – V.",
+          "explanation": "A primeira é falsa: “Connected places” facilitam o deslocamento, a interação e a vida ativa (transporte, acesso a serviços), sem menção a gratuidade ou a conexão virtual."
+        },
+        {
+          "text": "F – V – F.",
+          "explanation": "A terceira é verdadeira: junto a “Responsible” aparece “Locally grown, fresh food and drink options”, ou seja, alimentos e bebidas frescos e de produção local."
+        },
+        {
+          "text": "F – V – V.",
+          "explanation": "Correta. “Connected” refere-se a deslocar-se e interagir com facilidade, não a conexão gratuita ou virtual (F). “Welcoming” reúne “Safe”, “Respectful and inclusive” e “Vibrant local places where people want to be” (V). “Responsible” inclui opções de comida e bebida frescas e cultivadas localmente (V)."
+        },
+        {
+          "text": "F – F – V.",
+          "explanation": "A segunda é verdadeira: os lugares acolhedores (“Welcoming”) são descritos como seguros, respeitosos e inclusivos, e com espaços onde as pessoas querem estar."
+        },
+        {
+          "text": "V – F – F.",
+          "explanation": "As três estão invertidas: o infográfico não fala em conexão gratuita ou virtual, e confirma tanto a descrição dos lugares acolhedores quanto os alimentos locais nos lugares responsáveis."
+        }
+      ],
+      "correct": "C"
+    },
+    {
+      "key": "ufsm-2025-p1-q40-en",
+      "source": "Vestibular UFSM 2025 – Prova 1, questão 40, inglês (UFSM)",
+      "kind": "Objective",
+      "subject": "ingles",
+      "statement": "Leia o infográfico a seguir para responder às questões 38, 39 e 40.\n\n![Infográfico circular em inglês, em três níveis. Centro: Healthy Places, Healthy People. Círculo intermediário, com três setores: Connected places make it easy to move around, interact and enjoy an active lifestyle; Welcoming places bring community together and encourage participation; Responsible places enable current and future generations to flourish. Círculo externo, com nove setores ilustrados: Easy to get around in active ways; Convenient access to services and open spaces; Accessible and integrated public transport (os três junto a Connected); Safe at all times of day and night; Vibrant local places where people want to be; Respectful and inclusive of diverse needs and backgrounds (os três junto a Welcoming); Cool, clean and green; Locally grown, fresh food and drink options; Adaptive and responsive to our climate (os três junto a Responsible). Na borda inferior: Creating great places to keep Queenslanders healthy. Illustration: Rachel Apelt, Curious Minds Co.](img/ufsm/2025/prova-1/q40-en-1.png)\n\nFonte: QUEENSLAND GOVERNMENT. Healthy Places, Healthy People FACTSHEET. Austrália, 2020. Disponível em: <https://www.health.qld.gov.au/__data/assets/pdf_file/0020/1171433/healthy-places-healthy-people-factsheet.pdf>. Acesso em: 05 ago. 2024. (Adaptado).\n\nUm recurso linguístico recorrente no texto são os adjetivos, dentre eles “Healthy”, “Accessible” e “Adaptive”, que foram formados por meio do acréscimo de sufixos. Assinale a alternativa em que as palavras podem ser transformadas em adjetivos por meio dos mesmos sufixos “y”, “able/ible” e “ive”, respectivamente.",
+      "options": [
+        {
+          "text": "Local – Place – People",
+          "explanation": "“Local” já é adjetivo e não recebe “-y”, e “people” não forma adjetivo com “-ive”."
+        },
+        {
+          "text": "Need – Move – Create",
+          "explanation": "Correta. Need → needy (necessitado), move → movable (móvel) e create → creative (criativo), com os sufixos “-y”, “-able” e “-ive”, nessa ordem."
+        },
+        {
+          "text": "Climate – Drink – Interact",
+          "explanation": "“Drinkable” e “interactive” existem, mas “climate” não forma adjetivo com “-y”: o adjetivo é “climatic”."
+        },
+        {
+          "text": "Current – Ease – Participation",
+          "explanation": "“Current” já é adjetivo, e “ease” e “participation” não formam adjetivos com “-able” e “-ive” (os adjetivos são “easy” e “participative”/“participatory”, a partir de outras bases)."
+        },
+        {
+          "text": "Convenience – Food – Response",
+          "explanation": "“Responsive” existe, mas o adjetivo de “convenience” é “convenient”, e “food” não recebe “-able/-ible”."
+        }
+      ],
+      "correct": "B"
+    }
+  ]
+}

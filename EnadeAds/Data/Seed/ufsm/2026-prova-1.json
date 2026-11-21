@@ -1,0 +1,1296 @@
+{
+  "year": 2026,
+  "track": "ufsm-1",
+  "questions": [
+    {
+      "key": "ufsm-2026-p1-q01",
+      "source": "Vestibular UFSM 2026 – Prova 1, questão 1 (UFSM)",
+      "kind": "Objective",
+      "subject": "lingua-portuguesa",
+      "statement": "A Organização das Nações Unidas para a Educação, a Ciência e a Cultura (UNESCO), por meio de seus programas de conservação do patrimônio histórico, tem criado geoparques mundo afora, desde que as regiões atendam a critérios específicos para obter a certificação. Até que o selo UNESCO seja atribuído aos locais pleiteantes, há um longo caminho a percorrer. O texto a seguir aborda o conceito de geoparque. Leia-o para responder às questões 01 e 02.\n\n**A aplicação do conceito de Geoparque da UNESCO no Brasil e relação com o SNUC**\n\n```\n01   Após a criação do Geoparque do Araripe no sertão\n   do Ceará, o primeiro no Brasil a ser reconhecido pela\n   UNESCO, o conceito de geoparque passou a ser mais\n   discutido em nosso país.\n05   O conceito, em sua profundidade e real enten-\n   dimento é, no entanto, ainda pouco conhecido,\n   mesmo entre os geocientistas. Além disso, o nome\n   “parque”, atrelado à denominação, tem gerado dis-\n   cussões sobre as relações com o SNUC (Sistema\n10 Nacional de Unidades de Conservação), lei na qual\n   se regulamenta a criação de diversas categorias de\n   unidades de conservação no Brasil assim como os\n   seus planos de manejo.\n     Para a UNESCO, um geoparque é uma área de-\n15 limitada que tenha significativas exposições geo-\n   lógicas, paleontológicas ou geomorfológicas e que\n   seja grande o suficiente para o desenvolvimento\n   sustentável. Outro requisito é a existência de uma\n   população no seu interior, a qual necessariamente\n20 deverá ser beneficiada com sua criação.\n     A primeira reação é a de que um geoparque não\n   pode ser criado no Brasil, pois não há previsão des-\n   sa categoria no SNUC. Entretanto, o entendimento\n   que se deve ter é o de que um geoparque não é\n25 uma unidade de conservação no sentido do SNUC.\n   Por isso, não há necessidade de criação de categoria\n   específica e nem uma legislação para geoparques no\n   Brasil, da mesma forma que não é necessário para as\n   reservas da biosfera, outra importante modalidade\n30 da UNESCO que também vem sendo implementada\n   no Brasil em seus diferentes biomas.\n```\n\nFonte: BOGGIANI, P. C. A aplicação do conceito de Geoparque da UNESCO no Brasil e relação com o SNUC - Sistema Nacional de Unidades de Conservação. Revista Patrimônio Geológico e Cultura, v. 1, n. 3, jun. 2010. Disponível em: <www.geoturismobrasil.com/revista%artigos/artigo%boggiani%junho%2010.pdf>. Acesso em: 18 ago. 2025. (Adaptado)\n\nCom base nas informações apresentadas no texto, assinale a alternativa correta.",
+      "options": [
+        {
+          "text": "A criação de um geoparque no Ceará mudou o entendimento acerca dos parques de conservação natural no país.",
+          "explanation": "O texto diz apenas que, depois do Araripe, o conceito de geoparque passou a ser mais discutido; não afirma que o entendimento sobre parques de conservação mudou, e ainda registra que o conceito é pouco conhecido."
+        },
+        {
+          "text": "A criação de geoparques no Brasil tem gerado discussões entre os geocientistas devido a planos de manejo.",
+          "explanation": "As discussões citadas nascem do nome “parque” e da relação com o SNUC; os planos de manejo aparecem só como algo que a lei do SNUC regulamenta."
+        },
+        {
+          "text": "Geoparques são áreas autossustentáveis que devem atender a critérios determinados pela UNESCO e seguir legislação específica do país onde esses parques se localizam.",
+          "explanation": "O último parágrafo afirma o contrário: não há necessidade de categoria específica nem de legislação para geoparques no Brasil. O texto fala em área grande o suficiente para o desenvolvimento sustentável, não em área autossustentável."
+        },
+        {
+          "text": "A UNESCO privilegia, para a criação de geoparques, áreas geológicas, paleontológicas ou geomorfológicas que tenham reservas na biosfera.",
+          "explanation": "As reservas da biosfera são citadas como outra modalidade da UNESCO, usada só como comparação; não são requisito para um geoparque."
+        },
+        {
+          "text": "UNESCO e SNUC não seguem os mesmos critérios para a delimitação de áreas a serem criadas.",
+          "explanation": "Correta. O texto explica que o geoparque da UNESCO não é uma unidade de conservação no sentido do SNUC: tem requisitos próprios (exposições geológicas, tamanho, população beneficiada) e não está entre as categorias da lei brasileira."
+        }
+      ],
+      "correct": "E"
+    },
+    {
+      "key": "ufsm-2026-p1-q02",
+      "source": "Vestibular UFSM 2026 – Prova 1, questão 2 (UFSM)",
+      "kind": "Objective",
+      "subject": "lingua-portuguesa",
+      "statement": "A Organização das Nações Unidas para a Educação, a Ciência e a Cultura (UNESCO), por meio de seus programas de conservação do patrimônio histórico, tem criado geoparques mundo afora, desde que as regiões atendam a critérios específicos para obter a certificação. Até que o selo UNESCO seja atribuído aos locais pleiteantes, há um longo caminho a percorrer. O texto a seguir aborda o conceito de geoparque. Leia-o para responder às questões 01 e 02.\n\n**A aplicação do conceito de Geoparque da UNESCO no Brasil e relação com o SNUC**\n\n```\n01   Após a criação do Geoparque do Araripe no sertão\n   do Ceará, o primeiro no Brasil a ser reconhecido pela\n   UNESCO, o conceito de geoparque passou a ser mais\n   discutido em nosso país.\n05   O conceito, em sua profundidade e real enten-\n   dimento é, no entanto, ainda pouco conhecido,\n   mesmo entre os geocientistas. Além disso, o nome\n   “parque”, atrelado à denominação, tem gerado dis-\n   cussões sobre as relações com o SNUC (Sistema\n10 Nacional de Unidades de Conservação), lei na qual\n   se regulamenta a criação de diversas categorias de\n   unidades de conservação no Brasil assim como os\n   seus planos de manejo.\n     Para a UNESCO, um geoparque é uma área de-\n15 limitada que tenha significativas exposições geo-\n   lógicas, paleontológicas ou geomorfológicas e que\n   seja grande o suficiente para o desenvolvimento\n   sustentável. Outro requisito é a existência de uma\n   população no seu interior, a qual necessariamente\n20 deverá ser beneficiada com sua criação.\n     A primeira reação é a de que um geoparque não\n   pode ser criado no Brasil, pois não há previsão des-\n   sa categoria no SNUC. Entretanto, o entendimento\n   que se deve ter é o de que um geoparque não é\n25 uma unidade de conservação no sentido do SNUC.\n   Por isso, não há necessidade de criação de categoria\n   específica e nem uma legislação para geoparques no\n   Brasil, da mesma forma que não é necessário para as\n   reservas da biosfera, outra importante modalidade\n30 da UNESCO que também vem sendo implementada\n   no Brasil em seus diferentes biomas.\n```\n\nFonte: BOGGIANI, P. C. A aplicação do conceito de Geoparque da UNESCO no Brasil e relação com o SNUC - Sistema Nacional de Unidades de Conservação. Revista Patrimônio Geológico e Cultura, v. 1, n. 3, jun. 2010. Disponível em: <www.geoturismobrasil.com/revista%artigos/artigo%boggiani%junho%2010.pdf>. Acesso em: 18 ago. 2025. (Adaptado)\n\nEm relação aos recursos linguísticos empregados no texto, assinale V (verdadeiro) ou F (falso) em cada afirmativa a seguir.\n\n( ) O uso de “passou a ser mais discutido” (ℓ. 03-04) pressupõe que anteriormente o conceito de geoparque já era pauta de discussão no Brasil.\n\n( ) No trecho “um geoparque não pode ser criado no Brasil” (ℓ. 21-22), o uso de “não pode” indica que o país não tem capacidade para criar geoparques.\n\n( ) O trecho “o entendimento que se deve ter” (ℓ. 23-24) constitui uma opinião sobre a categoria geoparque.\n\nA sequência correta é",
+      "options": [
+        {
+          "text": "V – V – F.",
+          "explanation": "A primeira é verdadeira, mas a segunda é falsa (“não pode” fala de impedimento legal, não de capacidade) e a terceira é verdadeira (“se deve ter” marca a posição do autor)."
+        },
+        {
+          "text": "V – F – V.",
+          "explanation": "Correta. “Mais discutido” pressupõe que já se discutia antes (V); “não pode” exprime impedimento legal, pela falta de previsão no SNUC, e não incapacidade do país (F); “o entendimento que se deve ter” é modalização que expressa o ponto de vista do autor (V)."
+        },
+        {
+          "text": "V – F – F.",
+          "explanation": "Acerta as duas primeiras, mas a terceira é verdadeira: “que se deve ter” indica como o autor julga que o geoparque precisa ser entendido, ou seja, uma opinião."
+        },
+        {
+          "text": "F – V – F.",
+          "explanation": "Erra as três: o advérbio “mais” pressupõe discussão anterior, “não pode” trata de permissão legal e “se deve ter” expressa opinião."
+        },
+        {
+          "text": "F – V – V.",
+          "explanation": "Só a terceira está certa: “mais discutido” pressupõe que o conceito já era discutido, e “não pode” indica falta de previsão legal, não falta de capacidade."
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "key": "ufsm-2026-p1-q03",
+      "source": "Vestibular UFSM 2026 – Prova 1, questão 3 (UFSM)",
+      "kind": "Objective",
+      "subject": "geografia",
+      "statement": "Há muitas afinidades entre os Geoparques no Brasil e as Unidades de Conservação que existem no país. Contudo, dois fatores específicos são característicos dos geoparques: a designação vinda de um órgão mundial como a Organização das Nações Unidas para a Educação, a Ciência e a Cultura (UNESCO) e o componente geológico. De acordo com a UNESCO, os cinco principais pontos de importância do geoparque são: preservação do patrimônio geológico, desenvolvimento sustentável, promoção da educação e da sensibilização ambiental, conservação da biodiversidade e colaboração internacional.\n\nSobre esses pontos, assinale V (verdadeiro) ou F (falso) em cada afirmativa a seguir.\n\n( ) A preservação do patrimônio geológico e a conservação da biodiversidade são fundamentais para compreender a história e a evolução da Terra.\n\n( ) O desenvolvimento sustentável promove o turismo sustentável e a economia local, valorizando os recursos naturais e culturais da região.\n\n( ) A colaboração internacional e a promoção da educação e da sensibilização ambiental proporcionam aprendizado a estudantes, pesquisadores e público em geral.\n\nA sequência correta é",
+      "options": [
+        {
+          "text": "V – V – V.",
+          "explanation": "Correta. Rochas, fósseis e seres vivos registram a história da Terra (V); o desenvolvimento sustentável dos geoparques se apoia no turismo e na economia local com valorização dos recursos naturais e culturais (V); educação ambiental e cooperação entre geoparques geram aprendizado para públicos diversos (V)."
+        },
+        {
+          "text": "V – F – F.",
+          "explanation": "A segunda e a terceira também são verdadeiras: geoturismo e economia local são o núcleo do desenvolvimento sustentável dos geoparques, e educação e cooperação internacional produzem aprendizado."
+        },
+        {
+          "text": "F – F – V.",
+          "explanation": "As duas primeiras são verdadeiras: o patrimônio geológico e a biodiversidade são registros da evolução do planeta, e o desenvolvimento sustentável valoriza os recursos locais."
+        },
+        {
+          "text": "F – V – F.",
+          "explanation": "A primeira e a terceira também são verdadeiras: preservar rochas, fósseis e biodiversidade permite ler a história da Terra, e a educação ambiental alcança estudantes, pesquisadores e o público."
+        },
+        {
+          "text": "F – V – V.",
+          "explanation": "A primeira afirmativa é verdadeira: o patrimônio geológico e a biodiversidade guardam os registros da história e da evolução da Terra."
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "key": "ufsm-2026-p1-q04",
+      "source": "Vestibular UFSM 2026 – Prova 1, questão 4 (UFSM)",
+      "kind": "Objective",
+      "subject": "filosofia-sociologia",
+      "statement": "No ano de 2023, a Região da Quarta Colônia, que fica a 50 km de Santa Maria, no Rio Grande do Sul, obteve a certificação Geoparque Mundial da UNESCO. Essa conquista vem repercutindo no cotidiano da região, pois integra, além da valorização da geodiversidade e estudos dos fósseis, uma proposta de desenvolvimento que contempla aspectos sociais, culturais, econômicos e ambientais.\n\n“Um geoparque não é uma área de preservação ambiental, apesar de que o território pode ter locais legalmente denominados, mas, sim, compreende uma forma de gestão dos patrimônios natural e cultural, com especial foco na geodiversidade e em prol do desenvolvimento socioeconômico da comunidade”.\n\nFonte: BRASIL. Ministério do Turismo; UNESCO; Agência Brasileira de Cooperação. Geoparques: contexto, origem e perspectivas no Brasil. Documento Técnico - Produto 01. Projeto 914BRZ4024 – Promoção do Turismo, Patrimônio e Economia Criativa. Natal: FUNPEC – Fundação Norte-Rio-Grandense de Pesquisa e Cultura, dez. 2021. p. 22.\n\nA partir das informações acima, na perspectiva sociológica, qual é o modelo de desenvolvimento decorrente dos geoparques?",
+      "options": [
+        {
+          "text": "Desenvolvimento econômico acelerado e sem restrições.",
+          "explanation": "O texto descreve uma gestão dos patrimônios natural e cultural que integra aspectos sociais, culturais e ambientais; crescimento sem restrições é o oposto disso."
+        },
+        {
+          "text": "Processo de industrialização lenta e modernização do processo produtivo.",
+          "explanation": "Nada no texto fala em industrialização: o desenvolvimento proposto se apoia na geodiversidade, na cultura e na comunidade."
+        },
+        {
+          "text": "Desenvolvimento sustentável e integrado às comunidades locais.",
+          "explanation": "Correta. A proposta contempla aspectos sociais, culturais, econômicos e ambientais e existe “em prol do desenvolvimento socioeconômico da comunidade”, o que define o desenvolvimento sustentável de base local."
+        },
+        {
+          "text": "Desenvolvimento baseado na industrialização intensa acompanhada de um rápido processo de modernização.",
+          "explanation": "Industrialização intensa e modernização rápida caracterizam o modelo desenvolvimentista clássico, sem relação com a gestão de patrimônio descrita."
+        },
+        {
+          "text": "Desenvolvimento baseado na gentrificação, com a realocação das comunidades locais para favorecer o turismo.",
+          "explanation": "A gentrificação expulsa os moradores; no geoparque a comunidade local é a beneficiária e participante do desenvolvimento."
+        }
+      ],
+      "correct": "C"
+    },
+    {
+      "key": "ufsm-2026-p1-q05",
+      "source": "Vestibular UFSM 2026 – Prova 1, questão 5 (UFSM)",
+      "kind": "Objective",
+      "subject": "matematica",
+      "statement": "O gráfico a seguir apresenta a evolução da visitação dos parques nacionais brasileiros ao longo dos últimos anos, destacando uma tendência de crescimento até a pandemia. Posteriormente, houve uma retomada gradual que resultou em um novo pico de interesse público por essas áreas de conservação natural.\n\n![Gráfico de barras “Evolução da visitação a parques nacionais brasileiros”, com as visitas em milhões por ano: 2015: 7,15; 2016: 7,03; 2017: 8,66; 2018: 8,75; 2019: 9,78; 2020: 4,58; 2021: 7,00; 2022: 10,45; 2023: 11,84; 2024: 12,53. As barras de 2020 e 2021 estão destacadas com o rótulo “Pandemia”.](img/ufsm/2026/prova-1/q05-1.png)\n\nFonte: HYDE, D.; ALVES, L. O que o recorde de visitação aos Parques Nacionais significa para o Brasil? Publicado em: 11 jun. 2025. Disponível em: <https://oeco.org.br/analises/o-que-o-recorde-de-visitacao-aos-parques-nacionais-significa-para-o-brasil/>. Acesso em: 05 set. 2025. (Adaptado)\n\nCom base nos dados apresentados no gráfico, assinale V (verdadeiro) ou F (falso) em cada afirmativa a seguir.\n\n( ) A média de visitação entre 2015 e 2019 foi inferior a 9 milhões de visitantes por ano.\n\n( ) O número de visitantes em 2020 foi menor que a metade do valor registrado em 2019.\n\n( ) Durante o período da pandemia (2020 - 2021), a visitação foi superior à média do número de visitações em 2023 e 2024.\n\nA sequência correta é",
+      "options": [
+        {
+          "text": "V – F – V.",
+          "explanation": "A segunda é verdadeira (4,58 < 9,78/2 = 4,89) e a terceira é falsa: 4,58 e 7,00 ficam bem abaixo da média de 2023 e 2024, que é 12,185."
+        },
+        {
+          "text": "V – V – F.",
+          "explanation": "Correta. Média de 2015 a 2019: (7,15 + 7,03 + 8,66 + 8,75 + 9,78)/5 = 41,37/5 ≈ 8,27 < 9 (V). Metade de 2019: 9,78/2 = 4,89 > 4,58 (V). Média de 2023 e 2024: (11,84 + 12,53)/2 = 12,185, maior que os valores da pandemia (F)."
+        },
+        {
+          "text": "V – V – V.",
+          "explanation": "A terceira é falsa: na pandemia houve 4,58 e 7,00 milhões de visitas, abaixo da média de 2023 e 2024, (11,84 + 12,53)/2 = 12,185."
+        },
+        {
+          "text": "F – V – F.",
+          "explanation": "A primeira é verdadeira: a soma de 2015 a 2019 é 41,37, e 41,37/5 ≈ 8,27 milhões, menos que 9."
+        },
+        {
+          "text": "F – F – V.",
+          "explanation": "Erra as três: a média de 2015 a 2019 é cerca de 8,27 (< 9), 4,58 é menor que 4,89 (metade de 9,78), e a visitação da pandemia ficou abaixo da média de 2023 e 2024 (12,185)."
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "key": "ufsm-2026-p1-q06",
+      "source": "Vestibular UFSM 2026 – Prova 1, questão 6 (UFSM)",
+      "kind": "Objective",
+      "subject": "biologia",
+      "statement": "Em notícias recentes sobre os Geoparques Mundiais da UNESCO, foi divulgada a existência de 229 territórios distribuídos em 50 países, sendo seis sediados no Brasil.\n\nFonte: GEOPARQUE CAMINHOS DOS CÂNIONS DO SUL. Geoparque. Praia Grande, SC: Consórcio Intermunicipal Caminhos dos Cânions do Sul, 2021. Disponível em: <https://canionsdosul.org/geoparque/>. Acesso em: 18 ago. 2025.\n\nObserve a imagem que ilustra a localização dos geoparques brasileiros.\n\n![Mapa do Brasil com seis marcadores numerados: (1) Geoparque Araripe, no sul do Ceará, e (2) Geoparque Seridó, no Rio Grande do Norte, ambos no interior do Nordeste; (3) Geoparque Uberaba, no oeste de Minas Gerais; (4) Geoparque Caminho dos Cânions do Sul, na divisa entre Santa Catarina e Rio Grande do Sul, perto do litoral; (5) Geoparque Quarta Colônia, no centro do Rio Grande do Sul; (6) Geoparque Caçapava, no centro-sul do Rio Grande do Sul.](img/ufsm/2026/prova-1/q06-1.png)\n\nFonte: GEOPARQUE SERIDÓ. Rio Grande do Norte, [20--]. Foto. Facebook: @GEOPARQUESERIDO. Disponível em: <https://www.facebook.com/geoparqueserido/>. Acesso em: 21 set. 2025. (Adaptado)\n\nSobre os biomas em que os geoparques estão localizados, assinale V (verdadeiro) ou F (falso) em cada afirmativa a seguir.\n\n( ) Araripe e Seridó se localizam na Caatinga, a qual é considerada um bioma exclusivo do Brasil.\n\n( ) Uberaba se localiza no Cerrado, e Caminho dos Cânions do Sul, na Mata Atlântica, biomas que ocorrem em diferentes estados brasileiros.\n\n( ) Caçapava e Quarta Colônia se localizam no Pampa, o qual é considerado um bioma exclusivo do Brasil.\n\nA sequência correta é",
+      "options": [
+        {
+          "text": "F – V – F.",
+          "explanation": "A primeira é verdadeira: Araripe (CE) e Seridó (RN) estão no semiárido nordestino, domínio da Caatinga, único bioma exclusivamente brasileiro."
+        },
+        {
+          "text": "V – F – V.",
+          "explanation": "A segunda é verdadeira (Cerrado e Mata Atlântica se estendem por vários estados) e a terceira é falsa, porque o Pampa também ocupa o Uruguai e parte da Argentina."
+        },
+        {
+          "text": "V – V – F.",
+          "explanation": "Correta. A Caatinga é o único bioma exclusivamente brasileiro (V); Cerrado e Mata Atlântica ocorrem em muitos estados (V); o Pampa se estende pelo Uruguai e pela Argentina, logo não é exclusivo do Brasil (F)."
+        },
+        {
+          "text": "V – F – F.",
+          "explanation": "A segunda afirmativa é verdadeira: Uberaba está no Cerrado e os Cânions do Sul na Mata Atlântica, biomas presentes em vários estados."
+        },
+        {
+          "text": "F – V – V.",
+          "explanation": "A primeira é verdadeira (a Caatinga só existe no Brasil) e a terceira é falsa: o Pampa continua no Uruguai e na Argentina."
+        }
+      ],
+      "correct": "C"
+    },
+    {
+      "key": "ufsm-2026-p1-q07",
+      "source": "Vestibular UFSM 2026 – Prova 1, questão 7 (UFSM)",
+      "kind": "Objective",
+      "subject": "artes-educacao-fisica",
+      "statement": "O corpo em movimento durante uma caminhada pode ser analisado segundo diversos aspectos, os quais, além da atividade física em si, incluem a relação com o contexto social, histórico e cultural, com o espaço enquanto território, e os processos físico-químicos que ocorrem na produção de diferentes hormônios para a saúde e o bem-estar.\n\nNos geoparques brasileiros – Araripe (CE), Seridó (RN), Caminhos dos Cânions do Sul (SC e RS), Quarta Colônia (RS), Caçapava (RS) e Uberaba (MG) –, as caminhadas no formato de trilhas são apresentadas como parte de um pacote que promove o ecoturismo. Nessa atividade, a conservação, a educação e o desenvolvimento sustentável são essenciais, especialmente diante do patrimônio geológico, da preservação dos artefatos culturais e fósseis encontrados, bem como da biodiversidade ali presente. Apesar do avanço de atividades de cicloturismo, as iniciativas de promoção de caminhadas nos geoparques são recentes e, para sua popularização, ainda demandam uma estrutura adequada, como mostra a imagem a seguir.\n\n![Fotografia em preto e branco de um grupo de pessoas, algumas com mochilas e bastões de caminhada, atravessando um trecho alagado de uma estrada de terra, pisando em pedras e blocos improvisados, entre árvores e vegetação.](img/ufsm/2026/prova-1/q07-1.png)\n\nMais de 130 pessoas percorreram o trajeto por diferentes pontos turísticos da região\n\nFonte: EQUIPE PROGEATER UFSM. Caminhada em Nova Esperança... Publicado em: 02 dez. 2024. Disponível em: <https://www.ufsm.br/pro-reitorias/pre/2024/12/02/caminhada-em-nova-esperanca-do-sul-movimenta-turismo-com-passeio-por-paisagem-regional>. Acesso em: 14 out. 2025. (Adaptado)\n\nOutro ponto a refletir sobre as caminhadas nos territórios dos geoparques mundiais é, na perspectiva do filósofo Byung-Chul Han, a relação entre saúde e bem-estar. Há necessidade de a sociedade contemporânea construir um “outro tempo”, que dê abertura ao olhar atento e, com isso, possibilite a experiência com os detalhes dos espaços que vão sendo percorridos, habitando-os de outra maneira, com mais perspectiva, contextualização e reflexão.\n\nA partir das informações apresentadas no texto e da imagem, assinale a alternativa correta.",
+      "options": [
+        {
+          "text": "A trilha conhecida como Rota dos Dinossauros, no Geoparque Quarta Colônia, é um circuito de cicloturismo com o objetivo de os visitantes superarem vários obstáculos.",
+          "explanation": "O texto e a imagem tratam de caminhadas, não de um circuito de bicicleta, e apresentam a trilha como ecoturismo voltado à conservação e à educação, não como prova de obstáculos."
+        },
+        {
+          "text": "O Geoparque Quarta Colônia, tal como no conhecido Caminho de Santiago, na Europa, tem roteiro diversificado e acolhimento turístico com infraestrutura para caminhantes no território.",
+          "explanation": "O texto diz que as iniciativas de caminhada são recentes e “ainda demandam uma estrutura adequada”, e a foto mostra a travessia improvisada de um trecho alagado: a infraestrutura ainda falta."
+        },
+        {
+          "text": "Diante do aumento de casos de estresse e ansiedade na sociedade atual, as caminhadas em trilhas desestimulam a busca de um tempo de contemplação que permita a ressignificação do mundo.",
+          "explanation": "É o inverso: na leitura de Byung-Chul Han trazida pelo texto, a caminhada abre espaço para um “outro tempo”, de olhar atento e contemplação."
+        },
+        {
+          "text": "A caminhada é um esporte que precisa ser mais difundido nos geoparques brasileiros, a fim de promover a consciência socioambiental, o turismo e a economia, bem como proporcionar o bem-estar a partir do movimento de caminhar.",
+          "explanation": "Correta. O texto afirma que as iniciativas de caminhada nos geoparques são recentes e precisam de estrutura para se popularizar, e liga a prática ao ecoturismo, à educação, ao desenvolvimento sustentável, à saúde e ao bem-estar."
+        },
+        {
+          "text": "A caminhada, na movimentação do corpo, relaciona o tempo em que o corpo percebe o movimento de ir e vir, transformando o deslocamento em um processo complexo que distancia o contato com a natureza e consigo mesmo.",
+          "explanation": "A caminhada aproxima, e não distancia: o texto fala em experiência com os detalhes dos espaços percorridos, com mais perspectiva e reflexão."
+        }
+      ],
+      "correct": "D"
+    },
+    {
+      "key": "ufsm-2026-p1-q08",
+      "source": "Vestibular UFSM 2026 – Prova 1, questão 8 (UFSM)",
+      "kind": "Objective",
+      "subject": "matematica",
+      "statement": "Num geoparque, encontram-se duas trilhas: uma intitulada Rio, por estar próxima a um rio, e outra intitulada Montanha. Juntas elas possuem uma extensão territorial total de 100 hectares de floresta. O número de visitantes diários na Rio é de 400 pessoas, enquanto na Montanha é de 200 pessoas. Sabendo que a densidade (razão entre o número de visitantes e a extensão territorial) de visitantes na Rio é a metade da que ocorre na Montanha, é correto afirmar que a extensão de floresta medida em hectares na trilha da Montanha é um valor que pertence ao intervalo",
+      "options": [
+        {
+          "text": "]−∞,12[",
+          "explanation": "A área da Montanha é 20 ha, que não é menor que 12. Com 400/R = (1/2) · (200/M) e R + M = 100, chega-se a R = 4M e M = 20."
+        },
+        {
+          "text": "[12,18[",
+          "explanation": "A área da Montanha é 20 ha, acima de 18: de 400/R = 100/M vem R = 4M, e 5M = 100."
+        },
+        {
+          "text": "[18,24[",
+          "explanation": "Correta. Sendo R e M as áreas, 400/R = (1/2) · (200/M) = 100/M, logo R = 4M. Como R + M = 100, 5M = 100 e M = 20 ha, que pertence a [18, 24[."
+        },
+        {
+          "text": "[24,30[",
+          "explanation": "A conta dá M = 20 ha, abaixo de 24: a Rio, com densidade menor e mais visitantes, fica com 80 ha, quatro vezes a área da Montanha."
+        },
+        {
+          "text": "[30,+∞[",
+          "explanation": "Valores como 50 ha aparecem quando se inverte a relação (densidade da Rio igual ao dobro da Montanha: 400/R = 2 · 200/M dá R = M = 50). O enunciado diz que a densidade da Rio é a metade, o que leva a M = 20 ha."
+        }
+      ],
+      "correct": "C"
+    },
+    {
+      "key": "ufsm-2026-p1-q09",
+      "source": "Vestibular UFSM 2026 – Prova 1, questão 9 (UFSM)",
+      "kind": "Objective",
+      "subject": "geografia",
+      "statement": "Observe a fotografia que ilustra um recorte do geossítio Guaritas do Camaquã (RS), localizado no Geoparque Caçapava, no Rio Grande do Sul.\n\n![Fotografia em preto e branco das Guaritas do Camaquã: ao fundo, três morros rochosos de topo elevado, com rocha exposta e pouca vegetação, marcados com as letras A (à esquerda), B (ao centro) e C (à direita); em primeiro plano, a parte baixa do terreno, marcada com a letra D, com vegetação mais densa e uma estrada de terra. No canto inferior esquerdo, o logotipo do Geoparque Caçapava, cujo traçado imita o perfil dos morros.](img/ufsm/2026/prova-1/q09-1.png)\n\nFonte: GEOPARQUE CAÇAPAVA. Pedras das Guaritas. Disponível em: <https://geoparquecacapava.com.br/pedras-das-guaritas>. Acesso em: 11 set. 2025.\n\nA relação da geodiversidade com a biodiversidade pode ser evidenciada no geossítio Guaritas do Camaquã. Este sistema envolve afloramentos rochosos, campos naturais e matas ciliares. O perfil de relevo do geossítio Guaritas do Camaquã empresta seu traçado para o logotipo do Geoparque Caçapava e mostra variações de altitude.\n\nCom relação a relevo, solos e vegetação, considere as afirmativas a seguir.\n\nI → Nas porções mais altas localizadas em A, B e C, a vegetação é mais esparsa frente à ocorrência de solos mais rasos.\n\nII → Nas porções mais baixas, como em D, a vegetação é mais densa devido à maior disponibilidade hídrica e à incidência de solos mais profundos.\n\nIII → Nas porções A, B e C, o perfil de relevo mostra altitudes mais elevadas e afloramentos rochosos devido à presença de rochas mais resistentes ao processo de erosão.\n\nIV → Nas porções mais baixas, como em D, ocorrem relevos caracterizados pelo entalhamento de vales e a presença de matas ciliares.\n\nEstá(ão) correta(s)",
+      "options": [
+        {
+          "text": "apenas I.",
+          "explanation": "A I está certa, mas as outras três também: as partes baixas acumulam água e sedimentos (II e IV), e os topos resistem por serem de rocha mais dura (III)."
+        },
+        {
+          "text": "apenas I e III.",
+          "explanation": "Faltam II e IV: nas áreas baixas, a água e o material erodido se acumulam, formando solos mais profundos, vegetação mais densa, vales entalhados e matas ciliares."
+        },
+        {
+          "text": "apenas II e IV.",
+          "explanation": "Faltam I e III: nos topos, a rocha mais resistente à erosão sustenta o relevo, aflora e deixa solos rasos, com vegetação esparsa."
+        },
+        {
+          "text": "apenas II, III e IV.",
+          "explanation": "A I também está correta: sobre os afloramentos dos topos o solo é raso e retém pouca água, o que limita a vegetação."
+        },
+        {
+          "text": "I, II, III e IV.",
+          "explanation": "Correta. A erosão diferencial preserva as rochas mais resistentes nos topos (A, B e C), onde o solo é raso e a vegetação esparsa; nas partes baixas (D), a drenagem entalha vales e acumula água e sedimentos, com solos mais profundos, vegetação densa e matas ciliares."
+        }
+      ],
+      "correct": "E"
+    },
+    {
+      "key": "ufsm-2026-p1-q10",
+      "source": "Vestibular UFSM 2026 – Prova 1, questão 10 (UFSM)",
+      "kind": "Objective",
+      "subject": "fisica",
+      "statement": "O Projeto Geoparque Caçapava é uma iniciativa da UFSM em parceria com a Unipampa, buscando alternativas sustentáveis para a economia regional como o turismo de base local. A região de Caçapava do Sul apresenta boas condições para a observação astronômica noturna, o que possibilita explorar o turismo por meio dessa prática que fascina a humanidade desde eras remotas. Foi, também, a partir de dados obtidos de observações astronômicas que o matemático e astrônomo Johannes Kepler estabeleceu suas três leis para o movimento dos corpos em órbita.\n\nUsando o Sistema Solar como referência para tais leis, assinale V (verdadeiro) ou F (falso) em cada afirmativa a seguir.\n\n( ) Os planetas possuem órbitas elípticas em torno do Sol, cujo centro se localiza em um dos focos da elipse.\n\n( ) O segmento de reta (raio vetor), traçado desde o Sol até qualquer planeta em órbita em torno dele, descreve áreas iguais em intervalos de tempo iguais; logo, o módulo da velocidade dos planetas no periélio é menor que o observado no afélio.\n\n( ) O período de rotação de um planeta em torno do Sol aumenta linearmente com a distância média entre o Sol e o planeta.\n\nA sequência correta é",
+      "options": [
+        {
+          "text": "V – F – V.",
+          "explanation": "A terceira é falsa: pela 3ª lei, T² é proporcional a r³ (T ∝ r^(3/2)), relação que não é linear."
+        },
+        {
+          "text": "V – V – F.",
+          "explanation": "A segunda é falsa: para varrer áreas iguais em tempos iguais, o planeta precisa ser mais rápido no periélio, onde o raio vetor é menor, e mais lento no afélio."
+        },
+        {
+          "text": "F – F – V.",
+          "explanation": "A primeira é verdadeira (1ª lei: órbitas elípticas com o Sol em um dos focos) e a terceira é falsa (T² ∝ r³, não T ∝ r)."
+        },
+        {
+          "text": "F – V – F.",
+          "explanation": "Inverte as duas primeiras: a lei das órbitas é verdadeira, e a conclusão da segunda afirmativa está trocada, pois a velocidade é maior no periélio."
+        },
+        {
+          "text": "V – F – F.",
+          "explanation": "Correta. 1ª lei: órbitas elípticas com o Sol em um dos focos (V). 2ª lei: áreas iguais em tempos iguais implicam velocidade maior no periélio, e não menor (F). 3ª lei: T² é proporcional ao cubo da distância média, relação não linear (F)."
+        }
+      ],
+      "correct": "E"
+    },
+    {
+      "key": "ufsm-2026-p1-q11",
+      "source": "Vestibular UFSM 2026 – Prova 1, questão 11 (UFSM)",
+      "kind": "Objective",
+      "subject": "matematica",
+      "statement": "O Geoparque Caçapava abriu-se para o mundo como sendo a região “onde o tempo da terra e o tempo da humanidade se encontram e se misturam”. Uma pequena loja de lembrancinhas pretende produzir x camisetas com esse slogan, mas se deparou com as seguintes condições: as despesas de fabricação de x camisetas é dada por D(x) = 2x + 10, enquanto a receita das vendas de x camisetas é dada por R(x) = −x² + 42x + 51.\n\nEm relação ao lucro L(x), que é dado pela diferença entre receita e despesas, considere as afirmativas a seguir.\n\nI → A loja terá mais lucro quanto mais camisetas produzir e vender.\n\nII → O lucro máximo será obtido, quando a loja produzir e vender 20 camisetas.\n\nIII → A loja não terá prejuízo, se produzir 35 camisetas e vendê-las todas.\n\nIV → A produção de 15 camisetas será mais lucrativa do que 41, se o propósito for produzir e vender todas as camisetas.\n\nEstão corretas",
+      "options": [
+        {
+          "text": "apenas I e II.",
+          "explanation": "A I é falsa: L(x) = −x² + 40x + 41 é uma parábola com concavidade para baixo, e o lucro cai depois de x = 20. Além disso, III e IV são verdadeiras."
+        },
+        {
+          "text": "apenas I e IV.",
+          "explanation": "A I é falsa, porque o lucro diminui a partir de 20 camisetas, e faltam II (vértice em x = 20) e III (L(35) = 216 > 0)."
+        },
+        {
+          "text": "apenas II e III.",
+          "explanation": "II e III estão certas, mas a IV também: L(15) = −225 + 600 + 41 = 416, enquanto L(41) = −1681 + 1640 + 41 = 0."
+        },
+        {
+          "text": "apenas III e IV.",
+          "explanation": "Falta a II: o máximo de L(x) = −x² + 40x + 41 ocorre no vértice, x = −40/(2 · (−1)) = 20."
+        },
+        {
+          "text": "apenas II, III e IV.",
+          "explanation": "Correta. L(x) = R(x) − D(x) = −x² + 40x + 41, parábola com concavidade para baixo: o lucro não cresce sempre (I falsa); o vértice está em x = 40/2 = 20 (II); L(35) = −1225 + 1400 + 41 = 216 > 0 (III); L(15) = 416 > L(41) = 0 (IV)."
+        }
+      ],
+      "correct": "E"
+    },
+    {
+      "key": "ufsm-2026-p1-q12",
+      "source": "Vestibular UFSM 2026 – Prova 1, questão 12 (UFSM)",
+      "kind": "Objective",
+      "subject": "matematica",
+      "statement": "Uma associação familiar do Geoparque Caçapava pretende montar uma pequena pousada em uma residência já existente. Para a adaptação do local, tal associação tem atualmente R$ 10 000,00, que serão aplicados a juros compostos de 1,5% ao mês. Decorridos 2 anos inteiros de aplicação desse dinheiro, o montante foi investido do seguinte modo:\n\n1) 45% na reforma dos quartos;\n\n2) R$ 2 500,00 fixos em produção de artesanato;\n\n3) o restante em pesquisas da gastronomia regional.\n\nConsiderando todos esses investimentos, é correto afirmar que o valor restante, em reais, que foi gasto em pesquisas da gastronomia regional pode ser expresso por",
+      "options": [
+        {
+          "text": "0,55 · [10 000 · (1,015)²⁴] − 2 500",
+          "explanation": "Correta. Em 24 meses o montante é M = 10 000 · (1,015)²⁴. Tirando 45% (quartos) sobram 0,55 · M, e tirando os R$ 2 500 fixos do artesanato resta 0,55 · [10 000 · (1,015)²⁴] − 2 500."
+        },
+        {
+          "text": "0,55 · [10 000 · (1,015)²⁴ − 2 500]",
+          "explanation": "Aqui os R$ 2 500 são descontados antes de aplicar os 55%, como se os 45% dos quartos incidissem sobre o montante já sem o artesanato; os 45% são do montante inteiro."
+        },
+        {
+          "text": "(10 000 − 2 500) · [(1,015)²⁴ − 0,45]",
+          "explanation": "Desconta os R$ 2 500 do capital inicial, antes dos juros; esse gasto fixo sai do montante, depois dos dois anos de aplicação."
+        },
+        {
+          "text": "0,45 · 10 000 · (1,015)²⁴ − 2 500",
+          "explanation": "Usa 45% do montante, que é a parte gasta com os quartos; o que sobra depois dessa despesa são 55%."
+        },
+        {
+          "text": "0,55 · (10 000 − 2 500) · (1,015)²⁴",
+          "explanation": "Subtrai os R$ 2 500 do capital antes de aplicar os juros, como se esse valor não tivesse rendido; o artesanato é pago com o montante final."
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "key": "ufsm-2026-p1-q13",
+      "source": "Vestibular UFSM 2026 – Prova 1, questão 13 (UFSM)",
+      "kind": "Objective",
+      "subject": "quimica",
+      "statement": "O Geoparque Caçapava apresenta sucessões de rochas sedimentares marinhas e continentais de mais de 500 milhões de anos em áreas de grande beleza cênica e alta relevância ecológica. Sua geologia revela a presença de minerais como feldspato e mica, que contêm elementos como alumínio (Al), silício (Si), potássio (K), cálcio (Ca) e ferro (Fe).\n\nSobre esses elementos e suas posições na tabela periódica, considere as afirmativas a seguir.\n\nI → O Al tem raio atômico maior que o Si, embora apresente uma quantidade menor de prótons e elétrons.\n\nII → O Fe é um elemento representativo com diferentes estados de oxidação, atribuindo coloração e propriedades magnéticas a seus minerais.\n\nIII → O íon Fe²⁺ possui 24 elétrons e perde elétrons do subnível 3d ao se formar.\n\nIV → O íon K⁺ é formado mais facilmente que o íon Ca²⁺, assim como o íon Fe³⁺ é formado mais facilmente que o íon Fe²⁺.\n\nEstá(ão) correta(s)",
+      "options": [
+        {
+          "text": "apenas I.",
+          "explanation": "Correta. Al (Z = 13) e Si (Z = 14) estão no mesmo período, e o raio diminui com o aumento da carga nuclear, logo o Al é maior (I). O Fe é metal de transição, não representativo (II falsa); o Fe²⁺ tem 24 elétrons, mas os elétrons perdidos são os do 4s (III falsa); tirar o terceiro elétron do ferro exige mais energia que tirar dois (IV falsa)."
+        },
+        {
+          "text": "apenas II e III.",
+          "explanation": "A II erra ao chamar o ferro de representativo (ele é do bloco d, metal de transição), e a III erra o subnível: na formação do Fe²⁺ saem os dois elétrons do 4s, a camada mais externa."
+        },
+        {
+          "text": "apenas II e IV.",
+          "explanation": "O ferro é elemento de transição, não representativo (II), e formar Fe³⁺ exige mais energia de ionização que formar Fe²⁺ (IV)."
+        },
+        {
+          "text": "apenas I, II e III.",
+          "explanation": "A I está certa, mas o Fe é metal de transição (II falsa) e os elétrons retirados para formar Fe²⁺ são os do 4s, não os do 3d (III falsa)."
+        },
+        {
+          "text": "apenas I, III e IV.",
+          "explanation": "A I está certa, mas na III os elétrons perdidos são os do subnível 4s, e na IV a comparação entre os íons do ferro está invertida: cada ionização sucessiva exige mais energia."
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "key": "ufsm-2026-p1-q14",
+      "source": "Vestibular UFSM 2026 – Prova 1, questão 14 (UFSM)",
+      "kind": "Objective",
+      "subject": "fisica",
+      "statement": "Um dos atrativos turísticos do Geoparque Quarta Colônia, no Rio Grande do Sul, é o cicloturismo, que oferece o Circuito Cicloturístico Coração do Rio Grande. Suponha que, durante o percurso desse circuito, um ciclista realiza uma curva horizontal e plana que descreve um arco de circunferência de diâmetro 20 m. Considerando o conjunto formado pelo ciclista e a bicicleta como uma partícula, qual é o módulo da velocidade máxima para o qual o ciclista é capaz de realizar essa curva sem derrapar? Assuma os coeficientes de atrito estático e cinético dos pneus da bicicleta com a estrada como 0,25 e 0,16, respectivamente, e o módulo da aceleração da gravidade 10 m/s².",
+      "options": [
+        {
+          "text": "4m/s",
+          "explanation": "É o resultado de usar o atrito cinético: √(0,16 · 10 · 10) = 4 m/s. Sem derrapar, o pneu não desliza sobre a pista, então quem atua é o atrito estático."
+        },
+        {
+          "text": "5m/s",
+          "explanation": "Correta. O atrito estático máximo faz o papel de força centrípeta: μₑ · m · g = m · v²/R, com R = 20/2 = 10 m. Logo v = √(μₑ · g · R) = √(0,25 · 10 · 10) = √25 = 5 m/s."
+        },
+        {
+          "text": "4√2 m/s",
+          "explanation": "Vem de dois erros somados: atrito cinético e diâmetro no lugar do raio, √(0,16 · 10 · 20) = √32 = 4√2 m/s."
+        },
+        {
+          "text": "5√2 m/s",
+          "explanation": "Aparece quando se usa o diâmetro (20 m) como raio: √(0,25 · 10 · 20) = √50 = 5√2 m/s. O raio da curva é 10 m."
+        },
+        {
+          "text": "10m/s",
+          "explanation": "Seria √(g · R) = √(10 · 10) = 10 m/s, sem o coeficiente de atrito; a força centrípeta disponível é só μₑ · m · g."
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "key": "ufsm-2026-p1-q15",
+      "source": "Vestibular UFSM 2026 – Prova 1, questão 15 (UFSM)",
+      "kind": "Objective",
+      "subject": "fisica",
+      "statement": "O Geoparque Quarta Colônia é destacado por suas belezas naturais, como rios e cascatas, que convidam ao turismo de aventura. Uma possibilidade para esse tipo de turismo é o rapel, que consiste no processo de descida na vertical com a ajuda de uma corda equipada com um sistema de frenagem. Suponha que, em uma cascata localizada nesse geoparque, é oferecida uma plataforma de rapel com 5 metros de altura em relação ao solo. Uma turista, de massa 60 kg, recebe as orientações básicas sobre a prática do esporte e realiza sua descida em um intervalo de tempo de 5 segundos, partindo da plataforma após ficar suspensa em repouso e tocando o solo com uma velocidade de módulo 1 m/s.\n\nConsiderando-se que a turista comporta-se como uma partícula e assumindo-se o módulo da aceleração da gravidade g=10 m/s², considere as afirmativas a seguir.\n\nI → O módulo da velocidade da turista ao tocar o solo seria 10 m/s, se não fosse pelo sistema de frenagem do equipamento de rapel e demais atritos, ou seja, um sistema conservativo.\n\nII → A energia mecânica conservada na descida equivale a 10% da energia mecânica inicial.\n\nIII → O impulso associado à força resultante média durante a descida tem um módulo de 60 kg m/s.\n\nIV → A força resultante média durante a descida tem um módulo de 12 N.\n\nEstá(ão) correta(s)",
+      "options": [
+        {
+          "text": "apenas II.",
+          "explanation": "A II é justamente a falsa: a energia inicial é m · g · h = 60 · 10 · 5 = 3000 J e a final é m · v²/2 = 60 · 1²/2 = 30 J, ou seja, 1% e não 10%."
+        },
+        {
+          "text": "apenas I e III.",
+          "explanation": "I e III estão certas, mas a IV também: a força resultante média é o impulso dividido pelo tempo, 60/5 = 12 N."
+        },
+        {
+          "text": "apenas II e IV.",
+          "explanation": "A II é falsa (sobram 30 J de 3000 J, isto é, 1%), e faltam I (v = √(2 · 10 · 5) = 10 m/s) e III (impulso = 60 · 1 − 0 = 60 kg m/s)."
+        },
+        {
+          "text": "apenas I, III e IV.",
+          "explanation": "Correta. Sem dissipação, v = √(2 · g · h) = √(2 · 10 · 5) = 10 m/s (I). O impulso da resultante é a variação da quantidade de movimento: 60 · 1 − 0 = 60 kg m/s (III). A força resultante média é 60/5 = 12 N (IV). Já a energia final, 30 J, é 1% dos 3000 J iniciais (II falsa)."
+        },
+        {
+          "text": "I, II, III e IV.",
+          "explanation": "A II é falsa: dos 3000 J de energia potencial inicial restam 60 · 1²/2 = 30 J de energia cinética, o que corresponde a 1%."
+        }
+      ],
+      "correct": "D"
+    },
+    {
+      "key": "ufsm-2026-p1-q16",
+      "source": "Vestibular UFSM 2026 – Prova 1, questão 16 (UFSM)",
+      "kind": "Objective",
+      "subject": "quimica",
+      "statement": "Dentre os empreendimentos existentes nos territórios do Geoparque Quarta Colônia, encontra-se um parque de águas termais. As quatro piscinas de água salina hipertermal são alimentadas por dois poços de 1124 m de profundidade. A água extraída a temperaturas entre 38 °C e 42 °C é oriunda diretamente da Formação Rio Bonito (formação geológica pertencente ao período Permiano, mais antiga que os pacotes triássicos que afloram no território) e apresenta na sua composição lítio, estrôncio, além de silicatos e carbonatos.\n\nCom relação à composição da água termal, considere as afirmativas a seguir.\n\nI → A água termal é uma solução homogênea que permite a condução de corrente elétrica.\n\nII → Os sais dissolvidos aumentam a densidade da água termal, quando comparada à água pura.\n\nIII → O íon silicato (SiO₄²⁻) apresenta geometria tetraédrica, na qual um átomo de silício forma ligações covalentes com quatro átomos de oxigênio.\n\nIV → A água termal é formada por ionização de sais, ou seja, uma reação química que origina íons a partir de sais colocados em água.\n\nEstão corretas",
+      "options": [
+        {
+          "text": "apenas I e IV.",
+          "explanation": "A I está certa, mas a IV não: sais já são formados por íons, e em água sofrem dissociação iônica (separação dos íons), não ionização. Faltam ainda II e III."
+        },
+        {
+          "text": "apenas II e III.",
+          "explanation": "II e III estão certas, mas a I também: os íons dissolvidos tornam a água termal uma solução eletrolítica, que conduz corrente."
+        },
+        {
+          "text": "apenas III e IV.",
+          "explanation": "A IV é falsa, porque sais se dissociam, não se ionizam (ionização é a formação de íons a partir de substâncias moleculares, como os ácidos). Faltam I e II."
+        },
+        {
+          "text": "apenas I, II e III.",
+          "explanation": "Correta. Os íons dissolvidos formam uma solução homogênea e condutora (I) e acrescentam massa ao líquido, aumentando a densidade (II); no silicato, o silício central faz quatro ligações covalentes com oxigênios, em arranjo tetraédrico (III). A IV confunde ionização com dissociação iônica. Observação: a carga usual do ortossilicato é 4− (SiO₄⁴⁻); a afirmativa é avaliada pela geometria."
+        },
+        {
+          "text": "apenas I, II e IV.",
+          "explanation": "A IV é falsa (sais sofrem dissociação iônica, pois os íons já existem no retículo), e falta a III, que descreve corretamente o tetraedro do silicato."
+        }
+      ],
+      "correct": "D"
+    },
+    {
+      "key": "ufsm-2026-p1-q17",
+      "source": "Vestibular UFSM 2026 – Prova 1, questão 17 (UFSM)",
+      "kind": "Objective",
+      "subject": "quimica",
+      "statement": "Compostos como carbonato de estrôncio (SrCO₃) podem se dissolver liberando estrôncio (Sr²⁺) e carbonato (CO₃²⁻) em fontes de águas termais, como a localizada no Geoparque Quarta Colônia. A dissolução do sal de estrôncio é representada pela equação:\n\nSrCO₃(s) ⇄ Sr²⁺(aq) + CO₃²⁻(aq)\n\nSabendo que os íons carbonato (CO₃²⁻) sofrem hidrólise salina na interação com a água, é correto afirmar que",
+      "options": [
+        {
+          "text": "o íon CO₃²⁻ libera H⁺, tornando a água levemente ácida.",
+          "explanation": "O carbonato não tem hidrogênio para liberar: ele é a base conjugada de um ácido fraco e captura H⁺ da água, deixando OH⁻ em solução (meio básico)."
+        },
+        {
+          "text": "o SrCO₃ é um sal derivado de ácido forte e base forte, razão pela qual não interfere no pH da solução.",
+          "explanation": "O sal deriva de uma base forte, Sr(OH)₂, e de um ácido fraco, H₂CO₃; por isso o ânion hidrolisa e o pH sobe."
+        },
+        {
+          "text": "a dissociação de SrCO₃ aumenta a concentração de OH⁻ na solução.",
+          "explanation": "Correta. O carbonato liberado sofre hidrólise: CO₃²⁻ + H₂O ⇄ HCO₃⁻ + OH⁻. A concentração de OH⁻ aumenta e a solução fica básica."
+        },
+        {
+          "text": "o íon Sr²⁺ reage com a água para formar ácido estrôncio, tornando o pH inferior a 7.",
+          "explanation": "O Sr²⁺ é cátion de base forte e praticamente não hidrolisa; não existe “ácido estrôncio”, e o meio fica básico por causa do carbonato."
+        },
+        {
+          "text": "o SrCO₃ é um composto iônico, em que o estrôncio e o grupo carbonato estão unidos por ligações iônicas, assim como as ligações que compõem o íon carbonato.",
+          "explanation": "A ligação entre Sr²⁺ e CO₃²⁻ é iônica, mas dentro do íon carbonato o carbono e os oxigênios, ambos ametais, estão unidos por ligações covalentes."
+        }
+      ],
+      "correct": "C"
+    },
+    {
+      "key": "ufsm-2026-p1-q18",
+      "source": "Vestibular UFSM 2026 – Prova 1, questão 18 (UFSM)",
+      "kind": "Objective",
+      "subject": "biologia",
+      "statement": "Os geoparques são territórios (um ou mais municípios em associação) que conservam testemunhos importantes da história geológica da Terra como, por exemplo, os fósseis, que são restos ou vestígios preservados de animais, plantas ou outros seres, apresentados em moldes do corpo, rastros ou pegadas.\n\nFonte: GEOPARQUE QUARTA COLÔNIA. O que é um geoparque mundial da UNESCO. Disponível em: <https://www.geoparquequartacolonia.com.br/arqs/144.pdf>. Acesso em: 25 ago. 2025. (Adaptado)\n\nConsiderando os fósseis de flores, que são menos encontrados quando comparados aos de caules e folhas, assinale V (verdadeiro) ou F (falso) em cada afirmativa a seguir.\n\n( ) As flores são compostas por peças delicadas, integradas por células sem parede celular, por isso se decompõem com mais facilidade.\n\n( ) Os caules, em geral, são formados por células com parede celular secundária impregnada por lignina, apresentando maior resistência.\n\n( ) As folhas, em geral, deixam impressões das nervuras, cujas células apresentam o glicocálix como envoltório externo, sendo mais resistentes à decomposição.\n\nA sequência correta é",
+      "options": [
+        {
+          "text": "V – V – V.",
+          "explanation": "Só a segunda é verdadeira: toda célula vegetal tem parede celular, inclusive as das flores, e o glicocálix é envoltório de células animais."
+        },
+        {
+          "text": "F – F – V.",
+          "explanation": "Inverte as duas últimas: a lignina na parede secundária de fato dá resistência aos caules, e células vegetais não têm glicocálix."
+        },
+        {
+          "text": "V – V – F.",
+          "explanation": "A primeira é falsa: as células das peças florais têm parede celular (primária, fina e pouco lignificada), como toda célula vegetal."
+        },
+        {
+          "text": "V – F – V.",
+          "explanation": "Erra as três: células de flores têm parede celular, a lignina torna os caules resistentes e o glicocálix é próprio de células animais."
+        },
+        {
+          "text": "F – V – F.",
+          "explanation": "Correta. Células vegetais sempre têm parede celular, mesmo nas flores, que são frágeis por terem parede fina e pouca lignina (F); a parede secundária lignificada dá resistência aos caules (V); o envoltório externo das células vegetais é a parede celulósica, não o glicocálix, típico de células animais (F)."
+        }
+      ],
+      "correct": "E"
+    },
+    {
+      "key": "ufsm-2026-p1-q19",
+      "source": "Vestibular UFSM 2026 – Prova 1, questão 19 (UFSM)",
+      "kind": "Objective",
+      "subject": "quimica",
+      "statement": "A hematita (Fe₂O₃) é um mineral encontrado em diversos geoparques e sua presença é responsável pela cor avermelhada em solos e rochas. A hematita auxilia os geólogos a entenderem a história do lugar onde ela é encontrada, revelando os processos que aconteceram na região ao longo do tempo.\n\nEsse mineral se forma naturalmente, conforme a equação:\n\n4 Fe(s) + 3 O₂(g) → 2 Fe₂O₃(s)\n\nEm relação à formação da hematita, assinale V (verdadeiro) ou F (falso) em cada afirmativa a seguir.\n\n( ) O átomo de ferro sofre redução, pois perde elétrons ao formar a hematita.\n\n( ) O átomo de ferro sofre oxidação, pois ganha elétrons ao formar a hematita.\n\n( ) A hematita (Fe₂O₃) é um óxido de ferro III, sendo também denominada óxido férrico.\n\nA sequência correta é",
+      "options": [
+        {
+          "text": "V – F – V.",
+          "explanation": "A primeira é falsa: o ferro perde elétrons (Nox de 0 para +3), e perder elétrons é oxidação, não redução."
+        },
+        {
+          "text": "F – V – V.",
+          "explanation": "A segunda é falsa: o ferro de fato se oxida, mas oxidação é perda de elétrons, e a afirmativa diz que ele ganha."
+        },
+        {
+          "text": "V – F – F.",
+          "explanation": "A primeira é falsa (perda de elétrons é oxidação) e a terceira é verdadeira: com oxigênio 2−, o ferro em Fe₂O₃ tem Nox +3."
+        },
+        {
+          "text": "F – V – F.",
+          "explanation": "A segunda é falsa, porque oxidação é perda de elétrons, e a terceira é verdadeira: Fe₂O₃ é o óxido de ferro III, ou óxido férrico."
+        },
+        {
+          "text": "F – F – V.",
+          "explanation": "Correta. O ferro passa de Nox 0 para +3: perde elétrons, logo sofre oxidação. A primeira erra o nome do processo e a segunda erra o sentido da transferência (F, F). Em Fe₂O₃, 2x + 3 · (−2) = 0 dá x = +3: óxido de ferro III ou férrico (V)."
+        }
+      ],
+      "correct": "E"
+    },
+    {
+      "key": "ufsm-2026-p1-q20",
+      "source": "Vestibular UFSM 2026 – Prova 1, questão 20 (UFSM)",
+      "kind": "Objective",
+      "subject": "geografia",
+      "statement": "No Geoparque Quarta Colônia, é comum a ocorrência de fósseis atribuindo potencial geocientífico e geoturístico para a área. Dessa forma, desde o início do século XX, a região é conhecida como uma área rica em conteúdo fossilífero. É correto afirmar que os fósseis formam-se em",
+      "options": [
+        {
+          "text": "rochas sedimentares, pois são preservados nas camadas de deposição de sedimentos.",
+          "explanation": "Correta. Os restos de organismos são soterrados por sedimentos e preservados durante a compactação e a cimentação das camadas, em condições de temperatura e pressão que não os destroem."
+        },
+        {
+          "text": "rochas metamórficas, pois são preservados pela alta pressão associada ao metamorfismo.",
+          "explanation": "A pressão e a temperatura elevadas do metamorfismo recristalizam a rocha e, em geral, destroem os fósseis em vez de preservá-los."
+        },
+        {
+          "text": "rochas ígneas, pois são preservados pelo extravasamento do magma em baixas temperaturas que envolve os restos animais e vegetais.",
+          "explanation": "O magma extravasa em temperaturas muito altas, que destroem a matéria orgânica; não há magma em baixa temperatura."
+        },
+        {
+          "text": "rochas basálticas, pois são preservados em diques originados pelo lento resfriamento do magma no interior da Terra.",
+          "explanation": "O basalto é rocha ígnea vulcânica, formada pelo resfriamento rápido da lava, ambiente incompatível com a preservação de organismos."
+        },
+        {
+          "text": "rochas plutônicas, pois são preservados em vesículas deixadas pela expulsão de gases do magma ao atingir a superfície terrestre.",
+          "explanation": "Rochas plutônicas cristalizam em profundidade, onde não há seres vivos a preservar; vesículas de gases são feições de rochas vulcânicas, não de plutônicas."
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "key": "ufsm-2026-p1-q21",
+      "source": "Vestibular UFSM 2026 – Prova 1, questão 21 (UFSM)",
+      "kind": "Objective",
+      "subject": "historia",
+      "statement": "O Geoparque Mundial da UNESCO de Ngorongoro Lengai, na Tanzânia, é reconhecido como um dos locais mais importantes do planeta em possibilidades de compreensão da evolução humana. No sítio de Olduvai, já foram encontrados fósseis de hominídeos de até 2,6 milhões de anos. Em Laetoli, por sua vez, os fósseis remontam a 5 milhões de anos.\n\nFonte: UNESCO. Ngorongoro Lengai Geoparque Mundial da UNESCO. Disponível em: <https://www.unesco.org/en/iggp/ngorongoro-lengai-unesco-global-geopark>. Acesso em: 28 ago. 2025. (Adaptado)\n\nA partir das informações apresentadas no texto e da história da evolução humana, assinale V (verdadeiro) ou F (falso) em cada afirmativa a seguir.\n\n( ) O Geoparque de Ngorongoro Lengai, na África, apresenta vestígios dos mais antigos hominídeos, a exemplo do Sahelanthropus tchadensis, conhecido por Homem de Toumai.\n\n( ) Os fósseis hominídeos encontrados em Ngorongoro Lengai, a exemplo do Australophitecus, permitem o estudo de fatores vitais para a evolução humana, como o polegar opositor e o bipedalismo.\n\n( ) Os fósseis hominídeos encontrados na África, como o Sahelanthropus tchadensis e o Homo sapiens, corroboram a tese da origem da humanidade naquele continente.\n\nA sequência correta é",
+      "options": [
+        {
+          "text": "F – V – V.",
+          "explanation": "Correta. O Sahelanthropus tchadensis (Toumai), com cerca de 7 milhões de anos, foi achado no Chade, na África Central, e não na Tanzânia (F); os australopitecos da região, como os das pegadas de Laetoli, documentam o bipedalismo (V); os fósseis africanos mais antigos da linhagem humana sustentam a origem africana da humanidade (V)."
+        },
+        {
+          "text": "V – F – V.",
+          "explanation": "A primeira é falsa, porque o Toumai foi encontrado no Chade, como o próprio nome tchadensis indica, e a segunda é verdadeira: os australopitecos da Tanzânia são referência no estudo do andar bípede."
+        },
+        {
+          "text": "V – F – F.",
+          "explanation": "Erra as três: o Sahelanthropus é do Chade, os australopitecos permitem estudar o bipedalismo e os fósseis africanos apoiam a origem africana da humanidade."
+        },
+        {
+          "text": "F – V – F.",
+          "explanation": "A terceira é verdadeira: os hominídeos mais antigos e os primeiros Homo sapiens foram encontrados na África, base da tese da origem africana."
+        },
+        {
+          "text": "V – V – V.",
+          "explanation": "A primeira é falsa: o Sahelanthropus tchadensis foi descoberto no Chade, a milhares de quilômetros da Tanzânia, e é mais antigo que os fósseis citados no texto."
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "key": "ufsm-2026-p1-q22",
+      "source": "Vestibular UFSM 2026 – Prova 1, questão 22 (UFSM)",
+      "kind": "Objective",
+      "subject": "matematica",
+      "statement": "O Sítio Paleontológico Linha São Luiz, no Geoparque Quarta Colônia, é conhecido por seus fósseis de cinodontes e dinossauros. Sabe-se que uma forma de obter a idade aproximada de um fóssil é quantificada pela concentração de carbono-14 encontrada na amostra. Suponha que a quantidade de carbono-14 possa ser modelada por\n\nQ(t) = q₀(1/2)^(t²/(98 ∙ 10⁴))\n\nem função do tempo t ≥ 0, contado em anos, e do q₀ que é a quantidade inicial de carbono-14, originalmente encontrado nesse tipo de fóssil. Medidas atuais mostram que tal fóssil contém somente 25% de carbono-14 originalmente presente. Utilizando-se a fórmula acima, cujo tempo é sempre medido em anos, e os dados apresentados em relação à idade desse fóssil no momento em que foi aferida a medida, chegou-se à conclusão de que a idade aproximada desse fóssil é T.\n\nEm relação a este valor T, considere as afirmativas a seguir.\n\nI → T é um número racional menor que 2 000.\n\nII → T é um número inteiro maior que 1 000.\n\nIII → T é um número inteiro menor que 1 500.\n\nIV → T não é um número inteiro, mas é menor que 2 000.\n\nEstá(ão) correta(s)",
+      "options": [
+        {
+          "text": "apenas III.",
+          "explanation": "A III vale, mas T = 1 400 também é racional menor que 2 000 (I) e inteiro maior que 1 000 (II)."
+        },
+        {
+          "text": "apenas I e IV.",
+          "explanation": "A IV é falsa: T = 1 400 é inteiro. Esse resultado apareceria se a raiz de 196 ∙ 10⁴ não fosse exata, mas √(196 ∙ 10⁴) = 14 ∙ 10² = 1 400."
+        },
+        {
+          "text": "apenas II e IV.",
+          "explanation": "II e IV se contradizem (inteiro e não inteiro); como T = 1 400, a IV é falsa, e faltam I e III."
+        },
+        {
+          "text": "apenas I, II e III.",
+          "explanation": "Correta. 25% = (1/2)², então t²/(98 ∙ 10⁴) = 2, t² = 196 ∙ 10⁴ e T = 14 ∙ 10² = 1 400 anos. Esse número é inteiro (portanto racional), maior que 1 000 e menor que 1 500 e que 2 000: valem I, II e III, e a IV é falsa."
+        },
+        {
+          "text": "I, II, III e IV.",
+          "explanation": "A IV não pode valer junto com II e III: T = 1 400 é um número inteiro."
+        }
+      ],
+      "correct": "D"
+    },
+    {
+      "key": "ufsm-2026-p1-q23",
+      "source": "Vestibular UFSM 2026 – Prova 1, questão 23 (UFSM)",
+      "kind": "Objective",
+      "subject": "fisica",
+      "statement": "A região central do Rio Grande do Sul, onde se localiza o Geoparque Quarta Colônia, é reconhecida internacionalmente como um importante sítio arqueológico, onde se encontram fósseis do período Triássico, com cerca de 250 milhões de anos. Durante uma escavação, uma pesquisadora encontrou uma rocha com um possível fóssil. Feliz com a descoberta, apresentou a rocha coletada ao seu colega, segurando-a com a mão, o antebraço na horizontal e o braço flexionado com um ângulo de 150 graus, como ilustra a figura (representação esquemática do braço da pesquisadora no momento da apresentação da rocha coletada).\n\n![Esquema de um braço segurando uma rocha: o antebraço está na horizontal, com o cotovelo à esquerda e a mão à direita; o braço sobe do cotovelo para a esquerda, e o bíceps vai do ombro até um ponto do antebraço a 5 cm do cotovelo, formando com o antebraço um ângulo de 150º. A rocha está apoiada na mão, a 30 cm do cotovelo, e o conjunto antebraço e mão mede 40 cm a partir do cotovelo.](img/ufsm/2026/prova-1/q23-1.png)\n\nPara manter o antebraço em equilíbrio estático, uma força de módulo 400 N é exercida pelo bíceps da pesquisadora sobre seu antebraço. Considerando o conjunto formado pela mão e pelo antebraço como uma barra homogênea de comprimento 40 cm e massa de 2 kg, qual é a massa da rocha coletada, se esta estiver a 30 cm do cotovelo? (Dados da questão: sen150º=0,5; cos150º=–0,9; módulo da aceleração da gravidade g=10 m/s²).",
+      "options": [
+        {
+          "text": "0,7 kg",
+          "explanation": "Resulta de aplicar o peso da barra na extremidade (40 cm) em vez de no centro: 10 = 20 · 0,40 + 3m dá m ≈ 0,7 kg. Em barra homogênea, o peso atua no ponto médio, a 20 cm do cotovelo."
+        },
+        {
+          "text": "2,0 kg",
+          "explanation": "Correta. Torques em relação ao cotovelo: o bíceps contribui com 400 · sen150º · 0,05 = 10 N·m; o peso da barra (20 N, no centro, a 0,20 m) com 4 N·m; a rocha com m · 10 · 0,30. No equilíbrio, 10 = 4 + 3m, logo m = 2,0 kg."
+        },
+        {
+          "text": "4,0 kg",
+          "explanation": "Vem de dois erros: usar a força inteira do bíceps, sem o sen150º (400 · 0,05 = 20 N·m), e pôr o peso da barra na ponta (20 · 0,40 = 8 N·m): 20 = 8 + 3m dá m = 4 kg."
+        },
+        {
+          "text": "4,7 kg",
+          "explanation": "Aparece quando o torque do peso da barra é somado ao do bíceps em vez de se opor a ele: 3m = 10 + 4 dá m ≈ 4,7 kg. O bíceps gira o antebraço para cima; os dois pesos, para baixo."
+        },
+        {
+          "text": "5,3 kg",
+          "explanation": "Ignora a inclinação do bíceps: com a força inteira, 400 · 0,05 = 20 N·m, e 20 = 4 + 3m dá m ≈ 5,3 kg. Só a componente perpendicular ao antebraço, 400 · sen150º = 200 N, produz torque."
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "key": "ufsm-2026-p1-q24",
+      "source": "Vestibular UFSM 2026 – Prova 1, questão 24 (UFSM)",
+      "kind": "Objective",
+      "subject": "geografia",
+      "statement": "O geossítio Novo Treviso localiza-se no município de Faxinal do Soturno, no Geoparque Quarta Colônia. O local apresenta feições de pegadas fósseis atribuídas a dinossauros herbívoros, aparentes devido à erosão diferencial e, às vezes, cobertas por areia e brita. Como o local não está isolado, ocorre a passagem de automóveis, pessoas e animais que transitam sobre as pegadas.\n\nEm relação aos processos erosivos e ao intemperismo que ocorrem nesse geossítio, assinale V (verdadeiro) ou F (falso) em cada afirmativa a seguir.\n\n( ) A erosão diferencial presente nas feições de pegadas ocorre quando rochas de diferentes tipos e resistências são erodidas em taxas distintas.\n\n( ) A erosão eólica ocasionada pela correnteza das águas fluviais é responsável pelo transporte de brita para as feições de pegadas fósseis.\n\n( ) O intemperismo físico ocasionado pela passagem de pessoas e animais confere alto risco de erosão para as feições de pegadas fósseis.\n\nA sequência correta é",
+      "options": [
+        {
+          "text": "V – F – F.",
+          "explanation": "A terceira é verdadeira: o pisoteio e o tráfego desgastam mecanicamente a rocha e põem as pegadas em risco."
+        },
+        {
+          "text": "F – V – F.",
+          "explanation": "Erra as três: a definição de erosão diferencial está correta, a erosão eólica é feita pelo vento (não por rios) e o trânsito sobre as pegadas causa desgaste físico."
+        },
+        {
+          "text": "V – V – V.",
+          "explanation": "A segunda é falsa: erosão eólica é a ação do vento, e a causada por rios é a fluvial; além disso, brita é pedra britada, levada ao local pela ação humana."
+        },
+        {
+          "text": "V – F – V.",
+          "explanation": "Correta. Erosão diferencial é o desgaste desigual de materiais com resistências diferentes (V); erosão eólica é obra do vento, não da correnteza de rios (F); o trânsito de pessoas, animais e veículos desgasta fisicamente a rocha e ameaça as pegadas (V)."
+        },
+        {
+          "text": "F – V – V.",
+          "explanation": "A primeira é verdadeira (é a definição de erosão diferencial) e a segunda é falsa, pois mistura vento com água fluvial."
+        }
+      ],
+      "correct": "D"
+    },
+    {
+      "key": "ufsm-2026-p1-q25",
+      "source": "Vestibular UFSM 2026 – Prova 1, questão 25 (UFSM)",
+      "kind": "Objective",
+      "subject": "lingua-portuguesa",
+      "statement": "Em 2007, foi encontrado, no município de Agudo, no Rio Grande do Sul, um esqueleto de dinossauro muito diferente dos já encontrados na região. Por suas características avantajadas, recebeu o nome de Bagualosaurus agudoensis. Sabe-se que “bagual” é um termo muito utilizado no sul do Brasil para designar uma pessoa ou animal forte.\n\nAtualmente o esqueleto original do Bagualosaurus está exposto no Centro de Apoio à Pesquisa Paleontológica (CAPPA), localizado no município de São João do Polêsine, na Quarta Colônia, e está disponível para visitação.\n\nAs imagens a seguir constituem diferentes representações do Bagualosaurus agudoensis.\n\n**Figura 01**\n\n![Ilustração de ficha científica com o título “Bagualosaurus”: um dinossauro bípede de pescoço e cauda longos, de perfil; ao lado, a silhueta de um gato doméstico, bem menor, como escala de tamanho; no alto, um mapa-múndi com um ponto marcado no sul da América do Sul; embaixo, a legenda “Clade: Bagualosauria – Pretto, Langer & Schultz, 2018” e uma linha do tempo (252, Triassic, 201, Jurassic, 145, Cretaceous, 66 milhões de anos atrás) com uma seta apontando para o Triássico.](img/ufsm/2026/prova-1/q25-1.png)\n\nFonte: CISIOPURPLE. Bagualosaurus. Publicado em: 28 maio 2018. Disponível em: <https://www.deviantart.com/cisiopurple/art/Bagualosaurus-747094322>. Acesso em: 08 ago. 2025. (Adaptado)\n\n**Figura 02**\n\n![Ilustração com o título “Bagualosaurus”: o mesmo dinossauro, agora vestido de gaúcho, com chapéu, bigode, lenço no pescoço e bombacha, ao lado da silhueta de uma pessoa, um pouco mais alta que ele, como escala de tamanho. Não há mapa nem linha do tempo.](img/ufsm/2026/prova-1/q25-2.png)\n\nFonte: TAMURA, N. Bagualosaurus. Adaptado por: JOELS, M. Conheça o dinossauro mais bagual do Estado: fóssil foi encontrado na Região Central. Diário de Santa Maria. Publicado em: 20 jun. 2023. Disponível em: <https://diariosm.com.br/noticias/geral/conheca_o_dinossauro_mais_bagual_do_estado_fossil_foi_encontrado_na_regiao_central.523998>. Acesso em: 08 ago. 2025.\n\nTendo em vista as informações apresentadas nas duas figuras, considere as afirmativas a seguir.\n\nI → A figura 01 constitui um infográfico científico que traz informações importantes sobre o tamanho do Bagualosaurus agudoensis, a localização geográfica e o período em que viveu.\n\nII → A figura 02 constitui uma paráfrase da figura 01, já que adapta a figura do Bagualosaurus agudoensis às características do gaúcho.\n\nIII → O objetivo da figura 01 é informar, e o objetivo da figura 02 é provocar humor.\n\nIV → A figura 01 apresenta características de um texto acadêmico, e a figura 02 apresenta características de ridicularização.\n\nEstão corretas",
+      "options": [
+        {
+          "text": "apenas I e II.",
+          "explanation": "A II é falsa: paráfrase reafirma o sentido do texto original com outras palavras; vestir o dinossauro de gaúcho muda o sentido com intenção humorística, o que se aproxima da paródia. Falta a III."
+        },
+        {
+          "text": "apenas I e III.",
+          "explanation": "Correta. A figura 01 reúne escala (silhueta do gato), mapa e linha do tempo, como um infográfico científico cujo fim é informar (I e III); a figura 02 brinca com o nome “bagual” ao vestir o animal de gaúcho, buscando o humor. Ela não é paráfrase (II) nem ridiculariza, e a figura 01 não é texto acadêmico (IV)."
+        },
+        {
+          "text": "apenas II e III.",
+          "explanation": "A III está certa, mas a II não: a figura 02 recria a primeira com outro propósito, o humor, e por isso não é paráfrase. Falta a I."
+        },
+        {
+          "text": "apenas II e IV.",
+          "explanation": "As duas são falsas: a figura 02 não é paráfrase, e seu humor é afetuoso, ligado à identidade regional, não uma ridicularização; a figura 01 é um infográfico de divulgação, não um texto acadêmico."
+        },
+        {
+          "text": "apenas III e IV.",
+          "explanation": "A III está certa, mas a IV exagera dos dois lados: um infográfico não é texto acadêmico, e a brincadeira com o gaúcho não ridiculariza o dinossauro nem a cultura local. Falta a I."
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "key": "ufsm-2026-p1-q26",
+      "source": "Vestibular UFSM 2026 – Prova 1, questão 26 (UFSM)",
+      "kind": "Objective",
+      "subject": "artes-educacao-fisica",
+      "statement": "No final do século XIX e início do século XX, várias expedições artísticas e científicas foram realizadas no Brasil, as quais, além da participação de brasileiros, atraíram artistas e pesquisadores estrangeiros. O Ceará foi o único estado a ser explorado de forma extensiva em registros visuais e escritos, tendo inclusive Albert Einstein comprovado a Teoria da Relatividade Geral a partir da observação do eclipse solar em 1919, na cidade de Sobral.\n\nBuscando retratar a fauna e a flora locais, bem como registrar potenciais de riquezas a serem exploradas no estado, as expedições organizadas por brasileiros tiveram seções que catalogavam a botânica, a geologia, a mineralogia, a zoologia, a astronomia, a geografia e a etnografia. Entre os integrantes, são citados José Carlos dos Reis Carvalho, professor de desenho da Escola Marinha e ex-aluno de Jean-Baptiste Debret, e Antônio Gonçalves Dias, escritor, advogado e etnólogo.\n\nAssim, no começo do século XX, na Chapada do Araripe, região cearense onde se localiza o primeiro geoparque do Brasil, reconhecido pela UNESCO em 2006, era comum a presença de artistas e cientistas, entre outros estrangeiros, levando fósseis de peixes, insetos e plantas para a Europa. Muitos desses artefatos arqueológicos tornaram-se coleções de espaços expositivos, como o caso do Ubirajara jubatus, representado na imagem a seguir, considerado exemplar mais antigo do Geoparque Araripe. Em 2023, foi repatriado de um museu na Alemanha para o Museu de Paleontologia Plácido Cidade Nuvens, na cidade de Santana do Cariri.\n\n![Ilustração em preto e branco de um pequeno dinossauro bípede, de corpo coberto por filamentos semelhantes a penas, com uma crina ao longo do dorso, cauda longa e listrada e hastes compridas e rígidas saindo dos ombros, saltando sob a chuva.](img/ufsm/2026/prova-1/q26-1.png)\n\nFonte: G1. Ubirajara jubatus viveu há cerca de 110 e 115 milhões de anos e é o dinossauro mais antigo da Bacia do Araripe. Foto: Divulgação. Disponível em: <https://g1.globo.com/ce/ceara/cariri/noticia/2023/05/17/museu-cearense-deve-receber-fossil-contrabandeado-para-a-alemanha.ghtml>. Acesso em: 14 out. 2025. (Adaptado)\n\nRemover uma obra de arte, artefato cultural ou arqueológico de um território para outro é uma das formas mais eficientes de colonização do olhar, amplificando a Síndrome do Vira-Lata Criativo por meio do apagamento progressivo da memória e da identidade da Arte, da Ciência e da História de um país. Contemporaneamente, há o movimento, em países na América Latina e na África, de se reconduzir o diálogo com museus europeus, requisitando os bens levados pelos colonizadores, o que tem aberto o debate sobre não só as estruturas disponíveis para manutenção e guarda em acervos, como também o acesso ao público em geral nesses espaços.\n\nCom base na leitura da imagem e do texto, considere as afirmativas a seguir.\n\nI → O exemplar fóssil Ubirajara jubatus foi repatriado em 2023 de um museu na Alemanha e se encontra atualmente como obra de Arte, exposto num museu na cidade de Santana do Cariri, no Ceará.\n\nII → Conforme a Síndrome do Vira-Lata Criativo, obras de arte, artefatos culturais ou arqueológicos são bens que devem estar fora dos países colonizados, pois sua população é subalterna criativa e cientificamente.\n\nIII → Artistas e pesquisadores estrangeiros não foram ao Ceará só para investigação; tanto a Arte quanto a Ciência foram utilizadas a serviço da colonização do território no registro do potencial de recursos naturais a serem explorados.\n\nIV → Por serem estratégicos para manutenção dos geoparques brasileiros e para divulgação do patrimônio cultural e científico do país, museus são inadequados para a guarda de obras de arte, artefatos culturais e arqueológicos.\n\nEstão corretas",
+      "options": [
+        {
+          "text": "apenas I e II.",
+          "explanation": "A I é falsa: o Ubirajara jubatus é um fóssil, peça de acervo paleontológico e científico, e não uma obra de arte. A II vale, mas falta a III."
+        },
+        {
+          "text": "apenas I e III.",
+          "explanation": "A III está certa, mas a I trata o fóssil repatriado como obra de arte, quando ele integra o acervo de um museu de paleontologia. Falta a II."
+        },
+        {
+          "text": "apenas II e III.",
+          "explanation": "Correta. A II descreve a lógica da síndrome que o texto critica: a crença de que o país colonizado é inferior e de que seus bens ficam melhor fora dele. A III retoma o texto: as expedições registravam “potenciais de riquezas a serem exploradas” e levavam fósseis para a Europa. A I chama o fóssil de obra de arte, e a IV se contradiz."
+        },
+        {
+          "text": "apenas II e IV.",
+          "explanation": "A IV é incoerente: se os museus são estratégicos para divulgar o patrimônio, são justamente o lugar adequado para a guarda, e o fóssil repatriado foi para um museu. Falta a III."
+        },
+        {
+          "text": "apenas I, III e IV.",
+          "explanation": "Só a III se sustenta: o fóssil não é obra de arte (I), e os museus são adequados, e não inadequados, à guarda desses bens (IV)."
+        }
+      ],
+      "correct": "C"
+    },
+    {
+      "key": "ufsm-2026-p1-q27",
+      "source": "Vestibular UFSM 2026 – Prova 1, questão 27 (UFSM)",
+      "kind": "Objective",
+      "subject": "historia",
+      "statement": "Primeiro geoparque reconhecido pela UNESCO no Brasil, o Araripe, no Cariri cearense, abriga geossítios que se caracterizam pelas formações geológicas, paisagísticas, paleontológicas e socioculturais, a exemplo de diversas festividades, como o Reisado de Congo e as Bandas Cabaçais, a seguir definidas.\n\nO Reisado de Congo é assim designado pela sua origem na celebração que coroava os reis africanos que viviam no Brasil, conhecida no Ceará como Congo [...]. Ligadas às Irmandades de Homens Pretos, era dentro das igrejas que aconteciam as coroações destes reis, escolhidos anualmente para representar a classe de escravos e negros forros.\n\nFonte: MOURA, T. Reisado do Congo. Passagens, Ceará, n. 1, v. 9, p. 196, 2019.\n\nAs Bandas Cabaçais estão inseridas em um “contexto musical religioso [...] transmitido de geração em geração e classificado pelos pifeiros como sendo a música do começo do mundo ou como a música dos índios [...]”.\n\nFonte: BRAGA, E.; LUCINI, M. Práticas educativas e ressifignações dos saberes e fazeres das Bandas Cabaçais rurais: ações decoloniais no contexto musical urbano/contemporâneo. Revista Ibero-Americana de Estudos em Educação, Araraquara, n. 4, v. 16, p. 2854, 2021.\n\nConsiderando os excertos e o conhecimento histórico, assinale V (verdadeiro) ou F (falso) em cada afirmativa a seguir.\n\n( ) O Reisado de Congo é manifestação da tradição popular, da ancestralidade negra e de afirmação da identidade de comunidades remanescentes locais.\n\n( ) As Bandas Cabaçais expressam a permanência de traços culturais indígenas, sobremodo cariris, na cultura da região.\n\n( ) O Geoparque de Arararipe possui aspectos culturais que remetem a diferentes culturas do período colonial, a exemplo da africana, da indígena e da portuguesa.\n\nA sequência correta é",
+      "options": [
+        {
+          "text": "V – F – F.",
+          "explanation": "A segunda e a terceira também são verdadeiras: os próprios pifeiros chamam sua música de “música dos índios”, e as festas reúnem heranças africana, indígena e portuguesa."
+        },
+        {
+          "text": "V – V – V.",
+          "explanation": "Correta. O Reisado nasce da coroação dos reis do Congo nas Irmandades de Homens Pretos (V); as Bandas Cabaçais são associadas à música indígena da região, território dos povos cariris (V); a coroação dentro das igrejas católicas mostra o encontro das matrizes africana, indígena e portuguesa do período colonial (V)."
+        },
+        {
+          "text": "V – F – V.",
+          "explanation": "A segunda é verdadeira: o excerto registra que a música das Bandas Cabaçais é classificada como “a música dos índios”, sinal da permanência de traços indígenas."
+        },
+        {
+          "text": "F – V – F.",
+          "explanation": "A primeira e a terceira são verdadeiras: o Reisado vem da coroação de reis africanos por irmandades negras, e as festividades combinam elementos africanos, indígenas e do catolicismo português."
+        },
+        {
+          "text": "F – F – V.",
+          "explanation": "As duas primeiras são verdadeiras: o Reisado expressa a ancestralidade negra, e as Bandas Cabaçais guardam traços da cultura indígena."
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "key": "ufsm-2026-p1-q28",
+      "source": "Vestibular UFSM 2026 – Prova 1, questão 28 (UFSM)",
+      "kind": "Objective",
+      "subject": "historia",
+      "statement": "Na região central do Rio Grande do Sul, localiza-se o Geoparque Quarta Colônia, com destaques em paleontologia, recursos naturais, paisagens e cultura, sendo relevante para diversos projetos da Universidade Federal de Santa Maria em parceria com as comunidades. Além das tradições originadas das imigrações italiana e alemã, a área abriga comunidades quilombolas, surgidas a partir do século XIX, como São Miguel dos Carvalhos, Rincão dos Martimianos e Barro Vermelho, as quais lutam por direitos e políticas públicas afirmativas.\n\nAcerca da história dos quilombos e das comunidades remanescentes, considere as afirmativas a seguir.\n\nI → A história dos quilombos, locais de resistência às violências da escravidão e à exploração, tem no Quilombo dos Palmares um expoente, embora haja registros de muitos outros durante o período colonial.\n\nII → A Diáspora Africana e a subsequente escravização evidenciam que as populações negras foram, historicamente, marginalizadas, com repercussões até os dias atuais, o que motiva a luta por direitos dos remanescentes.\n\nIII → As comunidades de remanescentes quilombolas, como as da Quarta Colônia, são relevantes para a manutenção da cultura afro-brasileira, necessitando de seu reconhecimento legal.\n\nIV → A ação das comunidades quilombolas tem influenciado várias conquistas, como a penalização legal do racismo e a instituição da democracia racial no país.\n\nEstão corretas",
+      "options": [
+        {
+          "text": "apenas I e II.",
+          "explanation": "I e II estão certas, mas a III também: o reconhecimento legal das comunidades e de suas terras, previsto na Constituição de 1988, é condição para preservar sua cultura."
+        },
+        {
+          "text": "apenas II e IV.",
+          "explanation": "A IV é falsa: a “democracia racial” é um mito que encobre a desigualdade, e não algo instituído no país. Faltam I e III."
+        },
+        {
+          "text": "apenas III e IV.",
+          "explanation": "A III vale, mas a IV não: o racismo foi criminalizado, porém a democracia racial nunca se concretizou; a própria luta por políticas afirmativas mostra isso. Faltam I e II."
+        },
+        {
+          "text": "apenas I, II e III.",
+          "explanation": "Correta. Palmares é o quilombo mais conhecido entre muitos do período colonial (I); a escravização deixou uma marginalização que persiste e motiva a luta por direitos (II); o reconhecimento legal protege as comunidades e a cultura afro-brasileira (III). A IV erra ao dar a democracia racial como instituída, quando ela é considerada um mito."
+        },
+        {
+          "text": "apenas I, III e IV.",
+          "explanation": "A IV é falsa, pois não existe democracia racial instituída no Brasil, e a II, que está correta, ficou de fora."
+        }
+      ],
+      "correct": "D"
+    },
+    {
+      "key": "ufsm-2026-p1-q29",
+      "source": "Vestibular UFSM 2026 – Prova 1, questão 29 (UFSM)",
+      "kind": "Objective",
+      "subject": "historia",
+      "statement": "A cidade de Aínsa, localizada no Geoparque Mundial da UNESCO de Sobrarbe-Pirineus, na Espanha, tem na arquitetura um de seus destaques, como se pode observar na imagem.\n\n![Fotografia em preto e branco de uma rua estreita, calçada de pedra e ladeada por casas de pedra; ao fundo, uma igreja de pedra com torre alta e maciça, de planta quadrada, paredes grossas, poucas e pequenas aberturas em arco de volta perfeita (arredondado) e um portal de entrada formado por arcos redondos concêntricos.](img/ufsm/2026/prova-1/q29-1.png)\n\nFonte: VILLA DE AÍNSA. Igreja de Santa Maria de Aínsa. Villa de Aínsa. Disponível em: <https:/villadeainsa.com/iglesia-de-santa-maria-de-ainsa/>. Acesso em: 24 jul. 2025.\n\nAlém disso, bianualmente, a praça central da cidade realiza uma celebração, La Morisma, que rememora a vitória do rei Garcí Ximénez sobre os sarracenos no século VIII. A encenação é realizada pelos próprios moradores da cidade e arredores, na região de Aragão.\n\nFonte: AÍNSA. La Morisma. Oficina Municipal de turismo de Aínsa. Disponível em: <https:/villadeainsa.com/fiestas/la-morisma/>. Acesso em: 14 ago. 2025. (Adaptado)\n\nAo analisar a imagem e o contexto histórico de La Morisma, é correto afirmar que",
+      "options": [
+        {
+          "text": "o estilo arquitetônico da igreja é característico da Alta Idade Média e marcado pela solidez, pela simplicidade ornamental e pelos arcos ogivais, conferindo uma sensação de elevação ao céu e proximidade com o divino.",
+          "explanation": "Arcos ogivais e verticalidade são marcas do gótico, da Baixa Idade Média. A igreja da imagem tem paredes maciças e arcos redondos, traços do românico."
+        },
+        {
+          "text": "o estilo arquitetônico da igreja representada na imagem e La Morisma demonstram a influência cristã na formação cultural da região, remetendo a um mundo compreendido e explicado pelas leis divinas.",
+          "explanation": "Correta. A igreja medieval e a festa que celebra a vitória de um rei cristão sobre os muçulmanos expressam a centralidade do cristianismo na formação de Aragão, própria da visão teocêntrica medieval."
+        },
+        {
+          "text": "La Morisma evoca o contexto histórico da luta entre reinos cristãos e muçulmanos, o qual resultaria na formação de Portugal, Espanha e França no início do período medieval.",
+          "explanation": "A Reconquista está ligada à formação de Portugal e da Espanha, não da França, e esse processo se concluiu entre a Baixa Idade Média e o início da Idade Moderna, não no começo do período medieval."
+        },
+        {
+          "text": "a arquitetura, entre os séculos V e XV, possui estreita vinculação com o imaginário cristão, em que as edificações deveriam proporcionar um sentimento de proteção, embora o interior fosse pouco iluminado e frio.",
+          "explanation": "A descrição serve ao românico, mas não a todo o período: as catedrais góticas, a partir do século XII, buscavam altura e interiores iluminados por grandes vitrais."
+        },
+        {
+          "text": "as festividades ligadas à ancestralidade e à arquitetura medieval contribuem para o isolamento das populações do Geoparque Sobrarbe-Pirineus, imunes aos processos de homogeinização cultural contemporâneos.",
+          "explanation": "Festas e patrimônio atraem visitantes e integram a região ao turismo; nenhuma população está imune à homogeneização cultural, e preservar tradições é justamente uma resposta a ela."
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "key": "ufsm-2026-p1-q30",
+      "source": "Vestibular UFSM 2026 – Prova 1, questão 30 (UFSM)",
+      "kind": "Objective",
+      "subject": "literatura",
+      "statement": "A arte está presente em qualquer grupo socialmente organizado desde sempre. Um exemplo disso são as pinturas rupestres encontradas em alguns geoparques do país. Toda forma de arte possui elementos específicos de expressão: a pintura, por exemplo, trabalha com linhas e cores, enquanto a literatura trabalha com a linguagem verbal. Há também as linguagens artísticas, como o cinema, as histórias em quadrinho, o slam e o teatro, para citar alguns, que integram textos verbais com imagens ou perfomance corporal.\n\nUm dos principais dramaturgos de língua portuguesa é Gil Vicente. O texto a seguir foi extraído da peça Auto da Lusitânia.\n\n```\nNinguém        Que andas tu aí buscando?\nTodo o Mundo   Mil cousas ando a buscar:\n               delas não posso achar,\n               porém ando perfiando,\n               por quão bom é perfiar.\nNinguém        Como hás nome, cavaleiro?\nTodo o Mundo   E eu ei nome Todo o Mundo\n               e meu tempo todo inteiro\n               sempre é buscar dinheiro;\n               e sempre nisto me fundo.\nNinguém        Eu ei nome Ninguém,\n               e busco a consciência.\nBerzebu para Dinato\nBerzebu        Esta é boa experiência!\n               Dinato, escreve isto bem.\nDinato         Que escreverei, companheiro?\nBerzebu        Que Ninguém busca consciência.\n               E Todo o Mundo dinheiro.\nNinguém para Todo o Mundo\nNinguém        E agora que buscas lá?\nTodo o Mundo   Busco honra muito grande.\nNinguém        E eu virtude, que Deus mande\n               que tope co ela já.\nBerzebu para Dinato\nBerzebu        Outra adição nos acude:\n               escreve aí, a fundo,\n               que busca honra Todo o Mundo\n               e Ninguém busca virtude.\n```\n\nFonte: VICENTE, G. Auto da Lusitânia. Publicado em MOISÉS, M. A literatura portuguesa através dos textos. 13. ed. São Paulo: Cultrix. p. 58-61. (Fragmento). In: SARMENTO, L. L.; TUFANO, D. Português: literatura, gramática e produção de texto. São Paulo: Moderna, 2010. p. 98-99.\n\nTendo em vista o excerto da peça Auto da Lusitânia e o contexto da produção de Gil Vicente, assinale V (verdadeiro) ou F (falso) em cada afirmativa a seguir.\n\n( ) No trecho da peça, há o uso do recurso da metáfora para representar alguns conceitos relacionados aos vícios e às virtudes humanas, tais como mentira, honestidade, vaidade e cobiça.\n\n( ) A peça foi produzida em uma época de crise dos valores medievais e, por isso, não se caracteriza como teocêntrica nem crítica à corrupção da sociedade, como se observa nas falas de Berzebu sobre a personagem Todo o Mundo.\n\n( ) A peça é uma moralidade, um gênero típico do teatro medieval, com claro simbolismo moral, como se observa na escolha dos nomes das personagens Todo o Mundo e Ninguém.\n\nA sequência correta é",
+      "options": [
+        {
+          "text": "V – V – F.",
+          "explanation": "Erra as três: o recurso do trecho é a alegoria, a peça é sim uma crítica moral à sociedade, e ela pertence ao gênero das moralidades."
+        },
+        {
+          "text": "V – F – F.",
+          "explanation": "A primeira é falsa (as personagens são alegorias, e o trecho fala de dinheiro, consciência, honra e virtude, não de mentira ou honestidade) e a terceira é verdadeira."
+        },
+        {
+          "text": "V – F – V.",
+          "explanation": "A primeira é falsa: Todo o Mundo e Ninguém são alegorias, e não metáforas, e o excerto não trata de mentira nem de honestidade."
+        },
+        {
+          "text": "F – V – F.",
+          "explanation": "Inverte as duas últimas: o teatro vicentino conserva a visão religiosa medieval e critica os costumes, e a peça é uma moralidade."
+        },
+        {
+          "text": "F – F – V.",
+          "explanation": "Correta. O recurso central é a alegoria, com personagens que encarnam ideias, e o trecho fala de dinheiro, consciência, honra e virtude (F); as falas de Berzebu resumem uma crítica moral de fundo religioso: todo o mundo busca dinheiro e honra, ninguém busca consciência e virtude (F); nomes simbólicos e lição moral são traços da moralidade medieval (V)."
+        }
+      ],
+      "correct": "E"
+    },
+    {
+      "key": "ufsm-2026-p1-q31",
+      "source": "Vestibular UFSM 2026 – Prova 1, questão 31 (UFSM)",
+      "kind": "Objective",
+      "subject": "artes-educacao-fisica",
+      "statement": "Observe a imagem e leia o texto a seguir.\n\n![Fotografia em preto e branco, em detalhe, de uma superfície de rocha com marcas e traços claros de pintura rupestre, pouco nítidos, entre fissuras da pedra.](img/ufsm/2026/prova-1/q31-1.png)\n\nFonte: AGECOM/UFRN. Pinturas rupestres do Geoparque Seridó são uma janela para o passado. Publicado em: 22 maio 2025. Disponível em: <https://www.ufrn.br/imprensa/noticias/90706/pinturas-rupestres-do-geoparque-serido-sao-uma-janela-para-o-passado>. Acesso em: 30 set. 2025.\n\nOs geoparques brasileiros representam territórios que combinam patrimônio geológico, diversidade natural e riqueza cultural ancestral. Entre as manifestações culturais mais significativas preservadas nesses espaços, encontra-se a arte rupestre, uma das formas de expressão mais antigas da humanidade. Os sítios arqueológicos, distribuídos em diversos geoparques, como o Seridó, no Rio Grande do Norte, constituem verdadeiras “janelas para o passado”, oferecendo informações valiosas sobre as sociedades pré-históricas e suas relações com o ambiente. As características geológicas específicas de cada região influenciam diretamente tanto a preservação desses patrimônios artísticos e arqueológicos (como a conservação natural), quanto os processos de deterioriação aos quais estão sujeitos. O papel dos geoparques na proteção desses sítios que se configuram como museus abertos torna-se, portanto, essencial não apenas para a preservação física dos vestígios, mas também para a manutenção da memória cultural e a promoção da educação patrimonial das comunidades contemporâneas.\n\nConsiderando a diversidade de técnicas, materiais e tipos de representação da arte rupestre encontrada nos geoparques brasileiros, assinale V (verdadeiro) ou F (falso) em cada afirmativa a seguir.\n\n( ) A escolha dos suportes rochosos utilizados para as pinturas rupestres nos geoparques está diretamente relacionada à geodiversidade local, combinando fatores práticos, como durabilidade e visibilidade, com aspectos simbólicos da relação ancestral entre as comunidades pré-históricas e o território.\n\n( ) As representações iconográficas da arte rupestre nos geoparques abrangem formas geométricas, figuras antropomorfas e zoomorfas, incluindo espécies da megafauna extinta, o que possibilita o fornecimento de dados sobre paleofauna, organização social e práticas culturais das comunidades ancestrais.\n\n( ) A conservação dos sítios de arte rupestre nos geoparques depende de estratégias de proteção institucional e monitoramento científico que considera as características geológicas e climáticas locais, enquanto as atividades antropogênicas contemporâneas exercem impacto mínimo sobre a deterioração desses patrimônios.\n\nA sequência correta é",
+      "options": [
+        {
+          "text": "V – F – V.",
+          "explanation": "A segunda é verdadeira (grafismos geométricos, figuras humanas e de animais informam sobre fauna e modos de vida) e a terceira é falsa, porque a ação humana atual é uma das principais ameaças aos sítios."
+        },
+        {
+          "text": "F – V – V.",
+          "explanation": "A primeira é verdadeira: as rochas disponíveis em cada lugar condicionam onde e como se pinta. A terceira é falsa por minimizar o impacto humano."
+        },
+        {
+          "text": "V – V – F.",
+          "explanation": "Correta. O suporte depende das rochas do lugar e tem valor prático e simbólico (V); os grafismos geométricos, humanos e de animais são fonte de dados sobre a fauna e a vida social do passado (V); vandalismo, fogo, turismo desordenado e outras atividades humanas causam grande dano, e não impacto mínimo (F)."
+        },
+        {
+          "text": "F – F – V.",
+          "explanation": "Inverte as três: as duas primeiras são verdadeiras, e a terceira é falsa porque a ação humana contemporânea degrada fortemente os sítios."
+        },
+        {
+          "text": "F – V – F.",
+          "explanation": "A primeira é verdadeira: a geodiversidade local define os suportes disponíveis, e o texto afirma que a geologia influencia a preservação das pinturas."
+        }
+      ],
+      "correct": "C"
+    },
+    {
+      "key": "ufsm-2026-p1-q32",
+      "source": "Vestibular UFSM 2026 – Prova 1, questão 32 (UFSM)",
+      "kind": "Objective",
+      "subject": "lingua-portuguesa",
+      "statement": "O processo de certificação dos geoparques é longo e trabalhoso. Para isso, uma grande equipe se reuniu e fez muitos esforços para obter a certificação dos Geoparques Quarta Colônia e Caçapava no Rio Grande do Sul. O infográfico a seguir resume, em datas e boxes, as atividades realizadas pela equipe responsável em Santa Maria e região.\n\n![Infográfico “HISTÓRICO DOS GEOPARQUES”. Uma linha tracejada branca sai do título, serpenteia pela imagem ligando sete boxes com data e termina na logo “Missão Geoparques da Unesco”, no canto inferior direito; no canto inferior esquerdo, a marca “UFSM – Daqui para o mundo”. Boxes, na ordem: “Outubro de 2018 – Articulações iniciais para os projetos Geoparque Quarta Colônia e Caçapava”; “Junho de 2020 – Assinatura de cartas de Intenções endereçadas à Unesco”; “Março de 2022 – Geoparques Quarta Colônia e Caçapava são confirmados pela Unesco para processo de pré-certificação”; “Outubro de 2022 – Início da avaliação do Geoparque Quarta Colônia Aspirante Unesco”; “Novembro de 2022 – Início da avaliação do Geoparque Caçapava Aspirante Unesco”; “Maio de 2023 – Recebimento de certificação da Unesco”; “Setembro de 2023 – Entrega da certificação oficial dos Geoparques Quarta Colônia e Caçapava”.](img/ufsm/2026/prova-1/q32-1.png)\n\nFonte: MOTA, V. G. História dos Geoparques In: UFSM. Comitiva da UFSM participa da convenção mundial da UNESCO para recebimento da certificação dos Geoparques Caçapava e Quarta Colônia. Publicado em: 05 set. 2023. Disponível em: <https://www.ufsm.br/2023/09/05/missao-geoparque-unesco>. Acesso em: 08 ago. 2025.\n\nCom relação às informações e aos recursos imagéticos presentes no infográfico, considere as afirmativas a seguir.\n\nI → O título “Histórico dos Geoparques” aponta para uma generalização por meio do uso do plural, o que não se concretiza no final da trajetória.\n\nII → A linha tracejada branca que une os boxes indica uma sequência temporal interrompida pela logo “Missão Geoparques da Unesco”.\n\nIII → O box “Entrega da certificação oficial dos Geoparques Quarta Colônia e Caçapava” liga-se ao anterior “Maio de 2023” por meio de uma relação implícita de conclusão.\n\nIV → Os boxes “Junho de 2020” e “Março de 2022” apresentam explicitamente os agentes das ações realizadas.\n\nEstá(ão) correta(s)",
+      "options": [
+        {
+          "text": "apenas I.",
+          "explanation": "Correta. O plural sem especificação do título sugere a história dos geoparques em geral, mas a trajetória trata só de dois, Quarta Colônia e Caçapava (I). A linha chega à logo como ponto final, sem interrupção (II); a entrega oficial sucede o recebimento no tempo, sem relação de conclusão (III); em “Assinatura de cartas...” não se diz quem assinou (IV)."
+        },
+        {
+          "text": "apenas I e II.",
+          "explanation": "A II é falsa: a linha tracejada liga os boxes em ordem cronológica e termina na logo da Missão Geoparques, que funciona como ponto de chegada, não como interrupção."
+        },
+        {
+          "text": "apenas I e III.",
+          "explanation": "A III é falsa: entre “Recebimento de certificação” (maio) e “Entrega da certificação oficial” (setembro) há apenas sucessão no tempo, marcada pelas datas, e não uma relação de conclusão."
+        },
+        {
+          "text": "apenas II e IV.",
+          "explanation": "As duas são falsas: a logo encerra a linha do tempo, e só o box de março de 2022 tem agente explícito (“pela Unesco”); o de junho de 2020 usa a nominalização “Assinatura”, sem dizer quem assinou. Falta a I."
+        },
+        {
+          "text": "apenas II, III e IV.",
+          "explanation": "Nenhuma das três se sustenta: a linha não é interrompida, a ligação entre os dois últimos boxes é temporal, e o box de junho de 2020 não explicita o agente. A única correta, a I, ficou de fora."
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "key": "ufsm-2026-p1-q33",
+      "source": "Vestibular UFSM 2026 – Prova 1, questão 33 (UFSM)",
+      "kind": "Objective",
+      "subject": "lingua-portuguesa",
+      "statement": "A certificação de geoparques não é definitiva. Para que possa ser mantida, é importante que a comunidade envolvida se preocupe com o desenvolvimento local. Vários geocientistas têm se manifestado sobre isso, como aponta o texto a seguir.\n\n```\n01   \"Um geoparque tem por objetivo maximizar o Geo-\n   turismo em benefício da economia local, além de pro-\n   porcionar o entendimento da evolução da paisagem”.\n   Por meio dessa frase, de Chris Woodley-Stewart, ge-\n05 rente do Geoparque North Pennine (Reino Unido),\n   pode-se entender um pouco mais sobre o conceito\n   que alia educação com desenvolvimento local. Outra\n   frase do mesmo autor – “Geoparques não são apenas\n   pedras, geoparques são sobre pessoas” – exemplifica\n10 bem que, por meio dos geoparques, procura-se a va-\n   lorização das pessoas e não apenas a conservação da\n   fauna e da flora.\n```\n\nFonte: BOGGIANI, P. C. A aplicação do conceito de Geoparque da UNESCO no Brasil e relação com o SNUC - Sistema Nacional de Unidades de Conservação. Revista Patrimônio Geológico e Cultura, v. 1, n. 1, jun. 2010, p. 3. Disponível em: <http://www.geoturismobrasil.com/revista%artigos/%artigo%boggiani%junho%2010.pdf>. Acesso em: 18 ago. 2025. (Adaptado)\n\nTendo em vista as escolhas linguísticas feitas pelo autor do texto, é correto afirmar que",
+      "options": [
+        {
+          "text": "há duas citações diretas, embora em apenas uma conste um processo de dizer introduzindo a fala do gerente do Geoparque North Pennine.",
+          "explanation": "Há de fato duas citações entre aspas, mas nenhuma é introduzida por verbo de dizer (como “afirma” ou “declara”): as duas são apresentadas pelo substantivo “frase”."
+        },
+        {
+          "text": "o trecho “maximizar o Geoturismo em benefício da economia local” (ℓ. 01-02) apresenta, respectivamente, uma consequência (“maximizar o Geoturismo”) e uma causa (“em benefício da economia local”).",
+          "explanation": "“Maximizar o Geoturismo” é o objetivo do geoparque, e “em benefício da economia local” indica a finalidade ou o beneficiário dessa ação; não há relação de causa e consequência."
+        },
+        {
+          "text": "os itens lexicais “entendimento” (ℓ. 03) e “entender” (ℓ. 06) correspondem, respectivamente, a uma nominalização e a um processo, ambos do campo semântico do comportamento humano.",
+          "explanation": "A primeira parte está certa (substantivo derivado de verbo e verbo), mas entender é um processo mental, de cognição, e não de comportamento."
+        },
+        {
+          "text": "o emprego de “pode-se” (ℓ. 06) e “procura-se” (ℓ. 10) despersonaliza o leitor e personaliza o escritor do texto.",
+          "explanation": "As construções com “se” indeterminam o agente e tornam o texto impessoal; em vez de personalizar o escritor, apagam sua marca."
+        },
+        {
+          "text": "o escritor, em “Geoparques não são apenas pedras, geoparques são sobre pessoas” (ℓ. 08-09), invalida uma informação e privilegia outra, que se sobrepõe à informação anterior.",
+          "explanation": "Correta. A negação da primeira oração afasta a ideia de que geoparques se resumem a pedras, e a oração seguinte põe em destaque as pessoas; o próprio texto conclui que se busca “a valorização das pessoas”."
+        }
+      ],
+      "correct": "E"
+    },
+    {
+      "key": "ufsm-2026-p1-q34",
+      "source": "Vestibular UFSM 2026 – Prova 1, questão 34 (UFSM)",
+      "kind": "Objective",
+      "subject": "filosofia-sociologia",
+      "statement": "A gestão de um geoparque, território reconhecido pela Organização das Nações Unidas para a Educação, a Ciência e a Cultura (UNESCO) por sua relevância geológica, transcende a administração tradicional de recursos naturais. Do ponto de vista administrativo, requer um planejamento estratégico focado no desenvolvimento sustentável, no geoturismo e no engajamento de múltiplos stakeholders (atores), como a comunidade local, os cientistas e o Poder Público. Contudo, essa gestão se ancora em uma base filosófica específica: a ética da conservação e da responsabilidade intergeracional. O valor do geoparque não é meramente econômico ou utilitário, mas é também epistêmico (ligado ao conhecimento científico) e estético (ligado à beleza das paisagens). Assim, a administração de um geoparque representa a aplicação prática de uma filosofia que busca harmonizar o progresso econômico com a preservação do patrimônio e o bem-estar da comunidade, em oposição a uma lógica puramente extrativista.\n\nCom base no texto e nos conhecimentos de princípios filosóficos éticos e morais, assinale V (verdadeiro) ou F (falso) em cada afirmativa a seguir.\n\n( ) A visão sobre a administração de um geoparque, como indicado no texto, diferencia-se por incorporar uma dimensão filosófica e ética, no entanto não é suficiente, pois não prioriza a sustentabilidade e a conservação em conjunto com o desenvolvimento econômico.\n\n( ) A abordagem de gestão administrativa de um geoparque é utilitária, uma vez que tem como foco a exploração do potencial econômico da paisagem geológica para maximizar o lucro, mesmo que valores éticos e estéticos possam ser considerados.\n\n( ) O sucesso administrativo de um geoparque depende da articulação de diversos atores, o que se reflete diretamente na aplicação de um princípio filosófico de governança participativa e de responsabilidade compartilhada.\n\nA sequência correta é",
+      "options": [
+        {
+          "text": "V – F – F.",
+          "explanation": "A primeira é falsa (o texto diz que a gestão busca harmonizar progresso econômico e preservação) e a terceira é verdadeira (o engajamento de múltiplos atores é requisito da gestão)."
+        },
+        {
+          "text": "V – F – V.",
+          "explanation": "A primeira é falsa: a gestão descrita prioriza justamente a sustentabilidade e a conservação junto com o desenvolvimento econômico."
+        },
+        {
+          "text": "V – V – V.",
+          "explanation": "As duas primeiras contradizem o texto: a gestão prioriza a conservação aliada à economia, e o valor do geoparque “não é meramente econômico ou utilitário”."
+        },
+        {
+          "text": "F – F – V.",
+          "explanation": "Correta. A gestão harmoniza progresso econômico, preservação e bem-estar (a primeira nega isso: F); o valor do geoparque não é meramente utilitário, e a lógica extrativista é rejeitada (F); o engajamento da comunidade, dos cientistas e do Poder Público corresponde a uma governança participativa, de responsabilidade compartilhada (V)."
+        },
+        {
+          "text": "F – V – F.",
+          "explanation": "Inverte as duas últimas: o texto recusa a visão puramente utilitária, voltada ao lucro, e destaca a articulação de vários atores."
+        }
+      ],
+      "correct": "D"
+    },
+    {
+      "key": "ufsm-2026-p1-q35",
+      "source": "Vestibular UFSM 2026 – Prova 1, questão 35 (UFSM)",
+      "kind": "Objective",
+      "subject": "biologia",
+      "statement": "Leia o trecho de uma reportagem realizada no contexto do Geoparque Quarta Colônia, no ano de 2024.\n\n**Enchente destruiu 70% das matas ciliares do rio Soturno e mudou 31% do seu curso natural**\n\nAntes das enchentes, a faixa de área de Preservação Permanente, ao longo do rio Soturno, contava aproximadamente com 194 hectares, sendo mais de 60% coberta com vegetação nativa. Um pesquisador afirma que, após a enchente, houve a preocupação em todo o Estado de fazer a dragagem de rios, mas ele avalia que, “se não for feita a recuperação das matas ciliares, os rios voltarão a assorear e a ter destruição nas próximas enchentes”.\n\nFonte: ZOLIN, D. Enchente destruiu 70% das matas ciliares do Rio Soturno e mudou 31% do seu curso natural. Diário, Santa Maria, 24 maio 2025. Disponível em: https://diariosm.com.br/colunistas/colunistas_do_site/deni_zolin/enchente_destruiu_70_das_matas_ciliares_do_rio_soturno_e_mudou_31_do_seu_curso_natural.15429573. Acesso em: 22 ago. 2025. (Adaptado)\n\nSobre a reposição da mata nativa e a função que a meiose exerce nas espécies para resistirem às mudanças ambientais, assinale a alternativa correta.",
+      "options": [
+        {
+          "text": "A meiose garante a produção de células idênticas, mantendo a estabilidade genética das populações ao longo do tempo.",
+          "explanation": "Quem produz células geneticamente idênticas é a mitose. A meiose gera células haploides diferentes entre si e da célula-mãe."
+        },
+        {
+          "text": "A meiose promove a variabilidade genética por meio da troca gênica, possibilitando maior chance de adaptação das espécies.",
+          "explanation": "Correta. Na prófase I ocorre o crossing-over (permutação entre cromossomos homólogos) e, na anáfase I, a segregação independente; os gametas ficam diferentes entre si, e essa variabilidade aumenta a chance de haver indivíduos adaptados a mudanças ambientais."
+        },
+        {
+          "text": "A meiose não permite mutações, assegurando que todos os descendentes apresentem as mesmas características dos progenitores.",
+          "explanation": "Mutações podem ocorrer em qualquer divisão celular, e a meiose recombina os genes: os descendentes não são cópias dos progenitores."
+        },
+        {
+          "text": "A meiose produz células somáticas, que contribuem para o crescimento das plantas e para a regeneração dos tecidos.",
+          "explanation": "Crescimento e regeneração de tecidos dependem da mitose. A meiose origina células reprodutivas haploides (esporos nas plantas, gametas nos animais)."
+        },
+        {
+          "text": "A meiose é um tipo de divisão celular associado à reprodução assexuada, a qual possibilita a produção de clones genéticos.",
+          "explanation": "A meiose está ligada à reprodução sexuada. Clones resultam da reprodução assexuada, que se baseia na mitose."
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "key": "ufsm-2026-p1-q36",
+      "source": "Vestibular UFSM 2026 – Prova 1, questão 36 (UFSM)",
+      "kind": "Objective",
+      "subject": "biologia",
+      "statement": "Dentre os vários modos de apresentar os geoparques, pode-se usar o cordel, como o elaborado a seguir.\n\n**GEOPARQUE EM CORDEL**\n\n```\n01 Territórios únicos e fortes\n   alguns no Brasil e no mundo,\n   uma história a ser contada\n   vinda de solo profundo,\n05 somada à rica natureza\n   e ao povo com amor fecundo.\n\n   Nada disso existiria\n   se não fosse a transformação,\n   o agitar de metabolismos\n10 de síntese e degradação,\n   nada disso existiria\n   se não fosse a célula em atuação.\n\n   Salve os elementos que mudam\n   a paisagem do planeta,\n15 carbono vira oxigênio\n   agindo como cometa,\n   oxigênio vira carbono,\n   um exemplar caixa-preta.\n\n   Assim tudo acontece\n20 com ácidos nucleicos em ação,\n   um legado deixado\n   ao longo de geração,\n   que precisa ser entendido\n   valorizado pela educação.\n```\n\nConsiderando os versos do cordel e os processos celulares, assinale V (verdadeiro) ou F (falso) em cada afirmativa a seguir.\n\n( ) A “síntese” no verso 10 e a informação no verso 15 referem-se à fotossíntese.\n\n( ) A “degradação” no verso 10 e a informação no verso 17 referem-se à respiração celular.\n\n( ) Os versos 20, 21 e 22 referem-se à herança biológica.\n\nA sequência correta é",
+      "options": [
+        {
+          "text": "V – V – V.",
+          "explanation": "Correta. Na fotossíntese, reação de síntese, o gás carbônico é consumido e o oxigênio é liberado (“carbono vira oxigênio”, verso 15); na respiração celular, reação de degradação, o oxigênio é consumido e o gás carbônico é liberado (verso 17); os ácidos nucleicos transmitem a informação genética de geração em geração (versos 20 a 22)."
+        },
+        {
+          "text": "F – V – V.",
+          "explanation": "A primeira é verdadeira: a fotossíntese é um processo de síntese (anabolismo) que consome CO₂ e libera O₂, como sugere o verso 15."
+        },
+        {
+          "text": "V – F – F.",
+          "explanation": "A segunda e a terceira também são verdadeiras: a respiração degrada a glicose consumindo O₂ e liberando CO₂ (verso 17), e o DNA é a base da herança (versos 20 a 22)."
+        },
+        {
+          "text": "V – F – V.",
+          "explanation": "A segunda é verdadeira: a respiração celular é um processo de degradação (catabolismo) em que entra oxigênio e sai gás carbônico, o “oxigênio vira carbono” do verso 17."
+        },
+        {
+          "text": "F – V – F.",
+          "explanation": "A primeira e a terceira são verdadeiras: “carbono vira oxigênio” remete à fotossíntese, e os ácidos nucleicos como “legado deixado ao longo de geração” remetem à hereditariedade."
+        }
+      ],
+      "correct": "A"
+    },
+    {
+      "key": "ufsm-2026-p1-q37",
+      "source": "Vestibular UFSM 2026 – Prova 1, questão 37 (UFSM)",
+      "kind": "Objective",
+      "subject": "literatura",
+      "statement": "A partir do início do século XVIII, na Europa, os valores teocêntricos começam a ser questionados. Há o retorno da valorização da razão e, por consequência, há uma renovação cultural. Assim, surge um novo estilo poético, o Arcadismo, que reage contra a linguagem rebuscada e as tendências religiosas do Barroco. Como exemplo, segue fragmento do Canto VI, do livro Vila Rica, de Claudio Manuel da Costa.\n\n```\n01 Na diáfana máquina presente\n   (Diz Filoponte) todo o continente\n   Vês, Albuquerque, das buscadas Minas.\n   São estas, são as regiões benignas,\n05 Onde nutre a perpétua primavera\n   As verdes folhas, que abrasar pudera\n   Em outros climas o chuvoso inverno.\n   Dos mesmos Deuses o poder eterno\n   Não se atrevera a combater os montes\n10 E as serras, que em distintos horizontes\n   Murando vão pelos remotos lados\n   Mares e lagos, com que ao Sul marcados\n   Seus limites estão: a forma, o nome\n   Variam serra e rio, e sem que tome\n15 Firmeza alguma o prolongado vulto,\n   Sempre o princípio te há de ser oculto,\n   Quando chegues ao fim do rio ou serra.\n   Levados do fervor que o peito encerra\n   Vês os Paulistas, animosa gente,\n20 Que ao Rei procuram do metal luzente\n   Co’as próprias mãos enriquecer o Erário.\n   [...]\n```\n\nFonte: COSTA. C. M. da. Vila Rica. Disponível em: <http://www.dominiopublico.gov.br/download/texto/fs000043.pdf>. Acesso em: 8 dez. 2009. (Fragmento). In: SARMENTO, L. L.; TUFANO, D. Português: literatura, gramática, produção de texto. 1. ed. São Paulo: Moderna, 2010.\n\nSobre o Arcadismo no poema citado de Claudio Manuel da Costa, considere as afirmativas a seguir.\n\nI → O poema apresenta uma antítese entre a vida no campo e a vida na cidade.\n\nII → O Arcadismo tem como uma das principais características o bucolismo, como se vê nos versos 04 a 07.\n\nIII → A mineração e a paisagem mineira são, no Arcadismo brasileiro, elementos da realidade nacional, como nos versos 13 a 17.\n\nIV → O poema árcade expressa uma visão espiritualizada da existência, valorizando a simplicidade da vida no campo e os prazeres do amor.\n\nEstá(ão) correta(s)",
+      "options": [
+        {
+          "text": "apenas IV.",
+          "explanation": "A IV é a única que o gabarito rejeita: o Arcadismo é racionalista e reage à religiosidade barroca, de modo que não cabe falar em visão espiritualizada da existência."
+        },
+        {
+          "text": "apenas I e II.",
+          "explanation": "Falta a III: serras, rios e a busca do “metal luzente” trazem a paisagem e a mineração de Minas para o poema, traço do Arcadismo brasileiro."
+        },
+        {
+          "text": "apenas III e IV.",
+          "explanation": "A III vale, mas a IV não: a poesia árcade valoriza a razão e a natureza, sem a espiritualização típica do Barroco. Faltam I e II."
+        },
+        {
+          "text": "apenas I, II e III.",
+          "explanation": "Correta. Os versos 04 a 07 pintam uma natureza amena, de “perpétua primavera” (II), e as serras e os rios de Minas entram como matéria nacional (III). A I é aceita pelo gabarito por remeter ao ideal árcade de oposição entre campo e cidade (fugere urbem), embora o fragmento contraste mais diretamente as “regiões benignas” com “outros climas”. A IV falha ao atribuir visão espiritualizada a um estilo racionalista."
+        },
+        {
+          "text": "I, II, III e IV.",
+          "explanation": "A IV não se sustenta: o próprio enunciado lembra que o Arcadismo reage às tendências religiosas do Barroco, o que exclui uma visão espiritualizada."
+        }
+      ],
+      "correct": "D"
+    },
+    {
+      "key": "ufsm-2026-p1-q38-es",
+      "source": "Vestibular UFSM 2026 – Prova 1, questão 38, espanhol (UFSM)",
+      "kind": "Objective",
+      "subject": "espanhol",
+      "statement": "Para responder às questões 38 a 40, leia o texto a seguir.\n\n**Geoparques**\n\n```\n 01   Los geoparques son territorios con límites\n    claramente definidos, que albergan un patrimonio\n    geológico de relevancia internacional usado como\n    base de su desarrollo socioeconómico sostenible.\n 05 Son reconocidos como Geoparques Mundiales de la\n    UNESCO en el Programa Internacional de Ciencias de\n    la Tierra y de los Geoparques. […] En otras palabras,\n    son áreas geográficas únicas y unificadas en las\n    que se gestionan sitios y paisajes de importancia\n 10 geológica internacional. A través de un concepto\n    holístico de protección, educación y desarrollo\n    sostenible, estos geoparques aúnan su patrimonio\n    geológico con el legado natural y cultural del área.\n      El patrimonio geológico alude a un conjunto de\n 15 lugares de interés geológico desde un punto de vista\n    científico, educativo, estético y/o de rareza, pudiendo\n    incluir áreas terrestres, marítimas o subterráneas.\n    Se trata de ventanas al pasado de la Tierra que\n    nos enseñan los procesos y acontecimientos que\n 20 ocurrieron hace millones o miles de años y los que\n    ocurren en la actualidad; los animales y las plantas\n    que poblaron nuestro planeta; la relación existente\n    entre los elementos geológicos y la biodiversidad y,\n    además, el uso y el aprovechamiento de los recursos\n 25 geológicos, rocas y minerales, a lo largo de la historia.\n      El desarrollo sostenible basado en el patrimonio se\n    decide en los Geoparques Mundiales de la UNESCO,\n    aplicando el enfoque de abajo a arriba, facilitando\n    la participación de los agentes locales en la toma\n 30 de decisiones, […] lo que implica la colaboración\n    estrecha de todas las partes interesadas, incluyendo\n    comunidades locales, promotores de turismo\n    y organismos regionales. [...] Asimismo, los\n    geoparques generan nuevas fuentes de ingresos a\n 35 través del geoturismo, estimulando la creación de\n    empresas locales innovadoras y la protección de los\n    recursos geológicos.\n      Gracias a ello, son posibles actividades educativas\n    sobre el patrimonio y la sostenibilidad; actividades\n 40 económicas locales como el propio geoturismo\n    (turismo guiado), vinculado a la geología del\n    territorio y a los usos, costumbres y productos\n    locales; así como actividades de conservación\n    identificando a la sociedad con su patrimonio e\n 45 implicándola en su protección y difusión.\n      Un geoparque no es por definición una figura\n    de protección, aunque pueda, en algunos casos,\n    coincidir o englobar espacios naturales protegidos.\n    Sin embargo, los lugares de interés del patrimonio\n 50 geológico deben estar protegidos por la legislación\n    aplicable ya sea local, regional o nacional. Los\n    geoparques asumen la obligación de defender los\n    elementos geológicos que propicían su singularidad,\n    oponiéndose a su destrucción y comercialización.\n 55 Finalmente, los Geoparques Mundiales de la UNESCO\n    se distinguen por su extraordinaria capacidad\n    de cooperación en red. Ello les lleva a compartir\n    experiencias, a mejorar sus iniciativas y a conseguir\n    productos y resultados fruto de la colaboración [...].\n 60 Red Mundial\n      La Red Global de Geoparques es nuestro lugar\n    de trabajo común; una enorme familia formada\n    por 169 territorios de 44 países diferentes. Son las\n    piezas de un puzzle que crece año a año y que\n 65 poco a poco muestra la historia de la Tierra como\n    nunca antes la habías conocido. Grandes montañas,\n    volcanes activos, glaciares, desiertos inabarcables\n    o acantilados de vértigo son solamente algunos\n    de los atractivos que forman esta extraordinaria y\n 70 variada colección de destinos donde la Tierra y sus\n    habitantes son los protagonistas.\n      Los primeros pasos para conformar la red se\n    dieron en el año 2000. El bosque petrificado de\n    Lesbos (Grecia), la zona de volcanes antiguos de\n 75 Vulkaneifel (Alemania), los relieves pre-alpinos de\n    la Haute Provence (Francia) y el parque Cultural\n    de Maestrazgo (España) se reunían en el municipio\n    turolense de Molinos para formalizar el nacimiento de\n    la Red Europea de Geoparques (EGN), un concepto\n 80 novedoso que proponía utilizar el patrimonio geológico\n    para el desarrollo de las comunidades locales. La\n    ciencia, la educación, la conservación y el geoturismo\n    se convertían en una herramienta para impulsar la\n    identidad y la actividad económica de los territorios.\n 85   Nadie imaginaba en el año 2000 que esta red\n    sería hoy uno de los programas de cooperación\n    internacional más exitosos de las últimas décadas.\n    Aquella buena idea fue sumando aliados y, en el año\n    2004, contaba ya con 21 geoparques distribuidos\n 90 en 9 países, incluido China. Con esta base se fundó\n    la RED MUNDIAL DE GEOPARQUES (GGN), una\n    asociación sin ánimo de lucro, cuyo principal objetivo\n    es la interconexión de sus socios como herramienta\n    clave para la mejora de cada uno de ellos. La GGN,\n 95 sus redes regionales y sus foros nacionales organizan\n    anualmente varias reuniones y congresos, donde la\n    participación es obligada. Cada geoparque forma\n    parte de distintos grupos de trabajo que pretenden\n    dar luz a cuestiones clave como la educación, la\n100 comunicación o los riesgos geológicos. Entre todos\n    sumamos experiencias y aprendemos a gestionar\n    nuestros territorios de una manera más inteligente.\n    Entre todos conformamos un destino cada vez más\n    atractivo y en constante mejora. [...]\n105 ¿Y los geoparques brasileños?\n      Cuando pensamos en cuáles serían los mejores\n    geoparques, la Unesco elaboró un listado y ubicó\n    a los parques en uno por sus características,\n    puntos de contacto culturales y un enfoque en la\n110 sostenibilidad. [...]\n      En el primer lugar, la Unesco eligió al Geoparque\n    de Uberaba como el mejor geoparque del mundo.\n    Conocida como la “Tierra de los Gigantes”,\n    Uberaba, en el sureste de Brasil, alberga un tesoro\n115 paleontológico impresionante.\n      Este geoparque no solo cuenta con\n    impresionantes formaciones geológicas, como las\n    cadenas montañosas de Serra da Galga y Serra\n    Geral, sino que también alberga más de 10.000\n120 fósiles de dinosaurios y otras formas de vida\n    prehistóricas. Además, invita a sumergirse en la\n    tradición agrícola del siglo XIX y explorar el Centro\n    de Investigaciones Paleontológicas y el Museo de\n    Dinosaurios de Uberaba.\n125   Estos espacios naturales, con su singular\n    patrimonio geológico, nos recuerdan la importancia\n    de la conservación, el uso sostenible de los recursos y\n    la mitigación de los efectos del cambio climático. [...]\n```\n\nFontes: UNESCO. Geoparques de España. Disponível em: https://geoparques.es/que-son-los-geoparques/>. Acesso: 13 ago. 2025. (Adaptado)\n\nINFOBAE. Mejores geoparques del mundo. Publicado em: 12 abr. 2024. Disponível em: <https://www.infobae.com/america/mundo/2024/04/12/los-5-geoparques-con-las-vistas-mas-espectaculares-del-mundo/>. Acesso em: 13 ago. 2025. (Adaptado)\n\nCom base nas informações apresentadas no texto sobre os geoparques mundiais, assinale V (verdadeiro) ou F (falso) em cada afirmativa a seguir.\n\n( ) Todos os geoparques sempre se originam a partir de áreas protegidas por legislação local, regional ou nacional, pois se configuram em espaços de importância geológica relevante.\n\n( ) Um dos aspectos fundamentais dos geoparques é a possibilidade de subsidiar discussões sobre as transformações subsequentes do planeta.\n\n( ) As atividades referentes ao turismo ecológico e à conservação dos recursos naturais formaram a estrutura dual imprescídivel para criação da Rede Europeia de Geoparques.\n\nA sequência correta é",
+      "options": [
+        {
+          "text": "V – F – V.",
+          "explanation": "A primeira é falsa: o texto diz que “un geoparque no es por definición una figura de protección” (um geoparque não é, por definição, uma figura de proteção). A segunda é verdadeira."
+        },
+        {
+          "text": "F – V – V.",
+          "explanation": "Correta. O geoparque não nasce necessariamente de área protegida, apenas pode coincidir com uma (F); o patrimônio geológico é descrito como “ventanas al pasado de la Tierra”, que mostram os processos de milhões de anos atrás e os atuais (V); a terceira é dada como verdadeira pelo gabarito, com base no trecho em que conservação e geoturismo, ao lado de ciência e educação, tornam-se ferramenta para impulsionar os territórios na criação da rede europeia (ℓ. 81-84)."
+        },
+        {
+          "text": "F – V – F.",
+          "explanation": "Acerta as duas primeiras, mas o gabarito oficial considera a terceira verdadeira, apoiado no final do texto sobre a Rede Europeia, que cita a conservação e o geoturismo como ferramentas dos territórios."
+        },
+        {
+          "text": "V – V – F.",
+          "explanation": "A primeira é falsa: segundo o texto, o geoparque pode “coincidir o englobar espacios naturales protegidos” em alguns casos, mas não é sempre criado a partir deles."
+        },
+        {
+          "text": "F – F – V.",
+          "explanation": "A segunda é verdadeira: o patrimônio geológico ensina os processos ocorridos há milhões de anos e os que ocorrem na atualidade, o que alimenta a discussão sobre as transformações do planeta."
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "key": "ufsm-2026-p1-q39-es",
+      "source": "Vestibular UFSM 2026 – Prova 1, questão 39, espanhol (UFSM)",
+      "kind": "Objective",
+      "subject": "espanhol",
+      "statement": "Para responder às questões 38 a 40, leia o texto a seguir.\n\n**Geoparques**\n\n```\n 01   Los geoparques son territorios con límites\n    claramente definidos, que albergan un patrimonio\n    geológico de relevancia internacional usado como\n    base de su desarrollo socioeconómico sostenible.\n 05 Son reconocidos como Geoparques Mundiales de la\n    UNESCO en el Programa Internacional de Ciencias de\n    la Tierra y de los Geoparques. […] En otras palabras,\n    son áreas geográficas únicas y unificadas en las\n    que se gestionan sitios y paisajes de importancia\n 10 geológica internacional. A través de un concepto\n    holístico de protección, educación y desarrollo\n    sostenible, estos geoparques aúnan su patrimonio\n    geológico con el legado natural y cultural del área.\n      El patrimonio geológico alude a un conjunto de\n 15 lugares de interés geológico desde un punto de vista\n    científico, educativo, estético y/o de rareza, pudiendo\n    incluir áreas terrestres, marítimas o subterráneas.\n    Se trata de ventanas al pasado de la Tierra que\n    nos enseñan los procesos y acontecimientos que\n 20 ocurrieron hace millones o miles de años y los que\n    ocurren en la actualidad; los animales y las plantas\n    que poblaron nuestro planeta; la relación existente\n    entre los elementos geológicos y la biodiversidad y,\n    además, el uso y el aprovechamiento de los recursos\n 25 geológicos, rocas y minerales, a lo largo de la historia.\n      El desarrollo sostenible basado en el patrimonio se\n    decide en los Geoparques Mundiales de la UNESCO,\n    aplicando el enfoque de abajo a arriba, facilitando\n    la participación de los agentes locales en la toma\n 30 de decisiones, […] lo que implica la colaboración\n    estrecha de todas las partes interesadas, incluyendo\n    comunidades locales, promotores de turismo\n    y organismos regionales. [...] Asimismo, los\n    geoparques generan nuevas fuentes de ingresos a\n 35 través del geoturismo, estimulando la creación de\n    empresas locales innovadoras y la protección de los\n    recursos geológicos.\n      Gracias a ello, son posibles actividades educativas\n    sobre el patrimonio y la sostenibilidad; actividades\n 40 económicas locales como el propio geoturismo\n    (turismo guiado), vinculado a la geología del\n    territorio y a los usos, costumbres y productos\n    locales; así como actividades de conservación\n    identificando a la sociedad con su patrimonio e\n 45 implicándola en su protección y difusión.\n      Un geoparque no es por definición una figura\n    de protección, aunque pueda, en algunos casos,\n    coincidir o englobar espacios naturales protegidos.\n    Sin embargo, los lugares de interés del patrimonio\n 50 geológico deben estar protegidos por la legislación\n    aplicable ya sea local, regional o nacional. Los\n    geoparques asumen la obligación de defender los\n    elementos geológicos que propicían su singularidad,\n    oponiéndose a su destrucción y comercialización.\n 55 Finalmente, los Geoparques Mundiales de la UNESCO\n    se distinguen por su extraordinaria capacidad\n    de cooperación en red. Ello les lleva a compartir\n    experiencias, a mejorar sus iniciativas y a conseguir\n    productos y resultados fruto de la colaboración [...].\n 60 Red Mundial\n      La Red Global de Geoparques es nuestro lugar\n    de trabajo común; una enorme familia formada\n    por 169 territorios de 44 países diferentes. Son las\n    piezas de un puzzle que crece año a año y que\n 65 poco a poco muestra la historia de la Tierra como\n    nunca antes la habías conocido. Grandes montañas,\n    volcanes activos, glaciares, desiertos inabarcables\n    o acantilados de vértigo son solamente algunos\n    de los atractivos que forman esta extraordinaria y\n 70 variada colección de destinos donde la Tierra y sus\n    habitantes son los protagonistas.\n      Los primeros pasos para conformar la red se\n    dieron en el año 2000. El bosque petrificado de\n    Lesbos (Grecia), la zona de volcanes antiguos de\n 75 Vulkaneifel (Alemania), los relieves pre-alpinos de\n    la Haute Provence (Francia) y el parque Cultural\n    de Maestrazgo (España) se reunían en el municipio\n    turolense de Molinos para formalizar el nacimiento de\n    la Red Europea de Geoparques (EGN), un concepto\n 80 novedoso que proponía utilizar el patrimonio geológico\n    para el desarrollo de las comunidades locales. La\n    ciencia, la educación, la conservación y el geoturismo\n    se convertían en una herramienta para impulsar la\n    identidad y la actividad económica de los territorios.\n 85   Nadie imaginaba en el año 2000 que esta red\n    sería hoy uno de los programas de cooperación\n    internacional más exitosos de las últimas décadas.\n    Aquella buena idea fue sumando aliados y, en el año\n    2004, contaba ya con 21 geoparques distribuidos\n 90 en 9 países, incluido China. Con esta base se fundó\n    la RED MUNDIAL DE GEOPARQUES (GGN), una\n    asociación sin ánimo de lucro, cuyo principal objetivo\n    es la interconexión de sus socios como herramienta\n    clave para la mejora de cada uno de ellos. La GGN,\n 95 sus redes regionales y sus foros nacionales organizan\n    anualmente varias reuniones y congresos, donde la\n    participación es obligada. Cada geoparque forma\n    parte de distintos grupos de trabajo que pretenden\n    dar luz a cuestiones clave como la educación, la\n100 comunicación o los riesgos geológicos. Entre todos\n    sumamos experiencias y aprendemos a gestionar\n    nuestros territorios de una manera más inteligente.\n    Entre todos conformamos un destino cada vez más\n    atractivo y en constante mejora. [...]\n105 ¿Y los geoparques brasileños?\n      Cuando pensamos en cuáles serían los mejores\n    geoparques, la Unesco elaboró un listado y ubicó\n    a los parques en uno por sus características,\n    puntos de contacto culturales y un enfoque en la\n110 sostenibilidad. [...]\n      En el primer lugar, la Unesco eligió al Geoparque\n    de Uberaba como el mejor geoparque del mundo.\n    Conocida como la “Tierra de los Gigantes”,\n    Uberaba, en el sureste de Brasil, alberga un tesoro\n115 paleontológico impresionante.\n      Este geoparque no solo cuenta con\n    impresionantes formaciones geológicas, como las\n    cadenas montañosas de Serra da Galga y Serra\n    Geral, sino que también alberga más de 10.000\n120 fósiles de dinosaurios y otras formas de vida\n    prehistóricas. Además, invita a sumergirse en la\n    tradición agrícola del siglo XIX y explorar el Centro\n    de Investigaciones Paleontológicas y el Museo de\n    Dinosaurios de Uberaba.\n125   Estos espacios naturales, con su singular\n    patrimonio geológico, nos recuerdan la importancia\n    de la conservación, el uso sostenible de los recursos y\n    la mitigación de los efectos del cambio climático. [...]\n```\n\nFontes: UNESCO. Geoparques de España. Disponível em: https://geoparques.es/que-son-los-geoparques/>. Acesso: 13 ago. 2025. (Adaptado)\n\nINFOBAE. Mejores geoparques del mundo. Publicado em: 12 abr. 2024. Disponível em: <https://www.infobae.com/america/mundo/2024/04/12/los-5-geoparques-con-las-vistas-mas-espectaculares-del-mundo/>. Acesso em: 13 ago. 2025. (Adaptado)\n\nOs geoparques funcionam por meio de uma estrutura de teia como indicado no texto. Ao ter em conta tal dinâmica, é coerente depreender que",
+      "options": [
+        {
+          "text": "a rede funciona como um quebra-cabeça estável, cujas delimitações se estruturam especificamente em 169 territórios.",
+          "explanation": "O texto fala em “un puzzle que crece año a año” (um quebra-cabeça que cresce ano a ano): a rede está em expansão, e 169 é só o número daquele momento."
+        },
+        {
+          "text": "a Rede Europeia de Geoparques (EGN) se inspirou na iniciativa da Rede Mundial de Geoparques (GGN), que já contava com 21 geoparques.",
+          "explanation": "A ordem é a inversa: a rede europeia nasceu em 2000 e, em 2004, quando já reunia 21 geoparques, serviu de base para fundar a Rede Mundial."
+        },
+        {
+          "text": "a Rede Mundial de Geoparques se organiza de tal maneira para dar centralidade, exclusivamente, aos temas de articulação entre educação ambiental e sustentabilidade econômica dos territórios incluídos no sistema de geoparques.",
+          "explanation": "O “exclusivamente” não se sustenta: os grupos de trabalho tratam de questões como “la educación, la comunicación o los riesgos geológicos”, e o objetivo principal é a interconexão dos sócios."
+        },
+        {
+          "text": "o aperfeiçoamento das estruturas dos geoparques depende de conglomerados institucionais que gerenciam os aspectos financeiros dos geoparques, em que se garanta a sustentabilidade econômica da rede, além das expectativas dos acionistas.",
+          "explanation": "A rede mundial é “una asociación sin ánimo de lucro” (sem fins lucrativos); não há acionistas, e a melhoria vem da troca de experiências entre os sócios."
+        },
+        {
+          "text": "os geoparques são entendidos como espaços físicos e simbólicos de trabalho, uma vez que as atividades se referem tanto a territórios físicos propriamente ditos quanto a espaços de discussões e intercâmbio de experiências entre diferentes grupos.",
+          "explanation": "Correta. A rede é “nuestro lugar de trabajo común” (nosso lugar de trabalho comum): reúne territórios concretos e também reuniões, congressos e grupos de trabalho em que os geoparques compartilham experiências e aprendem a gerir melhor seus territórios."
+        }
+      ],
+      "correct": "E"
+    },
+    {
+      "key": "ufsm-2026-p1-q40-es",
+      "source": "Vestibular UFSM 2026 – Prova 1, questão 40, espanhol (UFSM)",
+      "kind": "Objective",
+      "subject": "espanhol",
+      "statement": "Para responder às questões 38 a 40, leia o texto a seguir.\n\n**Geoparques**\n\n```\n 01   Los geoparques son territorios con límites\n    claramente definidos, que albergan un patrimonio\n    geológico de relevancia internacional usado como\n    base de su desarrollo socioeconómico sostenible.\n 05 Son reconocidos como Geoparques Mundiales de la\n    UNESCO en el Programa Internacional de Ciencias de\n    la Tierra y de los Geoparques. […] En otras palabras,\n    son áreas geográficas únicas y unificadas en las\n    que se gestionan sitios y paisajes de importancia\n 10 geológica internacional. A través de un concepto\n    holístico de protección, educación y desarrollo\n    sostenible, estos geoparques aúnan su patrimonio\n    geológico con el legado natural y cultural del área.\n      El patrimonio geológico alude a un conjunto de\n 15 lugares de interés geológico desde un punto de vista\n    científico, educativo, estético y/o de rareza, pudiendo\n    incluir áreas terrestres, marítimas o subterráneas.\n    Se trata de ventanas al pasado de la Tierra que\n    nos enseñan los procesos y acontecimientos que\n 20 ocurrieron hace millones o miles de años y los que\n    ocurren en la actualidad; los animales y las plantas\n    que poblaron nuestro planeta; la relación existente\n    entre los elementos geológicos y la biodiversidad y,\n    además, el uso y el aprovechamiento de los recursos\n 25 geológicos, rocas y minerales, a lo largo de la historia.\n      El desarrollo sostenible basado en el patrimonio se\n    decide en los Geoparques Mundiales de la UNESCO,\n    aplicando el enfoque de abajo a arriba, facilitando\n    la participación de los agentes locales en la toma\n 30 de decisiones, […] lo que implica la colaboración\n    estrecha de todas las partes interesadas, incluyendo\n    comunidades locales, promotores de turismo\n    y organismos regionales. [...] Asimismo, los\n    geoparques generan nuevas fuentes de ingresos a\n 35 través del geoturismo, estimulando la creación de\n    empresas locales innovadoras y la protección de los\n    recursos geológicos.\n      Gracias a ello, son posibles actividades educativas\n    sobre el patrimonio y la sostenibilidad; actividades\n 40 económicas locales como el propio geoturismo\n    (turismo guiado), vinculado a la geología del\n    territorio y a los usos, costumbres y productos\n    locales; así como actividades de conservación\n    identificando a la sociedad con su patrimonio e\n 45 implicándola en su protección y difusión.\n      Un geoparque no es por definición una figura\n    de protección, aunque pueda, en algunos casos,\n    coincidir o englobar espacios naturales protegidos.\n    Sin embargo, los lugares de interés del patrimonio\n 50 geológico deben estar protegidos por la legislación\n    aplicable ya sea local, regional o nacional. Los\n    geoparques asumen la obligación de defender los\n    elementos geológicos que propicían su singularidad,\n    oponiéndose a su destrucción y comercialización.\n 55 Finalmente, los Geoparques Mundiales de la UNESCO\n    se distinguen por su extraordinaria capacidad\n    de cooperación en red. Ello les lleva a compartir\n    experiencias, a mejorar sus iniciativas y a conseguir\n    productos y resultados fruto de la colaboración [...].\n 60 Red Mundial\n      La Red Global de Geoparques es nuestro lugar\n    de trabajo común; una enorme familia formada\n    por 169 territorios de 44 países diferentes. Son las\n    piezas de un puzzle que crece año a año y que\n 65 poco a poco muestra la historia de la Tierra como\n    nunca antes la habías conocido. Grandes montañas,\n    volcanes activos, glaciares, desiertos inabarcables\n    o acantilados de vértigo son solamente algunos\n    de los atractivos que forman esta extraordinaria y\n 70 variada colección de destinos donde la Tierra y sus\n    habitantes son los protagonistas.\n      Los primeros pasos para conformar la red se\n    dieron en el año 2000. El bosque petrificado de\n    Lesbos (Grecia), la zona de volcanes antiguos de\n 75 Vulkaneifel (Alemania), los relieves pre-alpinos de\n    la Haute Provence (Francia) y el parque Cultural\n    de Maestrazgo (España) se reunían en el municipio\n    turolense de Molinos para formalizar el nacimiento de\n    la Red Europea de Geoparques (EGN), un concepto\n 80 novedoso que proponía utilizar el patrimonio geológico\n    para el desarrollo de las comunidades locales. La\n    ciencia, la educación, la conservación y el geoturismo\n    se convertían en una herramienta para impulsar la\n    identidad y la actividad económica de los territorios.\n 85   Nadie imaginaba en el año 2000 que esta red\n    sería hoy uno de los programas de cooperación\n    internacional más exitosos de las últimas décadas.\n    Aquella buena idea fue sumando aliados y, en el año\n    2004, contaba ya con 21 geoparques distribuidos\n 90 en 9 países, incluido China. Con esta base se fundó\n    la RED MUNDIAL DE GEOPARQUES (GGN), una\n    asociación sin ánimo de lucro, cuyo principal objetivo\n    es la interconexión de sus socios como herramienta\n    clave para la mejora de cada uno de ellos. La GGN,\n 95 sus redes regionales y sus foros nacionales organizan\n    anualmente varias reuniones y congresos, donde la\n    participación es obligada. Cada geoparque forma\n    parte de distintos grupos de trabajo que pretenden\n    dar luz a cuestiones clave como la educación, la\n100 comunicación o los riesgos geológicos. Entre todos\n    sumamos experiencias y aprendemos a gestionar\n    nuestros territorios de una manera más inteligente.\n    Entre todos conformamos un destino cada vez más\n    atractivo y en constante mejora. [...]\n105 ¿Y los geoparques brasileños?\n      Cuando pensamos en cuáles serían los mejores\n    geoparques, la Unesco elaboró un listado y ubicó\n    a los parques en uno por sus características,\n    puntos de contacto culturales y un enfoque en la\n110 sostenibilidad. [...]\n      En el primer lugar, la Unesco eligió al Geoparque\n    de Uberaba como el mejor geoparque del mundo.\n    Conocida como la “Tierra de los Gigantes”,\n    Uberaba, en el sureste de Brasil, alberga un tesoro\n115 paleontológico impresionante.\n      Este geoparque no solo cuenta con\n    impresionantes formaciones geológicas, como las\n    cadenas montañosas de Serra da Galga y Serra\n    Geral, sino que también alberga más de 10.000\n120 fósiles de dinosaurios y otras formas de vida\n    prehistóricas. Además, invita a sumergirse en la\n    tradición agrícola del siglo XIX y explorar el Centro\n    de Investigaciones Paleontológicas y el Museo de\n    Dinosaurios de Uberaba.\n125   Estos espacios naturales, con su singular\n    patrimonio geológico, nos recuerdan la importancia\n    de la conservación, el uso sostenible de los recursos y\n    la mitigación de los efectos del cambio climático. [...]\n```\n\nFontes: UNESCO. Geoparques de España. Disponível em: https://geoparques.es/que-son-los-geoparques/>. Acesso: 13 ago. 2025. (Adaptado)\n\nINFOBAE. Mejores geoparques del mundo. Publicado em: 12 abr. 2024. Disponível em: <https://www.infobae.com/america/mundo/2024/04/12/los-5-geoparques-con-las-vistas-mas-espectaculares-del-mundo/>. Acesso em: 13 ago. 2025. (Adaptado)\n\nConsidere as afirmativas a seguir.\n\nI → A concepção de um geoparque se relaciona com o desenho de áreas segmentadas, uma vez que as singularidades de tais espaços se caracterizam pela diversidade e pelo entendimento de cada parte, enfatizada com a ideia abordada pelo termo “holístico” (ℓ. 11).\n\nII → No fragmento “estos geoparques aúnan su patrimonio geológico con el legado natural y cultural del área” (ℓ. 12-13), o verbo “aúnan” pode ser substituído, sem alteração do sentido original nesse contexto, pelo verbo “compaginan”.\n\nIII → A locução “de abajo a arriba” (ℓ. 28), comumente vinculada às discussões sobre as redes de geoparques, refere-se à lógica de forte interrelação de todos os agentes envolvidos nas dinâmicas existentes nos territórios incluídos nos geoparques, destacando a influência dos organismos decisórios da alta cúpula de gestão.\n\nIV → No fragmento “Este geoparque no solo cuenta con impresionantes formaciones geológicas, como las cadenas montañosas de Serra da Galga y Serra Geral, sino que también alberga más de 10.000 fósiles de dinosaurios y otras formas de vida prehistóricas” (ℓ. 116-121), apresenta-se uma estrutura sintática de coordenação explicativa, em que se denota adição de ideias presentes em uma sequência iniciada por uma negação, devido a ser um nexo simples.\n\nEstá(ão) correta(s)",
+      "options": [
+        {
+          "text": "apenas I.",
+          "explanation": "A I é falsa: “holístico” indica visão do todo integrado, o oposto de áreas segmentadas; o texto fala em áreas “únicas y unificadas”."
+        },
+        {
+          "text": "apenas II.",
+          "explanation": "Correta. “Aunar” é unir, juntar, e “compaginar” é combinar ou conciliar uma coisa com outra; no trecho, ambos indicam que os geoparques conjugam o patrimônio geológico com o legado natural e cultural. Holístico é visão integrada, não segmentada (I); “de abajo a arriba” valoriza os agentes locais, não a cúpula (III); “no solo... sino que también” é correlação aditiva, não explicativa nem nexo simples (IV)."
+        },
+        {
+          "text": "apenas I e III.",
+          "explanation": "As duas são falsas: “holístico” remete à integração do todo, e “de abajo a arriba” (de baixo para cima) é a lógica em que as decisões partem dos agentes locais, não da alta cúpula."
+        },
+        {
+          "text": "apenas II e IV.",
+          "explanation": "A II vale, mas a IV não: “no solo... sino que también” (não só... mas também) é uma correlação de valor aditivo, formada por dois elementos, e não uma coordenação explicativa de nexo simples."
+        },
+        {
+          "text": "apenas III e IV.",
+          "explanation": "As duas são falsas: o enfoque “de abajo a arriba” destaca a participação dos agentes locais, e a estrutura “no solo... sino que también” é aditiva e correlativa. A única correta, a II, ficou de fora."
+        }
+      ],
+      "correct": "B"
+    },
+    {
+      "key": "ufsm-2026-p1-q38-en",
+      "source": "Vestibular UFSM 2026 – Prova 1, questão 38, inglês (UFSM)",
+      "kind": "Objective",
+      "subject": "ingles",
+      "statement": "Para responder às questões 38 a 40, leia o texto a seguir.\n\n**Southern Brazil has two new Unesco Geoparks - here’s what visitors need to know**\n\n```\n01   Last month, two zones in Brazil’s southernmost\n   state were recognized by Unesco as Global\n   Geopark regions: Quarta Colônia and Caçapava\n   do Sul, both in Rio Grande do Sul. “Geoparks are\n05 territories defined by Unesco as areas that have\n   a geological, geomorphological or paleontological\n   heritage of international relevance and which can\n   use said heritage as an element to facilitate regional\n   development,” explains Dr Adriano Severo Figueiró\n10 of the Federal University of Santa Maria (UFSM), who\n   was part of the team that proposed the regions for\n   this designation.\n     While the two parks are only a two-hour drive\n   apart from each other, each has unique elements that\n15 make it an ideal catalyst for regional development.\n   Some of the oldest rocks on Earth\n     “Caçapava do Sul has a geomorphological\n   uniqueness,” explains Dr André Borba, looking out\n   across the succession of 500 million-year-old rock\n20 formations for which the park is famous. A professor\n   of geoscience at UFSM and integral member of the\n   Geopark’s research team, Borba has a passion for this\n   part of the world that is more than evident. “These\n   formations were here before any living thing, animal\n25 or plant, existed on this earth,” Borba marvels.\n   Explore the Geoparks more deeply with a guide\n     If you’re looking to climb higher – say, to the top\n   of the Pedra do Segredo – or to take trails to some\n   of the further outposts, such as Toca das Carretas or\n30 Pedra Furada, you’ll need a guide. Many of the trails\n   remain unmarked, as many of them sit on private\n   lands. Indigenous tribes and quilombos call the\n   region home, as do family farms and cattle ranches.\n     In this way, Geoparks are different from national\n35 parks. They often have no set delineation, may be\n   managed by private entities and can include privately\n   owned lands. The official Unesco designation helps\n   local communities to identify and more deeply\n   appreciate their unique natural surroundings and\n40 resources, and to create sustainable revenue models\n   that directly benefit from conservation efforts.\n   An artisan connection\n     Dr Elisângela Lopes da Silva was part of the\n   group that spearheaded the Geopark project and\n45 the Unesco designation. Her contribution revolves\n   around tourism development through the work of\n   local artisans.\n     “I noticed there was something missing [that]\n   connected artisan work with tourism in the region.”\n50   Originally a forest ranger and researcher, Dr\n   Lopes da Silva managed to bridge the gap between\n   the park and local artists with a co-op shop and\n   atelier called Com Arte Atelier, located within\n   Caçapava do Sul’s city limits.\n55   “I felt we needed to better understand how local\n   artisans view the natural beauty of the region, how\n   they relate to it and how they interpret it.”\n   Where the dinosaurs roamed\n     In Quarta Colônia, such an identity is more obvious.\n60 Although it too is replete with rivers and waterfalls, the\n   Quarta Colônia Geopark is best known for the plethora\n   of dinosaur fossils found within its territories, some of\n   them over 230 million years old. Scientists have even\n   discovered previously unknown species at the site.\n65   “In the region of Quarta Colônia, in particular, we\n   have records of some that are the oldest dinosaurs\n   in the world,” says Flávio Pretto, paleontologist at\n   the Centro de Apoio à Pesquisa Paleontológica\n   (CAPPA). “We also have a whole series of other\n70 animals that coexisted with them.”\n     According to Pretto, the Geopark designation will\n   help to support the research center and its mission,\n   while simultaneously promoting education among\n   local students, the community and tourists alike.\n75   “Our work is intimately related to the community.\n   This was one of the reasons CAPPA was created,”\n   Pretto explains. The group’s formation, together\n   with the Unesco imprimatur, helps ensure that any\n   fossils found within the park’s territories can remain\n80 within the community.\n     With visitors ranging from three to 83 years old,\n   the CAPPA research center works to educate the\n   surrounding residents of all ages, thus deepening\n   its scientists’ paleontological work.\n85   “One of the center’s recent major finds wasn’t\n   unearthed by paleontologists,” says Pretto. “It was\n   found by a farmer. A farmer and a carpenter. And\n   thanks to the fact that they knew that it might be a\n   fossil, due to our educational work in the community,\n90 they managed to reach out to us, and it ended up\n   being a discovery of four almost complete skeletons\n   of a previously undiscovered dinosaur species.”\n```\n\nFonte: PASKA, M. M. Lonely Planet, Southern Brazil has two new Unesco Geoparks - here’s what visitors need to know. Publicado em: 23 jun. 2023. Disponível em: <https://www.lonelyplanet.com/news/new-unesco-geoparks-brazil-rio-grande-do-sul>. Acesso em: 07 ago. 2025. (Adaptado)\n\nSobre as informações relacionadas ao Geoparque Caçapava no texto, considere as afirmativas a seguir.\n\nI → Em relação à localização, o Geoparque Caçapava encontra-se próximo ao Geoparque Quarta Colônia.\n\nII → Em relação às características geomorfológicas, o Geoparque Caçapava é famoso por suas formações rochosas.\n\nIII → Em relação ao turismo, trilhas e escaladas são atividades que podem ser realizadas em qualquer espaço do Geoparque Caçapava, da mesma forma que acontece em outros parques nacionais.\n\nIV → Em relação ao artesanato local, a abertura de uma loja e um ateliê, no Geoparque Caçapava, possibilitou a conexão entre o parque e os artesãos locais.\n\nEstá(ão) correta(s)",
+      "options": [
+        {
+          "text": "apenas I.",
+          "explanation": "A I está certa (os parques ficam a “only a two-hour drive apart”), mas II e IV também se confirmam no texto."
+        },
+        {
+          "text": "apenas I e II.",
+          "explanation": "Falta a IV: a pesquisadora conseguiu “bridge the gap between the park and local artists with a co-op shop and atelier”, isto é, aproximar o parque dos artistas locais com uma loja cooperativa e um ateliê."
+        },
+        {
+          "text": "apenas II e III.",
+          "explanation": "A III é falsa: muitas trilhas não são sinalizadas e ficam em terras privadas, por isso “you’ll need a guide”, e o texto afirma que os geoparques são diferentes dos parques nacionais. Faltam I e IV."
+        },
+        {
+          "text": "apenas III e IV.",
+          "explanation": "A IV vale, mas a III não: não se pode caminhar ou escalar em qualquer lugar, pois há trilhas em propriedades privadas que exigem guia. Faltam I e II."
+        },
+        {
+          "text": "apenas I, II e IV.",
+          "explanation": "Correta. Os dois parques estão a apenas duas horas de carro um do outro (I); Caçapava é famoso pela sucessão de formações rochosas de 500 milhões de anos, “for which the park is famous” (II); a loja cooperativa e ateliê Com Arte Atelier fez a ponte entre o parque e os artistas locais (IV). A III contraria o texto: para várias trilhas é preciso guia, e geoparques diferem de parques nacionais."
+        }
+      ],
+      "correct": "E"
+    },
+    {
+      "key": "ufsm-2026-p1-q39-en",
+      "source": "Vestibular UFSM 2026 – Prova 1, questão 39, inglês (UFSM)",
+      "kind": "Objective",
+      "subject": "ingles",
+      "statement": "Para responder às questões 38 a 40, leia o texto a seguir.\n\n**Southern Brazil has two new Unesco Geoparks - here’s what visitors need to know**\n\n```\n01   Last month, two zones in Brazil’s southernmost\n   state were recognized by Unesco as Global\n   Geopark regions: Quarta Colônia and Caçapava\n   do Sul, both in Rio Grande do Sul. “Geoparks are\n05 territories defined by Unesco as areas that have\n   a geological, geomorphological or paleontological\n   heritage of international relevance and which can\n   use said heritage as an element to facilitate regional\n   development,” explains Dr Adriano Severo Figueiró\n10 of the Federal University of Santa Maria (UFSM), who\n   was part of the team that proposed the regions for\n   this designation.\n     While the two parks are only a two-hour drive\n   apart from each other, each has unique elements that\n15 make it an ideal catalyst for regional development.\n   Some of the oldest rocks on Earth\n     “Caçapava do Sul has a geomorphological\n   uniqueness,” explains Dr André Borba, looking out\n   across the succession of 500 million-year-old rock\n20 formations for which the park is famous. A professor\n   of geoscience at UFSM and integral member of the\n   Geopark’s research team, Borba has a passion for this\n   part of the world that is more than evident. “These\n   formations were here before any living thing, animal\n25 or plant, existed on this earth,” Borba marvels.\n   Explore the Geoparks more deeply with a guide\n     If you’re looking to climb higher – say, to the top\n   of the Pedra do Segredo – or to take trails to some\n   of the further outposts, such as Toca das Carretas or\n30 Pedra Furada, you’ll need a guide. Many of the trails\n   remain unmarked, as many of them sit on private\n   lands. Indigenous tribes and quilombos call the\n   region home, as do family farms and cattle ranches.\n     In this way, Geoparks are different from national\n35 parks. They often have no set delineation, may be\n   managed by private entities and can include privately\n   owned lands. The official Unesco designation helps\n   local communities to identify and more deeply\n   appreciate their unique natural surroundings and\n40 resources, and to create sustainable revenue models\n   that directly benefit from conservation efforts.\n   An artisan connection\n     Dr Elisângela Lopes da Silva was part of the\n   group that spearheaded the Geopark project and\n45 the Unesco designation. Her contribution revolves\n   around tourism development through the work of\n   local artisans.\n     “I noticed there was something missing [that]\n   connected artisan work with tourism in the region.”\n50   Originally a forest ranger and researcher, Dr\n   Lopes da Silva managed to bridge the gap between\n   the park and local artists with a co-op shop and\n   atelier called Com Arte Atelier, located within\n   Caçapava do Sul’s city limits.\n55   “I felt we needed to better understand how local\n   artisans view the natural beauty of the region, how\n   they relate to it and how they interpret it.”\n   Where the dinosaurs roamed\n     In Quarta Colônia, such an identity is more obvious.\n60 Although it too is replete with rivers and waterfalls, the\n   Quarta Colônia Geopark is best known for the plethora\n   of dinosaur fossils found within its territories, some of\n   them over 230 million years old. Scientists have even\n   discovered previously unknown species at the site.\n65   “In the region of Quarta Colônia, in particular, we\n   have records of some that are the oldest dinosaurs\n   in the world,” says Flávio Pretto, paleontologist at\n   the Centro de Apoio à Pesquisa Paleontológica\n   (CAPPA). “We also have a whole series of other\n70 animals that coexisted with them.”\n     According to Pretto, the Geopark designation will\n   help to support the research center and its mission,\n   while simultaneously promoting education among\n   local students, the community and tourists alike.\n75   “Our work is intimately related to the community.\n   This was one of the reasons CAPPA was created,”\n   Pretto explains. The group’s formation, together\n   with the Unesco imprimatur, helps ensure that any\n   fossils found within the park’s territories can remain\n80 within the community.\n     With visitors ranging from three to 83 years old,\n   the CAPPA research center works to educate the\n   surrounding residents of all ages, thus deepening\n   its scientists’ paleontological work.\n85   “One of the center’s recent major finds wasn’t\n   unearthed by paleontologists,” says Pretto. “It was\n   found by a farmer. A farmer and a carpenter. And\n   thanks to the fact that they knew that it might be a\n   fossil, due to our educational work in the community,\n90 they managed to reach out to us, and it ended up\n   being a discovery of four almost complete skeletons\n   of a previously undiscovered dinosaur species.”\n```\n\nFonte: PASKA, M. M. Lonely Planet, Southern Brazil has two new Unesco Geoparks - here’s what visitors need to know. Publicado em: 23 jun. 2023. Disponível em: <https://www.lonelyplanet.com/news/new-unesco-geoparks-brazil-rio-grande-do-sul>. Acesso em: 07 ago. 2025. (Adaptado)\n\nConsiderando as informações apresentadas no texto sobre o Geoparque Quarta Colônia, é correto afirmar que",
+      "options": [
+        {
+          "text": "os pesquisadores encontraram, até o momento, somente espécies conhecidas de fósseis de dinossauros no parque.",
+          "explanation": "O texto diz o contrário: “Scientists have even discovered previously unknown species at the site” (os cientistas descobriram até espécies antes desconhecidas no local)."
+        },
+        {
+          "text": "registros de fósseis de alguns dos dinossauros mais antigos do mundo ainda não foram identificados no parque.",
+          "explanation": "O paleontólogo afirma “we have records of some that are the oldest dinosaurs in the world”: os registros já existem."
+        },
+        {
+          "text": "a designação de Geoparque Mundial da Unesco assegura que qualquer fóssil encontrado dentro dos territórios do parque permaneça junto à comunidade.",
+          "explanation": "Correta. Segundo o texto, a formação do grupo, “together with the Unesco imprimatur” (junto com a chancela da Unesco), “helps ensure that any fossils found within the park’s territories can remain within the community”."
+        },
+        {
+          "text": "o geoparque recebe visitantes que são, em sua maioria, adultos e idosos de até 83 anos.",
+          "explanation": "O texto fala em visitantes “ranging from three to 83 years old” (de três a 83 anos) e em moradores de todas as idades, sem dizer que a maioria é de adultos e idosos."
+        },
+        {
+          "text": "a maior e mais recente descoberta do centro de pesquisas do geoparque foi realizada pelos paleontólogos que trabalham no local.",
+          "explanation": "Uma das grandes descobertas recentes “wasn’t unearthed by paleontologists”: foi feita por um agricultor e um carpinteiro, que avisaram o centro."
+        }
+      ],
+      "correct": "C"
+    },
+    {
+      "key": "ufsm-2026-p1-q40-en",
+      "source": "Vestibular UFSM 2026 – Prova 1, questão 40, inglês (UFSM)",
+      "kind": "Objective",
+      "subject": "ingles",
+      "statement": "Para responder às questões 38 a 40, leia o texto a seguir.\n\n**Southern Brazil has two new Unesco Geoparks - here’s what visitors need to know**\n\n```\n01   Last month, two zones in Brazil’s southernmost\n   state were recognized by Unesco as Global\n   Geopark regions: Quarta Colônia and Caçapava\n   do Sul, both in Rio Grande do Sul. “Geoparks are\n05 territories defined by Unesco as areas that have\n   a geological, geomorphological or paleontological\n   heritage of international relevance and which can\n   use said heritage as an element to facilitate regional\n   development,” explains Dr Adriano Severo Figueiró\n10 of the Federal University of Santa Maria (UFSM), who\n   was part of the team that proposed the regions for\n   this designation.\n     While the two parks are only a two-hour drive\n   apart from each other, each has unique elements that\n15 make it an ideal catalyst for regional development.\n   Some of the oldest rocks on Earth\n     “Caçapava do Sul has a geomorphological\n   uniqueness,” explains Dr André Borba, looking out\n   across the succession of 500 million-year-old rock\n20 formations for which the park is famous. A professor\n   of geoscience at UFSM and integral member of the\n   Geopark’s research team, Borba has a passion for this\n   part of the world that is more than evident. “These\n   formations were here before any living thing, animal\n25 or plant, existed on this earth,” Borba marvels.\n   Explore the Geoparks more deeply with a guide\n     If you’re looking to climb higher – say, to the top\n   of the Pedra do Segredo – or to take trails to some\n   of the further outposts, such as Toca das Carretas or\n30 Pedra Furada, you’ll need a guide. Many of the trails\n   remain unmarked, as many of them sit on private\n   lands. Indigenous tribes and quilombos call the\n   region home, as do family farms and cattle ranches.\n     In this way, Geoparks are different from national\n35 parks. They often have no set delineation, may be\n   managed by private entities and can include privately\n   owned lands. The official Unesco designation helps\n   local communities to identify and more deeply\n   appreciate their unique natural surroundings and\n40 resources, and to create sustainable revenue models\n   that directly benefit from conservation efforts.\n   An artisan connection\n     Dr Elisângela Lopes da Silva was part of the\n   group that spearheaded the Geopark project and\n45 the Unesco designation. Her contribution revolves\n   around tourism development through the work of\n   local artisans.\n     “I noticed there was something missing [that]\n   connected artisan work with tourism in the region.”\n50   Originally a forest ranger and researcher, Dr\n   Lopes da Silva managed to bridge the gap between\n   the park and local artists with a co-op shop and\n   atelier called Com Arte Atelier, located within\n   Caçapava do Sul’s city limits.\n55   “I felt we needed to better understand how local\n   artisans view the natural beauty of the region, how\n   they relate to it and how they interpret it.”\n   Where the dinosaurs roamed\n     In Quarta Colônia, such an identity is more obvious.\n60 Although it too is replete with rivers and waterfalls, the\n   Quarta Colônia Geopark is best known for the plethora\n   of dinosaur fossils found within its territories, some of\n   them over 230 million years old. Scientists have even\n   discovered previously unknown species at the site.\n65   “In the region of Quarta Colônia, in particular, we\n   have records of some that are the oldest dinosaurs\n   in the world,” says Flávio Pretto, paleontologist at\n   the Centro de Apoio à Pesquisa Paleontológica\n   (CAPPA). “We also have a whole series of other\n70 animals that coexisted with them.”\n     According to Pretto, the Geopark designation will\n   help to support the research center and its mission,\n   while simultaneously promoting education among\n   local students, the community and tourists alike.\n75   “Our work is intimately related to the community.\n   This was one of the reasons CAPPA was created,”\n   Pretto explains. The group’s formation, together\n   with the Unesco imprimatur, helps ensure that any\n   fossils found within the park’s territories can remain\n80 within the community.\n     With visitors ranging from three to 83 years old,\n   the CAPPA research center works to educate the\n   surrounding residents of all ages, thus deepening\n   its scientists’ paleontological work.\n85   “One of the center’s recent major finds wasn’t\n   unearthed by paleontologists,” says Pretto. “It was\n   found by a farmer. A farmer and a carpenter. And\n   thanks to the fact that they knew that it might be a\n   fossil, due to our educational work in the community,\n90 they managed to reach out to us, and it ended up\n   being a discovery of four almost complete skeletons\n   of a previously undiscovered dinosaur species.”\n```\n\nFonte: PASKA, M. M. Lonely Planet, Southern Brazil has two new Unesco Geoparks - here’s what visitors need to know. Publicado em: 23 jun. 2023. Disponível em: <https://www.lonelyplanet.com/news/new-unesco-geoparks-brazil-rio-grande-do-sul>. Acesso em: 07 ago. 2025. (Adaptado)\n\nEm relação às palavras “unmarked” (ℓ. 31), “unknown” (ℓ. 64) e “undiscovered” (ℓ. 92) usadas no texto, assinale V (verdadeiro) ou F (falso) em cada afirmativa a seguir.\n\n( ) Os termos “unknown” e “undiscovered” modificam espécies de dinossauros.\n\n( ) O termo “unmarked” modifica tribos indígenas e quilombos.\n\n( ) Duas das palavras são formadas pelo acréscimo de prefixo e sufixo, e todas possuem o mesmo prefixo.\n\nA sequência correta é",
+      "options": [
+        {
+          "text": "V – V – V.",
+          "explanation": "A segunda é falsa: “unmarked” qualifica as trilhas, em “Many of the trails remain unmarked” (muitas das trilhas continuam sem sinalização)."
+        },
+        {
+          "text": "V – F – V.",
+          "explanation": "Correta. “Previously unknown species” e “undiscovered dinosaur species” qualificam espécies de dinossauros (V); “unmarked” se refere às trilhas (“the trails”), não às tribos indígenas e aos quilombos, citados na frase seguinte (F); todas têm o prefixo un-, e “unmarked” e “undiscovered” recebem ainda o sufixo -ed (V)."
+        },
+        {
+          "text": "F – F – V.",
+          "explanation": "A primeira é verdadeira: nas linhas 64 e 92, os dois adjetivos acompanham “species”, falando de espécies de dinossauros."
+        },
+        {
+          "text": "F – V – F.",
+          "explanation": "Erra as três: os dois adjetivos qualificam espécies de dinossauros, “unmarked” qualifica trilhas, e as três palavras têm o prefixo un-, duas delas com o sufixo -ed."
+        },
+        {
+          "text": "V – V – F.",
+          "explanation": "A segunda é falsa (“unmarked” fala das trilhas) e a terceira é verdadeira: un- aparece nas três palavras, e -ed em “unmarked” e “undiscovered”."
+        }
+      ],
+      "correct": "B"
+    }
+  ]
+}
