@@ -57,7 +57,9 @@ public class DailyQuestionTests(EnadeAdsFactory factory)
         var html = WebUtility.HtmlDecode(await NewClient().GetStringAsync("/questao-do-dia/enade-redes"));
 
         Assert.Contains("ENADE Redes", html);
-        Assert.Contains(question.Options[0].Text.Split('\n')[0].Trim(), html);
+        // A questão é sorteada, e a alternativa pode ter marcação (negrito, código, lista, figura): a página mostra o
+        // texto já formatado, não o texto cru. Comparar com o cru falhava conforme a questão do dia (#98).
+        Assert.Contains(WebUtility.HtmlDecode(StatementFormatter.ToHtml(question.Options[0].Text)), html);
         Assert.Contains("ReturnUrl=%2Fquestao-do-dia%2Fenade-redes", html);
         Assert.Contains("og:description", html);
         Assert.DoesNotContain(question.Options[0].Explanation, html);
