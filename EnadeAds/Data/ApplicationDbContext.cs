@@ -109,7 +109,7 @@ public class ApplicationDbContext(DbContextOptions<ApplicationDbContext> options
 
         builder.Entity<Question>(question =>
         {
-            question.Property(q => q.Statement).HasMaxLength(8000);
+            question.Property(q => q.Statement).HasMaxLength(QuestionEditor.StatementMaxLength);
             question.Property(q => q.Source).HasMaxLength(200);
             question.Property(q => q.ExternalKey).HasMaxLength(60);
             question.HasIndex(q => q.ExternalKey).IsUnique().HasFilter("\"ExternalKey\" IS NOT NULL");
