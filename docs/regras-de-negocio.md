@@ -341,6 +341,16 @@ A página inicial é um feed no estilo Reddit, onde professores publicam avisos 
 - As respostas dadas no desafio contam só no desafio: não aparecem como tentativa na página da questão nem liberam o gabarito lá.
 - **Limite conhecido:** as questões do desafio são do banco público. Quem procurar a mesma questão no banco consegue responder lá e ver o gabarito antes do desafio encerrar.
 
+### Desafio da semana automático
+
+- Toda semana, cada prova ganha sozinha um **Desafio da semana**: 5 questões objetivas sorteadas do banco dela, de segunda a domingo. Assim nenhuma prova depende de um professor para ter desafio.
+- O sorteio reveza entre as áreas da prova e deixa de fora as questões dos desafios automáticos das últimas 8 semanas, enquanto o banco tiver outras.
+- O desafio é publicado em nome da plataforma, sem autor, e funciona como qualquer outro: mesmo placar agregado, mesmo XP, e aparece na faixa da semana.
+- A publicação roda quando o app sobe e de hora em hora. Nunca há dois desafios automáticos da mesma prova na mesma semana.
+- Prova com menos de 5 questões objetivas fica sem desafio automático.
+- Os desafios de professores e admins continuam valendo ao lado do automático.
+- A configuração `Challenges:AutoWeekly=false` desliga a publicação.
+
 ## Questões
 
 - Visitante vê o enunciado e as alternativas, mas nunca a alternativa correta nem os comentários: eles não vão para a página.

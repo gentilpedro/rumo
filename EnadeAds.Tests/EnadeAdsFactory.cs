@@ -32,6 +32,9 @@ public sealed class EnadeAdsFactory : WebApplicationFactory<Program>
         // Os testes fazem centenas de logins pelo mesmo "IP"; o limite em si é testado direto em AccountRateLimitTests.
         builder.UseSetting("RateLimit:AccountPostsPerMinute", "100000");
 
+        // O desafio da semana automático é publicado por um serviço de fundo; nos testes, só quando o teste pede.
+        builder.UseSetting("Challenges:AutoWeekly", "false");
+
         builder.ConfigureServices(services =>
         {
             services.RemoveAll<DbContextOptions<ApplicationDbContext>>();
