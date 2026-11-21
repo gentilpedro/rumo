@@ -44,7 +44,7 @@ public sealed class PersonalDataExport(ApplicationDbContext db, UserManager<Appl
         var duels = await db.DuelPlayers.AsNoTracking()
             .Where(p => p.UserId == userId)
             .Join(db.Duels.IgnoreQueryFilters(), p => p.DuelId, d => d.Id,
-                (p, d) => new { Duelo = d.Code, Trilha = d.TrackId, CriadoPorVoce = d.CreatorId == userId, Inicio = p.StartedAt, Envio = p.FinishedAt, Acertos = p.CorrectCount })
+                (p, d) => new { Duelo = d.Code, Trilha = d.TrackId, DeSala = d.RoomId != null, CriadoPorVoce = d.CreatorId == userId, Inicio = p.StartedAt, Envio = p.FinishedAt, Acertos = p.CorrectCount })
             .ToListAsync(cancellationToken);
 
         var rooms = await db.StudyRoomMembers.AsNoTracking()
@@ -72,6 +72,11 @@ public sealed class PersonalDataExport(ApplicationDbContext db, UserManager<Appl
             Pessoa = otherNames.GetValueOrDefault(f.OtherThan(userId)), PedidoPorVoce = f.RequesterId == userId, PedidoEm = f.CreatedAt, AceitoEm = f.AcceptedAt,
         }).ToList();
         var blocked = blockedRows.Select(b => new { Pessoa = otherNames.GetValueOrDefault(b.BlockedId), Em = b.CreatedAt }).ToList();
+
+        var inviteRows = await db.FriendInvites.AsNoTracking()
+            .Where(i => i.FromId == userId || i.ToId == userId)
+            .Select(i => new { EnviadoPorVoce = i.FromId == userId, Tipo = i.DuelId != null ? "duelo" : "sala", Em = i.CreatedAt })
+            .ToListAsync(cancellationToken);
 
         var friendLink = await db.FriendLinks.AsNoTracking().Where(l => l.UserId == userId).Select(l => l.Code).FirstOrDefaultAsync(cancellationToken);
 
@@ -108,6 +113,7 @@ public sealed class PersonalDataExport(ApplicationDbContext db, UserManager<Appl
                 VersaoDosTermos = user.TermsVersion,
                 MenorDeIdade = user.IsMinor,
                 MetaDiaria = user.DailyGoal,
+                MostrarAtividadeAosAmigos = user.ShareActivity,
                 AutorizacaoDoResponsavelEm = user.GuardianConsentAt,
                 LoginsExternos = (await users.GetLoginsAsync(user)).Select(l => l.LoginProvider),
             },
@@ -122,6 +128,7 @@ public sealed class PersonalDataExport(ApplicationDbContext db, UserManager<Appl
             LinkDeAmigo = friendLink,
             AmigosEPedidos = friends,
             Bloqueados = blocked,
+            ConvitesDeAmigos = inviteRows,
             ComentariosNoBlog = comments,
             Posts = posts,
             Votos = votes,

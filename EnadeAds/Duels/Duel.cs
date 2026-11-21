@@ -10,6 +10,12 @@ public class Duel
     public required string Code { get; set; }
     public int TrackId { get; set; }
 
+    /// <summary>
+    /// Sala de estudos para a qual o duelo foi lançado: só os membros dela entram. Nulo no duelo por link, e
+    /// também depois que a sala é apagada (o placar de quem jogou fica).
+    /// </summary>
+    public int? RoomId { get; set; }
+
     /// <summary>Nulo se quem criou excluiu a conta: o placar dos outros fica.</summary>
     public string? CreatorId { get; set; }
 

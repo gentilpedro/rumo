@@ -4,6 +4,7 @@
 @inject NavigationManager Navigation
 @inject TrackCatalog Tracks
 @inject TrackScope TrackScope
+@inject EnadeAds.Friends.SocialNotices Notices
 
 <header class="site-header">
     <div class="site-header-inner">
@@ -59,12 +60,22 @@
                     <details class="account-menu">
                         <summary aria-label="Menu da conta">
                             <span class="avatar" aria-hidden="true">@Initial(context.User.Identity?.Name)</span>
+                            @if (notices > 0)
+                            {
+                                <span class="notice-dot" title="@NoticesLabel">@notices<span class="visually-hidden"> @NoticesLabel</span></span>
+                            }
                             <svg class="chevron" viewBox="0 0 16 16" aria-hidden="true"><path d="M4 6l4 4 4-4" /></svg>
                         </summary>
                         <div class="account-panel">
                             <p class="account-name">@context.User.Identity?.Name</p>
                             <a href="meu-desempenho">Meu desempenho</a>
-                            <a href="amigos">Amigos</a>
+                            <a href="amigos">
+                                Amigos
+                                @if (notices > 0)
+                                {
+                                    <span class="badge text-bg-danger ms-1">@notices</span>
+                                }
+                            </a>
                             <a href="Account/Manage">Minha conta</a>
                             <AuthorizeView Roles="@Roles.Editors" Context="editor">
                                 <a href="revisoes">Revisões</a>
@@ -97,12 +108,19 @@
     private string? currentUrl;
     private Track? track;
     private IReadOnlyList<Track> tracks = [];
+    private int notices;
+
+    private string NoticesLabel => notices == 1 ? "aviso em Amigos" : "avisos em Amigos";
 
     protected override async Task OnInitializedAsync()
     {
         currentUrl = Navigation.ToBaseRelativePath(Navigation.Uri);
         track = await Tracks.CurrentAsync();
         tracks = await Tracks.ListAsync();
+
+        // Pedidos de amizade e convites esperando resposta: o único aviso que a pessoa recebe, sempre dentro do site.
+        // Já vem contado de antes da renderização (UseSocialNotices); aqui é só leitura.
+        notices = Notices.Count;
     }
 
     /// <summary>

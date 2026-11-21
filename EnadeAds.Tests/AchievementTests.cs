@@ -81,6 +81,29 @@ public class AchievementTests(EnadeAdsFactory factory)
         return (question, question.Options.First(o => o.IsCorrect).Letter, question.Options.First(o => !o.IsCorrect).Letter);
     }
 
+    /// <summary>Fixa a questão do dia da trilha padrão numa questão que o teste não responde.</summary>
+    private async Task KeepDailyQuestionAwayFromAsync(params int[] answered)
+    {
+        using var scope = factory.Services.CreateScope();
+        var db = scope.ServiceProvider.GetRequiredService<ApplicationDbContext>();
+        var today = scope.ServiceProvider.GetRequiredService<EnadeAds.Daily.DailyQuestionService>().Today;
+        var other = await db.Questions.AsNoTracking()
+            .Where(q => q.Kind == QuestionKind.Objective && q.ArchivedAt == null && !answered.Contains(q.Id))
+            .OrderBy(q => q.Id).Select(q => q.Id).FirstAsync();
+
+        var daily = await db.DailyQuestions.FirstOrDefaultAsync(d => d.TrackId == EnadeAds.Study.Tracks.Default && d.Date == today);
+        if (daily is null)
+        {
+            db.DailyQuestions.Add(new EnadeAds.Daily.DailyQuestion { TrackId = EnadeAds.Study.Tracks.Default, Date = today, QuestionId = other });
+        }
+        else if (answered.Contains(daily.QuestionId))
+        {
+            daily.QuestionId = other;
+        }
+
+        await db.SaveChangesAsync();
+    }
+
     private async Task<AnswerResult> AnswerAsync(string userId, int questionId, char letter)
     {
         using var scope = factory.Services.CreateScope();
@@ -106,6 +129,8 @@ public class AchievementTests(EnadeAdsFactory factory)
         var student = await TestAccounts.CreateConfirmedAsync(factory, "xp.questoes@gmail.com", Roles.Student);
         var (first, right, wrong) = await ObjectiveAsync(0);
         var (second, secondRight, _) = await ObjectiveAsync(1);
+        // A questão do dia é sorteada e vale 5 XP a mais: se caísse numa destas duas, a conta abaixo mudaria (#83).
+        await KeepDailyQuestionAwayFromAsync(first.Id, second.Id);
 
         Assert.Equal(XpRules.FirstAnswer, (await AnswerAsync(student.Id, first.Id, wrong)).XpGained);
         Assert.Equal(XpRules.FirstCorrect, (await AnswerAsync(student.Id, first.Id, right)).XpGained);

@@ -23,4 +23,10 @@ public class ApplicationUser : IdentityUser
 
     /// <summary>Quantas questões a pessoa quer responder por dia (uma de <see cref="Achievements.XpRules.DailyGoalOptions"/>).</summary>
     public int DailyGoal { get; set; } = Achievements.XpRules.DefaultDailyGoal;
+
+    /// <summary>
+    /// Se os amigos veem a atividade de estudo da pessoa (prova, nível, sequência e o que estudou hoje). Desligada,
+    /// eles veem só o nome. Vale só para amigos aceitos: ninguém mais vê isso.
+    /// </summary>
+    public bool ShareActivity { get; set; } = true;
 }

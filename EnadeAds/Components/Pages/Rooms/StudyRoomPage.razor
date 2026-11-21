@@ -7,6 +7,8 @@
 
 @inject StudyRoomService Rooms
 @inject TrackCatalog Tracks
+@inject LocalCalendar Calendar
+@inject EnadeAds.Friends.FriendInviteService Invites
 @inject UserManager<ApplicationUser> Users
 @inject NavigationManager Navigation
 
@@ -39,7 +41,8 @@
             <p class="game-kicker">@track?.Label · sala de estudos · @MemberCount(room.Members.Count)</p>
             <h1 id="room-title">Você foi convidado para a sala @room.Name</h1>
             <p class="text-body-secondary">
-                Ao entrar, os outros membros veem o seu <strong>primeiro nome com a inicial do sobrenome</strong>, e mais nada da sua conta.
+                Ao entrar, os outros membros veem o seu <strong>primeiro nome com a inicial do sobrenome</strong> e
+                <strong>quantas questões você acertou na semana</strong>, e mais nada da sua conta.
                 Na sala não há conversa nem busca de pessoas, e você pode sair quando quiser.
             </p>
 
@@ -76,6 +79,106 @@
                 </div>
             </div>
         </div>
+
+        @if (ranking is not null)
+        {
+            <section aria-labelledby="ranking-title" class="mb-4">
+                <h2 id="ranking-title" class="h5">
+                    Ranking da semana
+                    <span class="small text-body-secondary fw-normal">· @ranking.Monday.ToString("dd/MM") a @ranking.Sunday.ToString("dd/MM")</span>
+                </h2>
+                <p class="small text-body-secondary">
+                    Cada questão objetiva de @track?.Label acertada na semana vale 1 ponto, uma vez por questão. Só os membros da sala veem,
+                    e aparece o total, nunca quais questões cada um respondeu.
+                </p>
+                <ol class="list-group list-unstyled">
+                    @foreach (var row in ranking.ThisWeek)
+                    {
+                        <li class="list-group-item d-flex align-items-center gap-3 @(row.IsMe ? "list-group-item-primary" : "")">
+                            <span class="font-monospace">@(row.Position)º</span>
+                            <span class="flex-grow-1">
+                                @row.Name
+                                @if (row.IsMe)
+                                {
+                                    <span class="badge text-bg-secondary ms-1">você</span>
+                                }
+                            </span>
+                            <span class="font-monospace">@Points(row.Points)</span>
+                        </li>
+                    }
+                </ol>
+                @if (ranking.LastWeek.Count > 0)
+                {
+                    <p class="small text-body-secondary mt-2 mb-0">
+                        <strong>Semana passada:</strong>
+                        @string.Join(", ", ranking.LastWeek.Take(3).Select(row => $"{row.Position}º {row.Name} ({Points(row.Points)})"))
+                    </p>
+                }
+            </section>
+        }
+
+        <section aria-labelledby="duels-title" class="mb-4">
+            <h2 id="duels-title" class="h5">Duelos da sala</h2>
+            <form method="post" action="salas/@room.Code" @formname="challenge-room" @onsubmit="ChallengeAsync" class="mb-3">
+                <AntiforgeryToken />
+                <button type="submit" class="btn btn-primary">Desafiar a sala</button>
+                <span class="small text-body-secondary ms-2">Cria um duelo com questões de @track?.Label em que só os membros da sala entram.</span>
+            </form>
+            @if (duels.Count > 0)
+            {
+                <ul class="list-group">
+                    @foreach (var duel in duels)
+                    {
+                        <li class="list-group-item d-flex flex-wrap align-items-center gap-2">
+                            <span class="flex-grow-1">
+                                Duelo de @duel.CreatorName
+                                <span class="small text-body-secondary">
+                                    · @Calendar.ToLocal(duel.CreatedAt).ToString("dd/MM")
+                                    · @(duel.Finished == 1 ? "1 pessoa jogou" : $"{duel.Finished} pessoas jogaram")
+                                </span>
+                                @if (!duel.IsOpen)
+                                {
+                                    <span class="badge text-bg-secondary ms-1">encerrado</span>
+                                }
+                            </span>
+                            @if (duel.MyPosition is { } position)
+                            {
+                                <span class="small"><span class="font-monospace">@duel.MyCorrect de @duel.QuestionCount</span> · @(position)º lugar</span>
+                                <a class="btn btn-sm btn-outline-secondary" href="duelos/@duel.Code">Ver placar</a>
+                            }
+                            else if (duel.Joined)
+                            {
+                                <a class="btn btn-sm btn-outline-primary" href="duelos/@duel.Code">Continuar</a>
+                            }
+                            else if (duel.IsOpen)
+                            {
+                                <a class="btn btn-sm btn-primary" href="duelos/@duel.Code">Jogar</a>
+                            }
+                        </li>
+                    }
+                </ul>
+            }
+        </section>
+
+        @if (invitable.Count > 0)
+        {
+            <section aria-labelledby="invite-friends-title" class="mb-4">
+                <h2 id="invite-friends-title" class="h5">Convidar amigos</h2>
+                <form method="post" action="salas/@room.Code" @formname="invite-friend" @onsubmit="InviteFriendAsync">
+                    <AntiforgeryToken />
+                    <ul class="list-group">
+                        @foreach (var friend in invitable)
+                        {
+                            <li class="list-group-item d-flex flex-wrap align-items-center gap-2">
+                                <span class="flex-grow-1">@friend.Name</span>
+                                <button type="submit" name="FriendshipId" value="@friend.Id" class="btn btn-sm btn-outline-primary">Convidar <span class="visually-hidden">@friend.Name</span></button>
+                            </li>
+                        }
+                    </ul>
+                </form>
+                <p class="small text-body-secondary mt-2 mb-0">O convite aparece em Amigos para a pessoa, sem mensagem. Ela entra se quiser.</p>
+            </section>
+        }
 
         <section aria-labelledby="members-title" class="mb-4">
             <h2 id="members-title" class="h5">Membros</h2>
@@ -181,6 +284,9 @@
     private StudyRoom? room;
     private Track? track;
     private IReadOnlyList<RoomMemberView> members = [];
+    private IReadOnlyList<RoomDuel> duels = [];
+    private IReadOnlyList<EnadeAds.Friends.FriendRow> invitable = [];
+    private RoomRanking? ranking;
     private bool isMember;
     private bool isOwner;
     private string? userId;
@@ -216,6 +322,7 @@
             "link" => "Link novo gerado. O anterior não funciona mais.",
             "removido" => "Membro removido.",
             "denuncia" => "Denúncia enviada. A moderação vai olhar.",
+            "convite" => "Convite enviado. Ele aparece em Amigos para a pessoa.",
             _ => null,
         };
     }
@@ -235,6 +342,11 @@
 
         // A lista de membros, com nomes, só para quem é da sala.
         members = isMember ? await Rooms.MembersAsync(room, userId) : [];
+
+        // O ranking e os duelos da sala também são só de quem é membro.
+        ranking = isMember ? await Rooms.RankingAsync(room, userId) : null;
+        duels = isMember ? await Rooms.DuelsAsync(room, userId) : [];
+        invitable = isMember ? await Invites.InvitableAsync(userId!, room) : [];
     }
 
     private async Task JoinAsync()
@@ -315,6 +427,31 @@
 
         Navigation.NavigateTo("salas");
     }
+
+    private async Task InviteFriendAsync()
+    {
+        if (userId is null || !int.TryParse(HttpContext.Request.Form["FriendshipId"].ToString(), out var friendshipId)
+            || !await Invites.InviteToRoomAsync(userId, friendshipId, Code))
+        {
+            await FailAsync("Não foi possível convidar: a pessoa precisa ser sua amiga e ainda não estar na sala.");
+            return;
+        }
+
+        Navigation.NavigateTo($"salas/{Code}?aviso=convite");
+    }
+
+    private async Task ChallengeAsync()
+    {
+        if (userId is null || await Rooms.ChallengeAsync(Code, userId) is not { } duelCode)
+        {
+            await FailAsync("Não foi possível criar o duelo: só membros desafiam a sala, e a prova precisa ter questões objetivas.");
+            return;
+        }
+
+        Navigation.NavigateTo($"duelos/{duelCode}");
+    }
+
+    private static string Points(int points) => points == 1 ? "1 ponto" : $"{points} pontos";
 
     private async Task ReportAsync()
     {

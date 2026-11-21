@@ -8,6 +8,7 @@ using EnadeAds.Components.Account;
 using EnadeAds.Daily;
 using EnadeAds.Data;
 using EnadeAds.Duels;
+using EnadeAds.Friends;
 using EnadeAds.MockExams;
 using EnadeAds.Performance;
 using EnadeAds.Privacy;
@@ -106,6 +107,9 @@ try
     builder.Services.AddScoped<DuelService>();
     builder.Services.AddScoped<EnadeAds.Rooms.StudyRoomService>();
     builder.Services.AddScoped<EnadeAds.Friends.FriendService>();
+    builder.Services.AddScoped<EnadeAds.Friends.FriendActivityService>();
+    builder.Services.AddScoped<EnadeAds.Friends.FriendInviteService>();
+    builder.Services.AddScoped<EnadeAds.Friends.SocialNotices>();
     builder.Services.AddScoped<AchievementService>();
     builder.Services.AddScoped<WeeklySummaryService>();
     builder.Services.AddScoped<DailyQuestionService>();
@@ -192,6 +196,7 @@ try
     app.UseRateLimiter();
     app.UseAntiforgery();
     app.UseTrackChoice();
+    app.UseSocialNotices();
 
     app.MapStaticAssets();
     app.MapRazorComponents<App>()

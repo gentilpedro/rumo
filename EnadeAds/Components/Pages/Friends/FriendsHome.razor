@@ -6,6 +6,9 @@
 @using Microsoft.AspNetCore.Identity
 
 @inject FriendService Friends
+@inject FriendActivityService Activity
+@inject FriendInviteService Invites
+@inject TrackCatalog Tracks
 @inject LocalCalendar Calendar
 @inject UserManager<ApplicationUser> Users
 @inject NavigationManager Navigation
@@ -16,7 +19,8 @@
 
 <p class="text-body-secondary">
     Mande o seu link para quem você quer ter por perto nos estudos. A pessoa pede a amizade e você aceita.
-    Ninguém encontra a sua conta por busca, e não há conversa: os amigos veem só o seu primeiro nome com a inicial do sobrenome.
+    Ninguém encontra a sua conta por busca, e não há conversa: os amigos veem o seu primeiro nome com a inicial do sobrenome
+    e, se você deixar, o que você está estudando.
 </p>
 
 @if (message is not null)
@@ -47,15 +51,65 @@ else if (overview is not null)
         </div>
     </div>
 
+    <form method="post" action="amigos" @formname="share-activity" @onsubmit="SaveSharingAsync" class="card mb-4">
+        <AntiforgeryToken />
+        <div class="card-body d-flex flex-wrap align-items-center gap-3">
+            <div class="form-check form-switch mb-0 flex-grow-1">
+                <input class="form-check-input" type="checkbox" role="switch" name="ShareActivity" value="true" id="ShareActivity" checked="@shares" />
+                <label class="form-check-label fw-semibold" for="ShareActivity">Mostrar minha atividade aos amigos</label>
+                <p class="small text-body-secondary mb-0">
+                    Ligada, seus amigos veem a prova que você estuda, seu nível, sua sequência de dias, quantas questões respondeu hoje e em que matéria.
+                    Nunca quais questões foram, o que você acertou ou errou, nem a que horas estudou. Desligada, eles veem só o seu nome.
+                </p>
+            </div>
+            <button type="submit" class="btn btn-outline-primary">Salvar</button>
+        </div>
+    </form>
+
     <form method="post" action="amigos" @formname="friend-action" @onsubmit="ApplyAsync">
         <AntiforgeryToken />
+
+        @if (invites.Count > 0)
+        {
+            <section aria-labelledby="invites-title" class="mb-4">
+                <h2 id="invites-title" class="h5">Convites</h2>
+                <ul class="list-group">
+                    @foreach (var invite in invites)
+                    {
+                        <li class="list-group-item d-flex flex-wrap align-items-center gap-2">
+                            <span class="flex-grow-1">
+                                @if (invite.IsDuel)
+                                {
+                                    <text>@invite.FromName te desafiou para um duelo de @TrackLabel(invite.TrackId)</text>
+                                }
+                                else
+                                {
+                                    <text>@invite.FromName te convidou para a sala @invite.RoomName (@TrackLabel(invite.TrackId))</text>
+                                }
+                                <span class="small text-body-secondary">· @Day(invite.CreatedAt)</span>
+                            </span>
+                            @if (invite.IsDuel)
+                            {
+                                <a class="btn btn-sm btn-primary" href="duelos/@invite.DuelCode">Jogar</a>
+                            }
+                            else
+                            {
+                                <button type="submit" name="Command" value="join-room:@invite.Id" class="btn btn-sm btn-primary">Entrar na sala</button>
+                            }
+                            <button type="submit" name="Command" value="dismiss:@invite.Id" class="btn btn-sm btn-outline-secondary">Dispensar <span class="visually-hidden">o convite de @invite.FromName</span></button>
+                        </li>
+                    }
+                </ul>
+            </section>
+        }
 
         @if (overview.Received.Count > 0)
         {
             <section aria-labelledby="received-title" class="mb-4">
                 <h2 id="received-title" class="h5">Pedidos de amizade</h2>
                 <p class="small text-body-secondary">
-                    Ao aceitar, a pessoa passa a ver o seu primeiro nome com a inicial do sobrenome na lista de amigos dela.
+                    Ao aceitar, a pessoa passa a ver o seu primeiro nome com a inicial do sobrenome e, enquanto a chave acima estiver
+                    ligada, a sua atividade de estudo: prova, nível, sequência de dias e o que você estudou hoje.
                     Recusar e bloquear não avisam ninguém.
                 </p>
                 <ul class="list-group">
@@ -81,15 +135,33 @@ else if (overview is not null)
             else
             {
                 <ul class="list-group">
-                    @foreach (var friend in overview.Friends)
+                    @foreach (var friend in activity!.Items)
                     {
                         <li class="list-group-item d-flex flex-wrap align-items-center gap-2">
-                            <span class="flex-grow-1">@friend.Name <span class="small text-body-secondary">· amigos desde @Day(friend.Since)</span></span>
-                            <button type="submit" name="Command" value="remove:@friend.Id" class="btn btn-sm btn-outline-secondary">Desfazer amizade <span class="visually-hidden">com @friend.Name</span></button>
-                            <button type="submit" name="Command" value="block:@friend.Id" class="btn btn-sm btn-outline-danger">Bloquear <span class="visually-hidden">@friend.Name</span></button>
+                            <span class="flex-grow-1">
+                                <strong>@friend.Name</strong>
+                                <span class="d-block">@Today(friend)</span>
+                                <span class="d-block small text-body-secondary">@Profile(friend)</span>
+                            </span>
+                            <button type="submit" name="Command" value="challenge:@friend.FriendshipId" class="btn btn-sm btn-primary">Desafiar <span class="visually-hidden">@friend.Name</span></button>
+                            <button type="submit" name="Command" value="remove:@friend.FriendshipId" class="btn btn-sm btn-outline-secondary">Desfazer amizade <span class="visually-hidden">com @friend.Name</span></button>
+                            <button type="submit" name="Command" value="block:@friend.FriendshipId" class="btn btn-sm btn-outline-danger">Bloquear <span class="visually-hidden">@friend.Name</span></button>
                         </li>
                     }
                 </ul>
+                @if (activity.TotalPages > 1)
+                {
+                    <nav aria-label="Páginas de amigos" class="mt-2">
+                        <ul class="pagination pagination-sm mb-0">
+                            @for (var number = 1; number <= activity.TotalPages; number++)
+                            {
+                                <li class="page-item @(number == activity.Page ? "active" : "")">
+                                    <a class="page-link" href="amigos?pagina=@number" aria-current="@(number == activity.Page ? "page" : null)">@number</a>
+                                </li>
+                            }
+                        </ul>
+                    </nav>
+                }
             }
         </section>
 
@@ -145,6 +217,10 @@ else if (overview is not null)
 
 @code {
     private FriendsOverview? overview;
+    private FriendActivityPage? activity;
+    private IReadOnlyList<FriendInviteView> invites = [];
+    private IReadOnlyList<Track> tracks = [];
+    private bool shares;
     private string? code;
     private string? userId;
     private string? message;
@@ -156,6 +232,9 @@ else if (overview is not null)
     /// <summary>Aviso depois de uma ação que recarrega a página (GET depois do POST).</summary>
     [SupplyParameterFromQuery(Name = "aviso")]
     private string? Notice { get; set; }
+
+    [SupplyParameterFromQuery(Name = "pagina")]
+    private int? Pagina { get; set; }
 
     private string ShareUrl => $"{Navigation.BaseUri}amigos/{code}";
 
@@ -177,6 +256,9 @@ else if (overview is not null)
             "bloqueado" => "Pessoa bloqueada. Ela não foi avisada.",
             "desbloqueado" => "Pessoa desbloqueada.",
             "link" => "Link novo gerado. O anterior não funciona mais.",
+            "atividade-ligada" => "Seus amigos voltam a ver a sua atividade.",
+            "atividade-desligada" => "Seus amigos agora veem só o seu nome.",
+            "dispensado" => "Convite dispensado.",
             _ => null,
         };
     }
@@ -190,6 +272,10 @@ else if (overview is not null)
 
         code = await Friends.LinkAsync(userId);
         overview = await Friends.OverviewAsync(userId);
+        activity = await Activity.ListAsync(userId, Pagina ?? 1);
+        invites = await Invites.ReceivedAsync(userId);
+        shares = await Activity.SharesAsync(userId);
+        tracks = await Tracks.ListAsync();
     }
 
     private async Task RenewLinkAsync()
@@ -202,6 +288,20 @@ else if (overview is not null)
 
         await Friends.RenewLinkAsync(userId);
         Navigation.NavigateTo("amigos?aviso=link");
+    }
+
+    private async Task SaveSharingAsync()
+    {
+        if (userId is null)
+        {
+            HttpContext.Response.StatusCode = StatusCodes.Status401Unauthorized;
+            return;
+        }
+
+        // Caixa desmarcada não vem no formulário: ausente é "desligada".
+        var on = HttpContext.Request.Form["ShareActivity"] == "true";
+        await Activity.SetSharesAsync(userId, on);
+        Navigation.NavigateTo($"amigos?aviso={(on ? "atividade-ligada" : "atividade-desligada")}");
     }
 
     private async Task ApplyAsync()
@@ -226,6 +326,43 @@ else if (overview is not null)
         if (!int.TryParse(target, out var id))
         {
             await FailAsync("Ação inválida.");
+            return;
+        }
+
+        if (action == "challenge")
+        {
+            if (await Invites.ChallengeAsync(userId, id) is not { } duelCode)
+            {
+                await FailAsync("Não foi possível criar o duelo: vocês precisam ser amigos, e a sua prova precisa ter questões objetivas.");
+                return;
+            }
+
+            // Quem desafia já vai para o duelo; o amigo encontra o convite em Amigos.
+            Navigation.NavigateTo($"duelos/{duelCode}");
+            return;
+        }
+
+        if (action == "join-room")
+        {
+            if (await Invites.AcceptRoomAsync(userId, id) is not { } roomCode)
+            {
+                await FailAsync("Este convite não vale mais: a sala pode ter sido apagada.");
+                return;
+            }
+
+            Navigation.NavigateTo($"salas/{roomCode}?aviso=entrou");
+            return;
+        }
+
+        if (action == "dismiss")
+        {
+            if (!await Invites.DismissAsync(userId, id))
+            {
+                await FailAsync("Este convite não existe mais.");
+                return;
+            }
+
+            Navigation.NavigateTo("amigos?aviso=dispensado");
             return;
         }
 
@@ -264,6 +401,46 @@ else if (overview is not null)
         HttpContext.Response.StatusCode = StatusCodes.Status409Conflict;
         await LoadAsync();
     }
+
+    private string TrackLabel(int trackId) => tracks.FirstOrDefault(t => t.Id == trackId)?.Label ?? "";
+
+    /// <summary>"estudando Física · 12 questões hoje", ou quando estudou pela última vez. Nunca o que acertou nem a hora.</summary>
+    private static string Today(FriendActivity friend) => friend switch
+    {
+        { Shares: false } => "não mostra a atividade",
+        { AnsweredToday: > 0, Subject: { } subject } => $"estudando {subject} · {Questions(friend.AnsweredToday)} hoje",
+        { AnsweredToday: > 0 } => $"{Questions(friend.AnsweredToday)} hoje",
+        { LastStudied: { } day } => $"estudou pela última vez em {day:dd/MM/yyyy}",
+        _ => "ainda não respondeu questões",
+    };
+
+    /// <summary>"PAVE 3 · nível 2 (Aprendiz) · 4 dias seguidos · amigos desde 20/11/2026".</summary>
+    private string Profile(FriendActivity friend)
+    {
+        var parts = new List<string>();
+        if (friend.Shares)
+        {
+            if (friend.TrackId is { } trackId && TrackLabel(trackId) is { Length: > 0 } label)
+            {
+                parts.Add(label);
+            }
+
+            if (friend.Level is { } level)
+            {
+                parts.Add($"nível {level.Number} ({level.Title})");
+            }
+
+            if (friend.Streak > 0)
+            {
+                parts.Add(friend.Streak == 1 ? "1 dia de sequência" : $"{friend.Streak} dias seguidos");
+            }
+        }
+
+        parts.Add($"amigos desde {Day(friend.Since)}");
+        return string.Join(" · ", parts);
+    }
+
+    private static string Questions(int count) => count == 1 ? "1 questão" : $"{count} questões";
 
     private string Day(DateTimeOffset moment) => Calendar.ToLocal(moment).ToString("dd/MM/yyyy");
 }

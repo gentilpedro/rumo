@@ -372,6 +372,11 @@ namespace EnadeAds.Data.Migrations
                     b.Property<string>("SecurityStamp")
                         .HasColumnType("text");
 
+                    b.Property<bool>("ShareActivity")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("boolean")
+                        .HasDefaultValue(true);
+
                     b.Property<DateTimeOffset?>("TermsAcceptedAt")
                         .HasColumnType("timestamp with time zone");
 
@@ -417,6 +422,9 @@ namespace EnadeAds.Data.Migrations
                     b.Property<string>("CreatorId")
                         .HasColumnType("text");
 
+                    b.Property<int?>("RoomId")
+                        .HasColumnType("integer");
+
                     b.Property<int>("TrackId")
                         .HasColumnType("integer");
 
@@ -426,6 +434,8 @@ namespace EnadeAds.Data.Migrations
                         .IsUnique();
 
                     b.HasIndex("CreatorId");
+
+                    b.HasIndex("RoomId");
 
                     b.HasIndex("TrackId");
 
@@ -525,6 +535,44 @@ namespace EnadeAds.Data.Migrations
                         .IsUnique();
 
                     b.ToTable("FriendBlocks");
+                });
+
+            modelBuilder.Entity("EnadeAds.Friends.FriendInvite", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer");
+
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
+
+                    b.Property<DateTimeOffset>("CreatedAt")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<int?>("DuelId")
+                        .HasColumnType("integer");
+
+                    b.Property<string>("FromId")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<int?>("RoomId")
+                        .HasColumnType("integer");
+
+                    b.Property<string>("ToId")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("DuelId");
+
+                    b.HasIndex("FromId");
+
+                    b.HasIndex("RoomId");
+
+                    b.HasIndex("ToId");
+
+                    b.ToTable("FriendInvites");
                 });
 
             modelBuilder.Entity("EnadeAds.Friends.FriendLink", b =>
@@ -8612,6 +8660,11 @@ namespace EnadeAds.Data.Migrations
                         .HasForeignKey("CreatorId")
                         .OnDelete(DeleteBehavior.SetNull);
 
+                    b.HasOne("EnadeAds.Rooms.StudyRoom", null)
+                        .WithMany()
+                        .HasForeignKey("RoomId")
+                        .OnDelete(DeleteBehavior.SetNull);
+
                     b.HasOne("EnadeAds.Study.Track", null)
                         .WithMany()
                         .HasForeignKey("TrackId")
@@ -8677,6 +8730,31 @@ namespace EnadeAds.Data.Migrations
                     b.HasOne("EnadeAds.Data.ApplicationUser", null)
                         .WithMany()
                         .HasForeignKey("BlockerId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("EnadeAds.Friends.FriendInvite", b =>
+                {
+                    b.HasOne("EnadeAds.Duels.Duel", null)
+                        .WithMany()
+                        .HasForeignKey("DuelId")
+                        .OnDelete(DeleteBehavior.Cascade);
+
+                    b.HasOne("EnadeAds.Data.ApplicationUser", null)
+                        .WithMany()
+                        .HasForeignKey("FromId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("EnadeAds.Rooms.StudyRoom", null)
+                        .WithMany()
+                        .HasForeignKey("RoomId")
+                        .OnDelete(DeleteBehavior.Cascade);
+
+                    b.HasOne("EnadeAds.Data.ApplicationUser", null)
+                        .WithMany()
+                        .HasForeignKey("ToId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
                 });

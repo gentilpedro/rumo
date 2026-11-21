@@ -80,8 +80,8 @@ Alunos também têm e-mail institucional, muitas vezes no mesmo domínio dos pro
 
 - O cadastro exige aceitar os **Termos de uso** e a **Política de privacidade**. A data e a versão aceitas ficam guardadas na conta.
 - Os textos ficam em `/termos` e `/privacidade`, com link no rodapé de todas as páginas. O responsável pelos dados e o e-mail de contato vêm da configuração (`Privacy:ControllerName`, `Privacy:ContactEmail`), porque cada instalação tem o seu responsável.
-- **Baixar meus dados** (Minha conta → Dados pessoais) entrega um arquivo com a conta, o progresso no roadmap, as respostas, os simulados, os desafios, os duelos, as salas de estudo, o link de amigo, os amigos, os pedidos e os bloqueios (dos outros, só o nome abreviado), os posts, os votos, as denúncias e os comentários.
-- **Excluir a conta** apaga a conta, o progresso, as respostas objetivas e discursivas, os simulados, as participações em duelos e em salas de estudo, as amizades, os pedidos, os bloqueios e os envios de desafio. A sala criada por quem excluiu a conta passa para o membro mais antigo; se só tinha essa pessoa, é apagada na hora. Os votos saem junto. O duelo criado por quem excluiu a conta continua para quem jogou, sem o nome de quem criou. Os **posts e comentários da comunidade continuam, sem o nome** ("Participante que excluiu a conta"). Questões, desafios e avisos que um professor publicou continuam, assinados como "Equipe ENADE ADS".
+- **Baixar meus dados** (Minha conta → Dados pessoais) entrega um arquivo com a conta, o progresso no roadmap, as respostas, os simulados, os desafios, os duelos, as salas de estudo, o link de amigo, os amigos, os pedidos, os bloqueios e os convites (dos outros, só o nome abreviado), a chave de mostrar a atividade, os posts, os votos, as denúncias e os comentários.
+- **Excluir a conta** apaga a conta, o progresso, as respostas objetivas e discursivas, os simulados, as participações em duelos e em salas de estudo, as amizades, os pedidos, os bloqueios, os convites e os envios de desafio. A sala criada por quem excluiu a conta passa para o membro mais antigo; se só tinha essa pessoa, é apagada na hora. Os votos saem junto. O duelo criado por quem excluiu a conta continua para quem jogou, sem o nome de quem criou. Os **posts e comentários da comunidade continuam, sem o nome** ("Participante que excluiu a conta"). Questões, desafios e avisos que um professor publicou continuam, assinados como "Equipe ENADE ADS".
 - Registros técnicos de acesso ficam até 31 dias; cópias de segurança, até 30 dias.
 - O conteúdo publicado por professores segue a licença Creative Commons BY-SA 4.0; o código, a licença MIT.
 
@@ -167,6 +167,21 @@ Um grupo fechado para a turma estudar junto. A plataforma aceita alunos de 13 a 
 - **Denúncia:** um membro pode denunciar a sala (o nome dela), com um motivo opcional. Cada pessoa tem no máximo uma denúncia aberta por sala. Em *Moderação*, professores e admins veem o nome da sala e os motivos, sem os membros e sem quem denunciou, e podem **trocar o nome** por "Sala de estudos", **apagar a sala** ou **manter**.
 - **Dado guardado:** a participação guarda só a conta, a sala e a data de entrada.
 
+### Ranking da sala
+
+- A página da sala mostra o **ranking da semana**, de segunda a domingo no horário de Brasília, e os três primeiros da **semana passada**.
+- A pontuação segue a regra da *Batalha da semana*: cada questão objetiva **acertada na semana** vale 1 ponto, uma vez por pessoa e por questão, fora dos desafios. Só contam questões da trilha da sala.
+- Empate fica na mesma posição (1º, 1º, 3º). A própria pessoa aparece destacada.
+- **Só os membros veem o ranking**, e ele mostra o nome abreviado e o total de pontos. Não mostra quais questões a pessoa respondeu, o que errou nem quando estudou. A tela do convite avisa disso antes de a pessoa entrar.
+- **Nada é gravado:** a pontuação sai das respostas que já existem. Quem sai da sala some do ranking na hora, inclusive do da semana passada.
+
+### Duelos da sala
+
+- Qualquer membro pode **desafiar a sala**: cria um duelo com as regras de sempre (5 questões objetivas, 10 minutos por pessoa, 7 dias para entrar), com as questões da trilha da sala.
+- **Só membros da sala entram nesse duelo**, mesmo que alguém de fora tenha o link. Quem não é membro vê o aviso de que o duelo é de uma sala.
+- A página da sala lista os 10 duelos mais recentes, com quem criou, quantos jogaram e o resultado da própria pessoa. **Revanche** cria outro duelo na mesma sala.
+- O duelo da sala conta para o XP e para as conquistas como qualquer duelo. Apagar a sala não apaga os duelos dela: o placar de quem jogou fica, sem a sala.
+
 ## Amigos
 
 Amizade no modelo "seguir com aceite": uma pessoa pede, a outra aceita, e só então as duas viram amigas. A plataforma aceita alunos de 13 a 17 anos, então os amigos foram pensados para não virar um canal de contato entre desconhecidos.
@@ -179,7 +194,24 @@ Amizade no modelo "seguir com aceite": uma pessoa pede, a outra aceita, e só en
 - Qualquer um dos dois **desfaz a amizade**, e quem enviou um pedido pode **cancelar**. A outra pessoa não é avisada.
 - **Bloquear** desfaz a relação e impede novos pedidos daquela pessoa. O bloqueio é silencioso: para quem foi bloqueado, o pedido seguinte parece enviado e fica na lista dele, mas nunca aparece para quem bloqueou. Dá para desbloquear em *Amigos*.
 - **Sem limite** de amigos nem de pedidos. Como não há busca, só dá para pedir amizade a quem mandou o link ou já duelou com a pessoa.
-- **Avisos só dentro do site:** nenhum e-mail é enviado por causa de um pedido.
+- **Avisos só dentro do site:** nenhum e-mail é enviado por causa de um pedido. Quem tem pedidos ou convites esperando resposta vê o número no topo do site, ao lado da conta.
+
+### Atividade dos amigos
+
+- Em *Amigos*, cada amigo aparece com a **prova** que estuda, o **nível**, a **sequência de dias** e a **atividade de hoje**: "estudando Física · 12 questões hoje". Quem não estudou hoje aparece com a data da última vez, sem horário.
+- A lista vem de quem estudou mais recentemente para quem estudou há mais tempo, 20 amigos por página.
+- **Só amigos aceitos veem a atividade.** Pedido pendente não vê nada.
+- **O que nunca aparece:** quais questões a pessoa respondeu, o que acertou ou errou, notas de simulado e o horário em que estudou.
+- A chave **Mostrar minha atividade aos amigos** vem ligada. Desligada, os amigos veem só o nome, e a amizade continua. A tela do pedido de amizade diz o que o novo amigo vai passar a ver.
+- **Nada novo é gravado** além da chave: a atividade sai das respostas que já existem, como o XP.
+
+### Desafiar e convidar um amigo
+
+- **Desafiar** cria um duelo com as questões da prova ativa de quem desafia e deixa um **convite** para o amigo. Quem desafia já vai para o duelo.
+- Na página de uma sala, um membro pode **convidar um amigo** que ainda não está nela. Convidar de novo a mesma pessoa não cria outro convite.
+- Os convites aparecem em *Amigos*. No de duelo, a pessoa **joga** ou **dispensa**; no de sala, **entra** ou **dispensa**. Quem convidou não é avisado da dispensa.
+- O convite de duelo some quando a pessoa entra no duelo ou quando o duelo fecha (7 dias). O de sala some quando a pessoa entra na sala.
+- **Só amigos aceitos recebem convite, e o convite não leva texto.** Desfazer a amizade ou bloquear a pessoa apaga os convites entre os dois.
 
 ## Resumo da semana
 

@@ -53,6 +53,7 @@ public class ApplicationDbContext(DbContextOptions<ApplicationDbContext> options
     public DbSet<FriendLink> FriendLinks => Set<FriendLink>();
     public DbSet<Friendship> Friendships => Set<Friendship>();
     public DbSet<FriendBlock> FriendBlocks => Set<FriendBlock>();
+    public DbSet<FriendInvite> FriendInvites => Set<FriendInvite>();
     public DbSet<DailyQuestion> DailyQuestions => Set<DailyQuestion>();
     public DbSet<SurvivalRun> SurvivalRuns => Set<SurvivalRun>();
 
@@ -217,6 +218,8 @@ public class ApplicationDbContext(DbContextOptions<ApplicationDbContext> options
             user.Property(u => u.TermsVersion).HasMaxLength(20);
             // Contas que já existem começam com a meta padrão.
             user.Property(u => u.DailyGoal).HasDefaultValue(XpRules.DefaultDailyGoal);
+            // Contas que já existem começam mostrando a atividade aos amigos, como as novas.
+            user.Property(u => u.ShareActivity).HasDefaultValue(true);
         });
 
         builder.Entity<SiteSetting>(setting =>
@@ -282,6 +285,8 @@ public class ApplicationDbContext(DbContextOptions<ApplicationDbContext> options
             duel.HasOne<Track>().WithMany().HasForeignKey(d => d.TrackId).OnDelete(DeleteBehavior.Restrict);
             // Quem criou pode excluir a conta sem apagar o placar de quem jogou.
             duel.HasOne<ApplicationUser>().WithMany().HasForeignKey(d => d.CreatorId).OnDelete(DeleteBehavior.SetNull);
+            // Apagar a sala não apaga os duelos dela: o placar e o XP de quem jogou ficam.
+            duel.HasOne<StudyRoom>().WithMany().HasForeignKey(d => d.RoomId).OnDelete(DeleteBehavior.SetNull);
             duel.HasMany(d => d.Questions).WithOne().HasForeignKey(q => q.DuelId).OnDelete(DeleteBehavior.Cascade);
             duel.HasMany(d => d.Players).WithOne().HasForeignKey(p => p.DuelId).OnDelete(DeleteBehavior.Cascade);
             duel.HasQueryFilter(d => d.TrackId == CurrentTrackId);
@@ -366,6 +371,16 @@ public class ApplicationDbContext(DbContextOptions<ApplicationDbContext> options
             block.HasIndex(b => b.BlockedId);
             block.HasOne<ApplicationUser>().WithMany().HasForeignKey(b => b.BlockerId).OnDelete(DeleteBehavior.Cascade);
             block.HasOne<ApplicationUser>().WithMany().HasForeignKey(b => b.BlockedId).OnDelete(DeleteBehavior.Cascade);
+        });
+
+        builder.Entity<FriendInvite>(invite =>
+        {
+            invite.HasIndex(i => i.ToId);
+            // O convite sai junto com qualquer uma das contas, com o duelo ou com a sala.
+            invite.HasOne<ApplicationUser>().WithMany().HasForeignKey(i => i.FromId).OnDelete(DeleteBehavior.Cascade);
+            invite.HasOne<ApplicationUser>().WithMany().HasForeignKey(i => i.ToId).OnDelete(DeleteBehavior.Cascade);
+            invite.HasOne<Duel>().WithMany().HasForeignKey(i => i.DuelId).OnDelete(DeleteBehavior.Cascade);
+            invite.HasOne<StudyRoom>().WithMany().HasForeignKey(i => i.RoomId).OnDelete(DeleteBehavior.Cascade);
         });
 
         builder.Entity<DailyQuestion>(daily =>
